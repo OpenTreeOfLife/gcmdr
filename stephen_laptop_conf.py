@@ -1,3 +1,7 @@
+"""
+You don't have to keep these names. This is just to demonstrate that the configuration can be like this.
+"""
+
 #location of studies
 studyloc="/home/smitty/Desktop/avatol_nexsons"
 #location of just ott database

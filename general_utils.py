@@ -11,9 +11,8 @@ sudo pip install neo4j-embedded
 
 then you need to make sure that you have JAVA_HOME set to your jdk folder
 """
+#leaving the neo4j imports to the functions so that we can import without that module for now
 
-from neo4j import GraphDatabase
-from neo4j import OUTGOING, INCOMING, ANY
 from subprocess import Popen
 
 """
@@ -21,6 +20,8 @@ this takes a relid (as an int)
 and a graphdatabase location
 """
 def get_rel_info(dbname,relid):        
+    from neo4j import GraphDatabase
+    from neo4j import OUTGOING, INCOMING, ANY
     db = GraphDatabase(dbname)
     relid = int(relid) #make sure it is an int
     rel = db.relationship[relid]
@@ -30,6 +31,8 @@ def get_rel_info(dbname,relid):
     db.shutdown()
 
 def get_node_info(dbname,nodeid):
+    from neo4j import GraphDatabase
+    from neo4j import OUTGOING, INCOMING, ANY
     db = GraphDatabase(dbname)
     nodeid = int(nodeid) #make sure it is an int
     nd = db.node[nodeid]
@@ -44,6 +47,8 @@ def get_node_info(dbname,nodeid):
 search some text and get the ottol ids that match
 """
 def get_nodeinfo_for_name(dbname,name):
+    from neo4j import GraphDatabase
+    from neo4j import OUTGOING, INCOMING, ANY
     db = GraphDatabase(dbname)
     with db.transaction:
         node_idx = db.node.indexes.get('graphNamedNodes')

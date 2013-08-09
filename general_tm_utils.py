@@ -52,7 +52,7 @@ this will load the study and then export the source
 and then will process the tree and print out the information about 
 where it is mapped
 """
-def test_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutfile,append):
+def load_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutfile,append):
     load_nexson(studyloc,study_treeid,javapre,treemloc,dload,outfile,append)
     source_explorer(study_treeid,javapre,treemloc,dload,treeoutfile,append)
     #attempt to read the tree
@@ -71,7 +71,7 @@ def run_synth(javapre,treemloc,dsynth,ottolid,studytreelist,outfile,append):
     stt += ",taxonomy"
     cmd.append(stt)
     cmd.append(dsynth)
-    print cmd
+    print "running synth with "+" ".join(cmd)
     filemode = "w" #default is write
     if append == True:
         filemode = "a"
@@ -84,11 +84,9 @@ def extract_synth(javapre,treemloc,dsynth,ottolid,treeoutfile,append):
     cmd.append(treemloc)
     cmd.append("extractdrafttree_ottid")
     cmd.append(str(ottolid))
+    cmd.append(treeoutfile)
     cmd.append(dsynth)
-    print cmd
     filemode = "w" #default is write
     if append == True:
         filemode = "a"
-    logfile = open(treeoutfile,filemode)
-    pr = Popen(cmd,stdout=logfile).wait()
-    logfile.close()
+    pr = Popen(cmd).wait()

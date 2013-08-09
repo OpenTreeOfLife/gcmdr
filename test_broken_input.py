@@ -1,5 +1,5 @@
-import general_tm_utils
-import general_utils
+from general_tm_utils import *
+from general_utils import *
 
 #this is my conf, make your own -- no need to commit
 from stephen_laptop_conf import *
@@ -12,12 +12,9 @@ studytreelist=["562_817",
     "180_794",
     "574_840"]
 
-general_utils.delete_database(dload)
-general_utils.copy_database(dott,dload)
+delete_database(dload)
+copy_database(dott,dload)
 
 for i in studytreelist:
-    general_tm_utils.test_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
-append = True
-general_tm_utils.run_synth(javapre,treemloc,dsynth,"10218",studytreelist,generallogfileloc,append)
-general_tm_utils.extract_synth(javapre,treemloc,dsynth,"10218",generallogfileloc,append)
+    load_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
 
