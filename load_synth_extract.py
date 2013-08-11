@@ -6,7 +6,7 @@ from stephen_laptop_conf import *
 
 #getting the studytreelist from this file
 #getting the synthottolid from here as well
-from example_list import *
+from metazoa import *
 
 print "loading synthottolid:",synthottolid
 print "loading studytreelist:",studytreelist
