@@ -3,7 +3,7 @@ from general_tm_utils import *
 from general_utils import *
 
 #this is my conf, make your own -- no need to commit
-from stephen_laptop_conf import *
+from stephen_joseph_conf import *
 
 delete_database(dload)
 copy_database(dott,dload)
