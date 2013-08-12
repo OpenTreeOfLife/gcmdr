@@ -16,7 +16,7 @@ all our loading in opentree
 the study_treeid format is studyid_treeid
 logfile should be a logfilename
 """
-def load_nexson(studyloc,study_treeid,javapre,treemloc,dload,logfilename,append):
+def load_nexson(studyloc,study_treeid,javapre,treemloc,dload,logfilename,append,test=False):
     studyid = study_treeid.split("_")[0]
     treeid = study_treeid.split("_")[1]
     cmd = javapre.split(" ")
@@ -25,7 +25,11 @@ def load_nexson(studyloc,study_treeid,javapre,treemloc,dload,logfilename,append)
     cmd.append(dload)
     cmd.append(studyloc+"/"+studyid)
     cmd.append(treeid)
-    print "loading nexson "+study_treeid+ " and saving log to "+logfilename
+    if test==True:
+        cmd.append("f")
+        print "testing nexson "+study_treeid+ " and saving log to "+logfilename
+    else:
+        print "loading nexson "+study_treeid+ " and saving log to "+logfilename
     filemode = "w" #default is write
     if append == True:
         filemode = "a"
@@ -61,7 +65,29 @@ def load_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutf
     print "root name:"+tree.label
     tf.close()
 
+"""
+this will return a boolean about ingroup and then a dictionary
+of the taxa that mapped
+"""
+def test_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,append):
+    load_nexson(studyloc,study_treeid,javapre,treemloc,dload,outfile,append,True)
+    ingroup = False
+    matched_taxa = {}
+    #read the logfile
+    outf = open(outfile,"r")
+    for i in outf:
+        if "property added ot:inGroupClade" in i:
+            ingroup = True
+        spls = i.strip().split(" ")
+        if spls[0] == "pgloadind":
+            if "matched anc info" in i:
+                matched_taxa[spls[11]]=spls[13]
+    outf.close()
+    return ingroup,matched_taxa
 
+"""
+this will run a normal synthesis for OpenTree of Life
+"""
 def run_synth(javapre,treemloc,dsynth,ottolid,studytreelist,outfile,append):
     cmd = javapre.split(" ")
     cmd.append(treemloc)
