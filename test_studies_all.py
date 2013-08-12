@@ -24,7 +24,7 @@ for i in os.listdir(studyloc):
 
 print "loading trees"
 for i in studylist:
-    ingroup,matchedtaxa = test_one_study(studyloc,i,javapre,treemloc,dload,"loaded_"+i+".tre",False)
+    ingroup,matchedtaxa = test_one_study(studyloc,i,javapre,treemloc,dload,"loaded_"+i+".log",False)
     if ingroup == True:
         tfile = open("taxa_"+i+".tre","w")
         for j in matchedtaxa:
