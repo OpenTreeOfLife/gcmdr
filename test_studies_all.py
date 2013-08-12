@@ -30,4 +30,3 @@ for i in studylist:
         for j in matchedtaxa:
             tfile.write(j+"\t"+matchedtaxa[j]+"\n")
         tfile.close()
-        break
