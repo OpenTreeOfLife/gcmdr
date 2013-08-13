@@ -78,7 +78,7 @@ class Node:
                 ret += '"'
                 for i in datatouse:
                         if i in self.data:
-                                ret += '\n "'+i+'": "'+self.data[i]+'",'
+                                ret += ',\n "'+i+'": "'+self.data[i]+'"'
                 for i in range(len(self.children)):
 			if i == 0:
                                 ret += ',\n "children": [\n'
