@@ -28,8 +28,8 @@
 <script>
 
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
-    width = 10000 - margin.right - margin.left,
-    height = 12000 - margin.top - margin.bottom;
+    width = 2500 - margin.right - margin.left,
+    height = 10000 - margin.top - margin.bottom;
     
 var i = 0,
     duration = 750,
@@ -47,7 +47,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("test.json", function(error, flare) {
+d3.json("viridiplantae.json", function(error, flare) {
   root = flare;
   root.x0 = height / 2;
   root.y0 = 0;
@@ -59,7 +59,7 @@ d3.json("test.json", function(error, flare) {
       d.children = null;
     }
   }
-
+  //uncomment to have them collapsed to start
   //root.children.forEach(collapse);
   update(root);
 });
@@ -94,6 +94,8 @@ function update(source) {
       .attr("dy", ".35em")
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
       .text(function(d) { return d.size ? d.name+" ("+d.size+")": d.name;})
+      .style("font-size","8px") 
+      .style("font-family","Arial")
       .style("fill-opacity", 1e-6);
 
   // Transition nodes to their new position.
@@ -129,6 +131,9 @@ function update(source) {
   // Enter any new links at the parent's previous position.
   link.enter().insert("path", "g")
       .attr("class", "link")
+      .style("fill","none")
+      .style("stroke","#ccc")
+      .style("stroke-width",1.5)
       .attr("d", function(d) {
         var o = {x: source.x0, y: source.y0};
         return diagonal({source: o, target: o});
@@ -166,5 +171,6 @@ function click(d) {
   }
   update(d);
 }
-
 </script>
+</body>
+</html>

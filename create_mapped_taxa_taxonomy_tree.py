@@ -8,9 +8,8 @@ and create trees with the labels of the number of studies that cover
 those names
 """
 
-treefilepre = "mappedtree_"
-target = "Viridiplantae"
-maxnodes = 10000
+target = "life"
+maxnodes = 1000000
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
@@ -45,7 +44,7 @@ if __name__ == "__main__":
         pid[tid] = parentid
         rid[tid] = rank
         if name == target:
-            #print "name set ",tid
+            print "name set ",tid
             targetid = tid
         if parentid not in cid: 
             cid[parentid] = []
