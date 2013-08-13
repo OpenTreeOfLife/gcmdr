@@ -15,6 +15,7 @@ class Node:
 		assert child not in self.children
 		self.children.append(child)
 		child.parent = self
+                self.istip = False
 	
 	def remove_child(self,child):
 		#make sure that the child is in there
@@ -68,6 +69,26 @@ class Node:
 		if showbl == True:
 			ret += ":" + str(self.length)
 		return ret
+
+        def get_json_repr(self,datatouse,showbl=False):
+                ret = "{\n"
+                ret += ' "name": "'
+                if self.label != None:
+			ret += self.label
+                ret += '"'
+                for i in datatouse:
+                        if i in self.data:
+                                ret += '\n "'+i+'": "'+self.data[i]+'",'
+                for i in range(len(self.children)):
+			if i == 0:
+                                ret += ',\n "children": [\n'
+			ret += self.children[i].get_json_repr(datatouse,showbl)
+			if i == len(self.children)-1:
+				ret += "]\n"
+			else:
+				ret += ",\n"
+                ret += "}"
+                return ret
 
 	def set_height(self):
 		if len(self.children) == 0:
