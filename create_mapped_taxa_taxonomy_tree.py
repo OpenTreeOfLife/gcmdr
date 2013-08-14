@@ -8,7 +8,7 @@ and create trees with the labels of the number of studies that cover
 those names
 """
 
-target = "life"
+target = "Chordata"
 maxnodes = 1000000
 
 if __name__ == "__main__":

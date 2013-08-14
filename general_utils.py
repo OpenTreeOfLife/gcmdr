@@ -65,6 +65,30 @@ def get_nodeinfo_for_name(dbname,name):
     db.shutdown()
 
 """
+construct a python object tree by traversing certain relationships
+in the graph. This can be used to construct a tree of, for example,
+synthesis
+ottolid: start id
+reltypes: s(stree),y(synth),t(taxonomy)
+depth: limit on the depth
+"""
+def get_tree_from_rels(dbname,ottolid,reltype,depth):
+    from neo4j import GraphDatabase
+    from neo4j import OUTGOING, INCOMING, ANY
+    db = GraphDatabase(dbname)
+    with db.transaction:
+        #get the node based on the ottolid
+        node_idx = db.node.indexes.get('graphNamedNodes')
+        hits = node_idx['name'][name]
+        stnd = i
+        for i in hits:
+            print i
+            stnd = i
+            break
+        hits.close()
+        
+
+"""
 this will copy a database
 """
 def copy_database(olddb,newdb):
