@@ -71,6 +71,7 @@ synthesis
 ottolid: start id
 reltypes: s(stree),y(synth),t(taxonomy)
 depth: limit on the depth
+this is incomplete!
 """
 def get_tree_from_rels(dbname,ottolid,reltype,depth):
     from neo4j import GraphDatabase
