@@ -1,31 +1,23 @@
 from general_tm_utils import *
 from general_utils import *
 
-#this is my conf, make your own -- no need to commit
-from stephen_desktop_conf import *
+def run(dott,dload,studyloc,studytreelist,javapre,treemloc,
+        generallogfileloc,dsynth,synthottolid,treefn):
+    delete_database(dload)
+    copy_database(dott,dload)
 
-#getting the studytreelist from this file
-#getting the synthottolid from here as well
-from plants_sm import *
+    print "loading trees"
+    for i in studytreelist:
+        load_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
 
-print "loading synthottolid:",synthottolid
-print "loading studytreelist:",studytreelist
+    append = True
 
-delete_database(dload)
-copy_database(dott,dload)
+    delete_database(dsynth)
+    copy_database(dload,dsynth)
 
-print "loading trees"
-for i in studytreelist:
-    load_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
+    print "synthesizing"
+    run_synth(javapre,treemloc,dsynth,synthottolid,studytreelist,generallogfileloc,append)
 
-append = True
-
-delete_database(dsynth)
-copy_database(dload,dsynth)
-
-print "synthesizing"
-run_synth(javapre,treemloc,dsynth,synthottolid,studytreelist,generallogfileloc,append)
-
-print "extracting"
-extract_synth(javapre,treemloc,dsynth,synthottolid,treefn,append)
+    print "extracting"
+    extract_synth(javapre,treemloc,dsynth,synthottolid,treefn,append)
 
