@@ -24,11 +24,11 @@
 
 </style>
 <body>
-<script src="d3.v3.min.js" charset="utf-8"></script>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
 
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
-    width = 2000 - margin.right - margin.left,
+    width = 4000 - margin.right - margin.left,
     height = 5000 - margin.top - margin.bottom;
     
 var i = 0,
@@ -97,7 +97,7 @@ d3.json("", function(error, flare) {
 
 function setup(node){
 	var nodeid = "{\"nodeID\":"+node+"}";
-	var url = "http://localhost:7474/db/data/ext/GetSASJsons/graphdb/getTaxonJson";
+	var url = "http://localhost:7474/db/data/ext/GetSASJsons/graphdb/getSynthJson";
 	var argsobj = {"url":url,"method":"POST","jsonquerystring":nodeid};
 	loadData(argsobj);
 }
@@ -121,19 +121,19 @@ if(id != false){
 }else{
 	start = "2892688";
 }
-//do it twice to get the height right
+//do it twice to get it right
 setup(start);
 setup(start);
 
 d3.select(self.frameElement).style("height", "800px");
 
 function update(source) {
-  
+
   // Compute the new tree layout.
   var nodes = tree.nodes(root).reverse(),
       links = tree.links(nodes);
- // alert(tree.size())
-  var nheight;// = nodes.length * 10;
+
+var nheight;// = nodes.length * 10;
   //alert(nodes.length);
  if(nodes.length < 100){
 	nheight = 1000 - 40;  
@@ -148,6 +148,7 @@ function update(source) {
   }
  // alert(nheight);
   tree.size([nheight, 1760]);
+
   // Normalize for fixed-depth.
 //  nodes.forEach(function(d) { d.y = d.depth * 180; });
   nodes.forEach(function(d) { d.y = d.depth * 80; });
@@ -183,8 +184,8 @@ function update(source) {
   nodeUpdate.select("circle")
       //.attr("r", 4.5)
       .attr("r", function(d) { return d.size ? d.size/2+3 : 3;})
-      .style("stroke",function(d) { return d.size ? "blue" : "grey";})
-      .style("fill",function(d) { return d.notcomplete ? "lightblue" : "#fff";});
+      .style("stroke",function(d) { return d.size ? "green" : "grey";})
+      .style("fill",function(d) { return d.notcomplete ? "lightgreen" : "#fff";});
       //.style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 
   nodeUpdate.select("text")
