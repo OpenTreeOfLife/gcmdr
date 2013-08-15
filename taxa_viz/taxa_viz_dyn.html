@@ -29,7 +29,7 @@
 
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
     width = 4000 - margin.right - margin.left,
-    height = 5000 - margin.top - margin.bottom;
+    height = 2000 - margin.top - margin.bottom;
     
 var i = 0,
     duration = 750,
@@ -47,8 +47,37 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("test.json", function(error, flare) {
-  root = flare;
+
+function loadData(argsobj) {
+    
+    /* accepts three named arguments:
+     *    url               the address to which the HTTP request is sent
+     *    jsonquerystring   a json string containing query information
+     *    method            e.g. GET or POST; POST is required for queries to the Neo4J REST service*/
+
+    var url = argsobj.url;
+    var jsonquerystr = argsobj.jsonquerystring;
+    var method = argsobj.method;
+
+    var xobjPost = new XMLHttpRequest();
+    xobjPost.open(method, url, false);
+    xobjPost.setRequestHeader("Accept", "");
+    
+    /* NOTE: we pass parameters to the REST service by encoding them in a JSON string
+     * and sending it through the XMLHttpRequest.send() method. We must specify the
+     * format of the incoming data (in this case JSON) with a call to
+     * XMLHttpRequest.SetRequestHeader() before we issue the send. */
+    xobjPost.setRequestHeader("Content-Type","application/json");
+//   alert (xobjPost);
+ //   xobjPost.onload =
+//      function() {
+	xobjPost.send(jsonquerystr);
+	var jsonrespstr = xobjPost.responseText;
+    //alert(eval(jsonrespstr));
+	var evjson = eval(jsonrespstr);
+	
+d3.json("", function(error, flare) {
+  root = JSON.parse(evjson);
   root.x0 = height / 2;
   root.y0 = 0;
 
@@ -63,7 +92,16 @@ d3.json("test.json", function(error, flare) {
   //root.children.forEach(collapse);
   update(root);
 });
+//}
+}
 
+function setup(node){
+	var nodeid = "{\"nodeID\":"+node+"}";
+	var url = "http://localhost:7474/db/data/ext/GetSASJsons/graphdb/getSynthJson";
+	var argsobj = {"url":url,"method":"POST","jsonquerystring":nodeid};
+	loadData(argsobj);
+}
+setup("593734");
 d3.select(self.frameElement).style("height", "800px");
 
 function update(source) {
@@ -73,7 +111,8 @@ function update(source) {
       links = tree.links(nodes);
 
   // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 180; });
+//  nodes.forEach(function(d) { d.y = d.depth * 180; });
+  nodes.forEach(function(d) { d.y = d.depth * 80; });
 
   // Update the nodes…
   var node = svg.selectAll("g.node")
@@ -94,7 +133,7 @@ function update(source) {
       .attr("dy", ".35em")
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
       .text(function(d) { return d.size ? d.name+" ("+d.size+")": d.name;})
-      .style("font-size","8px") 
+      .style("font-size","10px") 
       .style("font-family","Arial")
       .style("fill-opacity", 1e-6);
 
@@ -105,7 +144,7 @@ function update(source) {
 
   nodeUpdate.select("circle")
       //.attr("r", 4.5)
-      .attr("r", function(d) { return d.size ? d.size/2+1 : 1;})
+      .attr("r", function(d) { return d.size ? d.size/2+2 : 2;})
       .style("stroke",function(d) { return d.size ? "#FF0000" : "grey";})
       .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 
@@ -161,7 +200,7 @@ function update(source) {
 }
 
 // Toggle children on click.
-function click(d) {
+/*function click(d) {
   if (d.children) {
     d._children = d.children;
     d.children = null;
@@ -170,6 +209,12 @@ function click(d) {
     d._children = null;
   }
   update(d);
+}*/
+
+// Toggle children on click.
+function click(d) {
+	//alert(d);
+  setup(d.id);
 }
 </script>
 </body>
