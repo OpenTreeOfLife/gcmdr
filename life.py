@@ -2,12 +2,12 @@
 this is the stuff specific to the plant studies that are loaded. It can include comments and all that. The studytreelist will be read from the load_synth_extract file. Other variables in the conf could be overridden here. 
 """
 import load_synth_extract
-from stephen_joseph_conf import *
+from stephen_desktop_conf import *
 
 synthottolid="805080"
 
 studytreelist=["562_817",#plants start
-               #"424_532", once next pull is done
+               "424_532", #once next pull is done
                "1916_3902",
                "588_878",
                "2539_5465",
