@@ -8,11 +8,13 @@ from stephen_joseph_conf import *
 synthottolid="10218"
 
 studytreelist=["1022_1967",
+               "194_2284",#early and nymphaeles
                "562_817",
                "424_532",
                "1916_3902",
                "588_878",
                "2539_5465",
+               "231_5505", #caryoph
                "14_12",
                "180_794",
                #"574_840", upload problems
