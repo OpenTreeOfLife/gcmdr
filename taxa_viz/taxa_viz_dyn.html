@@ -106,6 +106,7 @@ d3.json("", function(error, flare) {
 function setup(node){
 	var nodeid = "{\"nodeID\":"+node+"}";
 	var url = "http://dev.opentreeoflife.org/treemachine/ext/GetSASJsons/graphdb/getTaxonJson";
+	//var url = "http://localhost:7474/db/data/ext/GetSASJsons/graphdb/getTaxonJson";
 	var argsobj = {"url":url,"method":"POST","jsonquerystring":nodeid};
 	loadData(argsobj);
 }
@@ -115,6 +116,7 @@ function setup(node){
  */
 function getNodeIDFromOttolID(oid){
 	var url = "http://dev.opentreeoflife.org/treemachine/ext/GoLS/graphdb/getNodeIDForOttolID";
+	//var url = "http://localhost:7474/db/data/ext/GoLS/graphdb/getNodeIDForOttolID";
     var jsonquerystr = "{\"ottolID\":\""+oid+"\"}";
     var method = "POST";
 
@@ -207,6 +209,7 @@ var nheight;// = nodes.length * 10;
       .attr("dy", ".35em")
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
       .text(function(d) { return d.size ? d.name+" ("+d.size+")": d.name;})
+      .style("fill",function(d) {return d.jgbif ? "grey": "black";})
       .style("font-size","10px") 
       .style("font-family","Arial")
       .style("fill-opacity", 1e-6);
