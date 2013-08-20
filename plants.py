@@ -7,7 +7,8 @@ from stephen_joseph_conf import *
 
 synthottolid="10218"
 
-studytreelist=["562_817",
+studytreelist=["1022_1967",
+               "562_817",
                "424_532",
                "1916_3902",
                "588_878",
