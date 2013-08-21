@@ -14,7 +14,7 @@ studytreelist=["1022_1967",
                "1916_3902",
                "588_878",
                "2539_5465",
-               #"231_5505", #caryoph
+               #"231_5505", #caryoph SOME SORT OF LOADING PROBLEM
                "14_12",
                "180_794",
                #"574_840", upload problems
@@ -50,6 +50,7 @@ studytreelist=["1022_1967",
                "54_949",
                "1116_2217",
                "225_5991",#deep plants
+               "1867_3766", #cycads
                "412_2166"#conifers
                ]
 
