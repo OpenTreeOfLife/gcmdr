@@ -3,9 +3,6 @@ this is the stuff specific to the plant studies that are loaded. It can include 
 """
 
 import load_synth_extract
-from stephen_joseph_conf import *
-
-synthottolid="10218"
 
 studytreelist=["1022_1967",
                "194_2284",#early and nymphaeles
@@ -17,6 +14,16 @@ studytreelist=["1022_1967",
                "826_1584",#rosaceae
                "1133_5647",
                "2539_5465",
+               "1118_2225", #Mentheae,lamiaceae
+               "650_1147",#Meliaceae, Sapindales
+               "2085_4317",#Araceae
+               "2044_4212",#Orobanchaceae
+               "2626_6142",#Amaranthaceae
+               "2624_6139",#Veronica
+               "2598_6020",#Boraginaceae
+               "2564_5699",#Polystichum
+               "2042_4202",#Bartramiaceae
+               "2034_4191",#Ruellieae
                #"2608_6116", #saxifrigales
                #"231_5505", #caryoph SOME SORT OF LOADING PROBLEM
                "14_12",
@@ -55,11 +62,17 @@ studytreelist=["1022_1967",
                "1116_2217",
                "225_5991",#deep plants
                "1867_3766", #cycads
-               "412_2166"#conifers
+               "412_2166",#conifers
+               "2046_5928" #Trebouxiophyceae, Chlorophyta
                ]
 
-print "loading synthottolid:",synthottolid
-print "loading studytreelist:",studytreelist
+if __name__ == "__main__":
+	from stephen_desktop_conf import *
 
-load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
-             treemloc,generallogfileloc,dsynth,synthottolid,treefn)
+	synthottolid="10218"
+
+	print "loading synthottolid:",synthottolid
+	print "loading studytreelist:",studytreelist
+
+	load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
+				 treemloc,generallogfileloc,dsynth,synthottolid,treefn)
