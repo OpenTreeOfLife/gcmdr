@@ -3,7 +3,7 @@
 synthottolid="691846"
 
 studytreelist=["2577_5980", # Galliformes. Wang et al. 2013. PLoS ONE
-               "2599_6021", # Alaudidae (larks). Alström et al. 2013. MPE
+               "2599_6021", # Alaudidae (larks). Alstrom et al. 2013. MPE
                "2591_6008", # Parulidae (warblers). Lovette et al. 2008. MPE
                "2575_5974", # Passeriformes. Barker et al. 2013. Syst. Biol.
                "2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
@@ -20,7 +20,7 @@ studytreelist=["2577_5980", # Galliformes. Wang et al. 2013. PLoS ONE
                "2654_6179", # Leiognathidae (fish). Chakrabarty et al. 2011. Mol. Ecol.
                "2585_5994", # Tetraodontiformes (fish). Santini et al. 2013. MPE
                "2576_5975", # Euteleostei (fish). Near et al. 2013. PNAS
-               "1870_3769", # Cyprinidae (fish). Rüber et al. 2007. BMC Evol. Biol.
+               "1870_3769", # Cyprinidae (fish). Ruber et al. 2007. BMC Evol. Biol.
                "2573_5959", # Sauria. Crawford et al. 2012. Biology Letters
                "2460_5285", # Squamata. Pyron et al. 2013. BMC Evol. Biol.
                "421_523",   # Mollusca. Smith et al. 2011. Nature
@@ -36,3 +36,15 @@ studytreelist=["2577_5980", # Galliformes. Wang et al. 2013. PLoS ONE
                "2629_6162", # Hexapoda. Letsch and Simon. 2013. Syst. Entomology
                "2604_6043", # Apoidea. Hedtke et al. 2013. BMC Evol. Biol.
                "2418_6152"] # Metazoa. Evans and Cartwright. 2010. MBE
+
+if __name__ == "__main__":
+	import load_synth_extract
+	from stephen_desktop_conf import *
+
+	synthottolid="691846"
+
+	print "loading synthottolid:",synthottolid
+	print "loading studytreelist:",studytreelist
+
+	load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
+				 treemloc,generallogfileloc,dsynth,synthottolid,treefn)
