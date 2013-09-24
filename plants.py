@@ -13,7 +13,6 @@ studytreelist=["1022_1967",
                "2610_6117", #malpighiales
                "826_1584",#rosaceae
                "1133_5647",
-               "2539_5465",
                "713_1284", #Lamiales
                "2645_6165",#Menispermaceae
                "2644_6164",#Ranunculales
@@ -46,6 +45,7 @@ studytreelist=["1022_1967",
                "81_5863",#Pinus
                "82_5792",#Campanula
                "88_5848",#Erodium
+               "2539_5465",
                #"2608_6116", #saxifrigales
                #"231_5505", #caryoph SOME SORT OF LOADING PROBLEM
                "14_12",
