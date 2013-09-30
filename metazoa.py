@@ -1,5 +1,4 @@
 
-
 synthottolid="691846"
 
 studytreelist=[
@@ -16,7 +15,7 @@ studytreelist=[
             #   "1600_3231", # Primates. Perelman et al. 2011. PloS Genetics *** replace with Springer et al.
                "2656_6185", # Primates. Springer et al. 2012. PLoS ONE
                "1634_3303", # Chiroptera. Agnarsson et  al. 2011. PLoS Currents Tree of Life
-               "1927_3912", # Cetacea. Steeman et al. 2009. Syst. Biol.
+               "1927_6215", # Cetacea. Steeman et al. 2009. Syst. Biol.
                "1428_2855", # Mammals. Meredith et al. 2011. Science
      ## Fish
                "2589_6001", # Gobioidei. Agorreta et al. 2013. MPE
