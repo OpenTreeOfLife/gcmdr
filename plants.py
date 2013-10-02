@@ -13,13 +13,22 @@ studytreelist=["1022_1967",
                "2610_6117", #malpighiales
                "826_1584",#rosaceae
                "1133_5647",
+               "1118_2226", #Mentheae,lamiaceae
                "713_1284", #Lamiales
+               "605_948", #Strophostyles (Fabaceae)
+               "2045_4213", #Acacia
+               "2001_4100", #Astragalus
+               "2127_4426", #Papilionoideae; Vataireoid Clade
+               "2055_4234",  #Genistoid legumes
+               "2057_4240", #papilionoid
+               "594_890", #robinioid legumes
+               "998_2313", #Fabales
+               "2539_5465",
                "2645_6165",#Menispermaceae
                "2644_6164",#Ranunculales
                "2642_6161",#Cayophyllales; not sure if you have a better study here)
                "2140_4483",#Annonaceae
                "2648_6171",#Marchantiales
-               "1118_2226", #Mentheae,lamiaceae
                "650_1147",#Meliaceae, Sapindales
                "2085_4317",#Araceae
                "2044_4212",#Orobanchaceae
@@ -45,7 +54,6 @@ studytreelist=["1022_1967",
                "81_5863",#Pinus
                "82_5792",#Campanula
                "88_5848",#Erodium
-               "2539_5465",
                #"2608_6116", #saxifrigales
                #"231_5505", #caryoph SOME SORT OF LOADING PROBLEM
                "14_12",
