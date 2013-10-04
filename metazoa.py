@@ -1,4 +1,3 @@
-
 synthottolid="691846"
 
 studytreelist=[
@@ -43,7 +42,7 @@ studytreelist=[
                "2604_6043", # Apoidea. Hedtke et al. 2013. BMC Evol. Biol.
      ## Other
                "421_523",   # Mollusca. Smith et al. 2011. Nature
-               "1482_5228", # Eumetazoa. Evans et al. 2008. BMC Evol. Biol.
+            #   "1482_5228", # Eumetazoa. Evans et al. 2008. BMC Evol. Biol. <- breaks stuff?>
                "1217_2455", # Metazoa. Delsuc et al. 2008. Genesis
                "1366_6166", # Annelida. Struck et al. 2011. Nature
                "1761_6151", # Scleractinia (corals). Huang nad Roy. 2013. Ecology and Evolution
