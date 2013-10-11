@@ -16,6 +16,7 @@ studytreelist=[
                "1634_3303", # Chiroptera. Agnarsson et  al. 2011. PLoS Currents Tree of Life
                "1927_6215", # Cetacea. Steeman et al. 2009. Syst. Biol.
                "1981_4052", # Felidae. Johnson et al. 2006. Science
+               "2684_6229", # Hyaenidae. Koepfli et al. 2006. MPE
                "1428_2855", # Mammals. Meredith et al. 2011. Science
      ## Fish
                "2589_6001", # Gobioidei. Agorreta et al. 2013. MPE
@@ -62,3 +63,4 @@ if __name__ == "__main__":
 
 	load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
 				 treemloc,generallogfileloc,dsynth,synthottolid,treefn)
+
