@@ -14,7 +14,7 @@ studytreelist=["1022_1967",
                "826_1584",#rosaceae
                "1133_5647",
                "1118_2226", #Mentheae,lamiaceae
-               "713_1284", #Lamiales
+               "713_1287", #Lamiales
                "605_948", #Strophostyles (Fabaceae)
                "2045_4213", #Acacia
                "2001_4100", #Astragalus

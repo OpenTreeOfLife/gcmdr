@@ -12,7 +12,7 @@ studytreelist=[
                "2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
                "420_522",   # Aves. Hackett et al. 2008. Science
      ## Mammals
-            #   "1600_3231", # Primates. Perelman et al. 2011. PloS Genetics *** replace with Springer et al.
+               "1600_3231", # Primates. Perelman et al. 2011. PloS Genetics *** replace with Springer et al.
                "2656_6185", # Primates. Springer et al. 2012. PLoS ONE
                "1634_3303", # Chiroptera. Agnarsson et  al. 2011. PLoS Currents Tree of Life
                "1927_6215", # Cetacea. Steeman et al. 2009. Syst. Biol.
@@ -43,12 +43,13 @@ studytreelist=[
                "2604_6043", # Apoidea. Hedtke et al. 2013. BMC Evol. Biol.
      ## Other
                "421_523",   # Mollusca. Smith et al. 2011. Nature
-               "1482_5228", # Eumetazoa. Evans et al. 2008. BMC Evol. Biol.
+            #   "1482_5228", # Eumetazoa. Evans et al. 2008. BMC Evol. Biol.
                "1217_2455", # Metazoa. Delsuc et al. 2008. Genesis
                "1366_6166", # Annelida. Struck et al. 2011. Nature
-               "1761_6151", # Scleractinia (corals). Huang nad Roy. 2013. Ecology and Evolution
+               "1761_6151" # Scleractinia (corals). Huang nad Roy. 2013. Ecology and Evolution
             #   "2418_6152", # Metazoa. Evans and Cartwright. 2010. MBE *** not working for some reason...
-               "2407_5075"] # Bilateria. Anderson et al. 2004. JME
+            #   "2407_5075"] # Bilateria. Anderson et al. 2004. JME
+            ]
 
 if __name__ == "__main__":
 	import load_synth_extract
