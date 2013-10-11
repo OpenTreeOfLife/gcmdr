@@ -17,6 +17,7 @@ studytreelist=[
                "1927_6215", # Cetacea. Steeman et al. 2009. Syst. Biol.
                "1981_4052", # Felidae. Johnson et al. 2006. Science
                "2684_6229", # Hyaenidae. Koepfli et al. 2006. MPE
+               "1797_3635", # Tenrecidae. Poux et al. 2008. BMC Evol. Biol.
                "1428_2855", # Mammals. Meredith et al. 2011. Science
      ## Fish
                "2589_6001", # Gobioidei. Agorreta et al. 2013. MPE
