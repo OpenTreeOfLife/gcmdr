@@ -1,4 +1,3 @@
-
 synthottolid="691846"
 
 studytreelist=[
@@ -16,6 +15,7 @@ studytreelist=[
                "2656_6185", # Primates. Springer et al. 2012. PLoS ONE
                "1634_3303", # Chiroptera. Agnarsson et  al. 2011. PLoS Currents Tree of Life
                "1927_6215", # Cetacea. Steeman et al. 2009. Syst. Biol.
+               "1981_4052", # Felidae. Johnson et al. 2006. Science
                "1428_2855", # Mammals. Meredith et al. 2011. Science
      ## Fish
                "2589_6001", # Gobioidei. Agorreta et al. 2013. MPE
@@ -43,7 +43,7 @@ studytreelist=[
                "2604_6043", # Apoidea. Hedtke et al. 2013. BMC Evol. Biol.
      ## Other
                "421_523",   # Mollusca. Smith et al. 2011. Nature
-            #   "1482_5228", # Eumetazoa. Evans et al. 2008. BMC Evol. Biol.
+            #   "1482_5228", # Eumetazoa. Evans et al. 2008. BMC Evol. Biol. <- breaks stuff?>
                "1217_2455", # Metazoa. Delsuc et al. 2008. Genesis
                "1366_6166", # Annelida. Struck et al. 2011. Nature
                "1761_6151" # Scleractinia (corals). Huang nad Roy. 2013. Ecology and Evolution
