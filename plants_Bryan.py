@@ -22,6 +22,8 @@ studytreelist=[
 "596_901", #Genisteae (Leguminosae)
 "597_906", #Machaerium (Leguminosae)
 "265_153", #Fabales
+"606_5290", #Trifoliae & Viciae
+"131_6236", #Trifolium
 "9_1",#Campanulidaex
 "14_12",#Bignoniaceaex
 "15_4",#Rosids
