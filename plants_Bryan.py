@@ -5,6 +5,22 @@ this is the stuff specific to the plant studies that are loaded. It can include 
 import load_synth_extract
 
 studytreelist=[
+	
+"264_150", #Coursetia
+"261_145", #Caesalpinieae
+"259_142", #Cercis
+"268_4777", #Coursetia
+"267_161", #Ateleia (Swartzieae-Leguminosae)
+"271_5017", #Polygalaceae
+"609_961", #Fabaceae
+"293_201", #Mimosa
+"292_199", #(Diocleinae: Papilionoideae)
+"294_202", #Detarieae (Caesalpinioideae)
+"548_798", #Vigna
+"197_784", #Phaseolus
+"595_896", #Senna
+"596_901", #Genisteae (Leguminosae)
+"597_906", #Machaerium (Leguminosae)
 
 "9_1",#Campanulidaex
 "14_12",#Bignoniaceaex
