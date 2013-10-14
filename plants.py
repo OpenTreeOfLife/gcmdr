@@ -25,6 +25,7 @@ studytreelist=["1022_1967",
                "293_201", #Mimosa
                "197_784", #Phaseolus
                "595_896", #Senna
+               "54_949", #Indigofereae
                "597_906", #Machaerium (Leguminosae)
                "596_901", #Genisteae (Leguminosae)
                "294_202", #Detarieae (Caesalpinioideae)
@@ -102,7 +103,6 @@ studytreelist=["1022_1967",
                "2546_5493",
                "1086_2111",
                "283_184",
-               "54_949",
                "1116_2217",
                "225_5991",#deep plants
                "1867_3766", #cycads
