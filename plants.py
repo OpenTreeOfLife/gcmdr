@@ -23,7 +23,7 @@ studytreelist=["1022_1967",
                "2057_4240", #papilionoid
                "594_890", #robinioid legumes
                "998_2313", #Fabales
-               "2539_5465",
+               "2539_5465",#Soltis et al. 2011
                "2645_6165",#Menispermaceae
                "2644_6164",#Ranunculales
                "2642_6161",#Cayophyllales; not sure if you have a better study here)
