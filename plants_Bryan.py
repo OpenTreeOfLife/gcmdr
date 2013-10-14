@@ -27,7 +27,6 @@ studytreelist=[
 "15_4",#Rosids
 "19_6175",#Verbenaceae
 "21_37",#Solanaceaex
-"27_238",#Fabales
 "30_2281",#Illicium
 "33_704",#PoaceaeBAD
 "36_36",#Dendropanax
