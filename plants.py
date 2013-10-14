@@ -25,6 +25,7 @@ studytreelist=["1022_1967",
                "293_201", #Mimosa
                "197_784", #Phaseolus
                "595_896", #Senna
+               "131_6236", #Trifolium
                "54_949", #Indigofereae
                "597_906", #Machaerium (Leguminosae)
                "596_901", #Genisteae (Leguminosae)
