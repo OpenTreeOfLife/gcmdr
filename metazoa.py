@@ -13,12 +13,14 @@ studytreelist=[
      ## Mammals
                "1600_3231", # Primates. Perelman et al. 2011. PloS Genetics *** replace with Springer et al.
                "2656_6185", # Primates. Springer et al. 2012. PLoS ONE
+               "2685_6235", # Mustelidae. Koepfli et al. 2008. BMC Evol. Biol.
                "1634_3303", # Chiroptera. Agnarsson et  al. 2011. PLoS Currents Tree of Life
                "1927_6215", # Cetacea. Steeman et al. 2009. Syst. Biol.
                "1981_4052", # Felidae. Johnson et al. 2006. Science
                "2684_6229", # Hyaenidae. Koepfli et al. 2006. MPE
                "1797_3635", # Tenrecidae. Poux et al. 2008. BMC Evol. Biol.
                "1428_2855", # Mammals. Meredith et al. 2011. Science
+               "1646_6231", # Pinnipeds. Higdon et al. 2007. BMC Evol. Biol.
      ## Fish
                "2589_6001", # Gobioidei. Agorreta et al. 2013. MPE
                "2655_6181", # Cichlidae. Friedman et al. 2013. Proc. Roy. Soc.
