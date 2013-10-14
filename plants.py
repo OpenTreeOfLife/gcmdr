@@ -10,7 +10,7 @@ studytreelist=["1022_1967",
                "424_532",
                "1916_3902",
                "588_878",
-               "2610_6117", #malpighiales
+               "2610_6117", #malpighiales tree, the best one we have right now, we think
                "826_1584",#rosaceae
                "1133_5647",
                "1118_2226", #Mentheae,lamiaceae
