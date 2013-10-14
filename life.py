@@ -8,12 +8,14 @@ from stephen_desktop_conf import *
 from plants import studytreelist as plantslist
 from metazoa import studytreelist as metalist
 from fungi import studytreelist as fungilist
+from microbes import studytreelist as microbelist
 
 
 studytreelist = []
 studytreelist.extend(plantslist)
 studytreelist.extend(metalist)
 studytreelist.extend(fungilist)
+studytreelist.extend(microbelist)
 
 
 import load_synth_extract
