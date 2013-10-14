@@ -19,9 +19,24 @@ studytreelist=["1022_1967",
                "2045_4213", #Acacia
                "2001_4100", #Astragalus
                "2127_4426", #Papilionoideae; Vataireoid Clade
+               "259_142", #Cercis
+               "264_150", #Coursetia
+               "267_161", #Ateleia (Swartzieae-Leguminosae)
+               "293_201", #Mimosa
+               "197_784", #Phaseolus
+               "595_896", #Senna
+               "597_906", #Machaerium (Leguminosae)
+               "596_901", #Genisteae (Leguminosae)
+               "294_202", #Detarieae (Caesalpinioideae)
+               "292_199", #(Diocleinae: Papilionoideae)
+               "548_798", #Vigna
                "2055_4234",  #Genistoid legumes
                "2057_4240", #papilionoid
                "594_890", #robinioid legumes
+               "261_145", #Caesalpinieae
+               "609_961", #Fabaceae
+               "271_5017", #Polygalaceae
+               "265_153", #Fabales
                "998_2313", #Fabales
                "2539_5465",#Soltis et al. 2011
                "2645_6165",#Menispermaceae
