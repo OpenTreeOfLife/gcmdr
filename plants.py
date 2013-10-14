@@ -28,6 +28,7 @@ studytreelist=["1022_1967",
                "131_6236", #Trifolium
                "54_949", #Indigofereae
                "597_906", #Machaerium (Leguminosae)
+               "606_5290", #Trifolieae and Vicieae
                "596_901", #Genisteae (Leguminosae)
                "294_202", #Detarieae (Caesalpinioideae)
                "292_199", #(Diocleinae: Papilionoideae)
