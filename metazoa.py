@@ -3,16 +3,20 @@ synthottolid="691846"
 studytreelist=[
      ## Birds
                "2577_5980", # Galliformes. Wang et al. 2013. PLoS ONE
+               "1966_4019", # Maluridae. Lee et al. 2011. Syst. Biol.
                "2600_6022", # Paridae. Johansson et al. 2013. MPE
                "2599_6021", # Alaudidae (larks). Alstrom et al. 2013. MPE
                "2591_6008", # Parulidae (warblers). Lovette et al. 2008. MPE
                "2658_6192", # Trochilidae. McGuire et al. 2007. Syst. Biol.
+               "2454_5247", # Thamnophilus. Brumfield and Edwards. 2007. Evolution
                "2575_5974", # Passeriformes. Barker et al. 2013. Syst. Biol.
                "2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
                "420_522",   # Aves. Hackett et al. 2008. Science
      ## Mammals
                "1600_3231", # Primates. Perelman et al. 2011. PloS Genetics *** replace with Springer et al.
                "2656_6185", # Primates. Springer et al. 2012. PLoS ONE
+               "2359_4962", # Antilopinae. Barmann et al. 2013. MPE
+               "2687_6239", # Phocidae. Fulton and Strobeck. 2009. Proc. Roy. Soc.
                "2685_6235", # Mustelidae. Koepfli et al. 2008. BMC Evol. Biol.
                "1634_3303", # Chiroptera. Agnarsson et  al. 2011. PLoS Currents Tree of Life
                "1927_6215", # Cetacea. Steeman et al. 2009. Syst. Biol.
@@ -47,7 +51,7 @@ studytreelist=[
                "2604_6043", # Apoidea. Hedtke et al. 2013. BMC Evol. Biol.
      ## Other
                "421_523",   # Mollusca. Smith et al. 2011. Nature
-            #   "1482_5228", # Eumetazoa. Evans et al. 2008. BMC Evol. Biol. <- breaks stuff?>
+            #   "1482_5228", # Eumetazoa. Evans et al. 2008. BMC Evol. Biol. <- breaks stuff?
                "1217_2455", # Metazoa. Delsuc et al. 2008. Genesis
                "1366_6166", # Annelida. Struck et al. 2011. Nature
                "1761_6151" # Scleractinia (corals). Huang nad Roy. 2013. Ecology and Evolution
