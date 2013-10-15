@@ -2,6 +2,8 @@
 This includes the studies and the ottolid
 """
 
+# test comment for showing git features
+
 synthottolid="352914"
 
 studytreelist=["1162_5805",
