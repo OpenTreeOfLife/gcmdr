@@ -15,6 +15,7 @@ studytreelist=[
      ## Mammals
                "1600_3231", # Primates. Perelman et al. 2011. PloS Genetics *** replace with Springer et al.
                "2656_6185", # Primates. Springer et al. 2012. PLoS ONE
+               "2688_6240", # Rodentia. Fabre et al. 2012. BMC Evol. Biol.
                "2359_4962", # Antilopinae. Barmann et al. 2013. MPE
                "2687_6239", # Phocidae. Fulton and Strobeck. 2009. Proc. Roy. Soc.
                "2685_6235", # Mustelidae. Koepfli et al. 2008. BMC Evol. Biol.
