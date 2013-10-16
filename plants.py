@@ -27,6 +27,7 @@ studytreelist=["1022_1967",
                "197_784", #Phaseolus
                "595_896", #Senna
                "131_6236", #Trifolium
+               "2689_6241", #Lupinus
                "54_949", #Indigofereae
                "597_906", #Machaerium (Leguminosae)
                "606_5290", #Trifolieae and Vicieae
@@ -42,7 +43,7 @@ studytreelist=["1022_1967",
                "271_5017", #Polygalaceae
                "265_153", #Fabales
                "998_2313", #Fabales
-               "2539_5465",#Soltis et al. 2011
+               "2539_5466",#Soltis et al. 2011
                "2645_6165",#Menispermaceae
                "2644_6164",#Ranunculales
                "2642_6161",#Cayophyllales; not sure if you have a better study here)
