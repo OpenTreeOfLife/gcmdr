@@ -26,11 +26,11 @@ if __name__ == "__main__":
         tid = spls[0].strip()
         parentid = spls[1].strip()
         name = spls[2].strip()
-        rank = spls[3].strip()
-        nrank[tid] = rank
+        #rank = spls[3].strip()
+        #nrank[tid] = rank
         nid[tid] = name
-        sid[tid] = spls[4].strip()
-        unid[tid] = spls[5].strip()
+        #sid[tid] = spls[4].strip()
+        #unid[tid] = spls[5].strip()
         if tid == target:
             print "target set ",name, tid
             targetid = tid
@@ -54,7 +54,7 @@ if __name__ == "__main__":
     while len(stack) > 0:
         tempid = stack.pop()
         tdepth = depths[tempid]
-        outfile.write(tempid+"\t|\t"+pid[tempid]+"\t|\t"+nid[tempid]+"\t|\t"+nrank[tempid]+"\t|\t"+sid[tempid]+"\t|\t"+unid[tempid]+"\t|\t\n")
+        outfile.write(tempid+"\t|\t"+pid[tempid]+"\t|\t"+nid[tempid]+"\t|\t \t|\t \t|\t \t|\t\n")
         if depths[tempid] >= depth:
             continue
         if tempid in cid:
