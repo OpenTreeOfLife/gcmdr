@@ -1,0 +1,65 @@
+import sys
+from node import Node
+
+if __name__ == "__main__":
+    if len(sys.argv) != 5:
+        print "python "+sys.argv[0]+" targetid depth taxonomyfile outfileprefix"
+        sys.exit(0)
+    target = (sys.argv[1]).strip()
+    print "target taxa: ",target
+    depth = int(sys.argv[2])
+    print "depth: ",depth
+    infile = open(sys.argv[3],"r")
+    count = 0
+    pid = {} #key is the child id and the value is the parent
+    cid = {} #key is the parent and value is the list of children
+    nid = {}
+    nrank = {}
+    sid = {}
+    unid = {}
+    targetid = ""
+    for i in infile:
+        spls = i.strip().split("\t|")
+        tid = spls[0].strip()
+        parentid = spls[1].strip()
+        name = spls[2].strip()
+        rank = spls[3].strip()
+        nrank[tid] = rank
+        nid[tid] = name
+        sid[tid] = spls[4].strip()
+        unid[tid] = spls[5].strip()
+        if tid == target:
+            print "target set ",name, tid
+            targetid = tid
+        pid[tid] = parentid
+        if parentid not in cid: 
+            cid[parentid] = []
+        cid[parentid].append(tid)
+        count += 1
+        if count % 100000 == 0:
+            print count
+    infile.close()
+    
+    outfile = open(sys.argv[4]+".list","w")
+    stack = [targetid]
+    nddict = {} #key is id, value is node
+    root = Node()
+    root.label = nid[targetid]
+    nddict[targetid] = root
+    while len(stack) > 0:
+        tempid = stack.pop()
+        outfile.write(tempid+"\t|\t"+pid[tempid]+"\t|\t"+nid[tempid]+"\t|\t"+nrank[tempid]+"\t|\t"+sid[tempid]+"\t|\t"+unid[tempid]+"\t|\t\n")
+        if tempid in cid:
+            pnd = nddict[tempid]
+            for i in cid[tempid]:
+                tnd = Node()
+                tnd.label = nid[i].replace(" ","_").replace(")","_").replace("(","_").replace("-","_")+"______"+i
+                pnd.add_child(tnd)
+                nddict[i] = tnd
+                stack.append(i)
+    outfile.close()
+    outfile = open(sys.argv[4]+".tre","w")
+    stri = root.get_newick_repr()
+    outfile.write(stri+"\n")
+    outfile.close()
+    
