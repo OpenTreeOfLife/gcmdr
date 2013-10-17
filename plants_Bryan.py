@@ -24,6 +24,7 @@ studytreelist=[
 "265_153", #Fabales
 "606_5290", #Trifoliae & Viciae
 "131_6236", #Trifolium
+"2689_6241", #Lupinus
 "9_1",#Campanulidaex
 "14_12",#Bignoniaceaex
 "15_4",#Rosids
@@ -119,7 +120,7 @@ studytreelist=[
 "2085_4317",#Araceae
 "2127_4426",#Papilionoideae; Vataireoid Clade
 "2140_4483",#Miliuseae (Annonaceae)
-"2539_5465",#Angiospermsx
+"2539_5466",#Angiospermsx
 "2546_5493",#Sapindaceaex
 "2549_5512",#Land plantsBAD
 "2564_5699",#Polystichum
