@@ -1,6 +1,9 @@
 import sys
 from node import Node
 
+def name_fix(nm):
+    return nm.replace(" ","_").replace(")","_").replace("(","_").replace("-","_")
+
 if __name__ == "__main__":
     if len(sys.argv) != 5:
         print "python "+sys.argv[0]+" targetid depth taxonomyfile outfileprefix"
@@ -44,19 +47,25 @@ if __name__ == "__main__":
     stack = [targetid]
     nddict = {} #key is id, value is node
     root = Node()
-    root.label = nid[targetid]
+    root.label = name_fix(nid[targetid])+"______"+targetid
     nddict[targetid] = root
+    depths = {} #key is id, value is depth
+    depths[targetid] = 1
     while len(stack) > 0:
         tempid = stack.pop()
+        tdepth = depths[tempid]
         outfile.write(tempid+"\t|\t"+pid[tempid]+"\t|\t"+nid[tempid]+"\t|\t"+nrank[tempid]+"\t|\t"+sid[tempid]+"\t|\t"+unid[tempid]+"\t|\t\n")
+        if depths[tempid] >= depth:
+            continue
         if tempid in cid:
             pnd = nddict[tempid]
             for i in cid[tempid]:
                 tnd = Node()
-                tnd.label = nid[i].replace(" ","_").replace(")","_").replace("(","_").replace("-","_")+"______"+i
+                tnd.label = name_fix(nid[i])+"______"+i
                 pnd.add_child(tnd)
                 nddict[i] = tnd
                 stack.append(i)
+                depths[i] = tdepth + 1
     outfile.close()
     outfile = open(sys.argv[4]+".tre","w")
     stri = root.get_newick_repr()
