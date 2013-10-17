@@ -5,22 +5,22 @@ this is the stuff specific to the plant studies that are loaded. It can include 
 from stephen_desktop_conf import *
 
 
+from microbes import studytreelist as microbelist
 from plants import studytreelist as plantslist
 from metazoa import studytreelist as metalist
 from fungi import studytreelist as fungilist
-from microbes import studytreelist as microbelist
 
 
 studytreelist = []
-studytreelist.extend(plantslist)
-studytreelist.extend(metalist)
-studytreelist.extend(fungilist)
 studytreelist.extend(microbelist)
+#studytreelist.extend(plantslist)
+studytreelist.extend(metalist)
+#studytreelist.extend(fungilist)
 
 
 import load_synth_extract
 
-synthottolid="805080"
+synthottolid="93302"
 print "loading synthottolid:",synthottolid
 print "loading studytreelist:",studytreelist
 
