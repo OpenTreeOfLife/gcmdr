@@ -43,13 +43,14 @@ studytreelist=[
                "423_2857",  # Amphibia. Pyron and Weins. 2011. MPE
                "2573_5959", # Sauria. Crawford et al. 2012. Biology Letters
                "2460_5285", # Squamata. Pyron et al. 2013. BMC Evol. Biol.
-     ## Insects
+     ## Insects and other crawley stuff
                "1563_6170", # Hymenoptera. Sharkey et al. 2011. Cladistics
                "1849_3731", # Formicidae. Brady et al. 2006. PNAS
                "1776_3581", # Ditrysia. Cho et al. 2011. Syst. Biol.
                "1337_6167", # Holometabola (insect). Wiegmann et al. 2009. BMC Evol. Biol.
                "2629_6162", # Hexapoda. Letsch and Simon. 2013. Syst. Ent.
                "2604_6043", # Apoidea. Hedtke et al. 2013. BMC Evol. Biol.
+               "2686_6238", # Arhtropoda. Lee et al. 2013. Curr. Biol.
      ## Other
                "421_523",   # Mollusca. Smith et al. 2011. Nature
             #   "1482_5228", # Eumetazoa. Evans et al. 2008. BMC Evol. Biol. <- breaks stuff?
