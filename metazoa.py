@@ -9,6 +9,7 @@ studytreelist=[
                "2591_6008", # Parulidae (warblers). Lovette et al. 2008. MPE
                "2658_6192", # Trochilidae. McGuire et al. 2007. Syst. Biol.
                "2454_5247", # Thamnophilus. Brumfield and Edwards. 2007. Evolution
+               "2692_6245", # Fringillidae. Zucco et al. 2012. MPE
                "2575_5974", # Passeriformes. Barker et al. 2013. Syst. Biol.
                "2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
                "420_522",   # Aves. Hackett et al. 2008. Science
@@ -18,6 +19,7 @@ studytreelist=[
                "2688_6240", # Rodentia. Fabre et al. 2012. BMC Evol. Biol.
                "2359_4962", # Antilopinae. Barmann et al. 2013. MPE
                "2687_6239", # Phocidae. Fulton and Strobeck. 2009. Proc. Roy. Soc.
+               "2691_6244", # Procyonidae. Koepfli et al. 2007. MPE
                "2685_6235", # Mustelidae. Koepfli et al. 2008. BMC Evol. Biol.
                "1634_3303", # Chiroptera. Agnarsson et  al. 2011. PLoS Currents Tree of Life
                "1927_6215", # Cetacea. Steeman et al. 2009. Syst. Biol.
