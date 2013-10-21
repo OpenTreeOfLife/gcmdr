@@ -46,6 +46,7 @@ studytreelist=[
                "2573_5959", # Sauria. Crawford et al. 2012. Biology Letters
                "2460_5285", # Squamata. Pyron et al. 2013. BMC Evol. Biol.
      ## Insects and other crawley stuff
+               "1988_4074", # Mantodea. Svenson et al. 2009. CLadistics
                "1563_6170", # Hymenoptera. Sharkey et al. 2011. Cladistics
                "1849_3731", # Formicidae. Brady et al. 2006. PNAS
                "1776_3581", # Ditrysia. Cho et al. 2011. Syst. Biol.
