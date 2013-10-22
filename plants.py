@@ -6,10 +6,10 @@ import load_synth_extract
 
 studytreelist=["1022_1967",
                "194_2284",#early and nymphaeles
-               "562_817",
-               "424_532",
-               "1916_3902",
-               "588_878",
+               "562_817", #Poales
+               "424_532", #Caprifoliaceae
+               "1916_3902", #Brassicaceae
+               "588_878", #Asparagales
 #              "826_1584",#rosaceae #this is actually a fungal tree
                "926_1825",#rosaceae
                "1133_5647", #Rosales
