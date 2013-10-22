@@ -4,7 +4,7 @@ this is the stuff specific to the plant studies that are loaded. It can include 
 
 import load_synth_extract
 
-studytreelist=["1022_1967",
+studytreelist=["1022_1967",#Pontederiaceae
                "194_2284",#early and nymphaeles
                "562_817", #Poales
                "424_532", #Caprifoliaceae
@@ -104,7 +104,7 @@ studytreelist=["1022_1967",
                #"1302_2616", make for weird euphyllophyta
                "915_1802",
                "915_1803",
-               "9_1",
+               "9_1",#Campanulidae
                "142_38",
                "21_37",
                "72_801",
