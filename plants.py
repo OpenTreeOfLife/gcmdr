@@ -10,15 +10,15 @@ studytreelist=["1022_1967",#Pontederiaceae
                "424_532", #Caprifoliaceae
                "1916_3902", #Brassicaceae
                "588_878", #Asparagales
-#              "826_1584",#rosaceae #this is actually a fungal tree
+#              "826_1584", #rosaceae #this is actually a fungal tree
                "926_1825",#rosaceae
                "1133_5647", #Rosales
+               "2624_6139", #Veronica
                "1118_2226", #Mentheae,lamiaceae
                "2669_6213", #Lamiaceae
                "19_6175", #Verbenaceae
                "14_12", #Bignoniaceae
                "713_1287", #Lamiales
-               "2001_4100", #Astragalus
                "259_142", #Cercis
                "264_150", #Coursetia
                "267_161", #Ateleia (Swartzieae-Leguminosae)
@@ -29,6 +29,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                "131_6236", #Trifolium
                "2689_6241", #Lupinus
                "597_906", #Machaerium (Leguminosae)
+               "2001_4100", #Astragalus
                "606_5290", #Trifolieae and Vicieae
                "54_949", #Indigofereae
                "596_901", #Genisteae (Leguminosae)
@@ -49,9 +50,8 @@ studytreelist=["1022_1967",#Pontederiaceae
                "605_948", #Strophostyles (Fabaceae)
                "271_5017", #Polygalaceae
                "265_153", #Fabales
-               "998_2313", #Fabales
+               #"998_2313", #Fabales
                "2661_6198", #Ericales
-               "2539_5466",#Soltis et al. 2011
                "2645_6165",#Menispermaceae
                "2644_6164",#Ranunculales
                "2610_6117", #malpighiales tree, the best one we have right now, we think6
@@ -64,7 +64,6 @@ studytreelist=["1022_1967",#Pontederiaceae
                "2085_4317",#Araceae
                "2044_4212",#Orobanchaceae
                "2626_6142",#Amaranthaceae
-               "2624_6139",#Veronica
                "2598_6020",#Boraginaceae
                "2564_5699",#Polystichum
                "2042_4202",#Bartramiaceae
