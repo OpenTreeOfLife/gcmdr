@@ -14,6 +14,7 @@ studytreelist=[
                "2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
                "420_522",   # Aves. Hackett et al. 2008. Science
      ## Mammals
+               "2695_6250", # Ursidae. Krause et al. 2008. BMC Evol. Biol.
                "1600_3231", # Primates. Perelman et al. 2011. PloS Genetics *** replace with Springer et al.
                "2656_6185", # Primates. Springer et al. 2012. PLoS ONE
                "2688_6240", # Rodentia. Fabre et al. 2012. BMC Evol. Biol.
