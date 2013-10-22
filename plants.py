@@ -12,13 +12,13 @@ studytreelist=["1022_1967",
                "588_878",
 #              "826_1584",#rosaceae #this is actually a fungal tree
                "926_1825",#rosaceae
-               "1133_5647",
+               "1133_5647", #Rosales
                "1118_2226", #Mentheae,lamiaceae
+               "2669_6213", #Lamiaceae
+               "19_6175", #Verbenaceae
+               "14_12", #Bignoniaceae
                "713_1287", #Lamiales
-               "605_948", #Strophostyles (Fabaceae)
-               "2045_4213", #Acacia
                "2001_4100", #Astragalus
-               "2127_4426", #Papilionoideae; Vataireoid Clade
                "259_142", #Cercis
                "264_150", #Coursetia
                "267_161", #Ateleia (Swartzieae-Leguminosae)
@@ -28,20 +28,25 @@ studytreelist=["1022_1967",
                "595_896", #Senna
                "131_6236", #Trifolium
                "2689_6241", #Lupinus
-               "54_949", #Indigofereae
                "597_906", #Machaerium (Leguminosae)
                "606_5290", #Trifolieae and Vicieae
+               "54_949", #Indigofereae
                "596_901", #Genisteae (Leguminosae)
                "294_202", #Detarieae (Caesalpinioideae)
                "292_199", #(Diocleinae: Papilionoideae)
+	       "58_775", #Crotalarieae (Fabaceae)
                "548_798", #Vigna
                "2055_4234",  #Genistoid legumes
                "2057_4240", #papilionoid
+               "2127_4426", #Papilionoideae; Vataireoid Clade
                "594_890", #robinioid legumes
                "261_145", #Caesalpinieae
+               "57_777", #Podalyrieae (Fabaceae)
                "78_6237", #phaseoloid
                "78_5858", #phaseoloid
-               #"609_961", #Fabaceae
+               "2690_6243", #Fabaceae
+               "2045_4213", #Acacia
+               "605_948", #Strophostyles (Fabaceae)
                "271_5017", #Polygalaceae
                "265_153", #Fabales
                "998_2313", #Fabales
@@ -51,6 +56,8 @@ studytreelist=["1022_1967",
                "2644_6164",#Ranunculales
                "2610_6117", #malpighiales tree, the best one we have right now, we think6
                "2642_6161",#Cayophyllales; not sure if you have a better study here)
+               "2539_5466",#Soltis et al. 2011
+               "15_4", #Rosids
                "2140_4483",#Annonaceae
                "2648_6171",#Marchantiales
                "650_1147",#Meliaceae, Sapindales
@@ -80,8 +87,7 @@ studytreelist=["1022_1967",
                "88_5848",#Erodium
                #"2608_6116", #saxifrigales
                #"231_5505", #caryoph SOME SORT OF LOADING PROBLEM
-               "14_12",
-               "180_794",
+               "180_794",#Araceae
                #"574_840", upload problems
                "576_849",
                "581_859",
@@ -101,8 +107,6 @@ studytreelist=["1022_1967",
                "9_1",
                "142_38",
                "21_37",
-               "57_777",
-               "58_775",
                "72_801",
                "75_1743",
                "535_768",
