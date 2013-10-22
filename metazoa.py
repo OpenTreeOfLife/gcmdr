@@ -55,7 +55,7 @@ studytreelist=[
                "1337_6167", # Holometabola (insect). Wiegmann et al. 2009. BMC Evol. Biol.
                "2629_6162", # Hexapoda. Letsch and Simon. 2013. Syst. Ent.
                "2604_6043", # Apoidea. Hedtke et al. 2013. BMC Evol. Biol.
-               "2686_6238", # Arhtropoda. Lee et al. 2013. Curr. Biol.
+               "2686_6238", # Arthropoda. Lee et al. 2013. Curr. Biol.
      ## Other
                "421_523",   # Mollusca. Smith et al. 2011. Nature
             #   "1482_5228", # Eumetazoa. Evans et al. 2008. BMC Evol. Biol. <- breaks stuff?
