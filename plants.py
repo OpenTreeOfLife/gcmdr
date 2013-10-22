@@ -10,7 +10,6 @@ studytreelist=["1022_1967",
                "424_532",
                "1916_3902",
                "588_878",
-               "2610_6117", #malpighiales tree, the best one we have right now, we think
 #              "826_1584",#rosaceae #this is actually a fungal tree
                "926_1825",#rosaceae
                "1133_5647",
@@ -23,6 +22,7 @@ studytreelist=["1022_1967",
                "259_142", #Cercis
                "264_150", #Coursetia
                "267_161", #Ateleia (Swartzieae-Leguminosae)
+               "2077_4291", #Podalyria (Fabaceae, Podalyrieae)
                "293_201", #Mimosa
                "197_784", #Phaseolus
                "595_896", #Senna
@@ -39,13 +39,17 @@ studytreelist=["1022_1967",
                "2057_4240", #papilionoid
                "594_890", #robinioid legumes
                "261_145", #Caesalpinieae
+               "78_6237", #phaseoloid
+               "78_5858", #phaseoloid
                #"609_961", #Fabaceae
                "271_5017", #Polygalaceae
                "265_153", #Fabales
                "998_2313", #Fabales
+               "2661_6198", #Ericales
                "2539_5466",#Soltis et al. 2011
                "2645_6165",#Menispermaceae
                "2644_6164",#Ranunculales
+               "2610_6117", #malpighiales tree, the best one we have right now, we think6
                "2642_6161",#Cayophyllales; not sure if you have a better study here)
                "2140_4483",#Annonaceae
                "2648_6171",#Marchantiales
