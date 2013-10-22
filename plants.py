@@ -43,6 +43,7 @@ studytreelist=["1022_1967",
                "271_5017", #Polygalaceae
                "265_153", #Fabales
                "998_2313", #Fabales
+               "2661_6198", #Ericales
                "2539_5466",#Soltis et al. 2011
                "2645_6165",#Menispermaceae
                "2644_6164",#Ranunculales
