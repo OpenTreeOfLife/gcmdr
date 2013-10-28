@@ -17,7 +17,6 @@ studytreelist=["1022_1967",#Pontederiaceae
                "1118_2226", #Mentheae,lamiaceae
                "2669_6213", #Lamiaceae
                "19_6175", #Verbenaceae
-               "14_12", #Bignoniaceae
                "713_1287", #Lamiales
                "259_142", #Cercis
                "264_150", #Coursetia
@@ -51,12 +50,13 @@ studytreelist=["1022_1967",#Pontederiaceae
                "271_5017", #Polygalaceae
                "265_153", #Fabales
                #"998_2313", #Fabales
+               "2539_5466",#Soltis et al. 2011
                "2661_6198", #Ericales
                "2645_6165",#Menispermaceae
                "2644_6164",#Ranunculales
                "2610_6117", #malpighiales tree, the best one we have right now, we think6
                "2642_6161",#Cayophyllales; not sure if you have a better study here)
-               "2539_5466",#Soltis et al. 2011
+               "14_12", #Bignoniaceae
                "15_4", #Rosids
                "2140_4483",#Annonaceae
                "2648_6171",#Marchantiales
