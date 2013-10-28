@@ -12,10 +12,10 @@ from fungi import studytreelist as fungilist
 
 
 studytreelist = []
-#studytreelist.extend(plantslist)
+studytreelist.extend(plantslist)
 studytreelist.extend(metalist)
-#studytreelist.extend(fungilist)
-studytreelist.extend(microbelist)
+studytreelist.extend(fungilist)
+#studytreelist.extend(microbelist)
 
 
 import load_synth_extract
