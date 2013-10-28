@@ -18,37 +18,37 @@ studytreelist=["1022_1967",#Pontederiaceae
                "2669_6213", #Lamiaceae
                "19_6175", #Verbenaceae
                "713_1287", #Lamiales
-               "259_142", #Cercis
-               "264_150", #Coursetia
-               "267_161", #Ateleia (Swartzieae-Leguminosae)
-               "2077_4291", #Podalyria (Fabaceae, Podalyrieae)
-               "293_201", #Mimosa
-               "197_784", #Phaseolus
-               "595_896", #Senna
-               "131_6236", #Trifolium
-               "2689_6241", #Lupinus
-               "597_906", #Machaerium (Leguminosae)
-               "2001_4100", #Astragalus
-               "606_5290", #Trifolieae and Vicieae
-               "54_949", #Indigofereae
-               "596_901", #Genisteae (Leguminosae)
-               "294_202", #Detarieae (Caesalpinioideae)
-               "292_199", #(Diocleinae: Papilionoideae)
-	       "58_775", #Crotalarieae (Fabaceae)
-               "548_798", #Vigna
-               "2055_4234",  #Genistoid legumes
-               "2057_4240", #papilionoid
-               "2127_4426", #Papilionoideae; Vataireoid Clade
-               "594_890", #robinioid legumes
-               "261_145", #Caesalpinieae
-               "57_777", #Podalyrieae (Fabaceae)
-               "78_6237", #phaseoloid
-               "78_5858", #phaseoloid
-               "2690_6243", #Fabaceae
-               "2045_4213", #Acacia
-               "605_948", #Strophostyles (Fabaceae)
-               "271_5017", #Polygalaceae
-               "265_153", #Fabales
+               "259_142", #Cercis FABALES!
+               "264_150", #Coursetia FABALES!
+               "267_161", #Ateleia (Swartzieae-Leguminosae) FABALES!
+               "2077_4291", #Podalyria (Fabaceae, Podalyrieae) FABALES!
+               "293_201", #Mimosa FABALES!
+               "197_784", #Phaseolus FABALES!
+               "595_896", #Senna FABALES!
+               "131_6236", #Trifolium FABALES!
+               "2689_6241", #Lupinus FABALES!
+               "597_906", #Machaerium (Leguminosae) FABALES!
+               "2001_4100", #Astragalus FABALES!
+               "606_5290", #Trifolieae and Vicieae FABALES!
+               "54_949", #Indigofereae FABALES!
+               "596_901", #Genisteae (Leguminosae) FABALES!
+               "294_202", #Detarieae (Caesalpinioideae) FABALES!
+               "292_199", #(Diocleinae: Papilionoideae) FABALES!
+	       "58_775", #Crotalarieae (Fabaceae) FABALES!
+               "548_798", #Vigna FABALES!
+               "2055_4234",  #Genistoid legumes FABALES!
+               "2057_4240", #papilionoid FABALES!
+               "2127_4426", #Papilionoideae; Vataireoid Clade FABALES!
+               "594_890", #robinioid legumes FABALES!
+               "261_145", #Caesalpinieae FABALES!
+               "57_777", #Podalyrieae (Fabaceae) FABALES!
+               "78_6237", #phaseoloid FABALES!
+               "78_5858", #phaseoloid FABALES!
+               "2690_6243", #Fabaceae FABALES!
+               "2045_4213", #Acacia FABALES!
+               "605_948", #Strophostyles (Fabaceae) FABALES!
+               "271_5017", #Polygalaceae FABALES!
+               "265_153", #Fabales FABALES!
                #"998_2313", #Fabales
                "2539_5466",#Soltis et al. 2011
                "2661_6198", #Ericales
