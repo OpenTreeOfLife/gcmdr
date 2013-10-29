@@ -46,7 +46,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                "78_5858", #phaseoloid FABALES!
                "2690_6243", #Fabaceae FABALES!
                "2045_4213", #Acacia FABALES!
-               "605_948", #Strophostyles (Fabaceae) FABALES!
+               "605_947", #Strophostyles (Fabaceae) FABALES!
                "271_5017", #Polygalaceae FABALES!
                "265_153", #Fabales FABALES!
                #"998_2313", #Fabales
