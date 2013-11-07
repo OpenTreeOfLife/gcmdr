@@ -4,12 +4,16 @@ from node import Node
 def name_fix(nm):
     return nm.replace(" ","_").replace(")","_").replace("(","_").replace("-","_")
 
+skip = True
+skiplist = ["uncultured"]
+
+
 if __name__ == "__main__":
     if len(sys.argv) != 5:
         print "python "+sys.argv[0]+" targetid depth taxonomyfile outfileprefix"
         sys.exit(0)
     target = (sys.argv[1]).strip()
-    print "target taxa: ",target
+    print "target taxa id: ",target
     depth = int(sys.argv[2])
     print "depth: ",depth
     infile = open(sys.argv[3],"r")
@@ -26,6 +30,14 @@ if __name__ == "__main__":
         tid = spls[0].strip()
         parentid = spls[1].strip()
         name = spls[2].strip()
+        if skip == True:
+			cont = False
+			for j in skiplist:
+				if j in name:
+					cont = True
+					break
+			if cont == True:
+				continue
         #rank = spls[3].strip()
         #nrank[tid] = rank
         nid[tid] = name
