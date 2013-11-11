@@ -10,3 +10,6 @@ def load(treemloc, javapre, dott,taxonomy_filename, synonyms_filename):
     print "loading taxonomy"
     load_taxonomy(treemloc,javapre,dott,taxonomy_filename,synonyms_filename)
     
+if __name__ == "__main__":
+	from stephen_desktop_conf import *
+	load(treemloc,javapre,dott,taxfile,synfile)

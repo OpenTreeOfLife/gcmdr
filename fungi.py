@@ -6,6 +6,9 @@ This includes the studies and the ottolid
 
 synthottolid="352914"
 
+#new ones
+#240_123
+
 studytreelist=["1162_5805",
                "1682_5491",
                "1665_5483",
