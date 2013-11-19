@@ -2,10 +2,10 @@ import sys
 from node import Node
 
 def name_fix(nm):
-    return nm.replace(" ","_").replace(")","_").replace("(","_").replace("-","_")
+    return nm.replace(" ","_").replace(")","_").replace("(","_").replace("-","_").replace(":","_")
 
 skip = True
-skiplist = ["uncultured"]
+skiplist = ["uncultured","clone"]
 
 
 if __name__ == "__main__":

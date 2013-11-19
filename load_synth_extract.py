@@ -10,6 +10,16 @@ def run_load_single(dott,dload,studyloc,studytreelist,javapre,treemloc,
     for i in studytreelist:
         load_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
 
+def run_load_single_ttfn(dott,dload,studyloc,studytreelist,javapre,treemloc,
+                    generallogfileloc,dsynth,synthottolid,treefn,temptreefn):
+    delete_database(dload)
+    copy_database(dott,dload)
+
+    print "loading trees"
+    for i in studytreelist:
+        load_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,temptreefn,False)
+
+
 def run(dott,dload,studyloc,studytreelist,javapre,treemloc,
         generallogfileloc,dsynth,synthottolid,treefn):
     delete_database(dload)

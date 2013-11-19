@@ -1,14 +1,20 @@
 """
 This includes the studies and the ottolid
 """
+import load_synth_extract
 
-# test comment for showing git features
 
-synthottolid="352914"
-
-#new ones
-#240_123
-
+studytreelist=["240_123",#Pezizomycotina
+               "827_1585",#Blastocladiomycota
+               "1144_5800",#Entomophthoromycota
+               "439_5514",#Glomeromycota
+               "238_110",#Ascomycota
+               "2701_6271",#Dikarya
+               "1197_5822",#Fungi
+               "1162_5805"#Fungi
+               ]
+ 
+"""
 studytreelist=["1162_5805",
                "1682_5491",
                "1665_5483",
@@ -31,3 +37,16 @@ studytreelist=["1162_5805",
                "1142_5799",
                #"238_109"
                ]
+"""
+
+if __name__ == "__main__":
+	from stephen_desktop_conf import *
+
+	
+	synthottolid="352914"
+
+	print "loading synthottolid:",synthottolid
+	print "loading studytreelist:",studytreelist
+
+	load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
+				 treemloc,generallogfileloc,dsynth,synthottolid,treefn)
