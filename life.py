@@ -13,8 +13,8 @@ from fungi import studytreelist as fungilist
 
 studytreelist = []
 studytreelist.extend(plantslist)
-studytreelist.extend(metalist)
-studytreelist.extend(fungilist)
+#studytreelist.extend(metalist)
+#studytreelist.extend(fungilist)
 #studytreelist.extend(microbelist)
 
 
