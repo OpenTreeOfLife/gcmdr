@@ -75,6 +75,23 @@ def load_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutf
     tf.close()
 
 """
+this will map the compatible nodes to a study loaded
+"""
+def mapcompat_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutfile,append):
+    cmd = javapre.split(" ")
+    cmd.append(treemloc)
+    cmd.append("mapcompat")
+    cmd.append(dload)
+    cmd.append(study_treeid)
+    print "mapping compatible nodes for " +study_treeid+" as loaded into "+dload
+    filemode = "w" #default is write
+    if append == True:
+        filemode = "a"
+    logfile = open(outfile,filemode)
+    pr = Popen(cmd,stdout=logfile).wait()
+    logfile.close()
+    
+"""
 this will return a boolean about ingroup and then a dictionary
 of the taxa that mapped
 """

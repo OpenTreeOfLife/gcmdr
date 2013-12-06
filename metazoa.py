@@ -76,5 +76,5 @@ if __name__ == "__main__":
 	print "loading studytreelist:",studytreelist
 
 	load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
-				 treemloc,generallogfileloc,dsynth,synthottolid,treefn)
+				 treemloc,generallogfileloc,dsynth,synthottolid,treefn,True)
 
