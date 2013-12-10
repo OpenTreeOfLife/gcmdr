@@ -20,6 +20,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                "713_1287", #Lamiales
                "1131_2265", #Saxifragaceae
                "2539_5466",#Soltis et al. 2011
+               "2608_6288", #saxifrigales
                "259_142", #Cercis FABALES!
                "264_150", #Coursetia FABALES!
                "267_161", #Ateleia (Swartzieae-Leguminosae) FABALES!
@@ -85,7 +86,6 @@ studytreelist=["1022_1967",#Pontederiaceae
                "81_5863",#Pinus
                "82_5792",#Campanula
                "88_5848",#Erodium
-               "2608_6288", #saxifrigales
                #"231_5505", #caryoph SOME SORT OF LOADING PROBLEM
                "180_794",#Araceae
                #"574_840", upload problems
