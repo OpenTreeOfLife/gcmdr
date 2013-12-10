@@ -18,6 +18,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                "2669_6213", #Lamiaceae
                "19_6175", #Verbenaceae
                "713_1287", #Lamiales
+               "2539_5466",#Soltis et al. 2011
                "259_142", #Cercis FABALES!
                "264_150", #Coursetia FABALES!
                "267_161", #Ateleia (Swartzieae-Leguminosae) FABALES!
@@ -50,7 +51,6 @@ studytreelist=["1022_1967",#Pontederiaceae
                "271_5017", #Polygalaceae FABALES!
                "265_153", #Fabales FABALES!
                #"998_2313", #Fabales
-               "2539_5466",#Soltis et al. 2011
                "2661_6198", #Ericales
                "2645_6165",#Menispermaceae
                "2644_6164",#Ranunculales
