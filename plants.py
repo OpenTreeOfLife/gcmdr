@@ -85,7 +85,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                "81_5863",#Pinus
                "82_5792",#Campanula
                "88_5848",#Erodium
-               #"2608_6288", #saxifrigales
+               "2608_6288", #saxifrigales
                #"231_5505", #caryoph SOME SORT OF LOADING PROBLEM
                "180_794",#Araceae
                #"574_840", upload problems
