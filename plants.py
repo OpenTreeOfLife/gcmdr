@@ -5,11 +5,11 @@ this is the stuff specific to the plant studies that are loaded. It can include 
 import load_synth_extract
 
 studytreelist=["1022_1967",#Pontederiaceae
-               "194_2284",#early and nymphaeles
+               #"194_2284",#early and nymphaeles
                "562_817", #Poales
                "424_532", #Caprifoliaceae
                "1916_3902", #Brassicaceae
-               "588_878", #Asparagales
+               "588_878" #Asparagales
 #              "826_1584", #rosaceae #this is actually a fungal tree
                "926_1825",#rosaceae
                "1133_5647", #Rosales
@@ -19,8 +19,8 @@ studytreelist=["1022_1967",#Pontederiaceae
                "19_6175", #Verbenaceae
                "713_1287", #Lamiales
                "1131_2265", #Saxifragaceae
-               "2539_5466",#Soltis et al. 2011
                "2608_6288", #saxifrigales
+               "2539_5466",#Soltis et al. 2011
                "259_142", #Cercis FABALES!
                "264_150", #Coursetia FABALES!
                "267_161", #Ateleia (Swartzieae-Leguminosae) FABALES!
@@ -59,7 +59,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                "2610_6117", #malpighiales tree, the best one we have right now, we think6
                "2642_6161",#Cayophyllales; not sure if you have a better study here)
                "14_12", #Bignoniaceae
-               "15_4", #Rosids
+               #"15_4", #Rosids
                "2140_4483",#Annonaceae
                "2648_6171",#Marchantiales
                "650_1147",#Meliaceae, Sapindales
@@ -113,14 +113,16 @@ studytreelist=["1022_1967",#Pontederiaceae
                "61_816",
                "284_185",
                "2546_5493",
-               "1086_2111",
+               #"1086_2111",
                "283_184",
-               "1116_2217",
+               #"1116_2217",
                "225_5991",#deep plants
                "1867_3766", #cycads
                "412_2166",#conifers
                "2046_5928" #Trebouxiophyceae, Chlorophyta
                ]
+
+studytreelistTF = [False] * len(studytreelist)
 
 if __name__ == "__main__":
 	from stephen_desktop_conf import *
@@ -131,4 +133,4 @@ if __name__ == "__main__":
 	print "loading studytreelist:",studytreelist
 
 	load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
-				 treemloc,generallogfileloc,dsynth,synthottolid,treefn)
+				 treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)

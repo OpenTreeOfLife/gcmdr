@@ -7,10 +7,17 @@ def run_load_single(dott,dload,studyloc,studytreelist,javapre,treemloc,
     copy_database(dott,dload)
 
     print "loading trees"
+    count = 0
     for i in studytreelist:
         load_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
-        if mapcompat:
-			mapcompat_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
+        if len(mapcompat) == 1:
+            if mapcompat == True:
+                mapcompat_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
+        else:
+            if mapcompat[count] == True: 
+                mapcompat_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
+        count += 1
+
 
 def run_load_single_ttfn(dott,dload,studyloc,studytreelist,javapre,treemloc,
                     generallogfileloc,dsynth,synthottolid,treefn,temptreefn):
@@ -28,10 +35,16 @@ def run(dott,dload,studyloc,studytreelist,javapre,treemloc,
     copy_database(dott,dload)
 
     print "loading trees"
+    count = 0
     for i in studytreelist:
         load_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
-        if mapcompat:
-			mapcompat_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
+        if len(mapcompat) == 1:
+            if mapcompat == True:
+                mapcompat_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
+        else:
+            if mapcompat[count] == True: 
+                mapcompat_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
+        count += 1
 
     append = True
 
