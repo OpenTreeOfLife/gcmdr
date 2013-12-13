@@ -122,7 +122,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                "2046_5928" #Trebouxiophyceae, Chlorophyta
                ]
 
-studytreelistTF = [False] * len(studytreelist)
+studytreelistTF = [True] * len(studytreelist)
 
 if __name__ == "__main__":
 	from stephen_desktop_conf import *
