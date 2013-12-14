@@ -89,33 +89,33 @@ studytreelist=["1022_1967",#Pontederiaceae
                #"231_5505", #caryoph SOME SORT OF LOADING PROBLEM
                "180_794",#Araceae
                #"574_840", upload problems
-               "576_849",
-               "581_859",
-               "582_862",
-               "598_926",
-               "599_927",
-               "603_940",
-               "704_1266",
-               "721_1298",
-               "723_1300",
-               #"724_3212", upload problems
-               "921_4103",
-               "1300_2613",
+               "576_849",#Alocasia (Araceae)
+               "581_859",#Crocus (Iridaceae)
+               "582_862",#Mermuellera (Poaceae)
+               "598_926",#Poeae (Poaceae)
+               "599_927",#Costaceae
+               "603_940",#Maxillaria (orchidaceae)
+               "704_1266",#Molluginaceae
+               "721_1298",#Commelinaceae
+               "723_1300",#Triticum
+               #"724_3212",#Pleurothallidinae (Orchidaceae) upload problems
+               "921_4103",#Oryzeae (Poaceae)
+               "1300_2613",#Hymenophyllum (Hymenophyllaceae)
                #"1302_2616", make for weird euphyllophyta
-               "915_1802",
-               "915_1803",
+               "915_1802",#Viburnum
+               "915_1803",#Valerianaceae
                "9_1",#Campanulidae
-               "142_38",
-               "21_37",
-               "72_801",
-               "75_1743",
-               "535_768",
-               "61_816",
-               "284_185",
-               "2546_5493",
-               #"1086_2111",
-               "283_184",
-               #"1116_2217",
+               "142_38",#Asclepias
+               "21_37",#Solanaceae
+               "72_801",#Malpighiaceae
+               "75_1743",#Apioideae
+               "535_768",#Eriogonoideae
+               "61_816",#Bromeliaceae
+               "284_185",#Cucurbitaceae
+               "2546_5493",#Sapindaceae
+               #"1086_2111",#Cactaceae
+               "283_184",#Celastrales
+               #"1116_2217",#Lamiales (Oxelman 2005)
                "225_5991",#deep plants
                "1867_3766", #cycads
                "412_2166",#conifers
