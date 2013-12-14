@@ -88,7 +88,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                "88_5848",#Erodium
                #"231_5505", #caryoph SOME SORT OF LOADING PROBLEM
                "180_794",#Araceae
-               #"574_840", upload problems
+               #"574_840",#Asparagales upload problems
                "576_849",#Alocasia (Araceae)
                "581_859",#Crocus (Iridaceae)
                "582_862",#Mermuellera (Poaceae)
