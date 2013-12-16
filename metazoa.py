@@ -1,21 +1,21 @@
-synthottolid="691846"
-
 studytreelist=[
      ## Birds
                "2577_5980", # Galliformes. Wang et al. 2013. PLoS ONE
+               "2658_6192", # Trochilidae. McGuire et al. 2007. Syst. Biol.
+               "2707_6281", # Icteridae. Powell et al. 2013. MPE
                "1966_4019", # Maluridae. Lee et al. 2011. Syst. Biol.
                "2600_6022", # Paridae. Johansson et al. 2013. MPE
                "2599_6021", # Alaudidae (larks). Alstrom et al. 2013. MPE
                "2591_6008", # Parulidae (warblers). Lovette et al. 2008. MPE
-               "2658_6192", # Trochilidae. McGuire et al. 2007. Syst. Biol.
                "2454_5247", # Thamnophilus. Brumfield and Edwards. 2007. Evolution
-               "2692_6245", # Fringillidae. Zucco et al. 2012. MPE
+               "2692_6245", # Fringillidae. Zuccon et al. 2012. MPE
+               "2702_6274", # core Corvoidea. Aggerbeck et al. 2014. MPE
                "2575_5974", # Passeriformes. Barker et al. 2013. Syst. Biol.
                "2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
                "420_522",   # Aves. Hackett et al. 2008. Science
      ## Mammals
                "2695_6250", # Ursidae. Krause et al. 2008. BMC Evol. Biol.
-               "1600_3231", # Primates. Perelman et al. 2011. PloS Genetics *** replace with Springer et al.
+               "1600_3231", # Euarchontoglires (Primates). Perelman et al. 2011. PloS Genetics *** replace with Springer et al.
                "2656_6185", # Primates. Springer et al. 2012. PLoS ONE
                "2688_6240", # Rodentia. Fabre et al. 2012. BMC Evol. Biol.
                "2359_4962", # Antilopinae. Barmann et al. 2013. MPE
@@ -28,7 +28,7 @@ studytreelist=[
                "2684_6229", # Hyaenidae. Koepfli et al. 2006. MPE
                "1797_3635", # Tenrecidae. Poux et al. 2008. BMC Evol. Biol.
                "1428_2855", # Mammals. Meredith et al. 2011. Science
-               "1646_6231", # Pinnipeds. Higdon et al. 2007. BMC Evol. Biol.
+               "1646_6231", # Caniformia (Pinnipeds). Higdon et al. 2007. BMC Evol. Biol.
      ## Fish
                "2589_6001", # Gobioidei. Agorreta et al. 2013. MPE
                "2655_6181", # Cichlidae. Friedman et al. 2013. Proc. Roy. Soc.
@@ -66,6 +66,8 @@ studytreelist=[
             #   "2407_5075"] # Bilateria. Anderson et al. 2004. JME
             ]
 
+studytreelistTF = [True] * len(studytreelist)
+
 if __name__ == "__main__":
 	import load_synth_extract
 	from stephen_desktop_conf import *
@@ -76,5 +78,5 @@ if __name__ == "__main__":
 	print "loading studytreelist:",studytreelist
 
 	load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
-				 treemloc,generallogfileloc,dsynth,synthottolid,treefn,True)
+				 treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
 
