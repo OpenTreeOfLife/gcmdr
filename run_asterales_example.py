@@ -25,7 +25,7 @@ if __name__ == "__main__":
     synthottolid="1042120" #ott id for starting synthesis
     treefn = "example/asterales_synth.tre" #filename for tree
     generallogfileloc = "example/logfile" #log file for spitting out lots of information
-    studyloc = "/media/data/avatol_nexsons/" #location for the nexsons
+    studyloc = "example/nexsons/" #location for the nexsons
 
     delete_database(dott)
     print "loading taxonomy"
