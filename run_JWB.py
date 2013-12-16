@@ -29,16 +29,18 @@ import load_synth_extract
 #extractottolid="691846"
 
 synthottolid = "691846"
-extractottolid = "691846"
+#extractottolid = "691846"
 
 print "loading synthottolid:",synthottolid
 print "loading studytreelist:",studytreelist
 
 # analysis name
-aname="Metazoa_test_2.3"
+aname="Metazoa_test_2.3_mapcompat"
 # location of synth database
 dsynth=bdir+aname+".db"
 # location of synth treefile
 treefn=bdir+aname+"-synth.tre"
 
-load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,extractottolid)
+#load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,extractottolid)
+load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn)
+
