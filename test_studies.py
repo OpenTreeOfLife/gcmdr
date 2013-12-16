@@ -15,7 +15,7 @@ copy_database(dott,dload)
 
 print "loading trees"
 for i in studytreelist:
-    ingroup,matchedtaxa = test_one_study(studyloc,i,javapre,treemloc,dload,"loaded_"+i+".tre",False)
+    ingroup,matchedtaxa = test_one_study(studyloc,i,javapre,treemloc,dload,"loaded_"+i+".tre",False,True)
     if ingroup == True:
         tfile = open("loaded_"+i+".tre","w")
         for j in matchedtaxa:

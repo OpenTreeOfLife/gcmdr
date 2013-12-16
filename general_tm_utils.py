@@ -90,13 +90,34 @@ def mapcompat_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,tre
     logfile = open(outfile,filemode)
     pr = Popen(cmd,stdout=logfile).wait()
     logfile.close()
+
+"""
+this will map the compatible nodes to a study loaded
+"""
+def mapcompat_one_study_test(studyloc,study_treeid,javapre,treemloc,dload,outfile,append):
+    cmd = javapre.split(" ")
+    cmd.append(treemloc)
+    cmd.append("mapcompat")
+    cmd.append(dload)
+    cmd.append(study_treeid)
+    cmd.append("test")
+    print "mapping compatible nodes for " +study_treeid+" as loaded into "+dload
+    filemode = "w" #default is write
+    if append == True:
+        filemode = "a"
+    logfile = open(outfile,filemode)
+    pr = Popen(cmd,stdout=logfile).wait()
+    logfile.close()
     
 """
 this will return a boolean about ingroup and then a dictionary
 of the taxa that mapped
 """
-def test_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,append):
-    load_nexson(studyloc,study_treeid,javapre,treemloc,dload,outfile,append,True)
+def test_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,append,mapcompat):
+    if mapcompat == True:
+        load_nexson(studyloc,study_treeid,javapre,treemloc,dload,outfile,append,False)
+    else:
+        load_nexson(studyloc,study_treeid,javapre,treemloc,dload,outfile,append,True)
     ingroup = False
     matched_taxa = {}
     #read the logfile
@@ -109,6 +130,8 @@ def test_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,append):
             if "matched anc info" in i:
                 matched_taxa[spls[11]]=spls[13]
     outf.close()
+    if mapcompat == True: 
+        mapcompat_one_study_test(studyloc,i,javapre,treemloc,dload,outfile,True)
     return ingroup,matched_taxa
 
 """
