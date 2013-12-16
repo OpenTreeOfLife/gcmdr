@@ -31,6 +31,8 @@ import load_synth_extract
 synthottolid = "691846"
 #extractottolid = "691846"
 
+studytreelistTF = [True] * len(studytreelist)
+
 print "loading synthottolid:",synthottolid
 print "loading studytreelist:",studytreelist
 
@@ -42,5 +44,5 @@ dsynth=bdir+aname+".db"
 treefn=bdir+aname+"-synth.tre"
 
 #load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,extractottolid)
-load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn)
+load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
 
