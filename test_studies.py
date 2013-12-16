@@ -2,11 +2,11 @@ from general_tm_utils import *
 from general_utils import *
 
 #this is my conf, make your own -- no need to commit
-from stephen_laptop_conf import *
+from stephen_desktop_conf import *
 
 #getting the studytreelist from this file
 #getting the synthottolid from here as well
-from metazoa import *
+from plants_sm import *
 
 print "loading studytreelist:",studytreelist
 

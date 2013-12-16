@@ -5,11 +5,14 @@ import load_synth_extract
 from general_tm_utils import *
 from general_utils import *
 
-studytreelist=[
-               "2539_6294",#Soltis et al. 2011
+studytreelist=["2539_6294",#Soltis et al. 2011
+               "715_1289", #Barnadesioideae
+               "329_324", #Hieracium
                "9_1",#Campanulidae
+               "709_1276", # Lobelioideae, very non monophyletic
                "41_1396",#Feddea
-               "82_5792"#Campanula , very non monophyletic campanula
+               "82_5792",#Campanula , very non monophyletic campanula
+               "932_1831" #Goodeniaceae, tons of non monophyly
                ]
 
 studytreelistTF = [True] * len(studytreelist)
