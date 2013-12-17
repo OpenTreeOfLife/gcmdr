@@ -22,6 +22,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                "2608_6288", #saxifrigales
                "2539_6294",#Soltis et al. 2011 ML tree
  #             "2539_5465",#Soltis et al. 2011 bootstrap
+               "2712_6296", #Rosids
                "259_142", #Cercis FABALES!
                "264_150", #Coursetia FABALES!
                "267_161", #Ateleia (Swartzieae-Leguminosae) FABALES!
@@ -60,7 +61,6 @@ studytreelist=["1022_1967",#Pontederiaceae
                "2610_6117", #malpighiales tree, the best one we have right now, we think6
                "2642_6161",#Cayophyllales; not sure if you have a better study here)
                "14_12", #Bignoniaceae
-               #"15_4", #Rosids
                "2140_4483",#Annonaceae
                "2648_6171",#Marchantiales
                "650_1147",#Meliaceae, Sapindales
