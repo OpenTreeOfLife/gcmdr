@@ -14,3 +14,8 @@ Files with taxon names (fungi.py, birds.py, etc) contain study lists for import.
 * get\_name\_info.py: ultilty script to get information about a name from treemachine
 * life.py: loads all of the studies into treemachine (imports other taxon_name.py files)
 * tree\_utils.py: create consensus trees, calculate bipartitions, calculate distances
+
+Tree identifiers
+----------------
+
+Within the lists found in the taxon files, trees (usually only one per study) are designated as "MMM_NNN" where MMM is the study id and NNN is the id of a tree within that study.
