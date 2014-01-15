@@ -12,11 +12,12 @@ from fungi import studytreelist as fungilist
 
 
 studytreelist = []
-studytreelist.extend(plantslist)
+#studytreelist.extend(plantslist)
 #studytreelist.extend(metalist)
 #studytreelist.extend(fungilist)
 #studytreelist.extend(microbelist)
 
+mapcompat = [] * len(studytreelist)
 
 import load_synth_extract
 
@@ -25,4 +26,4 @@ print "loading synthottolid:",synthottolid
 print "loading studytreelist:",studytreelist
 
 load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
-			 treemloc,generallogfileloc,dsynth,synthottolid,treefn)
+			 treemloc,generallogfileloc,dsynth,synthottolid,treefn,mapcompat)
