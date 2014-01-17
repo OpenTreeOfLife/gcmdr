@@ -1,5 +1,15 @@
 synthottolid="805080"
 
+"""
+full list
+study 425 tree 5976
+study 239 tree 111 and 112  
+study 263 tree  149
+study 2413 tree 5093 and 5094 
+study 2397 tree 5038 and 5039  
+study 2398 tree 5040
+"""
+
 studytreelist=["425_5976"] # Eukaryota. Katz et al. 2012. Syst Biol.
 
 if __name__ == "__main__":

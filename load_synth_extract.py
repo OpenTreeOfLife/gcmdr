@@ -23,7 +23,7 @@ def run_load_single_ttfn(dott,dload,studyloc,studytreelist,javapre,treemloc,
     print "loading trees"
     for i in studytreelist:
         load_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,temptreefn,False)
-
+        mapcompat_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,temptreefn,True)
 
 def run(dott,dload,studyloc,studytreelist,javapre,treemloc,
         generallogfileloc,dsynth,synthottolid,treefn,mapcompat):

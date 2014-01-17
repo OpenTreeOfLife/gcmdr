@@ -4,6 +4,8 @@ import sys
 """
 this will process the taxa_study.log
 files
+
+it will also record the mapcompat information
 """
 
 filepre = "taxa_"
