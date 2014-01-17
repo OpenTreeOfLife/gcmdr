@@ -1,6 +1,6 @@
 synthottolid="805080"
 
-studytreelist=["425_5976"]
+studytreelist=["425_5976"] # Eukaryota. Katz et al. 2012. Syst Biol.
 
 if __name__ == "__main__":
 	import load_synth_extract
