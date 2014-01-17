@@ -5,6 +5,8 @@ Graph of Life Commander
 
 This repo contains scripts for loading trees into treemachine, as well as lists of studies currently being incorporated into the synthetic tree. 
 
+If you want the most up-to-date list of studies being incorporate, run the collect\_input\_trees.pl script. This checks the taxon files listed in life.py and extracts the tree identifiers from each taxon file. Alternately, look at the list of imports in life.py (for example 'from microbes import studytreelist as microbelist'. The microbes.py file would contain a list of the microbe trees, usually with comments containing a short citation. 
+
 Files
 -----
 
