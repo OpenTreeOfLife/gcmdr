@@ -6,7 +6,7 @@ if __name__ == "__main__":
     from stephen_desktop_conf_TEMP import *
     
     synthottolid="10218"
-    studytreelist = ["261_145"]
+    studytreelist = ["225_5991"]
     print "loading synthottolid:",synthottolid
     print "loading studytreelist:",studytreelist
     
