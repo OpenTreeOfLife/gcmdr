@@ -123,6 +123,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                "225_5991",#deep plants
                "1867_3766", #cycads
                "1278_2572"#Liverworts
+               "1268_2560"#hornworts
                "412_2166",#conifers
                "2046_5928" #Trebouxiophyceae, Chlorophyta
                ]
