@@ -122,6 +122,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                #"1116_2217",#Lamiales (Oxelman 2005)
                "225_5991",#deep plants
                "1867_3766", #cycads
+               "1278_2572"#Liverworts
                "412_2166",#conifers
                "2046_5928" #Trebouxiophyceae, Chlorophyta
                ]
