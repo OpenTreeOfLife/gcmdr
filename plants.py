@@ -107,7 +107,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                #"1302_2616", make for weird euphyllophyta
                "915_1802",#Viburnum
                "915_1803",#Valerianaceae
-               "1901_3877"#Lentibulariaceae
+               "1901_3877",#Lentibulariaceae
                "9_1",#Campanulidae
                "142_38",#Asclepias
                "21_37",#Solanaceae
@@ -122,8 +122,8 @@ studytreelist=["1022_1967",#Pontederiaceae
                #"1116_2217",#Lamiales (Oxelman 2005)
                "225_5991",#deep plants
                "1867_3766", #cycads
-               "1278_2572"#Liverworts
-               "1268_2560"#hornworts
+               "1278_2572",#Liverworts
+               "1268_2560",#hornworts
                "412_2166",#conifers
                "2046_5928" #Trebouxiophyceae, Chlorophyta
                ]
