@@ -11,7 +11,7 @@ study 2398 tree 5040
 from Dail
 2739	6325	Bettina E Schirrmeister, Alexandre Antonelli, Homayoun C Bagheri. 2011. The origin of multicellularity in cyanobacteria. BMC Evolutionary Biology 11(1):45
 2552	6326,6327, 6328, 6329	Theriot E., Cannone J., Gutell R., & Alverson A. 2009. The limits of nuclear-encoded SSU rDNA for resolving the diatom phylogeny. European Journal of Phycology, 44(3): 277-290.
-2448	5223	Nicola Segata, Daniela Börnigen, Xochitl C. Morgan, and Curtis Huttenhower. PhyloPhlAn is a new method for improved phylogenetic and taxonomic placement of microbes
+2448	5223	Nicola Segata, Daniela Bornigen, Xochitl C. Morgan, and Curtis Huttenhower. PhyloPhlAn is a new method for improved phylogenetic and taxonomic placement of microbes
 2425	5121	Fewer D., Friedl T., & Budel B. 2002. Chroococcidiopsis and heterocyst differentiating cyanobacteria are each other's closest living relatives. Molecular Phylogenetics and Evolution, 23(1): 82-90..
 2542	5471, 5588, 5590	Jenna Morgan Lang, Aaron E. Darling, Jonathan A. Eisen. 2013. Phylogeny of Bacterial and Archaeal Genomes Using Conserved Genes: Supertrees and Supermatrices. PLoS ONE 8(4):e62510.
 
