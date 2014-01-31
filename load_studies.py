@@ -1,12 +1,12 @@
 import load_synth_extract
 
-from fungi import studytreelist
+from plants_all import studytreelist
 
 if __name__ == "__main__":
     from stephen_desktop_conf_TEMP import *
     
     synthottolid="10218"
-    studytreelist = ["1268_2560"]
+    #studytreelist = ["1268_2560"]
     print "loading synthottolid:",synthottolid
     print "loading studytreelist:",studytreelist
     

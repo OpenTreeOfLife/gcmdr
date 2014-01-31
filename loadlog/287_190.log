@@ -1,0 +1,194 @@
+pgloadind OTUs number 72
+pgloadind Processing tree @id "190"
+pgloadind   tree info number nodes 138
+pgloadind   tree info number edges 137
+pgloadind   tree info ingroup "node176043"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 61
+pgloadind   property added ot:studyPublicationReference "Sánchez-del-Pino, I., Borsch, T., & Motley, T. J. (2009). trnL-F and rpl16 sequence data and dense taxon sampling reveal monophyly of unilocular anthered Gomphrenoideae (Amaranthaceae) and an improved picture of their internal relationships. Systematic Botany, 34(1), 57-67."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1600/036364409787602401"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S2079"
+pgloadind   property added ot:studyId "287"
+pgloadind   property added ot:studyYear "2009"
+pgloadind   property added ot:focalClade "548280"
+pgloadind   property added ot:focalCladeOTTTaxonName "Amaranthaceae"
+pgloadind   property added ot:inGroupClade "node176043"
+pgloadind   property added ot:curatedType "MP Strict consensus tree"
+loading a specific tree: 190
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "190"
+pgloadind     OTT ID missing name "Tidestromia suffruticosa oblongifolia" nexsonid "node176070"
+{"names":["Iresine palmeri","Iresine alternifolia","Iresine grandis","Iresine leptoclada","Iresine","Iresine arbuscula","Irenella chrysotricha","Iresine diffusa","Iresine heterophylla","Woehleria serpyllifolia","Tidestromia tenella","Tidestromia valdesiana","Tidestromia suffruticosa oblongifolia","Tidestromia lanuginosa subsp. eliassoniana","Tidestromia rhizomatosa","Tidestromia suffruticosa","Tidestromia carnosa","Tidestromia lanuginosa subsp. lanuginosa","Pedersenia","Pedersenia argentata","Pedersenia cardenasii","Alternanthera philoxeroides","Alternanthera pungens","Alternanthera caracasana","Alternanthera ficoidea","Alternanthera crucis","Alternanthera halimifolia","Alternanthera galapagensis","Alternanthera laguroides","Alternanthera olivacea","Alternanthera altacruzensis","Alternanthera flavescens","Alternanthera elongata","Alternanthera flava","Pseudoplantago friesii","Pfaffia iresinoides","Gomphrena elegans","Pfaffia jubata","Pfaffia tuberosa","Gomphrena vaga","Hebanthe paniculata","Hebanthe occidentalis","Hebanthe grandiflora","Xerosiphon angustiflorus","Xerosiphon aphyllus","Froelichia tomentosa","Froelichia floridana","Froelichia interrupta","Guilleminea densa","Guilleminea gracilis","Gomphrena boliviana","Gossypianthus lanuginosus","Gomphrena flaccida","Blutaparon vermiculare","Lithophila muscoides","Gomphrena graminea","Gomphrena macrocephala","Gomphrena haenkeana","Gomphrena nitida","Gomphrena serrata","Gomphrena globosa"]}
+pgloadind   TNRS unmatched total number 1
+pgloadind     pruning unmapped name "Tidestromia suffruticosa oblongifolia" nexsonid "node176070"
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Iresine palmeri" nexsonid "node176046"
+pgloadind       overlapping pruned name "Iresine" nexsonid "node176054"
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Pedersenia argentata" nexsonid "node176084"
+pgloadind       overlapping pruned name "Pedersenia" nexsonid "node176082"
+pgloadind     pruning dups and overlapping name "Iresine" nexsonid "node176054"
+pgloadind     pruning dups and overlapping name "Pedersenia" nexsonid "node176082"
+pgloadind   postpruning newick tree "(((Iresine_palmeri,(Iresine_alternifolia,(Iresine_grandis,Iresine_leptoclada))),((Irenella_chrysotricha,(Iresine_diffusa,(Iresine_heterophylla,Woehleria_serpyllifolia))),Iresine_arbuscula)),((((Tidestromia_tenella,Tidestromia_valdesiana),(Tidestromia_lanuginosa_subsp_eliassoniana,((Tidestromia_rhizomatosa,Tidestromia_suffruticosa),(Tidestromia_carnosa,Tidestromia_lanuginosa_subsp_lanuginosa)))),((((Alternanthera_philoxeroides,((Alternanthera_pungens,Alternanthera_caracasana),(Alternanthera_ficoidea,(Alternanthera_crucis,Alternanthera_halimifolia,Alternanthera_galapagensis)))),(Alternanthera_laguroides,Alternanthera_olivacea)),(Alternanthera_altacruzensis,(Alternanthera_flavescens,(Alternanthera_elongata,Alternanthera_flava)))),(Pedersenia_argentata,Pedersenia_cardenasii))),(Pseudoplantago_friesii,(((Pfaffia_iresinoides,Gomphrena_elegans,(Pfaffia_jubata,Pfaffia_tuberosa)),(Gomphrena_vaga,(Hebanthe_paniculata,(Hebanthe_occidentalis,Hebanthe_grandiflora)))),((Xerosiphon_angustiflorus,Xerosiphon_aphyllus),((Froelichia_tomentosa,(Froelichia_floridana,Froelichia_interrupta)),((Guilleminea_densa,Guilleminea_gracilis),((Gomphrena_boliviana,Gossypianthus_lanuginosus),(Gomphrena_flaccida,(Blutaparon_vermiculare,Lithophila_muscoides)),((Gomphrena_graminea,Gomphrena_macrocephala),(Gomphrena_haenkeana,(Gomphrena_nitida,Gomphrena_serrata,Gomphrena_globosa)))))))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 261067 taxonomy "Iresine palmeri->Iresine->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176046"
+pgloadind     taxon mapping OTT ID 831522 taxonomy "Iresine alternifolia->Iresine->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176048"
+pgloadind     taxon mapping OTT ID 307286 taxonomy "Iresine grandis->Iresine->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176050"
+pgloadind     taxon mapping OTT ID 307282 taxonomy "Iresine leptoclada->Iresine->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176051"
+pgloadind     taxon mapping OTT ID 154610 taxonomy "Irenella chrysotricha->Irenella->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176057"
+pgloadind     taxon mapping OTT ID 744139 taxonomy "Iresine diffusa->Iresine->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176059"
+pgloadind     taxon mapping OTT ID 307280 taxonomy "Iresine heterophylla->Iresine->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176061"
+pgloadind     taxon mapping OTT ID 257110 taxonomy "Woehleria serpyllifolia->Woehleria->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176062"
+pgloadind     taxon mapping OTT ID 307284 taxonomy "Iresine arbuscula->Iresine->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176055"
+pgloadind     taxon mapping OTT ID 257104 taxonomy "Tidestromia tenella->Tidestromia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176067"
+pgloadind     taxon mapping OTT ID 257106 taxonomy "Tidestromia valdesiana->Tidestromia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176068"
+pgloadind     taxon mapping OTT ID 780098 taxonomy "Tidestromia lanuginosa subsp. eliassoniana->Tidestromia lanuginosa->Tidestromia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176072"
+pgloadind     taxon mapping OTT ID 257099 taxonomy "Tidestromia rhizomatosa->Tidestromia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176075"
+pgloadind     taxon mapping OTT ID 744136 taxonomy "Tidestromia suffruticosa->Tidestromia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176076"
+pgloadind     taxon mapping OTT ID 780100 taxonomy "Tidestromia carnosa->Tidestromia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176078"
+pgloadind     taxon mapping OTT ID 257098 taxonomy "Tidestromia lanuginosa subsp. lanuginosa->Tidestromia lanuginosa->Tidestromia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176079"
+pgloadind     taxon mapping OTT ID 770189 taxonomy "Alternanthera philoxeroides->Alternanthera->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176089"
+pgloadind     taxon mapping OTT ID 151506 taxonomy "Alternanthera pungens->Alternanthera->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176092"
+pgloadind     taxon mapping OTT ID 186440 taxonomy "Alternanthera caracasana->Alternanthera->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176093"
+pgloadind     taxon mapping OTT ID 441068 taxonomy "Alternanthera ficoidea->Alternanthera->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176095"
+pgloadind     taxon mapping OTT ID 154803 taxonomy "Alternanthera crucis->Alternanthera->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176097"
+pgloadind     taxon mapping OTT ID 154795 taxonomy "Alternanthera halimifolia->Alternanthera->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176098"
+pgloadind     taxon mapping OTT ID 154809 taxonomy "Alternanthera galapagensis->Alternanthera->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176099"
+pgloadind     taxon mapping OTT ID 490914 taxonomy "Alternanthera laguroides->Alternanthera->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176101"
+pgloadind     taxon mapping OTT ID 154797 taxonomy "Alternanthera olivacea->Alternanthera->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176102"
+pgloadind     taxon mapping OTT ID 678059 taxonomy "Alternanthera altacruzensis->Alternanthera->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176104"
+pgloadind     taxon mapping OTT ID 261662 taxonomy "Alternanthera flavescens->Alternanthera->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176106"
+pgloadind     taxon mapping OTT ID 154805 taxonomy "Alternanthera elongata->Alternanthera->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176108"
+pgloadind     taxon mapping OTT ID 154807 taxonomy "Alternanthera flava->Alternanthera->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176109"
+pgloadind     taxon mapping OTT ID 780112 taxonomy "Pedersenia argentata->Pedersenia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176084"
+pgloadind     taxon mapping OTT ID 780110 taxonomy "Pedersenia cardenasii->Pedersenia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176085"
+pgloadind     taxon mapping OTT ID 440733 taxonomy "Pseudoplantago friesii->Pseudoplantago->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176111"
+pgloadind     taxon mapping OTT ID 780108 taxonomy "Pfaffia iresinoides->Pfaffia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176115"
+pgloadind     taxon mapping OTT ID 253694 taxonomy "Gomphrena elegans->Gomphrena->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176116"
+pgloadind     taxon mapping OTT ID 780106 taxonomy "Pfaffia jubata->Pfaffia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176118"
+pgloadind     taxon mapping OTT ID 780104 taxonomy "Pfaffia tuberosa->Pfaffia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176119"
+pgloadind     taxon mapping OTT ID 831506 taxonomy "Gomphrena vaga->Gomphrena->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176121"
+pgloadind     taxon mapping OTT ID 831524 taxonomy "Hebanthe paniculata->Hebanthe->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176123"
+pgloadind     taxon mapping OTT ID 253705 taxonomy "Hebanthe occidentalis->Hebanthe->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176125"
+pgloadind     taxon mapping OTT ID 831510 taxonomy "Hebanthe grandiflora->Hebanthe->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176126"
+pgloadind     taxon mapping OTT ID 257114 taxonomy "Xerosiphon angustiflorus->Xerosiphon->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176129"
+pgloadind     taxon mapping OTT ID 1030308 taxonomy "Xerosiphon aphyllus->Xerosiphon->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176130"
+pgloadind     taxon mapping OTT ID 154813 taxonomy "Froelichia tomentosa->Froelichia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176133"
+pgloadind     taxon mapping OTT ID 258774 taxonomy "Froelichia floridana->Froelichia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176135"
+pgloadind     taxon mapping OTT ID 261657 taxonomy "Froelichia interrupta->Froelichia->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176136"
+pgloadind     taxon mapping OTT ID 503755 taxonomy "Guilleminea densa->Guilleminea->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176139"
+pgloadind     taxon mapping OTT ID 831512 taxonomy "Guilleminea gracilis->Guilleminea->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176140"
+pgloadind     taxon mapping OTT ID 554998 taxonomy "Gomphrena boliviana->Gomphrena->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176143"
+pgloadind     taxon mapping OTT ID 440741 taxonomy "Gossypianthus lanuginosus->Gossypianthus->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176144"
+pgloadind     taxon mapping OTT ID 831516 taxonomy "Gomphrena flaccida->Gomphrena->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176146"
+pgloadind     taxon mapping OTT ID 490899 taxonomy "Blutaparon vermiculare->Blutaparon->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176148"
+pgloadind     taxon mapping OTT ID 307288 taxonomy "Lithophila muscoides->Lithophila->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176149"
+pgloadind     taxon mapping OTT ID 831514 taxonomy "Gomphrena graminea->Gomphrena->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176152"
+pgloadind     taxon mapping OTT ID 831518 taxonomy "Gomphrena macrocephala->Gomphrena->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176153"
+pgloadind     taxon mapping OTT ID 831520 taxonomy "Gomphrena haenkeana->Gomphrena->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176155"
+pgloadind     taxon mapping OTT ID 831508 taxonomy "Gomphrena nitida->Gomphrena->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176157"
+pgloadind     taxon mapping OTT ID 1017131 taxonomy "Gomphrena serrata->Gomphrena->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176158"
+pgloadind     taxon mapping OTT ID 1017125 taxonomy "Gomphrena globosa->Gomphrena->Amaranthaceae->Caryophyllales->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node176159"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "190"
+pgloadind   Adding tree to graph tree id "190"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Blutaparon vermiculare was remapped to 'Blutaparon' (id=2532162)
+	Woehleria serpyllifolia was remapped to 'Woehleria' (id=2530944)
+	Lithophila muscoides was remapped to 'Lithophila' (id=2531119)
+	Pseudoplantago friesii was remapped to 'Pseudoplantago' (id=2532116)
+	Gossypianthus lanuginosus was remapped to 'Gossypianthus' (id=2533675)
+	Irenella chrysotricha was remapped to 'Irenella' (id=2530702)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Sánchez-del-Pino, I., Borsch, T., & Motley, T. J. (2009). trnL-F and rpl16 sequence data and dense taxon sampling reveal monophyly of unilocular anthered Gomphrenoideae (Amaranthaceae) and an improved picture of their internal relationships. Systematic Botany, 34(1), 57-67.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Amaranthaceae
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2009
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node176043
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1600/036364409787602401
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 548280
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP Strict consensus tree
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 287
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S2079
+Committing nodes: 111
+{2530579}
+2530746
+2530763
+2530767
+2530769
+2530771
+2530773
+2530775
+2530777
+2530783
+2530786
+2530799
+2530803
+2530814
+2530816
+2530819
+2530824
+2530826
+2530828
+2530832
+2530846
+2530853
+2530875
+2530880
+2530935
+2530938
+2530940
+2530950
+2530952
+2531129
+2531134
+2532058
+2532063
+2532065
+2532068
+2532070
+2532079
+2532089
+2532122
+2532124
+2532126
+2532189
+2532191
+2532204
+2532306
+2532308
+2532310
+2532312
+2532314
+2532323
+2532324
+2532655
+2532660
+2530702
+2530944
+2531119
+2532116
+2532162
+	adding Node[2532162] Blutaparon 490918 as compatible with Node[2532162]
+		adding Relationship[8257417]
+2533675
+[Node[3501521], Node[2532162]]
+	Node[3501521]
+	Node[2532162]
+		adding Relationship[8257418] from Node[2532162] to Node[3501521]

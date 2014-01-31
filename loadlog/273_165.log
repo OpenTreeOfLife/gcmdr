@@ -1,0 +1,193 @@
+pgloadind OTUs number 59
+pgloadind Processing tree @id "165"
+pgloadind   tree info number nodes 117
+pgloadind   tree info number edges 116
+pgloadind   tree info ingroup "node171545"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 57
+pgloadind   property added ot:studyPublicationReference "Hoot S.B., Meyer K.M., & Manning J.C. 2012. Phylogeny and Reclassification of Anemone
+(Ranunculaceae),  with an Emphasis on Austral Species. Systematic Botany, 37(1):
+139152."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1600/036364412X616729"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S10875"
+pgloadind   property added ot:studyId "273"
+pgloadind   property added ot:studyYear "2012"
+pgloadind   property added ot:focalClade "981441"
+pgloadind   property added ot:focalCladeOTTTaxonName "Anemone"
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+pgloadind   property added ot:inGroupClade "node171545"
+pgloadind   property added ot:curatedType "ML"
+loading a specific tree: 165
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "165"
+pgloadind     OTT ID missing name "Anemone moorei" nexsonid "node171588"
+pgloadind     OTT ID missing name "Anemone major" nexsonid "node171593"
+pgloadind   TNRS unmatched total number 2
+pgloadind     pruning unmapped name "Anemone major" nexsonid "node171593"
+pgloadind     pruning unmapped name "Anemone moorei" nexsonid "node171588"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Oreithales integrifolia" nexsonid "node171586"
+pgloadind       duplicate OTT ID 923590
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Anemone knowltonia" nexsonid "node171609"
+pgloadind       duplicate OTT ID 750052
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Anemone tenuifolia var. capensis" nexsonid "node171600"
+pgloadind       overlapping pruned name "Anemone tenuifolia" nexsonid "node171601"
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Anemone drummondii" nexsonid "node171632"
+pgloadind       overlapping pruned name "Anemone drummondii var. lithophila" nexsonid "node171633"
+pgloadind     pruning dups and overlapping name "Anemone tenuifolia" nexsonid "node171601"
+pgloadind     pruning dups and overlapping name "Oreithales integrifolia" nexsonid "node171586"
+pgloadind     pruning dups and overlapping name "Anemone drummondii var. lithophila" nexsonid "node171633"
+pgloadind     pruning dups and overlapping name "Anemone knowltonia" nexsonid "node171609"
+pgloadind   postpruning newick tree "(((Hepatica_nobilis,(Anemone_transsilvanica,Anemone_americana)),((Anemone_flaccida,Anemone_keiskeana),((Anemone_canadensis,(Anemone_richardsonii,(Anemone_antucensis,Anemone_tenuicaulis))),((Anemone_obtusiloba,Anemone_trullifolia),(Anemone_tetrasepala,(Anemone_demissa,Anemone_narcissiflora)))))),((Anemone_mexicana,((Anemone_crassifolia,(((Anemone_helleborifolia,Anemone_sellowii),Oreithales_integrifolia),(Anemone_alpina,Pulsatilla_chinensis))),(((Anemone_fanninii,Anemone_caffra),Anemone_tenuifolia_var_capensis),(Anemone_bracteata,((Anemone_knowltonia,Anemone_anemonoides),Anemone_cordata))))),((Anemone_occidentalis,Pulsatilla_halleri),((Anemone_rivularis,(Anemone_rupicola,(Anemone_hupehensis,Anemone_vitifolia))),((Anemone_blanda,(Anemone_thomsonii,((Anemone_parviflora,Anemone_drummondii),((Anemone_ranunculoides,Anemone_quinquefolia),(Anemone_sylvestris,Anemone_virginiana))))),(((Anemone_coronaria,Anemone_somaliensis),(Anemone_hortensis,Anemone_pavonina)),(Anemone_decapetala,(Anemone_tuberosa,(Anemone_caroliniana,(Anemone_edwardsiana,Anemone_berlandieri))))))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 370852 taxonomy "Hepatica nobilis->Hepatica->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171548"
+pgloadind     taxon mapping OTT ID 370856 taxonomy "Anemone transsilvanica->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171550"
+pgloadind     taxon mapping OTT ID 693540 taxonomy "Anemone americana->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171551"
+pgloadind     taxon mapping OTT ID 750046 taxonomy "Anemone flaccida->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171554"
+pgloadind     taxon mapping OTT ID 750044 taxonomy "Anemone keiskeana->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171555"
+pgloadind     taxon mapping OTT ID 483272 taxonomy "Anemone canadensis->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171558"
+pgloadind     taxon mapping OTT ID 750054 taxonomy "Anemone richardsonii->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171560"
+pgloadind     taxon mapping OTT ID 525093 taxonomy "Anemone antucensis->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171562"
+pgloadind     taxon mapping OTT ID 525060 taxonomy "Anemone tenuicaulis->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171563"
+pgloadind     taxon mapping OTT ID 750050 taxonomy "Anemone obtusiloba->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171566"
+pgloadind     taxon mapping OTT ID 226631 taxonomy "Anemone trullifolia->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171567"
+pgloadind     taxon mapping OTT ID 548474 taxonomy "Anemone tetrasepala->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171569"
+pgloadind     taxon mapping OTT ID 750042 taxonomy "Anemone demissa->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171571"
+pgloadind     taxon mapping OTT ID 896053 taxonomy "Anemone narcissiflora->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171572"
+pgloadind     taxon mapping OTT ID 1074752 taxonomy "Anemone mexicana->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171575"
+pgloadind     taxon mapping OTT ID 750036 taxonomy "Anemone crassifolia->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171578"
+pgloadind     taxon mapping OTT ID 1074748 taxonomy "Anemone helleborifolia->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171582"
+pgloadind     taxon mapping OTT ID 548480 taxonomy "Anemone sellowii->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171583"
+pgloadind     taxon mapping OTT ID 923590 taxonomy "Oreithales integrifolia->Oreithales->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171585"
+pgloadind     taxon mapping OTT ID 1061042 taxonomy "Anemone alpina->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171590"
+pgloadind     taxon mapping OTT ID 34150 taxonomy "Pulsatilla chinensis->Pulsatilla->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171592"
+pgloadind     taxon mapping OTT ID 34530 taxonomy "Anemone fanninii->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171597"
+pgloadind     taxon mapping OTT ID 175639 taxonomy "Anemone caffra->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171598"
+pgloadind     taxon mapping OTT ID 555446 taxonomy "Anemone tenuifolia var. capensis->Anemone tenuifolia->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171600"
+pgloadind     taxon mapping OTT ID 34536 taxonomy "Anemone bracteata->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171603"
+pgloadind     taxon mapping OTT ID 750052 taxonomy "Anemone knowltonia->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171606"
+pgloadind     taxon mapping OTT ID 34535 taxonomy "Anemone anemonoides->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171607"
+pgloadind     taxon mapping OTT ID 34537 taxonomy "Anemone cordata->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171610"
+pgloadind     taxon mapping OTT ID 750056 taxonomy "Anemone occidentalis->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171613"
+pgloadind     taxon mapping OTT ID 209723 taxonomy "Pulsatilla halleri->Pulsatilla->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171614"
+pgloadind     taxon mapping OTT ID 977463 taxonomy "Anemone rivularis->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171617"
+pgloadind     taxon mapping OTT ID 548478 taxonomy "Anemone rupicola->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171619"
+pgloadind     taxon mapping OTT ID 896058 taxonomy "Anemone hupehensis->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171621"
+pgloadind     taxon mapping OTT ID 548472 taxonomy "Anemone vitifolia->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171622"
+pgloadind     taxon mapping OTT ID 385036 taxonomy "Anemone blanda->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171625"
+pgloadind     taxon mapping OTT ID 555449 taxonomy "Anemone thomsonii->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171627"
+pgloadind     taxon mapping OTT ID 1074750 taxonomy "Anemone parviflora->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171630"
+pgloadind     taxon mapping OTT ID 750040 taxonomy "Anemone drummondii->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171632"
+pgloadind     taxon mapping OTT ID 896063 taxonomy "Anemone ranunculoides->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171636"
+pgloadind     taxon mapping OTT ID 421853 taxonomy "Anemone quinquefolia->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171637"
+pgloadind     taxon mapping OTT ID 977458 taxonomy "Anemone sylvestris->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171639"
+pgloadind     taxon mapping OTT ID 977431 taxonomy "Anemone virginiana->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171640"
+pgloadind     taxon mapping OTT ID 483258 taxonomy "Anemone coronaria->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171644"
+pgloadind     taxon mapping OTT ID 34532 taxonomy "Anemone somaliensis->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171645"
+pgloadind     taxon mapping OTT ID 483260 taxonomy "Anemone hortensis->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171647"
+pgloadind     taxon mapping OTT ID 896065 taxonomy "Anemone pavonina->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171648"
+pgloadind     taxon mapping OTT ID 1074760 taxonomy "Anemone decapetala->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171650"
+pgloadind     taxon mapping OTT ID 548470 taxonomy "Anemone tuberosa->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171652"
+pgloadind     taxon mapping OTT ID 750038 taxonomy "Anemone caroliniana->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171654"
+pgloadind     taxon mapping OTT ID 1074758 taxonomy "Anemone edwardsiana->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171656"
+pgloadind     taxon mapping OTT ID 1074754 taxonomy "Anemone berlandieri->Anemone->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171657"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "165"
+pgloadind   Adding tree to graph tree id "165"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Hepatica nobilis was remapped to 'Hepatica' (id=2524219)
+	Oreithales integrifolia was remapped to 'Oreithales' (id=2525117)
+	Anemone tenuifolia var. capensis was remapped to 'Anemone tenuifolia' (id=2523454)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Hoot S.B., Meyer K.M., & Manning J.C. 2012. Phylogeny and Reclassification of Anemone
+(Ranunculaceae),  with an Emphasis on Austral Species. Systematic Botany, 37(1):
+139152.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Anemone
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2012
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node171545
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1600/036364412X616729
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 981441
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': ML
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 273
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S10875
+Committing nodes: 101
+{2523291}
+2523361
+2523362
+2523363
+2523364
+2523365
+2523366
+2523372
+2523388
+2523392
+2523394
+2523399
+2523401
+2523404
+2523407
+2523409
+2523411
+2523412
+2523413
+2523414
+2523415
+2523417
+2523419
+2523427
+2523429
+2523431
+2523435
+2523437
+2523439
+2523443
+2523445
+2523446
+2523449
+2523463
+2523470
+2523472
+2523475
+2523490
+2523493
+2523496
+2523500
+2523505
+2523506
+2523507
+2523508
+2523512
+2523513
+2524174
+2524213
+2523454
+	adding Node[2523454] Anemone tenuifolia 820786 as compatible with Node[2523454]
+		adding Relationship[8257412]
+2524219
+2525117
+[Node[3501508], Node[2523454]]
+	Node[3501508]
+	Node[2523454]
+		adding Relationship[8257413] from Node[2523454] to Node[3501508]

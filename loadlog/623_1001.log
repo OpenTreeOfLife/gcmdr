@@ -1,0 +1,455 @@
+pgloadind OTUs number 64
+pgloadind Processing tree @id "1000"
+pgloadind   tree info number nodes 123
+pgloadind   tree info number edges 122
+pgloadind   tree info ingroup "node389111"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 59
+pgloadind   property added ot:studyPublicationReference "Alverson W., Whitlock B., Nyffeler R., Bayer C., & Baum D. 1999. Phylogeny of the core Malvales: evidence from ndhF sequence data. American Journal of Botany, 86(10): 1474-1486."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/2656928"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S564"
+pgloadind   property added ot:studyId "623"
+pgloadind   property added ot:studyYear "1999"
+pgloadind   property added ot:focalClade "351412"
+pgloadind   property added ot:tag "ingroup added;"
+pgloadind   property added ot:inGroupClade "node389111"
+pgloadind Processing tree @id "1001"
+pgloadind   tree info number nodes 119
+pgloadind   tree info number edges 118
+pgloadind   tree info ingroup "node389233"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 61
+pgloadind   property added ot:studyPublicationReference "Alverson W., Whitlock B., Nyffeler R., Bayer C., & Baum D. 1999. Phylogeny of the core Malvales: evidence from ndhF sequence data. American Journal of Botany, 86(10): 1474-1486."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/2656928"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S564"
+pgloadind   property added ot:studyId "623"
+pgloadind   property added ot:studyYear "1999"
+pgloadind   property added ot:focalClade "351412"
+pgloadind   property added ot:tag "ingroup added;"
+pgloadind   property added ot:inGroupClade "node389233"
+loading a specific tree: 1001
+skipping tree: 1000
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "1001"
+pgloadind     OTT ID missing name "Abutilon scabridum" nexsonid "node389242"
+pgloadind     OTT ID missing name "Pseudocorchorus" nexsonid "node389331"
+{"names":["Abutilon scabridum","Malope trifida","Gossypium hirsutum","Hampea appendiculata","Thespesia populnea","Malvaviscus arboreus","Pavonia multiflora","Hibiscus costatus","Camptostemon schultzii","Matisia cordata","Phragmotheca ecuadorensis","Quararibea costaricensis","Fremontodendron californicum","Chiranthodendron pentadactylon","Adansonia digitata","Bombax buonopozense","Ceiba acuminata","Catostemma fragrans","Scleronema micranthum","Bernoullia flammea","Gyranthera caribensis","Huberodendron patinoi","Ochroma pyramidale","Patinoa sphaerocarpa","Craigia sp. Kubitzki and Appel 4","Tilia americana","Eriolaena spectabilis","Dombeya spectabilis","Pterospermum acerifolium","Nesogordonia","Heritiera littoralis","Sterculia tragacantha","Brachychiton acerifolius","Hildegardia barteri","Cola acuminata","Berrya javanica","Carpodiptera ameliae","Brownlowia elata","Pentace polyantha","Reevesia thyrsoidea","Helicteres guazumifolia","Durio zibethinus","Neesia sp. Lamm 294","Colona scabra","Luehea seemannii","Trichospermum mexicanum","Grewia biloba","Apeiba tibourbou","Entelea arborescens","Sparrmannia africana","Corchorus olitorius","Pseudocorchorus","Triumfetta semitriloba","Heliocarpus appendiculatus","Glyphaea brevis","Waltheria madagascariensis","Hannafordia shanesii","Leptonychia sp. Church et al. 2685","Byttneria aculeata","Kleinhovia hospita","Guazuma ulmifolia"]}
+pgloadind   TNRS unmatched total number 1
+pgloadind     TNRS resolved ottId OTT ID 5233001 name "Pseudocorchorus" searched on "Pseudocorchorus"nexsonid "node389331"
+pgloadind     pruning unmapped name "Abutilon scabridum" nexsonid "node389242"
+pgloadind   postpruning newick tree "(((((((((Malope_trifida,(Gossypium_hirsutum,(Hampea_appendiculata,Thespesia_populnea))),((Malvaviscus_arboreus,Pavonia_multiflora),Hibiscus_costatus)),Camptostemon_schultzii),((Matisia_cordata,Phragmotheca_ecuadorensis),Quararibea_costaricensis)),(Fremontodendron_californicum,Chiranthodendron_pentadactylon)),(((Adansonia_digitata,(Bombax_buonopozense,Ceiba_acuminata)),(Catostemma_fragrans,Scleronema_micranthum)),Bernoullia_flammea,(Gyranthera_caribensis,Huberodendron_patinoi)),(Ochroma_pyramidale,Patinoa_sphaerocarpa)),((Craigia_sp_Kubitzki_and_Appel_4,Tilia_americana),(((Eriolaena_spectabilis,Dombeya_spectabilis),Pterospermum_acerifolium),Nesogordonia)),(Heritiera_littoralis,Sterculia_tragacantha,Brachychiton_acerifolius,(Hildegardia_barteri,Cola_acuminata)),((Berrya_javanica,Carpodiptera_ameliae),(Brownlowia_elata,Pentace_polyantha))),((Reevesia_thyrsoidea,Helicteres_guazumifolia),(Durio_zibethinus,Neesia_sp_Lamm_294))),((((Colona_scabra,Luehea_seemannii),(Trichospermum_mexicanum,Grewia_biloba)),((Apeiba_tibourbou,(Entelea_arborescens,Sparrmannia_africana)),(((Corchorus_olitorius,Pseudocorchorus),(Triumfetta_semitriloba,Heliocarpus_appendiculatus)),Glyphaea_brevis))),((Waltheria_madagascariensis,Hannafordia_shanesii),((Leptonychia_sp_Church_et_al_2685,(Byttneria_aculeata,Kleinhovia_hospita)),Guazuma_ulmifolia))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 108613 taxonomy "Malope trifida->Malope->Malvoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389243"
+pgloadind     taxon mapping OTT ID 854480 taxonomy "Gossypium hirsutum->Gossypium->Malvoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389245"
+pgloadind     taxon mapping OTT ID 552292 taxonomy "Hampea appendiculata->Hampea->Malvoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389247"
+pgloadind     taxon mapping OTT ID 854467 taxonomy "Thespesia populnea->Thespesia->Malvoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389248"
+pgloadind     taxon mapping OTT ID 108599 taxonomy "Malvaviscus arboreus->Malvaviscus->Malvoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389251"
+pgloadind     taxon mapping OTT ID 192100 taxonomy "Pavonia multiflora->Pavonia->Malvoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389252"
+pgloadind     taxon mapping OTT ID 84576 taxonomy "Hibiscus costatus->Hibiscus->Malvoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389253"
+pgloadind     taxon mapping OTT ID 236636 taxonomy "Camptostemon schultzii->Camptostemon->Bombacoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389254"
+pgloadind     taxon mapping OTT ID 433616 taxonomy "Matisia cordata->Matisia->Malvoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389257"
+pgloadind     taxon mapping OTT ID 682924 taxonomy "Phragmotheca ecuadorensis->Phragmotheca->Bombacoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389258"
+pgloadind     taxon mapping OTT ID 682925 taxonomy "Quararibea costaricensis->Quararibea->Malvoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389259"
+pgloadind     taxon mapping OTT ID 827914 taxonomy "Fremontodendron californicum->Fremontodendron->Bombacoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389261"
+pgloadind     taxon mapping OTT ID 578280 taxonomy "Chiranthodendron pentadactylon->Chiranthodendron->Bombacoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389262"
+pgloadind     taxon mapping OTT ID 659136 taxonomy "Adansonia digitata->Adansonia->Bombacoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389266"
+pgloadind     taxon mapping OTT ID 312752 taxonomy "Bombax buonopozense->Bombax->Bombacoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389268"
+pgloadind     taxon mapping OTT ID 578281 taxonomy "Ceiba acuminata->Ceiba->Bombacoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389269"
+pgloadind     taxon mapping OTT ID 5545 taxonomy "Catostemma fragrans->Catostemma->Bombacoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389271"
+pgloadind     taxon mapping OTT ID 682929 taxonomy "Scleronema micranthum->Scleronema->Bombacoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389272"
+pgloadind     taxon mapping OTT ID 5562 taxonomy "Bernoullia flammea->Bernoullia->Bombacoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389273"
+pgloadind     taxon mapping OTT ID 527006 taxonomy "Gyranthera caribensis->Gyranthera->Bombacoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389275"
+pgloadind     taxon mapping OTT ID 108608 taxonomy "Huberodendron patinoi->Huberodendron->Bombacoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389276"
+pgloadind     taxon mapping OTT ID 861917 taxonomy "Ochroma pyramidale->Ochroma->Bombacoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389278"
+pgloadind     taxon mapping OTT ID 682920 taxonomy "Patinoa sphaerocarpa->Patinoa->Bombacoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389279"
+pgloadind     taxon mapping OTT ID 971670 taxonomy "Craigia sp. Kubitzki and Appel 4->Craigia->Tilioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389282"
+pgloadind     taxon mapping OTT ID 770764 taxonomy "Tilia americana->Tilia->Tilioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389283"
+pgloadind     taxon mapping OTT ID 905761 taxonomy "Eriolaena spectabilis->Eriolaena->Dombeyoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389287"
+pgloadind     taxon mapping OTT ID 1053099 taxonomy "Dombeya spectabilis->Dombeya->Dombeyoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389288"
+pgloadind     taxon mapping OTT ID 682927 taxonomy "Pterospermum acerifolium->Pterospermum->Dombeyoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389289"
+pgloadind     taxon mapping OTT ID 266348 taxonomy "Nesogordonia->Dombeyoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389290"
+pgloadind     taxon mapping OTT ID 108610 taxonomy "Heritiera littoralis->Heritiera->Sterculioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389292"
+pgloadind     taxon mapping OTT ID 770769 taxonomy "Sterculia tragacantha->Sterculia->Sterculioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389293"
+pgloadind     taxon mapping OTT ID 5551 taxonomy "Brachychiton acerifolius->Brachychiton->Sterculioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389294"
+pgloadind     taxon mapping OTT ID 336228 taxonomy "Hildegardia barteri->Hildegardia->Sterculioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389296"
+pgloadind     taxon mapping OTT ID 1053097 taxonomy "Cola acuminata->Cola->Sterculioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389297"
+pgloadind     taxon mapping OTT ID 45704 taxonomy "Berrya javanica->Berrya->Brownlowioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389300"
+pgloadind     taxon mapping OTT ID 5548 taxonomy "Carpodiptera ameliae->Carpodiptera->Brownlowioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389301"
+pgloadind     taxon mapping OTT ID 916479 taxonomy "Brownlowia elata->Brownlowia->Brownlowioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389303"
+pgloadind     taxon mapping OTT ID 286172 taxonomy "Pentace polyantha->Pentace->Brownlowioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389304"
+pgloadind     taxon mapping OTT ID 916126 taxonomy "Reevesia thyrsoidea->Reevesia->Helicteroideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389307"
+pgloadind     taxon mapping OTT ID 527001 taxonomy "Helicteres guazumifolia->Helicteres->Helicteroideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389308"
+pgloadind     taxon mapping OTT ID 236622 taxonomy "Durio zibethinus->Durio->Helicteroideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389310"
+pgloadind     taxon mapping OTT ID 327923 taxonomy "Neesia sp. Lamm 294->Neesia->Malvoideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389311"
+pgloadind     taxon mapping OTT ID 827919 taxonomy "Colona scabra->Colona->Grewioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389316"
+pgloadind     taxon mapping OTT ID 20327 taxonomy "Luehea seemannii->Luehea->Grewioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389317"
+pgloadind     taxon mapping OTT ID 934214 taxonomy "Trichospermum mexicanum->Trichospermum->Grewioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389319"
+pgloadind     taxon mapping OTT ID 526999 taxonomy "Grewia biloba->Grewia->Grewioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389320"
+pgloadind     taxon mapping OTT ID 1010139 taxonomy "Apeiba tibourbou->Apeiba->Grewioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389323"
+pgloadind     taxon mapping OTT ID 1053090 taxonomy "Entelea arborescens->Entelea->Grewioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389325"
+pgloadind     taxon mapping OTT ID 682916 taxonomy "Sparrmannia africana->Sparrmannia->Grewioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389326"
+pgloadind     taxon mapping OTT ID 578269 taxonomy "Corchorus olitorius->Corchorus->Grewioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389330"
+pgloadind     taxon mapping OTT ID 5233001 taxonomy "Pseudocorchorus->Grewioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389331"
+pgloadind     taxon mapping OTT ID 934225 taxonomy "Triumfetta semitriloba->Triumfetta->Grewioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389333"
+pgloadind     taxon mapping OTT ID 526992 taxonomy "Heliocarpus appendiculatus->Heliocarpus->Grewioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389334"
+pgloadind     taxon mapping OTT ID 1053107 taxonomy "Glyphaea brevis->Glyphaea->Grewioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389335"
+pgloadind     taxon mapping OTT ID 157060 taxonomy "Waltheria madagascariensis->Waltheria->Byttnerioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389338"
+pgloadind     taxon mapping OTT ID 527004 taxonomy "Hannafordia shanesii->Hannafordia->Byttnerioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389339"
+pgloadind     taxon mapping OTT ID 971672 taxonomy "Leptonychia sp. Church et al. 2685->Leptonychia->Byttnerioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389342"
+pgloadind     taxon mapping OTT ID 861905 taxonomy "Byttneria aculeata->Byttneria->Byttnerioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389344"
+pgloadind     taxon mapping OTT ID 108617 taxonomy "Kleinhovia hospita->Kleinhovia->Byttnerioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389345"
+pgloadind     taxon mapping OTT ID 526994 taxonomy "Guazuma ulmifolia->Guazuma->Byttnerioideae->Malvaceae->Malvales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node389346"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "1001"
+pgloadind   Adding tree to graph tree id "1001"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Kleinhovia hospita was remapped to 'Kleinhovia' (id=2699174)
+	Trichospermum mexicanum was remapped to 'Trichospermum' (id=2699098)
+	Ceiba acuminata was remapped to 'Ceiba' (id=2700933)
+	Hildegardia barteri was remapped to 'Hildegardia' (id=2701158)
+	Tilia americana was remapped to 'Tilia' (id=2701310)
+	Neesia sp. Lamm 294 was remapped to 'Neesia' (id=2699747)
+	Helicteres guazumifolia was remapped to 'Helicteres' (id=2701544)
+	Malope trifida was remapped to 'Malope' (id=2699666)
+	Gossypium hirsutum was remapped to 'Gossypium' (id=2700294)
+	Pentace polyantha was remapped to 'Pentace' (id=2701081)
+	Pterospermum acerifolium was remapped to 'Pterospermum' (id=2701484)
+	Pavonia multiflora was remapped to 'Pavonia' (id=2699769)
+	Matisia cordata was remapped to 'Matisia' (id=2699837)
+	Dombeya spectabilis was remapped to 'Dombeya' (id=2701357)
+	Brachychiton acerifolius was remapped to 'Brachychiton' (id=2701096)
+	Eriolaena spectabilis was remapped to 'Eriolaena' (id=2701481)
+	Heritiera littoralis was remapped to 'Heritiera' (id=2701214)
+	Corchorus olitorius was remapped to 'Corchorus' (id=2699008)
+	Scleronema micranthum was remapped to 'Scleronema' (id=2701011)
+	Durio zibethinus was remapped to 'Durio' (id=2701512)
+	Grewia biloba was remapped to 'Grewia' (id=2698959)
+	Malvaviscus arboreus was remapped to 'Malvaviscus' (id=2699655)
+	Sparrmannia africana was remapped to 'Sparrmannia' (id=2699131)
+	Chiranthodendron pentadactylon was remapped to 'Chiranthodendron' (id=2700985)
+	Waltheria madagascariensis was remapped to 'Waltheria' (id=2699176)
+	Catostemma fragrans was remapped to 'Catostemma' (id=2700888)
+	Bernoullia flammea was remapped to 'Bernoullia' (id=2700890)
+	Sterculia tragacantha was remapped to 'Sterculia' (id=2701243)
+	Byttneria aculeata was remapped to 'Byttneria' (id=2699320)
+	Cola acuminata was remapped to 'Cola' (id=2701167)
+	Heliocarpus appendiculatus was remapped to 'Heliocarpus' (id=2699110)
+	Carpodiptera ameliae was remapped to 'Carpodiptera' (id=2701075)
+	Patinoa sphaerocarpa was remapped to 'Patinoa' (id=2700927)
+	Ochroma pyramidale was remapped to 'Ochroma' (id=2701028)
+	Triumfetta semitriloba was remapped to 'Triumfetta' (id=2698922)
+	Brownlowia elata was remapped to 'Brownlowia' (id=2701088)
+	Camptostemon schultzii was remapped to 'Camptostemon' (id=2700962)
+	Leptonychia sp. Church et al. 2685 was remapped to 'Leptonychia' (id=2699380)
+	Reevesia thyrsoidea was remapped to 'Reevesia' (id=2701535)
+	Hibiscus costatus was remapped to 'Hibiscus' (id=2699479)
+	Apeiba tibourbou was remapped to 'Apeiba' (id=2699119)
+	Thespesia populnea was remapped to 'Thespesia' (id=2700518)
+	Gyranthera caribensis was remapped to 'Gyranthera' (id=2700983)
+	Adansonia digitata was remapped to 'Adansonia' (id=2700992)
+	Entelea arborescens was remapped to 'Entelea' (id=2699108)
+	Huberodendron patinoi was remapped to 'Huberodendron' (id=2700929)
+	Hannafordia shanesii was remapped to 'Hannafordia' (id=2699274)
+	Colona scabra was remapped to 'Colona' (id=2699105)
+	Hampea appendiculata was remapped to 'Hampea' (id=2700277)
+	Bombax buonopozense was remapped to 'Bombax' (id=2700966)
+	Luehea seemannii was remapped to 'Luehea' (id=2698946)
+	Fremontodendron californicum was remapped to 'Fremontodendron' (id=2701013)
+	Craigia sp. Kubitzki and Appel 4 was remapped to 'Craigia' (id=2701345)
+	Quararibea costaricensis was remapped to 'Quararibea' (id=2699698)
+	Phragmotheca ecuadorensis was remapped to 'Phragmotheca' (id=2701008)
+	Berrya javanica was remapped to 'Berrya' (id=2701090)
+	Glyphaea brevis was remapped to 'Glyphaea' (id=2699128)
+	Guazuma ulmifolia was remapped to 'Guazuma' (id=2699393)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Alverson W., Whitlock B., Nyffeler R., Bayer C., & Baum D. 1999. Phylogeny of the core Malvales: evidence from ndhF sequence data. American Journal of Botany, 86(10): 1474-1486.
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 1999
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node389233
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.2307/2656928
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 351412
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 623
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S564
+Committing nodes: 113
+{2698900}
+2698951
+2701463
+2698922
+	adding Node[2698922] Triumfetta 157066 as compatible with Node[2698922]
+		adding Relationship[8257474]
+2698946
+	adding Node[2698946] Luehea 20325 as compatible with Node[2698946]
+		adding Relationship[8257475]
+2698959
+	adding Node[2698959] Grewia 860896 as compatible with Node[2698959]
+		adding Relationship[8257476]
+2699008
+	adding Node[2699008] Corchorus 578272 as compatible with Node[2699008]
+		adding Relationship[8257477]
+2699098
+	adding Node[2699098] Trichospermum 682914 as compatible with Node[2699098]
+		adding Relationship[8257478]
+2699105
+	adding Node[2699105] Colona 518977 as compatible with Node[2699105]
+		adding Relationship[8257479]
+2699108
+2699110
+	adding Node[2699110] Heliocarpus 860892 as compatible with Node[2699110]
+		adding Relationship[8257480]
+2699119
+	adding Node[2699119] Apeiba 1010141 as compatible with Node[2699119]
+		adding Relationship[8257481]
+2699128
+	adding Node[2699128] Glyphaea 1053105 as compatible with Node[2699128]
+		adding Relationship[8257482]
+2699131
+	adding Node[2699131] Sparrmannia 1067731 as compatible with Node[2699131]
+		adding Relationship[8257483]
+2699174
+2699176
+	adding Node[2699176] Waltheria 157068 as compatible with Node[2699176]
+		adding Relationship[8257484]
+2699274
+2699320
+	adding Node[2699320] Byttneria 861914 as compatible with Node[2699320]
+		adding Relationship[8257485]
+2699380
+	adding Node[2699380] Leptonychia 916095 as compatible with Node[2699380]
+		adding Relationship[8257486]
+2699393
+	adding Node[2699393] Guazuma 526997 as compatible with Node[2699393]
+		adding Relationship[8257487]
+2699479
+	adding Node[2699479] Hibiscus 83402 as compatible with Node[2699479]
+		adding Relationship[8257488]
+2699655
+	adding Node[2699655] Malvaviscus 108615 as compatible with Node[2699655]
+		adding Relationship[8257489]
+2699666
+	adding Node[2699666] Malope 108618 as compatible with Node[2699666]
+		adding Relationship[8257490]
+2699698
+	adding Node[2699698] Quararibea 236637 as compatible with Node[2699698]
+		adding Relationship[8257491]
+2699747
+	adding Node[2699747] Neesia 266350 as compatible with Node[2699747]
+		adding Relationship[8257492]
+2699769
+	adding Node[2699769] Pavonia 411401 as compatible with Node[2699769]
+		adding Relationship[8257493]
+2699837
+	adding Node[2699837] Matisia 433614 as compatible with Node[2699837]
+		adding Relationship[8257494]
+2700277
+2700294
+2700518
+	adding Node[2700518] Thespesia 854474 as compatible with Node[2700518]
+		adding Relationship[8257495]
+2700888
+2700890
+2700927
+2700929
+2700933
+	adding Node[2700933] Ceiba 187581 as compatible with Node[2700933]
+		adding Relationship[8257496]
+2700962
+	adding Node[2700962] Camptostemon 993770 as compatible with Node[2700962]
+		adding Relationship[8257497]
+2700966
+	adding Node[2700966] Bombax 462882 as compatible with Node[2700966]
+		adding Relationship[8257498]
+2700983
+2700985
+2700992
+	adding Node[2700992] Adansonia 659137 as compatible with Node[2700992]
+		adding Relationship[8257499]
+2701008
+	adding Node[2701008] Phragmotheca 682919 as compatible with Node[2701008]
+		adding Relationship[8257500]
+2701011
+2701013
+	adding Node[2701013] Fremontodendron 861904 as compatible with Node[2701013]
+		adding Relationship[8257501]
+2701028
+2701075
+2701081
+2701088
+2701090
+	adding Node[2701090] Berrya 1067869 as compatible with Node[2701090]
+		adding Relationship[8257502]
+2701096
+	adding Node[2701096] Brachychiton 5549 as compatible with Node[2701096]
+		adding Relationship[8257503]
+2701158
+	adding Node[2701158] Hildegardia 336226 as compatible with Node[2701158]
+		adding Relationship[8257504]
+2701167
+	adding Node[2701167] Cola 385539 as compatible with Node[2701167]
+		adding Relationship[8257505]
+2701214
+	adding Node[2701214] Heritiera 526990 as compatible with Node[2701214]
+		adding Relationship[8257506]
+2701243
+	adding Node[2701243] Sterculia 861909 as compatible with Node[2701243]
+		adding Relationship[8257507]
+2701310
+2701345
+	adding Node[2701345] Craigia 266352 as compatible with Node[2701345]
+		adding Relationship[8257508]
+2701357
+	adding Node[2701357] Dombeya 21750 as compatible with Node[2701357]
+		adding Relationship[8257509]
+2701481
+	adding Node[2701481] Eriolaena 1067752 as compatible with Node[2701481]
+		adding Relationship[8257510]
+2701484
+	adding Node[2701484] Pterospermum 961754 as compatible with Node[2701484]
+		adding Relationship[8257511]
+2701512
+	adding Node[2701512] Durio 312760 as compatible with Node[2701512]
+		adding Relationship[8257512]
+2701535
+	adding Node[2701535] Reevesia 916120 as compatible with Node[2701535]
+		adding Relationship[8257513]
+2701544
+	adding Node[2701544] Helicteres 1067761 as compatible with Node[2701544]
+		adding Relationship[8257514]
+[Node[2701090], Node[2701095], Node[2699479], Node[2701512], Node[2701096], Node[2701243], Node[2699008], Node[2700962], Node[2700966], Node[2701535], Node[2698922], Node[2699747], Node[3501509], Node[3501510], Node[3501513], Node[3501512], Node[2701544], Node[3501517], Node[3501516], Node[2699380], Node[3501520], Node[2699176], Node[3501521], Node[3501523], Node[3501524], Node[2701214], Node[3501525], Node[3501526], Node[3501528], Node[2699769], Node[3501530], Node[3501531], Node[3501532], Node[3501533], Node[2700933], Node[2699655], Node[2698959], Node[2701158], Node[2699837], Node[2701167], Node[2699098], Node[2698946], Node[2701309], Node[3501495], Node[3501492], Node[3501493], Node[2699393], Node[3501491], Node[2699666], Node[3501489], Node[3501502], Node[3501501], Node[3501499], Node[3501496], Node[3501497], Node[2701357], Node[2699320], Node[2701013], Node[2701484], Node[2699128], Node[2701008], Node[2701345], Node[2699131], Node[2701481], Node[2699110], Node[2699105], Node[2699698], Node[2699119], Node[2700518], Node[2700992]]
+	Node[2701090]
+		adding Relationship[8257515] from Node[2701090] to Node[3501513]
+	Node[2701095]
+	Node[2699479]
+		adding Relationship[8257516] from Node[2699479] to Node[3501493]
+	Node[2701512]
+		adding Relationship[8257517] from Node[2701512] to Node[3501517]
+	Node[2701096]
+		adding Relationship[8257518] from Node[2701096] to Node[2701095]
+	Node[2701243]
+		adding Relationship[8257519] from Node[2701243] to Node[2701095]
+	Node[2699008]
+		adding Relationship[8257520] from Node[2699008] to Node[3501525]
+	Node[2700962]
+		adding Relationship[8257521] from Node[2700962] to Node[3501495]
+	Node[2700966]
+		adding Relationship[8257522] from Node[2700966] to Node[3501501]
+	Node[2701535]
+		adding Relationship[8257523] from Node[2701535] to Node[3501516]
+	Node[2698922]
+		adding Relationship[8257524] from Node[2698922] to Node[3501526]
+	Node[2699747]
+		adding Relationship[8257525] from Node[2699747] to Node[3501517]
+	Node[3501509]
+		adding Relationship[8257526] from Node[3501509] to Node[3501510]
+	Node[3501510]
+	Node[3501513]
+	Node[3501512]
+		adding Relationship[8257527] from Node[3501512] to Node[2701095]
+	Node[2701544]
+		adding Relationship[8257528] from Node[2701544] to Node[3501516]
+	Node[3501517]
+	Node[3501516]
+	Node[2699380]
+		adding Relationship[8257529] from Node[2699380] to Node[3501532]
+	Node[3501520]
+	Node[2699176]
+		adding Relationship[8257530] from Node[2699176] to Node[3501530]
+	Node[3501521]
+	Node[3501523]
+		adding Relationship[8257531] from Node[3501523] to Node[3501524]
+	Node[3501524]
+	Node[2701214]
+		adding Relationship[8257532] from Node[2701214] to Node[2701095]
+	Node[3501525]
+	Node[3501526]
+	Node[3501528]
+	Node[2699769]
+		adding Relationship[8257533] from Node[2699769] to Node[3501492]
+	Node[3501530]
+	Node[3501531]
+		adding Relationship[8257534] from Node[3501531] to Node[3501532]
+	Node[3501532]
+		adding Relationship[8257535] from Node[3501532] to Node[3501533]
+	Node[3501533]
+	Node[2700933]
+		adding Relationship[8257536] from Node[2700933] to Node[3501501]
+	Node[2699655]
+		adding Relationship[8257537] from Node[2699655] to Node[3501492]
+	Node[2698959]
+		adding Relationship[8257538] from Node[2698959] to Node[3501521]
+	Node[2701158]
+		adding Relationship[8257539] from Node[2701158] to Node[3501512]
+		adding Relationship[8257540] from Node[2701158] to Node[2701095]
+	Node[2699837]
+		adding Relationship[8257541] from Node[2699837] to Node[3501496]
+	Node[2701167]
+		adding Relationship[8257542] from Node[2701167] to Node[3501512]
+		adding Relationship[8257543] from Node[2701167] to Node[2701095]
+	Node[2699098]
+		adding Relationship[8257544] from Node[2699098] to Node[3501521]
+	Node[2698946]
+		adding Relationship[8257545] from Node[2698946] to Node[3501520]
+	Node[2701309]
+	Node[3501495]
+	Node[3501492]
+		adding Relationship[8257546] from Node[3501492] to Node[3501493]
+	Node[3501493]
+	Node[2699393]
+		adding Relationship[8257547] from Node[2699393] to Node[3501533]
+	Node[3501491]
+	Node[2699666]
+		adding Relationship[8257548] from Node[2699666] to Node[3501491]
+	Node[3501489]
+	Node[3501502]
+	Node[3501501]
+		adding Relationship[8257549] from Node[3501501] to Node[3501502]
+	Node[3501499]
+	Node[3501496]
+		adding Relationship[8257550] from Node[3501496] to Node[3501497]
+	Node[3501497]
+	Node[2701357]
+		adding Relationship[8257551] from Node[2701357] to Node[3501509]
+	Node[2699320]
+		adding Relationship[8257552] from Node[2699320] to Node[3501531]
+	Node[2701013]
+		adding Relationship[8257553] from Node[2701013] to Node[3501499]
+	Node[2701484]
+		adding Relationship[8257554] from Node[2701484] to Node[3501510]
+	Node[2699128]
+		adding Relationship[8257555] from Node[2699128] to Node[3501528]
+	Node[2701008]
+		adding Relationship[8257556] from Node[2701008] to Node[3501496]
+	Node[2701345]
+		adding Relationship[8257557] from Node[2701345] to Node[2701309]
+	Node[2699131]
+		adding Relationship[8257558] from Node[2699131] to Node[3501523]
+	Node[2701481]
+		adding Relationship[8257559] from Node[2701481] to Node[3501509]
+	Node[2699110]
+		adding Relationship[8257560] from Node[2699110] to Node[3501526]
+	Node[2699105]
+		adding Relationship[8257561] from Node[2699105] to Node[3501520]
+	Node[2699698]
+		adding Relationship[8257562] from Node[2699698] to Node[3501497]
+	Node[2699119]
+		adding Relationship[8257563] from Node[2699119] to Node[3501524]
+	Node[2700518]
+		adding Relationship[8257564] from Node[2700518] to Node[3501489]
+	Node[2700992]
+		adding Relationship[8257565] from Node[2700992] to Node[3501502]

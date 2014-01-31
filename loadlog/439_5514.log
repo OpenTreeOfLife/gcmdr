@@ -1,0 +1,112 @@
+pgloadind OTUs number 57
+pgloadind Processing tree @id "556"
+pgloadind   tree info number nodes 75
+pgloadind   tree info number edges 74
+pgloadind   tree info ingroup "node313565"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 36
+pgloadind   property added ot:studyPublicationReference "Redecker, Dirk, and Philipp Raab. "Phylogeny of the Glomeromycota (arbuscular mycorrhizal fungi): recent developments and new gene markers." Mycologia 98.6 (2006): 885-895."
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1519"
+pgloadind   property added ot:studyId "439"
+pgloadind   property added ot:studyYear "2006"
+pgloadind   property added ot:focalClade "1639317"
+pgloadind   property added ot:inGroupClade "node313565"
+pgloadind   property added ot:tag "NJ"
+pgloadind   property added ot:tag "SSU"
+pgloadind   property added ot:tag "Choose me"
+pgloadind   property added ot:curatedType "NJ, SSU"
+pgloadind Processing tree @id "5514"
+pgloadind   tree info number nodes 49
+pgloadind   tree info number edges 48
+pgloadind   tree info ingroup "node951379"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 7
+pgloadind   property added ot:studyPublicationReference "Redecker, Dirk, and Philipp Raab. "Phylogeny of the Glomeromycota (arbuscular mycorrhizal fungi): recent developments and new gene markers." Mycologia 98.6 (2006): 885-895."
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1519"
+pgloadind   property added ot:studyId "439"
+pgloadind   property added ot:studyYear "2006"
+pgloadind   property added ot:focalClade "1639317"
+pgloadind   property added ot:inGroupClade "node951379"
+pgloadind   property added ot:tag "BI"
+pgloadind   property added ot:tag "RPB1"
+pgloadind   property added ot:curatedType "BI, RPB1 (rooted)"
+loading a specific tree: 5514
+skipping tree: 556
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "5514"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "(((((Rhizophagus_intraradices,Glomus_proliferum),(Funneliformis_mosseae,Funneliformis_geosporum)),Scutellospora_heterogama),Paraglomus_occultum),Geosiphon_pyriformis)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 837854 taxonomy "Rhizophagus intraradices->Rhizophagus->Glomeraceae->Glomerales->Glomeromycetes->Glomeromycota->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node951384"
+pgloadind     taxon mapping OTT ID 292330 taxonomy "Rhizophagus proliferus->Rhizophagus->Glomeraceae->Glomerales->Glomeromycetes->Glomeromycota->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node951385"
+pgloadind     taxon mapping OTT ID 1039477 taxonomy "Funneliformis mosseae->Funneliformis->Glomeraceae->Glomerales->Glomeromycetes->Glomeromycota->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node951387"
+pgloadind     taxon mapping OTT ID 794630 taxonomy "Funneliformis geosporum->Funneliformis->Glomeraceae->Glomerales->Glomeromycetes->Glomeromycota->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node951388"
+pgloadind     taxon mapping OTT ID 576983 taxonomy "Scutellospora heterogama->Scutellospora->Gigasporaceae->Diversisporales->Glomeromycetes->Glomeromycota->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node951389"
+pgloadind     taxon mapping OTT ID 398110 taxonomy "Paraglomus occultum->Paraglomus->Paraglomeraceae->Paraglomerales->Glomeromycetes->Glomeromycota->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node951390"
+pgloadind     taxon mapping OTT ID 366962 taxonomy "Geosiphon pyriformis->Geosiphon->Geosiphonaceae->Archaeosporales->Glomeromycetes->Glomeromycota->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node951391"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "5514"
+pgloadind   Adding tree to graph tree id "5514"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Scutellospora heterogama was remapped to 'Diversisporales' (id=20538)
+	Paraglomus occultum was remapped to 'Paraglomerales' (id=20512)
+	Geosiphon pyriformis was remapped to 'Archaeosporales' (id=20440)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Redecker, Dirk, and Philipp Raab. "Phylogeny of the Glomeromycota (arbuscular mycorrhizal fungi): recent developments and new gene markers." Mycologia 98.6 (2006): 885-895.
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2006
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node951379
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': RPB1
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 1639317
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': BI, RPB1 (rooted)
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 439
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1519
+Committing nodes: 13
+{19378}
+20307
+	adding Node[19385] Glomerales 157948 as compatible with Node[19389]
+		adding Relationship[8776092]
+20313
+20375
+20392
+20440
+	adding Node[20440] Archaeosporales 265356 as compatible with Node[20440]
+		adding Relationship[8776093]
+20512
+	adding Node[20512] Paraglomerales 385883 as compatible with Node[20512]
+		adding Relationship[8776094]
+20538
+	adding Node[20538] Diversisporales 385884 as compatible with Node[20538]
+		adding Relationship[8776095]
+[Node[19385], Node[20512], Node[19378], Node[20538], Node[3682783], Node[20440], Node[3682782]]
+	Node[19385]
+		adding Relationship[8776096] from Node[19385] to Node[19378]
+	Node[20512]
+		adding Relationship[8776097] from Node[20512] to Node[3682783]
+		adding Relationship[8776098] from Node[20512] to Node[19378]
+	Node[19378]
+	Node[20538]
+		adding Relationship[8776099] from Node[20538] to Node[3682782]
+		adding Relationship[8776100] from Node[20538] to Node[19378]
+	Node[3682783]
+		adding Relationship[8776101] from Node[3682783] to Node[19378]
+	Node[20440]
+		adding Relationship[8776102] from Node[20440] to Node[19378]
+	Node[3682782]
+		adding Relationship[8776103] from Node[3682782] to Node[3682783]
