@@ -1,0 +1,246 @@
+pgloadind OTUs number 28
+pgloadind Processing tree @id "2571"
+pgloadind   tree info number nodes 55
+pgloadind   tree info number edges 54
+pgloadind   Ingested tree number of external nodes 28
+pgloadind   property added ot:studyPublicationReference "Yokoyama, A., Takahashi, F., Kataoka, H., Hara, Y., & Nozaki, H. (2011). EVOLUTIONARY ANALYSES OF THE NUCLEAR‐ENCODED PHOTOSYNTHETIC GENE psbO FROM TERTIARY PLASTID‐CONTAINING ALGAE IN DINOPHYTA1. Journal of Phycology, 47(2), 407-414."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1111/j.1529-8817.2011.00961.x"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S11256"
+pgloadind   property added ot:studyId "1277"
+pgloadind   property added ot:studyYear "2011"
+pgloadind   property added ot:focalClade "4629127"
+pgloadind   property added ot:focalCladeOTTTaxonName "Dinophyta"
+pgloadind   property added ot:curatedType "PAUP 1"
+pgloadind Processing tree @id "5751"
+pgloadind   tree info number nodes 55
+pgloadind   tree info number edges 54
+pgloadind   tree info ingroup "node984986"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 25
+pgloadind   property added ot:studyPublicationReference "Yokoyama, A., Takahashi, F., Kataoka, H., Hara, Y., & Nozaki, H. (2011). EVOLUTIONARY ANALYSES OF THE NUCLEAR‐ENCODED PHOTOSYNTHETIC GENE psbO FROM TERTIARY PLASTID‐CONTAINING ALGAE IN DINOPHYTA1. Journal of Phycology, 47(2), 407-414."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1111/j.1529-8817.2011.00961.x"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S11256"
+pgloadind   property added ot:studyId "1277"
+pgloadind   property added ot:studyYear "2011"
+pgloadind   property added ot:focalClade "4629127"
+pgloadind   property added ot:focalCladeOTTTaxonName "Dinophyta"
+pgloadind   property added ot:inGroupClade "node984986"
+pgloadind   property added ot:curatedType "parsimony"
+loading a specific tree: 5751
+skipping tree: 2571
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "5751"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Guillardia theta" nexsonid "node984995"
+pgloadind       dubious OTT ID 672617
+pgloadind     pruning dups and overlapping name "Guillardia theta" nexsonid "node984995"
+pgloadind   postpruning newick tree "((Porphyridium_purpureum,(Neorhodella_cyanea,Dixoniella_grisea)),((Chroomonas_caudata,(Pyrenomonas_helgolandii,Cryptomonas_ovata)),((Aureococcus_anophagefferens,((Heterosigma_akashiwo,(((Phaeodactylum_tricornutum,Kryptoperidinium_foliaceum),Chaetoceros_gracilis),Thalassiosira_pseudonana)),((Vaucheria_litorea,(Vaucheria_frigida,Botrydium_granulatum)),Fucus_distichus))),(((Karlodinium_veneficum,(Karenia_brevis,((Isochrysis_galbana,Emiliania_huxleyi),Prymnesium_parvum))),Pavlova_lutheri),(Heterocapsa_triquetra,Amphidinium_carterae)))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 432894 taxonomy "Porphyridium purpureum->Porphyridium->Porphyridiophyceae->Rhodophyceae->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node984988"
+pgloadind     taxon mapping OTT ID 969477 taxonomy "Neorhodella cyanea->Neorhodella->Rhodellaceae->Rhodellales->Rhodellophyceae->Rhodophyceae->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node984990"
+pgloadind     taxon mapping OTT ID 280881 taxonomy "Dixoniella grisea->Dixoniella->Rhodellophyceae->Rhodophyceae->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node984991"
+pgloadind     taxon mapping OTT ID 689432 taxonomy "Chroomonas caudata->Chroomonas->Cryptomonadales->Cryptophyceae->Cryptophyceae->Eukaryota->cellular organisms->life" nexsonid "node984999"
+pgloadind     taxon mapping OTT ID 375993 taxonomy "Pyrenomonas helgolandii->Pyrenomonas->Pyrenomonadaceae->Pyrenomonadales->Cryptophyceae->Cryptophyceae->Eukaryota->cellular organisms->life" nexsonid "node984997"
+pgloadind     taxon mapping OTT ID 249589 taxonomy "Cryptomonas ovata->Cryptomonas->Cryptomonadales->Cryptophyceae->Cryptophyceae->Eukaryota->cellular organisms->life" nexsonid "node984998"
+pgloadind     taxon mapping OTT ID 533286 taxonomy "Aureococcus anophagefferens->Aureococcus->Pelagomonadaceae->Pelagomonadales->Pelagophyceae->Stramenopiles->SAR->Eukaryota->cellular organisms->life" nexsonid "node985002"
+pgloadind     taxon mapping OTT ID 725551 taxonomy "Heterosigma akashiwo->Heterosigma->Chattonellaceae->Chattonellales->Raphidophyceae->Stramenopiles->SAR->Eukaryota->cellular organisms->life" nexsonid "node985005"
+pgloadind     taxon mapping OTT ID 1095879 taxonomy "Phaeodactylum tricornutum->Phaeodactylum->Phaeodactylaceae->Naviculales->Bacillariophycidae->Bacillariophyceae->Bacillariophytina->Diatomea->Stramenopiles->SAR->Eukaryota->cellular organisms->life" nexsonid "node985009"
+pgloadind     taxon mapping OTT ID 815107 taxonomy "Kryptoperidinium foliaceum->Kryptoperidinium->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node985010"
+pgloadind     taxon mapping OTT ID 746543 taxonomy "Chaetoceros gracilis->Chaetoceros->Mediophyceae->Bacillariophytina->Diatomea->Stramenopiles->SAR->Eukaryota->cellular organisms->life" nexsonid "node985011"
+pgloadind     taxon mapping OTT ID 753596 taxonomy "Thalassiosira pseudonana->Thalassiosira->Mediophyceae->Bacillariophytina->Diatomea->Stramenopiles->SAR->Eukaryota->cellular organisms->life" nexsonid "node985012"
+pgloadind     taxon mapping OTT ID 988288 taxonomy "Vaucheria litorea->Vaucheria->Vaucheriaceae->Vaucheriales->Xanthophyceae->PX clade->Stramenopiles->SAR->Eukaryota->cellular organisms->life" nexsonid "node985015"
+pgloadind     taxon mapping OTT ID 478266 taxonomy "Vaucheria frigida->Vaucheria->Vaucheriaceae->Vaucheriales->Xanthophyceae->PX clade->Stramenopiles->SAR->Eukaryota->cellular organisms->life" nexsonid "node985017"
+pgloadind     taxon mapping OTT ID 963863 taxonomy "Botrydium granulatum->Botrydium->Tribonematales->Xanthophyceae->PX clade->Stramenopiles->SAR->Eukaryota->cellular organisms->life" nexsonid "node985018"
+pgloadind     taxon mapping OTT ID 1022953 taxonomy "Fucus distichus->Fucus->Fucaceae->Fucales->Phaeophyceae->PX clade->Stramenopiles->SAR->Eukaryota->cellular organisms->life" nexsonid "node985019"
+pgloadind     taxon mapping OTT ID 101878 taxonomy "Karlodinium veneficum->Karlodinium->Kareniaceae->Gymnodiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node985023"
+pgloadind     taxon mapping OTT ID 93910 taxonomy "Karenia brevis->Karenia->Kareniaceae->Gymnodiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node985025"
+pgloadind     taxon mapping OTT ID 955647 taxonomy "Isochrysis galbana->Isochrysis->Isochrysidaceae->Isochrysidales->Prymnesiophyceae->Haptophyta->Eukaryota->cellular organisms->life" nexsonid "node985028"
+pgloadind     taxon mapping OTT ID 695761 taxonomy "Emiliania huxleyi->Emiliania->Noelaerhabdaceae->Isochrysidales->Prymnesiophyceae->Haptophyta->Eukaryota->cellular organisms->life" nexsonid "node985029"
+pgloadind     taxon mapping OTT ID 937580 taxonomy "Prymnesium parvum->Prymnesium->Prymnesiaceae->Prymnesiales->Prymnesiophyceae->Haptophyta->Eukaryota->cellular organisms->life" nexsonid "node985030"
+pgloadind     taxon mapping OTT ID 151008 taxonomy "Pavlova lutheri->Pavlova->Pavlovophyceae->Haptophyta->Eukaryota->cellular organisms->life" nexsonid "node985031"
+pgloadind     taxon mapping OTT ID 882515 taxonomy "Heterocapsa triquetra->Heterocapsa->Heterocapsaceae->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node985033"
+pgloadind     taxon mapping OTT ID 746949 taxonomy "Amphidinium carterae->Amphidinium->Gymnodiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node985034"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "5751"
+pgloadind   Adding tree to graph tree id "5751"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Pavlova lutheri was remapped to 'Pavlovophyceae' (id=3149848)
+	Fucus distichus was remapped to 'Phaeophyceae' (id=3108747)
+	Neorhodella cyanea was remapped to 'Rhodellales' (id=3077440)
+	Pyrenomonas helgolandii was remapped to 'Pyrenomonadales' (id=3149831)
+	Botrydium granulatum was remapped to 'Tribonematales' (id=3113455)
+	Heterocapsa triquetra was remapped to 'Heterocapsaceae' (id=3121595)
+	Chaetoceros gracilis was remapped to 'Chaetoceros' (id=3104393)
+	Isochrysis galbana was remapped to 'Isochrysidaceae' (id=3150646)
+	Thalassiosira pseudonana was remapped to 'Thalassiosira' (id=3104812)
+	Chroomonas caudata was remapped to 'Chroomonas' (id=3149599)
+	Porphyridium purpureum was remapped to 'Porphyridiophyceae' (id=3077467)
+	Karlodinium veneficum was remapped to 'Karlodinium' (id=3120380)
+	Amphidinium carterae was remapped to 'Amphidinium' (id=3119605)
+	Heterosigma akashiwo was remapped to 'Raphidophyceae' (id=3108293)
+	Dixoniella grisea was remapped to 'Dixoniella' (id=3077433)
+	Phaeodactylum tricornutum was remapped to 'Bacillariophyceae' (id=3095352)
+	Kryptoperidinium foliaceum was remapped to 'Kryptoperidinium' (id=3120921)
+	Karenia brevis was remapped to 'Karenia' (id=3120408)
+	Aureococcus anophagefferens was remapped to 'Pelagophyceae' (id=3108105)
+	Emiliania huxleyi was remapped to 'Noelaerhabdaceae' (id=3150704)
+	Prymnesium parvum was remapped to 'Prymnesiales' (id=3149952)
+	Cryptomonas ovata was remapped to 'Cryptomonas' (id=3149425)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Yokoyama, A., Takahashi, F., Kataoka, H., Hara, Y., & Nozaki, H. (2011). EVOLUTIONARY ANALYSES OF THE NUCLEAR‐ENCODED PHOTOSYNTHETIC GENE psbO FROM TERTIARY PLASTID‐CONTAINING ALGAE IN DINOPHYTA1. Journal of Phycology, 47(2), 407-414.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Dinophyta
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2011
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node984986
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1111/j.1529-8817.2011.00961.x
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 4629127
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': parsimony
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 1277
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S11256
+Committing nodes: 47
+{218}
+3113792
+3113809
+3077433
+	adding Node[2507888] Archaeplastida 5267105 as compatible with Node[3069474]
+		adding Relationship[8257278]
+3077440
+	adding Node[3077440] Rhodellales 452586 as compatible with Node[3077440]
+		adding Relationship[8257279]
+3077467
+	adding Node[3077467] Porphyridiophyceae 5272056 as compatible with Node[3077467]
+		adding Relationship[8257280]
+3095352
+3104393
+	adding Node[3104393] Chaetoceros 1075856 as compatible with Node[3104393]
+		adding Relationship[8257281]
+	adding Node[3104392] Mediophyceae 514843 as compatible with Node[3104393]
+		adding Relationship[8257282]
+	adding Node[3095351] Bacillariophytina 5247549 as compatible with Node[3104393]
+		adding Relationship[8257283]
+	adding Node[3095345] Diatomea 150991 as compatible with Node[3104393]
+		adding Relationship[8257284]
+3104812
+3108105
+	adding Node[3108105] Pelagophyceae 217470 as compatible with Node[3108105]
+		adding Relationship[8257285]
+3108293
+3108747
+3113455
+3119605
+	adding Node[3119605] Amphidinium 746952 as compatible with Node[3119605]
+		adding Relationship[8257286]
+3120380
+	adding Node[3120380] Karlodinium 303396 as compatible with Node[3120380]
+		adding Relationship[8257287]
+3120408
+	adding Node[3120408] Karenia 668221 as compatible with Node[3120408]
+		adding Relationship[8257288]
+3120921
+	adding Node[3120921] Kryptoperidinium 627398 as compatible with Node[3120921]
+		adding Relationship[8257289]
+3121595
+	adding Node[3121595] Heterocapsaceae 416759 as compatible with Node[3121595]
+		adding Relationship[8257290]
+3149425
+	adding Node[3149425] Cryptomonas 1073344 as compatible with Node[3149425]
+		adding Relationship[8257291]
+	adding Node[3149383] Cryptophyceae 4739116 as compatible with Node[3149416]
+		adding Relationship[8257292]
+3149599
+	adding Node[3149599] Chroomonas 497054 as compatible with Node[3149599]
+		adding Relationship[8257293]
+3149831
+	adding Node[3149831] Pyrenomonadales 1017389 as compatible with Node[3149831]
+		adding Relationship[8257294]
+3149848
+	adding Node[3149848] Pavlovophyceae 5246135 as compatible with Node[3149848]
+		adding Relationship[8257295]
+3149952
+	adding Node[3149952] Prymnesiales 747196 as compatible with Node[3149952]
+		adding Relationship[8257296]
+3150646
+3150704
+[Node[3104392], Node[3104393], Node[3149599], Node[3077432], Node[3120921], Node[3119605], Node[3149383], Node[3149848], Node[3149831], Node[3501490], Node[3501491], Node[218], Node[3501489], Node[3501503], Node[3501500], Node[3120380], Node[3501498], Node[3149952], Node[3501499], Node[3108105], Node[3501496], Node[3501497], Node[3077467], Node[3120408], Node[3149416], Node[3069474], Node[3095351], Node[3149951], Node[3095345], Node[3121595], Node[3077440], Node[2507888], Node[3149425]]
+	Node[3104392]
+		adding Relationship[8257297] from Node[3104392] to Node[3095351]
+	Node[3104393]
+		adding Relationship[8257298] from Node[3104393] to Node[3501491]
+		adding Relationship[8257299] from Node[3104393] to Node[3104392]
+	Node[3149599]
+		adding Relationship[8257300] from Node[3149599] to Node[3149416]
+	Node[3077432]
+		adding Relationship[8257301] from Node[3077432] to Node[3069474]
+	Node[3120921]
+		adding Relationship[8257302] from Node[3120921] to Node[3501490]
+	Node[3119605]
+		adding Relationship[8257303] from Node[3119605] to Node[3501500]
+	Node[3149383]
+		adding Relationship[8257304] from Node[3149383] to Node[218]
+	Node[3149848]
+		adding Relationship[8257305] from Node[3149848] to Node[3501499]
+	Node[3149831]
+		adding Relationship[8257306] from Node[3149831] to Node[3501489]
+		adding Relationship[8257307] from Node[3149831] to Node[3149416]
+	Node[3501490]
+		adding Relationship[8257308] from Node[3501490] to Node[3501491]
+	Node[3501491]
+	Node[218]
+	Node[3501489]
+		adding Relationship[8257309] from Node[3501489] to Node[3149416]
+	Node[3501503]
+		adding Relationship[8257310] from Node[3501503] to Node[218]
+	Node[3501500]
+	Node[3120380]
+		adding Relationship[8257311] from Node[3120380] to Node[3501498]
+	Node[3501498]
+		adding Relationship[8257312] from Node[3501498] to Node[3501499]
+	Node[3149952]
+		adding Relationship[8257313] from Node[3149952] to Node[3149951]
+	Node[3501499]
+	Node[3108105]
+		adding Relationship[8257314] from Node[3108105] to Node[3501496]
+	Node[3501496]
+	Node[3501497]
+		adding Relationship[8257315] from Node[3501497] to Node[3501498]
+	Node[3077467]
+		adding Relationship[8257316] from Node[3077467] to Node[3069474]
+	Node[3120408]
+		adding Relationship[8257317] from Node[3120408] to Node[3501497]
+	Node[3149416]
+		adding Relationship[8257318] from Node[3149416] to Node[3501503]
+		adding Relationship[8257319] from Node[3149416] to Node[3149383]
+	Node[3069474]
+		adding Relationship[8257320] from Node[3069474] to Node[218]
+		adding Relationship[8257321] from Node[3069474] to Node[2507888]
+	Node[3095351]
+		adding Relationship[8257322] from Node[3095351] to Node[3095345]
+	Node[3149951]
+		adding Relationship[8257323] from Node[3149951] to Node[3501497]
+	Node[3095345]
+	Node[3121595]
+		adding Relationship[8257324] from Node[3121595] to Node[3501500]
+	Node[3077440]
+		adding Relationship[8257325] from Node[3077440] to Node[3077432]
+	Node[2507888]
+		adding Relationship[8257326] from Node[2507888] to Node[218]
+	Node[3149425]
+		adding Relationship[8257327] from Node[3149425] to Node[3501489]
