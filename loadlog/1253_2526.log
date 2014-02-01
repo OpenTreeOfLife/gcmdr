@@ -1,0 +1,182 @@
+pgloadind OTUs number 14
+pgloadind Processing tree @id "2526"
+pgloadind   tree info number nodes 27
+pgloadind   tree info number edges 26
+pgloadind   tree info ingroup "node574947"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 12
+pgloadind   property added ot:studyPublicationReference "Timme R.E., Bachvaroff T., & Delwiche C. 2012. Broad phylogenomic sampling and the
+sister lineage of land plants. PLoS ONE, 7(1): e29696."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1371/journal.pone.0029696"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:studyId "1253"
+pgloadind   property added ot:studyYear "2012"
+pgloadind   property added ot:tag "ingroup added;"
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+pgloadind   property added ot:inGroupClade "node574947"
+pgloadind   property added ot:curatedType "ML best tree"
+loading a specific tree: 2526
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "2526"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "((Chlorokybus_atmophyticus,Mesostigma_viride),(Klebsormidium_flaccidum,(Nitella_hyalina,((Coleochaete_orbicularis,Chaetosphaeridium_globosum),((Penium_margaritaceum,Spirogyra_pratensis),(Physcomitrella_patens,(Oryza_sativa,(Arabidopsis_thaliana,Populus_trichocarpa))))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 326012 taxonomy "Chlorokybus atmophyticus->Chlorokybus->Chlorokybaceae->Chlorokybales->Chlorokybophyceae->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574949"
+pgloadind     taxon mapping OTT ID 976425 taxonomy "Mesostigma viride->Mesostigma->Mesostigmataceae->Mesostigmatales->Mesostigmatophyceae->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574950"
+pgloadind     taxon mapping OTT ID 799391 taxonomy "Klebsormidium flaccidum->Klebsormidium->Klebsormidiaceae->Klebsormidiales->Klebsormidiophyceae->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574952"
+pgloadind     taxon mapping OTT ID 165099 taxonomy "Nitella hyalina->Nitella->Characeae->Charales->Charophyceae->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574954"
+pgloadind     taxon mapping OTT ID 59852 taxonomy "Coleochaete orbicularis->Coleochaete->Coleochaetaceae->Coleochaetales->Coleochaetophyceae->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574957"
+pgloadind     taxon mapping OTT ID 930072 taxonomy "Chaetosphaeridium globosum->Chaetosphaeridium->Chaetosphaeridiaceae->Coleochaetales->Coleochaetophyceae->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574958"
+pgloadind     taxon mapping OTT ID 195796 taxonomy "Penium margaritaceum->Penium->Peniaceae->Desmidiales->Zygnemophyceae->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574961"
+pgloadind     taxon mapping OTT ID 938364 taxonomy "Spirogyra pratensis->Spirogyra->Zygnemataceae->Zygnematales->Zygnemophyceae->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574962"
+pgloadind     taxon mapping OTT ID 821359 taxonomy "Physcomitrella patens->Physcomitrella->Funariaceae->Funariales->Funariidae->Bryopsida->Bryophytina->Bryophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574964"
+pgloadind     taxon mapping OTT ID 709894 taxonomy "Oryza sativa->Oryza->Oryzeae->Ehrhartoideae->BEP clade->Poaceae->Poales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574966"
+pgloadind     taxon mapping OTT ID 309263 taxonomy "Arabidopsis thaliana->Arabidopsis->Camelineae->Brassicaceae->Brassicales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574968"
+pgloadind     taxon mapping OTT ID 8861 taxonomy "Populus trichocarpa->Populus->Saliceae->Salicaceae->Malpighiales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574969"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "2526"
+pgloadind   Adding tree to graph tree id "2526"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Physcomitrella patens was remapped to 'Bryophyta' (id=3038968)
+	Chaetosphaeridium globosum was remapped to 'Chaetosphaeridiaceae' (id=3057616)
+	Penium margaritaceum was remapped to 'Desmidiales' (id=2508699)
+	Mesostigma viride was remapped to 'Mesostigmatophyceae' (id=3058459)
+	Arabidopsis thaliana was remapped to 'malvids' (id=2685784)
+	Nitella hyalina was remapped to 'Charophyceae' (id=3057643)
+	Populus trichocarpa was remapped to 'fabids' (id=2733572)
+	Oryza sativa was remapped to 'Liliopsida' (id=2832104)
+	Chlorokybus atmophyticus was remapped to 'Chlorokybophyceae' (id=3058451)
+	Spirogyra pratensis was remapped to 'Zygnematales' (id=2507904)
+	Coleochaete orbicularis was remapped to 'Coleochaetaceae' (id=3057584)
+	Klebsormidium flaccidum was remapped to 'Klebsormidiophyceae' (id=3058260)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Timme R.E., Bachvaroff T., & Delwiche C. 2012. Broad phylogenomic sampling and the
+sister lineage of land plants. PLoS ONE, 7(1): e29696.
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2012
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node574947
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1371/journal.pone.0029696
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': ML best tree
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 1253
+Committing nodes: 23
+{2507896}
+2507904
+	adding Node[2507904] Zygnematales 799396 as compatible with Node[2507904]
+		adding Relationship[8257213]
+2508699
+	adding Node[2508699] Desmidiales 897405 as compatible with Node[2508699]
+		adding Relationship[8257214]
+2685784
+	adding Node[2685784] malvids 565277 as compatible with Node[2685784]
+		adding Relationship[8257215]
+	adding Node[2526788] Pentapetalae 5307490 as compatible with Node[2685783]
+		adding Relationship[8257216]
+	adding Node[2526733] Gunneridae 853757 as compatible with Node[2685783]
+		adding Relationship[8257217]
+	adding Node[2521633] eudicotyledons 431495 as compatible with Node[2685783]
+		adding Relationship[8257218]
+	adding Node[2511759] Magnoliophyta 99252 as compatible with Node[2685783]
+		adding Relationship[8257219]
+	adding Node[2511757] Spermatophyta 10218 as compatible with Node[2685783]
+		adding Relationship[8257220]
+	adding Node[2511755] Euphyllophyta 1007992 as compatible with Node[2685783]
+		adding Relationship[8257221]
+	adding Node[2510891] Tracheophyta 10210 as compatible with Node[2685783]
+		adding Relationship[8257222]
+	adding Node[2511759] Magnoliophyta 99252 as compatible with Node[2511763]
+		adding Relationship[8257223]
+	adding Node[2511757] Spermatophyta 10218 as compatible with Node[2511763]
+		adding Relationship[8257224]
+	adding Node[2511755] Euphyllophyta 1007992 as compatible with Node[2511763]
+		adding Relationship[8257225]
+	adding Node[2510891] Tracheophyta 10210 as compatible with Node[2511763]
+		adding Relationship[8257226]
+2733572
+	adding Node[2733572] fabids 565281 as compatible with Node[2733572]
+		adding Relationship[8257227]
+2832104
+3038968
+	adding Node[3038968] Bryophyta 246594 as compatible with Node[3038968]
+		adding Relationship[8257228]
+3057584
+	adding Node[3057584] Coleochaetaceae 375204 as compatible with Node[3057584]
+		adding Relationship[8257229]
+	adding Node[3057582] Coleochaetophyceae 885793 as compatible with Node[3057583]
+		adding Relationship[8257230]
+3057616
+	adding Node[3057616] Chaetosphaeridiaceae 616075 as compatible with Node[3057616]
+		adding Relationship[8257231]
+3057643
+	adding Node[3057643] Charophyceae 916310 as compatible with Node[3057643]
+		adding Relationship[8257232]
+3058260
+	adding Node[3058260] Klebsormidiophyceae 372052 as compatible with Node[3058260]
+		adding Relationship[8257233]
+3058451
+3058459
+[Node[2510887], Node[2507904], Node[3057584], Node[2511763], Node[2510891], Node[2511755], Node[3501492], Node[3501493], Node[2511759], Node[3501491], Node[2511757], Node[3057582], Node[3057583], Node[3057643], Node[3057616], Node[3038968], Node[3058260], Node[2508699], Node[2521633], Node[2507898], Node[2526788], Node[2685783], Node[2526733], Node[2685784], Node[2733572]]
+	Node[2510887]
+	Node[2507904]
+		adding Relationship[8257234] from Node[2507904] to Node[2507898]
+	Node[3057584]
+		adding Relationship[8257235] from Node[3057584] to Node[3057583]
+	Node[2511763]
+		adding Relationship[8257236] from Node[2511763] to Node[2510887]
+		adding Relationship[8257237] from Node[2511763] to Node[2511759]
+	Node[2510891]
+		adding Relationship[8257238] from Node[2510891] to Node[2510887]
+	Node[2511755]
+		adding Relationship[8257239] from Node[2511755] to Node[2510891]
+	Node[3501492]
+		adding Relationship[8257240] from Node[3501492] to Node[3501493]
+	Node[3501493]
+	Node[2511759]
+		adding Relationship[8257241] from Node[2511759] to Node[2511757]
+	Node[3501491]
+		adding Relationship[8257242] from Node[3501491] to Node[3501492]
+	Node[2511757]
+		adding Relationship[8257243] from Node[2511757] to Node[2511755]
+	Node[3057582]
+	Node[3057583]
+		adding Relationship[8257244] from Node[3057583] to Node[3501491]
+		adding Relationship[8257245] from Node[3057583] to Node[3057582]
+	Node[3057643]
+		adding Relationship[8257246] from Node[3057643] to Node[3501492]
+	Node[3057616]
+		adding Relationship[8257247] from Node[3057616] to Node[3057583]
+	Node[3038968]
+		adding Relationship[8257248] from Node[3038968] to Node[2510887]
+	Node[3058260]
+		adding Relationship[8257249] from Node[3058260] to Node[3501493]
+	Node[2508699]
+		adding Relationship[8257250] from Node[2508699] to Node[2507898]
+	Node[2521633]
+		adding Relationship[8257251] from Node[2521633] to Node[2511763]
+	Node[2507898]
+	Node[2526788]
+		adding Relationship[8257252] from Node[2526788] to Node[2526733]
+	Node[2685783]
+		adding Relationship[8257253] from Node[2685783] to Node[2511763]
+		adding Relationship[8257254] from Node[2685783] to Node[2526788]
+	Node[2526733]
+		adding Relationship[8257255] from Node[2526733] to Node[2521633]
+	Node[2685784]
+		adding Relationship[8257256] from Node[2685784] to Node[2685783]
+	Node[2733572]
+		adding Relationship[8257257] from Node[2733572] to Node[2685783]

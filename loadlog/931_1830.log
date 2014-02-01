@@ -1,0 +1,64 @@
+pgloadind OTUs number 25
+pgloadind Processing tree @id "1830"
+pgloadind   tree info number nodes 49
+pgloadind   tree info number edges 48
+pgloadind   tree info ingroup "node490767"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 7
+pgloadind   property added ot:studyPublicationReference "Albach, D.C., Yan, K., Jensen, S., ren, R., & Li, H.-Q. 2009. Phylogenetic placement of Triaenophora (formerly Scrophulariaceae) with some implications for the phylogeny of Lamiales. Taxon 58:749-756. [Triaenophora_comb.txt]"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:studyId "931"
+pgloadind   property added ot:studyYear "2009"
+pgloadind   property added ot:focalClade "911796"
+pgloadind   property added ot:focalCladeOTTTaxonName "Triaenophora"
+pgloadind   property added ot:inGroupClade "node490767"
+pgloadind   property added ot:curatedType "MP"
+loading a specific tree: 1830
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "1830"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "((Rehmannia_chingii,(((Rehmannia_glutinosa,Rehmannia_solanifolia),(Rehmannia_piasezkii,Rehmannia_elata)),Rehmannia_henryi)),Triaenophora)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 110151 taxonomy "Rehmannia chingii->Rehmannia->Orobanchaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490769"
+pgloadind     taxon mapping OTT ID 164453 taxonomy "Rehmannia glutinosa->Rehmannia->Orobanchaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490773"
+pgloadind     taxon mapping OTT ID 110153 taxonomy "Rehmannia solanifolia->Rehmannia->Orobanchaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490774"
+pgloadind     taxon mapping OTT ID 110156 taxonomy "Rehmannia piasezkii->Rehmannia->Orobanchaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490776"
+pgloadind     taxon mapping OTT ID 562076 taxonomy "Rehmannia elata->Rehmannia->Orobanchaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490777"
+pgloadind     taxon mapping OTT ID 605776 taxonomy "Rehmannia henryi->Rehmannia->Orobanchaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490778"
+pgloadind     taxon mapping OTT ID 1029548 taxonomy "Triaenophora->Orobanchaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490779"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "1830"
+pgloadind   Adding tree to graph tree id "1830"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Albach, D.C., Yan, K., Jensen, S., ren, R., & Li, H.-Q. 2009. Phylogenetic placement of Triaenophora (formerly Scrophulariaceae) with some implications for the phylogeny of Lamiales. Taxon 58:749-756. [Triaenophora_comb.txt]
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Triaenophora
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2009
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node490767
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 911796
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 931
+Committing nodes: 13
+{2653276}
+2653283
+2653285
+2653286
+2653289
+2653292
+2653295
+2654992
+[]

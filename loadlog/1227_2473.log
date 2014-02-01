@@ -1,0 +1,70 @@
+pgloadind OTUs number 6
+pgloadind Processing tree @id "2473"
+pgloadind   tree info number nodes 11
+pgloadind   tree info number edges 10
+pgloadind   tree info ingroup "node568237"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 6
+pgloadind   property added ot:studyPublicationReference "Nozaki H., & Coleman A. 2010. A new species of Volvox sect. Merrillosphaera (Volvocaceae, Chlorophyceae) from Texas. Journal of Phycology, 47, 673–679"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1111/j.1529-8817.2011.00975.x"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S10927"
+pgloadind   property added ot:studyId "1227"
+pgloadind   property added ot:studyYear "2010"
+pgloadind   property added ot:focalClade "1645984"
+pgloadind   property added ot:focalCladeOTTTaxonName "Volvox"
+pgloadind   property added ot:inGroupClade "node568237"
+pgloadind   property added ot:curatedType "PAUP 1"
+loading a specific tree: 2473
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "2473"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Volvox tertius" nexsonid "node568247"
+pgloadind       duplicate OTT ID 1061937
+pgloadind     pruning dups and overlapping name "Volvox tertius" nexsonid "node568247"
+pgloadind   postpruning newick tree "(Volvox_dissipatrix,(Volvox_africanus,((Volvox_ovalis,Volvox_spermatosphaera),Volvox_tertius)))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 485480 taxonomy "Volvox dissipatrix->Volvox->Volvocaceae->Chlamydomonadales->Chlorophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node568238"
+pgloadind     taxon mapping OTT ID 633711 taxonomy "Volvox africanus->Volvox->Volvocaceae->Chlamydomonadales->Chlorophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node568240"
+pgloadind     taxon mapping OTT ID 448158 taxonomy "Volvox ovalis->Volvox->Volvocaceae->Chlamydomonadales->Chlorophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node568243"
+pgloadind     taxon mapping OTT ID 1061932 taxonomy "Volvox spermatosphaera->Volvox->Volvocaceae->Chlamydomonadales->Chlorophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node568244"
+pgloadind     taxon mapping OTT ID 1061937 taxonomy "Volvox tertius->Volvox->Volvocaceae->Chlamydomonadales->Chlorophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node568246"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "2473"
+pgloadind   Adding tree to graph tree id "2473"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Nozaki H., & Coleman A. 2010. A new species of Volvox sect. Merrillosphaera (Volvocaceae, Chlorophyceae) from Texas. Journal of Phycology, 47, 673–679
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Volvox
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2010
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node568237
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1111/j.1529-8817.2011.00975.x
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 1645984
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': PAUP 1
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 1227
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S10927
+Committing nodes: 9
+{3061106}
+3061115
+3061119
+3061124
+3061127
+3061129
+[]
