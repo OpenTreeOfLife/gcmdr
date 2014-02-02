@@ -1,0 +1,211 @@
+pgloadind OTUs number 73
+pgloadind Processing tree @id "4006"
+pgloadind   tree info number nodes 108
+pgloadind   tree info number edges 107
+pgloadind   tree info ingroup "node748223"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 56
+pgloadind   property added ot:studyPublicationReference "Yamashiro, T. [et al. 2004], Fukuda, T., Yokoyama, J., & Maki, M. 2004. Molecular phylogeny of Vincetoxicum (Apocynaceae-Asclepiadoideae) based on the nucleotide sequences of cpDNA and nrDNA. Mol. Phyl. Evol. 31: 689-700."
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:studyId "1960"
+pgloadind   property added ot:studyYear "2004"
+pgloadind   property added ot:focalClade "2491004"
+pgloadind   property added ot:focalCladeOTTTaxonName "Vincetoxicum"
+pgloadind   property added ot:branchLengthMode "ot:changesCount"
+pgloadind   property added ot:inGroupClade "node748223"
+pgloadind   property added ot:curatedType "ml best tree"
+pgloadind Processing tree @id "4007"
+pgloadind   tree info number nodes 55
+pgloadind   tree info number edges 54
+pgloadind   tree info ingroup "node748325"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 29
+pgloadind   property added ot:studyPublicationReference "Yamashiro, T. [et al. 2004], Fukuda, T., Yokoyama, J., & Maki, M. 2004. Molecular phylogeny of Vincetoxicum (Apocynaceae-Asclepiadoideae) based on the nucleotide sequences of cpDNA and nrDNA. Mol. Phyl. Evol. 31: 689-700."
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:studyId "1960"
+pgloadind   property added ot:studyYear "2004"
+pgloadind   property added ot:focalClade "2491004"
+pgloadind   property added ot:focalCladeOTTTaxonName "Vincetoxicum"
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+pgloadind   property added ot:inGroupClade "node748325"
+pgloadind   property added ot:curatedType "ml best tree"
+loading a specific tree: 4006
+skipping tree: 4007
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "4006"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Vincetoxicum atratum" nexsonid "node748244"
+pgloadind       duplicate OTT ID 854749
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Vincetoxicum nipponicum" nexsonid "node748245"
+pgloadind       duplicate OTT ID 676250
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Tylophora ovata" nexsonid "node748296"
+pgloadind       duplicate OTT ID 727536
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Tylophora villosa" nexsonid "node748301"
+pgloadind       duplicate OTT ID 45111
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Vincetoxicum macrophyllum" nexsonid "node748309"
+pgloadind       duplicate OTT ID 676258
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Vincetoxicum sublanceolatum var. macranthum" nexsonid "node748237"
+pgloadind       overlapping pruned name "Vincetoxicum sublanceolatum" nexsonid "node748229"
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Tylophora flexuosa var. perrottetiana" nexsonid "node748283"
+pgloadind       overlapping pruned name "Tylophora flexuosa" nexsonid "node748282"
+pgloadind     pruning dups and overlapping name "Vincetoxicum macrophyllum" nexsonid "node748309"
+pgloadind     pruning dups and overlapping name "Tylophora ovata" nexsonid "node748296"
+pgloadind     pruning dups and overlapping name "Tylophora flexuosa" nexsonid "node748282"
+pgloadind     pruning dups and overlapping name "Tylophora villosa" nexsonid "node748301"
+pgloadind     pruning dups and overlapping name "Vincetoxicum sublanceolatum" nexsonid "node748229"
+pgloadind     pruning dups and overlapping name "Vincetoxicum nipponicum" nexsonid "node748245"
+pgloadind     pruning dups and overlapping name "Vincetoxicum atratum" nexsonid "node748244"
+pgloadind   postpruning newick tree "(Vincetoxicum_amplexicaule,(Vincetoxicum_yonakuniense,Vincetoxicum_pycnostelma,((Vincetoxicum_acuminatum,Vincetoxicum_yamanakae,Vincetoxicum_katoi),Vincetoxicum_nipponicum,Vincetoxicum_austrokiusianum,Vincetoxicum_japonicum,Vincetoxicum_sublanceolatum_var_macranthum,Vincetoxicum_ambiguum,Vincetoxicum_izuense,Vincetoxicum_calcareum,Vincetoxicum_hoyoense,Vincetoxicum_atratum),((((((Blyttia_fruticulosa,(Goydera_somaliense,Diplostigma_canescens)),Pleurostelma_cernuum),Tylophora_parviflora,Tylophora_heterophylla),Vincetoxicum_carnosum),(((Tylophora_tenuis,(Tylophora_sylvatica,Tylophora_tenuipedunculata)),Tylophora_japonica),(Tylophora_oblonga,Tylophora_conspicua))),((Tylophora_biglandulosa,((Tylophora_anomala,Tylophora_apiculata),(Tylophora_flanaganii,Tylophora_coriacea))),(((((Tylophora_ovata,Tylophora_hirsuta),((Tylophora_tanakae,Tylophora_matsumurae),Tylophora_brownii)),(Tylophora_indica,Tylophora_villosa)),Tylophora_yunnanensis),((Tylophora_floribunda,(Vincetoxicum_macrophyllum,Vincetoxicum_magnificum)),Vincetoxicum_stocksii,Tylophora_aristolochioides,(Vincetoxicum_hirundinaria,Vincetoxicum_inamoenum))),Tylophora_flexuosa_var_perrottetiana))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 204120 taxonomy "Vincetoxicum amplexicaule->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748224"
+pgloadind     taxon mapping OTT ID 676234 taxonomy "Vincetoxicum yonakuniense->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748226"
+pgloadind     taxon mapping OTT ID 676240 taxonomy "Vincetoxicum pycnostelma->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748227"
+pgloadind     taxon mapping OTT ID 204095 taxonomy "Vincetoxicum acuminatum->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748231"
+pgloadind     taxon mapping OTT ID 676238 taxonomy "Vincetoxicum yamanakae->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748232"
+pgloadind     taxon mapping OTT ID 676260 taxonomy "Vincetoxicum katoi->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748233"
+pgloadind     taxon mapping OTT ID 676250 taxonomy "Vincetoxicum nipponicum->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748234"
+pgloadind     taxon mapping OTT ID 204123 taxonomy "Vincetoxicum austrokiusianum->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748235"
+pgloadind     taxon mapping OTT ID 676264 taxonomy "Vincetoxicum japonicum->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748236"
+pgloadind     taxon mapping OTT ID 727544 taxonomy "Vincetoxicum sublanceolatum var. macranthum->Vincetoxicum sublanceolatum->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748237"
+pgloadind     taxon mapping OTT ID 204100 taxonomy "Vincetoxicum ambiguum->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748238"
+pgloadind     taxon mapping OTT ID 676232 taxonomy "Vincetoxicum izuense->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748239"
+pgloadind     taxon mapping OTT ID 676268 taxonomy "Vincetoxicum calcareum->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748240"
+pgloadind     taxon mapping OTT ID 152971 taxonomy "Vincetoxicum hoyoense->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748241"
+pgloadind     taxon mapping OTT ID 854749 taxonomy "Vincetoxicum atratum->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748243"
+pgloadind     taxon mapping OTT ID 955749 taxonomy "Blyttia fruticulosa->Blyttia->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748252"
+pgloadind     taxon mapping OTT ID 389237 taxonomy "Goydera somaliense->Goydera->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748254"
+pgloadind     taxon mapping OTT ID 429714 taxonomy "Diplostigma canescens->Diplostigma->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748255"
+pgloadind     taxon mapping OTT ID 379495 taxonomy "Pleurostelma cernuum->Pleurostelma->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748256"
+pgloadind     taxon mapping OTT ID 45101 taxonomy "Tylophora parviflora->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748257"
+pgloadind     taxon mapping OTT ID 854753 taxonomy "Tylophora heterophylla->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748258"
+pgloadind     taxon mapping OTT ID 854759 taxonomy "Vincetoxicum carnosum->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748259"
+pgloadind     taxon mapping OTT ID 45105 taxonomy "Tylophora tenuis->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748263"
+pgloadind     taxon mapping OTT ID 851140 taxonomy "Tylophora sylvatica->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748265"
+pgloadind     taxon mapping OTT ID 45107 taxonomy "Tylophora tenuipedunculata->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748266"
+pgloadind     taxon mapping OTT ID 204110 taxonomy "Tylophora japonica->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748267"
+pgloadind     taxon mapping OTT ID 45103 taxonomy "Tylophora oblonga->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748269"
+pgloadind     taxon mapping OTT ID 600696 taxonomy "Tylophora conspicua->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748270"
+pgloadind     taxon mapping OTT ID 465208 taxonomy "Tylophora biglandulosa->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748273"
+pgloadind     taxon mapping OTT ID 379502 taxonomy "Tylophora anomala->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748276"
+pgloadind     taxon mapping OTT ID 854747 taxonomy "Tylophora apiculata->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748277"
+pgloadind     taxon mapping OTT ID 854745 taxonomy "Tylophora flanaganii->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748279"
+pgloadind     taxon mapping OTT ID 600698 taxonomy "Tylophora coriacea->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748280"
+pgloadind     taxon mapping OTT ID 727536 taxonomy "Tylophora ovata->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748289"
+pgloadind     taxon mapping OTT ID 465192 taxonomy "Tylophora hirsuta->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748290"
+pgloadind     taxon mapping OTT ID 204104 taxonomy "Tylophora tanakae->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748293"
+pgloadind     taxon mapping OTT ID 204102 taxonomy "Tylophora matsumurae->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748294"
+pgloadind     taxon mapping OTT ID 204116 taxonomy "Tylophora brownii->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748295"
+pgloadind     taxon mapping OTT ID 514640 taxonomy "Tylophora indica->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748298"
+pgloadind     taxon mapping OTT ID 45111 taxonomy "Tylophora villosa->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748300"
+pgloadind     taxon mapping OTT ID 45109 taxonomy "Tylophora yunnanensis->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748302"
+pgloadind     taxon mapping OTT ID 204108 taxonomy "Tylophora floribunda->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748305"
+pgloadind     taxon mapping OTT ID 676258 taxonomy "Vincetoxicum macrophyllum->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748307"
+pgloadind     taxon mapping OTT ID 676254 taxonomy "Vincetoxicum magnificum->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748308"
+pgloadind     taxon mapping OTT ID 854757 taxonomy "Vincetoxicum stocksii->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748310"
+pgloadind     taxon mapping OTT ID 204112 taxonomy "Tylophora aristolochioides->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748311"
+pgloadind     taxon mapping OTT ID 46131 taxonomy "Vincetoxicum hirundinaria->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748313"
+pgloadind     taxon mapping OTT ID 777211 taxonomy "Vincetoxicum inamoenum->Vincetoxicum->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748314"
+pgloadind     taxon mapping OTT ID 266266 taxonomy "Tylophora flexuosa var. perrottetiana->Tylophora flexuosa->Tylophora->Asclepiadeae->Asclepiadoideae->Apocynaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node748283"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "4006"
+pgloadind   Adding tree to graph tree id "4006"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Vincetoxicum sublanceolatum var. macranthum was remapped to 'Vincetoxicum sublanceolatum' (id=2637843)
+	Pleurostelma cernuum was remapped to 'Pleurostelma' (id=2637688)
+	Tylophora flexuosa var. perrottetiana was remapped to 'Tylophora flexuosa' (id=2638369)
+	Blyttia fruticulosa was remapped to 'Blyttia' (id=2637615)
+	Goydera somaliense was remapped to 'Goydera' (id=2637698)
+	Diplostigma canescens was remapped to 'Diplostigma' (id=2637700)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Yamashiro, T. [et al. 2004], Fukuda, T., Yokoyama, J., & Maki, M. 2004. Molecular phylogeny of Vincetoxicum (Apocynaceae-Asclepiadoideae) based on the nucleotide sequences of cpDNA and nrDNA. Mol. Phyl. Evol. 31: 689-700.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Vincetoxicum
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2004
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node748223
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:changesCount
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 2491004
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': ml best tree
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 1960
+Committing nodes: 82
+{2637236}
+2637774
+2637778
+2637780
+2637785
+2637787
+2637790
+2637801
+2637803
+2637805
+2637807
+2637813
+2637817
+2637821
+2637823
+2637827
+2637831
+2637848
+2637852
+2637856
+2637858
+2638346
+2638347
+2638348
+2638349
+2638350
+2638351
+2638355
+2638356
+2638358
+2638359
+2638360
+2638362
+2638374
+2638375
+2638376
+2638384
+2638387
+2638388
+2638390
+2638394
+2638395
+2638396
+2638397
+2637615
+2637688
+2637698
+2637700
+2637843
+	adding Node[2637843] Vincetoxicum sublanceolatum 727541 as compatible with Node[2637843]
+		adding Relationship[8257361]
+2638369
+	adding Node[2638369] Tylophora flexuosa 223271 as compatible with Node[2638369]
+		adding Relationship[8257362]
+[Node[3501490], Node[2637843], Node[2638369], Node[3501518]]
+	Node[3501490]
+	Node[2637843]
+		adding Relationship[8257363] from Node[2637843] to Node[3501490]
+	Node[2638369]
+		adding Relationship[8257364] from Node[2638369] to Node[3501518]
+	Node[3501518]

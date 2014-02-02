@@ -1,0 +1,75 @@
+pgloadind OTUs number 18
+pgloadind Processing tree @id "3881"
+pgloadind   tree info number nodes 33
+pgloadind   tree info number edges 32
+pgloadind   tree info ingroup "node729400"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 9
+pgloadind   property added ot:studyPublicationReference "Schneider, J. V. [et al. 2006], Swenson, U., Samuel, R., Stuessy, T., & Zizka, G. 2006. Phylogenetics of Quiinaceae (Malpighiales): Evidence from trnL-trnF sequence data and morphology. Plant Syst. Evol.257: 189-203."
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:studyId "1904"
+pgloadind   property added ot:studyYear "2006"
+pgloadind   property added ot:focalClade "1791618"
+pgloadind   property added ot:focalCladeOTTTaxonName "Quiinaceae"
+pgloadind   property added ot:inGroupClade "node729400"
+pgloadind   property added ot:curatedType "strict consensus parsimony tree"
+loading a specific tree: 3881
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "3881"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "(((((Quiina_pteridophylla,Quiina_integrifolia),Quiina_macrophylla),((Lacunaria_jenmanii,(Lacunaria_acreana,Lacunaria_crenata)),Lacunaria_oppositifolia)),Touroulia_guianensis),Froesia_venezuelensis)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 288528 taxonomy "Quiina pteridophylla->Quiina->Ochnaceae->Malpighiales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node729405"
+pgloadind     taxon mapping OTT ID 271308 taxonomy "Quiina integrifolia->Quiina->Ochnaceae->Malpighiales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node729406"
+pgloadind     taxon mapping OTT ID 515134 taxonomy "Quiina macrophylla->Quiina->Ochnaceae->Malpighiales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node729407"
+pgloadind     taxon mapping OTT ID 770580 taxonomy "Lacunaria jenmanii->Lacunaria->Ochnaceae->Malpighiales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node729410"
+pgloadind     taxon mapping OTT ID 271313 taxonomy "Lacunaria acreana->Lacunaria->Ochnaceae->Malpighiales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node729412"
+pgloadind     taxon mapping OTT ID 794721 taxonomy "Lacunaria crenata->Lacunaria->Ochnaceae->Malpighiales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node729413"
+pgloadind     taxon mapping OTT ID 271314 taxonomy "Lacunaria oppositifolia->Lacunaria->Ochnaceae->Malpighiales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node729414"
+pgloadind     taxon mapping OTT ID 812369 taxonomy "Touroulia guianensis->Touroulia->Ochnaceae->Malpighiales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node729415"
+pgloadind     taxon mapping OTT ID 794717 taxonomy "Froesia venezuelensis->Froesia->Ochnaceae->Malpighiales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node729416"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "3881"
+pgloadind   Adding tree to graph tree id "3881"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Touroulia guianensis was remapped to 'Touroulia' (id=2762060)
+	Froesia venezuelensis was remapped to 'Froesia' (id=2762039)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Schneider, J. V. [et al. 2006], Swenson, U., Samuel, R., Stuessy, T., & Zizka, G. 2006. Phylogenetics of Quiinaceae (Malpighiales): Evidence from trnL-trnF sequence data and morphology. Plant Syst. Evol.257: 189-203.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Quiinaceae
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2006
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node729400
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 1791618
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': strict consensus parsimony tree
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 1904
+Committing nodes: 17
+{2761974}
+2761991
+2761992
+2761993
+2762034
+2762035
+2762036
+2762037
+2762039
+	adding Node[2762039] Froesia 794719 as compatible with Node[2762039]
+		adding Relationship[8257195]
+2762060
+[Node[2762039], Node[2761974]]
+	Node[2762039]
+		adding Relationship[8257196] from Node[2762039] to Node[2761974]
+	Node[2761974]
