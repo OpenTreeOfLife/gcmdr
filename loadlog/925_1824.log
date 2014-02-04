@@ -1,0 +1,63 @@
+pgloadind OTUs number 7
+pgloadind Processing tree @id "1824"
+pgloadind   tree info number nodes 13
+pgloadind   tree info number edges 12
+pgloadind   tree info ingroup "node490011"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 6
+pgloadind   property added ot:studyPublicationReference "Zou, X.-H. [et al. 2008], Zhang, F.-M., Zhang, J.-G., Zang, L.-L., Tang, L., Wang, J., Sang, T., & Ge, S. 2008. Analysis of 142 genes resolves the rapid diversification of the rice genus.Genome Biol. 9:R49"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1186/gb-2008-9-3-r49"
+pgloadind   property added ot:curatorName "Jiabin Deng"
+pgloadind   property added ot:studyId "925"
+pgloadind   property added ot:studyYear "2008"
+pgloadind   property added ot:focalClade "1871594"
+pgloadind   property added ot:tag "cpDNA"
+pgloadind   property added ot:tag "ingroup added;"
+pgloadind   property added ot:inGroupClade "node490011"
+loading a specific tree: 1824
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "1824"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "(((((Oryza_rufipogon,Oryza_punctata),Oryza_officinalis),Oryza_australiensis),Oryza_brachyantha),Oryza_granulata)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 135756 taxonomy "Oryza rufipogon->Oryza->Oryzeae->Ehrhartoideae->BEP clade->Poaceae->Poales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490016"
+pgloadind     taxon mapping OTT ID 709892 taxonomy "Oryza punctata->Oryza->Oryzeae->Ehrhartoideae->BEP clade->Poaceae->Poales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490017"
+pgloadind     taxon mapping OTT ID 709884 taxonomy "Oryza officinalis->Oryza->Oryzeae->Ehrhartoideae->BEP clade->Poaceae->Poales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490018"
+pgloadind     taxon mapping OTT ID 709898 taxonomy "Oryza australiensis->Oryza->Oryzeae->Ehrhartoideae->BEP clade->Poaceae->Poales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490019"
+pgloadind     taxon mapping OTT ID 709900 taxonomy "Oryza brachyantha->Oryza->Oryzeae->Ehrhartoideae->BEP clade->Poaceae->Poales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490020"
+pgloadind     taxon mapping OTT ID 858818 taxonomy "Oryza granulata->Oryza->Oryzeae->Ehrhartoideae->BEP clade->Poaceae->Poales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490021"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "1824"
+pgloadind   Adding tree to graph tree id "1824"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Zou, X.-H. [et al. 2008], Zhang, F.-M., Zhang, J.-G., Zang, L.-L., Tang, L., Wang, J., Sang, T., & Ge, S. 2008. Analysis of 142 genes resolves the rapid diversification of the rice genus.Genome Biol. 9:R49
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2008
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node490011
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Jiabin Deng
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1186/gb-2008-9-3-r49
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 1871594
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 925
+Committing nodes: 11
+{2892439}
+2892450
+2892499
+2892507
+2892550
+2892552
+2892578
+[]

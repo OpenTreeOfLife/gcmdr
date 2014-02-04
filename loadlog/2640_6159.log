@@ -1,0 +1,57 @@
+pgloadind OTUs number 39
+pgloadind Processing tree @id "6159"
+pgloadind   tree info number nodes 77
+pgloadind   tree info number edges 76
+pgloadind   tree info ingroup "node1052109"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 4
+pgloadind   property added ot:studyPublicationReference "Nickrent, D. L. [et al. 2002], Blarer, A., Qiu, Y.-L., Soltis, D. E., Soltis, P. S., & Zanis, M. 2002. Molecular data place Hydnoraceae with Aristolochiaceae. American J. Bot. 89: 1809-1817."
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:studyId "2640"
+pgloadind   property added ot:studyYear "2002"
+pgloadind   property added ot:focalClade "2081475"
+pgloadind   property added ot:tag "ingroup added;"
+pgloadind   property added ot:inGroupClade "node1052109"
+loading a specific tree: 6159
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "6159"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "((Aristolochia,(Hydnora,Prosopanche)),Lactoris)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 9821 taxonomy "Aristolochia->Aristolochiaceae->Piperales->Magnoliidae->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052111"
+pgloadind     taxon mapping OTT ID 914187 taxonomy "Hydnora->Hydnoraceae->Piperales->Magnoliidae->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052113"
+pgloadind     taxon mapping OTT ID 379240 taxonomy "Prosopanche->Hydnoraceae->Piperales->Magnoliidae->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052114"
+pgloadind     taxon mapping OTT ID 37781 taxonomy "Lactoris->Lactoridaceae->Piperales->Magnoliidae->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052115"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6159"
+pgloadind   Adding tree to graph tree id "6159"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Lactoris was remapped to 'Lactoridaceae' (id=2520016)
+	Aristolochia was remapped to 'Aristolochiaceae' (id=2520056)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Nickrent, D. L. [et al. 2002], Blarer, A., Qiu, Y.-L., Soltis, D. E., Soltis, P. S., & Zanis, M. 2002. Molecular data place Hydnoraceae with Aristolochiaceae. American J. Bot. 89: 1809-1817.
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2002
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1052109
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 2081475
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 2640
+Committing nodes: 7
+{2520015}
+2520020
+2520022
+2520016
+2520056
+[]

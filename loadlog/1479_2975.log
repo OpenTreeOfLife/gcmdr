@@ -1,0 +1,89 @@
+pgloadind OTUs number 21
+pgloadind Processing tree @id "2975"
+pgloadind   tree info number nodes 40
+pgloadind   tree info number edges 39
+pgloadind   tree info ingroup "node623248"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 11
+pgloadind   property added ot:studyPublicationReference "Rouhan G., Labiak P.H., Randrianjohany E., & Rakotondrainibe F. 2011. Not so Neotropical after all: the Grammitid Fern Genus Leucotrichum (Polypodiaceae) is also Paleotropical, as Revealed by a New Species from Madagascar. Systematic Botany,37(2), 331-338."
+pgloadind   property added ot:curatorName "Jiabin Deng"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S11865"
+pgloadind   property added ot:studyId "1479"
+pgloadind   property added ot:studyYear "2011"
+pgloadind   property added ot:focalClade "956880"
+pgloadind   property added ot:tag "cpDNA"
+pgloadind   property added ot:tag "ingroup added;"
+pgloadind   property added ot:inGroupClade "node623248"
+loading a specific tree: 2975
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "2975"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Leucotrichum mitchellae" nexsonid "node623253"
+pgloadind       duplicate OTT ID 688765
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Leucotrichum mitchellae" nexsonid "node623254"
+pgloadind       duplicate OTT ID 688765
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Leucotrichum organense" nexsonid "node623259"
+pgloadind       duplicate OTT ID 833213
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Leucotrichum organense" nexsonid "node623260"
+pgloadind       duplicate OTT ID 833213
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Leucotrichum schenckii" nexsonid "node623267"
+pgloadind       duplicate OTT ID 451208
+pgloadind     pruning dups and overlapping name "Leucotrichum organense" nexsonid "node623260"
+pgloadind     pruning dups and overlapping name "Leucotrichum mitchellae" nexsonid "node623253"
+pgloadind     pruning dups and overlapping name "Leucotrichum organense" nexsonid "node623259"
+pgloadind     pruning dups and overlapping name "Leucotrichum schenckii" nexsonid "node623267"
+pgloadind     pruning dups and overlapping name "Leucotrichum mitchellae" nexsonid "node623254"
+pgloadind   postpruning newick tree "((Lellingeria_pseudomitchellae,Leucotrichum_mitchellae),((Leucotrichum_madagascariense,(Leucotrichum_mortonii,Leucotrichum_schenckii)),Leucotrichum_organense))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 451223 taxonomy "Lellingeria pseudomitchellae->Lellingeria->Grammitidaceae->Polypodiales->core leptosporangiate ferns->Polypodiopsida->Moniliformopses->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node623250"
+pgloadind     taxon mapping OTT ID 688765 taxonomy "Leucotrichum mitchellae->Leucotrichum->Grammitidaceae->Polypodiales->core leptosporangiate ferns->Polypodiopsida->Moniliformopses->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node623252"
+pgloadind     taxon mapping OTT ID 967126 taxonomy "Leucotrichum madagascariense->Leucotrichum->Grammitidaceae->Polypodiales->core leptosporangiate ferns->Polypodiopsida->Moniliformopses->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node623262"
+pgloadind     taxon mapping OTT ID 688772 taxonomy "Leucotrichum mortonii->Leucotrichum->Grammitidaceae->Polypodiales->core leptosporangiate ferns->Polypodiopsida->Moniliformopses->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node623264"
+pgloadind     taxon mapping OTT ID 451208 taxonomy "Leucotrichum schenckii->Leucotrichum->Grammitidaceae->Polypodiales->core leptosporangiate ferns->Polypodiopsida->Moniliformopses->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node623266"
+pgloadind     taxon mapping OTT ID 833213 taxonomy "Leucotrichum organense->Leucotrichum->Grammitidaceae->Polypodiales->core leptosporangiate ferns->Polypodiopsida->Moniliformopses->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node623257"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "2975"
+pgloadind   Adding tree to graph tree id "2975"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Lellingeria pseudomitchellae was remapped to 'Lellingeria' (id=3024520)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Rouhan G., Labiak P.H., Randrianjohany E., & Rakotondrainibe F. 2011. Not so Neotropical after all: the Grammitid Fern Genus Leucotrichum (Polypodiaceae) is also Paleotropical, as Revealed by a New Species from Madagascar. Systematic Botany,37(2), 331-338.
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2011
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node623248
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Jiabin Deng
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 956880
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 1479
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S11865
+Committing nodes: 11
+{3024142}
+3024419
+3024420
+3024426
+3024430
+3024433
+3024520
+	adding Node[3024520] Lellingeria 1026618 as compatible with Node[3024520]
+		adding Relationship[8257186]
+[Node[3024520], Node[3501489]]
+	Node[3024520]
+		adding Relationship[8257187] from Node[3024520] to Node[3501489]
+	Node[3501489]
