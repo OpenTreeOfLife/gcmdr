@@ -161,6 +161,7 @@ def extract_synth(javapre,treemloc,dsynth,ottolid,treeoutfile,append):
     cmd.append(str(ottolid))
     cmd.append(treeoutfile)
     cmd.append(dsynth)
+    print "extracting synth tree with "+" ".join(cmd)
     filemode = "w" #default is write
     if append == True:
         filemode = "a"

@@ -1,5 +1,5 @@
 """
-These shouldn't really ever change.
+These shouldn't really ever change, except possibly the taxonomy.
 """
 
 #location of studies
@@ -8,7 +8,7 @@ studyloc="/home/josephwb/Work/OToL/avatol_nexsons"
 #base directory
 bdir="/home/josephwb/Work/OToL/treemachine/Synthesis/"
 #location of just ott database
-dott=bdir+"Life.2.3.db"
+dott=bdir+"Life.2.4.draft17.db"
 #location of loading database
 dload=bdir+"Loading.db"
 #location of test output

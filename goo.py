@@ -3,7 +3,7 @@
 studytreelist=[
                "420_522",   # Aves. Hackett et al. 2008. Science
                "1428_2855", # Mammals. Meredith et al. 2011. Science
-               "2573_5959", # Sauria. Crawford et al. 2012. Biology Letters
+               "2573_5959" # Sauria. Crawford et al. 2012. Biology Letters
             ]
 
 studytreelistTF = [True] * len(studytreelist)
