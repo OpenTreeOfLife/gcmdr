@@ -12,16 +12,16 @@ from fungi import studytreelist as fungilist
 
 
 studytreelist = []
-#studytreelist.extend(plantslist)
+studytreelist.extend(plantslist)
 #studytreelist.extend(metalist)
 #studytreelist.extend(fungilist)
 #studytreelist.extend(microbelist)
 
-mapcompat = [] * len(studytreelist)
+mapcompat = [True] * len(studytreelist)
 
 import load_synth_extract
 
-synthottolid="93302"#"93302"
+synthottolid="93302"
 print "loading synthottolid:",synthottolid
 print "loading studytreelist:",studytreelist
 
