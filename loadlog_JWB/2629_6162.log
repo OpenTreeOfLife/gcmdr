@@ -1,0 +1,495 @@
+pgloadind OTUs number 48
+pgloadind Processing tree @id "6162"
+pgloadind   tree info number nodes 95
+pgloadind   tree info number edges 94
+pgloadind   tree info ingroup "node1052666"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 45
+pgloadind   property added ot:studyPublicationReference "Letsch, H. and S. Simon. 2013. Insect phylogenomics: new insights on the relationships of lower neopteran orders (Polyneoptera). Systematic Entomology 38(4): 783-793."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1111/syen.12028"
+pgloadind   property added ot:curatorName "Chris Owen"
+pgloadind   property added ot:studyId "2629"
+pgloadind   property added ot:studyYear "2013"
+pgloadind   property added ot:focalClade "2763116"
+pgloadind   property added ot:inGroupClade "node1052666"
+loading a specific tree: 6162
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "6162"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Onychiurus arcticus" nexsonid "node1052670"
+pgloadind       dubious OTT ID 843574
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Zorotypus gurneyi" nexsonid "node1052682"
+pgloadind       dubious OTT ID 423782
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Embioptera sp. UVienna-2012" nexsonid "node1052696"
+pgloadind       dubious OTT ID 4227919
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Tribolium castaneum" nexsonid "node1052713"
+pgloadind       dubious OTT ID 148904
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Onthophagus taurus" nexsonid "node1052714"
+pgloadind       dubious OTT ID 262810
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Homalodisca coagulata" nexsonid "node1052738"
+pgloadind       dubious OTT ID 4202784
+pgloadind     pruning dups and overlapping name "Homalodisca coagulata" nexsonid "node1052738"
+pgloadind     pruning dups and overlapping name "Tribolium castaneum" nexsonid "node1052713"
+pgloadind     pruning dups and overlapping name "Embioptera sp. UVienna-2012" nexsonid "node1052696"
+pgloadind     pruning dups and overlapping name "Onychiurus arcticus" nexsonid "node1052670"
+pgloadind     pruning dups and overlapping name "Zorotypus gurneyi" nexsonid "node1052682"
+pgloadind     pruning dups and overlapping name "Onthophagus taurus" nexsonid "node1052714"
+pgloadind   postpruning newick tree "((Folsomia_candida,Anurida_maritima),(Campodea_fragilis,(Lepismachilis_y-signata,(Ischnura_elegans,(Baetis_sp_AB-2009,((((Lysiphlebus_testaceipes,Nasonia_vitripennis),((Ctenocephalides_felis,((Phlebotomus_papatasi,Anopheles_stephensi),(Antheraea_assama,(Bombyx_mori,(Heliothis_virescens,Bicyclus_anynana))))),Dendroctonus_ponderosae)),((Rhodnius_prolixus,((Nilaparvata_lugens,Peregrinus_maidis),(Graphocephala_atropunctata,Oncometopia_nigricans))),((Bemisia_tabaci,(Diaphorina_citri,Pachypsylla_venusta)),(Maconellicoccus_hirsutus,(Aphis_gossypii,(Toxoptera_citricida,(Myzus_persicae,Acyrthosiphon_pisum))))))),((Nemurella_pictetii,Forficula_auricularia),((Locusta_migratoria,(Gryllus_bimaculatus,Laupala_kohalensis)),((Reticulitermes_flavipes,(Periplaneta_americana,(Blattella_germanica,Hodotermopsis_sjoestedti))),Phyllium_philippinicum)))))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 861693 taxonomy "Folsomia candida->Folsomia->Proisotominae->Isotomidae->Isotomoidea->Entomobryomorpha->Collembola->Ellipura->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052668"
+pgloadind     taxon mapping OTT ID 84744 taxonomy "Anurida maritima->Anurida->Pseudachorutinae->Neanuridae->Poduroidea->Poduromorpha->Collembola->Ellipura->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052671"
+pgloadind     taxon mapping OTT ID 527583 taxonomy "Campodea fragilis->Campodea->Campodeidae->Campodeoidea->Diplura->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052673"
+pgloadind     taxon mapping OTT ID 700453 taxonomy "Lepismachilis y-signata->Lepismachilis->Machilidae->Archaeognatha->Monocondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052675"
+pgloadind     taxon mapping OTT ID 253311 taxonomy "Ischnura elegans->Ischnura->Coenagrionidae->Coenagrionoidea->Zygoptera->Odonata->Palaeoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052677"
+pgloadind     taxon mapping OTT ID 796327 taxonomy "Baetis sp. AB-2009->Baetis->Baetidae->Pisciforma->Ephemeroptera->Palaeoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052679"
+pgloadind     taxon mapping OTT ID 68346 taxonomy "Lysiphlebus testaceipes->Lysiphlebus->Aphidiinae->Braconidae->Ichneumonoidea->Apocrita->Hymenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052707"
+pgloadind     taxon mapping OTT ID 729593 taxonomy "Nasonia vitripennis->Nasonia->Pteromalinae->Pteromalidae->Chalcidoidea->Chaldicoidea group->Apocrita->Hymenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052708"
+pgloadind     taxon mapping OTT ID 81976 taxonomy "Ctenocephalides felis->Ctenocephalides->Archaeopsyllinae->Pulicidae->Pulicoidea->Pulicomorpha->Siphonaptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052716"
+pgloadind     taxon mapping OTT ID 1008039 taxonomy "Phlebotomus papatasi->Phlebotomus subgenus Phlebotomus->Phlebotomus->Phlebotominae->Psychodidae->Psychodoidea->Psychodomorpha->Nematocera->Diptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052719"
+pgloadind     taxon mapping OTT ID 116726 taxonomy "Anopheles stephensi->Neocellia->Cellia->Anopheles->Anophelinae->Culicidae->Culicoidea->Culicomorpha->Nematocera->Diptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052720"
+pgloadind     taxon mapping OTT ID 738629 taxonomy "Antheraea assama->Antheraea->Saturniini->Saturniinae->Saturniidae->Saturniiformes->Bombycoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052722"
+pgloadind     taxon mapping OTT ID 440274 taxonomy "Bombyx mori->Bombyx->Bombycinae->Bombycidae->Bombyciformes->Bombycoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052724"
+pgloadind     taxon mapping OTT ID 742356 taxonomy "Heliothis virescens->Heliothis->Heliothinae->Noctuidae->Noctuoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052726"
+pgloadind     taxon mapping OTT ID 559934 taxonomy "Bicyclus anynana->Bicyclus->Mycalesina->Satyrini->Satyrinae->Nymphalidae->Papilionoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052727"
+pgloadind     taxon mapping OTT ID 1017374 taxonomy "Dendroctonus ponderosae->Dendroctonus->Scolytinae->Curculionidae->Curculionoidea->Cucujiformia->Polyphaga->Coleoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052711"
+pgloadind     taxon mapping OTT ID 958469 taxonomy "Rhodnius prolixus->Rhodnius->Triatominae->Reduviidae->Reduvioidea->Cimicomorpha->Panheteroptera->Neoheteroptera->Euheteroptera->Heteroptera->Prosorrhyncha->Neohemiptera->Euhemiptera->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052730"
+pgloadind     taxon mapping OTT ID 876508 taxonomy "Nilaparvata lugens->Nilaparvata->Delphacinae->Delphacidae->Fulgoroidea->Archaeorrhyncha->Neohemiptera->Euhemiptera->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052733"
+pgloadind     taxon mapping OTT ID 291011 taxonomy "Peregrinus maidis->Peregrinus->Delphacinae->Delphacidae->Fulgoroidea->Archaeorrhyncha->Neohemiptera->Euhemiptera->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052734"
+pgloadind     taxon mapping OTT ID 739003 taxonomy "Graphocephala atropunctata->Graphocephala->Cicadellini->Cicadellinae->Cicadellidae->Membracoidea->Clypeorrhyncha->Euhemiptera->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052736"
+pgloadind     taxon mapping OTT ID 295519 taxonomy "Oncometopia nigricans->Oncometopia->Tettigellinae->Cicadellidae->Membracoidea->Clypeorrhyncha->Euhemiptera->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052739"
+pgloadind     taxon mapping OTT ID 290577 taxonomy "Bemisia tabaci->Bemisia->Aleyrodinae->Aleyrodidae->Aleyrodoidea->Aleyrodiformes->Sternorrhyncha->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052742"
+pgloadind     taxon mapping OTT ID 624956 taxonomy "Diaphorina citri->Diaphorina->Psyllidae->Psylloidea->Psylliformes->Sternorrhyncha->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052744"
+pgloadind     taxon mapping OTT ID 265329 taxonomy "Pachypsylla venusta->Pachypsylla->Psyllidae->Psylloidea->Psylliformes->Sternorrhyncha->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052745"
+pgloadind     taxon mapping OTT ID 197458 taxonomy "Maconellicoccus hirsutus->Maconellicoccus->Pseudococcidae->Coccoidea->Aphidiformes->Sternorrhyncha->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052747"
+pgloadind     taxon mapping OTT ID 1026471 taxonomy "Aphis gossypii->Aphis subgenus Aphis->Aphis->Aphidini->Aphidinae->Aphididae->Aphidoidea->Aphidomorpha->Aphidiformes->Sternorrhyncha->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052749"
+pgloadind     taxon mapping OTT ID 34342 taxonomy "Toxoptera citricida->Toxoptera->Aphidini->Aphidinae->Aphididae->Aphidoidea->Aphidomorpha->Aphidiformes->Sternorrhyncha->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052751"
+pgloadind     taxon mapping OTT ID 785522 taxonomy "Myzus persicae->Myzus->Macrosiphini->Aphidinae->Aphididae->Aphidoidea->Aphidomorpha->Aphidiformes->Sternorrhyncha->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052753"
+pgloadind     taxon mapping OTT ID 814484 taxonomy "Acyrthosiphon pisum->Acyrthosiphon->Macrosiphini->Aphidinae->Aphididae->Aphidoidea->Aphidomorpha->Aphidiformes->Sternorrhyncha->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052754"
+pgloadind     taxon mapping OTT ID 362169 taxonomy "Nemurella pictetii->Nemurella->Nemourinae->Nemouridae->Nemouroidea->Plecoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052685"
+pgloadind     taxon mapping OTT ID 673084 taxonomy "Forficula auricularia->auricularia species complex->Forficula->Forficulidae->Forficuloidea->Forficulina->Dermaptera->Orthopteroidea->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052686"
+pgloadind     taxon mapping OTT ID 178934 taxonomy "Locusta migratoria->Locusta->Oedipodinae->Acrididae->Acridoidea->Acridomorpha->Caelifera->Orthoptera->Orthopteroidea->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052689"
+pgloadind     taxon mapping OTT ID 1077624 taxonomy "Gryllus bimaculatus->Gryllus->Gryllinae->Gryllidae->Grylloidea->Ensifera->Orthoptera->Orthopteroidea->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052691"
+pgloadind     taxon mapping OTT ID 55726 taxonomy "Laupala kohalensis->Laupala->Trigonidiinae->Gryllidae->Grylloidea->Ensifera->Orthoptera->Orthopteroidea->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052692"
+pgloadind     taxon mapping OTT ID 991735 taxonomy "Reticulitermes flavipes->Reticulitermes subgenus Reticulitermes->Reticulitermes->Heterotermitinae->Rhinotermitidae->Isoptera->Dictyoptera->Orthopteroidea->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052698"
+pgloadind     taxon mapping OTT ID 48288 taxonomy "Periplaneta americana->Periplaneta->Blattinae->Blattidae->Blattoidea->Blattodea->Dictyoptera->Orthopteroidea->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052700"
+pgloadind     taxon mapping OTT ID 48282 taxonomy "Blattella germanica->Blattella->Blattellinae->Ectobiidae->Blaberoidea->Blattodea->Dictyoptera->Orthopteroidea->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052702"
+pgloadind     taxon mapping OTT ID 944978 taxonomy "Hodotermopsis sjostedti->Hodotermopsis->Termopsini->Termopsinae->Termopsidae->Isoptera->Dictyoptera->Orthopteroidea->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052703"
+pgloadind     taxon mapping OTT ID 156711 taxonomy "Phyllium philippinicum->Phyllium->Phylliini->Phylliidae->Phyllioidea->Areolatae->Verophasmatodea->Phasmatodea->Orthopteroidea->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1052695"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6162"
+pgloadind   Adding tree to graph tree id "6162"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Myzus persicae was remapped to 'Myzus' (id=996699)
+	Locusta migratoria was remapped to 'Caelifera' (id=919857)
+	Acyrthosiphon pisum was remapped to 'Acyrthosiphon' (id=996838)
+	Phlebotomus papatasi was remapped to 'Psychodomorpha' (id=1673323)
+	Rhodnius prolixus was remapped to 'Prosorrhyncha' (id=1004172)
+	Aphis gossypii was remapped to 'Aphis' (id=993621)
+	Phyllium philippinicum was remapped to 'Phasmatodea' (id=912738)
+	Forficula auricularia was remapped to 'Dermaptera' (id=909775)
+	Baetis sp. AB-2009 was remapped to 'Ephemeroptera' (id=867487)
+	Anurida maritima was remapped to 'Poduromorpha' (id=863209)
+	Pachypsylla venusta was remapped to 'Pachypsylla' (id=971729)
+	Reticulitermes flavipes was remapped to 'Rhinotermitidae' (id=909439)
+	Graphocephala atropunctata was remapped to 'Cicadellinae' (id=1047735)
+	Hodotermopsis sjoestedti was remapped to 'Termopsidae' (id=909392)
+	Bombyx mori was remapped to 'Bombyciformes' (id=1196388)
+	Peregrinus maidis was remapped to 'Peregrinus' (id=1038634)
+	Dendroctonus ponderosae was remapped to 'Coleoptera' (id=1918850)
+	Oncometopia nigricans was remapped to 'Tettigellinae' (id=1047095)
+	Toxoptera citricida was remapped to 'Toxoptera' (id=993049)
+	Campodea fragilis was remapped to 'Diplura' (id=857407)
+	Anopheles stephensi was remapped to 'Culicomorpha' (id=1678639)
+	Ctenocephalides felis was remapped to 'Siphonaptera' (id=1457087)
+	Gryllus bimaculatus was remapped to 'Gryllinae' (id=946371)
+	Blattella germanica was remapped to 'Blaberoidea' (id=898100)
+	Nemurella pictetii was remapped to 'Plecoptera' (id=886459)
+	Bemisia tabaci was remapped to 'Aleyrodiformes' (id=973762)
+	Laupala kohalensis was remapped to 'Trigonidiinae' (id=945423)
+	Diaphorina citri was remapped to 'Diaphorina' (id=971847)
+	Nasonia vitripennis was remapped to 'Chaldicoidea group' (id=1725322)
+	Periplaneta americana was remapped to 'Blattoidea' (id=905061)
+	Nilaparvata lugens was remapped to 'Nilaparvata' (id=1040036)
+	Antheraea assama was remapped to 'Saturniiformes' (id=1201915)
+	Lysiphlebus testaceipes was remapped to 'Ichneumonoidea' (id=1838986)
+	Lepismachilis y-signata was remapped to 'Monocondylia' (id=865710)
+	Folsomia candida was remapped to 'Entomobryomorpha' (id=860662)
+	Heliothis virescens was remapped to 'Noctuoidea' (id=1321633)
+	Maconellicoccus hirsutus was remapped to 'Coccoidea' (id=974395)
+	Bicyclus anynana was remapped to 'Papilionoidea' (id=1255782)
+	Ischnura elegans was remapped to 'Odonata' (id=875098)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Letsch, H. and S. Simon. 2013. Insect phylogenomics: new insights on the relationships of lower neopteran orders (Polyneoptera). Systematic Entomology 38(4): 783-793.
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2013
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1052666
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Chris Owen
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1111/syen.12028
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 2763116
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 2629
+Committing nodes: 77
+{857405}
+857407
+	adding Node[857407] Diplura 388206 as compatible with Node[857407]
+		adding Relationship[8453197]
+860662
+	adding Node[860662] Entomobryomorpha 635924 as compatible with Node[860662]
+		adding Relationship[8453198]
+	adding Node[858756] Ellipura 801422 as compatible with Node[859915]
+		adding Relationship[8453199]
+863209
+	adding Node[863209] Poduromorpha 635925 as compatible with Node[863209]
+		adding Relationship[8453200]
+865710
+	adding Node[865710] Monocondylia 883320 as compatible with Node[865710]
+		adding Relationship[8453201]
+867487
+	adding Node[867487] Ephemeroptera 565986 as compatible with Node[867487]
+		adding Relationship[8453202]
+	adding Node[867486] Palaeoptera 240538 as compatible with Node[867487]
+		adding Relationship[8453203]
+	adding Node[866393] Dicondylia 983656 as compatible with Node[3573195]
+		adding Relationship[8453204]
+	adding Node[866393] Dicondylia 983656 as compatible with Node[867484]
+		adding Relationship[8453205]
+875098
+886459
+	adding Node[886459] Plecoptera 368358 as compatible with Node[886459]
+		adding Relationship[8453206]
+898100
+	adding Node[898100] Blaberoidea 492334 as compatible with Node[898100]
+		adding Relationship[8453207]
+905061
+	adding Node[905061] Blattoidea 492335 as compatible with Node[905061]
+		adding Relationship[8453208]
+909392
+	adding Node[909392] Termopsidae 656301 as compatible with Node[909392]
+		adding Relationship[8453209]
+909439
+	adding Node[909439] Rhinotermitidae 991753 as compatible with Node[909439]
+		adding Relationship[8453210]
+909775
+	adding Node[909775] Dermaptera 567692 as compatible with Node[909775]
+		adding Relationship[8453211]
+912738
+	adding Node[912738] Phasmatodea 814472 as compatible with Node[912738]
+		adding Relationship[8453212]
+919857
+945423
+	adding Node[945423] Trigonidiinae 96584 as compatible with Node[945423]
+		adding Relationship[8453213]
+	adding Node[945044] Grylloidea 1051857 as compatible with Node[945261]
+		adding Relationship[8453214]
+	adding Node[943893] Ensifera 1095582 as compatible with Node[945261]
+		adding Relationship[8453215]
+946371
+	adding Node[946371] Gryllinae 623488 as compatible with Node[946371]
+		adding Relationship[8453216]
+971729
+	adding Node[971729] Pachypsylla 265331 as compatible with Node[971729]
+		adding Relationship[8453217]
+	adding Node[969869] Psylloidea 341400 as compatible with Node[970976]
+		adding Relationship[8453218]
+	adding Node[969865] Psylliformes 341402 as compatible with Node[970976]
+		adding Relationship[8453219]
+	adding Node[969859] Paraneoptera 815352 as compatible with Node[969862]
+		adding Relationship[8453220]
+971847
+	adding Node[971847] Diaphorina 624955 as compatible with Node[971847]
+		adding Relationship[8453221]
+973762
+	adding Node[973762] Aleyrodiformes 341408 as compatible with Node[973762]
+		adding Relationship[8453222]
+974395
+	adding Node[974395] Coccoidea 506305 as compatible with Node[974395]
+		adding Relationship[8453223]
+993049
+	adding Node[993049] Toxoptera 34341 as compatible with Node[993049]
+		adding Relationship[8453224]
+	adding Node[992920] Aphididae 155403 as compatible with Node[993047]
+		adding Relationship[8453225]
+	adding Node[992658] Aphidoidea 506313 as compatible with Node[993047]
+		adding Relationship[8453226]
+	adding Node[992103] Aphidomorpha 919496 as compatible with Node[993047]
+		adding Relationship[8453227]
+993621
+	adding Node[993621] Aphis 1026470 as compatible with Node[993621]
+		adding Relationship[8453228]
+996699
+996838
+	adding Node[996838] Acyrthosiphon 814488 as compatible with Node[996838]
+		adding Relationship[8453229]
+1004172
+	adding Node[1004172] Prosorrhyncha 815355 as compatible with Node[1004172]
+		adding Relationship[8453230]
+1038634
+	adding Node[1038634] Peregrinus 291008 as compatible with Node[1038634]
+		adding Relationship[8453231]
+	adding Node[1038161] Delphacidae 794665 as compatible with Node[1038342]
+		adding Relationship[8453232]
+	adding Node[1025794] Fulgoroidea 582677 as compatible with Node[1038342]
+		adding Relationship[8453233]
+	adding Node[1025791] Archaeorrhyncha 866091 as compatible with Node[1038342]
+		adding Relationship[8453234]
+1040036
+	adding Node[1040036] Nilaparvata 876546 as compatible with Node[1040036]
+		adding Relationship[8453235]
+1047095
+	adding Node[1047095] Tettigellinae 250630 as compatible with Node[1047095]
+		adding Relationship[8453236]
+	adding Node[1046771] Membracoidea 627449 as compatible with Node[1046789]
+		adding Relationship[8453237]
+	adding Node[1046769] Clypeorrhyncha 866089 as compatible with Node[1046789]
+		adding Relationship[8453238]
+1047735
+	adding Node[1047735] Cicadellinae 341411 as compatible with Node[1047735]
+		adding Relationship[8453239]
+1196388
+	adding Node[1196388] Bombyciformes 755894 as compatible with Node[1196388]
+		adding Relationship[8453240]
+	adding Node[1121282] Ditrysia 596629 as compatible with Node[1196384]
+		adding Relationship[8453241]
+	adding Node[1121281] Heteroneura 795150 as compatible with Node[1196384]
+		adding Relationship[8453242]
+	adding Node[1121280] Neolepidoptera 89151 as compatible with Node[1196384]
+		adding Relationship[8453243]
+	adding Node[1121279] Glossata 89155 as compatible with Node[1196384]
+		adding Relationship[8453244]
+	adding Node[1121276] Lepidoptera 965954 as compatible with Node[1196384]
+		adding Relationship[8453245]
+	adding Node[1106013] Amphiesmenoptera 436623 as compatible with Node[1196384]
+		adding Relationship[8453246]
+1201915
+	adding Node[1201915] Saturniiformes 755895 as compatible with Node[1201915]
+		adding Relationship[8453247]
+1255782
+	adding Node[1255782] Papilionoidea 675118 as compatible with Node[1255782]
+		adding Relationship[8453248]
+1321633
+	adding Node[1321633] Noctuoidea 675124 as compatible with Node[1321633]
+		adding Relationship[8453249]
+1457087
+1673323
+	adding Node[1673323] Psychodomorpha 860945 as compatible with Node[1673323]
+		adding Relationship[8453250]
+	adding Node[1460133] Diptera 661378 as compatible with Node[1632495]
+		adding Relationship[8453251]
+1678639
+	adding Node[1678639] Culicomorpha 860946 as compatible with Node[1678639]
+		adding Relationship[8453252]
+1725322
+	adding Node[1725322] Chaldicoidea group 84294 as compatible with Node[1725322]
+		adding Relationship[8453253]
+	adding Node[1724831] Hymenoptera 753726 as compatible with Node[1725319]
+		adding Relationship[8453254]
+1838986
+	adding Node[1838986] Ichneumonoidea 678074 as compatible with Node[1838986]
+		adding Relationship[8453255]
+1918850
+	adding Node[1918850] Coleoptera 865243 as compatible with Node[1918850]
+		adding Relationship[8453256]
+[Node[1255782], Node[1040036], Node[1106011], Node[1106013], Node[974395], Node[974394], Node[886459], Node[1321633], Node[1201915], Node[1047095], Node[945044], Node[1046789], Node[1724831], Node[859915], Node[857405], Node[945261], Node[857407], Node[1460133], Node[1632495], Node[1725319], Node[1725322], Node[1025791], Node[971729], Node[893110], Node[973762], Node[970976], Node[996838], Node[969859], Node[1838986], Node[3573182], Node[3573181], Node[3573180], Node[969865], Node[912738], Node[1918850], Node[969869], Node[3573196], Node[865710], Node[992920], Node[1196384], Node[919854], Node[909775], Node[865708], Node[943893], Node[858756], Node[3573192], Node[1678639], Node[1196388], Node[1038342], Node[946371], Node[909392], Node[3573195], Node[1025794], Node[898100], Node[3573188], Node[3573189], Node[971847], Node[3573190], Node[3573191], Node[3573184], Node[3573185], Node[3573186], Node[3573187], Node[993047], Node[993049], Node[905061], Node[994602], Node[863209], Node[909439], Node[992103], Node[945423], Node[993621], Node[867487], Node[867486], Node[866393], Node[867484], Node[1121279], Node[1047735], Node[860662], Node[1121276], Node[1121282], Node[1038161], Node[1038634], Node[1121281], Node[1004172], Node[1121280], Node[1046771], Node[1004170], Node[992658], Node[1673323], Node[1046769]]
+	Node[1255782]
+		adding Relationship[8453257] from Node[1255782] to Node[3573180]
+		adding Relationship[8453258] from Node[1255782] to Node[1196384]
+	Node[1040036]
+		adding Relationship[8453259] from Node[1040036] to Node[1038342]
+	Node[1106011]
+		adding Relationship[8453260] from Node[1106011] to Node[3573188]
+	Node[1106013]
+		adding Relationship[8453261] from Node[1106013] to Node[1106011]
+	Node[974395]
+		adding Relationship[8453262] from Node[974395] to Node[974394]
+	Node[974394]
+	Node[886459]
+		adding Relationship[8453263] from Node[886459] to Node[3573189]
+	Node[1321633]
+		adding Relationship[8453264] from Node[1321633] to Node[3573180]
+		adding Relationship[8453265] from Node[1321633] to Node[1196384]
+	Node[1201915]
+		adding Relationship[8453266] from Node[1201915] to Node[1196384]
+	Node[1047095]
+		adding Relationship[8453267] from Node[1047095] to Node[1046789]
+	Node[945044]
+		adding Relationship[8453268] from Node[945044] to Node[943893]
+	Node[1046789]
+		adding Relationship[8453269] from Node[1046789] to Node[3573185]
+		adding Relationship[8453270] from Node[1046789] to Node[1046771]
+	Node[1724831]
+		adding Relationship[8453271] from Node[1724831] to Node[1106011]
+	Node[859915]
+		adding Relationship[8453272] from Node[859915] to Node[857405]
+		adding Relationship[8453273] from Node[859915] to Node[858756]
+	Node[857405]
+	Node[945261]
+		adding Relationship[8453274] from Node[945261] to Node[919854]
+		adding Relationship[8453275] from Node[945261] to Node[945044]
+	Node[857407]
+		adding Relationship[8453276] from Node[857407] to Node[3573196]
+		adding Relationship[8453277] from Node[857407] to Node[857405]
+	Node[1460133]
+		adding Relationship[8453278] from Node[1460133] to Node[1106011]
+	Node[1632495]
+		adding Relationship[8453279] from Node[1632495] to Node[3573182]
+		adding Relationship[8453280] from Node[1632495] to Node[1460133]
+	Node[1725319]
+		adding Relationship[8453281] from Node[1725319] to Node[1106011]
+		adding Relationship[8453282] from Node[1725319] to Node[1724831]
+	Node[1725322]
+		adding Relationship[8453283] from Node[1725322] to Node[1725319]
+	Node[1025791]
+	Node[971729]
+		adding Relationship[8453284] from Node[971729] to Node[970976]
+	Node[893110]
+		adding Relationship[8453285] from Node[893110] to Node[3573192]
+	Node[973762]
+		adding Relationship[8453286] from Node[973762] to Node[3573186]
+	Node[970976]
+		adding Relationship[8453287] from Node[970976] to Node[3573186]
+		adding Relationship[8453288] from Node[970976] to Node[969869]
+	Node[996838]
+		adding Relationship[8453289] from Node[996838] to Node[994602]
+	Node[969859]
+	Node[1838986]
+		adding Relationship[8453290] from Node[1838986] to Node[1725319]
+	Node[3573182]
+	Node[3573181]
+		adding Relationship[8453291] from Node[3573181] to Node[1196384]
+	Node[3573180]
+		adding Relationship[8453292] from Node[3573180] to Node[3573181]
+	Node[969865]
+	Node[912738]
+		adding Relationship[8453293] from Node[912738] to Node[3573192]
+	Node[1918850]
+		adding Relationship[8453294] from Node[1918850] to Node[3573184]
+		adding Relationship[8453295] from Node[1918850] to Node[1106011]
+	Node[969869]
+		adding Relationship[8453296] from Node[969869] to Node[969865]
+	Node[3573196]
+		adding Relationship[8453297] from Node[3573196] to Node[857405]
+	Node[865710]
+		adding Relationship[8453298] from Node[865710] to Node[865708]
+	Node[992920]
+		adding Relationship[8453299] from Node[992920] to Node[992658]
+	Node[1196384]
+		adding Relationship[8453300] from Node[1196384] to Node[3573182]
+		adding Relationship[8453301] from Node[1196384] to Node[1121282]
+	Node[919854]
+	Node[909775]
+		adding Relationship[8453302] from Node[909775] to Node[3573189]
+	Node[865708]
+		adding Relationship[8453303] from Node[865708] to Node[3573196]
+		adding Relationship[8453304] from Node[865708] to Node[857405]
+	Node[943893]
+		adding Relationship[8453305] from Node[943893] to Node[919854]
+	Node[858756]
+		adding Relationship[8453306] from Node[858756] to Node[857405]
+	Node[3573192]
+	Node[1678639]
+		adding Relationship[8453307] from Node[1678639] to Node[1632495]
+	Node[1196388]
+		adding Relationship[8453308] from Node[1196388] to Node[3573181]
+	Node[1038342]
+		adding Relationship[8453309] from Node[1038342] to Node[3573185]
+		adding Relationship[8453310] from Node[1038342] to Node[1038161]
+	Node[946371]
+		adding Relationship[8453311] from Node[946371] to Node[945261]
+	Node[909392]
+		adding Relationship[8453312] from Node[909392] to Node[3573190]
+	Node[3573195]
+		adding Relationship[8453313] from Node[3573195] to Node[867484]
+	Node[1025794]
+		adding Relationship[8453314] from Node[1025794] to Node[1025791]
+	Node[898100]
+		adding Relationship[8453315] from Node[898100] to Node[3573190]
+	Node[3573188]
+	Node[3573189]
+	Node[971847]
+		adding Relationship[8453316] from Node[971847] to Node[970976]
+	Node[3573190]
+		adding Relationship[8453317] from Node[3573190] to Node[3573191]
+	Node[3573191]
+		adding Relationship[8453318] from Node[3573191] to Node[893110]
+	Node[3573184]
+		adding Relationship[8453319] from Node[3573184] to Node[1106011]
+	Node[3573185]
+		adding Relationship[8453320] from Node[3573185] to Node[1004170]
+	Node[3573186]
+	Node[3573187]
+		adding Relationship[8453321] from Node[3573187] to Node[993047]
+	Node[993047]
+		adding Relationship[8453322] from Node[993047] to Node[974394]
+		adding Relationship[8453323] from Node[993047] to Node[992920]
+	Node[993049]
+		adding Relationship[8453324] from Node[993049] to Node[3573187]
+	Node[905061]
+		adding Relationship[8453325] from Node[905061] to Node[3573191]
+	Node[994602]
+		adding Relationship[8453326] from Node[994602] to Node[3573187]
+		adding Relationship[8453327] from Node[994602] to Node[993047]
+	Node[863209]
+		adding Relationship[8453328] from Node[863209] to Node[859915]
+	Node[909439]
+		adding Relationship[8453329] from Node[909439] to Node[893110]
+	Node[992103]
+		adding Relationship[8453330] from Node[992103] to Node[974394]
+	Node[945423]
+		adding Relationship[8453331] from Node[945423] to Node[945261]
+	Node[993621]
+		adding Relationship[8453332] from Node[993621] to Node[993047]
+	Node[867487]
+		adding Relationship[8453333] from Node[867487] to Node[3573195]
+		adding Relationship[8453334] from Node[867487] to Node[867486]
+	Node[867486]
+		adding Relationship[8453335] from Node[867486] to Node[867484]
+	Node[866393]
+		adding Relationship[8453336] from Node[866393] to Node[865708]
+	Node[867484]
+		adding Relationship[8453337] from Node[867484] to Node[865708]
+		adding Relationship[8453338] from Node[867484] to Node[866393]
+	Node[1121279]
+		adding Relationship[8453339] from Node[1121279] to Node[1121276]
+	Node[1047735]
+		adding Relationship[8453340] from Node[1047735] to Node[1046789]
+	Node[860662]
+		adding Relationship[8453341] from Node[860662] to Node[859915]
+	Node[1121276]
+		adding Relationship[8453342] from Node[1121276] to Node[1106013]
+	Node[1121282]
+		adding Relationship[8453343] from Node[1121282] to Node[1121281]
+	Node[1038161]
+		adding Relationship[8453344] from Node[1038161] to Node[1025794]
+	Node[1038634]
+		adding Relationship[8453345] from Node[1038634] to Node[1038342]
+	Node[1121281]
+		adding Relationship[8453346] from Node[1121281] to Node[1121280]
+	Node[1004172]
+		adding Relationship[8453347] from Node[1004172] to Node[1004170]
+	Node[1121280]
+		adding Relationship[8453348] from Node[1121280] to Node[1121279]
+	Node[1046771]
+		adding Relationship[8453349] from Node[1046771] to Node[1046769]
+	Node[1004170]
+	Node[992658]
+		adding Relationship[8453350] from Node[992658] to Node[992103]
+	Node[1673323]
+		adding Relationship[8453351] from Node[1673323] to Node[1632495]
+	Node[1046769]
+		adding Relationship[8453352] from Node[1046769] to Node[1004170]

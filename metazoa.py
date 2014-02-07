@@ -1,7 +1,14 @@
+"""
+Note: studies are (for the most part) ordered from shallow to deep clades. 
+      This might need to be reversed when using the mapcompatible function.
+"""
+
+
 studytreelist=[
      ## Birds
                "2577_5980", # Galliformes. Wang et al. 2013. PLoS ONE
                "2658_6192", # Trochilidae. McGuire et al. 2007. Syst. Biol.
+               "2796_6491", # Pipridae. Ohlson et al. 2013. MPE
                "2707_6281", # Icteridae. Powell et al. 2013. MPE
                "1966_4019", # Maluridae. Lee et al. 2011. Syst. Biol.
                "2600_6022", # Paridae. Johansson et al. 2013. MPE
@@ -15,7 +22,7 @@ studytreelist=[
                "420_522",   # Aves. Hackett et al. 2008. Science
      ## Mammals
                "2695_6250", # Ursidae. Krause et al. 2008. BMC Evol. Biol.
-               "1600_3231", # Euarchontoglires (Primates). Perelman et al. 2011. PloS Genetics *** replace with Springer et al.
+               "1600_3231", # Euarchontoglires (Primates). Perelman et al. 2011. PloS Genetics *** Springer et al. have better sampling, but trees agree
                "2656_6185", # Primates. Springer et al. 2012. PLoS ONE
                "2688_6240", # Rodentia. Fabre et al. 2012. BMC Evol. Biol.
                "2359_4962", # Antilopinae. Barmann et al. 2013. MPE
@@ -29,23 +36,29 @@ studytreelist=[
                "1797_3635", # Tenrecidae. Poux et al. 2008. BMC Evol. Biol.
                "1428_2855", # Mammals. Meredith et al. 2011. Science
                "1646_6231", # Caniformia (Pinnipeds). Higdon et al. 2007. BMC Evol. Biol.
-     ## Fish
+
+     ## Fish - need to figure out best ordering with mapcompat
                "2589_6001", # Gobioidei. Agorreta et al. 2013. MPE
                "2655_6181", # Cichlidae. Friedman et al. 2013. Proc. Roy. Soc.
-            #   "2657_6191", # Percomorpha. Near et al. 2012. MPE *** Replace with Miya et al.
-               "2653_6178", # Percomorpha. Miya et al. 2013. PLoS ONE
-            #   "1997_6183", # Percidae. Near et al. 2011. Syst. Biol. *** not working for some reason...
-               "2551_6180", # Holacanthopterygii. Wainwright et al. 2012. Syst. Biol.
+               "1997_6183", # Percidae. Near et al. 2011. Syst. Biol. *** not working for some reason...
                "2654_6179", # Leiognathidae. Chakrabarty et al. 2011. Mol. Ecol.
                "2585_5994", # Tetraodontiformes. Santini et al. 2013. MPE
+            #   "2657_6191", # Percomorpha. Near et al. 2012. MPE *** Replace with Miya et al.
+               "2653_6178", # Percomorpha. Miya et al. 2013. PLoS ONE
+               "2551_6180", # Holacanthopterygii. Wainwright et al. 2012. Syst. Biol.
                "2576_5975", # Euteleostei. Near et al. 2013. PNAS
                "1870_3769", # Cyprinidae. Ruber et al. 2007. BMC Evol. Biol.
                "2659_6195", # Otophysi. Chen et al. 2013. Evolution
+
+               "2651_6177"  # Actinopterygii (Bony fishes). Betancur-R et al. 2013. PLoS Currents
+
      ## Other tetrapods
                "2415_5096", # Turtles. Guillon et al. 2012. Contributions to Zoology
                "423_2857",  # Amphibia. Pyron and Weins. 2011. MPE
                "2573_5959", # Sauria. Crawford et al. 2012. Biology Letters
+               "2711_6295", # Henophidia. Reynolds et al. 2014. MPE *** check this doesn't break the Pyron study
                "2460_5285", # Squamata. Pyron et al. 2013. BMC Evol. Biol.
+
      ## Insects and other crawley stuff
                "1988_4074", # Mantodea. Svenson et al. 2009. CLadistics
                "2593_6247", # Dermaptera. Kocarek et al. 2013. PLoS ONE
@@ -56,14 +69,18 @@ studytreelist=[
                "2629_6162", # Hexapoda. Letsch and Simon. 2013. Syst. Ent.
                "2604_6043", # Apoidea. Hedtke et al. 2013. BMC Evol. Biol.
                "2686_6238", # Arthropoda. Lee et al. 2013. Curr. Biol.
+
+           #    "2664_6201", # Ditrysia. Regier et al. 2013. PLoS ONE *** add this in. seems better than Cho
+
      ## Other
                "421_523",   # Mollusca. Smith et al. 2011. Nature
             #   "1482_5228", # Eumetazoa. Evans et al. 2008. BMC Evol. Biol. <- breaks stuff?
                "1217_2455", # Metazoa. Delsuc et al. 2008. Genesis
                "1366_6166", # Annelida. Struck et al. 2011. Nature
-               "1761_6151" # Scleractinia (corals). Huang nad Roy. 2013. Ecology and Evolution
+               "1761_6151"  # Scleractinia (corals). Huang nad Roy. 2013. Ecology and Evolution
             #   "2418_6152", # Metazoa. Evans and Cartwright. 2010. MBE *** not working for some reason...
-            #   "2407_5075"] # Bilateria. Anderson et al. 2004. JME
+            #   "2407_6390", # Bilateria. Anderson et al. 2004. JME
+            #   "2710_6291"  # Metazoa. Ryan et al. 2013. Science *** need to choose best Metazoa tree(s)
             ]
 
 studytreelistTF = [True] * len(studytreelist)

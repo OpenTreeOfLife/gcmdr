@@ -1,0 +1,563 @@
+pgloadind OTUs number 70
+pgloadind Processing tree @id "6291"
+pgloadind   tree info number nodes 139
+pgloadind   tree info number edges 138
+pgloadind   tree info ingroup "node1093975"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 58
+pgloadind   property added ot:studyPublicationReference "J. F. Ryan, K. Pang, C. E. Schnitzler, A.-D. Nguyen, R. T. Moreland, D. K. Simmons, B. J. Koch, W. R. Francis, P. Havlak, S. A. Smith, N. H. Putnam, S. H. D. Haddock, C. W. Dunn, T. G. Wolfsberg, J. C. Mullikin, M. Q. Martindale, A. D. Baxevanis. 2013. The genome of the ctenophore Mnemiopsis leidyi and its implications for cell type evolution. Science 342 (6164): 1242592-1242592."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1126/science.1242592"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:studyId "2710"
+pgloadind   property added ot:studyYear "2013"
+pgloadind   property added ot:focalClade "1571669"
+pgloadind   property added ot:tag "ingroup added;"
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+pgloadind   property added ot:inGroupClade "node1093975"
+pgloadind   property added ot:curatedType "ML bootstrap, EST (Figure 3)"
+loading a specific tree: 6291
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "6291"
+pgloadind     OTT ID missing name "Mertensiid sp" nexsonid "node1093980"
+pgloadind   TNRS unmatched total number 1
+pgloadind     pruning unmapped name "Mertensiid sp" nexsonid "node1093980"
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Hydra magnipapillata" nexsonid "node1094010"
+pgloadind       dubious OTT ID 767776
+pgloadind     pruning dups and overlapping name "Hydra magnipapillata" nexsonid "node1094010"
+pgloadind   postpruning newick tree "((Pleurobrachia_pileus,Mnemiopsis),((((Leucetta_chagosensis,Sycon_raphanus),(Oscarella_carmela,Oscarella_lobularis)),(Oopsacas_minuta,(Carteriospongia_foliascens,(Amphimedon_queenslandica,(Suberites_domuncula,(Lubomirskia_baicalensis,Ephydatia_muelleri)))))),(Trichoplax_adhaerens,(((Cyanea_capillata,(Clytia_hemisphaerica,(Podocoryna_carnea,Hydractinia_echinata))),((Nematostella_vectensis,(Anemonia_viridis,(Aiptasia_pallida,Metridium_senile))),((Acropora_palmata,Acropora_millepora),(Porites_astreoides,Montastraea_faveolata)))),((Xenoturbella_bocki,((Nemertoderma_westbladi,Meara_stichopi),(Isodiametra_pulchra,(Symsagittifera_roscoffensis,Convolutriloba_longifissura)))),((((Saccoglossus_kowalevskii,Ptychodera_flava),(Strongylocentrotus_purpuratus,Patiria_pectinifera)),(Branchiostoma_floridae,((Petromyzon_marinus,Gallus),(Ciona_intestinalis,Halocynthia_roretzi)))),(((Echinoderes_horni,Xiphinema_index),(Euperipatoides_kanangrensis,((Anoplodactylus_eroticus,Rhipicephalus_microplus),(Daphnia_pulex,Drosophila_melanogaster)))),((Schmidtea_mediterranea,Paraplanocera_oligoglena),((Capitella_teleta,Helobdella_robusta),((Cerebratulus_lacteus,Terebratalia_transversa),(Euprymna_scolopes,(Lottia_gigantea,Crassostrea_virginica))))))))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 626459 taxonomy "Pleurobrachia pileus->Pleurobrachia->Pleurobrachiidae->Cydippida->Typhlocoela->Ctenophora->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093977"
+pgloadind     taxon mapping OTT ID 161882 taxonomy "Mnemiopsis->Bolinopsidae->Lobata->Cyclocoela->Ctenophora->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093979"
+pgloadind     taxon mapping OTT ID 918964 taxonomy "Leucetta chagosensis->Leucetta->Leucettidae->Clathrinida->Calcinea->Calcarea->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093985"
+pgloadind     taxon mapping OTT ID 505344 taxonomy "Sycon raphanus->Sycon->Sycettidae->Leucosolenida->Calcaronea->Calcarea->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093986"
+pgloadind     taxon mapping OTT ID 862117 taxonomy "Oscarella carmela->Oscarella->Plakinidae->Homosclerophorida->Homoscleromorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093988"
+pgloadind     taxon mapping OTT ID 7587 taxonomy "Oscarella lobularis->Oscarella->Plakinidae->Homosclerophorida->Homoscleromorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093989"
+pgloadind     taxon mapping OTT ID 351698 taxonomy "Oopsacas minuta->Oopsacas->Leucopsacidae->Lyssacinosida->Hexasterophora->Hexactinellida->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093991"
+pgloadind     taxon mapping OTT ID 472969 taxonomy "Carteriospongia foliascens->Carteriospongia->Thorectidae->Dictyoceratida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093993"
+pgloadind     taxon mapping OTT ID 707499 taxonomy "Amphimedon queenslandica->Amphimedon->Niphatidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093995"
+pgloadind     taxon mapping OTT ID 127353 taxonomy "Suberites domuncula->Suberites->Suberitidae->Hadromerida->Tetractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093997"
+pgloadind     taxon mapping OTT ID 74677 taxonomy "Lubomirskia baicalensis->Lubomirskia->Lubomirskiidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093999"
+pgloadind     taxon mapping OTT ID 588770 taxonomy "Ephydatia muelleri->Ephydatia->Spongillidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094000"
+pgloadind     taxon mapping OTT ID 570365 taxonomy "Trichoplax adhaerens->Trichoplax->Trichoplacidae->Placozoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094002"
+pgloadind     taxon mapping OTT ID 178412 taxonomy "Cyanea capillata->Cyanea->Cyaneidae->Semaeostomeae->Scyphozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094006"
+pgloadind     taxon mapping OTT ID 33386 taxonomy "Clytia hemisphaerica->Clytia->Campanulariidae->Leptomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094008"
+pgloadind     taxon mapping OTT ID 612106 taxonomy "Podocoryna carnea->Podocoryna->Hydractiniidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094012"
+pgloadind     taxon mapping OTT ID 115617 taxonomy "Hydractinia echinata->Hydractinia->Hydractiniidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094013"
+pgloadind     taxon mapping OTT ID 938118 taxonomy "Nematostella vectensis->Nematostella->Edwardsiidae->Actiniaria->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094016"
+pgloadind     taxon mapping OTT ID 214124 taxonomy "Anemonia viridis->Anemonia->Actiniidae->Nynantheae->Actiniaria->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094018"
+pgloadind     taxon mapping OTT ID 135923 taxonomy "Aiptasia pallida->Aiptasia->Aiptasiidae->Actiniaria->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094020"
+pgloadind     taxon mapping OTT ID 558017 taxonomy "Metridium senile->Metridium->Metridiidae->Nynantheae->Actiniaria->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094021"
+pgloadind     taxon mapping OTT ID 507954 taxonomy "Acropora palmata->Acropora->Acroporidae->Astrocoeniina->Scleractinia->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094024"
+pgloadind     taxon mapping OTT ID 718262 taxonomy "Acropora millepora->Acropora->Acroporidae->Astrocoeniina->Scleractinia->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094025"
+pgloadind     taxon mapping OTT ID 208979 taxonomy "Porites astreoides->Porites->Poritidae->Fungiina->Scleractinia->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094027"
+pgloadind     taxon mapping OTT ID 955287 taxonomy "Montastraea faveolata->Montastraea->Montastraeidae->Faviina->Scleractinia->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094028"
+pgloadind     taxon mapping OTT ID 467516 taxonomy "Xenoturbella bocki->Xenoturbella->Xenoturbellidae->Xenoturbellida->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094031"
+pgloadind     taxon mapping OTT ID 189324 taxonomy "Nemertoderma westbladi->Nemertoderma->Nemertodermatidae->Nemertodermatida->Acoelomorpha->Xenacoelomorpha->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094034"
+pgloadind     taxon mapping OTT ID 696822 taxonomy "Meara stichopi->Meara->Nemertodermatidae->Nemertodermatida->Acoelomorpha->Xenacoelomorpha->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094035"
+pgloadind     taxon mapping OTT ID 431879 taxonomy "Isodiametra pulchra->Isodiametra->Isodiametridae->Acoela->Acoelomorpha->Xenacoelomorpha->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094037"
+pgloadind     taxon mapping OTT ID 675113 taxonomy "Symsagittifera roscoffensis->Symsagittifera->Sagittiferidae->Acoela->Acoelomorpha->Xenacoelomorpha->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094039"
+pgloadind     taxon mapping OTT ID 892905 taxonomy "Convolutriloba longifissura->Convolutriloba->Sagittiferidae->Acoela->Acoelomorpha->Xenacoelomorpha->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094040"
+pgloadind     taxon mapping OTT ID 570370 taxonomy "Saccoglossus kowalevskii->Saccoglossus->Harrimaniidae->Enteropneusta (no Orders recognised)->Enteropneusta->Hemichordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094045"
+pgloadind     taxon mapping OTT ID 768590 taxonomy "Ptychodera flava->Ptychodera->Ptychoderidae->Enteropneusta (no Orders recognised)->Enteropneusta->Hemichordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094046"
+pgloadind     taxon mapping OTT ID 564702 taxonomy "Strongylocentrotus purpuratus->Strongylocentrotus->Strongylocentrotidae->Echinoida->Echinacea->Euechinoidea->Echinoidea->Echinozoa->Eleutherozoa->Echinodermata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094048"
+pgloadind     taxon mapping OTT ID 977093 taxonomy "Patiria pectinifera->Patiria->Asterinidae->Valvatida->Valvatacea->Asteroidea->Asterozoa->Eleutherozoa->Echinodermata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094049"
+pgloadind     taxon mapping OTT ID 176532 taxonomy "Branchiostoma floridae->Branchiostoma->Branchiostomidae->Amphioxiformes->Cephalochordata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094051"
+pgloadind     taxon mapping OTT ID 227494 taxonomy "Petromyzon marinus->Petromyzon->Petromyzontidae->Petromyzontiformes->Hyperoartia->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094054"
+pgloadind     taxon mapping OTT ID 153562 taxonomy "Gallus->Phasianinae->Phasianidae->Galliformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094055"
+pgloadind     taxon mapping OTT ID 744224 taxonomy "Ciona intestinalis->Ciona->Cionidae->Phlebobranchia->Enterogona->Ascidiacea->Tunicata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094057"
+pgloadind     taxon mapping OTT ID 672826 taxonomy "Halocynthia roretzi->Halocynthia->Pyuridae->Stolidobranchia->Ascidiacea->Tunicata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094058"
+pgloadind     taxon mapping OTT ID 1046342 taxonomy "Echinoderes horni->Echinoderes->Echinoderidae->Cyclorhagida->Kinorhyncha->Scalidophora->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094062"
+pgloadind     taxon mapping OTT ID 165364 taxonomy "Xiphinema index->Xiphinema->Longidoridae->Longidoroidea->Dorylaimina->Dorylaimida->Enoplia->Enoplea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094063"
+pgloadind     taxon mapping OTT ID 1046340 taxonomy "Euperipatoides kanangrensis->Euperipatoides->Peripatopsidae->Euonychophora Hutchinson, 1930->Udeonychophora Poinar, 2000->Onychophora->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094065"
+pgloadind     taxon mapping OTT ID 1046338 taxonomy "Anoplodactylus eroticus->Anoplodactylus->Phoxichilidiidae->Pantopoda->Pycnogonida->Chelicerata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094068"
+pgloadind     taxon mapping OTT ID 621053 taxonomy "Rhipicephalus microplus->Boophilus->Rhipicephalus->Rhipicephalinae->Ixodidae->Ixodoidea->Ixodida->Parasitiformes->Acari->Arachnida->Chelicerata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094069"
+pgloadind     taxon mapping OTT ID 59086 taxonomy "Daphnia pulex->Daphnia->Daphniidae->Anomopoda->Cladocera->Diplostraca->Phyllopoda->Branchiopoda->Crustacea->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094071"
+pgloadind     taxon mapping OTT ID 505714 taxonomy "Drosophila melanogaster->melanogaster subgroup->melanogaster group->Sophophora->Drosophila->Drosophiliti->Drosophilina->Drosophilini->Drosophilinae->Drosophilidae->Ephydroidea->Acalyptratae->Schizophora->Cyclorrhapha->Eremoneura->Muscomorpha->Brachycera->Diptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094072"
+pgloadind     taxon mapping OTT ID 900428 taxonomy "Schmidtea mediterranea->Schmidtea->Dugesiidae->Geoplanoidea->Continenticola->Tricladida->Seriata->Rhabditophora->Platyhelminthes->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094075"
+pgloadind     taxon mapping OTT ID 5132049 taxonomy "Paraplanocera oligoglena->Paraplanocera->Planoceridae->Planoceroidea->Acotylea->Polycladida->Rhabditophora->Platyhelminthes->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094076"
+pgloadind     taxon mapping OTT ID 707082 taxonomy "Capitella teleta->Capitella->Capitellidae->Capitellida->Scolecida->Polychaeta->Annelida->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094079"
+pgloadind     taxon mapping OTT ID 870792 taxonomy "Helobdella robusta->Helobdella->Glossiphoniidae->Rhynchobdellida->Hirudinea->Hirudinida->Clitellata->Annelida->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094080"
+pgloadind     taxon mapping OTT ID 971433 taxonomy "Cerebratulus lacteus->Cerebratulus->Cerebratulidae->Heteronemertea->Anopla->Nemertea->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094083"
+pgloadind     taxon mapping OTT ID 463351 taxonomy "Terebratalia transversa->Terebratalia->Laqueidae->Laqueoidea->Terebratellidina->Terebratulida->Rhynchonellata->Rhynchonelliformea->Brachiopoda->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094084"
+pgloadind     taxon mapping OTT ID 528814 taxonomy "Euprymna scolopes->Euprymna->Sepiolidae->Sepiolida->Decapodiformes->Neocoleoidea->Coleoidea->Cephalopoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094086"
+pgloadind     taxon mapping OTT ID 840650 taxonomy "Lottia gigantea->Lottia->Lottiidae->Lottioidea->Patellogastropoda->Gastropoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094088"
+pgloadind     taxon mapping OTT ID 365708 taxonomy "Crassostrea virginica->Crassostrea->Ostreidae->Ostreoidea->Ostreoida->Pteriomorphia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094089"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6291"
+pgloadind   Adding tree to graph tree id "6291"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Lottia gigantea was remapped to 'Gastropoda' (id=620228)
+	Euprymna scolopes was remapped to 'Cephalopoda' (id=612636)
+	Cyanea capillata was remapped to 'Scyphozoa' (id=2550150)
+	Podocoryna carnea was remapped to 'Podocoryna' (id=2546567)
+	Terebratalia transversa was remapped to 'Brachiopoda' (id=756076)
+	Pleurobrachia pileus was remapped to 'Typhlocoela' (id=2569450)
+	Nematostella vectensis was remapped to 'Edwardsiidae' (id=2565670)
+	Rhipicephalus microplus was remapped to 'Arachnida' (id=2354646)
+	Schmidtea mediterranea was remapped to 'Seriata' (id=2514128)
+	Anemonia viridis was remapped to 'Actiniidae' (id=2566343)
+	Clytia hemisphaerica was remapped to 'Leptomedusae' (id=2541855)
+	Daphnia pulex was remapped to 'Crustacea' (id=2242496)
+	Carteriospongia foliascens was remapped to 'Dictyoceratida' (id=310325)
+	Echinoderes horni was remapped to 'Scalidophora' (id=833935)
+	Crassostrea virginica was remapped to 'Bivalvia' (id=722094)
+	Branchiostoma floridae was remapped to 'Cephalochordata' (id=324877)
+	Xiphinema index was remapped to 'Nematoda' (id=792158)
+	Xenoturbella bocki was remapped to 'Xenoturbellida' (id=590522)
+	Paraplanocera oligoglena was remapped to 'Polycladida' (id=2518287)
+	Aiptasia pallida was remapped to 'Aiptasiidae' (id=2565846)
+	Montastraea faveolata was remapped to 'Faviina' (id=2560286)
+	Nemertoderma westbladi was remapped to 'Nemertoderma' (id=569451)
+	Ciona intestinalis was remapped to 'Enterogona' (id=320858)
+	Cerebratulus lacteus was remapped to 'Nemertea' (id=595122)
+	Convolutriloba longifissura was remapped to 'Convolutriloba' (id=568766)
+	Saccoglossus kowalevskii was remapped to 'Harrimaniidae' (id=318010)
+	Petromyzon marinus was remapped to 'Hyperoartia' (id=565086)
+	Helobdella robusta was remapped to 'Clitellata' (id=761232)
+	Capitella teleta was remapped to 'Polychaeta' (id=767612)
+	Halocynthia roretzi was remapped to 'Stolidobranchia' (id=318250)
+	Strongylocentrotus purpuratus was remapped to 'Echinozoa' (id=579862)
+	Mnemiopsis was remapped to 'Cyclocoela' (id=2569670)
+	Gallus was remapped to 'Gnathostomata' (id=324999)
+	Ephydatia muelleri was remapped to 'Spongillidae' (id=303022)
+	Euperipatoides kanangrensis was remapped to 'Onychophora' (id=2510107)
+	Isodiametra pulchra was remapped to 'Isodiametridae' (id=569013)
+	Leucetta chagosensis was remapped to 'Calcinea' (id=314233)
+	Lubomirskia baicalensis was remapped to 'Lubomirskiidae' (id=301547)
+	Porites astreoides was remapped to 'Fungiina' (id=2562582)
+	Hydractinia echinata was remapped to 'Hydractinia' (id=2546348)
+	Symsagittifera roscoffensis was remapped to 'Symsagittifera' (id=568730)
+	Suberites domuncula was remapped to 'Tetractinomorpha' (id=297126)
+	Drosophila melanogaster was remapped to 'Hexapoda' (id=857405)
+	Meara stichopi was remapped to 'Meara' (id=569458)
+	Amphimedon queenslandica was remapped to 'Niphatidae' (id=303479)
+	Ptychodera flava was remapped to 'Ptychoderidae' (id=317916)
+	Trichoplax adhaerens was remapped to 'Placozoa' (id=317869)
+	Sycon raphanus was remapped to 'Calcaronea' (id=314693)
+	Anoplodactylus eroticus was remapped to 'Pycnogonida' (id=2507042)
+	Patiria pectinifera was remapped to 'Asterozoa' (id=569474)
+	Oopsacas minuta was remapped to 'Hexactinellida' (id=316029)
+	Metridium senile was remapped to 'Metridiidae' (id=2567505)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': J. F. Ryan, K. Pang, C. E. Schnitzler, A.-D. Nguyen, R. T. Moreland, D. K. Simmons, B. J. Koch, W. R. Francis, P. Havlak, S. A. Smith, N. H. Putnam, S. H. D. Haddock, C. W. Dunn, T. G. Wolfsberg, J. C. Mullikin, M. Q. Martindale, A. D. Baxevanis. 2013. The genome of the ctenophore Mnemiopsis leidyi and its implications for cell type evolution. Science 342 (6164): 1242592-1242592.
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2013
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1093975
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph Brown
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1126/science.1242592
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 1571669
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': ML bootstrap, EST (Figure 3)
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 2710
+Committing nodes: 111
+{297117}
+313957
+	adding Node[313943] Plakinidae 196338 as compatible with Node[313947]
+		adding Relationship[8453262]
+	adding Node[313942] Homosclerophorida 196337 as compatible with Node[313947]
+		adding Relationship[8453263]
+	adding Node[313941] Homoscleromorpha 519088 as compatible with Node[313947]
+		adding Relationship[8453264]
+313975
+2562302
+	adding Node[2561954] Acroporidae 712407 as compatible with Node[2562162]
+		adding Relationship[8453265]
+	adding Node[2561617] Astrocoeniina 738307 as compatible with Node[2562162]
+		adding Relationship[8453266]
+	adding Node[2550941] Anthozoa 1084488 as compatible with Node[2556731]
+		adding Relationship[8453267]
+2562335
+297126
+	adding Node[297126] Tetractinomorpha 400835 as compatible with Node[297126]
+		adding Relationship[8453268]
+301547
+	adding Node[301547] Lubomirskiidae 386308 as compatible with Node[301547]
+		adding Relationship[8453269]
+303022
+	adding Node[303022] Spongillidae 588768 as compatible with Node[303022]
+		adding Relationship[8453270]
+303479
+	adding Node[303479] Niphatidae 757381 as compatible with Node[303479]
+		adding Relationship[8453271]
+310325
+	adding Node[310325] Dictyoceratida 249751 as compatible with Node[310325]
+		adding Relationship[8453272]
+314233
+	adding Node[314233] Calcinea 606946 as compatible with Node[314233]
+		adding Relationship[8453273]
+314693
+	adding Node[314693] Calcaronea 606950 as compatible with Node[314693]
+		adding Relationship[8453274]
+316029
+	adding Node[316029] Hexactinellida 1007159 as compatible with Node[316029]
+		adding Relationship[8453275]
+317869
+	adding Node[317869] Placozoa 570376 as compatible with Node[317869]
+		adding Relationship[8453276]
+317916
+	adding Node[317916] Ptychoderidae 157866 as compatible with Node[317916]
+		adding Relationship[8453277]
+	adding Node[317902] Enteropneusta 570381 as compatible with Node[317909]
+		adding Relationship[8453278]
+	adding Node[317900] Hemichordata 100746 as compatible with Node[317909]
+		adding Relationship[8453279]
+318010
+	adding Node[318010] Harrimaniidae 570383 as compatible with Node[318010]
+		adding Relationship[8453280]
+318250
+	adding Node[318250] Stolidobranchia 750979 as compatible with Node[318250]
+		adding Relationship[8453281]
+	adding Node[318245] Tunicata 125649 as compatible with Node[318250]
+		adding Relationship[8453282]
+	adding Node[318245] Tunicata 125649 as compatible with Node[318248]
+		adding Relationship[8453283]
+320858
+324877
+	adding Node[324877] Cephalochordata 176555 as compatible with Node[324877]
+		adding Relationship[8453284]
+324999
+	adding Node[324996] Craniata 947318 as compatible with Node[324997]
+		adding Relationship[8453285]
+565086
+	adding Node[565086] Hyperoartia 688828 as compatible with Node[565086]
+		adding Relationship[8453286]
+	adding Node[324996] Craniata 947318 as compatible with Node[565086]
+		adding Relationship[8453287]
+568730
+	adding Node[568730] Symsagittifera 292574 as compatible with Node[568730]
+		adding Relationship[8453288]
+	adding Node[568581] Xenacoelomorpha 5285903 as compatible with Node[568582]
+		adding Relationship[8453289]
+568766
+	adding Node[568766] Convolutriloba 892909 as compatible with Node[568766]
+		adding Relationship[8453290]
+569013
+569451
+	adding Node[569451] Nemertoderma 189308 as compatible with Node[569451]
+		adding Relationship[8453291]
+	adding Node[569449] Nemertodermatida 490210 as compatible with Node[569450]
+		adding Relationship[8453292]
+569458
+	adding Node[569458] Meara 831697 as compatible with Node[569458]
+		adding Relationship[8453293]
+569474
+	adding Node[569474] Asterozoa 451023 as compatible with Node[569474]
+		adding Relationship[8453294]
+	adding Node[569471] Echinodermata 451020 as compatible with Node[569473]
+		adding Relationship[8453295]
+579862
+	adding Node[579862] Echinozoa 669475 as compatible with Node[579862]
+		adding Relationship[8453296]
+590522
+	adding Node[590522] Xenoturbellida 1044243 as compatible with Node[590522]
+		adding Relationship[8453297]
+595122
+	adding Node[595122] Nemertea 445195 as compatible with Node[595122]
+		adding Relationship[8453298]
+612636
+	adding Node[612636] Cephalopoda 7368 as compatible with Node[612636]
+		adding Relationship[8453299]
+620228
+	adding Node[620228] Gastropoda 409995 as compatible with Node[620228]
+		adding Relationship[8453300]
+722094
+	adding Node[722094] Bivalvia 1025545 as compatible with Node[722094]
+		adding Relationship[8453301]
+756076
+	adding Node[756076] Brachiopoda 826261 as compatible with Node[756076]
+		adding Relationship[8453302]
+761232
+	adding Node[761232] Clitellata 563197 as compatible with Node[761232]
+		adding Relationship[8453303]
+767612
+	adding Node[767612] Polychaeta 941618 as compatible with Node[767612]
+		adding Relationship[8453304]
+792158
+	adding Node[792158] Nematoda 395057 as compatible with Node[792158]
+		adding Relationship[8453305]
+833935
+	adding Node[833935] Scalidophora 434620 as compatible with Node[833935]
+		adding Relationship[8453306]
+857405
+	adding Node[857405] Hexapoda 568991 as compatible with Node[857405]
+		adding Relationship[8453307]
+	adding Node[836349] Mandibulata 985907 as compatible with Node[857404]
+		adding Relationship[8453308]
+2242496
+	adding Node[2242496] Crustacea 632176 as compatible with Node[2242496]
+		adding Relationship[8453309]
+2354646
+	adding Node[2354646] Arachnida 511967 as compatible with Node[2354646]
+		adding Relationship[8453310]
+2507042
+	adding Node[2507042] Pycnogonida 910210 as compatible with Node[2507042]
+		adding Relationship[8453311]
+2510107
+	adding Node[2510107] Onychophora 1072433 as compatible with Node[2510107]
+		adding Relationship[8453312]
+2514128
+	adding Node[2510691] Platyhelminthes 555379 as compatible with Node[2510694]
+		adding Relationship[8453313]
+2518287
+	adding Node[2518287] Polycladida 101221 as compatible with Node[2518287]
+		adding Relationship[8453314]
+	adding Node[2510691] Platyhelminthes 555379 as compatible with Node[2518287]
+		adding Relationship[8453315]
+2541855
+	adding Node[2541855] Leptomedusae 981800 as compatible with Node[2541855]
+		adding Relationship[8453316]
+	adding Node[2541852] Hydrozoa 641030 as compatible with Node[2541854]
+		adding Relationship[8453317]
+2546348
+	adding Node[2546348] Hydractinia 35792 as compatible with Node[2546348]
+		adding Relationship[8453318]
+	adding Node[2545699] Anthomedusae 641027 as compatible with Node[2546346]
+		adding Relationship[8453319]
+2546567
+	adding Node[2546567] Podocoryna 612090 as compatible with Node[2546567]
+		adding Relationship[8453320]
+2550150
+	adding Node[2550150] Scyphozoa 983579 as compatible with Node[2550150]
+		adding Relationship[8453321]
+2560286
+	adding Node[2560286] Faviina 112488 as compatible with Node[2560286]
+		adding Relationship[8453322]
+2562582
+	adding Node[2562582] Fungiina 738314 as compatible with Node[2562582]
+		adding Relationship[8453323]
+2565670
+	adding Node[2565670] Edwardsiidae 412400 as compatible with Node[2565670]
+		adding Relationship[8453324]
+2565846
+	adding Node[2565846] Aiptasiidae 419293 as compatible with Node[2565846]
+		adding Relationship[8453325]
+2566343
+	adding Node[2566343] Actiniidae 419294 as compatible with Node[2566343]
+		adding Relationship[8453326]
+	adding Node[2566282] Nynantheae 753883 as compatible with Node[2566343]
+		adding Relationship[8453327]
+2567505
+2569450
+	adding Node[2569450] Typhlocoela 523271 as compatible with Node[2569450]
+		adding Relationship[8453328]
+2569670
+[Node[2566282], Node[301547], Node[568581], Node[590522], Node[568582], Node[314233], Node[314232], Node[2510107], Node[565086], Node[303022], Node[313941], Node[313943], Node[313942], Node[314693], Node[2518287], Node[2561617], Node[2566343], Node[595122], Node[2510694], Node[2539152], Node[2510691], Node[2541855], Node[2541854], Node[2541852], Node[722094], Node[834396], Node[756076], Node[2565670], Node[2545699], Node[318010], Node[318248], Node[318250], Node[318245], Node[569474], Node[569473], Node[303479], Node[318242], Node[297126], Node[324996], Node[324997], Node[2560286], Node[2550150], Node[569449], Node[569450], Node[569451], Node[2569445], Node[836346], Node[836349], Node[569458], Node[568729], Node[857404], Node[857405], Node[569471], Node[568730], Node[2569450], Node[612636], Node[833935], Node[2565846], Node[2561954], Node[612633], Node[317902], Node[317900], Node[579862], Node[317909], Node[3573183], Node[3573182], Node[3573181], Node[3573180], Node[316029], Node[317916], Node[568766], Node[3573196], Node[310325], Node[761232], Node[3573198], Node[2550941], Node[2558225], Node[3573192], Node[2546567], Node[767612], Node[3573194], Node[3573195], Node[3573188], Node[2354644], Node[3573189], Node[3573190], Node[3573191], Node[2354646], Node[3573184], Node[317869], Node[3573185], Node[3573186], Node[3573187], Node[2562582], Node[2242496], Node[620228], Node[792158], Node[761229], Node[3573202], Node[2565261], Node[2507042], Node[2546346], Node[324877], Node[2546348]]
+	Node[2566282]
+		adding Relationship[8453329] from Node[2566282] to Node[2565261]
+	Node[301547]
+		adding Relationship[8453330] from Node[301547] to Node[3573181]
+	Node[568581]
+	Node[590522]
+		adding Relationship[8453331] from Node[590522] to Node[3573190]
+	Node[568582]
+		adding Relationship[8453332] from Node[568582] to Node[3573190]
+		adding Relationship[8453333] from Node[568582] to Node[568581]
+	Node[314233]
+		adding Relationship[8453334] from Node[314233] to Node[314232]
+	Node[314232]
+		adding Relationship[8453335] from Node[314232] to Node[3573180]
+	Node[2510107]
+		adding Relationship[8453336] from Node[2510107] to Node[834396]
+	Node[565086]
+		adding Relationship[8453337] from Node[565086] to Node[324997]
+	Node[303022]
+		adding Relationship[8453338] from Node[303022] to Node[3573181]
+	Node[313941]
+	Node[313943]
+		adding Relationship[8453339] from Node[313943] to Node[313942]
+	Node[313942]
+		adding Relationship[8453340] from Node[313942] to Node[313941]
+	Node[314693]
+		adding Relationship[8453341] from Node[314693] to Node[314232]
+	Node[2518287]
+		adding Relationship[8453342] from Node[2518287] to Node[2510694]
+	Node[2561617]
+		adding Relationship[8453343] from Node[2561617] to Node[2558225]
+	Node[2566343]
+		adding Relationship[8453344] from Node[2566343] to Node[3573188]
+		adding Relationship[8453345] from Node[2566343] to Node[2566282]
+	Node[595122]
+		adding Relationship[8453346] from Node[595122] to Node[3573195]
+	Node[2510694]
+		adding Relationship[8453347] from Node[2510694] to Node[3573198]
+		adding Relationship[8453348] from Node[2510694] to Node[2510691]
+	Node[2539152]
+	Node[2510691]
+	Node[2541855]
+		adding Relationship[8453349] from Node[2541855] to Node[2541854]
+	Node[2541854]
+		adding Relationship[8453350] from Node[2541854] to Node[3573186]
+		adding Relationship[8453351] from Node[2541854] to Node[2541852]
+	Node[2541852]
+		adding Relationship[8453352] from Node[2541852] to Node[2539152]
+	Node[722094]
+		adding Relationship[8453353] from Node[722094] to Node[3573196]
+		adding Relationship[8453354] from Node[722094] to Node[612633]
+	Node[834396]
+	Node[756076]
+		adding Relationship[8453355] from Node[756076] to Node[3573195]
+	Node[2565670]
+		adding Relationship[8453356] from Node[2565670] to Node[2565261]
+	Node[2545699]
+		adding Relationship[8453357] from Node[2545699] to Node[2541854]
+	Node[318010]
+		adding Relationship[8453358] from Node[318010] to Node[317909]
+	Node[318248]
+		adding Relationship[8453359] from Node[318248] to Node[3573192]
+		adding Relationship[8453360] from Node[318248] to Node[318245]
+	Node[318250]
+		adding Relationship[8453361] from Node[318250] to Node[318248]
+	Node[318245]
+		adding Relationship[8453362] from Node[318245] to Node[318242]
+	Node[569474]
+		adding Relationship[8453363] from Node[569474] to Node[569473]
+	Node[569473]
+		adding Relationship[8453364] from Node[569473] to Node[3573191]
+		adding Relationship[8453365] from Node[569473] to Node[569471]
+	Node[303479]
+		adding Relationship[8453366] from Node[303479] to Node[3573183]
+	Node[318242]
+	Node[297126]
+		adding Relationship[8453367] from Node[297126] to Node[3573182]
+	Node[324996]
+		adding Relationship[8453368] from Node[324996] to Node[318242]
+	Node[324997]
+		adding Relationship[8453369] from Node[324997] to Node[3573192]
+		adding Relationship[8453370] from Node[324997] to Node[324996]
+	Node[2560286]
+		adding Relationship[8453371] from Node[2560286] to Node[3573189]
+		adding Relationship[8453372] from Node[2560286] to Node[2558225]
+	Node[2550150]
+		adding Relationship[8453373] from Node[2550150] to Node[3573186]
+		adding Relationship[8453374] from Node[2550150] to Node[2539152]
+	Node[569449]
+		adding Relationship[8453375] from Node[569449] to Node[568582]
+	Node[569450]
+		adding Relationship[8453376] from Node[569450] to Node[568582]
+		adding Relationship[8453377] from Node[569450] to Node[569449]
+	Node[569451]
+		adding Relationship[8453378] from Node[569451] to Node[569450]
+	Node[2569445]
+	Node[836346]
+		adding Relationship[8453379] from Node[836346] to Node[834396]
+	Node[836349]
+		adding Relationship[8453380] from Node[836349] to Node[836346]
+	Node[569458]
+		adding Relationship[8453381] from Node[569458] to Node[569450]
+	Node[568729]
+	Node[857404]
+		adding Relationship[8453382] from Node[857404] to Node[836346]
+		adding Relationship[8453383] from Node[857404] to Node[836349]
+	Node[857405]
+		adding Relationship[8453384] from Node[857405] to Node[857404]
+	Node[569471]
+	Node[568730]
+		adding Relationship[8453385] from Node[568730] to Node[568729]
+	Node[2569450]
+		adding Relationship[8453386] from Node[2569450] to Node[2569445]
+	Node[612636]
+		adding Relationship[8453387] from Node[612636] to Node[612633]
+	Node[833935]
+		adding Relationship[8453388] from Node[833935] to Node[3573194]
+	Node[2565846]
+		adding Relationship[8453389] from Node[2565846] to Node[3573187]
+		adding Relationship[8453390] from Node[2565846] to Node[2565261]
+	Node[2561954]
+		adding Relationship[8453391] from Node[2561954] to Node[2561617]
+	Node[612633]
+	Node[317902]
+		adding Relationship[8453392] from Node[317902] to Node[317900]
+	Node[317900]
+	Node[579862]
+		adding Relationship[8453393] from Node[579862] to Node[569473]
+	Node[317909]
+		adding Relationship[8453394] from Node[317909] to Node[3573191]
+		adding Relationship[8453395] from Node[317909] to Node[317902]
+	Node[3573183]
+		adding Relationship[8453396] from Node[3573183] to Node[3573184]
+	Node[3573182]
+		adding Relationship[8453397] from Node[3573182] to Node[3573183]
+	Node[3573181]
+		adding Relationship[8453398] from Node[3573181] to Node[3573182]
+	Node[3573180]
+	Node[316029]
+		adding Relationship[8453399] from Node[316029] to Node[3573185]
+	Node[317916]
+		adding Relationship[8453400] from Node[317916] to Node[317909]
+	Node[568766]
+		adding Relationship[8453401] from Node[568766] to Node[568729]
+	Node[3573196]
+		adding Relationship[8453402] from Node[3573196] to Node[612633]
+	Node[310325]
+		adding Relationship[8453403] from Node[310325] to Node[3573184]
+	Node[761232]
+		adding Relationship[8453404] from Node[761232] to Node[761229]
+	Node[3573198]
+	Node[2550941]
+		adding Relationship[8453405] from Node[2550941] to Node[2539152]
+	Node[2558225]
+	Node[3573192]
+		adding Relationship[8453406] from Node[3573192] to Node[318242]
+	Node[2546567]
+		adding Relationship[8453407] from Node[2546567] to Node[2546346]
+	Node[767612]
+		adding Relationship[8453408] from Node[767612] to Node[761229]
+	Node[3573194]
+	Node[3573195]
+	Node[3573188]
+		adding Relationship[8453409] from Node[3573188] to Node[2565261]
+	Node[2354644]
+		adding Relationship[8453410] from Node[2354644] to Node[836346]
+	Node[3573189]
+		adding Relationship[8453411] from Node[3573189] to Node[2558225]
+	Node[3573190]
+	Node[3573191]
+	Node[2354646]
+		adding Relationship[8453412] from Node[2354646] to Node[2354644]
+	Node[3573184]
+		adding Relationship[8453413] from Node[3573184] to Node[3573185]
+	Node[317869]
+		adding Relationship[8453414] from Node[317869] to Node[3573202]
+	Node[3573185]
+	Node[3573186]
+		adding Relationship[8453415] from Node[3573186] to Node[2539152]
+	Node[3573187]
+		adding Relationship[8453416] from Node[3573187] to Node[3573188]
+	Node[2562582]
+		adding Relationship[8453417] from Node[2562582] to Node[3573189]
+		adding Relationship[8453418] from Node[2562582] to Node[2558225]
+	Node[2242496]
+		adding Relationship[8453419] from Node[2242496] to Node[857404]
+	Node[620228]
+		adding Relationship[8453420] from Node[620228] to Node[3573196]
+		adding Relationship[8453421] from Node[620228] to Node[612633]
+	Node[792158]
+		adding Relationship[8453422] from Node[792158] to Node[3573194]
+	Node[761229]
+	Node[3573202]
+	Node[2565261]
+	Node[2507042]
+		adding Relationship[8453423] from Node[2507042] to Node[2354644]
+	Node[2546346]
+		adding Relationship[8453424] from Node[2546346] to Node[2541854]
+		adding Relationship[8453425] from Node[2546346] to Node[2545699]
+	Node[324877]
+		adding Relationship[8453426] from Node[324877] to Node[318242]
+	Node[2546348]
+		adding Relationship[8453427] from Node[2546348] to Node[2546346]
