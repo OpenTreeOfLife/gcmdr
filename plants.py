@@ -16,8 +16,8 @@ studytreelist=["1022_1967",#Pontederiaceae
                "2624_6139", #Veronica
                "1118_2226", #Mentheae,lamiaceae
                "2669_6213", #Lamiaceae
-               "19_6175", #Verbenaceae
-               "713_1287", #Lamiales
+##               "19_6175", #Verbenaceae
+##               "713_1287", #Lamiales
                "1131_2265", #Saxifragaceae
                "2608_6288", #saxifrigales
                "2539_6294",#Soltis et al. 2011 ML tree
@@ -70,7 +70,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                "2598_6020",#Boraginaceae
                "2564_5699",#Polystichum
                "2042_4202",#Bartramiaceae
-               "2034_4191",#Ruellieae
+##               "2034_4191",#Ruellieae
                "1101_2172",#Rubieae
                "2565_5708",#Ericoideae
                "2641_6160",#Rubiaceae
@@ -115,7 +115,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                "75_1743",#Apioideae
                "535_768",#Eriogonoideae
                "61_816",#Bromeliaceae
-               "284_185",#Cucurbitaceae
+##               "284_185",#Cucurbitaceae
                "2546_5493",#Sapindaceae
                #"1086_2111",#Cactaceae
                "283_184",#Celastrales
