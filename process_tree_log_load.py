@@ -1,6 +1,8 @@
 """
 this is intended to process the files from the load_studies.py script
 where we can get loaded names of the tips and internal nodes
+
+this will also extract the compatible information from the log file
 """
 import os
 
@@ -34,7 +36,17 @@ if __name__ == "__main__":
                         idd = j.label.split("_")[-1]
                         outfile.write(i+","+idd+","+j.label[0:-len(idd)-1]+"\n")
                 #read the log next
-                #for now, everything comes from the trees
+                tl = open(directory+"/"+i+lend,"r")
+                for j in tl:
+                    if j[0] == "\t" and "compatible" in j:
+                        spls = j.strip().split(" as compatible ")
+                        spls2 = spls[0].split(" ")
+                        if spls2[1] == spls2[-1]:
+                            continue
+                        name = spls2[2]
+                        idd = spls2[3]
+                        outfile.write(i+","+idd+"_c,"+name+"\n")
+                tl.close()
         except:
             print "some problem with "+i
     
