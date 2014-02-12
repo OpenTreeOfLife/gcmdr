@@ -19,6 +19,7 @@ these are the studies identified by Chris, plus others from JWB
 "1217_2455", # Metazoa. Delsuc et al. 2008. Genesis *** mapping to Eumetazoa
 "1366_6166", # Annelida. Struck et al. 2011. Nature *** mapping to Lophotrochozoa
 "2418_6152", # Metazoa. Evans and Cartwright. 2010. MBE *** mapping to Holozoa
+"2672_6218", # Gnathostomata. Zhu et al. 2013. Nature *** mapping to Bilateria
 
 """
 
@@ -88,6 +89,14 @@ these are the studies identified by Chris, plus others from JWB
 "2796_6491", # Pipridae. Ohlson et al. 2013. MPE
 "2797_6493", # Neoaves. McCormack et al. 2013. PLoS ONE
 "2797_6493", # Neoaves. McCormack et al. 2013. PLoS ONE
+"2798_6497", # Spheniscidae. Subramanian et al. 2013. Biol. Lett.
+"1979_6300", # Psittacidae. Tavares et al. 2006. Syst. Biol.
+"2583_5989", # Galloanserae. Eo et al. 2009. Zool. Scripta.
+"2799_6500", # Neoaves. Chojnowski et al. 2008. Gene
+"2419_6023", # Neognathae. Thuiller et al. 2011. Nature
+"2058_4241", # Crocodylia. Harshman et al. 2003. Syst. Biol.
+"2800_6502", # Paleognathae. Harshman et al. 2008. PNAS
+
 
 """
 
@@ -185,14 +194,12 @@ these are the studies identified by Chris, plus others from JWB
 "1985_4069",
 "1986_6489",
 "1990_4076",
-
 "2579_5984"
 
 
 """
 
 studytreelist=[
-
 
 
 
