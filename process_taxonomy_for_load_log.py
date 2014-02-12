@@ -25,6 +25,7 @@ if __name__ == "__main__":
     nrank = {}
     sid = {}
     unid = {}
+    flagsp = {}
     targetid = ""
     for i in infile:
         spls = i.strip().split("\t|")
@@ -45,6 +46,7 @@ if __name__ == "__main__":
                     break
             if badflag == True:
                 continue
+        flagsp[tid] = flags
         if tid == target:
             print "name set ",tid
             targetid = tid
@@ -60,7 +62,7 @@ if __name__ == "__main__":
     stack = [targetid]
     while len(stack) > 0:
         tempid = stack.pop()
-        outfile.write(tempid+"\t|\t"+pid[tempid]+"\t|\t"+nid[tempid]+"\t|\t"+nrank[tempid]+"\t|\t"+sid[tempid]+"\t|\t"+unid[tempid]+"\t|\t\n")
+        outfile.write(tempid+"\t|\t"+pid[tempid]+"\t|\t"+nid[tempid]+"\t|\t"+nrank[tempid]+"\t|\t"+sid[tempid]+"\t|\t"+unid[tempid]+"\t|\t"+flagsp[tempid]+"\t|\t"\n")
         if tempid in cid:
             for i in cid[tempid]:
                 stack.append(i)
