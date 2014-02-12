@@ -60,6 +60,20 @@ def source_explorer(study_treeid,javapre,treemloc,dload,outfile,append):
     pr = Popen(cmd,stdout=logfile).wait()
     logfile.close()
 
+def source_explorer_inf_mono(study_treeid,javapre,treemloc,dload,outfile,append):
+    cmd = javapre.split(" ")
+    cmd.append(treemloc)
+    cmd.append("sourceexplorer_inf_mono")
+    cmd.append(study_treeid)
+    cmd.append(dload)
+    print "printing the source information and monophyly "+study_treeid+" as loaded into "+dload+" into "+outfile
+    filemode = "w" #default is write
+    if append == True:
+        filemode = "a"
+    logfile = open(outfile,filemode)
+    pr = Popen(cmd,stdout=logfile).wait()
+    logfile.close()
+
 """
 this will load the study and then export the source
 and then will process the tree and print out the information about 
@@ -74,6 +88,21 @@ def load_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutf
     print "root name:"+tree.label
     tf.close()
 
+"""
+this will load the study and then export the source
+and then will process the tree and print out the information about 
+where it is mapped
+"""
+def load_one_study_inf_mono(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutfile,infmonofile,append):
+    load_nexson(studyloc,study_treeid,javapre,treemloc,dload,outfile,append)
+    source_explorer(study_treeid,javapre,treemloc,dload,treeoutfile,append)
+    tf = open(treeoutfile,"r")
+    tree = read_tree_string(tf.readline())
+    print "root name:"+tree.label
+    tf.close()
+    mapcompat_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,outfile,append)
+    source_explorer_inf_mono(study_treeid,javapre,treemloc,dload,infmonofile,append)
+    
 """
 this will map the compatible nodes to a study loaded
 """
