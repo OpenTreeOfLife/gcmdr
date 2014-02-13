@@ -96,6 +96,10 @@ these are the studies identified by Chris, plus others from JWB
 "2419_6023", # Neognathae. Thuiller et al. 2011. Nature
 "2058_4241", # Crocodylia. Harshman et al. 2003. Syst. Biol.
 "2800_6502", # Paleognathae. Harshman et al. 2008. PNAS
+"2801_6503", # Galliformes. Cox et al. 2007. Auk
+"2802_6506", # Galliformes. Kimball and Braun. 2008. J. Avian Biol.
+"2803_6508", # Galliformes. Bonilla et al. 2010. MPE
+"2804_6511", # Galliformes. Kimball et al. 2011. Int. J. Evol. Biol.
 
 
 """
