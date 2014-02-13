@@ -15,6 +15,8 @@ these are the studies identified by Chris, plus others from JWB
 "2707_6281", # Icteridae. Powell et al. 2013. MPE *** Hypopyrrhus not mapped to Icteridae
 "2702_6274", # core Corvoidea. Aggerbeck et al. 2014. MPE *** mapping back to Passeroidea
 
+"2806_6517", # Psittaciformes. Joseph et al. 2011. MPE *** Pezoporus flaviventris mapped to Pezoporus wallicus flaviventris. Pezoporus wallicus already sampled. Causes ancestor-offspirng conflict
+
 "1337_6167", # Holometabola (insect). Wiegmann et al. 2009. BMC Evol. Biol. *** mapping to Endopterygota
 "1217_2455", # Metazoa. Delsuc et al. 2008. Genesis *** mapping to Eumetazoa
 "1366_6166", # Annelida. Struck et al. 2011. Nature *** mapping to Lophotrochozoa
@@ -92,7 +94,7 @@ these are the studies identified by Chris, plus others from JWB
 "2798_6497", # Spheniscidae. Subramanian et al. 2013. Biol. Lett.
 "1979_6300", # Psittacidae. Tavares et al. 2006. Syst. Biol.
 "2583_5989", # Galloanserae. Eo et al. 2009. Zool. Scripta.
-"2799_6500", # Neoaves. Chojnowski et al. 2008. Gene
+"2799_6500", # Aves. Chojnowski et al. 2008. Gene
 "2419_6023", # Neognathae. Thuiller et al. 2011. Nature
 "2058_4241", # Crocodylia. Harshman et al. 2003. Syst. Biol.
 "2800_6502", # Paleognathae. Harshman et al. 2008. PNAS
@@ -100,6 +102,9 @@ these are the studies identified by Chris, plus others from JWB
 "2802_6506", # Galliformes. Kimball and Braun. 2008. J. Avian Biol.
 "2803_6508", # Galliformes. Bonilla et al. 2010. MPE
 "2804_6511", # Galliformes. Kimball et al. 2011. Int. J. Evol. Biol.
+"2805_6512", # Psittaciformes. Wright et al. 2008. MBE
+"2809_6521", # Marmota. Steppan and Akhverdyan. 1999. Syst. Biol.
+"2023_6523", # Sciurognathi. Herron et al. 2004. MPE
 
 
 """
@@ -204,6 +209,10 @@ these are the studies identified by Chris, plus others from JWB
 """
 
 studytreelist=[
+
+
+
+
 
 
 

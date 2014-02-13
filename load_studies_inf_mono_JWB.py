@@ -6,7 +6,8 @@ if __name__ == "__main__":
     from wopr_conf_TEMP import *
     
     synthottolid="691846" # metazoa
-    studytreelist = ["420_522"]
+#    studytreelist = ["420_522"]
+    studytreelist = ["2573_5959"]
 
     print "loading synthottolid:",synthottolid
     print "loading studytreelist:",studytreelist
