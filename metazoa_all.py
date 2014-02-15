@@ -105,7 +105,10 @@ these are the studies identified by Chris, plus others from JWB
 "2805_6512", # Psittaciformes. Wright et al. 2008. MBE
 "2809_6521", # Marmota. Steppan and Akhverdyan. 1999. Syst. Biol.
 "2023_6523", # Sciurognathi. Herron et al. 2004. MPE
-
+"1812_3667", # Sciuridae. Steppan et al. 2004. MPE
+"2087_4323", # Austrogoniodes. Banks and Paterson. 2004. Invert. Syst.
+"2616_6485", # Neoaves. Gibb et al. 2013. MPE
+"2444_6526", # Columbiformes. Pereira et al. 2007. Syst. Biol.
 
 """
 
@@ -147,7 +150,6 @@ these are the studies identified by Chris, plus others from JWB
 "2426_5122",
 "2428_5137",
 "2437_5173",
-"2444_6404",
 "2445_5215",
 "2446_5220",
 "2447_6406",
@@ -181,11 +183,9 @@ these are the studies identified by Chris, plus others from JWB
 "2595_6015",
 "2604_6043",
 "2614_6121",
-"2616_6485",
 "2619_6131",
 "2628_6143",
 "2667_6209",
-"2671_6216",
 "2156_5953",
 "2143_4505",
 "2145_5952",
@@ -197,7 +197,6 @@ these are the studies identified by Chris, plus others from JWB
 "2098_6487",
 "2067_4258",
 "2068_6488",
-"2087_4324",
 "2061_4246",
 "2063_4251",
 "1985_4069",
@@ -211,9 +210,25 @@ these are the studies identified by Chris, plus others from JWB
 studytreelist=[
 
 
+#"2087_4323"
 
-
-
+"1252_2661", # maps to: Anomura
+"1336_2660", # maps to: Brachyura
+"1948_6513", # maps to: Anomura
+"1796_6514", # maps to: Typhlatya
+"2243_6515", # maps to: Paramunida
+"2670_6214", # maps to: Atyidae
+"2671_6216", # maps to: Caridina
+"2673_6219", # maps to: Astacidea
+"2674_6220", # maps to: Cambaridae
+"2675_6221", # maps to: Cambaridae
+"2676_6222", # maps to: Scyllaridae
+"2677_6223", # maps to: Anomura
+"2682_6227", # maps to: Decapoda
+"2683_6228", # maps to: Dendrobranchiata
+"2807_6519", # maps to: Alpheidae
+"2808_6522", # maps to: Alpheoidea
+"2667_6211" #on GitHub List # maps to: Galatheoidea
 
 
             ]
