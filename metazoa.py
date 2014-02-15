@@ -6,7 +6,9 @@ Note: studies are (for the most part) ordered from shallow to deep clades.
 
 studytreelist=[
      ## Birds
+         #      "2805_6512", # Psittaciformes. Wright et al. 2008. MBE
          #      "1979_6300", # Psittacidae. Tavares et al. 2006. Syst. Biol.
+               "2444_6526", # Columbiformes. Pereira et al. 2007. Syst. Biol.
                "2798_6497", # Spheniscidae. Subramanian et al. 2013. Biol. Lett.
                "2577_5980", # Galliformes. Wang et al. 2013. PLoS ONE
                "2658_6192", # Trochilidae. McGuire et al. 2007. Syst. Biol.

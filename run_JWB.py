@@ -11,10 +11,11 @@ from wopr_conf import *
 #from tetrapoda import studytreelist as tetrapodalist
 
 ## for serious synthesis:
-from plants import studytreelist as plantslist
-from metazoa import studytreelist as metalist
+#from plants import studytreelist as plantslist
+#from metazoa import studytreelist as metalist
 #from fungi import studytreelist as fungilist
 #from microbes import studytreelist as microbelist
+#from decapods import studytreelist as decapodlist
 
 studytreelist = []
 #studytreelist.extend(goolist)
@@ -22,17 +23,19 @@ studytreelist = []
 #studytreelist.extend(birdslist)
 #studytreelist.extend(tetrapodalist)
 
-studytreelist.extend(plantslist)
-studytreelist.extend(metalist)
+#studytreelist.extend(plantslist)
+#studytreelist.extend(metalist)
 #studytreelist.extend(fungilist)
 #studytreelist.extend(microbelist)
+#studytreelist.extend(decapodlist)
 
 import load_synth_extract
 
-# 805080 = life; 691846 = Metazoa; 81461 = Aves; 244265 = Mammalia; 229562 = Tetrapoda; Amniota = 229560; Archosauria = 335588; 304358 = Eukaryota
+# 805080 = life; 691846 = Metazoa; 81461 = Aves; 244265 = Mammalia; 229562 = Tetrapoda; Amniota = 229560; Archosauria = 335588; 304358 = Eukaryota; Decapoda = 169205
 
-synthottolid = "805080"
+#synthottolid = "805080"
 #extractottolid = "691846"
+synthottolid = "169205"
 
 # should mapcompat be used?
 studytreelistTF = [True] * len(studytreelist)
@@ -45,7 +48,8 @@ print "loading synthottolid:",synthottolid
 print "loading studytreelist:",studytreelist
 
 # analysis name
-aname="Life_(Plants+Metazoa)_test_2.4draft17_mapcompat"
+#aname="Life_(Plants+Metazoa)_test_2.4draft17_mapcompat"
+aname="Decapoda_OTT2.4draft17_taxonomy-only"
 # location of synth database
 dsynth=bdir+aname+".db"
 # location of synth treefile
