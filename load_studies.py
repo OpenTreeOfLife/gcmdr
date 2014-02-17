@@ -1,6 +1,6 @@
 import load_synth_extract
 
-from plants_all import studytreelist
+from fungal_all import studytreelist
 
 if __name__ == "__main__":
     from stephen_desktop_conf_TEMP import *
@@ -12,8 +12,8 @@ if __name__ == "__main__":
     
     for i in studytreelist:
         tstudy_list = [i]
-        generallogfileloc = "loadlog/"+i+".log"
-        ttfntreefn = "loadlog/"+i+".tre"
+        generallogfileloc = "fungallog/"+i+".log"
+        ttfntreefn = "fungallog/"+i+".tre"
         load_synth_extract.run_load_single_ttfn(dott,dload,studyloc,tstudy_list,javapre,
                                                 treemloc,generallogfileloc,dsynth,synthottolid,treefn,ttfntreefn)
 

@@ -17,7 +17,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                "1118_2226", #Mentheae,lamiaceae
                "2669_6213", #Lamiaceae
 ##               "19_6175", #Verbenaceae
-##               "713_1287", #Lamiales
+               "713_1287", #Lamiales
                "1131_2265", #Saxifragaceae
                "2608_6288", #saxifrigales
                "2539_6294",#Soltis et al. 2011 ML tree
@@ -127,7 +127,6 @@ studytreelist=["1022_1967",#Pontederiaceae
                "412_2166",#conifers
                "2046_5928" #Trebouxiophyceae, Chlorophyta
                ]
-
 studytreelistTF = [True] * len(studytreelist)
 
 if __name__ == "__main__":
