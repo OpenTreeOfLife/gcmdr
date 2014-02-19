@@ -4,7 +4,14 @@ these are the studies identified by Chris, plus others from JWB
 
 """
 *** problems ***
-"2333_4915" # from Chris
+"2333_4915" # from Chris. Junk. Everything mapped to the same genus "Serdia".
+
+"1346_2678", # Mollusca. Kocot et al. 2011. Nature
+- Error: Exception in thread "main" java.lang.IllegalStateException: this child is mapped the same graph node (Node[3573188]) as its parent [Ilyanassa obsoleta, Crepidula fornicata]
+
+"1345_6256" # *** Dactylanthus antarcticus is mapping to Ptychodactiaria instead of Actiniaria. OTT problem
+
+"1785_6248" # . Leclere et al. 2009. Syst. Biol. *** SLeptomedusae and Leptothecatae are synonymns, but are split in the taxonomy.
 
 """
 
@@ -15,7 +22,9 @@ these are the studies identified by Chris, plus others from JWB
 "2707_6281", # Icteridae. Powell et al. 2013. MPE *** Hypopyrrhus not mapped to Icteridae
 "2702_6274", # core Corvoidea. Aggerbeck et al. 2014. MPE *** mapping back to Passeroidea
 
-"2806_6517", # Psittaciformes. Joseph et al. 2011. MPE *** Pezoporus flaviventris mapped to Pezoporus wallicus flaviventris. Pezoporus wallicus already sampled. Causes ancestor-offspirng conflict
+
+"2696_6249", # Demospongiae. Hill et al. 2013. PLoS ONE *** Ingroup is currently set to Porifera rather than Demospongiae
+
 
 "1337_6167", # Holometabola (insect). Wiegmann et al. 2009. BMC Evol. Biol. *** mapping to Endopterygota
 "1217_2455", # Metazoa. Delsuc et al. 2008. Genesis *** mapping to Eumetazoa
@@ -81,7 +90,7 @@ these are the studies identified by Chris, plus others from JWB
 "421_523",   # Mollusca. Smith et al. 2011. Nature
 "1482_5228", # Eumetazoa. Evans et al. 2008. BMC Evol. Biol.
 "1761_6151", # Scleractinia (corals). Huang nad Roy. 2013. Ecology and Evolution
-"2407_6390"  # Bilateria. Anderson et al. 2004. JME
+"2407_6390", # Bilateria. Anderson et al. 2004. JME
 "2647_6169", # Plancentalia. O'Leary et al. 2013. Science
 "435_5995",  # Neornithes. Brown et al. 2008. BMC Biol.
 "2651_6177", # Actinopterygii (Bony fishes). Betancur-R et al. 2013. PLoS Currents
@@ -109,11 +118,26 @@ these are the studies identified by Chris, plus others from JWB
 "2087_4323", # Austrogoniodes. Banks and Paterson. 2004. Invert. Syst.
 "2616_6485", # Neoaves. Gibb et al. 2013. MPE
 "2444_6526", # Columbiformes. Pereira et al. 2007. Syst. Biol.
+"2811_6533", # Vespinae. Lopez-Osorio et al. 2014. MPE
+"2806_6529", # Psittaciformes. Joseph et al. 2011. MPE
+"437_6242",  # Diptera. Wiegmann et al. 2011. PNAS
+"1786_6257", # Hydrozoa. Cartwright et al. 2008. J. Marine Biol. Assoc. UK
+"2678_6224", # Echinodermata. Janies et al. 2011. Syst. Biol.
+"2587_5998", # Cetacea. McGowen et al. 2009. MPE
+"2581_5987", # Membracidae. Cryan et al. 2004. Syst. Ent.
+"2087_4323", # Austrogoniodes. Banks and Paterson. 2004. Invert. Syst.
+"1788_6534", # Siphonophora. Dunn et al. 2005. Syst. Biol.
+"1343_6255", # Hexactinella. Dohrmann et al. 2009. MPE
+"1980_6254", # Calcarea. Dohrmann et al. 2006. MPE
+"1338_2666", # Pterygota. Simon et al. 2009. MBE
+
+
+
 
 """
 
 """
-*** Chris Owen studies ***
+*** Chris Owen studies. Need to check these. ***
 "2322_6376",
 "2323_4896",
 "2324_6377",
@@ -204,14 +228,6 @@ these are the studies identified by Chris, plus others from JWB
 "1990_4076",
 "2579_5984"
 
-
-"""
-
-studytreelist=[
-
-
-#"2087_4323"
-
 "1252_2661", # maps to: Anomura
 "1336_2660", # maps to: Brachyura
 "1948_6513", # maps to: Anomura
@@ -228,7 +244,18 @@ studytreelist=[
 "2683_6228", # maps to: Dendrobranchiata
 "2807_6519", # maps to: Alpheidae
 "2808_6522", # maps to: Alpheoidea
-"2667_6211" #on GitHub List # maps to: Galatheoidea
+"2667_6211", # maps to: Galatheoidea
+
+"""
+
+studytreelist=[
+
+
+
+
+
+
+
 
 
             ]
