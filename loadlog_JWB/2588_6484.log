@@ -46,16 +46,16 @@ pgloadind       dubious OTT ID 570655
 pgloadind     OTT ID reused in tree
 pgloadind       duplicate name "Craterolophus convolvulus" nexsonid "node1120839"
 pgloadind       duplicate OTT ID 570658
-pgloadind     pruning dups and overlapping name "Haliclystus sp." nexsonid "node1120833"
 pgloadind     pruning dups and overlapping name "Craterolophus convolvulus" nexsonid "node1120839"
 pgloadind     pruning dups and overlapping name "Haliclystus sp." nexsonid "node1120838"
+pgloadind     pruning dups and overlapping name "Haliclystus sp." nexsonid "node1120833"
 pgloadind   postpruning newick tree "((((Haliclystus_sanjuanensis,Craterolophus_convolvulus),Haliclystus_octoradiatus),Depastromorpha_africana),Lucernaria_janetae)"
 pgloadind   taxon mapping summary
-pgloadind     taxon mapping OTT ID 309092 taxonomy "Haliclystus sanjuanensis->Haliclystus->Lucernariidae->Stauromedusae->Scyphozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1120831"
-pgloadind     taxon mapping OTT ID 570658 taxonomy "Craterolophus convolvulus->Craterolophus->Depastridae->Stauromedusae->Scyphozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1120832"
-pgloadind     taxon mapping OTT ID 668470 taxonomy "Haliclystus octoradiatus->Haliclystus->Lucernariidae->Stauromedusae->Scyphozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1120834"
-pgloadind     taxon mapping OTT ID 967607 taxonomy "Depastromorpha africana->Depastromorpha->Cleistocarpidae->Stauromedusae->Scyphozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1120835"
-pgloadind     taxon mapping OTT ID 967609 taxonomy "Lucernaria janetae->Lucernaria->Lucernariidae->Stauromedusae->Scyphozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1120836"
+pgloadind     taxon mapping OTT ID 309092 taxonomy "Haliclystus sanjuanensis->Haliclystus->Lucernariidae->Stauromedusae->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1120831"
+pgloadind     taxon mapping OTT ID 570658 taxonomy "Craterolophus convolvulus->Craterolophus->Depastridae->Stauromedusae->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1120832"
+pgloadind     taxon mapping OTT ID 668470 taxonomy "Haliclystus octoradiatus->Haliclystus->Lucernariidae->Stauromedusae->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1120834"
+pgloadind     taxon mapping OTT ID 967607 taxonomy "Depastromorpha africana->Depastromorpha->Cleistocarpidae->Stauromedusae->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1120835"
+pgloadind     taxon mapping OTT ID 967609 taxonomy "Lucernaria janetae->Lucernaria->Lucernariidae->Stauromedusae->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1120836"
 done fixing name
 pgloadind Finished with attempts to fix names
 pgloadind   Checking for uniqueness of OTT IDs tree id "6484"
@@ -63,9 +63,9 @@ pgloadind   Adding tree to graph tree id "6484"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Craterolophus convolvulus was remapped to 'Depastridae' (id=2550810)
-	Lucernaria janetae was remapped to 'Lucernaria' (id=2550782)
-	Depastromorpha africana was remapped to 'Cleistocarpidae' (id=2550807)
+	Lucernaria janetae was remapped to 'Lucernaria' (id=2505319)
+	Depastromorpha africana was remapped to 'Cleistocarpidae' (id=2505344)
+	Craterolophus convolvulus was remapped to 'Depastridae' (id=2505347)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -90,21 +90,3 @@ Adding property 'ot:studyId': 2588
 Dealing with metadata property: ot:dataDeposit
 Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1360
 Committing nodes: 9
-{2550752}
-2550762
-2550766
-2550782
-	adding Node[2550782] Lucernaria 967610 as compatible with Node[2550782]
-		adding Relationship[8453042]
-2550807
-2550810
-	adding Node[2550810] Depastridae 1003858 as compatible with Node[2550810]
-		adding Relationship[8453043]
-[Node[3573180], Node[2550752], Node[2550782], Node[2550810]]
-	Node[3573180]
-	Node[2550752]
-	Node[2550782]
-		adding Relationship[8453044] from Node[2550782] to Node[2550752]
-	Node[2550810]
-		adding Relationship[8453045] from Node[2550810] to Node[3573180]
-		adding Relationship[8453046] from Node[2550810] to Node[2550752]

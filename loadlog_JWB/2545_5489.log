@@ -46,10 +46,10 @@ pgloadind       dubious OTT ID 548212
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Lepidisis sp." nexsonid "node944815"
 pgloadind       dubious OTT ID 539860
-pgloadind     pruning dups and overlapping name "Paragorgia sp." nexsonid "node944807"
 pgloadind     pruning dups and overlapping name "Lepidisis sp." nexsonid "node944815"
-pgloadind     pruning dups and overlapping name "Narella nuttingi" nexsonid "node944814"
 pgloadind     pruning dups and overlapping name "Acanthogorgia sp." nexsonid "node944801"
+pgloadind     pruning dups and overlapping name "Narella nuttingi" nexsonid "node944814"
+pgloadind     pruning dups and overlapping name "Paragorgia sp." nexsonid "node944807"
 pgloadind     pruning dups and overlapping name "Protodendron sp." nexsonid "node944798"
 pgloadind   postpruning newick tree "(Renilla_reniformis,((Alcyonium_gracillimum,(Leptogorgia_chilensis,Anthothela_nuttingi)),((Chrysogorgia_chryseis,(Corallium_kishinouyei,Corallium_ducale)),Narella_bowersi)))"
 pgloadind   taxon mapping summary
@@ -68,12 +68,12 @@ pgloadind   Adding tree to graph tree id "5489"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Renilla reniformis was remapped to 'Pennatulacea' (id=2556315)
-	Leptogorgia chilensis was remapped to 'Holaxonia' (id=2554423)
-	Chrysogorgia chryseis was remapped to 'Chrysogorgiidae' (id=2553954)
-	Narella bowersi was remapped to 'Primnoidae' (id=2553151)
-	Anthothela nuttingi was remapped to 'Anthothelidae' (id=2556103)
-	Alcyonium gracillimum was remapped to 'Alcyoniina' (id=2551183)
+	Chrysogorgia chryseis was remapped to 'Chrysogorgiidae' (id=2493757)
+	Narella bowersi was remapped to 'Primnoidae' (id=2492958)
+	Alcyonium gracillimum was remapped to 'Alcyoniina' (id=2490993)
+	Renilla reniformis was remapped to 'Pennatulacea' (id=2496097)
+	Anthothela nuttingi was remapped to 'Anthothelidae' (id=2495901)
+	Leptogorgia chilensis was remapped to 'Holaxonia' (id=2494226)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -98,47 +98,6 @@ Adding property 'ot:studyId': 2545
 Dealing with metadata property: ot:dataDeposit
 Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S969
 Committing nodes: 15
-{2550943}
-2556000
-	adding Node[2555975] Coralliidae 338821 as compatible with Node[2555995]
-		adding Relationship[8453053]
-2556007
-2551183
-	adding Node[2551183] Alcyoniina 608249 as compatible with Node[2551183]
-		adding Relationship[8453054]
-2553151
-	adding Node[2553151] Primnoidae 84508 as compatible with Node[2553151]
-		adding Relationship[8453055]
-2553954
-	adding Node[2553954] Chrysogorgiidae 157412 as compatible with Node[2553954]
-		adding Relationship[8453056]
-2554423
-	adding Node[2554423] Holaxonia 658902 as compatible with Node[2554423]
-		adding Relationship[8453057]
-2556103
-	adding Node[2556103] Anthothelidae 658904 as compatible with Node[2556103]
-		adding Relationship[8453058]
-2556315
-	adding Node[2556315] Pennatulacea 507947 as compatible with Node[2556315]
-		adding Relationship[8453059]
-[Node[2556315], Node[2550943], Node[2551183], Node[2555975], Node[3573183], Node[3573182], Node[3573181], Node[3573180], Node[2553151], Node[2556103], Node[2553954], Node[2554423]]
-	Node[2556315]
-		adding Relationship[8453060] from Node[2556315] to Node[2550943]
-	Node[2550943]
-	Node[2551183]
-		adding Relationship[8453061] from Node[2551183] to Node[3573181]
-	Node[2555975]
-	Node[3573183]
-	Node[3573182]
-		adding Relationship[8453062] from Node[3573182] to Node[3573183]
-	Node[3573181]
-	Node[3573180]
-		adding Relationship[8453063] from Node[3573180] to Node[3573181]
-	Node[2553151]
-		adding Relationship[8453064] from Node[2553151] to Node[3573183]
-	Node[2556103]
-		adding Relationship[8453065] from Node[2556103] to Node[3573180]
-	Node[2553954]
-		adding Relationship[8453066] from Node[2553954] to Node[3573182]
-	Node[2554423]
-		adding Relationship[8453067] from Node[2554423] to Node[3573180]
+	adding Node[2495773] Coralliidae 338821 as compatible with Node[2495793]
+		adding Relationship[8163409]
+		adding to root Relationship[8163410]

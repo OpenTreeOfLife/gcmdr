@@ -50,12 +50,12 @@ pgloadind       duplicate OTT ID 834688
 pgloadind     OTT ID reused in tree
 pgloadind       duplicate name "Lumbrineris latreilli" nexsonid "node893727"
 pgloadind       duplicate OTT ID 834688
-pgloadind     pruning dups and overlapping name "Lumbrineris funchalensis" nexsonid "node893724"
-pgloadind     pruning dups and overlapping name "Eunice pennata" nexsonid "node893683"
-pgloadind     pruning dups and overlapping name "Lumbrineris latreilli" nexsonid "node893727"
-pgloadind     pruning dups and overlapping name "Lumbrineris latreilli" nexsonid "node893726"
-pgloadind     pruning dups and overlapping name "Protodorvillea kefersteinii" nexsonid "node893715"
 pgloadind     pruning dups and overlapping name "Eunice pennata" nexsonid "node893684"
+pgloadind     pruning dups and overlapping name "Lumbrineris latreilli" nexsonid "node893727"
+pgloadind     pruning dups and overlapping name "Protodorvillea kefersteinii" nexsonid "node893715"
+pgloadind     pruning dups and overlapping name "Eunice pennata" nexsonid "node893683"
+pgloadind     pruning dups and overlapping name "Lumbrineris latreilli" nexsonid "node893726"
+pgloadind     pruning dups and overlapping name "Lumbrineris funchalensis" nexsonid "node893724"
 pgloadind   postpruning newick tree "(((((((((Aponuphis_bilineata,(Diopatra_aciculata,Onuphis_elegans)),Onuphis_similis),Mooreonuphis_stigmatis),Hyalinoecia_tubicola),(Eunice_torquata,(Marphysa_bellii,Marphysa_sanguinea))),((Eunice_sp_SHP-2002,Eunice_tenuis),(Eunice_harassii,(Eunice_pennata,Eunice_vittata))),(Lysidice_ninetta,Nematonereis_unicornis)),(((Arabella_iricolor,Arabella_semimaculata),Drilonereis_longa),Oenone_fulgida)),(((((Dorvillea_bermudensis,Parougia_sp_THS-2005),Microdorvillea_sp_TS-2004),(Ophryotrocha_labronica,Parapodrilus_psammophilus)),((Dorvillea_erucaeformis,Dorvillea_similis),Schistomeringos_rudolphi)),Riftia_pachyptila)),((((Lumbrineris_funchalensis,Lumbrineris_latreilli),Lumbrineris_inflata,Lumbrineris_sp_THS-2006),Ninoe_nigripes),Pettiboneia_urciensis))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 438829 taxonomy "Aponuphis bilineata->Aponuphis->Onuphidae->Eunicida->Aciculata->Palpata->Polychaeta->Annelida->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node893664"
@@ -100,21 +100,21 @@ pgloadind   Adding tree to graph tree id "5173"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Aponuphis bilineata was remapped to 'Aponuphis' (id=775772)
-	Ninoe nigripes was remapped to 'Ninoe' (id=774379)
-	Schistomeringos rudolphi was remapped to 'Schistomeringos' (id=775392)
-	Pettiboneia urciensis was remapped to 'Pettiboneia' (id=775573)
-	Mooreonuphis stigmatis was remapped to 'Mooreonuphis' (id=775892)
-	Parapodrilus psammophilus was remapped to 'Parapodrilus' (id=775449)
-	Oenone fulgida was remapped to 'Oenone' (id=773536)
-	Lysidice ninetta was remapped to 'Lysidice' (id=774243)
-	Ophryotrocha labronica was remapped to 'Ophryotrocha' (id=775454)
-	Riftia pachyptila was remapped to 'Canalipalpata' (id=785393)
-	Drilonereis longa was remapped to 'Drilonereis' (id=773550)
-	Diopatra aciculata was remapped to 'Diopatra' (id=776065)
-	Hyalinoecia tubicola was remapped to 'Hyalinoecia' (id=776026)
-	Nematonereis unicornis was remapped to 'Nematonereis' (id=774225)
-	Microdorvillea sp. TS-2004 was remapped to 'Microdorvillea' (id=775388)
+	Parapodrilus psammophilus was remapped to 'Parapodrilus' (id=732865)
+	Mooreonuphis stigmatis was remapped to 'Mooreonuphis' (id=733308)
+	Nematonereis unicornis was remapped to 'Nematonereis' (id=731645)
+	Hyalinoecia tubicola was remapped to 'Hyalinoecia' (id=733442)
+	Schistomeringos rudolphi was remapped to 'Schistomeringos' (id=732808)
+	Ophryotrocha labronica was remapped to 'Ophryotrocha' (id=732870)
+	Riftia pachyptila was remapped to 'Canalipalpata' (id=742756)
+	Pettiboneia urciensis was remapped to 'Pettiboneia' (id=732989)
+	Oenone fulgida was remapped to 'Oenone' (id=730956)
+	Lysidice ninetta was remapped to 'Lysidice' (id=731663)
+	Drilonereis longa was remapped to 'Drilonereis' (id=730970)
+	Microdorvillea sp. TS-2004 was remapped to 'Microdorvillea' (id=732804)
+	Ninoe nigripes was remapped to 'Ninoe' (id=731799)
+	Aponuphis bilineata was remapped to 'Aponuphis' (id=733188)
+	Diopatra aciculata was remapped to 'Diopatra' (id=733481)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -135,105 +135,3 @@ Adding property 'ot:studyId': 2437
 Dealing with metadata property: ot:dataDeposit
 Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1422
 Committing nodes: 67
-{773463}
-773478
-773500
-773712
-773716
-773717
-773742
-773758
-773767
-774104
-774116
-774444
-774449
-774458
-774467
-775594
-775597
-775631
-775638
-775791
-775795
-773536
-773550
-	adding Node[773550] Drilonereis 392629 as compatible with Node[773550]
-		adding Relationship[8453173]
-774225
-	adding Node[774225] Nematonereis 438826 as compatible with Node[774225]
-		adding Relationship[8453174]
-774243
-	adding Node[774243] Lysidice 438827 as compatible with Node[774243]
-		adding Relationship[8453175]
-774379
-	adding Node[774379] Ninoe 663397 as compatible with Node[774379]
-		adding Relationship[8453176]
-775388
-	adding Node[775388] Microdorvillea 97273 as compatible with Node[775388]
-		adding Relationship[8453177]
-775392
-	adding Node[775392] Schistomeringos 141784 as compatible with Node[775392]
-		adding Relationship[8453178]
-775449
-	adding Node[775449] Parapodrilus 438823 as compatible with Node[775449]
-		adding Relationship[8453179]
-775454
-	adding Node[775454] Ophryotrocha 449186 as compatible with Node[775454]
-		adding Relationship[8453180]
-775573
-	adding Node[775573] Pettiboneia 914161 as compatible with Node[775573]
-		adding Relationship[8453181]
-775772
-	adding Node[775772] Aponuphis 376336 as compatible with Node[775772]
-		adding Relationship[8453182]
-775892
-	adding Node[775892] Mooreonuphis 618835 as compatible with Node[775892]
-		adding Relationship[8453183]
-776026
-776065
-	adding Node[776065] Diopatra 1042378 as compatible with Node[776065]
-		adding Relationship[8453184]
-785393
-	adding Node[785393] Canalipalpata 717917 as compatible with Node[785393]
-		adding Relationship[8453185]
-[Node[776065], Node[3573197], Node[775772], Node[3573199], Node[775892], Node[774225], Node[3573192], Node[3573194], Node[3573195], Node[3573190], Node[785393], Node[775388], Node[775573], Node[775392], Node[775454], Node[774243], Node[774379], Node[3573183], Node[775449], Node[3573181], Node[3573180], Node[774349], Node[773550], Node[3573202]]
-	Node[776065]
-		adding Relationship[8453186] from Node[776065] to Node[3573180]
-	Node[3573197]
-	Node[775772]
-		adding Relationship[8453187] from Node[775772] to Node[3573181]
-	Node[3573199]
-	Node[775892]
-		adding Relationship[8453188] from Node[775892] to Node[3573183]
-	Node[774225]
-		adding Relationship[8453189] from Node[774225] to Node[3573190]
-	Node[3573192]
-	Node[3573194]
-	Node[3573195]
-	Node[3573190]
-	Node[785393]
-		adding Relationship[8453190] from Node[785393] to Node[3573199]
-	Node[775388]
-		adding Relationship[8453191] from Node[775388] to Node[3573194]
-	Node[775573]
-		adding Relationship[8453192] from Node[775573] to Node[3573202]
-	Node[775392]
-		adding Relationship[8453193] from Node[775392] to Node[3573197]
-	Node[775454]
-		adding Relationship[8453194] from Node[775454] to Node[3573195]
-	Node[774243]
-		adding Relationship[8453195] from Node[774243] to Node[3573190]
-	Node[774379]
-		adding Relationship[8453196] from Node[774379] to Node[774349]
-	Node[3573183]
-	Node[775449]
-		adding Relationship[8453197] from Node[775449] to Node[3573195]
-	Node[3573181]
-	Node[3573180]
-		adding Relationship[8453198] from Node[3573180] to Node[3573181]
-	Node[774349]
-		adding Relationship[8453199] from Node[774349] to Node[3573202]
-	Node[773550]
-		adding Relationship[8453200] from Node[773550] to Node[3573192]
-	Node[3573202]

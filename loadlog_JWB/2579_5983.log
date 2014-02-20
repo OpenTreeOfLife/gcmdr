@@ -5,7 +5,7 @@ pgloadind   tree info number edges 18
 pgloadind   tree info ingroup "node1016134"
 pgloadind   Setting ingroup root node.
 pgloadind   Ingested tree number of external nodes 9
-pgloadind   property added ot:studyPublicationReference "Faircloth B.C., Mccormack J.E., Crawford N.G., Harvey M.G., Brumfield R., & Glenn T.C. 2012. Ultraconserved Elements Anchor Thousands of Genetic Markers Spanning Multiple Evolutionary Timescales. Systematic Biology"
+pgloadind   property added ot:studyPublicationReference "Faircloth B.C., McCormack J.E., Crawford N.G., Harvey M.G., Brumfield R., & Glenn T.C. 2012. Ultraconserved elements anchor thousands of genetic markers spanning multiple evolutionary timescales. Systematic Biology 61 (5): 717-726."
 pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1093/sysbio/sys004"
 pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S12156"
@@ -23,7 +23,7 @@ pgloadind   tree info number edges 18
 pgloadind   tree info ingroup "node1016153"
 pgloadind   Setting ingroup root node.
 pgloadind   Ingested tree number of external nodes 9
-pgloadind   property added ot:studyPublicationReference "Faircloth B.C., Mccormack J.E., Crawford N.G., Harvey M.G., Brumfield R., & Glenn T.C. 2012. Ultraconserved Elements Anchor Thousands of Genetic Markers Spanning Multiple Evolutionary Timescales. Systematic Biology"
+pgloadind   property added ot:studyPublicationReference "Faircloth B.C., McCormack J.E., Crawford N.G., Harvey M.G., Brumfield R., & Glenn T.C. 2012. Ultraconserved elements anchor thousands of genetic markers spanning multiple evolutionary timescales. Systematic Biology 61 (5): 717-726."
 pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1093/sysbio/sys004"
 pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S12156"
@@ -57,19 +57,19 @@ pgloadind   Adding tree to graph tree id "5983"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Pan troglodytes was remapped to 'Pan' (id=335847)
-	Callithrix jacchus was remapped to 'Platyrrhini' (id=337018)
-	Nomascus leucogenys was remapped to 'Hylobatidae' (id=336086)
-	Otolemur garnettii was remapped to 'Strepsirrhini' (id=335301)
-	Homo sapiens was remapped to 'Homo' (id=335900)
-	Pongo abelii was remapped to 'Ponginae' (id=336000)
-	Macaca mulatta was remapped to 'Macaca' (id=336579)
-	Gorilla gorilla was remapped to 'Gorilla' (id=335878)
-	Papio hamadryas was remapped to 'Papio' (id=336527)
+	Pongo abelii was remapped to 'Ponginae' (id=333207)
+	Papio hamadryas was remapped to 'Papio' (id=333670)
+	Gorilla gorilla was remapped to 'Gorilla' (id=333085)
+	Macaca mulatta was remapped to 'Macaca' (id=333722)
+	Otolemur garnettii was remapped to 'Strepsirrhini' (id=332534)
+	Nomascus leucogenys was remapped to 'Hylobatidae' (id=333229)
+	Callithrix jacchus was remapped to 'Platyrrhini' (id=334152)
+	Pan troglodytes was remapped to 'Pan' (id=333054)
+	Homo sapiens was remapped to 'Homo' (id=333107)
 this is the ROOT
 placing root in index
 Dealing with metadata property: ot:studyPublicationReference
-Adding property 'ot:studyPublicationReference': Faircloth B.C., Mccormack J.E., Crawford N.G., Harvey M.G., Brumfield R., & Glenn T.C. 2012. Ultraconserved Elements Anchor Thousands of Genetic Markers Spanning Multiple Evolutionary Timescales. Systematic Biology
+Adding property 'ot:studyPublicationReference': Faircloth B.C., McCormack J.E., Crawford N.G., Harvey M.G., Brumfield R., & Glenn T.C. 2012. Ultraconserved elements anchor thousands of genetic markers spanning multiple evolutionary timescales. Systematic Biology 61 (5): 717-726.
 Dealing with metadata property: ot:focalCladeOTTTaxonName
 Adding property 'ot:focalCladeOTTTaxonName': Amniota
 Dealing with metadata property: ot:branchLengthMode
@@ -94,59 +94,15 @@ Adding property 'ot:focalClade': 2348155
 Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': 50% maj-rule BI
 Committing nodes: 17
-{335297}
-335301
-335847
-	adding Node[335834] Haplorrhini 702152 as compatible with Node[335835]
-		adding Relationship[8453051]
-335878
-335900
-336000
-	adding Node[336000] Ponginae 1082538 as compatible with Node[336000]
-		adding Relationship[8453052]
-336086
-	adding Node[336086] Hylobatidae 166544 as compatible with Node[336086]
-		adding Relationship[8453053]
-336527
-	adding Node[336200] Cercopithecidae 842868 as compatible with Node[336526]
-		adding Relationship[8453054]
-	adding Node[336199] Cercopithecoidea 386194 as compatible with Node[336526]
-		adding Relationship[8453055]
-336579
-	adding Node[336579] Macaca 268324 as compatible with Node[336579]
-		adding Relationship[8453056]
-	adding Node[336200] Cercopithecidae 842868 as compatible with Node[336579]
-		adding Relationship[8453057]
-	adding Node[336199] Cercopithecoidea 386194 as compatible with Node[336579]
-		adding Relationship[8453058]
-337018
-	adding Node[337018] Platyrrhini 339033 as compatible with Node[337018]
-		adding Relationship[8453059]
-[Node[337018], Node[336199], Node[335838], Node[336200], Node[335837], Node[335834], Node[336086], Node[335835], Node[335297], Node[335841], Node[336526], Node[336579], Node[336000]]
-	Node[337018]
-		adding Relationship[8453060] from Node[337018] to Node[335835]
-	Node[336199]
-		adding Relationship[8453061] from Node[336199] to Node[335837]
-	Node[335838]
-		adding Relationship[8453062] from Node[335838] to Node[335837]
-	Node[336200]
-		adding Relationship[8453063] from Node[336200] to Node[336199]
-	Node[335837]
-		adding Relationship[8453064] from Node[335837] to Node[335835]
-	Node[335834]
-		adding Relationship[8453065] from Node[335834] to Node[335297]
-	Node[336086]
-		adding Relationship[8453066] from Node[336086] to Node[335838]
-	Node[335835]
-		adding Relationship[8453067] from Node[335835] to Node[335297]
-		adding Relationship[8453068] from Node[335835] to Node[335834]
-	Node[335297]
-	Node[335841]
-		adding Relationship[8453069] from Node[335841] to Node[335838]
-	Node[336526]
-		adding Relationship[8453070] from Node[336526] to Node[335837]
-		adding Relationship[8453071] from Node[336526] to Node[336200]
-	Node[336579]
-		adding Relationship[8453072] from Node[336579] to Node[336526]
-	Node[336000]
-		adding Relationship[8453073] from Node[336000] to Node[335841]
+	adding Node[333041] Haplorrhini 702152 as compatible with Node[333042]
+		adding Relationship[8163407]
+		adding to root Relationship[8163408]
+	adding Node[333343] Cercopithecidae 842868 as compatible with Node[333669]
+		adding Relationship[8163409]
+		adding to root Relationship[8163410]
+	adding Node[333342] Cercopithecoidea 386194 as compatible with Node[333669]
+		adding Relationship[8163411]
+		adding to root Relationship[8163412]
+		adding Relationship[8163413] from Node[333041] to Node[332530]
+		adding Relationship[8163414] from Node[333343] to Node[333342]
+		adding Relationship[8163415] from Node[333342] to Node[333044]

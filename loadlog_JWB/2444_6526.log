@@ -124,8 +124,12 @@ pgloadind   all nodes have ottIds
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Columbina squammata" nexsonid "node1128847"
 pgloadind       dubious OTT ID 3596515
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Raphus cucullatus" nexsonid "node1128877"
+pgloadind       dubious OTT ID 455687
+pgloadind     pruning dups and overlapping name "Raphus cucullatus" nexsonid "node1128877"
 pgloadind     pruning dups and overlapping name "Columbina squammata" nexsonid "node1128847"
-pgloadind   postpruning newick tree "(((Zenaida_macroura,(Geotrygon_montana,Leptotila_rufaxilla)),(Ectopistes_migratorius,(Patagioenas_speciosa,((Columba_livia,Streptopelia_capicola),(Reinwardtoena_browni,(Macropygia_amboinensis,Turacoena_manadensis)))))),((Uropelia_campestris,(Claravis_pretiosa,Metriopelia_morenoi)),((Henicophaps_albifrons,(Gallicolumba_jobiensis,(Leucosarcia_melanoleuca,((Geopelia_striata,Phaps_chalcoptera),(Ocyphaps_lophotes,Petrophassa_albipennis))))),((Trugon_terrestris,(Goura_cristata,Phapitreron_amethystinus)),((Otidiphaps_nobilis,(Didunculus_strigirostris,(Caloenas_nicobarica,(Raphus_cucullatus,Pezophaps_solitaria)))),((Chalcophaps_stephani,(Oena_capensis,Turtur_chalcospilos)),(Treron_calvus,(Ducula_rufigaster,((Hemiphaga_novaeseelandiae,(Gymnophaps_albertisii,Lopholaimus_antarcticus)),(Ptilinopus_pulchellus,(Drepanoptila_holosericea,Alectroenas_madagascariensis)))))))))))"
+pgloadind   postpruning newick tree "(((Zenaida_macroura,(Geotrygon_montana,Leptotila_rufaxilla)),(Ectopistes_migratorius,(Patagioenas_speciosa,((Columba_livia,Streptopelia_capicola),(Reinwardtoena_browni,(Macropygia_amboinensis,Turacoena_manadensis)))))),((Uropelia_campestris,(Claravis_pretiosa,Metriopelia_morenoi)),((Henicophaps_albifrons,(Gallicolumba_jobiensis,(Leucosarcia_melanoleuca,((Geopelia_striata,Phaps_chalcoptera),(Ocyphaps_lophotes,Petrophassa_albipennis))))),((Trugon_terrestris,(Goura_cristata,Phapitreron_amethystinus)),((Otidiphaps_nobilis,(Didunculus_strigirostris,(Caloenas_nicobarica,Pezophaps_solitaria))),((Chalcophaps_stephani,(Oena_capensis,Turtur_chalcospilos)),(Treron_calvus,(Ducula_rufigaster,((Hemiphaga_novaeseelandiae,(Gymnophaps_albertisii,Lopholaimus_antarcticus)),(Ptilinopus_pulchellus,(Drepanoptila_holosericea,Alectroenas_madagascariensis)))))))))))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 183576 taxonomy "Zenaida macroura->Zenaida->Columbidae->Columbiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1128824"
 pgloadind     taxon mapping OTT ID 664480 taxonomy "Geotrygon montana->Geotrygon->Columbidae->Columbiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1128826"
@@ -153,7 +157,6 @@ pgloadind     taxon mapping OTT ID 430171 taxonomy "Phapitreron amethystinus->Ph
 pgloadind     taxon mapping OTT ID 543760 taxonomy "Otidiphaps nobilis->Otidiphaps->Columbidae->Columbiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1128871"
 pgloadind     taxon mapping OTT ID 506109 taxonomy "Didunculus strigirostris->Didunculus->Columbidae->Columbiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1128873"
 pgloadind     taxon mapping OTT ID 1032058 taxonomy "Caloenas nicobarica->Caloenas->Columbidae->Columbiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1128875"
-pgloadind     taxon mapping OTT ID 455687 taxonomy "Raphus cucullatus->Raphus->Raphidae->Columbiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1128877"
 pgloadind     taxon mapping OTT ID 455685 taxonomy "Pezophaps solitaria->Pezophaps->Raphidae->Columbiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1128878"
 pgloadind     taxon mapping OTT ID 1077422 taxonomy "Chalcophaps stephani->Chalcophaps->Columbidae->Columbiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1128881"
 pgloadind     taxon mapping OTT ID 975892 taxonomy "Oena capensis->Oena->Columbidae->Columbiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1128883"
@@ -173,45 +176,44 @@ pgloadind   Adding tree to graph tree id "6526"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Raphus cucullatus was remapped to 'Raphus' (id=392161)
-	Metriopelia morenoi was remapped to 'Metriopelia' (id=392807)
-	Columba livia was remapped to 'Columba' (id=392705)
-	Alectroenas madagascariensis was remapped to 'Alectroenas' (id=392841)
-	Geopelia striata was remapped to 'Geopelia' (id=392516)
-	Ectopistes migratorius was remapped to 'Ectopistes' (id=392508)
-	Streptopelia capicola was remapped to 'Streptopelia' (id=392540)
-	Caloenas nicobarica was remapped to 'Caloenas' (id=392826)
-	Oena capensis was remapped to 'Oena' (id=392802)
-	Otidiphaps nobilis was remapped to 'Otidiphaps' (id=392659)
-	Zenaida macroura was remapped to 'Zenaida' (id=392851)
-	Turtur chalcospilos was remapped to 'Turtur' (id=392670)
-	Hemiphaga novaeseelandiae was remapped to 'Hemiphaga' (id=392470)
-	Ptilinopus pulchellus was remapped to 'Ptilinopus' (id=392181)
-	Trugon terrestris was remapped to 'Trugon' (id=392800)
-	Reinwardtoena browni was remapped to 'Reinwardtoena' (id=392661)
-	Leucosarcia melanoleuca was remapped to 'Leucosarcia' (id=392408)
-	Drepanoptila holosericea was remapped to 'Drepanoptila' (id=392316)
-	Uropelia campestris was remapped to 'Uropelia' (id=392435)
-	Macropygia amboinensis was remapped to 'Macropygia' (id=392416)
-	Pezophaps solitaria was remapped to 'Pezophaps' (id=392156)
-	Henicophaps albifrons was remapped to 'Henicophaps' (id=392797)
-	Ducula rufigaster was remapped to 'Ducula' (id=392319)
-	Petrophassa albipennis was remapped to 'Petrophassa' (id=392577)
-	Didunculus strigirostris was remapped to 'Didunculus' (id=392514)
-	Gallicolumba jobiensis was remapped to 'Gallicolumba' (id=392483)
-	Chalcophaps stephani was remapped to 'Chalcophaps' (id=392836)
-	Lopholaimus antarcticus was remapped to 'Lopholaimus' (id=392788)
-	Geotrygon montana was remapped to 'Geotrygon' (id=392438)
-	Treron calvus was remapped to 'Treron' (id=392365)
-	Leptotila rufaxilla was remapped to 'Leptotila' (id=392582)
-	Gymnophaps albertisii was remapped to 'Gymnophaps' (id=392477)
-	Patagioenas speciosa was remapped to 'Patagioenas' (id=392610)
-	Goura cristata was remapped to 'Goura' (id=392535)
-	Ocyphaps lophotes was remapped to 'Ocyphaps' (id=392817)
-	Claravis pretiosa was remapped to 'Claravis' (id=392306)
-	Turacoena manadensis was remapped to 'Turacoena' (id=392431)
-	Phaps chalcoptera was remapped to 'Phaps' (id=392297)
-	Phapitreron amethystinus was remapped to 'Phapitreron' (id=392168)
+	Caloenas nicobarica was remapped to 'Caloenas' (id=382455)
+	Claravis pretiosa was remapped to 'Claravis' (id=381935)
+	Patagioenas speciosa was remapped to 'Patagioenas' (id=382239)
+	Alectroenas madagascariensis was remapped to 'Alectroenas' (id=382470)
+	Leucosarcia melanoleuca was remapped to 'Leucosarcia' (id=382037)
+	Leptotila rufaxilla was remapped to 'Leptotila' (id=382211)
+	Columba livia was remapped to 'Columba' (id=382334)
+	Didunculus strigirostris was remapped to 'Didunculus' (id=382143)
+	Oena capensis was remapped to 'Oena' (id=382431)
+	Phapitreron amethystinus was remapped to 'Phapitreron' (id=381797)
+	Turtur chalcospilos was remapped to 'Turtur' (id=382299)
+	Hemiphaga novaeseelandiae was remapped to 'Hemiphaga' (id=382099)
+	Ptilinopus pulchellus was remapped to 'Ptilinopus' (id=381810)
+	Petrophassa albipennis was remapped to 'Petrophassa' (id=382206)
+	Streptopelia capicola was remapped to 'Streptopelia' (id=382169)
+	Gallicolumba jobiensis was remapped to 'Gallicolumba' (id=382112)
+	Drepanoptila holosericea was remapped to 'Drepanoptila' (id=381945)
+	Turacoena manadensis was remapped to 'Turacoena' (id=382060)
+	Reinwardtoena browni was remapped to 'Reinwardtoena' (id=382290)
+	Pezophaps solitaria was remapped to 'Raphidae' (id=381786)
+	Metriopelia morenoi was remapped to 'Metriopelia' (id=382436)
+	Ducula rufigaster was remapped to 'Ducula' (id=381948)
+	Ocyphaps lophotes was remapped to 'Ocyphaps' (id=382446)
+	Otidiphaps nobilis was remapped to 'Otidiphaps' (id=382288)
+	Henicophaps albifrons was remapped to 'Henicophaps' (id=382426)
+	Chalcophaps stephani was remapped to 'Chalcophaps' (id=382465)
+	Lopholaimus antarcticus was remapped to 'Lopholaimus' (id=382417)
+	Treron calvus was remapped to 'Treron' (id=381994)
+	Gymnophaps albertisii was remapped to 'Gymnophaps' (id=382106)
+	Ectopistes migratorius was remapped to 'Ectopistes' (id=382137)
+	Trugon terrestris was remapped to 'Trugon' (id=382429)
+	Zenaida macroura was remapped to 'Zenaida' (id=382480)
+	Phaps chalcoptera was remapped to 'Phaps' (id=381926)
+	Uropelia campestris was remapped to 'Uropelia' (id=382064)
+	Macropygia amboinensis was remapped to 'Macropygia' (id=382045)
+	Geopelia striata was remapped to 'Geopelia' (id=382145)
+	Goura cristata was remapped to 'Goura' (id=382164)
+	Geotrygon montana was remapped to 'Geotrygon' (id=382067)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -235,187 +237,4 @@ Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2444
 Dealing with metadata property: ot:dataDeposit
 Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1833
-Committing nodes: 77
-{392154}
-392156
-	adding Node[392156] Pezophaps 455684 as compatible with Node[392156]
-		adding Relationship[8453245]
-392161
-	adding Node[392161] Raphus 455686 as compatible with Node[392161]
-		adding Relationship[8453246]
-392168
-	adding Node[392168] Phapitreron 550025 as compatible with Node[392168]
-		adding Relationship[8453247]
-392181
-	adding Node[392181] Ptilinopus 28961 as compatible with Node[392181]
-		adding Relationship[8453248]
-392297
-	adding Node[392297] Phaps 28964 as compatible with Node[392297]
-		adding Relationship[8453249]
-392306
-	adding Node[392306] Claravis 83286 as compatible with Node[392306]
-		adding Relationship[8453250]
-392316
-392319
-	adding Node[392319] Ducula 300042 as compatible with Node[392319]
-		adding Relationship[8453251]
-392365
-	adding Node[392365] Treron 873964 as compatible with Node[392365]
-		adding Relationship[8453252]
-392408
-392416
-	adding Node[392416] Macropygia 358716 as compatible with Node[392416]
-		adding Relationship[8453253]
-392431
-	adding Node[392431] Turacoena 430167 as compatible with Node[392431]
-		adding Relationship[8453254]
-392435
-392438
-	adding Node[392438] Geotrygon 449653 as compatible with Node[392438]
-		adding Relationship[8453255]
-392470
-392477
-	adding Node[392477] Gymnophaps 470934 as compatible with Node[392477]
-		adding Relationship[8453256]
-392483
-	adding Node[392483] Gallicolumba 506101 as compatible with Node[392483]
-		adding Relationship[8453257]
-392508
-	adding Node[392508] Ectopistes 506103 as compatible with Node[392508]
-		adding Relationship[8453258]
-392514
-392516
-	adding Node[392516] Geopelia 509050 as compatible with Node[392516]
-		adding Relationship[8453259]
-392535
-	adding Node[392535] Goura 664477 as compatible with Node[392535]
-		adding Relationship[8453260]
-392540
-	adding Node[392540] Streptopelia 549522 as compatible with Node[392540]
-		adding Relationship[8453261]
-392577
-	adding Node[392577] Petrophassa 550870 as compatible with Node[392577]
-		adding Relationship[8453262]
-392582
-392610
-	adding Node[392610] Patagioenas 773512 as compatible with Node[392610]
-		adding Relationship[8453263]
-392659
-392661
-	adding Node[392661] Reinwardtoena 801239 as compatible with Node[392661]
-		adding Relationship[8453264]
-392670
-	adding Node[392670] Turtur 931109 as compatible with Node[392670]
-		adding Relationship[8453265]
-392705
-	adding Node[392705] Columba 938415 as compatible with Node[392705]
-		adding Relationship[8453266]
-392788
-392797
-	adding Node[392797] Henicophaps 956250 as compatible with Node[392797]
-		adding Relationship[8453267]
-392800
-392802
-392807
-	adding Node[392807] Metriopelia 382067 as compatible with Node[392807]
-		adding Relationship[8453268]
-392817
-392826
-	adding Node[392826] Caloenas 1032055 as compatible with Node[392826]
-		adding Relationship[8453269]
-392836
-	adding Node[392836] Chalcophaps 1032057 as compatible with Node[392836]
-		adding Relationship[8453270]
-392841
-	adding Node[392841] Alectroenas 1032064 as compatible with Node[392841]
-		adding Relationship[8453271]
-392851
-	adding Node[392851] Zenaida 1092651 as compatible with Node[392851]
-		adding Relationship[8453272]
-[Node[3573196], Node[3573197], Node[392431], Node[3573199], Node[3573192], Node[392365], Node[392841], Node[392705], Node[3573195], Node[3573189], Node[392836], Node[3573191], Node[392155], Node[3573184], Node[392156], Node[392297], Node[392416], Node[3573186], Node[392508], Node[3573187], Node[392483], Node[3573209], Node[392306], Node[3573210], Node[392610], Node[3573204], Node[3573207], Node[392319], Node[392438], Node[3573206], Node[392851], Node[3573203], Node[392797], Node[3573202], Node[392670], Node[392535], Node[392807], Node[392181], Node[392661], Node[392540], Node[392477], Node[392516], Node[392161], Node[3573183], Node[3573182], Node[3573181], Node[3573180], Node[392577], Node[392826], Node[392168]]
-	Node[3573196]
-	Node[3573197]
-	Node[392431]
-		adding Relationship[8453273] from Node[392431] to Node[3573183]
-	Node[3573199]
-	Node[3573192]
-	Node[392365]
-		adding Relationship[8453274] from Node[392365] to Node[3573210]
-	Node[392841]
-		adding Relationship[8453275] from Node[392841] to Node[3573206]
-	Node[392705]
-		adding Relationship[8453276] from Node[392705] to Node[3573182]
-	Node[3573195]
-		adding Relationship[8453277] from Node[3573195] to Node[3573196]
-	Node[3573189]
-	Node[392836]
-		adding Relationship[8453278] from Node[392836] to Node[3573203]
-	Node[3573191]
-	Node[392155]
-		adding Relationship[8453279] from Node[392155] to Node[3573199]
-	Node[3573184]
-	Node[392156]
-		adding Relationship[8453280] from Node[392156] to Node[392155]
-	Node[392297]
-		adding Relationship[8453281] from Node[392297] to Node[3573191]
-	Node[392416]
-		adding Relationship[8453282] from Node[392416] to Node[3573183]
-	Node[3573186]
-		adding Relationship[8453283] from Node[3573186] to Node[3573187]
-	Node[392508]
-		adding Relationship[8453284] from Node[392508] to Node[3573187]
-	Node[3573187]
-	Node[392483]
-		adding Relationship[8453285] from Node[392483] to Node[3573195]
-	Node[3573209]
-		adding Relationship[8453286] from Node[3573209] to Node[3573210]
-	Node[392306]
-		adding Relationship[8453287] from Node[392306] to Node[3573189]
-	Node[3573210]
-	Node[392610]
-		adding Relationship[8453288] from Node[392610] to Node[3573186]
-	Node[3573204]
-	Node[3573207]
-	Node[392319]
-		adding Relationship[8453289] from Node[392319] to Node[3573209]
-	Node[392438]
-		adding Relationship[8453290] from Node[392438] to Node[3573180]
-	Node[3573206]
-		adding Relationship[8453291] from Node[3573206] to Node[3573207]
-	Node[392851]
-		adding Relationship[8453292] from Node[392851] to Node[3573181]
-	Node[3573203]
-	Node[392797]
-		adding Relationship[8453293] from Node[392797] to Node[3573196]
-	Node[3573202]
-		adding Relationship[8453294] from Node[3573202] to Node[3573203]
-	Node[392670]
-		adding Relationship[8453295] from Node[392670] to Node[3573202]
-	Node[392535]
-		adding Relationship[8453296] from Node[392535] to Node[3573197]
-	Node[392807]
-		adding Relationship[8453297] from Node[392807] to Node[3573189]
-	Node[392181]
-		adding Relationship[8453298] from Node[392181] to Node[3573207]
-	Node[392661]
-		adding Relationship[8453299] from Node[392661] to Node[3573184]
-	Node[392540]
-		adding Relationship[8453300] from Node[392540] to Node[3573182]
-	Node[392477]
-		adding Relationship[8453301] from Node[392477] to Node[3573204]
-	Node[392516]
-		adding Relationship[8453302] from Node[392516] to Node[3573191]
-	Node[392161]
-		adding Relationship[8453303] from Node[392161] to Node[392155]
-	Node[3573183]
-		adding Relationship[8453304] from Node[3573183] to Node[3573184]
-	Node[3573182]
-	Node[3573181]
-	Node[3573180]
-		adding Relationship[8453305] from Node[3573180] to Node[3573181]
-	Node[392577]
-		adding Relationship[8453306] from Node[392577] to Node[3573192]
-	Node[392826]
-		adding Relationship[8453307] from Node[392826] to Node[3573199]
-	Node[392168]
-		adding Relationship[8453308] from Node[392168] to Node[3573197]
+Committing nodes: 75

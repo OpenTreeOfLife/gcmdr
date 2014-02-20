@@ -5,7 +5,7 @@ pgloadind   tree info number edges 48
 pgloadind   tree info ingroup "node1124276"
 pgloadind   Setting ingroup root node.
 pgloadind   Ingested tree number of external nodes 25
-pgloadind   property added ot:studyPublicationReference "Scott J. Steppan, Mikhail R. Akhverdyan,. 1999. Molecular Phylogeny of the marmots (Rodentia: Sciuridae): tests of evolutionary and biogeographic hypotheses. Systematic Biology 48 (4): 715-734."
+pgloadind   property added ot:studyPublicationReference "Scott J. Steppan, Mikhail R. Akhverdyan. 1999. Molecular Phylogeny of the marmots (Rodentia: Sciuridae): tests of evolutionary and biogeographic hypotheses. Systematic Biology 48 (4): 715-734."
 pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1080/106351599259988"
 pgloadind   property added ot:curatorName "Joseph Brown"
 pgloadind   property added ot:studyId "2809"
@@ -51,17 +51,17 @@ pgloadind       duplicate OTT ID 630994
 pgloadind     OTT ID reused in tree
 pgloadind       duplicate name "Marmota monax" nexsonid "node1124324"
 pgloadind       duplicate OTT ID 630994
-pgloadind     pruning dups and overlapping name "Marmota caudata" nexsonid "node1124311"
-pgloadind     pruning dups and overlapping name "Marmota monax" nexsonid "node1124323"
-pgloadind     pruning dups and overlapping name "Marmota camtschatica" nexsonid "node1124297"
-pgloadind     pruning dups and overlapping name "Marmota caudata" nexsonid "node1124312"
-pgloadind     pruning dups and overlapping name "Marmota monax" nexsonid "node1124324"
-pgloadind     pruning dups and overlapping name "Marmota baibacina" nexsonid "node1124304"
-pgloadind     pruning dups and overlapping name "Marmota bobak" nexsonid "node1124301"
-pgloadind     pruning dups and overlapping name "Marmota sibirica" nexsonid "node1124293"
-pgloadind     pruning dups and overlapping name "Marmota flaviventris" nexsonid "node1124285"
-pgloadind     pruning dups and overlapping name "Marmota marmota" nexsonid "node1124319"
 pgloadind     pruning dups and overlapping name "Marmota broweri" nexsonid "node1124316"
+pgloadind     pruning dups and overlapping name "Marmota flaviventris" nexsonid "node1124285"
+pgloadind     pruning dups and overlapping name "Marmota monax" nexsonid "node1124323"
+pgloadind     pruning dups and overlapping name "Marmota baibacina" nexsonid "node1124304"
+pgloadind     pruning dups and overlapping name "Marmota monax" nexsonid "node1124324"
+pgloadind     pruning dups and overlapping name "Marmota caudata" nexsonid "node1124312"
+pgloadind     pruning dups and overlapping name "Marmota sibirica" nexsonid "node1124293"
+pgloadind     pruning dups and overlapping name "Marmota caudata" nexsonid "node1124311"
+pgloadind     pruning dups and overlapping name "Marmota marmota" nexsonid "node1124319"
+pgloadind     pruning dups and overlapping name "Marmota bobak" nexsonid "node1124301"
+pgloadind     pruning dups and overlapping name "Marmota camtschatica" nexsonid "node1124297"
 pgloadind   postpruning newick tree "((((Marmota_caligata,Marmota_vancouverensis),Marmota_olympus),Marmota_flaviventris),(((((Marmota_himalayana,Marmota_sibirica),Marmota_camtschatica),(Marmota_baibacina,Marmota_bobak)),(((Marmota_menzbieri,Marmota_caudata),Marmota_broweri),Marmota_marmota)),Marmota_monax))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 10477 taxonomy "Marmota caligata->Marmota->Marmotini->Xerinae->Sciuridae->Sciurognathi->Rodentia->Glires->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1124280"
@@ -89,7 +89,7 @@ this is the ROOT
 placing root in index
 Dealing with metadata property: id
 Dealing with metadata property: ot:studyPublicationReference
-Adding property 'ot:studyPublicationReference': Scott J. Steppan, Mikhail R. Akhverdyan,. 1999. Molecular Phylogeny of the marmots (Rodentia: Sciuridae): tests of evolutionary and biogeographic hypotheses. Systematic Biology 48 (4): 715-734.
+Adding property 'ot:studyPublicationReference': Scott J. Steppan, Mikhail R. Akhverdyan. 1999. Molecular Phylogeny of the marmots (Rodentia: Sciuridae): tests of evolutionary and biogeographic hypotheses. Systematic Biology 48 (4): 715-734.
 Dealing with metadata property: ot:focalCladeOTTTaxonName
 Adding property 'ot:focalCladeOTTTaxonName': Marmota
 Dealing with metadata property: ot:studyYear
@@ -107,19 +107,3 @@ Adding property 'ot:curatedType': ML
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2809
 Committing nodes: 27
-{328331}
-328342
-328345
-328347
-328353
-328355
-328358
-328360
-328363
-328365
-328370
-328376
-328378
-328381
-328385
-[]
