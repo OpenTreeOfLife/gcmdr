@@ -54,7 +54,7 @@ studytreelist=[
                "1870_3769", # Cyprinidae. Ruber et al. 2007. BMC Evol. Biol.
                "2659_6195", # Otophysi. Chen et al. 2013. Evolution
 
-               "2651_6177",  # Actinopterygii (Bony fishes). Betancur-R et al. 2013. PLoS Currents
+              # "2651_6177",  # Actinopterygii (Bony fishes). Betancur-R et al. 2013. PLoS Currents
 
      ## Other tetrapods
                "2415_5096", # Turtles. Guillon et al. 2012. Contributions to Zoology
