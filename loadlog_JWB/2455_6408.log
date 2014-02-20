@@ -106,6 +106,21 @@ skipping tree: 5253
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "6408"
 pgloadind   all nodes have ottIds
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Stenosarina crosnieri" nexsonid "node1114929"
+pgloadind       dubious OTT ID 657611
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Abyssothyris" nexsonid "node1114930"
+pgloadind       dubious OTT ID 1097853
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Gryphus vitreus" nexsonid "node1114931"
+pgloadind       dubious OTT ID 657612
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Liothyrella uva" nexsonid "node1114934"
+pgloadind       dubious OTT ID 37864
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Liothyrella neozelanica" nexsonid "node1114935"
+pgloadind       dubious OTT ID 37863
 pgloadind     OTT ID reused in tree
 pgloadind       duplicate name "Terebratalia transversa" nexsonid "node1114955"
 pgloadind       duplicate OTT ID 463351
@@ -118,19 +133,19 @@ pgloadind       duplicate OTT ID 1027439
 pgloadind     OTT ID reused in tree
 pgloadind       duplicate name "Phoronis psammophila" nexsonid "node1114989"
 pgloadind       duplicate OTT ID 320345
+pgloadind     pruning dups and overlapping name "Stenosarina crosnieri" nexsonid "node1114929"
+pgloadind     pruning dups and overlapping name "Liothyrella uva" nexsonid "node1114934"
+pgloadind     pruning dups and overlapping name "Abyssothyris" nexsonid "node1114930"
 pgloadind     pruning dups and overlapping name "Lingula anatina" nexsonid "node1114983"
 pgloadind     pruning dups and overlapping name "Phoronis psammophila" nexsonid "node1114989"
-pgloadind     pruning dups and overlapping name "Gwynia capsula" nexsonid "node1114965"
 pgloadind     pruning dups and overlapping name "Terebratalia transversa" nexsonid "node1114955"
-pgloadind   postpruning newick tree "((((((((((Platidia_anomioides,Stenosarina_crosnieri),Abyssothyris),Gryphus_vitreus),((Liothyrella_uva,Liothyrella_neozelanica),Dyscolia_sp_D1219)),(Cancellothyris_hedleyi,Chlidonophora,Terebratulina_retusa),Thecidellina_blochmanni),Kraussina_rubra),(((((Calloria_inconspicua,Terebratella_sanguinea),Gyrothyris_mawsoni),Neothyris_parva),Terebratalia_transversa),(((Fallax_neocaledonensis,Laqueus_californianus),(Megerlia_truncata,Megerlina_sp_D1218)),Macandrevia_cranium))),(((Hemithiris_psittaceae,Neorhynchia_sp_D1090),Notosaria_nigricans),Eohemithiris_grayi)),(Discina_striata,Discinisca_tenuis)),(((Lingula_reevii,(Lingula_adamsi,Lingula_anatina)),Glottidia),(Phoronis_hippocrepia,Phoronis_psammophila),(Novocrania_anomala,Novocrania_huttoni)))"
+pgloadind     pruning dups and overlapping name "Gwynia capsula" nexsonid "node1114965"
+pgloadind     pruning dups and overlapping name "Liothyrella neozelanica" nexsonid "node1114935"
+pgloadind     pruning dups and overlapping name "Gryphus vitreus" nexsonid "node1114931"
+pgloadind   postpruning newick tree "(((((((Dyscolia_sp_D1219,Platidia_anomioides),(Cancellothyris_hedleyi,Chlidonophora,Terebratulina_retusa),Thecidellina_blochmanni),Kraussina_rubra),(((((Calloria_inconspicua,Terebratella_sanguinea),Gyrothyris_mawsoni),Neothyris_parva),Terebratalia_transversa),(((Fallax_neocaledonensis,Laqueus_californianus),(Megerlia_truncata,Megerlina_sp_D1218)),Macandrevia_cranium))),(((Hemithiris_psittaceae,Neorhynchia_sp_D1090),Notosaria_nigricans),Eohemithiris_grayi)),(Discina_striata,Discinisca_tenuis)),(((Lingula_reevii,(Lingula_adamsi,Lingula_anatina)),Glottidia),(Phoronis_hippocrepia,Phoronis_psammophila),(Novocrania_anomala,Novocrania_huttoni)))"
 pgloadind   taxon mapping summary
-pgloadind     taxon mapping OTT ID 320344 taxonomy "Platidia anomioides->Platidia->Platidiidae->Platidioidea->Terebratellidina->Terebratulida->Rhynchonellata->Rhynchonelliformea->Brachiopoda->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1114928"
-pgloadind     taxon mapping OTT ID 657611 taxonomy "Stenosarina crosnieri->Stenosarina->Tichosidae->Terebratuloidea->Terebratulidina->Terebratulida->Rhynchonellata->Rhynchonelliformea->Brachiopoda->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1114929"
-pgloadind     taxon mapping OTT ID 1097853 taxonomy "Abyssothyris->Terebratulidae->Terebratuloidea->Terebratulidina->Terebratulida->Rhynchonellata->Rhynchonelliformea->Brachiopoda->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1114930"
-pgloadind     taxon mapping OTT ID 657612 taxonomy "Gryphus vitreus->Gryphus->Gryphidae->Terebratuloidea->Terebratulidina->Terebratulida->Rhynchonellata->Rhynchonelliformea->Brachiopoda->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1114931"
-pgloadind     taxon mapping OTT ID 37864 taxonomy "Liothyrella uva->Liothyrella->Terebratulidae->Terebratuloidea->Terebratulidina->Terebratulida->Rhynchonellata->Rhynchonelliformea->Brachiopoda->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1114934"
-pgloadind     taxon mapping OTT ID 37863 taxonomy "Liothyrella neozelanica->Liothyrella->Terebratulidae->Terebratuloidea->Terebratulidina->Terebratulida->Rhynchonellata->Rhynchonelliformea->Brachiopoda->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1114935"
 pgloadind     taxon mapping OTT ID 571443 taxonomy "Dyscolia sp. D1219->Dyscolia->Dyscoliidae->Dyscoloidea->Terebratulidina->Terebratulida->Rhynchonellata->Rhynchonelliformea->Brachiopoda->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1114936"
+pgloadind     taxon mapping OTT ID 320344 taxonomy "Platidia anomioides->Platidia->Platidiidae->Platidioidea->Terebratellidina->Terebratulida->Rhynchonellata->Rhynchonelliformea->Brachiopoda->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1114928"
 pgloadind     taxon mapping OTT ID 1097843 taxonomy "Cancellothyris hedleyi->Cancellothyris->Cancellothyrididae->Cancellothyroidea->Terebratulidina->Terebratulida->Rhynchonellata->Rhynchonelliformea->Brachiopoda->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1114938"
 pgloadind     taxon mapping OTT ID 1097844 taxonomy "Chlidonophora->Cancellothyrididae->Cancellothyroidea->Terebratulidina->Terebratulida->Rhynchonellata->Rhynchonelliformea->Brachiopoda->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1114939"
 pgloadind     taxon mapping OTT ID 451024 taxonomy "Terebratulina retusa->Terebratulina->Cancellothyrididae->Cancellothyroidea->Terebratulidina->Terebratulida->Rhynchonellata->Rhynchonelliformea->Brachiopoda->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1114940"
@@ -167,30 +182,28 @@ pgloadind   Adding tree to graph tree id "6408"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Fallax neocaledonensis was remapped to 'Fallax' (id=757248)
-	Thecidellina blochmanni was remapped to 'Thecideida' (id=757055)
-	Macandrevia cranium was remapped to 'Zeillerioidea' (id=757271)
-	Kraussina rubra was remapped to 'Kraussina' (id=757624)
-	Platidia anomioides was remapped to 'Platidioidea' (id=757158)
-	Calloria inconspicua was remapped to 'Calloria' (id=757420)
-	Eohemithiris grayi was remapped to 'Eohemithiris' (id=756164)
-	Megerlina sp. D1218 was remapped to 'Megerlina' (id=757632)
-	Neothyris parva was remapped to 'Neothyris' (id=757358)
-	Terebratella sanguinea was remapped to 'Terebratella' (id=757366)
-	Laqueus californianus was remapped to 'Laqueus' (id=757230)
-	Notosaria nigricans was remapped to 'Notosaria' (id=756204)
-	Megerlia truncata was remapped to 'Megerlia' (id=757607)
-	Dyscolia sp. D1219 was remapped to 'Dyscoloidea' (id=757950)
-	Cancellothyris hedleyi was remapped to 'Cancellothyris' (id=758030)
-	Terebratulina retusa was remapped to 'Terebratulina' (id=757976)
-	Discina striata was remapped to 'Discina' (id=760876)
-	Terebratalia transversa was remapped to 'Terebratalia' (id=757224)
-	Neorhynchia sp. D1090 was remapped to 'Neorhynchia' (id=756174)
-	Stenosarina crosnieri was remapped to 'Tichosidae' (id=757914)
-	Gyrothyris mawsoni was remapped to 'Gyrothyris' (id=757384)
-	Hemithiris psittaceae was remapped to 'Hemithiris' (id=756194)
-	Gryphus vitreus was remapped to 'Gryphidae' (id=757930)
-	Discinisca tenuis was remapped to 'Discinisca' (id=760865)
+	Fallax neocaledonensis was remapped to 'Fallax' (id=717810)
+	Platidia anomioides was remapped to 'Platidioidea' (id=717723)
+	Cancellothyris hedleyi was remapped to 'Cancellothyris' (id=718163)
+	Terebratalia transversa was remapped to 'Terebratalia' (id=717786)
+	Megerlina sp. D1218 was remapped to 'Megerlina' (id=718076)
+	Gyrothyris mawsoni was remapped to 'Gyrothyris' (id=717899)
+	Macandrevia cranium was remapped to 'Zeillerioidea' (id=717828)
+	Notosaria nigricans was remapped to 'Notosaria' (id=717431)
+	Dyscolia sp. D1219 was remapped to 'Dyscoloidea' (id=718088)
+	Discinisca tenuis was remapped to 'Discinisca' (id=718650)
+	Kraussina rubra was remapped to 'Kraussina' (id=718068)
+	Laqueus californianus was remapped to 'Laqueus' (id=717792)
+	Neorhynchia sp. D1090 was remapped to 'Neorhynchia' (id=717406)
+	Thecidellina blochmanni was remapped to 'Thecideida' (id=717674)
+	Neothyris parva was remapped to 'Neothyris' (id=717873)
+	Megerlia truncata was remapped to 'Megerlia' (id=718051)
+	Discina striata was remapped to 'Discina' (id=718661)
+	Hemithiris psittaceae was remapped to 'Hemithiris' (id=717421)
+	Eohemithiris grayi was remapped to 'Eohemithiris' (id=717396)
+	Calloria inconspicua was remapped to 'Calloria' (id=717935)
+	Terebratulina retusa was remapped to 'Terebratulina' (id=718109)
+	Terebratella sanguinea was remapped to 'Terebratella' (id=717881)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -216,238 +229,59 @@ Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2455
 Dealing with metadata property: ot:dataDeposit
 Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S712
-Committing nodes: 68
-{756076}
-756118
-	adding Node[756093] Phoronidae 4969351 as compatible with Node[756108]
-		adding Relationship[8453179]
-	adding Node[756092] Phoronida (no Orders recognised) 5299863 as compatible with Node[756108]
-		adding Relationship[8453180]
-	adding Node[756091] Phoronida (no Class recognised) 5296476 as compatible with Node[756108]
-		adding Relationship[8453181]
-	adding Node[756079] Phoroniformea 612209 as compatible with Node[756108]
-		adding Relationship[8453182]
-756136
-757647
-	adding Node[757645] Terebratulidae 15284 as compatible with Node[757646]
-		adding Relationship[8453183]
-	adding Node[756147] Rhynchonelliformea 681832 as compatible with Node[756148]
-		adding Relationship[8453184]
-757648
-757669
-758023
-	adding Node[757974] Cancellothyroidea 608161 as compatible with Node[757975]
-		adding Relationship[8453185]
-760522
-	adding Node[760471] Craniidae 4139624 as compatible with Node[760472]
-		adding Relationship[8453186]
-	adding Node[760470] Cranioidea 5224330 as compatible with Node[760472]
-		adding Relationship[8453187]
-	adding Node[760469] Craniida 4139623 as compatible with Node[760472]
-		adding Relationship[8453188]
-	adding Node[760468] Craniata 5224329 as compatible with Node[760472]
-		adding Relationship[8453189]
-	adding Node[760467] Craniiformea 681837 as compatible with Node[760472]
-		adding Relationship[8453190]
-760525
-760708
-	adding Node[760706] Linguloidea 791513 as compatible with Node[760707]
-		adding Relationship[8453191]
-760730
-	adding Node[760706] Linguloidea 791513 as compatible with Node[760723]
-		adding Relationship[8453192]
-760732
-760734
-756164
-	adding Node[756164] Eohemithiris 571439 as compatible with Node[756164]
-		adding Relationship[8453193]
-	adding Node[756149] Rhynchonellida 37861 as compatible with Node[756150]
-		adding Relationship[8453194]
-756174
-	adding Node[756174] Neorhynchia 844552 as compatible with Node[756174]
-		adding Relationship[8453195]
-756194
-	adding Node[756194] Hemithiris 37857 as compatible with Node[756194]
-		adding Relationship[8453196]
-756204
-	adding Node[756204] Notosaria 37867 as compatible with Node[756204]
-		adding Relationship[8453197]
-757055
-	adding Node[757055] Thecideida 635427 as compatible with Node[757055]
-		adding Relationship[8453198]
-757158
-	adding Node[757158] Platidioidea 158480 as compatible with Node[757158]
-		adding Relationship[8453199]
-757224
-	adding Node[757224] Terebratalia 463350 as compatible with Node[757224]
-		adding Relationship[8453200]
-757230
-	adding Node[757230] Laqueus 508528 as compatible with Node[757230]
-		adding Relationship[8453201]
-757248
-	adding Node[757248] Fallax 571448 as compatible with Node[757248]
-		adding Relationship[8453202]
-757271
-	adding Node[757271] Zeillerioidea 158482 as compatible with Node[757271]
-		adding Relationship[8453203]
-757358
-	adding Node[757358] Neothyris 262220 as compatible with Node[757358]
-		adding Relationship[8453204]
-	adding Node[757338] Terebratelloidea 1046102 as compatible with Node[757345]
-		adding Relationship[8453205]
-757366
-	adding Node[757366] Terebratella 652336 as compatible with Node[757366]
-		adding Relationship[8453206]
-757384
-	adding Node[757384] Gyrothyris 844546 as compatible with Node[757384]
-		adding Relationship[8453207]
-757420
-	adding Node[757420] Calloria 1097846 as compatible with Node[757420]
-		adding Relationship[8453208]
-757607
-	adding Node[757607] Megerlia 508529 as compatible with Node[757607]
-		adding Relationship[8453209]
-757624
-	adding Node[757624] Kraussina 632723 as compatible with Node[757624]
-		adding Relationship[8453210]
-757632
-	adding Node[757632] Megerlina 844548 as compatible with Node[757632]
-		adding Relationship[8453211]
-757914
-	adding Node[757914] Tichosidae 657615 as compatible with Node[757914]
-		adding Relationship[8453212]
-757930
-	adding Node[757930] Gryphidae 657617 as compatible with Node[757930]
-		adding Relationship[8453213]
-757950
-	adding Node[757950] Dyscoloidea 733235 as compatible with Node[757950]
-		adding Relationship[8453214]
-757976
-	adding Node[757976] Terebratulina 1027442 as compatible with Node[757976]
-		adding Relationship[8453215]
-758030
-	adding Node[758030] Cancellothyris 1097850 as compatible with Node[758030]
-		adding Relationship[8453216]
-760865
-	adding Node[760865] Discinisca 558550 as compatible with Node[760865]
-		adding Relationship[8453217]
-	adding Node[760859] Discinoidea 681840 as compatible with Node[760860]
-		adding Relationship[8453218]
-760876
-	adding Node[760876] Discina 558552 as compatible with Node[760876]
-		adding Relationship[8453219]
-[Node[757914], Node[756147], Node[756150], Node[756148], Node[758030], Node[756149], Node[757338], Node[757230], Node[757224], Node[757624], Node[757358], Node[757950], Node[757345], Node[757930], Node[3573183], Node[3573182], Node[3573180], Node[760471], Node[760470], Node[760469], Node[760468], Node[760467], Node[757607], Node[760706], Node[760707], Node[757366], Node[3573196], Node[3573197], Node[3573198], Node[757055], Node[3573193], Node[757976], Node[757975], Node[3573188], Node[757974], Node[3573189], Node[756093], Node[3573190], Node[756092], Node[3573191], Node[756091], Node[3573185], Node[757248], Node[3573186], Node[3573187], Node[757384], Node[760859], Node[756204], Node[757632], Node[757158], Node[760860], Node[757645], Node[757271], Node[756079], Node[3573200], Node[756194], Node[760876], Node[760865], Node[757420], Node[756174], Node[756164]]
-	Node[757914]
-		adding Relationship[8453220] from Node[757914] to Node[3573180]
-	Node[756147]
-	Node[756150]
-		adding Relationship[8453221] from Node[756150] to Node[756148]
-		adding Relationship[8453222] from Node[756150] to Node[756149]
-	Node[756148]
-		adding Relationship[8453223] from Node[756148] to Node[3573198]
-		adding Relationship[8453224] from Node[756148] to Node[756147]
-	Node[758030]
-		adding Relationship[8453225] from Node[758030] to Node[757975]
-	Node[756149]
-		adding Relationship[8453226] from Node[756149] to Node[756148]
-	Node[757338]
-	Node[757230]
-		adding Relationship[8453227] from Node[757230] to Node[3573190]
-	Node[757224]
-		adding Relationship[8453228] from Node[757224] to Node[3573189]
-	Node[757624]
-		adding Relationship[8453229] from Node[757624] to Node[3573186]
-	Node[757358]
-		adding Relationship[8453230] from Node[757358] to Node[757345]
-	Node[757950]
-		adding Relationship[8453231] from Node[757950] to Node[3573183]
-	Node[757345]
-		adding Relationship[8453232] from Node[757345] to Node[3573189]
-		adding Relationship[8453233] from Node[757345] to Node[757338]
-	Node[757930]
-		adding Relationship[8453234] from Node[757930] to Node[3573182]
-	Node[3573183]
-	Node[3573182]
-	Node[3573180]
-	Node[760471]
-		adding Relationship[8453235] from Node[760471] to Node[760470]
-	Node[760470]
-		adding Relationship[8453236] from Node[760470] to Node[760469]
-	Node[760469]
-		adding Relationship[8453237] from Node[760469] to Node[760468]
-	Node[760468]
-		adding Relationship[8453238] from Node[760468] to Node[760467]
-	Node[760467]
-	Node[757607]
-		adding Relationship[8453239] from Node[757607] to Node[3573191]
-	Node[760706]
-	Node[760707]
-		adding Relationship[8453240] from Node[760707] to Node[3573200]
-		adding Relationship[8453241] from Node[760707] to Node[760706]
-	Node[757366]
-		adding Relationship[8453242] from Node[757366] to Node[3573187]
-		adding Relationship[8453243] from Node[757366] to Node[757345]
-	Node[3573196]
-		adding Relationship[8453244] from Node[3573196] to Node[3573197]
-	Node[3573197]
-		adding Relationship[8453245] from Node[3573197] to Node[756150]
-	Node[3573198]
-	Node[757055]
-		adding Relationship[8453246] from Node[757055] to Node[3573185]
-		adding Relationship[8453247] from Node[757055] to Node[756148]
-	Node[3573193]
-	Node[757976]
-		adding Relationship[8453248] from Node[757976] to Node[757975]
-	Node[757975]
-		adding Relationship[8453249] from Node[757975] to Node[3573185]
-		adding Relationship[8453250] from Node[757975] to Node[757974]
-	Node[3573188]
-		adding Relationship[8453251] from Node[3573188] to Node[757345]
-	Node[757974]
-	Node[3573189]
-	Node[756093]
-		adding Relationship[8453252] from Node[756093] to Node[756092]
-	Node[3573190]
-	Node[756092]
-		adding Relationship[8453253] from Node[756092] to Node[756091]
-	Node[3573191]
-	Node[756091]
-		adding Relationship[8453254] from Node[756091] to Node[756079]
-	Node[3573185]
-		adding Relationship[8453255] from Node[3573185] to Node[3573186]
-	Node[757248]
-		adding Relationship[8453256] from Node[757248] to Node[3573190]
-	Node[3573186]
-	Node[3573187]
-		adding Relationship[8453257] from Node[3573187] to Node[3573188]
-	Node[757384]
-		adding Relationship[8453258] from Node[757384] to Node[3573188]
-		adding Relationship[8453259] from Node[757384] to Node[757345]
-	Node[760859]
-	Node[756204]
-		adding Relationship[8453260] from Node[756204] to Node[3573197]
-	Node[757632]
-		adding Relationship[8453261] from Node[757632] to Node[3573191]
-	Node[757158]
-		adding Relationship[8453262] from Node[757158] to Node[3573180]
-	Node[760860]
-		adding Relationship[8453263] from Node[760860] to Node[3573198]
-		adding Relationship[8453264] from Node[760860] to Node[760859]
-	Node[757645]
-	Node[757271]
-		adding Relationship[8453265] from Node[757271] to Node[3573193]
-	Node[756079]
-	Node[3573200]
-	Node[756194]
-		adding Relationship[8453266] from Node[756194] to Node[3573196]
-	Node[760876]
-		adding Relationship[8453267] from Node[760876] to Node[760860]
-	Node[760865]
-		adding Relationship[8453268] from Node[760865] to Node[760860]
-	Node[757420]
-		adding Relationship[8453269] from Node[757420] to Node[3573187]
-		adding Relationship[8453270] from Node[757420] to Node[757345]
-	Node[756174]
-		adding Relationship[8453271] from Node[756174] to Node[3573196]
-	Node[756164]
-		adding Relationship[8453272] from Node[756164] to Node[756150]
+Committing nodes: 58
+	adding Node[717329] Phoronidae 4969351 as compatible with Node[717340]
+		adding Relationship[8163511]
+		adding to root Relationship[8163512]
+	adding Node[717328] Phoronida (no Orders recognised) 5301771 as compatible with Node[717340]
+		adding Relationship[8163513]
+		adding to root Relationship[8163514]
+	adding Node[717327] Phoronida (no Class recognised) 5297816 as compatible with Node[717340]
+		adding Relationship[8163515]
+		adding to root Relationship[8163516]
+	adding Node[717315] Phoroniformea 612209 as compatible with Node[717340]
+		adding Relationship[8163517]
+		adding to root Relationship[8163518]
+	adding Node[718107] Cancellothyroidea 608161 as compatible with Node[718108]
+		adding Relationship[8163519]
+		adding to root Relationship[8163520]
+	adding Node[717379] Rhynchonelliformea 681832 as compatible with Node[717380]
+		adding Relationship[8163521]
+		adding to root Relationship[8163522]
+	adding Node[718341] Craniidae 4139624 as compatible with Node[718342]
+		adding Relationship[8163523]
+		adding to root Relationship[8163524]
+	adding Node[718340] Cranioidea 5224330 as compatible with Node[718342]
+		adding Relationship[8163525]
+		adding to root Relationship[8163526]
+	adding Node[718339] Craniida 4139623 as compatible with Node[718342]
+		adding Relationship[8163527]
+		adding to root Relationship[8163528]
+	adding Node[718338] Craniata 5224329 as compatible with Node[718342]
+		adding Relationship[8163529]
+		adding to root Relationship[8163530]
+	adding Node[718337] Craniiformea 681837 as compatible with Node[718342]
+		adding Relationship[8163531]
+		adding to root Relationship[8163532]
+	adding Node[718518] Linguloidea 791513 as compatible with Node[718519]
+		adding Relationship[8163533]
+		adding to root Relationship[8163534]
+	adding Node[717381] Rhynchonellida 37861 as compatible with Node[717382]
+		adding Relationship[8163535]
+		adding to root Relationship[8163536]
+	adding Node[717853] Terebratelloidea 1046102 as compatible with Node[717860]
+		adding Relationship[8163537]
+		adding to root Relationship[8163538]
+	adding Node[718644] Discinoidea 681840 as compatible with Node[718645]
+		adding Relationship[8163539]
+		adding to root Relationship[8163540]
+		adding Relationship[8163541] from Node[717380] to Node[3467038]
+		adding Relationship[8163542] from Node[717380] to Node[717379]
+		adding Relationship[8163543] from Node[717381] to Node[717380]
+		adding Relationship[8163544] from Node[718338] to Node[718337]
+		adding Relationship[8163545] from Node[718339] to Node[718338]
+		adding Relationship[8163546] from Node[718340] to Node[718339]
+		adding Relationship[8163547] from Node[718341] to Node[718340]
+		adding Relationship[8163548] from Node[717327] to Node[717315]
+		adding Relationship[8163549] from Node[717329] to Node[717328]
+		adding Relationship[8163550] from Node[717328] to Node[717327]

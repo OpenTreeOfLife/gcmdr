@@ -13,6 +13,7 @@ pgloadind   property added ot:studyYear "2013"
 pgloadind   property added ot:focalClade "1421983"
 pgloadind   property added ot:focalCladeOTTTaxonName "Mammalia"
 pgloadind   property added ot:inGroupClade "node1053534"
+pgloadind   property added ot:tag "ingroup added;"
 pgloadind   property added ot:curatedType "Parsimony"
 loading a specific tree: 6169
 pgloadind conducting TNRS on trees
@@ -25,96 +26,145 @@ pgloadind     OTT ID missing name "Cocomys lingchaensis" nexsonid "node1053640"
 pgloadind     OTT ID missing name "Rhombomylus turpanensis" nexsonid "node1053649"
 pgloadind     OTT ID missing name "Dawsonolagus antiquus" nexsonid "node1053653"
 pgloadind     OTT ID missing name "Hapalops elongatus" nexsonid "node1053675"
-{"names":["Amblysomus hottentotus","Echinops telfairi","Leptictis dakotensis","Rhynchocyon cirnei","Orycteropus afer","Procavia capensis","Thomashuxleya externa","Carodnia vieirai","Loxodonta africana","Moeritherium lyonsi","Trichechus manatus","Protungulatum donnae","Apheliscus insidiosus","Hyopsodus paulus","Phenacodus intermedius","Didolodus multicuspis","Protolipterna ellipsodontoides","Mesonyx obtusidens","Rodhocetus balochistanensis","Lama glama","Sus scrofa","Bos taurus","Archaeotherium mortoni","Hippopotamus amphibius","Artiocetus clavis","Basilosaurus cetoides","Caperea marginata","Tursiops truncatus","Equus caballus","Mesohippus bairdi","Pteropus giganteus","Icaronycteris index","Onychonycteris finneyi","Rhinopoma hardwickii","Myotis lucifugus","Pteronotus parnellii","Nycteris thebaica","Saccopteryx bilineata","Sinopa rapax","Canis lupus","Felis silvestris","Vulpavus ovatus","Vulpavus profectus","Manis pentadactyla","Metacheiromys marshi","Talpa europaea","Solenodon paradoxus","Erinaceus europaeus","Sorex araneus","Tribosphenomys minutus","Paramys delicatus","Cocomys lingchaensis","Ictidomys tridecemlineatus","Castor canadensis","Cavia porcellus","Rattus norvegicus","Rhombomylus turpanensis","Gomphos elkema","Dawsonolagus antiquus","Oryctolagus cuniculus","Cynocephalus volans","Galeopterus variegatus","Ptilocercus lowii","Tupaia glis","Notharctus tenebrosus","Lemur catta","Tarsius syrichta","Homo sapiens","Saimiri sciureus","Dasypus novemcinctus","Hapalops elongatus","Tamandua tetradactyla"]}
-PROBLEM CONNECTING TO SERVER
-pgloadind     Null OTT ID in tree
-pgloadind       null name "Thomashuxleya externa" nexsonid "node1053549"
-pgloadind     Null OTT ID in tree
-pgloadind       null name "Carodnia vieirai" nexsonid "node1053551"
-pgloadind     Null OTT ID in tree
-pgloadind       null name "Didolodus multicuspis" nexsonid "node1053571"
-pgloadind     Null OTT ID in tree
-pgloadind       null name "Protolipterna ellipsodontoides" nexsonid "node1053572"
-pgloadind     Null OTT ID in tree
-pgloadind       null name "Cocomys lingchaensis" nexsonid "node1053640"
-pgloadind     Null OTT ID in tree
-pgloadind       null name "Rhombomylus turpanensis" nexsonid "node1053649"
-pgloadind     Null OTT ID in tree
-pgloadind       null name "Dawsonolagus antiquus" nexsonid "node1053653"
-pgloadind     Null OTT ID in tree
-pgloadind       null name "Hapalops elongatus" nexsonid "node1053675"
-pgloadind     pruning dups and overlapping name "Cocomys lingchaensis" nexsonid "node1053640"
-pgloadind     pruning dups and overlapping name "Dawsonolagus antiquus" nexsonid "node1053653"
-pgloadind     pruning dups and overlapping name "Rhombomylus turpanensis" nexsonid "node1053649"
-pgloadind     pruning dups and overlapping name "Didolodus multicuspis" nexsonid "node1053571"
-pgloadind     pruning dups and overlapping name "Carodnia vieirai" nexsonid "node1053551"
-pgloadind     pruning dups and overlapping name "Thomashuxleya externa" nexsonid "node1053549"
-pgloadind     pruning dups and overlapping name "Protolipterna ellipsodontoides" nexsonid "node1053572"
-pgloadind     pruning dups and overlapping name "Hapalops elongatus" nexsonid "node1053675"
-pgloadind   postpruning newick tree "(((((Amblysomus_hottentotus,Echinops_telfairi),(Leptictis_dakotensis,Rhynchocyon_cirnei)),(Orycteropus_afer,(Procavia_capensis,(Loxodonta_africana,(Moeritherium_lyonsi,Trichechus_manatus))))),(((((Protungulatum_donnae,(((Apheliscus_insidiosus,Hyopsodus_paulus),Phenacodus_intermedius),(Mesonyx_obtusidens,(Rodhocetus_balochistanensis,((Lama_glama,(Sus_scrofa,(Bos_taurus,(Archaeotherium_mortoni,(Hippopotamus_amphibius,(Artiocetus_clavis,(Basilosaurus_cetoides,(Caperea_marginata,Tursiops_truncatus)))))))),(Equus_caballus,Mesohippus_bairdi)))))),(Pteropus_giganteus,((Icaronycteris_index,Onychonycteris_finneyi),(Rhinopoma_hardwickii,((Myotis_lucifugus,Pteronotus_parnellii),(Nycteris_thebaica,Saccopteryx_bilineata)))))),((Sinopa_rapax,((Canis_lupus,Felis_silvestris),(Vulpavus_ovatus,Vulpavus_profectus))),(Manis_pentadactyla,Metacheiromys_marshi))),(Talpa_europaea,(Solenodon_paradoxus,(Erinaceus_europaeus,Sorex_araneus)))),((Tribosphenomys_minutus,((Paramys_delicatus,(Ictidomys_tridecemlineatus,(Castor_canadensis,(Cavia_porcellus,Rattus_norvegicus)))),(Gomphos_elkema,Oryctolagus_cuniculus))),(((Cynocephalus_volans,Galeopterus_variegatus),(Ptilocercus_lowii,Tupaia_glis)),(Notharctus_tenebrosus,(Lemur_catta,(Tarsius_syrichta,(Homo_sapiens,Saimiri_sciureus)))))))),(Dasypus_novemcinctus,Tamandua_tetradactyla))"
+pgloadind   TNRS unmatched total number 8
+pgloadind     pruning unmapped name "Hapalops elongatus" nexsonid "node1053675"
+pgloadind     pruning unmapped name "Dawsonolagus antiquus" nexsonid "node1053653"
+pgloadind     pruning unmapped name "Protolipterna ellipsodontoides" nexsonid "node1053572"
+pgloadind     pruning unmapped name "Carodnia vieirai" nexsonid "node1053551"
+pgloadind     pruning unmapped name "Rhombomylus turpanensis" nexsonid "node1053649"
+pgloadind     pruning unmapped name "Thomashuxleya externa" nexsonid "node1053549"
+pgloadind     pruning unmapped name "Cocomys lingchaensis" nexsonid "node1053640"
+pgloadind     pruning unmapped name "Didolodus multicuspis" nexsonid "node1053571"
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Leptictis dakotensis" nexsonid "node1053542"
+pgloadind       dubious OTT ID 4943497
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Moeritherium lyonsi" nexsonid "node1053555"
+pgloadind       dubious OTT ID 3607245
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Protungulatum donnae" nexsonid "node1053562"
+pgloadind       dubious OTT ID 3607484
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Apheliscus insidiosus" nexsonid "node1053566"
+pgloadind       dubious OTT ID 4945610
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Hyopsodus paulus" nexsonid "node1053567"
+pgloadind       dubious OTT ID 4945087
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Phenacodus intermedius" nexsonid "node1053569"
+pgloadind       dubious OTT ID 4945570
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Mesonyx obtusidens" nexsonid "node1053574"
+pgloadind       dubious OTT ID 4942380
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Rodhocetus balochistanensis" nexsonid "node1053576"
+pgloadind       dubious OTT ID 4942547
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Archaeotherium mortoni" nexsonid "node1053585"
+pgloadind       dubious OTT ID 4944931
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Artiocetus clavis" nexsonid "node1053589"
+pgloadind       dubious OTT ID 4942565
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Basilosaurus cetoides" nexsonid "node1053591"
+pgloadind       dubious OTT ID 4942613
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Mesohippus bairdi" nexsonid "node1053597"
+pgloadind       dubious OTT ID 3615030
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Icaronycteris index" nexsonid "node1053602"
+pgloadind       dubious OTT ID 3614203
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Sinopa rapax" nexsonid "node1053615"
+pgloadind       dubious OTT ID 4945370
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Vulpavus ovatus" nexsonid "node1053621"
+pgloadind       dubious OTT ID 4942030
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Vulpavus profectus" nexsonid "node1053622"
+pgloadind       dubious OTT ID 4942032
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Metacheiromys marshi" nexsonid "node1053625"
+pgloadind       dubious OTT ID 3617647
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Tribosphenomys minutus" nexsonid "node1053635"
+pgloadind       dubious OTT ID 3610315
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Paramys delicatus" nexsonid "node1053638"
+pgloadind       dubious OTT ID 4941266
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Gomphos elkema" nexsonid "node1053651"
+pgloadind       dubious OTT ID 4945254
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Notharctus tenebrosus" nexsonid "node1053664"
+pgloadind       dubious OTT ID 4941696
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Tarsius syrichta" nexsonid "node1053668"
+pgloadind       dubious OTT ID 339031
+pgloadind     pruning dups and overlapping name "Protungulatum donnae" nexsonid "node1053562"
+pgloadind     pruning dups and overlapping name "Vulpavus ovatus" nexsonid "node1053621"
+pgloadind     pruning dups and overlapping name "Hyopsodus paulus" nexsonid "node1053567"
+pgloadind     pruning dups and overlapping name "Archaeotherium mortoni" nexsonid "node1053585"
+pgloadind     pruning dups and overlapping name "Moeritherium lyonsi" nexsonid "node1053555"
+pgloadind     pruning dups and overlapping name "Vulpavus profectus" nexsonid "node1053622"
+pgloadind     pruning dups and overlapping name "Apheliscus insidiosus" nexsonid "node1053566"
+pgloadind     pruning dups and overlapping name "Metacheiromys marshi" nexsonid "node1053625"
+pgloadind     pruning dups and overlapping name "Mesonyx obtusidens" nexsonid "node1053574"
+pgloadind     pruning dups and overlapping name "Tarsius syrichta" nexsonid "node1053668"
+pgloadind     pruning dups and overlapping name "Mesohippus bairdi" nexsonid "node1053597"
+pgloadind     pruning dups and overlapping name "Tribosphenomys minutus" nexsonid "node1053635"
+pgloadind     pruning dups and overlapping name "Phenacodus intermedius" nexsonid "node1053569"
+pgloadind     pruning dups and overlapping name "Icaronycteris index" nexsonid "node1053602"
+pgloadind     pruning dups and overlapping name "Rodhocetus balochistanensis" nexsonid "node1053576"
+pgloadind     pruning dups and overlapping name "Paramys delicatus" nexsonid "node1053638"
+pgloadind     pruning dups and overlapping name "Sinopa rapax" nexsonid "node1053615"
+pgloadind     pruning dups and overlapping name "Leptictis dakotensis" nexsonid "node1053542"
+pgloadind     pruning dups and overlapping name "Artiocetus clavis" nexsonid "node1053589"
+pgloadind     pruning dups and overlapping name "Notharctus tenebrosus" nexsonid "node1053664"
+pgloadind     pruning dups and overlapping name "Basilosaurus cetoides" nexsonid "node1053591"
+pgloadind     pruning dups and overlapping name "Gomphos elkema" nexsonid "node1053651"
+pgloadind   postpruning newick tree "(((((Amblysomus_hottentotus,Echinops_telfairi),Rhynchocyon_cirnei),(Orycteropus_afer,(Procavia_capensis,(Loxodonta_africana,Trichechus_manatus)))),(((((Pteropus_giganteus,((Rhinopoma_hardwickii,((Myotis_lucifugus,Pteronotus_parnellii),(Nycteris_thebaica,Saccopteryx_bilineata))),Onychonycteris_finneyi)),((Lama_glama,(Sus_scrofa,(Bos_taurus,(Hippopotamus_amphibius,(Caperea_marginata,Tursiops_truncatus))))),Equus_caballus)),(Manis_pentadactyla,(Canis_lupus,Felis_silvestris))),(Talpa_europaea,(Solenodon_paradoxus,(Erinaceus_europaeus,Sorex_araneus)))),((((Cynocephalus_volans,Galeopterus_variegatus),(Ptilocercus_lowii,Tupaia_glis)),(Lemur_catta,(Homo_sapiens,Saimiri_sciureus))),((Ictidomys_tridecemlineatus,(Castor_canadensis,(Cavia_porcellus,Rattus_norvegicus))),Oryctolagus_cuniculus)))),(Dasypus_novemcinctus,Tamandua_tetradactyla))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 574736 taxonomy "Amblysomus hottentotus->Amblysomus->Amblysominae->Chrysochloridae->Afrotheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053539"
 pgloadind     taxon mapping OTT ID 222351 taxonomy "Echinops telfairi->Echinops->Tenrecinae->Tenrecidae->Afrotheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053540"
-pgloadind     taxon mapping OTT ID 4943497 taxonomy "Leptictis dakotensis->Leptictis->Leptictidae->Pilosa->Xenarthra->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053542"
 pgloadind     taxon mapping OTT ID 627114 taxonomy "Rhynchocyon cirnei->Rhynchocyon->Macroscelididae->Macroscelidea->Afrotheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053543"
 pgloadind     taxon mapping OTT ID 561087 taxonomy "Orycteropus afer->Orycteropus->Orycteropodidae->Tubulidentata->Afrotheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053545"
 pgloadind     taxon mapping OTT ID 561114 taxonomy "Procavia capensis->Procavia->Procaviidae->Hyracoidea->Afrotheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053547"
 pgloadind     taxon mapping OTT ID 541936 taxonomy "Loxodonta africana->Loxodonta->Elephantidae->Proboscidea->Afrotheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053553"
-pgloadind     taxon mapping OTT ID 3607245 taxonomy "Moeritherium lyonsi->Moeritherium->Moeritheriidae->Proboscidea->Afrotheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053555"
 pgloadind     taxon mapping OTT ID 226178 taxonomy "Trichechus manatus->Trichechus->Trichechidae->Sirenia->Afrotheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053556"
-pgloadind     taxon mapping OTT ID 3607484 taxonomy "Protungulatum donnae->Protungulatum->Tupaiidae->Scandentia->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053562"
-pgloadind     taxon mapping OTT ID 4945610 taxonomy "Apheliscus insidiosus->Apheliscus->Mioclaenidae->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053566"
-pgloadind     taxon mapping OTT ID 4945087 taxonomy "Hyopsodus paulus->Hyopsodus->Hyopsodontidae->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053567"
-pgloadind     taxon mapping OTT ID 4945570 taxonomy "Phenacodus intermedius->Phenacodus->Phenacodontidae->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053569"
-pgloadind     taxon mapping OTT ID 4942380 taxonomy "Mesonyx obtusidens->Mesonyx->Mesonychidae->Cetacea->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053574"
-pgloadind     taxon mapping OTT ID 4942547 taxonomy "Rodhocetus balochistanensis->Rodhocetus->Protocetidae->Cetacea->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053576"
-pgloadind     taxon mapping OTT ID 986973 taxonomy "Lama glama->Lama->Camelidae->Tylopoda->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053579"
-pgloadind     taxon mapping OTT ID 730013 taxonomy "Sus scrofa->Sus->Suidae->Suina->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053581"
-pgloadind     taxon mapping OTT ID 490099 taxonomy "Bos taurus->Bos->Bovinae->Bovidae->Pecora->Ruminantia->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053583"
-pgloadind     taxon mapping OTT ID 4944931 taxonomy "Archaeotherium mortoni->Archaeotherium->Entelodontidae->Artiodactyla->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053585"
-pgloadind     taxon mapping OTT ID 510762 taxonomy "Hippopotamus amphibius->Hippopotamus->Hippopotamidae->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053587"
-pgloadind     taxon mapping OTT ID 4942565 taxonomy "Artiocetus clavis->Artiocetus->Protocetidae->Cetacea->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053589"
-pgloadind     taxon mapping OTT ID 4942613 taxonomy "Basilosaurus cetoides->Basilosaurus->Basilosauridae->Cetacea->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053591"
-pgloadind     taxon mapping OTT ID 397243 taxonomy "Caperea marginata->Caperea->Neobalaenidae->Mysticeti->Cetacea->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053593"
-pgloadind     taxon mapping OTT ID 124230 taxonomy "Tursiops truncatus->Tursiops->Delphinidae->Odontoceti->Cetacea->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053594"
-pgloadind     taxon mapping OTT ID 1068218 taxonomy "Equus caballus->Equus subgenus Equus->Equus->Equidae->Perissodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053596"
-pgloadind     taxon mapping OTT ID 3615030 taxonomy "Mesohippus bairdi->Mesohippus->Equidae->Perissodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053597"
 pgloadind     taxon mapping OTT ID 588290 taxonomy "Pteropus giganteus->Pteropus->Pteropodinae->Pteropodidae->Megachiroptera->Chiroptera->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053599"
-pgloadind     taxon mapping OTT ID 3614203 taxonomy "Icaronycteris index->Icaronycteris->Archaeonycteridae->Chiroptera->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053602"
-pgloadind     taxon mapping OTT ID 3614207 taxonomy "Onychonycteris finneyi->Onychonycteris->Onychonycteridae->Chiroptera->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053603"
 pgloadind     taxon mapping OTT ID 267981 taxonomy "Rhinopoma hardwickii->Rhinopoma->Rhinopomatidae->Microchiroptera->Chiroptera->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053605"
 pgloadind     taxon mapping OTT ID 342715 taxonomy "Myotis lucifugus->Myotis->Vespertilionidae->Microchiroptera->Chiroptera->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053608"
 pgloadind     taxon mapping OTT ID 867405 taxonomy "Pteronotus parnellii->Pteronotus->Mormoopidae->Microchiroptera->Chiroptera->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053609"
 pgloadind     taxon mapping OTT ID 342726 taxonomy "Nycteris thebaica->Nycteris->Nycteridae->Microchiroptera->Chiroptera->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053611"
 pgloadind     taxon mapping OTT ID 190912 taxonomy "Saccopteryx bilineata->Saccopteryx->Emballonurinae->Emballonuridae->Microchiroptera->Chiroptera->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053612"
-pgloadind     taxon mapping OTT ID 4945370 taxonomy "Sinopa rapax->Sinopa->Hyaenodontidae->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053615"
+pgloadind     taxon mapping OTT ID 3614207 taxonomy "Onychonycteris finneyi->Onychonycteris->Onychonycteridae->Chiroptera->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053603"
+pgloadind     taxon mapping OTT ID 986973 taxonomy "Lama glama->Lama->Camelidae->Tylopoda->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053579"
+pgloadind     taxon mapping OTT ID 730013 taxonomy "Sus scrofa->Sus->Suidae->Suina->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053581"
+pgloadind     taxon mapping OTT ID 490099 taxonomy "Bos taurus->Bos->Bovinae->Bovidae->Pecora->Ruminantia->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053583"
+pgloadind     taxon mapping OTT ID 510762 taxonomy "Hippopotamus amphibius->Hippopotamus->Hippopotamidae->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053587"
+pgloadind     taxon mapping OTT ID 397243 taxonomy "Caperea marginata->Caperea->Neobalaenidae->Mysticeti->Cetacea->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053593"
+pgloadind     taxon mapping OTT ID 124230 taxonomy "Tursiops truncatus->Tursiops->Delphinidae->Odontoceti->Cetacea->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053594"
+pgloadind     taxon mapping OTT ID 1068218 taxonomy "Equus caballus->Equus subgenus Equus->Equus->Equidae->Perissodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053596"
+pgloadind     taxon mapping OTT ID 588292 taxonomy "Manis pentadactyla->Manis->Manidae->Pholidota->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053624"
 pgloadind     taxon mapping OTT ID 247341 taxonomy "Canis lupus->Canis->Canidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053618"
 pgloadind     taxon mapping OTT ID 563163 taxonomy "Felis silvestris->Felis->Felinae->Felidae->Feliformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053619"
-pgloadind     taxon mapping OTT ID 4942030 taxonomy "Vulpavus ovatus->Vulpavus->Miacidae->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053621"
-pgloadind     taxon mapping OTT ID 4942032 taxonomy "Vulpavus profectus->Vulpavus->Miacidae->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053622"
-pgloadind     taxon mapping OTT ID 588292 taxonomy "Manis pentadactyla->Manis->Manidae->Pholidota->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053624"
-pgloadind     taxon mapping OTT ID 3617647 taxonomy "Metacheiromys marshi->Metacheiromys->Metacheiromyidae->Cimolesta->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053625"
 pgloadind     taxon mapping OTT ID 222362 taxonomy "Talpa europaea->Talpa->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053627"
 pgloadind     taxon mapping OTT ID 469465 taxonomy "Solenodon paradoxus->Solenodon->Solenodontidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053629"
 pgloadind     taxon mapping OTT ID 796660 taxonomy "Erinaceus europaeus->Erinaceus->Erinaceinae->Erinaceidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053631"
 pgloadind     taxon mapping OTT ID 633213 taxonomy "Sorex araneus->Sorex->Soricinae->Soricidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053632"
-pgloadind     taxon mapping OTT ID 3610315 taxonomy "Tribosphenomys minutus->Tribosphenomys->Alagomyidae->Rodentia->Glires->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053635"
-pgloadind     taxon mapping OTT ID 4941266 taxonomy "Paramys delicatus->Paramys->Ischyromyidae->Rodentia->Glires->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053638"
-pgloadind     taxon mapping OTT ID 989655 taxonomy "Ictidomys tridecemlineatus->Ictidomys->Marmotini->Xerinae->Sciuridae->Sciurognathi->Rodentia->Glires->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053642"
-pgloadind     taxon mapping OTT ID 886085 taxonomy "Castor canadensis->Castor->Castoridae->Sciurognathi->Rodentia->Glires->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053644"
-pgloadind     taxon mapping OTT ID 744000 taxonomy "Cavia porcellus->Cavia->Caviidae->Hystricognathi->Rodentia->Glires->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053646"
-pgloadind     taxon mapping OTT ID 271555 taxonomy "Rattus norvegicus->Rattus->Murinae->Muridae->Muroidea->Sciurognathi->Rodentia->Glires->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053647"
-pgloadind     taxon mapping OTT ID 4945254 taxonomy "Gomphos elkema->Gomphos->Eurymylidae->Mixodontia->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053651"
-pgloadind     taxon mapping OTT ID 864596 taxonomy "Oryctolagus cuniculus->Oryctolagus->Leporidae->Lagomorpha->Glires->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053654"
 pgloadind     taxon mapping OTT ID 781510 taxonomy "Cynocephalus volans->Cynocephalus->Cynocephalidae->Dermoptera->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053658"
 pgloadind     taxon mapping OTT ID 617014 taxonomy "Galeopterus variegatus->Galeopterus->Cynocephalidae->Dermoptera->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053659"
 pgloadind     taxon mapping OTT ID 81758 taxonomy "Ptilocercus lowii->Ptilocercus->Tupaiidae->Scandentia->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053661"
 pgloadind     taxon mapping OTT ID 574727 taxonomy "Tupaia glis->Tupaia->Tupaiidae->Scandentia->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053662"
-pgloadind     taxon mapping OTT ID 4941696 taxonomy "Notharctus tenebrosus->Notharctus->Notharctidae->Primates->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053664"
 pgloadind     taxon mapping OTT ID 913930 taxonomy "Lemur catta->Lemur->Lemuridae->Lemuriformes->Strepsirrhini->Primates->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053666"
-pgloadind     taxon mapping OTT ID 339031 taxonomy "Tarsius syrichta->Tarsius->Tarsiidae->Tarsiiformes->Haplorrhini->Primates->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053668"
 pgloadind     taxon mapping OTT ID 770315 taxonomy "Homo sapiens->Homo->Homininae->Hominidae->Hominoidea->Catarrhini->Simiiformes->Haplorrhini->Primates->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053670"
 pgloadind     taxon mapping OTT ID 842875 taxonomy "Saimiri sciureus->Saimiri->Saimiriinae->Cebidae->Platyrrhini->Simiiformes->Haplorrhini->Primates->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053671"
+pgloadind     taxon mapping OTT ID 989655 taxonomy "Ictidomys tridecemlineatus->Ictidomys->Marmotini->Xerinae->Sciuridae->Sciurognathi->Rodentia->Glires->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053642"
+pgloadind     taxon mapping OTT ID 886085 taxonomy "Castor canadensis->Castor->Castoridae->Sciurognathi->Rodentia->Glires->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053644"
+pgloadind     taxon mapping OTT ID 744000 taxonomy "Cavia porcellus->Cavia->Caviidae->Hystricognathi->Rodentia->Glires->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053646"
+pgloadind     taxon mapping OTT ID 271555 taxonomy "Rattus norvegicus->Rattus->Murinae->Muridae->Muroidea->Sciurognathi->Rodentia->Glires->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053647"
+pgloadind     taxon mapping OTT ID 864596 taxonomy "Oryctolagus cuniculus->Oryctolagus->Leporidae->Lagomorpha->Glires->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053654"
 pgloadind     taxon mapping OTT ID 796672 taxonomy "Dasypus novemcinctus->Dasypus->Dasypodidae->Cingulata->Xenarthra->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053673"
 pgloadind     taxon mapping OTT ID 1014324 taxonomy "Tamandua tetradactyla->Tamandua->Myrmecophagidae->Vermilingua->Pilosa->Xenarthra->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053676"
 done fixing name
@@ -124,68 +174,48 @@ pgloadind   Adding tree to graph tree id "6169"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Archaeotherium mortoni was remapped to 'Artiodactyla' (id=355107)
-	Cynocephalus volans was remapped to 'Cynocephalus' (id=338288)
-	Paramys delicatus was remapped to 'Ischyromyidae' (id=334985)
-	Artiocetus clavis was remapped to 'Artiocetus' (id=343375)
-	Bos taurus was remapped to 'Ruminantia' (id=343811)
-	Onychonycteris finneyi was remapped to 'Onychonycteridae' (id=350297)
-	Tupaia glis was remapped to 'Tupaia' (id=335222)
-	Echinops telfairi was remapped to 'Tenrecidae' (id=352679)
-	Leptictis dakotensis was remapped to 'Leptictidae' (id=353156)
-	Cavia porcellus was remapped to 'Hystricognathi' (id=325602)
-	Pteronotus parnellii was remapped to 'Mormoopidae' (id=348940)
-	Tursiops truncatus was remapped to 'Odontoceti' (id=341275)
-	Sorex araneus was remapped to 'Soricidae' (id=350697)
-	Ptilocercus lowii was remapped to 'Ptilocercus' (id=335218)
-	Homo sapiens was remapped to 'Catarrhini' (id=335837)
-	Amblysomus hottentotus was remapped to 'Chrysochloridae' (id=352068)
-	Saimiri sciureus was remapped to 'Platyrrhini' (id=337018)
-	Orycteropus afer was remapped to 'Tubulidentata' (id=352517)
-	Rhynchocyon cirnei was remapped to 'Macroscelidea' (id=352608)
-	Galeopterus variegatus was remapped to 'Galeopterus' (id=338280)
-	Caperea marginata was remapped to 'Mysticeti' (id=342654)
-	Basilosaurus cetoides was remapped to 'Basilosauridae' (id=343490)
-	Phenacodus intermedius was remapped to 'Phenacodontidae' (id=356107)
-	Trichechus manatus was remapped to 'Sirenia' (id=352329)
-	Nycteris thebaica was remapped to 'Nycteridae' (id=349700)
-	Rodhocetus balochistanensis was remapped to 'Rodhocetus' (id=343357)
-	Hippopotamus amphibius was remapped to 'Hippopotamidae' (id=340998)
-	Tarsius syrichta was remapped to 'Tarsiiformes' (id=337622)
-	Rhinopoma hardwickii was remapped to 'Rhinopomatidae' (id=348381)
-	Talpa europaea was remapped to 'Talpidae' (id=350391)
-	Procavia capensis was remapped to 'Hyracoidea' (id=352529)
-	Canis lupus was remapped to 'Caniformia' (id=339081)
-	Lemur catta was remapped to 'Strepsirrhini' (id=335301)
-	Felis silvestris was remapped to 'Feliformia' (id=338314)
-	Mesohippus bairdi was remapped to 'Mesohippus' (id=345764)
-	Tamandua tetradactyla was remapped to 'Vermilingua' (id=353079)
-	Hyopsodus paulus was remapped to 'Hyopsodontidae' (id=355809)
-	Solenodon paradoxus was remapped to 'Solenodontidae' (id=351993)
-	Ictidomys tridecemlineatus was remapped to 'Sciuridae' (id=327559)
-	Icaronycteris index was remapped to 'Archaeonycteridae' (id=350307)
-	Castor canadensis was remapped to 'Castoridae' (id=329277)
-	Loxodonta africana was remapped to 'Elephantidae' (id=352145)
-	Gomphos elkema was remapped to 'Mixodontia' (id=356308)
-	Sinopa rapax was remapped to 'Hyaenodontidae' (id=355877)
-	Lama glama was remapped to 'Tylopoda' (id=341061)
-	Erinaceus europaeus was remapped to 'Erinaceidae' (id=351751)
-	Saccopteryx bilineata was remapped to 'Emballonuridae' (id=348981)
-	Moeritherium lyonsi was remapped to 'Moeritheriidae' (id=352311)
-	Sus scrofa was remapped to 'Suina' (id=343524)
-	Rattus norvegicus was remapped to 'Muroidea' (id=329385)
-	Equus caballus was remapped to 'Equus' (id=345559)
-	Metacheiromys marshi was remapped to 'Cimolesta' (id=356353)
-	Myotis lucifugus was remapped to 'Vespertilionidae' (id=346869)
-	Notharctus tenebrosus was remapped to 'Notharctidae' (id=338025)
-	Dasypus novemcinctus was remapped to 'Cingulata' (id=352780)
-	Pteropus giganteus was remapped to 'Megachiroptera' (id=349737)
-	Oryctolagus cuniculus was remapped to 'Lagomorpha' (id=325139)
-	Manis pentadactyla was remapped to 'Pholidota' (id=350331)
-	Apheliscus insidiosus was remapped to 'Mioclaenidae' (id=356137)
-	Protungulatum donnae was remapped to 'Protungulatum' (id=335292)
-	Tribosphenomys minutus was remapped to 'Alagomyidae' (id=334655)
-	Mesonyx obtusidens was remapped to 'Mesonychidae' (id=343125)
+	Cynocephalus volans was remapped to 'Cynocephalus' (id=334772)
+	Onychonycteris finneyi was remapped to 'Onychonycteridae' (id=344198)
+	Oryctolagus cuniculus was remapped to 'Lagomorpha' (id=324142)
+	Castor canadensis was remapped to 'Castoridae' (id=327629)
+	Rattus norvegicus was remapped to 'Muroidea' (id=327655)
+	Lemur catta was remapped to 'Strepsirrhini' (id=332534)
+	Ictidomys tridecemlineatus was remapped to 'Sciuridae' (id=326207)
+	Saimiri sciureus was remapped to 'Platyrrhini' (id=334152)
+	Manis pentadactyla was remapped to 'Pholidota' (id=344206)
+	Erinaceus europaeus was remapped to 'Erinaceidae' (id=345400)
+	Pteronotus parnellii was remapped to 'Mormoopidae' (id=342863)
+	Tursiops truncatus was remapped to 'Odontoceti' (id=336864)
+	Talpa europaea was remapped to 'Talpidae' (id=344258)
+	Tamandua tetradactyla was remapped to 'Pilosa' (id=346107)
+	Rhinopoma hardwickii was remapped to 'Rhinopomatidae' (id=342308)
+	Nycteris thebaica was remapped to 'Nycteridae' (id=343611)
+	Galeopterus variegatus was remapped to 'Galeopterus' (id=334764)
+	Echinops telfairi was remapped to 'Tenrecidae' (id=345906)
+	Canis lupus was remapped to 'Caniformia' (id=335472)
+	Lama glama was remapped to 'Tylopoda' (id=336744)
+	Pteropus giganteus was remapped to 'Megachiroptera' (id=343648)
+	Rhynchocyon cirnei was remapped to 'Macroscelidea' (id=345837)
+	Sus scrofa was remapped to 'Suina' (id=338381)
+	Solenodon paradoxus was remapped to 'Solenodontidae' (id=345564)
+	Saccopteryx bilineata was remapped to 'Emballonuridae' (id=342904)
+	Trichechus manatus was remapped to 'Sirenia' (id=345722)
+	Procavia capensis was remapped to 'Hyracoidea' (id=345802)
+	Dasypus novemcinctus was remapped to 'Cingulata' (id=346007)
+	Sorex araneus was remapped to 'Soricidae' (id=344456)
+	Tupaia glis was remapped to 'Tupaia' (id=332460)
+	Caperea marginata was remapped to 'Mysticeti' (id=338039)
+	Orycteropus afer was remapped to 'Tubulidentata' (id=345790)
+	Amblysomus hottentotus was remapped to 'Chrysochloridae' (id=345588)
+	Homo sapiens was remapped to 'Catarrhini' (id=333044)
+	Felis silvestris was remapped to 'Feliformia' (id=334793)
+	Ptilocercus lowii was remapped to 'Ptilocercus' (id=332456)
+	Loxodonta africana was remapped to 'Proboscidea' (id=345663)
+	Myotis lucifugus was remapped to 'Vespertilionidae' (id=340822)
+	Cavia porcellus was remapped to 'Hystricognathi' (id=324482)
+	Bos taurus was remapped to 'Ruminantia' (id=338584)
+	Equus caballus was remapped to 'Perissodactyla' (id=340161)
+	Hippopotamus amphibius was remapped to 'Hippopotamidae' (id=336686)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -197,6 +227,8 @@ Dealing with metadata property: ot:studyYear
 Adding property 'ot:studyYear': 2013
 Dealing with metadata property: ot:inGroupClade
 Adding property 'ot:inGroupClade': node1053534
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
 Dealing with metadata property: ot:curatorName
 Adding property 'ot:curatorName': Joseph Brown
 Dealing with metadata property: ot:studyPublication
@@ -207,297 +239,14 @@ Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': Parsimony
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2647
-Committing nodes: 127
-{325124}
-340849
-	adding Node[340803] Miacidae 4941979 as compatible with Node[340844]
-		adding Relationship[8453367]
-340851
-325139
-325602
-	adding Node[325602] Hystricognathi 44557 as compatible with Node[325602]
-		adding Relationship[8453368]
-327559
-329277
-	adding Node[329277] Castoridae 835319 as compatible with Node[329277]
-		adding Relationship[8453369]
-	adding Node[326688] Sciurognathi 44559 as compatible with Node[329277]
-		adding Relationship[8453370]
-329385
-334655
-	adding Node[334655] Alagomyidae 3610237 as compatible with Node[334655]
-		adding Relationship[8453371]
-334985
-	adding Node[334985] Ischyromyidae 4941244 as compatible with Node[334985]
-		adding Relationship[8453372]
-335218
-335222
-	adding Node[335222] Tupaia 574730 as compatible with Node[335222]
-		adding Relationship[8453373]
-335292
-	adding Node[335292] Protungulatum 3607481 as compatible with Node[335292]
-		adding Relationship[8453374]
-335301
-	adding Node[335301] Strepsirrhini 702147 as compatible with Node[335301]
-		adding Relationship[8453375]
-335837
-337018
-337622
-	adding Node[337622] Tarsiiformes 702151 as compatible with Node[337622]
-		adding Relationship[8453376]
-338025
-	adding Node[338025] Notharctidae 4941666 as compatible with Node[338025]
-		adding Relationship[8453377]
-338280
-	adding Node[338275] Dermoptera 987673 as compatible with Node[338277]
-		adding Relationship[8453378]
-338288
-	adding Node[338288] Cynocephalus 388424 as compatible with Node[338288]
-		adding Relationship[8453379]
-	adding Node[338275] Dermoptera 987673 as compatible with Node[338288]
-		adding Relationship[8453380]
-338314
-339081
-340998
-341061
-341275
-342654
-	adding Node[342654] Mysticeti 800314 as compatible with Node[342654]
-		adding Relationship[8453381]
-343125
-	adding Node[343125] Mesonychidae 4942360 as compatible with Node[343125]
-		adding Relationship[8453382]
-343357
-	adding Node[343357] Rodhocetus 4942546 as compatible with Node[343357]
-		adding Relationship[8453383]
-343375
-343490
-	adding Node[343490] Basilosauridae 4942588 as compatible with Node[343490]
-		adding Relationship[8453384]
-343524
-343811
-	adding Node[343811] Ruminantia 986971 as compatible with Node[343811]
-		adding Relationship[8453385]
-345559
-	adding Node[345549] Perissodactyla 541948 as compatible with Node[345551]
-		adding Relationship[8453386]
-345764
-	adding Node[345764] Mesohippus 3614882 as compatible with Node[345764]
-		adding Relationship[8453387]
-	adding Node[345549] Perissodactyla 541948 as compatible with Node[345764]
-		adding Relationship[8453388]
-346869
-348381
-348940
-	adding Node[348940] Mormoopidae 292475 as compatible with Node[348940]
-		adding Relationship[8453389]
-348981
-	adding Node[348981] Emballonuridae 581454 as compatible with Node[348981]
-		adding Relationship[8453390]
-349700
-	adding Node[349700] Nycteridae 1018272 as compatible with Node[349700]
-		adding Relationship[8453391]
-349737
-	adding Node[349737] Megachiroptera 754606 as compatible with Node[349737]
-		adding Relationship[8453392]
-350297
-350307
-	adding Node[350307] Archaeonycteridae 3614171 as compatible with Node[350307]
-		adding Relationship[8453393]
-350331
-350391
-	adding Node[350391] Talpidae 222358 as compatible with Node[350391]
-		adding Relationship[8453394]
-350697
-	adding Node[350697] Soricidae 226446 as compatible with Node[350697]
-		adding Relationship[8453395]
-351751
-	adding Node[351751] Erinaceidae 796668 as compatible with Node[351751]
-		adding Relationship[8453396]
-351993
-	adding Node[351993] Solenodontidae 812332 as compatible with Node[351993]
-		adding Relationship[8453397]
-352068
-	adding Node[352068] Chrysochloridae 54168 as compatible with Node[352068]
-		adding Relationship[8453398]
-352145
-352311
-	adding Node[352311] Moeritheriidae 3607223 as compatible with Node[352311]
-		adding Relationship[8453399]
-	adding Node[352143] Proboscidea 226176 as compatible with Node[352311]
-		adding Relationship[8453400]
-352329
-352517
-352529
-352608
-352679
-	adding Node[352679] Tenrecidae 796652 as compatible with Node[352679]
-		adding Relationship[8453401]
-352780
-	adding Node[352780] Cingulata 495017 as compatible with Node[352780]
-		adding Relationship[8453402]
-353079
-	adding Node[353079] Vermilingua 495016 as compatible with Node[353079]
-		adding Relationship[8453403]
-353156
-	adding Node[353156] Leptictidae 4943486 as compatible with Node[353156]
-		adding Relationship[8453404]
-355107
-	adding Node[355107] Artiodactyla 3615249 as compatible with Node[355107]
-		adding Relationship[8453405]
-355809
-	adding Node[355809] Hyopsodontidae 4945024 as compatible with Node[355809]
-		adding Relationship[8453406]
-355877
-	adding Node[355877] Hyaenodontidae 4945263 as compatible with Node[355877]
-		adding Relationship[8453407]
-356107
-	adding Node[356107] Phenacodontidae 4945550 as compatible with Node[356107]
-		adding Relationship[8453408]
-356137
-	adding Node[356137] Mioclaenidae 4945582 as compatible with Node[356137]
-		adding Relationship[8453409]
-356308
-356353
-	adding Node[356353] Cimolesta 5325562 as compatible with Node[356353]
-		adding Relationship[8453410]
-[Node[350307], Node[329277], Node[335292], Node[351751], Node[353079], Node[345764], Node[355107], Node[350697], Node[338312], Node[352143], Node[349700], Node[337622], Node[352311], Node[353156], Node[334985], Node[352679], Node[356353], Node[343490], Node[3573183], Node[3573181], Node[355809], Node[3573180], Node[349737], Node[325602], Node[352780], Node[343125], Node[343357], Node[3573198], Node[3573199], Node[3573194], Node[340803], Node[3573195], Node[355877], Node[3573188], Node[3573189], Node[345551], Node[3573190], Node[348940], Node[3573191], Node[345549], Node[335834], Node[335222], Node[326688], Node[3573215], Node[3573214], Node[3573211], Node[356137], Node[3573210], Node[3573205], Node[350387], Node[3573204], Node[343811], Node[350391], Node[3573200], Node[352068], Node[3573203], Node[3573202], Node[3573231], Node[338288], Node[3573226], Node[3573224], Node[3573225], Node[338025], Node[3573223], Node[3573220], Node[3573218], Node[334655], Node[3573217], Node[338275], Node[348981], Node[335297], Node[346540], Node[356107], Node[338277], Node[335301], Node[351993], Node[342654]]
-	Node[350307]
-		adding Relationship[8453411] from Node[350307] to Node[3573203]
-		adding Relationship[8453412] from Node[350307] to Node[346540]
-	Node[329277]
-		adding Relationship[8453413] from Node[329277] to Node[3573218]
-		adding Relationship[8453414] from Node[329277] to Node[326688]
-	Node[335292]
-		adding Relationship[8453415] from Node[335292] to Node[3573202]
-	Node[351751]
-		adding Relationship[8453416] from Node[351751] to Node[3573214]
-		adding Relationship[8453417] from Node[351751] to Node[350387]
-	Node[353079]
-		adding Relationship[8453418] from Node[353079] to Node[3573231]
-	Node[345764]
-		adding Relationship[8453419] from Node[345764] to Node[345551]
-	Node[355107]
-		adding Relationship[8453420] from Node[355107] to Node[3573194]
-	Node[350697]
-		adding Relationship[8453421] from Node[350697] to Node[3573214]
-		adding Relationship[8453422] from Node[350697] to Node[350387]
-	Node[338312]
-		adding Relationship[8453423] from Node[338312] to Node[3573210]
-	Node[352143]
-	Node[349700]
-		adding Relationship[8453424] from Node[349700] to Node[3573205]
-	Node[337622]
-		adding Relationship[8453425] from Node[337622] to Node[335834]
-	Node[352311]
-		adding Relationship[8453426] from Node[352311] to Node[3573183]
-		adding Relationship[8453427] from Node[352311] to Node[352143]
-	Node[353156]
-		adding Relationship[8453428] from Node[353156] to Node[3573181]
-	Node[334985]
-		adding Relationship[8453429] from Node[334985] to Node[3573220]
-	Node[352679]
-		adding Relationship[8453430] from Node[352679] to Node[3573180]
-	Node[356353]
-		adding Relationship[8453431] from Node[356353] to Node[3573211]
-	Node[343490]
-		adding Relationship[8453432] from Node[343490] to Node[3573191]
-	Node[3573183]
-	Node[3573181]
-	Node[355809]
-		adding Relationship[8453433] from Node[355809] to Node[3573188]
-	Node[3573180]
-	Node[349737]
-		adding Relationship[8453434] from Node[349737] to Node[346540]
-	Node[325602]
-		adding Relationship[8453435] from Node[325602] to Node[3573217]
-	Node[352780]
-		adding Relationship[8453436] from Node[352780] to Node[3573231]
-	Node[343125]
-		adding Relationship[8453437] from Node[343125] to Node[3573200]
-	Node[343357]
-		adding Relationship[8453438] from Node[343357] to Node[3573199]
-	Node[3573198]
-		adding Relationship[8453439] from Node[3573198] to Node[3573199]
-	Node[3573199]
-		adding Relationship[8453440] from Node[3573199] to Node[3573200]
-	Node[3573194]
-		adding Relationship[8453441] from Node[3573194] to Node[3573195]
-	Node[340803]
-		adding Relationship[8453442] from Node[340803] to Node[338312]
-	Node[3573195]
-	Node[355877]
-		adding Relationship[8453443] from Node[355877] to Node[3573210]
-	Node[3573188]
-		adding Relationship[8453444] from Node[3573188] to Node[3573189]
-	Node[3573189]
-	Node[345551]
-		adding Relationship[8453445] from Node[345551] to Node[3573198]
-		adding Relationship[8453446] from Node[345551] to Node[345549]
-	Node[3573190]
-		adding Relationship[8453447] from Node[3573190] to Node[3573191]
-	Node[348940]
-		adding Relationship[8453448] from Node[348940] to Node[3573204]
-	Node[3573191]
-	Node[345549]
-	Node[335834]
-		adding Relationship[8453449] from Node[335834] to Node[3573226]
-		adding Relationship[8453450] from Node[335834] to Node[335297]
-	Node[335222]
-		adding Relationship[8453451] from Node[335222] to Node[3573224]
-	Node[326688]
-	Node[3573215]
-		adding Relationship[8453452] from Node[3573215] to Node[350387]
-	Node[3573214]
-		adding Relationship[8453453] from Node[3573214] to Node[3573215]
-	Node[3573211]
-	Node[356137]
-		adding Relationship[8453454] from Node[356137] to Node[3573188]
-	Node[3573210]
-	Node[3573205]
-	Node[350387]
-	Node[3573204]
-	Node[343811]
-		adding Relationship[8453455] from Node[343811] to Node[3573195]
-	Node[350391]
-		adding Relationship[8453456] from Node[350391] to Node[350387]
-	Node[3573200]
-	Node[352068]
-		adding Relationship[8453457] from Node[352068] to Node[3573180]
-	Node[3573203]
-	Node[3573202]
-	Node[3573231]
-	Node[338288]
-		adding Relationship[8453458] from Node[338288] to Node[338277]
-	Node[3573226]
-		adding Relationship[8453459] from Node[3573226] to Node[335297]
-	Node[3573224]
-		adding Relationship[8453460] from Node[3573224] to Node[3573225]
-	Node[3573225]
-	Node[338025]
-		adding Relationship[8453461] from Node[338025] to Node[335297]
-	Node[3573223]
-	Node[3573220]
-	Node[3573218]
-	Node[334655]
-		adding Relationship[8453462] from Node[334655] to Node[3573223]
-	Node[3573217]
-		adding Relationship[8453463] from Node[3573217] to Node[3573218]
-	Node[338275]
-	Node[348981]
-		adding Relationship[8453464] from Node[348981] to Node[3573205]
-	Node[335297]
-	Node[346540]
-	Node[356107]
-		adding Relationship[8453465] from Node[356107] to Node[3573189]
-	Node[338277]
-		adding Relationship[8453466] from Node[338277] to Node[3573225]
-		adding Relationship[8453467] from Node[338277] to Node[338275]
-	Node[335301]
-		adding Relationship[8453468] from Node[335301] to Node[3573226]
-		adding Relationship[8453469] from Node[335301] to Node[335297]
-	Node[351993]
-		adding Relationship[8453470] from Node[351993] to Node[3573215]
-		adding Relationship[8453471] from Node[351993] to Node[350387]
-	Node[342654]
-		adding Relationship[8453472] from Node[342654] to Node[3573190]
+Committing nodes: 83
+	adding Node[332449] Scandentia 574734 as compatible with Node[332451]
+		adding Relationship[8163572]
+		adding to root Relationship[8163573]
+	adding Node[333041] Haplorrhini 702152 as compatible with Node[333042]
+		adding Relationship[8163574]
+		adding to root Relationship[8163575]
+	adding Node[334759] Dermoptera 987673 as compatible with Node[334761]
+		adding Relationship[8163576]
+		adding to root Relationship[8163577]
+		adding Relationship[8163578] from Node[333041] to Node[332530]

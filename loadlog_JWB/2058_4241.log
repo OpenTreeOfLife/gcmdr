@@ -35,14 +35,14 @@ pgloadind   Adding tree to graph tree id "4241"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Tomistoma schlegelii was remapped to 'Tomistominae' (id=417069)
-	Alligator mississippiensis was remapped to 'Alligatorinae' (id=416973)
-	Caiman yacare was remapped to 'Caiman' (id=416991)
-	Osteolaemus tetraspis was remapped to 'Osteolaemus' (id=417203)
-	Mecistops cataphractus was remapped to 'Mecistops' (id=417196)
-	Paleosuchus palpebrosus was remapped to 'Paleosuchus' (id=417037)
-	Gavialis gangeticus was remapped to 'Gavialinae' (id=417077)
-	Melanosuchus niger was remapped to 'Melanosuchus' (id=417049)
+	Paleosuchus palpebrosus was remapped to 'Paleosuchus' (id=406068)
+	Caiman yacare was remapped to 'Caiman' (id=406022)
+	Alligator mississippiensis was remapped to 'Alligatorinae' (id=406004)
+	Mecistops cataphractus was remapped to 'Mecistops' (id=406209)
+	Melanosuchus niger was remapped to 'Melanosuchus' (id=406080)
+	Tomistoma schlegelii was remapped to 'Tomistominae' (id=406088)
+	Osteolaemus tetraspis was remapped to 'Osteolaemus' (id=406216)
+	Gavialis gangeticus was remapped to 'Gavialinae' (id=406096)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -65,40 +65,3 @@ Adding property 'ot:studyId': 2058
 Dealing with metadata property: ot:dataDeposit
 Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S994
 Committing nodes: 15
-{416970}
-416973
-	adding Node[416973] Alligatorinae 151255 as compatible with Node[416973]
-		adding Relationship[8453046]
-416991
-	adding Node[416991] Caiman 335589 as compatible with Node[416991]
-		adding Relationship[8453047]
-417037
-	adding Node[417037] Paleosuchus 953146 as compatible with Node[417037]
-		adding Relationship[8453048]
-417049
-417069
-	adding Node[417069] Tomistominae 393752 as compatible with Node[417069]
-		adding Relationship[8453049]
-417077
-	adding Node[417077] Gavialinae 881013 as compatible with Node[417077]
-		adding Relationship[8453050]
-417196
-417203
-[Node[417037], Node[417069], Node[417068], Node[3573180], Node[416991], Node[416990], Node[416972], Node[416973], Node[417077]]
-	Node[417037]
-		adding Relationship[8453051] from Node[417037] to Node[416990]
-	Node[417069]
-		adding Relationship[8453052] from Node[417069] to Node[417068]
-	Node[417068]
-	Node[3573180]
-		adding Relationship[8453053] from Node[3573180] to Node[416990]
-	Node[416991]
-		adding Relationship[8453054] from Node[416991] to Node[3573180]
-		adding Relationship[8453055] from Node[416991] to Node[416990]
-	Node[416990]
-		adding Relationship[8453056] from Node[416990] to Node[416972]
-	Node[416972]
-	Node[416973]
-		adding Relationship[8453057] from Node[416973] to Node[416972]
-	Node[417077]
-		adding Relationship[8453058] from Node[417077] to Node[417068]
