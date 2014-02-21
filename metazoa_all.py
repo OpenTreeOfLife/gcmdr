@@ -172,7 +172,9 @@ these are the studies identified by Chris, plus others from JWB
 *** Chris Owen studies. Need to check each one of these for problems. ***
 
 
-"2358_4960",
+"2358_4960", # Nylanderia. Gotzek et al. 2012. PLoS ONE
+
+
 "2360_4963",
 "2373_6379",
 "2376_4993",
@@ -273,7 +275,7 @@ these are the studies identified by Chris, plus others from JWB
 
 studytreelist=[
 
-
+"2358_4960"
 
 
 
