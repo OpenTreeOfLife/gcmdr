@@ -13,7 +13,7 @@ these are the studies identified by Chris, plus others from JWB
 
 "1785_6248" # Leptomedusae. Leclere et al. 2009. Syst. Biol. *** SLeptomedusae and Leptothecatae are synonymns, but are split in the taxonomy.
 
-
+"2384_6542", # Polychaeta. Rouse and Fauchald. 1997. Zool. Scripta *** not clear how to root this. 
 
 
 """
@@ -24,9 +24,9 @@ these are the studies identified by Chris, plus others from JWB
 
 "2707_6281", # Icteridae. Powell et al. 2013. MPE *** Hypopyrrhus not mapped to Icteridae
 "2702_6274", # core Corvoidea. Aggerbeck et al. 2014. MPE *** mapping back to Passeroidea
-"2332_4912" # Sylvia. Voelker and Light. 2011. BMC Evol. Biol. *** Pseudoalcippe should be in the family Silviidae rather than Timaliidae
+"2332_4912", # Sylvia. Voelker and Light. 2011. BMC Evol. Biol. *** Pseudoalcippe should be in the family Silviidae rather than Timaliidae
 
-
+"1653_6541", # Colubroidea. Pyron et al. 2011. MPE *** Plagiopholis is in wrong family (Acrochordidae instead of Colubridae)
 
 "2696_6249", # Demospongiae. Hill et al. 2013. PLoS ONE *** Ingroup is currently set to Porifera rather than Demospongiae
 
@@ -146,12 +146,15 @@ these are the studies identified by Chris, plus others from JWB
 "2326_4904", # Brachymeles. Siler et al. 2011. MPE
 "2329_4907", # Lepus. Melo-Ferreira et al. 2011. Syst. Biol.
 "2353_4952", # Satanoperca. Willis et al. 2012. MPE
-
-
-
-
-
-
+"2358_4960", # Nylanderia. Gotzek et al. 2012. PLoS ONE
+"2360_4963", # Dysaphis. Basilova J., & Rakauskas. 2012. Org. Divers. Evol.
+"2373_6539", # Mollusca. Wilson et al. 2012. MPE
+"2376_6540", # Sistrurus. Kubatko et al. 2011. Syst. Biol.
+"2387_6382", # Bombus. Hines. 2008. Syst. Biol.
+"2396_6383", # Bilateria. Nesnidal et al. 2010. MBE
+"2399_5042", # Trimeresurus. Creer et al. 2006. Syst. Biol.
+"2401_6387", # Chiroptera. Jones et al. 2002. Biol. Rev.Mur
+"2404_6388", # Passeriformes. Barker et al. 2004. PNAS
 
 
 
@@ -172,18 +175,19 @@ these are the studies identified by Chris, plus others from JWB
 *** Chris Owen studies. Need to check each one of these for problems. ***
 
 
-"2358_4960", # Nylanderia. Gotzek et al. 2012. PLoS ONE
 
 
-"2360_4963",
-"2373_6379",
-"2376_4993",
-"2384_6381",
-"2387_6382",
-"2396_6383",
-"2399_5042",
-"2401_6387",
-"2404_6388",
+
+
+
+
+
+
+
+
+
+
+
 "2405_5070",
 "2406_6389",
 "2407_6390",
@@ -275,7 +279,7 @@ these are the studies identified by Chris, plus others from JWB
 
 studytreelist=[
 
-"2358_4960"
+
 
 
 
