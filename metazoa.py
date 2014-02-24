@@ -97,7 +97,7 @@ studytreelist=[
                "1337_6167", # Holometabola (insect). Wiegmann et al. 2009. BMC Evol. Biol.
                "2629_6162", # Hexapoda. Letsch and Simon. 2013. Syst. Ent.
                "2604_6043", # Apoidea. Hedtke et al. 2013. BMC Evol. Biol.
-               "2686_6238", # Arthropoda. Lee et al. 2013. Curr. Biol.
+               #"2686_6238", # Arthropoda. Lee et al. 2013. Curr. Biol.
                "437_6242",  # Diptera. Wiegmann et al. 2011. PNAS
                "1338_2666", # Pterygota. Simon et al. 2009. MBE
 
