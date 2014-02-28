@@ -5,7 +5,7 @@ from plants_all import studytreelist
 if __name__ == "__main__":
     from stephen_desktop_conf_TEMP import *
     
-    synthottolid="10218"
+    synthottolid="372049"
     #studytreelist = ["713_1287"]
     print "loading synthottolid:",synthottolid
     print "loading studytreelist:",studytreelist
