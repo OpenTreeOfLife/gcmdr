@@ -155,6 +155,19 @@ these are the studies identified by Chris, plus others from JWB
 "2399_5042", # Trimeresurus. Creer et al. 2006. Syst. Biol.
 "2401_6387", # Chiroptera. Jones et al. 2002. Biol. Rev.Mur
 "2404_6388", # Passeriformes. Barker et al. 2004. PNAS
+"2812_6545", # Placental mammals. Lartillot and Delsuc. 2012. Evolution
+"1257_6547", # Panarthropoda. Meusemann et al. 2010. MBE
+"2813_6550", # Panarthropoda. Rota-Stabelli et al. 2011. Proc. Roy. Soc.
+"2814_6551", # Arthropoda. Rota-Stabelli et al. 2013. Syst. Biol.
+"2579_5983", # Primates. Faircloth et al. 2012. Syst. Biol.
+"2579_5984", # Aves.  Faircloth et al. 2012. Syst. Biol.
+
+"1986_4070", # Hyloidea. Hedgeset al. 2008. Zootaxa
+"1985_4069", # Didelphidae. Voss and Jansa. 2008. Bull. Am. Mus. Nat. Hist.
+"2114_4379", # Acestrorhynchus. Toledo-Piza. 2007. Zool. J. Linn. Soc.
+"2136_4477", # Thomomys. Belfiore et al. 2008. Syst. Biol.
+"2150_4541", # Colletinae. Kuhlman et al. 2009. Insect. Syst. Evol.
+"2149_6486", # Sceloporus. Leache. 2149. MPE
 
 
 
@@ -167,6 +180,8 @@ these are the studies identified by Chris, plus others from JWB
 
 "2323_6537", # Bombyliidae. Lambkin and Bartlett. 2011. ZooKeys <- check sampling
 "2357_6538", # Evaniscus. Mullins et al. 2012. ZooKeys <- 2 new species are not in OTT
+
+"2815_6555", # Pancrustacea. von Reumont et al. 2012. MBE
 
 """
 
@@ -242,21 +257,22 @@ these are the studies identified by Chris, plus others from JWB
 "2156_5953",
 "2143_4505",
 "2145_5952",
-"2149_6486",
-"2150_4541",
-"2136_4477",
-"2114_4379",
+
+
+
+
 "2092_4335",
 "2098_6487",
 "2067_4258",
 "2068_6488",
 "2061_4246",
 "2063_4251",
-"1985_4069",
-"1986_6489",
-"1990_4076",
-"2579_5984"
 
+
+"1990_4076",
+
+
+## Chris Decapoda trees
 "1252_2661", # maps to: Anomura
 "1336_2660", # maps to: Brachyura
 "1948_6513", # maps to: Anomura
@@ -278,8 +294,6 @@ these are the studies identified by Chris, plus others from JWB
 """
 
 studytreelist=[
-
-
 
 
 

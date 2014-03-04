@@ -7,10 +7,11 @@ if __name__ == "__main__":
     
     synthottolid="691846" # metazoa
 #    studytreelist = ["420_522"]
+    studytreelist = ["2686_6238"]
 #    studytreelist = ["2573_5959"]
-    from metazoa import studytreelist as metalist
-    studytreelist = []
-    studytreelist.extend(metalist)
+#    from metazoa import studytreelist as metalist
+#    studytreelist = []
+#    studytreelist.extend(metalist)
 
     print "loading synthottolid:",synthottolid
     print "loading studytreelist:",studytreelist

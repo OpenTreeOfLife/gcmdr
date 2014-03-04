@@ -1,0 +1,225 @@
+pgloadind OTUs number 70
+pgloadind Processing tree @id "6291"
+pgloadind   tree info number nodes 139
+pgloadind   tree info number edges 138
+pgloadind   tree info ingroup "node1093975"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 58
+pgloadind   property added ot:studyPublicationReference "J. F. Ryan, K. Pang, C. E. Schnitzler, A.-D. Nguyen, R. T. Moreland, D. K. Simmons, B. J. Koch, W. R. Francis, P. Havlak, S. A. Smith, N. H. Putnam, S. H. D. Haddock, C. W. Dunn, T. G. Wolfsberg, J. C. Mullikin, M. Q. Martindale, A. D. Baxevanis. 2013. The genome of the ctenophore Mnemiopsis leidyi and its implications for cell type evolution. Science 342 (6164): 1242592-1242592."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1126/science.1242592"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:studyId "2710"
+pgloadind   property added ot:studyYear "2013"
+pgloadind   property added ot:focalClade "1571669"
+pgloadind   property added ot:tag "ingroup added;"
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+pgloadind   property added ot:inGroupClade "node1093975"
+pgloadind   property added ot:curatedType "ML bootstrap, EST (Figure 3)"
+loading a specific tree: 6291
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "6291"
+pgloadind     OTT ID missing name "Mertensiid sp" nexsonid "node1093980"
+pgloadind   TNRS unmatched total number 1
+pgloadind     pruning unmapped name "Mertensiid sp" nexsonid "node1093980"
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Hydra magnipapillata" nexsonid "node1094010"
+pgloadind       dubious OTT ID 767776
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Acropora palmata" nexsonid "node1094024"
+pgloadind       dubious OTT ID 507954
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Acropora millepora" nexsonid "node1094025"
+pgloadind       dubious OTT ID 718262
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Schmidtea mediterranea" nexsonid "node1094075"
+pgloadind       dubious OTT ID 900428
+pgloadind     pruning dups and overlapping name "Schmidtea mediterranea" nexsonid "node1094075"
+pgloadind     pruning dups and overlapping name "Hydra magnipapillata" nexsonid "node1094010"
+pgloadind     pruning dups and overlapping name "Acropora palmata" nexsonid "node1094024"
+pgloadind     pruning dups and overlapping name "Acropora millepora" nexsonid "node1094025"
+pgloadind   postpruning newick tree "((Pleurobrachia_pileus,Mnemiopsis),((((Leucetta_chagosensis,Sycon_raphanus),(Oscarella_carmela,Oscarella_lobularis)),(Oopsacas_minuta,(Carteriospongia_foliascens,(Amphimedon_queenslandica,(Suberites_domuncula,(Lubomirskia_baicalensis,Ephydatia_muelleri)))))),(Trichoplax_adhaerens,(((Cyanea_capillata,(Clytia_hemisphaerica,(Podocoryna_carnea,Hydractinia_echinata))),((Nematostella_vectensis,(Anemonia_viridis,(Aiptasia_pallida,Metridium_senile))),(Porites_astreoides,Montastraea_faveolata))),((Xenoturbella_bocki,((Nemertoderma_westbladi,Meara_stichopi),(Isodiametra_pulchra,(Symsagittifera_roscoffensis,Convolutriloba_longifissura)))),((((Saccoglossus_kowalevskii,Ptychodera_flava),(Strongylocentrotus_purpuratus,Patiria_pectinifera)),(Branchiostoma_floridae,((Petromyzon_marinus,Gallus),(Ciona_intestinalis,Halocynthia_roretzi)))),(((Echinoderes_horni,Xiphinema_index),(Euperipatoides_kanangrensis,((Anoplodactylus_eroticus,Rhipicephalus_microplus),(Daphnia_pulex,Drosophila_melanogaster)))),(((Capitella_teleta,Helobdella_robusta),((Cerebratulus_lacteus,Terebratalia_transversa),(Euprymna_scolopes,(Lottia_gigantea,Crassostrea_virginica)))),Paraplanocera_oligoglena))))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 626459 taxonomy "Pleurobrachia pileus->Pleurobrachia->Pleurobrachiidae->Cydippida->Typhlocoela->Ctenophora->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093977"
+pgloadind     taxon mapping OTT ID 161882 taxonomy "Mnemiopsis->Bolinopsidae->Lobata->Cyclocoela->Ctenophora->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093979"
+pgloadind     taxon mapping OTT ID 918964 taxonomy "Leucetta chagosensis->Leucetta->Leucettidae->Clathrinida->Calcinea->Calcarea->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093985"
+pgloadind     taxon mapping OTT ID 505344 taxonomy "Sycon raphanus->Sycon->Sycettidae->Leucosolenida->Calcaronea->Calcarea->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093986"
+pgloadind     taxon mapping OTT ID 862117 taxonomy "Oscarella carmela->Oscarella->Plakinidae->Homosclerophorida->Homoscleromorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093988"
+pgloadind     taxon mapping OTT ID 7587 taxonomy "Oscarella lobularis->Oscarella->Plakinidae->Homosclerophorida->Homoscleromorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093989"
+pgloadind     taxon mapping OTT ID 351698 taxonomy "Oopsacas minuta->Oopsacas->Leucopsacidae->Lyssacinosida->Hexasterophora->Hexactinellida->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093991"
+pgloadind     taxon mapping OTT ID 472969 taxonomy "Carteriospongia foliascens->Carteriospongia->Thorectidae->Dictyoceratida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093993"
+pgloadind     taxon mapping OTT ID 707499 taxonomy "Amphimedon queenslandica->Amphimedon->Niphatidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093995"
+pgloadind     taxon mapping OTT ID 127353 taxonomy "Suberites domuncula->Suberites->Suberitidae->Hadromerida->Tetractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093997"
+pgloadind     taxon mapping OTT ID 74677 taxonomy "Lubomirskia baicalensis->Lubomirskia->Lubomirskiidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093999"
+pgloadind     taxon mapping OTT ID 588770 taxonomy "Ephydatia muelleri->Ephydatia->Spongillidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094000"
+pgloadind     taxon mapping OTT ID 570365 taxonomy "Trichoplax adhaerens->Trichoplax->Trichoplacidae->Placozoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094002"
+pgloadind     taxon mapping OTT ID 178412 taxonomy "Cyanea capillata->Cyanea->Cyaneidae->Semaeostomeae->Scyphozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094006"
+pgloadind     taxon mapping OTT ID 33386 taxonomy "Clytia hemisphaerica->Clytia->Campanulariidae->Leptomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094008"
+pgloadind     taxon mapping OTT ID 612106 taxonomy "Podocoryna carnea->Podocoryna->Hydractiniidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094012"
+pgloadind     taxon mapping OTT ID 115617 taxonomy "Hydractinia echinata->Hydractinia->Hydractiniidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094013"
+pgloadind     taxon mapping OTT ID 938118 taxonomy "Nematostella vectensis->Nematostella->Edwardsiidae->Actiniaria->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094016"
+pgloadind     taxon mapping OTT ID 214124 taxonomy "Anemonia viridis->Anemonia->Actiniidae->Nynantheae->Actiniaria->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094018"
+pgloadind     taxon mapping OTT ID 135923 taxonomy "Aiptasia pallida->Aiptasia->Aiptasiidae->Actiniaria->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094020"
+pgloadind     taxon mapping OTT ID 558017 taxonomy "Metridium senile->Metridium->Metridiidae->Nynantheae->Actiniaria->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094021"
+pgloadind     taxon mapping OTT ID 208979 taxonomy "Porites astreoides->Porites->Poritidae->Fungiina->Scleractinia->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094027"
+pgloadind     taxon mapping OTT ID 955287 taxonomy "Montastraea faveolata->Montastraea->Montastraeidae->Faviina->Scleractinia->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094028"
+pgloadind     taxon mapping OTT ID 467516 taxonomy "Xenoturbella bocki->Xenoturbella->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094031"
+pgloadind     taxon mapping OTT ID 189324 taxonomy "Nemertoderma westbladi->Nemertoderma->Nemertodermatidae->Nemertodermatida->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094034"
+pgloadind     taxon mapping OTT ID 696822 taxonomy "Meara stichopi->Meara->Nemertodermatidae->Nemertodermatida->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094035"
+pgloadind     taxon mapping OTT ID 431879 taxonomy "Isodiametra pulchra->Isodiametra->Isodiametridae->Acoela->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094037"
+pgloadind     taxon mapping OTT ID 675113 taxonomy "Symsagittifera roscoffensis->Symsagittifera->Sagittiferidae->Acoela->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094039"
+pgloadind     taxon mapping OTT ID 892905 taxonomy "Convolutriloba longifissura->Convolutriloba->Sagittiferidae->Acoela->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094040"
+pgloadind     taxon mapping OTT ID 570370 taxonomy "Saccoglossus kowalevskii->Saccoglossus->Harrimaniidae->Enteropneusta (no Orders recognised)->Enteropneusta->Hemichordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094045"
+pgloadind     taxon mapping OTT ID 768590 taxonomy "Ptychodera flava->Ptychodera->Ptychoderidae->Enteropneusta (no Orders recognised)->Enteropneusta->Hemichordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094046"
+pgloadind     taxon mapping OTT ID 564702 taxonomy "Strongylocentrotus purpuratus->Strongylocentrotus->Strongylocentrotidae->Echinoida->Echinacea->Euechinoidea->Echinoidea->Echinozoa->Eleutherozoa->Echinodermata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094048"
+pgloadind     taxon mapping OTT ID 977093 taxonomy "Patiria pectinifera->Patiria->Asterinidae->Valvatida->Valvatacea->Asteroidea->Asterozoa->Eleutherozoa->Echinodermata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094049"
+pgloadind     taxon mapping OTT ID 176532 taxonomy "Branchiostoma floridae->Branchiostoma->Branchiostomidae->Amphioxiformes->Cephalochordata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094051"
+pgloadind     taxon mapping OTT ID 227494 taxonomy "Petromyzon marinus->Petromyzon->Petromyzontidae->Petromyzontiformes->Hyperoartia->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094054"
+pgloadind     taxon mapping OTT ID 153562 taxonomy "Gallus->Phasianinae->Phasianidae->Galliformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094055"
+pgloadind     taxon mapping OTT ID 744224 taxonomy "Ciona intestinalis->Ciona->Cionidae->Phlebobranchia->Enterogona->Ascidiacea->Tunicata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094057"
+pgloadind     taxon mapping OTT ID 672826 taxonomy "Halocynthia roretzi->Halocynthia->Pyuridae->Stolidobranchia->Ascidiacea->Tunicata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094058"
+pgloadind     taxon mapping OTT ID 1046342 taxonomy "Echinoderes horni->Echinoderes->Echinoderidae->Cyclorhagida->Kinorhyncha->Scalidophora->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094062"
+pgloadind     taxon mapping OTT ID 165364 taxonomy "Xiphinema index->Xiphinema->Longidoridae->Longidoroidea->Dorylaimina->Dorylaimida->Enoplia->Enoplea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094063"
+pgloadind     taxon mapping OTT ID 1046340 taxonomy "Euperipatoides kanangrensis->Euperipatoides->Peripatopsidae->Euonychophora->Udeonychophora->Onychophora->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094065"
+pgloadind     taxon mapping OTT ID 1046338 taxonomy "Anoplodactylus eroticus->Anoplodactylus->Phoxichilidiidae->Pantopoda->Pycnogonida->Chelicerata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094068"
+pgloadind     taxon mapping OTT ID 621053 taxonomy "Rhipicephalus microplus->Boophilus->Rhipicephalus->Rhipicephalinae->Ixodidae->Ixodoidea->Ixodida->Parasitiformes->Acari->Arachnida->Chelicerata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094069"
+pgloadind     taxon mapping OTT ID 59086 taxonomy "Daphnia pulex->Daphnia->Daphniidae->Anomopoda->Cladocera->Diplostraca->Phyllopoda->Branchiopoda->Crustacea->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094071"
+pgloadind     taxon mapping OTT ID 505714 taxonomy "Drosophila melanogaster->melanogaster subgroup->melanogaster group->Sophophora->Drosophila->Drosophiliti->Drosophilina->Drosophilini->Drosophilinae->Drosophilidae->Ephydroidea->Acalyptratae->Schizophora->Cyclorrhapha->Eremoneura->Muscomorpha->Brachycera->Diptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094072"
+pgloadind     taxon mapping OTT ID 707082 taxonomy "Capitella teleta->Capitella->Capitellidae->Capitellida->Scolecida->Polychaeta->Annelida->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094079"
+pgloadind     taxon mapping OTT ID 870792 taxonomy "Helobdella robusta->Helobdella->Glossiphoniidae->Rhynchobdellida->Hirudinea->Hirudinida->Clitellata->Annelida->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094080"
+pgloadind     taxon mapping OTT ID 971433 taxonomy "Cerebratulus lacteus->Cerebratulus->Cerebratulidae->Heteronemertea->Anopla->Nemertea->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094083"
+pgloadind     taxon mapping OTT ID 463351 taxonomy "Terebratalia transversa->Terebratalia->Laqueidae->Laqueoidea->Terebratellidina->Terebratulida->Rhynchonellata->Rhynchonelliformea->Brachiopoda->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094084"
+pgloadind     taxon mapping OTT ID 528814 taxonomy "Euprymna scolopes->Euprymna->Sepiolidae->Sepiolida->Decapodiformes->Neocoleoidea->Coleoidea->Cephalopoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094086"
+pgloadind     taxon mapping OTT ID 840650 taxonomy "Lottia gigantea->Lottia->Lottiidae->Lottioidea->Patellogastropoda->Gastropoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094088"
+pgloadind     taxon mapping OTT ID 365708 taxonomy "Crassostrea virginica->Crassostrea->Ostreidae->Ostreoidea->Ostreoida->Pteriomorphia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094089"
+pgloadind     taxon mapping OTT ID 5132049 taxonomy "Paraplanocera oligoglena->Paraplanocera->Planoceridae->Planoceroidea->Acotylea->Polycladida->Rhabditophora->Platyhelminthes->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094076"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6291"
+pgloadind   Adding tree to graph tree id "6291"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Halocynthia roretzi was remapped to 'Stolidobranchia' (id=317282)
+	Ciona intestinalis was remapped to 'Enterogona' (id=319883)
+	Anoplodactylus eroticus was remapped to 'Pycnogonida' (id=2475371)
+	Gallus was remapped to 'Gnathostomata' (id=324023)
+	Daphnia pulex was remapped to 'Crustacea' (id=2215371)
+	Symsagittifera roscoffensis was remapped to 'Symsagittifera' (id=2478464)
+	Ptychodera flava was remapped to 'Ptychoderidae' (id=317072)
+	Convolutriloba longifissura was remapped to 'Convolutriloba' (id=2478500)
+	Paraplanocera oligoglena was remapped to 'Platyhelminthes' (id=748765)
+	Xenoturbella bocki was remapped to 'Xenoturbella' (id=2479180)
+	Echinoderes horni was remapped to 'Scalidophora' (id=819109)
+	Euprymna scolopes was remapped to 'Cephalopoda' (id=591280)
+	Anemonia viridis was remapped to 'Actiniidae' (id=2503415)
+	Nemertoderma westbladi was remapped to 'Nemertoderma' (id=2479185)
+	Amphimedon queenslandica was remapped to 'Niphatidae' (id=303422)
+	Helobdella robusta was remapped to 'Clitellata' (id=718687)
+	Euperipatoides kanangrensis was remapped to 'Onychophora' (id=2477523)
+	Strongylocentrotus purpuratus was remapped to 'Echinozoa' (id=561926)
+	Carteriospongia foliascens was remapped to 'Dictyoceratida' (id=310082)
+	Leucetta chagosensis was remapped to 'Calcinea' (id=313885)
+	Pleurobrachia pileus was remapped to 'Typhlocoela' (id=2505421)
+	Rhipicephalus microplus was remapped to 'Arachnida' (id=2325717)
+	Suberites domuncula was remapped to 'Tetractinomorpha' (id=297085)
+	Xiphinema index was remapped to 'Nematoda' (id=777948)
+	Porites astreoides was remapped to 'Fungiina' (id=2501510)
+	Petromyzon marinus was remapped to 'Hyperoartia' (id=551783)
+	Cyanea capillata was remapped to 'Scyphozoa' (id=2490149)
+	Clytia hemisphaerica was remapped to 'Leptomedusae' (id=2481898)
+	Aiptasia pallida was remapped to 'Aiptasiidae' (id=2502918)
+	Capitella teleta was remapped to 'Polychaeta' (id=725040)
+	Branchiostoma floridae was remapped to 'Cephalochordata' (id=323901)
+	Crassostrea virginica was remapped to 'Bivalvia' (id=686593)
+	Patiria pectinifera was remapped to 'Asterozoa' (id=552262)
+	Montastraea faveolata was remapped to 'Faviina' (id=2499918)
+	Hydractinia echinata was remapped to 'Hydractinia' (id=2486384)
+	Metridium senile was remapped to 'Metridiidae' (id=2504577)
+	Cerebratulus lacteus was remapped to 'Nemertea' (id=575107)
+	Meara stichopi was remapped to 'Meara' (id=2479192)
+	Ephydatia muelleri was remapped to 'Spongillidae' (id=302969)
+	Mnemiopsis was remapped to 'Cyclocoela' (id=2505637)
+	Oopsacas minuta was remapped to 'Hexactinellida' (id=315619)
+	Trichoplax adhaerens was remapped to 'Placozoa' (id=317025)
+	Saccoglossus kowalevskii was remapped to 'Harrimaniidae' (id=317166)
+	Lubomirskia baicalensis was remapped to 'Lubomirskiidae' (id=301494)
+	Drosophila melanogaster was remapped to 'Hexapoda' (id=842334)
+	Podocoryna carnea was remapped to 'Podocoryna' (id=2486603)
+	Terebratalia transversa was remapped to 'Brachiopoda' (id=717312)
+	Lottia gigantea was remapped to 'Gastropoda' (id=595008)
+	Isodiametra pulchra was remapped to 'Isodiametridae' (id=2478747)
+	Nematostella vectensis was remapped to 'Edwardsiidae' (id=2502742)
+	Sycon raphanus was remapped to 'Calcaronea' (id=314343)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': J. F. Ryan, K. Pang, C. E. Schnitzler, A.-D. Nguyen, R. T. Moreland, D. K. Simmons, B. J. Koch, W. R. Francis, P. Havlak, S. A. Smith, N. H. Putnam, S. H. D. Haddock, C. W. Dunn, T. G. Wolfsberg, J. C. Mullikin, M. Q. Martindale, A. D. Baxevanis. 2013. The genome of the ctenophore Mnemiopsis leidyi and its implications for cell type evolution. Science 342 (6164): 1242592-1242592.
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2013
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1093975
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph Brown
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1126/science.1242592
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 1571669
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': ML bootstrap, EST (Figure 3)
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 2710
+Committing nodes: 105
+	adding Node[313606] Plakinidae 196338 as compatible with Node[313610]
+		adding Relationship[8163602]
+		adding to root Relationship[8163603]
+	adding Node[313605] Homosclerophorida 196337 as compatible with Node[313610]
+		adding Relationship[8163604]
+		adding to root Relationship[8163605]
+	adding Node[313604] Homoscleromorpha 519088 as compatible with Node[313610]
+		adding Relationship[8163606]
+		adding to root Relationship[8163607]
+	adding Node[317058] Enteropneusta 570381 as compatible with Node[317065]
+		adding Relationship[8163608]
+		adding to root Relationship[8163609]
+	adding Node[317056] Hemichordata 100746 as compatible with Node[317065]
+		adding Relationship[8163610]
+		adding to root Relationship[8163611]
+	adding Node[317277] Tunicata 125649 as compatible with Node[317280]
+		adding Relationship[8163612]
+		adding to root Relationship[8163613]
+	adding Node[324020] Craniata 947318 as compatible with Node[324021]
+		adding Relationship[8163614]
+		adding to root Relationship[8163615]
+	adding Node[552259] Echinodermata 451020 as compatible with Node[552261]
+		adding Relationship[8163616]
+		adding to root Relationship[8163617]
+	adding Node[821443] Mandibulata 985907 as compatible with Node[842333]
+		adding Relationship[8163618]
+		adding to root Relationship[8163619]
+	adding Node[2479183] Nemertodermatida 490210 as compatible with Node[2479184]
+		adding Relationship[8163620]
+		adding to root Relationship[8163621]
+	adding Node[2481895] Hydrozoa 641030 as compatible with Node[2481897]
+		adding Relationship[8163622]
+		adding to root Relationship[8163623]
+	adding Node[2485735] Anthomedusae 641027 as compatible with Node[2486382]
+		adding Relationship[8163624]
+		adding to root Relationship[8163625]
+	adding Node[2490751] Anthozoa 1084488 as compatible with Node[2496505]
+		adding Relationship[8163626]
+		adding to root Relationship[8163627]
+		adding Relationship[8163628] from Node[2481897] to Node[3467030]
+		adding Relationship[8163629] from Node[2481897] to Node[2481895]
+		adding Relationship[8163630] from Node[2490751] to Node[2479205]
+		adding Relationship[8163631] from Node[2481895] to Node[2479205]
+		adding Relationship[8163632] from Node[313606] to Node[313605]
+		adding Relationship[8163633] from Node[317058] to Node[317056]
+		adding Relationship[8163634] from Node[313605] to Node[313604]
+		adding Relationship[8163635] from Node[3467030] to Node[2479205]
+		adding Relationship[8163636] from Node[821443] to Node[821440]
+		adding Relationship[8163637] from Node[2485735] to Node[2481897]

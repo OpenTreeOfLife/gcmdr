@@ -1,0 +1,53 @@
+pgloadind OTUs number 14
+pgloadind Processing tree @id "6229"
+pgloadind   tree info number nodes 27
+pgloadind   tree info number edges 26
+pgloadind   tree info ingroup "node1076440"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 4
+pgloadind   property added ot:studyPublicationReference "Klaus-Peter Koepfli, Susan M. Jenks, Eduardo Eizirik, Tannaz Zahirpour, Blaire Van Valkenburgh, Robert K. Wayne. 2006. Molecular systematics of the Hyaenidae: Relationships of a relictual lineage resolved by a molecular supermatrix. Molecular Phylogenetics and Evolution 38(3):603-620."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.ympev.2005.10.017"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:studyId "2684"
+pgloadind   property added ot:studyYear "2006"
+pgloadind   property added ot:focalClade "2432068"
+pgloadind   property added ot:inGroupClade "node1076440"
+loading a specific tree: 6229
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "6229"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "(Proteles_cristatus,(Crocuta_crocuta,(Parahyaena_brunnea,Hyaena_hyaena)))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 563161 taxonomy "Proteles cristatus->Proteles->Hyaenidae->Feliformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076441"
+pgloadind     taxon mapping OTT ID 397157 taxonomy "Crocuta crocuta->Crocuta->Hyaenidae->Feliformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076443"
+pgloadind     taxon mapping OTT ID 742313 taxonomy "Parahyaena brunnea->Parahyaena->Hyaenidae->Feliformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076445"
+pgloadind     taxon mapping OTT ID 383901 taxonomy "Hyaena hyaena->Hyaena->Hyaenidae->Feliformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076446"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6229"
+pgloadind   Adding tree to graph tree id "6229"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Hyaena hyaena was remapped to 'Hyaena' (id=334927)
+	Parahyaena brunnea was remapped to 'Parahyaena' (id=334951)
+	Crocuta crocuta was remapped to 'Crocuta' (id=334940)
+	Proteles cristatus was remapped to 'Proteles' (id=334945)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Klaus-Peter Koepfli, Susan M. Jenks, Eduardo Eizirik, Tannaz Zahirpour, Blaire Van Valkenburgh, Robert K. Wayne. 2006. Molecular systematics of the Hyaenidae: Relationships of a relictual lineage resolved by a molecular supermatrix. Molecular Phylogenetics and Evolution 38(3):603-620.
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2006
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1076440
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph Brown
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.ympev.2005.10.017
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 2432068
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 2684
+Committing nodes: 7

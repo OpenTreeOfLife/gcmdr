@@ -9,33 +9,33 @@ from wopr_conf import *
 #from mammals import studytreelist as mammalslist
 #from birds import studytreelist as birdslist
 #from tetrapoda import studytreelist as tetrapodalist
+#from decapods import studytreelist as decapodlist
 
 ## for serious synthesis:
-#from plants import studytreelist as plantslist
+from plants import studytreelist as plantslist
 from metazoa import studytreelist as metalist
-#from fungi import studytreelist as fungilist
-#from microbes import studytreelist as microbelist
-#from decapods import studytreelist as decapodlist
+from fungi import studytreelist as fungilist
+from microbes import studytreelist as microbelist
 
 studytreelist = []
 #studytreelist.extend(goolist)
 #studytreelist.extend(mammalslist)
 #studytreelist.extend(birdslist)
 #studytreelist.extend(tetrapodalist)
-
-#studytreelist.extend(plantslist)
-studytreelist.extend(metalist)
-#studytreelist.extend(fungilist)
-#studytreelist.extend(microbelist)
 #studytreelist.extend(decapodlist)
+
+studytreelist.extend(plantslist)
+studytreelist.extend(metalist)
+studytreelist.extend(fungilist)
+studytreelist.extend(microbelist)
 
 import load_synth_extract
 
 # 805080 = life; 691846 = Metazoa; 81461 = Aves; 244265 = Mammalia; 229562 = Tetrapoda; Amniota = 229560; Archosauria = 335588; 304358 = Eukaryota; Decapoda = 169205
 
-#synthottolid = "805080"
+synthottolid = "805080"
 #extractottolid = "691846"
-synthottolid = "691846"
+#synthottolid = "691846"
 
 # should mapcompat be used?
 studytreelistTF = [True] * len(studytreelist)
@@ -48,8 +48,10 @@ print "loading synthottolid:",synthottolid
 print "loading studytreelist:",studytreelist
 
 # analysis name
-aname="Metazoa_test_2.4draft19_mapcompat"
+#aname="Metazoa_test_2.4draft19_mapcompat"
+#aname="Life_taxonomy-only_2.4draft19"
 #aname="Decapoda_OTT2.4draft17_taxonomy-only"
+aname="Life_2.4draft19_mapcompat"
 # location of synth database
 dsynth=bdir+aname+".db"
 # location of synth treefile
