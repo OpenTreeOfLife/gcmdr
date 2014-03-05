@@ -31,9 +31,11 @@ studytreelist.extend(microbelist)
 
 import load_synth_extract
 
-# 805080 = life; 691846 = Metazoa; 81461 = Aves; 244265 = Mammalia; 229562 = Tetrapoda; Amniota = 229560; Archosauria = 335588; 304358 = Eukaryota; Decapoda = 169205
+# 805080 = life; 691846 = Metazoa; 81461 = Aves; 244265 = Mammalia;
+# 229562 = Tetrapoda; Amniota = 229560; Archosauria = 335588; 304358 = Eukaryota; Decapoda = 169205;
+# 93302 = cellular organisms;
 
-synthottolid = "805080"
+synthottolid = "93302"
 #extractottolid = "691846"
 #synthottolid = "691846"
 
