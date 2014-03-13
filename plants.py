@@ -22,6 +22,7 @@ studytreelist=["1022_1967",#Pontederiaceae
                "2608_6288", #saxifrigales
                "2539_6294",#Soltis et al. 2011 ML tree
  #             "2539_5465",#Soltis et al. 2011 bootstrap
+ 	       "2820_6566",#Streptophyta
                "2712_6296", #Rosids
                "259_142", #Cercis FABALES!
                "264_150", #Coursetia FABALES!
