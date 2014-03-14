@@ -14,7 +14,8 @@ studytreelist.extend(microbelist)
 if __name__ == "__main__":
     from wopr_conf_TEMP import *
     
-    synthottolid="805080" # life
+    # synthottolid="805080" # life
+    synthottolid="93302" # cellular organisms
     
     print "loading synthottolid:",synthottolid
     print "loading studytreelist:",studytreelist

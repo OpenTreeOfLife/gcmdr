@@ -50,10 +50,10 @@ print "loading synthottolid:",synthottolid
 print "loading studytreelist:",studytreelist
 
 # analysis name
-#aname="Metazoa_test_2.4draft19_mapcompat"
-#aname="Life_taxonomy-only_2.4draft19"
+#aname="Metazoa_test_2.4draft21_mapcompat"
+#aname="Life_taxonomy-only_2.4draft21"
 #aname="Decapoda_OTT2.4draft17_taxonomy-only"
-aname="Life_2.4draft19_mapcompat"
+aname="Life_2.4draft21_mapcompat"
 # location of synth database
 dsynth=bdir+aname+".db"
 # location of synth treefile
