@@ -17,8 +17,25 @@ from Dail
 
 """
 
-studytreelist=["425_5976"] # Eukaryota. Katz et al. 2012. Syst Biol.
-
+studytreelist=["425_5976", # Eukaryota. Katz et al. 2012. Syst Biol.
+"239_111",
+"239_112",
+"263_149",
+"2413_5093",
+"2413_5094",
+"2397_5038",
+"2397_5039",
+"2398_5040",
+"2739_6325",
+"2552_6326",
+"2552_6327",
+"2552_6328",
+"2552_6329",
+#"2448_5223",
+"2425_5121",
+"2542_5471",
+"2542_5588",
+"2542_5590"] 
 if __name__ == "__main__":
 	import load_synth_extract
 	from stephen_desktop_conf import *

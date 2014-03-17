@@ -9,11 +9,11 @@ import os
 import tree_reader
 import node
 
-directory = "loadlog_JWB"
+directory = "fungallog"
 tend = ".tre"
 lend = ".log"
 
-outfilen = "metazoa.numtips.results"
+outfilen = "fungi.numtips.results"
 
 if __name__ == "__main__":
     studies = []

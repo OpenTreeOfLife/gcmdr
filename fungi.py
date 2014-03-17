@@ -8,9 +8,9 @@ studytreelist=["240_123",#Pezizomycotina
                "827_1585",#Blastocladiomycota
                "1144_5800",#Entomophthoromycota
                "439_5514",#Glomeromycota
-               "238_110",#Ascomycota	<- mapped back to Eukaryota
-               "2701_6271",#Dikarya	<- mapped back to Eukaryota
+               #"238_110",#Ascomycota	<- mapped back to Eukaryota
                "1197_5822",#Fungi
+               "2701_6271",#Dikarya	<- mapped back to Eukaryota
                "1162_5805"#Fungi
                ]
  

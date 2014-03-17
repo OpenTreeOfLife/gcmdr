@@ -9,13 +9,13 @@ import os
 import tree_reader
 import node
 
-directory = "loadlog_JWB"
+directory = "fungallog"
 tend = ".tre"
 lend = ".log"
 
-outfilen = "metazoa.scope.results"
+outfilen = "fungi.scope.results"
 
-taxonomy_file = "/media/data/temp/taxonomy/OTT/ott/metazoa.tsv"
+taxonomy_file = "/media/data/temp/taxonomy/OTT/ott/fungi.tsv"
 
 def get_number_of_tips(tid,cid):
     tipn = 0
