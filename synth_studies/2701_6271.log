@@ -1,16 +1,4 @@
 pgloadind OTUs number 31
-pgloadind Processing tree @id "6269"
-pgloadind   tree info number nodes 60
-pgloadind   tree info number edges 59
-pgloadind   Ingested tree number of external nodes 31
-pgloadind   property added ot:studyPublicationReference "Floudas, Dimitrios, Manfred Binder, Robert Riley, Kerrie Barry, Robert A. Blanchette, Bernard Henrissat, Angel T. Martínez et al. "The Paleozoic origin of enzymatic lignin decomposition reconstructed from 31 fungal genomes." Science 336, no. 6089 (2012): 1715-1719."
-pgloadind   property added ot:curatorName "Romina Gazis"
-pgloadind   property added ot:studyId "2701"
-pgloadind   property added ot:studyYear "2012"
-pgloadind   property added ot:focalClade "1778197"
-pgloadind   property added ot:tag "genome: nucleus"
-pgloadind   property added ot:tag "BEAST"
-pgloadind   property added ot:curatedType "26gene_BEAST"
 pgloadind Processing tree @id "6270"
 pgloadind   tree info number nodes 60
 pgloadind   tree info number edges 59
@@ -20,28 +8,29 @@ pgloadind   property added ot:curatorName "Romina Gazis"
 pgloadind   property added ot:studyId "2701"
 pgloadind   property added ot:studyYear "2012"
 pgloadind   property added ot:focalClade "1778197"
+pgloadind   property added ot:focalCladeOTTTaxonName "Basidiomycota"
 pgloadind   property added ot:tag "genome: nucleus"
 pgloadind   property added ot:tag "BEAST"
 pgloadind   property added ot:curatedType "71gene_BEAST"
 pgloadind Processing tree @id "6271"
 pgloadind   tree info number nodes 61
 pgloadind   tree info number edges 60
-pgloadind   tree info ingroup "node1085345"
+pgloadind   tree info ingroup "node1085346"
 pgloadind   Setting ingroup root node.
-pgloadind   Ingested tree number of external nodes 29
+pgloadind   Ingested tree number of external nodes 24
 pgloadind   property added ot:studyPublicationReference "Floudas, Dimitrios, Manfred Binder, Robert Riley, Kerrie Barry, Robert A. Blanchette, Bernard Henrissat, Angel T. Martínez et al. "The Paleozoic origin of enzymatic lignin decomposition reconstructed from 31 fungal genomes." Science 336, no. 6089 (2012): 1715-1719."
 pgloadind   property added ot:curatorName "Romina Gazis"
 pgloadind   property added ot:studyId "2701"
 pgloadind   property added ot:studyYear "2012"
 pgloadind   property added ot:focalClade "1778197"
+pgloadind   property added ot:focalCladeOTTTaxonName "Basidiomycota"
 pgloadind   property added ot:tag "genome: nucleus"
 pgloadind   property added ot:tag "BEAST"
-pgloadind   property added ot:inGroupClade "node1085345"
+pgloadind   property added ot:inGroupClade "node1085346"
 pgloadind   property added ot:tag "genome"
 pgloadind   property added ot:tag "Choose me"
 pgloadind   property added ot:curatedType "26gene_BEAST_rooted"
 loading a specific tree: 6271
-skipping tree: 6269
 skipping tree: 6270
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "6271"
@@ -52,13 +41,9 @@ pgloadind       dubious OTT ID 633308
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Wolfiporia cocos" nexsonid "node1085369"
 pgloadind       dubious OTT ID 668093
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Trichoderma reesei" nexsonid "node1085400"
-pgloadind       dubious OTT ID 500701
-pgloadind     pruning dups and overlapping name "Trichoderma reesei" nexsonid "node1085400"
 pgloadind     pruning dups and overlapping name "Phanerochaete chrysosporium" nexsonid "node1085365"
 pgloadind     pruning dups and overlapping name "Wolfiporia cocos" nexsonid "node1085369"
-pgloadind   postpruning newick tree "(((Sporobolomyces_roseus,Melampsora_larici-populina),((Ustilago_maydis,Malassezia_globosa),((Tremella_mesenterica,Cryptococcus_neoformans),(Dacryopinax,((Fomitiporia_mediterranea,(((Punctularia_strigosozonata,Gloeophyllum_trabeum),((Stereum_hirsutum,Heterobasidion_annosum),((Schizophyllum_commune,(Laccaria_bicolor,Coprinopsis_cinerea)),(Serpula_lacrymans,Coniophora_puteana)))),((Fomitopsis_pinicola,Postia_placenta),(Trametes_versicolor,Dichomitus_squalens)))),Auricularia_delicata))))),(Scheffersomyces_stipitis,(Stagonospora_nodorum,(Aspergillus_niger,Cryphonectria_parasitica))))"
+pgloadind   postpruning newick tree "((Sporobolomyces_roseus,Melampsora_larici-populina),((Ustilago_maydis,Malassezia_globosa),((Tremella_mesenterica,Cryptococcus_neoformans),(Dacryopinax,((Fomitiporia_mediterranea,(((Punctularia_strigosozonata,Gloeophyllum_trabeum),((Stereum_hirsutum,Heterobasidion_annosum),((Schizophyllum_commune,(Laccaria_bicolor,Coprinopsis_cinerea)),(Serpula_lacrymans,Coniophora_puteana)))),((Fomitopsis_pinicola,Postia_placenta),(Trametes_versicolor,Dichomitus_squalens)))),Auricularia_delicata)))))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 590457 taxonomy "Sporobolomyces roseus->Sporobolomyces->Sporidiobolales->Microbotryomycetes->Pucciniomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1085348"
 pgloadind     taxon mapping OTT ID 175519 taxonomy "Melampsora laricis-populina->Melampsora->Melampsoraceae->Pucciniales->Pucciniomycetes->Pucciniomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1085349"
@@ -82,10 +67,6 @@ pgloadind     taxon mapping OTT ID 1069955 taxonomy "Rhodonia placenta->Rhodonia
 pgloadind     taxon mapping OTT ID 581141 taxonomy "Trametes versicolor->Trametes->Polyporaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1085373"
 pgloadind     taxon mapping OTT ID 741212 taxonomy "Dichomitus squalens->Dichomitus->Polyporaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1085374"
 pgloadind     taxon mapping OTT ID 345003 taxonomy "Auricularia delicata->Auricularia->Auriculariaceae->Auriculariales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1085392"
-pgloadind     taxon mapping OTT ID 334015 taxonomy "Scheffersomyces stipitis->Scheffersomyces->Debaryomycetaceae->Saccharomycetales->Saccharomycetidae->Saccharomycetes->Saccharomycotina->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1085394"
-pgloadind     taxon mapping OTT ID 562295 taxonomy "Phaeosphaeria nodorum->Phaeosphaeria->Cercozoa->Rhizaria->SAR->Eukaryota->cellular organisms->life" nexsonid "node1085396"
-pgloadind     taxon mapping OTT ID 300201 taxonomy "Aspergillus niger->Aspergillus->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1085398"
-pgloadind     taxon mapping OTT ID 103005 taxonomy "Cryphonectria parasitica->Cryphonectria->Cryphonectriaceae->Diaporthales->Sordariomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1085401"
 done fixing name
 pgloadind Finished with attempts to fix names
 pgloadind   Checking for uniqueness of OTT IDs tree id "6271"
@@ -93,41 +74,39 @@ pgloadind   Adding tree to graph tree id "6271"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Gloeophyllum trabeum was remapped to 'Gloeophyllales' (id=220895)
-	Cryphonectria parasitica was remapped to 'Sordariomyceta' (id=237)
-	Sporobolomyces roseus was remapped to 'Microbotryomycetes' (id=275861)
-	Malassezia globosa was remapped to 'Exobasidiomycetes' (id=274565)
-	Punctularia strigosozonata was remapped to 'Corticiales' (id=221157)
-	Schizophyllum commune was remapped to 'Schizophyllaceae' (id=253338)
-	Trametes versicolor was remapped to 'Trametes' (id=211277)
-	Laccaria bicolor was remapped to 'Hydnangiaceae' (id=243719)
-	Coniophora puteana was remapped to 'Coniophoraceae' (id=226885)
-	Stagonospora nodorum was remapped to 'SAR' (id=3090539)
-	Fomitiporia mediterranea was remapped to 'Hymenochaetales' (id=217346)
-	Ustilago maydis was remapped to 'Ustilaginomycetes' (id=271836)
-	Aspergillus niger was remapped to 'Eurotiomycetes' (id=60480)
-	Stereum hirsutum was remapped to 'Stereaceae' (id=202408)
-	Serpula lacrymans was remapped to 'Serpulaceae' (id=228180)
-	Dacryopinax was remapped to 'Dacrymecetales' (id=195059)
-	Melampsora larici-populina was remapped to 'Pucciniomycetes' (id=276728)
-	Dichomitus squalens was remapped to 'Dichomitus' (id=208189)
-	Heterobasidion annosum was remapped to 'Bondarzewiaceae' (id=198242)
-	Scheffersomyces stipitis was remapped to 'Saccharomycotina' (id=189681)
-	Coprinopsis cinerea was remapped to 'Psathyrellaceae' (id=264859)
-	Auricularia delicata was remapped to 'Auriculariales' (id=197025)
-	Postia placenta was remapped to 'Rhodonia' (id=214987)
-	Cryptococcus neoformans was remapped to 'Cryptococcus' (id=194315)
-	Tremella mesenterica was remapped to 'Tremella' (id=193838)
-	Fomitopsis pinicola was remapped to 'Fomitopsidaceae' (id=215376)
+	Malassezia globosa was remapped to 'Exobasidiomycetes' (id=274892)
+	Stereum hirsutum was remapped to 'Stereaceae' (id=202735)
+	Serpula lacrymans was remapped to 'Serpulaceae' (id=228507)
+	Dacryopinax was remapped to 'Dacrymecetales' (id=195386)
+	Postia placenta was remapped to 'Rhodonia' (id=215314)
+	Ustilago maydis was remapped to 'Ustilaginomycetes' (id=272163)
+	Dichomitus squalens was remapped to 'Dichomitus' (id=208516)
+	Heterobasidion annosum was remapped to 'Bondarzewiaceae' (id=198569)
+	Gloeophyllum trabeum was remapped to 'Gloeophyllales' (id=221222)
+	Melampsora larici-populina was remapped to 'Pucciniomycetes' (id=277055)
+	Fomitopsis pinicola was remapped to 'Fomitopsidaceae' (id=215703)
+	Punctularia strigosozonata was remapped to 'Corticiales' (id=221484)
+	Fomitiporia mediterranea was remapped to 'Hymenochaetales' (id=217673)
+	Auricularia delicata was remapped to 'Auriculariales' (id=197352)
+	Coprinopsis cinerea was remapped to 'Psathyrellaceae' (id=265186)
+	Schizophyllum commune was remapped to 'Schizophyllaceae' (id=253665)
+	Sporobolomyces roseus was remapped to 'Microbotryomycetes' (id=276188)
+	Coniophora puteana was remapped to 'Coniophoraceae' (id=227212)
+	Cryptococcus neoformans was remapped to 'Cryptococcus' (id=194638)
+	Tremella mesenterica was remapped to 'Tremella' (id=194161)
+	Trametes versicolor was remapped to 'Trametes' (id=211604)
+	Laccaria bicolor was remapped to 'Hydnangiaceae' (id=244046)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
 Dealing with metadata property: ot:studyPublicationReference
 Adding property 'ot:studyPublicationReference': Floudas, Dimitrios, Manfred Binder, Robert Riley, Kerrie Barry, Robert A. Blanchette, Bernard Henrissat, Angel T. Martínez et al. "The Paleozoic origin of enzymatic lignin decomposition reconstructed from 31 fungal genomes." Science 336, no. 6089 (2012): 1715-1719.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Basidiomycota
 Dealing with metadata property: ot:studyYear
 Adding property 'ot:studyYear': 2012
 Dealing with metadata property: ot:inGroupClade
-Adding property 'ot:inGroupClade': node1085345
+Adding property 'ot:inGroupClade': node1085346
 Dealing with metadata property: ot:tag
 Adding property 'ot:tag': Choose me
 Dealing with metadata property: ot:curatorName
@@ -138,15 +117,12 @@ Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': 26gene_BEAST_rooted
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2701
-Committing nodes: 51
-	adding Node[234] Pezizomycotina 971709 as compatible with Node[236]
-		adding Relationship[8163492]
-		adding to root Relationship[8163493]
-	adding Node[193743] Tremellales 183800 as compatible with Node[193796]
-		adding Relationship[8163494]
-		adding to root Relationship[8163495]
-	adding Node[193634] Tremellomycetes 1012689 as compatible with Node[193796]
-		adding Relationship[8163496]
-		adding to root Relationship[8163497]
-		adding Relationship[8163498] from Node[193634] to Node[193632]
-		adding Relationship[8163499] from Node[193743] to Node[193634]
+Committing nodes: 43
+	adding Node[194066] Tremellales 183800 as compatible with Node[194119]
+		adding Relationship[8163484]
+		adding to root Relationship[8163485]
+	adding Node[193957] Tremellomycetes 1012689 as compatible with Node[194119]
+		adding Relationship[8163486]
+		adding to root Relationship[8163487]
+		adding Relationship[8163488] from Node[194066] to Node[193957]
+		adding Relationship[8163489] from Node[193957] to Node[193955]

@@ -1,17 +1,20 @@
 import load_synth_extract
 
-from metazoa_all import studytreelist
+#from metazoa_all import studytreelist as metalist
+from metazoa import studytreelist as metalist
 
 if __name__ == "__main__":
     from wopr_conf_TEMP import *
     
     synthottolid="691846" # metazoa
+#    synthottolid="93302" # cellular organisms
 #    studytreelist = ["420_522"]
-    studytreelist = ["2686_6238"]
+#    studytreelist = ["2460_5285"] # Pyron Squamata study
+#    studytreelist = ["2573_5959"] # Sauria
 #    studytreelist = ["2573_5959"]
 #    from metazoa import studytreelist as metalist
-#    studytreelist = []
-#    studytreelist.extend(metalist)
+    studytreelist = []
+    studytreelist.extend(metalist)
 
     print "loading synthottolid:",synthottolid
     print "loading studytreelist:",studytreelist

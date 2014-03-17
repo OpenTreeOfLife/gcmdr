@@ -30,9 +30,9 @@ pgloadind       duplicate OTT ID 342088
 pgloadind     overlapping tips
 pgloadind       overlapping retained name "Phaeomegaceros squamuliger subsp. hasselii" nexsonid "node579121"
 pgloadind       overlapping pruned name "Phaeomegaceros squamuliger" nexsonid "node579122"
-pgloadind     pruning dups and overlapping name "Phaeomegaceros squamuliger" nexsonid "node579122"
-pgloadind     pruning dups and overlapping name "Nothoceros canaliculatus" nexsonid "node579160"
 pgloadind     pruning dups and overlapping name "Phaeoceros inflatus" nexsonid "node579196"
+pgloadind     pruning dups and overlapping name "Nothoceros canaliculatus" nexsonid "node579160"
+pgloadind     pruning dups and overlapping name "Phaeomegaceros squamuliger" nexsonid "node579122"
 pgloadind   postpruning newick tree "(Leiosporoceros_dussii,((((Phymatoceros_phymatodes,Phymatoceros_bulbiculosus),((Phaeomegaceros_hirticalyx,Phaeomegaceros_coriaceus),(((Phaeomegaceros_fimbriatus,(Phaeomegaceros_skottsbergii,Phaeomegaceros_sp_Villarreal_871)),((Phaeomegaceros_chiloensis,Phaeomegaceros_sp_Gremmen_2005-T026),Phaeomegaceros_squamuliger_subsp_hasselii)),(((Dendroceros_cichoraceus,(((Dendroceros_paivae,Dendroceros_javanicus),Dendroceros_crispus),(Dendroceros_difficilis,Dendroceros_crispatus))),(Megaceros_flagellaris,(Megaceros_denticulatus,(Megaceros_gracilis,Megaceros_pellucidus)))),((Nothoceros_endiviifolius,Nothoceros_giganteus),(Nothoceros_fuegiensis,(Nothoceros_renzagliensis,((Nothoceros_superbus,Nothoceros_canaliculatus),(Nothoceros_aenigmaticus,(Nothoceros_vincentianus,Megaceros_minarum)))))))))),((Phaeoceros_himalayensis,((((Phaeoceros_oreganus,(((Phaeoceros_flexivalvis,Phaeoceros_dendroceroides),((Phaeoceros_evanidus,(Phaeoceros_brevicapsulus,Phaeoceros_tenuis)),(Phaeoceros_microsporus,Phaeoceros_carolinianus))),Phaeoceros_laevis)),Phaeoceros_mohrii),(Phaeoceros_inflatus,Phaeoceros_engelii)),Phaeoceros_cf_bolusii_Hedderson_16894)),((Notothylas_dissecta,((Notothylas_levieri,Notothylas_breutelii),((Notothylas_vitalii,Notothylas_javanica),Notothylas_orbicularis))),(Paraphymatoceros_diadematus,((Phaeoceros_proskaueri,Paraphymatoceros_hallii),Phaeoceros_pearsoni))))),(((Sphaerosporoceros_adscendens,Anthoceros_caucasicus),((Anthoceros_orizabensis,(Anthoceros_macounii,Anthoceros_sp_Villarreal_1032)),Anthoceros_tuberculatus)),((Folioceros_fuciformis,Folioceros_glandulosus),(Anthoceros_fusiformis,(Anthoceros_angustus,(Anthoceros_neesii,(Anthoceros_agrestis,(Anthoceros_punctatus,(Anthoceros_venosus,((Anthoceros_sp_Gremmer_T07-1097,(Anthoceros_sambesianus,Anthoceros_lamellatus)),(Anthoceros_laminiferus,Anthoceros_scariosus))))))))))))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 118110 taxonomy "Leiosporoceros dussii->Leiosporoceros->Leiosporocerotaceae->Leiosporocerotales->Leiosporocerotopsida->Anthocerotophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579101"
@@ -115,9 +115,9 @@ pgloadind   Adding tree to graph tree id "2560"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Leiosporoceros dussii was remapped to 'Leiosporocerotopsida' (id=3056694)
-	Sphaerosporoceros adscendens was remapped to 'Sphaerosporoceros' (id=3056332)
-	Phaeomegaceros squamuliger subsp. hasselii was remapped to 'Phaeomegaceros squamuliger' (id=3056687)
+	Sphaerosporoceros adscendens was remapped to 'Sphaerosporoceros' (id=3056649)
+	Phaeomegaceros squamuliger subsp. hasselii was remapped to 'Phaeomegaceros squamuliger' (id=3057004)
+	Leiosporoceros dussii was remapped to 'Leiosporocerotopsida' (id=3057011)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -142,33 +142,34 @@ Adding property 'ot:studyId': 1268
 Dealing with metadata property: ot:dataDeposit
 Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S13448
 Committing nodes: 145
-	adding Node[3056316] Anthocerotales 164381 as compatible with Node[3056317]
-		adding Relationship[8163712]
-		adding to root Relationship[8163713]
-	adding Node[3056314] Anthocerotidae 108839 as compatible with Node[3056317]
-		adding Relationship[8163714]
-		adding to root Relationship[8163715]
-	adding Node[3056395] Notothyladales 133084 as compatible with Node[3056397]
-		adding Relationship[8163716]
-		adding to root Relationship[8163717]
-	adding Node[3056393] Notothylidae 108841 as compatible with Node[3056397]
-		adding Relationship[8163718]
-		adding to root Relationship[8163719]
-	adding Node[3056532] Phymatocerotaceae 133090 as compatible with Node[3056533]
-		adding Relationship[8163720]
-		adding to root Relationship[8163721]
-	adding Node[3056531] Phymatocerotales 133081 as compatible with Node[3056533]
-		adding Relationship[8163722]
-		adding to root Relationship[8163723]
-	adding Node[3056543] Dendrocerotales 707509 as compatible with Node[3056545]
-		adding Relationship[8163724]
-		adding to root Relationship[8163725]
-		adding Relationship[8163726] from Node[3056316] to Node[3056314]
-		adding Relationship[8163727] from Node[3056543] to Node[3056529]
-		adding Relationship[8163728] from Node[3056314] to Node[3056312]
-		adding Relationship[8163729] from Node[3056532] to Node[3056531]
-		adding Relationship[8163730] from Node[3056529] to Node[3467068]
-		adding Relationship[8163731] from Node[3056529] to Node[3056312]
-		adding Relationship[8163732] from Node[3056393] to Node[3056312]
-		adding Relationship[8163733] from Node[3056395] to Node[3056393]
-		adding Relationship[8163734] from Node[3467068] to Node[3056312]
+	adding Node[3056633] Anthocerotales 164381 as compatible with Node[3056634]
+		adding Relationship[8163723]
+		adding to root Relationship[8163724]
+	adding Node[3056631] Anthocerotidae 108839 as compatible with Node[3056634]
+		adding Relationship[8163725]
+		adding to root Relationship[8163726]
+	adding Node[3056712] Notothyladales 133084 as compatible with Node[3056714]
+		adding Relationship[8163727]
+		adding to root Relationship[8163728]
+	adding Node[3056710] Notothylidae 108841 as compatible with Node[3056714]
+		adding Relationship[8163729]
+		adding to root Relationship[8163730]
+	adding Node[3056849] Phymatocerotaceae 133090 as compatible with Node[3056850]
+		adding Relationship[8163731]
+		adding to root Relationship[8163732]
+	adding Node[3056848] Phymatocerotales 133081 as compatible with Node[3056850]
+		adding Relationship[8163733]
+		adding to root Relationship[8163734]
+	adding Node[3056860] Dendrocerotales 707509 as compatible with Node[3056862]
+		adding Relationship[8163735]
+		adding to root Relationship[8163736]
+		adding Relationship[8163737] from Node[3056633] to Node[3056631]
+		adding Relationship[8163738] from Node[3056849] to Node[3056848]
+		adding Relationship[8163739] from Node[3056848] to Node[3056846]
+		adding Relationship[8163740] from Node[3056712] to Node[3056710]
+		adding Relationship[8163741] from Node[3467061] to Node[3056629]
+		adding Relationship[8163742] from Node[3056846] to Node[3467061]
+		adding Relationship[8163743] from Node[3056846] to Node[3056629]
+		adding Relationship[8163744] from Node[3056710] to Node[3056629]
+		adding Relationship[8163745] from Node[3056860] to Node[3056846]
+		adding Relationship[8163746] from Node[3056631] to Node[3056629]

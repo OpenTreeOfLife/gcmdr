@@ -35,7 +35,7 @@ studytreelist=[
                "2687_6239", # Phocidae. Fulton and Strobeck. 2009. Proc. Roy. Soc.
                "2691_6244", # Procyonidae. Koepfli et al. 2007. MPE
                "2685_6235", # Mustelidae. Koepfli et al. 2008. BMC Evol. Biol.
-               "1634_3303", # Chiroptera. Agnarsson et  al. 2011. PLoS Currents Tree of Life
+               "1634_3303", # Chiroptera. Agnarsson et al. 2011. PLoS Currents Tree of Life
                "1927_6215", # Cetacea. Steeman et al. 2009. Syst. Biol.
                "1981_4052", # Felidae. Johnson et al. 2006. Science
                "2684_6229", # Hyaenidae. Koepfli et al. 2006. MPE

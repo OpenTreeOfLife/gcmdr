@@ -26,8 +26,8 @@ pgloadind     overlapping tips
 pgloadind       overlapping retained name "Plagiorhegma dubia" nexsonid "node1053093"
 pgloadind       overlapping pruned name "Jeffersonia" nexsonid "node1053092"
 pgloadind     pruning dups and overlapping name "Jeffersonia" nexsonid "node1053092"
-pgloadind     pruning dups and overlapping name "Caltha palustris" nexsonid "node1053018"
 pgloadind     pruning dups and overlapping name "Actaea" nexsonid "node1053008"
+pgloadind     pruning dups and overlapping name "Caltha palustris" nexsonid "node1053018"
 pgloadind   postpruning newick tree "((((((((((((((((Souliea_vaginata_Maxim_Franch_,Cimicifuga_simplex_DC_Wormsk_ex_Turcz_),Eranthis),(Anemonopsis,Beesia)),Asteropyrum),Caltha_palustris_var_membranacea),((((((Clematis,Naravelia),Anemoclema),(Anemone,Pulsatilla)),Hepatica),((((Batrachium,Ranunculus),Halerpestes),Myosurus),(Oxygraphis,Trautvetteria))),((Helleborus_foetidus,Helleborus_thibetanus),Callianthemum))),((((((Paraquilegia,Paropyrum),Leptopyrum),Thalictrum),((Enemion,Isopyrum),Dichocarpum)),(((Aquilegia_ecalcarata,Aquilegia_oxysepala),Semiaquilegia),Urophysa)),Nigella)),(((Consolida,Delphinium),Aconitum),((Megaleranthis,Trollius),Adonis))),(Coptis,Xanthorhiza)),Hydrastis),Glaucidium),(((((((Diphylleia_cymosa,Diphylleia_sinensis),(Podophyllum,Sinopodophyllum),Dysosma),Achlys),Bongardia),(Epimedium,Vancouveria)),Plagiorhegma_dubia),((((Caulophyllum_robustum,Caulophyllum_thalictroides),Gymnospermium),Nandina),((Berberis,Mahonia),Ranzania_japonica)))),(((((((Cissampelos,Cyclea),Stephania),Cocculus),(Albertisia,Pycnarrhena)),((Hypserpa,Pericampylus),Diploclisia)),(((Aspidocarya,Parabaena),(Tinomiscium,Tinospora)),(Anamirta,Arcangelisia))),(Menispermum,Sinomenium))),(((((((Akebia,Archakebia),(Holboellia,Parvatia,Stauntonia)),(Boquila,Lardizabala)),Sinofranchetia),Decaisnea),Sargentodoxa),(Circaeaster,Kingdonia))),((((Eomecon,Sanguinaria),(Hylomecon,Macleaya)),(Meconopsis,Papaver)),((Corydalis,Dicentra),(Hypecoum,Pteridophyllum)))),(Euptelea_pleiosperma,Euptelea_polyandra))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 512706 taxonomy "Actaea vaginata->Actaea->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053010"
@@ -139,9 +139,9 @@ pgloadind   Adding tree to graph tree id "6164"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Caltha palustris var. membranacea was remapped to 'Caltha' (id=2521858)
-	Ranzania japonica was remapped to 'Ranzania' (id=2521496)
-	Plagiorhegma dubia was remapped to 'Jeffersonia' (id=2521485)
+	Plagiorhegma dubia was remapped to 'Jeffersonia' (id=2521797)
+	Ranzania japonica was remapped to 'Ranzania' (id=2521808)
+	Caltha palustris var. membranacea was remapped to 'Caltha' (id=2522170)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -160,6 +160,7 @@ Adding property 'ot:focalClade': 1157975
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2644
 Committing nodes: 201
-	adding Node[2524528] Eupteleaceae 438206 as compatible with Node[2524529]
-		adding Relationship[8163847]
-		adding to root Relationship[8163848]
+	adding Node[2524840] Eupteleaceae 438206 as compatible with Node[2524841]
+		adding Relationship[8163858]
+		adding to root Relationship[8163859]
+		adding Relationship[8163860] from Node[2524840] to Node[2521511]

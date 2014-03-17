@@ -54,8 +54,8 @@ pgloadind       duplicate OTT ID 489144
 pgloadind     overlapping tips
 pgloadind       overlapping retained name "Icterus pyrrhopterus" nexsonid "node1086484"
 pgloadind       overlapping pruned name "Icterus cayanensis" nexsonid "node1086483"
-pgloadind     pruning dups and overlapping name "Icterus cayanensis" nexsonid "node1086483"
 pgloadind     pruning dups and overlapping name "Sturnella magna" nexsonid "node1086602"
+pgloadind     pruning dups and overlapping name "Icterus cayanensis" nexsonid "node1086483"
 pgloadind   postpruning newick tree "((((((((Agelaius_phoeniceus,Agelaius_assimilis),Agelaius_tricolor),(Agelaius_xanthomus,Agelaius_humeralis)),Nesopsar_nigerrimus),((((((Euphagus_carolinus,Euphagus_cyanocephalus),(((Quiscalus_nicaraguensis,Quiscalus_lugubris_lugubris),((Quiscalus_major,Quiscalus_palustris),Quiscalus_niger)),Quiscalus_quiscula)),Dives_atroviolaceus),(Dives_warczewiczi,Dives_dives)),(((((((((Pseudoleistes_guirahuro,Pseudoleistes_virescens),Xanthopsar_flavus),(Chrysomus_icterocephalus,Chrysomus_ruficapillus)),(Agelasticus_thilius,Agelasticus_cyanopus)),(Agelaioides_badius,Oreopsar_bolivianus)),Gnorimopsar_chopi),Curaeus_forbesi),(Curaeus_curaeus,Amblyramphus_holosericeus)),((Hypopyrrhus_pyrohypogaster,Lampropsar_tanagrinus),(Gymnomystax_mexicanus,(Macroagelaius_imthurni,Macroagelaius_subalaris))))),((((Molothrus_ater,Molothrus_aeneus),Molothrus_bonariensis),Molothrus_oryzivorus),Molothrus_rufoaxillaris))),(((((((Icterus_prosthemelas,(Icterus_spurius,Icterus_fuertesi)),((((Icterus_dominicensis,Icterus_laudabilis),((Icterus_pyrrhopterus,Icterus_chrysocephalus),Icterus_auricapillus)),((Icterus_oberi,Icterus_portoricensis),Icterus_bonana)),(Icterus_melanopsis,Icterus_northropi))),Icterus_cucullatus),Icterus_wagleri),Icterus_maculialatus),(((Icterus_pectoralis,Icterus_graceannae),((Icterus_croconotus,Icterus_icterus),Icterus_jamacaii)),Icterus_mesomelas)),(((Icterus_chrysater,Icterus_graduacauda),Icterus_parisorum),((((Icterus_gularis,Icterus_nigrogularis),Icterus_auratus),((Icterus_pustulatus,Icterus_bullockii),(Icterus_abeillei,Icterus_galbula))),Icterus_leucopteryx)))),(((((((Cacicus_chrysonotus_chrysonotus,Cacicus_chrysonotus_leucoramphus),((Clypicterus_oseryi,Cacicus_haemorrhous),Ocyalus_latirostris)),(((Cacicus_uropygialis_pacificus,Cacicus_uropygialis_uropygialis),Cacicus_uropygialis_microrhynchus),(Cacicus_cela_cela,Cacicus_cela_vitellinus))),((Cacicus_koepckeae,Cacicus_sclateri),Cacicus_chrysopterus)),Cacicus_solitarius),((((((Psarocolius_guatimozinus,Psarocolius_cassini),Psarocolius_montezuma),Psarocolius_bifasciatus_yuracares),Psarocolius_viridis),Psarocolius_decumanus),((Psarocolius_atrovirens,Psarocolius_angustifrons_angustifrons),Psarocolius_wagleri))),Cacicus_melanicterus)),((((((Sturnella_defilippii,Sturnella_loyca),Sturnella_bellicosa),(Sturnella_superciliaris,Sturnella_militaris)),(Sturnella_neglecta,Sturnella_lilianae)),Dolichonyx_oryzivorus),Xanthocephalus_xanthocephalus))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 226605 taxonomy "Agelaius phoeniceus->Agelaius->Icteridae->Passeroidea->Passeriformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1086463"
@@ -171,21 +171,21 @@ pgloadind   Adding tree to graph tree id "6281"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Gnorimopsar chopi was remapped to 'Gnorimopsar' (id=396206)
-	Psarocolius angustifrons angustifrons was remapped to 'Psarocolius angustifrons' (id=396370)
-	Hypopyrrhus pyrohypogaster was remapped to 'Fringillidae' (id=393472)
-	Dolichonyx oryzivorus was remapped to 'Dolichonyx' (id=396333)
-	Icterus pyrrhopterus was remapped to 'Icterus cayanensis' (id=396255)
-	Quiscalus lugubris lugubris was remapped to 'Quiscalus lugubris' (id=396413)
-	Oreopsar bolivianus was remapped to 'Oreopsar' (id=396390)
-	Amblyramphus holosericeus was remapped to 'Amblyramphus' (id=396105)
-	Xanthocephalus xanthocephalus was remapped to 'Xanthocephalus' (id=396135)
-	Cacicus chrysonotus chrysonotus was remapped to 'Cacicus chrysonotus' (id=396128)
-	Gymnomystax mexicanus was remapped to 'Gymnomystax' (id=396102)
-	Ocyalus latirostris was remapped to 'Ocyalus' (id=396070)
-	Lampropsar tanagrinus was remapped to 'Lampropsar' (id=396302)
-	Xanthopsar flavus was remapped to 'Xanthopsar' (id=396343)
-	Nesopsar nigerrimus was remapped to 'Nesopsar' (id=396098)
+	Xanthopsar flavus was remapped to 'Xanthopsar' (id=396624)
+	Gnorimopsar chopi was remapped to 'Gnorimopsar' (id=396487)
+	Dolichonyx oryzivorus was remapped to 'Dolichonyx' (id=396614)
+	Psarocolius angustifrons angustifrons was remapped to 'Psarocolius angustifrons' (id=396651)
+	Cacicus chrysonotus chrysonotus was remapped to 'Cacicus chrysonotus' (id=396409)
+	Hypopyrrhus pyrohypogaster was remapped to 'Fringillidae' (id=393753)
+	Nesopsar nigerrimus was remapped to 'Nesopsar' (id=396379)
+	Lampropsar tanagrinus was remapped to 'Lampropsar' (id=396583)
+	Quiscalus lugubris lugubris was remapped to 'Quiscalus lugubris' (id=396694)
+	Amblyramphus holosericeus was remapped to 'Amblyramphus' (id=396386)
+	Icterus pyrrhopterus was remapped to 'Icterus cayanensis' (id=396536)
+	Xanthocephalus xanthocephalus was remapped to 'Xanthocephalus' (id=396416)
+	Ocyalus latirostris was remapped to 'Ocyalus' (id=396351)
+	Gymnomystax mexicanus was remapped to 'Gymnomystax' (id=396383)
+	Oreopsar bolivianus was remapped to 'Oreopsar' (id=396671)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id

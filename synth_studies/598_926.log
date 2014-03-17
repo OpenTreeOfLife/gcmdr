@@ -55,13 +55,13 @@ pgloadind       dubious OTT ID 4731014
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Sphenopus divaricatus" nexsonid "node379666"
 pgloadind       dubious OTT ID 4730979
-pgloadind     pruning dups and overlapping name "Sphenopus divaricatus" nexsonid "node379666"
-pgloadind     pruning dups and overlapping name "Aniselytron treutleri" nexsonid "node379615"
 pgloadind     pruning dups and overlapping name "Sesleria caerulea" nexsonid "node379652"
+pgloadind     pruning dups and overlapping name "Sphenopus divaricatus" nexsonid "node379666"
 pgloadind     pruning dups and overlapping name "Triplachne nitens" nexsonid "node379563"
-pgloadind     pruning dups and overlapping name "Molineriella laevis" nexsonid "node379636"
-pgloadind     pruning dups and overlapping name "Bellardiochloa variegata" nexsonid "node379614"
 pgloadind     pruning dups and overlapping name "Echinopogon caespitosus" nexsonid "node379572"
+pgloadind     pruning dups and overlapping name "Bellardiochloa variegata" nexsonid "node379614"
+pgloadind     pruning dups and overlapping name "Aniselytron treutleri" nexsonid "node379615"
+pgloadind     pruning dups and overlapping name "Molineriella laevis" nexsonid "node379636"
 pgloadind   postpruning newick tree "((((((((((Agrostis_tenerrima,Polypogon_monspeliensis),Agrostis_thurberiana),Gastridium_ventricosum),Calamagrostis_arundinacea,Calamagrostis_canadensis),(Calotheca_brizoides,Chascolytrum_subaristatum,Gymnachne_koelerioides)),Dichelachne_micrantha),Briza_minor),(Anthoxanthum_odoratum,((Avena_sativa,Helictotrichon_convolutum,Helictotrichon_mortonianum),((((Gaudinia_fragilis,Gaudinia_hispanica),Parafestuca_albida),Rostraria_pubescens),(Graphephorum_wolfii,Trisetum_cernuum_subsp_canescens))))),(Amphibromus_scabrivalvis,Torreyochloa_pauciflora)),(((((Aira_caryophyllea,Aira_cupaniana),Avenella_flexuosa),(Catabrosa_aquatica,(Puccinellia_distans,Sclerochloa_dura))),(((Arctagrostis_latifolia,(Festucella_eriopoda,Hookerochloa_hookeriana),Poa_andina),Beckmannia_syzigachne,(Alopecurus_magellanicus,Alopecurus_textilis)),(Dupontia_fisheri,(Poa_alpina,Poa_billardierei)),Milium_vernale,Phleum_pratense)),(((Deschampsia_cespitosa,(Holcus_annuus,Vahlodea_atropurpurea)),(((((Dielsiochloa_floribunda,Festuca_rubra),Festuca_subverticillata),Vulpia_microstachys),(Leucopoa_kingii,((Lolium_perenne,Lolium_rigidum),Schedonorus_arundinaceus))),Avenula_hookeri)),((Cynosurus_cristatus,((Cutandia_memphitica,Desmazeria_sicula),Parapholis_incurva)),(Dactylis_glomerata,Mibora_minima)))))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 91945 taxonomy "Agrostis tenerrima->Agrostis->Agrostidinae->Poeae->Pooideae->BEP clade->Poaceae->Poales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node379558"
@@ -130,44 +130,44 @@ pgloadind   Adding tree to graph tree id "926"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Holcus annuus was remapped to 'Holcinae' (id=2884702)
-	Torreyochloa pauciflora was remapped to 'Torreyochloinae' (id=2880818)
-	Gymnachne koelerioides was remapped to 'Gymnachne' (id=2888670)
-	Vahlodea atropurpurea was remapped to 'Vahlodea' (id=2887647)
-	Polypogon monspeliensis was remapped to 'Polypogon' (id=2886417)
-	Phleum pratense was remapped to 'Phleum' (id=2884840)
-	Agrostis thurberiana was remapped to 'Podagrostis' (id=2886407)
-	Avenella flexuosa was remapped to 'Avenella' (id=2887668)
-	Desmazeria sicula was remapped to 'Desmazeria' (id=2889442)
-	Catabrosa aquatica was remapped to 'Catabrosa' (id=2888716)
-	Dielsiochloa floribunda was remapped to 'Dielsiochloa' (id=2883139)
-	Anthoxanthum odoratum was remapped to 'Phalaridinae' (id=2888128)
-	Calotheca brizoides was remapped to 'Calotheca' (id=2888486)
-	Mibora minima was remapped to 'Mibora' (id=2884788)
-	Parapholis incurva was remapped to 'Parapholis' (id=2889400)
-	Dichelachne micrantha was remapped to 'Dichelachne' (id=2885242)
-	Trisetum cernuum subsp. canescens was remapped to 'Trisetum' (id=2883904)
-	Arctagrostis latifolia was remapped to 'Arctagrostis' (id=2889574)
-	Cynosurus cristatus was remapped to 'Cynosurinae' (id=2882831)
-	Puccinellia distans was remapped to 'Puccinellia' (id=2888757)
-	Milium vernale was remapped to 'Milium' (id=2884761)
-	Rostraria pubescens was remapped to 'Rostraria' (id=2884284)
-	Poa andina was remapped to 'Nicoraepoa' (id=2889548)
-	Cutandia memphitica was remapped to 'Cutandia' (id=2889296)
-	Avena sativa was remapped to 'Avena' (id=2884420)
-	Dactylis glomerata was remapped to 'Dactylidinae' (id=2882755)
-	Agrostis tenerrima was remapped to 'Agrostis' (id=2885354)
-	Amphibromus scabrivalvis was remapped to 'Amphibromus' (id=2884676)
-	Graphephorum wolfii was remapped to 'Graphephorum' (id=2882881)
-	Deschampsia cespitosa was remapped to 'Deschampsia' (id=2887859)
-	Gastridium ventricosum was remapped to 'Gastridium' (id=2885280)
-	Beckmannia syzigachne was remapped to 'Beckmannia' (id=2884819)
-	Sclerochloa dura was remapped to 'Sclerochloa' (id=2888684)
-	Vulpia microstachys was remapped to 'Vulpia' (id=2882512)
-	Leucopoa kingii was remapped to 'Leucopoa' (id=2889483)
-	Avenula hookeri was remapped to 'Helictochloa' (id=2882959)
-	Dupontia fisheri was remapped to 'Dupontia' (id=2889675)
-	Parafestuca albida was remapped to 'Parafestuca' (id=2884418)
+	Rostraria pubescens was remapped to 'Rostraria' (id=2884600)
+	Catabrosa aquatica was remapped to 'Catabrosa' (id=2889032)
+	Calotheca brizoides was remapped to 'Calotheca' (id=2888802)
+	Dactylis glomerata was remapped to 'Dactylidinae' (id=2883071)
+	Parafestuca albida was remapped to 'Parafestuca' (id=2884734)
+	Phleum pratense was remapped to 'Phleum' (id=2885156)
+	Vulpia microstachys was remapped to 'Vulpia' (id=2882828)
+	Holcus annuus was remapped to 'Holcinae' (id=2885018)
+	Polypogon monspeliensis was remapped to 'Polypogon' (id=2886733)
+	Cynosurus cristatus was remapped to 'Cynosurinae' (id=2883147)
+	Avena sativa was remapped to 'Avena' (id=2884736)
+	Deschampsia cespitosa was remapped to 'Deschampsia' (id=2888175)
+	Anthoxanthum odoratum was remapped to 'Phalaridinae' (id=2888444)
+	Amphibromus scabrivalvis was remapped to 'Amphibromus' (id=2884992)
+	Milium vernale was remapped to 'Milium' (id=2885077)
+	Trisetum cernuum subsp. canescens was remapped to 'Trisetum' (id=2884220)
+	Mibora minima was remapped to 'Mibora' (id=2885104)
+	Gastridium ventricosum was remapped to 'Gastridium' (id=2885596)
+	Beckmannia syzigachne was remapped to 'Beckmannia' (id=2885135)
+	Graphephorum wolfii was remapped to 'Graphephorum' (id=2883197)
+	Arctagrostis latifolia was remapped to 'Arctagrostis' (id=2889890)
+	Gymnachne koelerioides was remapped to 'Gymnachne' (id=2888986)
+	Dielsiochloa floribunda was remapped to 'Dielsiochloa' (id=2883455)
+	Avenula hookeri was remapped to 'Helictochloa' (id=2883275)
+	Poa andina was remapped to 'Nicoraepoa' (id=2889864)
+	Desmazeria sicula was remapped to 'Desmazeria' (id=2889758)
+	Agrostis tenerrima was remapped to 'Agrostis' (id=2885670)
+	Avenella flexuosa was remapped to 'Avenella' (id=2887984)
+	Dupontia fisheri was remapped to 'Dupontia' (id=2889991)
+	Parapholis incurva was remapped to 'Parapholis' (id=2889716)
+	Torreyochloa pauciflora was remapped to 'Torreyochloinae' (id=2881134)
+	Vahlodea atropurpurea was remapped to 'Vahlodea' (id=2887963)
+	Sclerochloa dura was remapped to 'Sclerochloa' (id=2889000)
+	Agrostis thurberiana was remapped to 'Podagrostis' (id=2886723)
+	Dichelachne micrantha was remapped to 'Dichelachne' (id=2885558)
+	Leucopoa kingii was remapped to 'Leucopoa' (id=2889799)
+	Puccinellia distans was remapped to 'Puccinellia' (id=2889073)
+	Cutandia memphitica was remapped to 'Cutandia' (id=2889612)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id

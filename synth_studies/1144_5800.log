@@ -32,8 +32,8 @@ pgloadind       dubious OTT ID 702062
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Zoophthora phalloides" nexsonid "node991076"
 pgloadind       dubious OTT ID 774647
-pgloadind     pruning dups and overlapping name "Erynia sciarae" nexsonid "node991096"
 pgloadind     pruning dups and overlapping name "Zoophthora phalloides" nexsonid "node991076"
+pgloadind     pruning dups and overlapping name "Erynia sciarae" nexsonid "node991096"
 pgloadind   postpruning newick tree "((((Basidiobolus_magnus,Basidiobolus_ranarum),Basidiobolus_microsporus),Schizangiella_serpentis),(((Conidiobolus_osmodes,Conidiobolus_thromboides),(((Entomophthora_muscae,Eryniopsis_caroliniana),(((Conidiobolus_pseudapiculatus,Batkoa_apiculata),(Conidiobolus_obscurus,Batkoa_gigantea)),Batkoa_major)),(((((Erynia_ovispora,Erynia_rhizospora),Erynia_conica),(Pandora_dipterigena,(Furia_pieris,Pandora_delphacis))),((((Furia_neopyralidarum,Furia_virescens),Pandora_kondoiensis),Furia_ithacensis),Pandora_neoaphidis)),(Zoophthora_lanceolata,(Zoophthora_anglica,Zoophthora_occidentalis))))),(Conidiobolus_lamprauges,Conidiobolus_coronatus)))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 313416 taxonomy "Basidiobolus magnus->Basidiobolus->Basidiobolaceae->Basidiobolales->Basidiobolomycetes->Entomophthoromycota->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node991051"
@@ -72,9 +72,9 @@ pgloadind   Adding tree to graph tree id "5800"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Schizangiella serpentis was remapped to 'Schizangiella' (id=294504)
-	Eryniopsis caroliniana was remapped to 'Eryniopsis' (id=294400)
-	Entomophthora muscae was remapped to 'Entomophthora' (id=293929)
+	Entomophthora muscae was remapped to 'Entomophthora' (id=294253)
+	Schizangiella serpentis was remapped to 'Schizangiella' (id=294828)
+	Eryniopsis caroliniana was remapped to 'Eryniopsis' (id=294724)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -97,15 +97,15 @@ Adding property 'ot:curatedType': ML, LSU + SSU (rooted)
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 1144
 Committing nodes: 57
-	adding Node[293795] Entomophthoromycetes 5219602 as compatible with Node[293796]
-		adding Relationship[8163505]
-		adding to root Relationship[8163506]
-	adding Node[294488] Basidiobolales 149101 as compatible with Node[294489]
-		adding Relationship[8163507]
-		adding to root Relationship[8163508]
-	adding Node[294487] Basidiobolomycetes 5219604 as compatible with Node[294489]
-		adding Relationship[8163509]
-		adding to root Relationship[8163510]
-		adding Relationship[8163511] from Node[294488] to Node[294487]
-		adding Relationship[8163512] from Node[294487] to Node[293793]
-		adding Relationship[8163513] from Node[293795] to Node[293793]
+	adding Node[294119] Entomophthoromycetes 5219602 as compatible with Node[294120]
+		adding Relationship[8163516]
+		adding to root Relationship[8163517]
+	adding Node[294812] Basidiobolales 149101 as compatible with Node[294813]
+		adding Relationship[8163518]
+		adding to root Relationship[8163519]
+	adding Node[294811] Basidiobolomycetes 5219604 as compatible with Node[294813]
+		adding Relationship[8163520]
+		adding to root Relationship[8163521]
+		adding Relationship[8163522] from Node[294119] to Node[294117]
+		adding Relationship[8163523] from Node[294812] to Node[294811]
+		adding Relationship[8163524] from Node[294811] to Node[294117]
