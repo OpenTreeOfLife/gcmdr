@@ -16,6 +16,8 @@ from Dail
 2542	5471, 5588, 5590	Jenna Morgan Lang, Aaron E. Darling, Jonathan A. Eisen. 2013. Phylogeny of Bacterial and Archaeal Genomes Using Conserved Genes: Supertrees and Supermatrices. PLoS ONE 8(4):e62510.
 
 """
+## A possible alternative to Katz et al. 2012:
+# studytreelist=["2822_6569"] # Parfrey et al. 2011. PNAS
 
 studytreelist=["425_5976", # Eukaryota. Katz et al. 2012. Syst Biol.
 "239_111",
