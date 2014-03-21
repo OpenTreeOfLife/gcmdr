@@ -63,7 +63,7 @@ studytreelist=[
                "423_2857",  # Amphibia. Pyron and Weins. 2011. MPE
                "2573_5959", # Sauria. Crawford et al. 2012. Biology Letters
                "2711_6295", # Henophidia. Reynolds et al. 2014. MPE *** check this doesn't break the Pyron study
-               #"2460_5285", # Squamata. Pyron et al. 2013. BMC Evol. Biol. -- Anolis nonmonophyly
+               "2460_5285", # Squamata. Pyron et al. 2013. BMC Evol. Biol. -- Anolis nonmonophyly
 
      ## Decapoda
                "1252_2661", # maps to: Anomura
