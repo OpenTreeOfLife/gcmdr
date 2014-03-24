@@ -1,4 +1,4 @@
-synthottolid="805080"
+synthottolid="93302"
 
 """
 full list
@@ -17,8 +17,9 @@ from Dail
 
 """
 ## A possible alternative to Katz et al. 2012:
-# studytreelist=["2822_6569"] # Parfrey et al. 2011. PNAS
+studytreelist=["2822_6569"] # Parfrey et al. 2011. PNAS
 
+"""
 studytreelist=["425_5976", # Eukaryota. Katz et al. 2012. Syst Biol.
 "239_111",
 "239_112",
@@ -37,12 +38,13 @@ studytreelist=["425_5976", # Eukaryota. Katz et al. 2012. Syst Biol.
 "2425_5121",
 "2542_5471",
 "2542_5588",
-"2542_5590"] 
+"2542_5590"]
+"""
 if __name__ == "__main__":
 	import load_synth_extract
 	from stephen_desktop_conf import *
 
-	synthottolid="805080"
+	synthottolid="93302"
 
 	print "loading synthottolid:",synthottolid
 	print "loading studytreelist:",studytreelist

@@ -15,7 +15,7 @@ studytreelist = []
 studytreelist.extend(plantslist)
 studytreelist.extend(metalist)
 studytreelist.extend(fungilist)
-#studytreelist.extend(microbelist)
+studytreelist.extend(microbelist)
 
 mapcompat = [True] * len(studytreelist)
 #mapcompat = [] * len(studytreelist)
