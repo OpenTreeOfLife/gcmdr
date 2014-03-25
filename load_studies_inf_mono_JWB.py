@@ -1,7 +1,7 @@
 import load_synth_extract
 
-#from metazoa_all import studytreelist as metalist
-from metazoa import studytreelist as metalist
+from metazoa_all import studytreelist as metalist
+#from metazoa import studytreelist as metalist
 
 if __name__ == "__main__":
     from wopr_conf_TEMP import *

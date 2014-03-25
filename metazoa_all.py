@@ -169,8 +169,8 @@ these are the studies identified by Chris, plus others from JWB
 "2150_4541", # Colletinae. Kuhlman et al. 2009. Insect. Syst. Evol.
 "2149_6486", # Sceloporus. Leache. 2149. MPE
 "2816_6556", # Primates. Pozzi et al. 2014. MPE
-
-
+"2824_6571", # Dasypodidae. Delsuc et al. 2003. MPE
+"2825_6572" # Xenarthra. Delsuc et al. 2012. MPE
 
 """
 
@@ -296,6 +296,10 @@ these are the studies identified by Chris, plus others from JWB
 studytreelist=[
 
 
+#"425_5976", 
+#"2822_6569" # Parfrey et al. 2011. PNAS
+
+#"2818_6563"
 
 
 
