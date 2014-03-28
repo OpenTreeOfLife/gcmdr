@@ -27,7 +27,7 @@ studytreelist=[
                "2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
                "420_522",   # Aves. Hackett et al. 2008. Science
      ## Mammals
-               "2825_6572" # Xenarthra. Delsuc et al. 2012. MPE
+               "2825_6572", # Xenarthra. Delsuc et al. 2012. MPE
                "2695_6250", # Ursidae. Krause et al. 2008. BMC Evol. Biol.
                "2656_6185", # Primates. Springer et al. 2012. PLoS ONE
                "1600_3231", # Euarchontoglires (Primates). Perelman et al. 2011. PloS Genetics *** Springer et al. have better sampling, but trees agree
