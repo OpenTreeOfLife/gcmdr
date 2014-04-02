@@ -9,7 +9,7 @@ studyloc="/home/josephwb/Work/OToL/avatol_nexsons"
 bdir="/home/josephwb/Work/OToL/treemachine/Synthesis/"
 
 #location of just ott database
-dott=bdir+"Life.2.4.draft21.db"
+dott=bdir+"Life.2.5.draft1.db"
 #location of loading database
 dload=bdir+"terp.db"
 #location of synth database

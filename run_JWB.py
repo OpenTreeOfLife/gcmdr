@@ -15,7 +15,7 @@ from wopr_conf import *
 from plants import studytreelist as plantslist
 from metazoa import studytreelist as metalist
 from fungi import studytreelist as fungilist
-from microbes import studytreelist as microbelist
+#from microbes import studytreelist as microbelist
 
 studytreelist = []
 #studytreelist.extend(goolist)
@@ -27,7 +27,7 @@ studytreelist = []
 studytreelist.extend(plantslist)
 studytreelist.extend(metalist)
 studytreelist.extend(fungilist)
-studytreelist.extend(microbelist)
+#studytreelist.extend(microbelist)
 
 import load_synth_extract
 
@@ -50,10 +50,10 @@ print "loading synthottolid:",synthottolid
 print "loading studytreelist:",studytreelist
 
 # analysis name
-#aname="Metazoa_test_2.4draft21_mapcompat"
-#aname="Life_taxonomy-only_2.4draft21"
-#aname="Decapoda_OTT2.4draft17_taxonomy-only"
-aname="Life_2.4draft21_mapcompat"
+#aname="Metazoa_test_2.5draft1_mapcompat"
+#aname="Life_taxonomy-only_2.5draft1"
+#aname="Decapoda_OTT2.5draft1_taxonomy-only"
+aname="Life_no-mibrobes_v2.5draft1_mapcompat"
 # location of synth database
 dsynth=bdir+aname+".db"
 # location of synth treefile
