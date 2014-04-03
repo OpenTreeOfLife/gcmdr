@@ -4,7 +4,9 @@ this is the stuff specific to the plant studies that are loaded. It can include 
 
 import load_synth_extract
 
-studytreelist=["2827_6577",#Ilex
+studytreelist=["2828_6578",#caprifolieae
+               "2827_6577",#Ilex
+               #end new
                "1022_1967",#Pontederiaceae
                #"194_2284",#early and nymphaeles
                "562_817", #Poales
