@@ -4,9 +4,7 @@ this is the stuff specific to the plant studies that are loaded. It can include 
 
 import load_synth_extract
 
-studytreelist=["2828_6578",#caprifolieae
-               "2827_6577",#Ilex
-               #end new
+studytreelist=["2827_6577",#Ilex NEW
                "1022_1967",#Pontederiaceae
                #"194_2284",#early and nymphaeles
                "562_817", #Poales
@@ -17,9 +15,13 @@ studytreelist=["2828_6578",#caprifolieae
                "926_1825",#rosaceae
                "1133_5647", #Rosales
                "2624_6139", #Veronica
+               "2128_4437",#Plantago
+               "1102_2177",#Collinsia
                "1118_2226", #Mentheae,lamiaceae
                "2669_6213", #Lamiaceae
 ##               "19_6175", #Verbenaceae
+               "2032_5922",#Ruella
+               "1901_3877",#Lentibulariaceae
                "713_1287", #Lamiales
                "1131_2265", #Saxifragaceae
                "2608_6288", #saxifrigales
@@ -57,13 +59,15 @@ studytreelist=["2828_6578",#caprifolieae
                "2045_4213", #Acacia FABALES!
                "605_947", #Strophostyles (Fabaceae) FABALES!
                "271_5017", #Polygalaceae FABALES!
-               "265_153", #Fabales FABALES!
+               #"265_153", #Fabales FABALES!
                #"998_2313", #Fabales
                "2661_6198", #Ericales
                "2645_6165",#Menispermaceae
                "2644_6164",#Ranunculales
                "2610_6117", #malpighiales tree, the best one we have right now, we think6
                "2642_6161",#Cayophyllales; not sure if you have a better study here)
+               "2052_4228",#Lundia
+               "1103_2178",#Bignonieae
                "14_12", #Bignoniaceae
                "2140_4483",#Annonaceae
                "2648_6171",#Marchantiales
@@ -75,16 +79,36 @@ studytreelist=["2828_6578",#caprifolieae
                "2564_5699",#Polystichum
                "2042_4202",#Bartramiaceae
 ##               "2034_4191",#Ruellieae
+               "2000_4098",#Coffea
+               "20_2162",#Gallium
                "1101_2172",#Rubieae
                "2565_5708",#Ericoideae
+               "1094_2138",#Apocynaceae
                "2641_6160",#Rubiaceae
                "99_5885",#Barnadesioideae
                "275_167",#Celastraceae
                "93_1411",#Symplocos
                "30_2281",#Illicium
-               "36_36",#Dendropanax
+               #"36_36",#Dendropanax NOT ROOTED AND PROBABLY NOT GREAT
+               "898_1732",#Schefflera
+               "216_5865",#Hedera
+               "901_1740",#Meryta
+               "2830_6583",#brassaiopsis
+               "2831_6584",#Escallonia
+               "719_1296",#Nymphoides
+               "1975_4041",#Tragopogon
+               "1821_3678",#Helichrysum
+               "1583_3194",#Gaillardia
+               "1581_3188",#Dubautia
+               "1575_3164",#Tolpis
+               "1573_3144",#Onoseris
+               "934_1832",#Echinops
+               "200_6586",#Encelia
+               "152_5743",#Coreopsis
+               "53_1281",#Euryops
+               "2076_4282",#Garrya 
+               "2832_6586",#Sedum    
                "37_5871",#Rhus 
-               "41_1396",#Feddea
                "50_1397",#Anagallis 
                "1866_3765",#Thesium (Santalaceae)
                "59_5731",#Aristolochiaceae
@@ -109,19 +133,31 @@ studytreelist=["2828_6578",#caprifolieae
                "921_4103",#Oryzeae (Poaceae)
                "1300_2613",#Hymenophyllum (Hymenophyllaceae)
                #"1302_2616", make for weird euphyllophyta
+               "1962_6580",#Viburnum Clement and Donoghue 2011
                "915_1802",#Viburnum
                "915_1803",#Valerianaceae
-               "1901_3877",#Lentibulariaceae
+               "2625_6140",#Utricularia
+               "1130_2258",#Nicotiana
+               "2047_4217",#Cuscuta
+               "386_459",#Brunsfelisia
+               "139_5860",#Nierembergia
+               "126_2233",#Solanum
+               "136_5857",#cestrum               
                "9_1",#Campanulidae
+               "2828_6578",#caprifolieae Smith 2009 NEW
                "142_38",#Asclepias
+               "2638_6157",#Santalales
                "21_37",#Solanaceae
                "72_801",#Malpighiaceae
                "75_1743",#Apioideae
-               "535_768",#Eriogonoideae
+               "1974_4038",#PolygonaceaeS
+               "1974_4039",#Rheum
+               #"535_768",#Eriogonoideae
                "61_816",#Bromeliaceae
 ##               "284_185",#Cucurbitaceae
                "2546_5493",#Sapindaceae
                #"1086_2111",#Cactaceae
+               "41_1396",#Feddea
                "283_184",#Celastrales
                #"1116_2217",#Lamiales (Oxelman 2005)
                "225_5991",#deep plants
