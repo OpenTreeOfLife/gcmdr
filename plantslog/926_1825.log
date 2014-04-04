@@ -10,23 +10,19 @@ pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1007/s00606
 pgloadind   property added ot:curatorName "bryan drew"
 pgloadind   property added ot:studyId "926"
 pgloadind   property added ot:studyYear "2007"
-pgloadind   property added ot:focalClade "879998"
+pgloadind   property added ot:focalClade "208036"
 pgloadind   property added ot:focalCladeOTTTaxonName "Rosaceae"
 pgloadind   property added ot:inGroupClade "node490024"
 pgloadind   property added ot:curatedType "strict consensus parsimony tree"
 loading a specific tree: 1825
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "1825"
-pgloadind     OTT ID missing name "Polylepis" nexsonid "node490037"
-pgloadind   TNRS unmatched total number 0
-813419 jade.tree.JadeNode@6f03de90
-pgloadind     TNRS resolved ottId OTT ID 813419 name "Polylepis" searched on "Polylepis"nexsonid "node490037"
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Poterium" nexsonid "node490042"
-pgloadind       dubious OTT ID 4729448
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Potentilla" nexsonid "node490071"
-pgloadind       dubious OTT ID 187939
+pgloadind     OTT ID missing name "Poterium" nexsonid "node490042"
+pgloadind     OTT ID missing name "Potentilla" nexsonid "node490071"
+pgloadind   TNRS unmatched total number 1
+pgloadind     Name not unique in graphNamedNodes Potentilla 2
+pgloadind     pruning unmapped name "Potentilla" nexsonid "node490071"
+pgloadind     pruning unmapped name "Poterium" nexsonid "node490042"
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Gillenia" nexsonid "node490142"
 pgloadind       dubious OTT ID 840675
@@ -36,106 +32,101 @@ pgloadind       duplicate OTT ID 731578
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Lyonothamnus" nexsonid "node490176"
 pgloadind       dubious OTT ID 620830
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Cowania" nexsonid "node490182"
-pgloadind       dubious OTT ID 5146785
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Purshia" nexsonid "node490183"
-pgloadind       dubious OTT ID 738752
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Chamaebatia" nexsonid "node490182"
+pgloadind       duplicate OTT ID 653074
 pgloadind     overlapping tips
 pgloadind       overlapping retained name "Sanguisorba annua" nexsonid "node490041"
 pgloadind       overlapping pruned name "Sanguisorba" nexsonid "node490039"
 pgloadind     pruning dups and overlapping name "Prunus" nexsonid "node490172"
-pgloadind     pruning dups and overlapping name "Poterium" nexsonid "node490042"
-pgloadind     pruning dups and overlapping name "Cowania" nexsonid "node490182"
-pgloadind     pruning dups and overlapping name "Gillenia" nexsonid "node490142"
-pgloadind     pruning dups and overlapping name "Purshia" nexsonid "node490183"
-pgloadind     pruning dups and overlapping name "Sanguisorba" nexsonid "node490039"
+pgloadind     pruning dups and overlapping name "Chamaebatia" nexsonid "node490182"
 pgloadind     pruning dups and overlapping name "Lyonothamnus" nexsonid "node490176"
-pgloadind     pruning dups and overlapping name "Potentilla" nexsonid "node490071"
-pgloadind   postpruning newick tree "(((((((Sanguisorba_annua,(((Acaena,Margyricarpus),Polylepis),Cliffortia)),((Agrimonia,(Aremonia,(Hagenia,Leucosidea))),Spenceria)),(Rosa,(((((Alchemilla,Comarum),Sibbaldia),Sibbaldianthe),((Chamaerhodos,(Dasiphora,Potaninia)),Drymocallis)),Fragaria))),(Fallugia,Geum,Sieversia)),Rubus),Filipendula),(((Cercocarpus,Chamaebatia),Dryas),((((Adenostoma,(Chamaebatiaria,(Sorbaria,Spiraeanthus))),((((Aruncus,Luetkea),Holodiscus),((Kelseya,Petrophytum),Spiraea)),((((((Amelanchier,Peraphyllum),Malacomeles),(Crataegus,Mespilus)),Aria,Aronia,(Chaenomeles,Osteomeles),((Chamaemeles,Malus),Cotoneaster),(Chamaemespilus,Torminalis),Cormus,(Cydonia,(Photinia,Pseudocydonia)),Dichotomanthes,Docyniopsis,((((Eriobotrya,Rhaphiolepis),Heteromeles),Pyrus),Stranvaesia),Eriolobus,Pyracantha,Sorbus),Vauquelinia),(Kageneckia,Lindleya)))),(((Coleogyne,Kerria,Neviusia),Rhodotypos),(Exochorda,(Oemleria,Prinsepia)))),((Neillia,Physocarpus),(Maddenia,Prunus,Pygeum)))))"
+pgloadind     pruning dups and overlapping name "Sanguisorba" nexsonid "node490039"
+pgloadind     pruning dups and overlapping name "Gillenia" nexsonid "node490142"
+pgloadind   postpruning newick tree "(((((((Sanguisorba_annua,(((Acaena,Margyricarpus),Polylepis),Cliffortia)),((Agrimonia,(Aremonia,(Hagenia,Leucosidea))),Spenceria)),(Rosa,(((((Alchemilla,Comarum),Sibbaldia),Sibbaldianthe),((Chamaerhodos,(Dasiphora,Potaninia)),Drymocallis)),Fragaria))),(Fallugia,Geum,Sieversia)),Rubus),Filipendula),(((Cercocarpus,(Chamaebatia,Purshia)),Dryas),((((Adenostoma,(Chamaebatiaria,(Sorbaria,Spiraeanthus))),((((Aruncus,Luetkea),Holodiscus),((Kelseya,Petrophytum),Spiraea)),((((((Amelanchier,Peraphyllum),Malacomeles),(Crataegus,Mespilus)),Aria,Aronia,(Chaenomeles,Osteomeles),((Chamaemeles,Malus),Cotoneaster),(Chamaemespilus,Torminalis),Cormus,(Cydonia,(Photinia,Pseudocydonia)),Dichotomanthes,Docyniopsis,((((Eriobotrya,Rhaphiolepis),Heteromeles),Pyrus),Stranvaesia),Eriolobus,Pyracantha,Sorbus),Vauquelinia),(Kageneckia,Lindleya)))),(((Coleogyne,Kerria,Neviusia),Rhodotypos),(Exochorda,(Oemleria,Prinsepia)))),((Neillia,Physocarpus),(Maddenia,Prunus,Pygeum)))))"
 pgloadind   taxon mapping summary
-pgloadind     taxon mapping OTT ID 297052 taxonomy "Sanguisorba annua->Sanguisorba->Sanguisorbinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490041"
-pgloadind     taxon mapping OTT ID 628663 taxonomy "Acaena->Sanguisorbinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490035"
-pgloadind     taxon mapping OTT ID 934080 taxonomy "Margyricarpus->Sanguisorbinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490036"
-pgloadind     taxon mapping OTT ID 813419 taxonomy "Polylepis->Sanguisorbinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490037"
-pgloadind     taxon mapping OTT ID 783218 taxonomy "Cliffortia->Sanguisorbinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490038"
-pgloadind     taxon mapping OTT ID 435258 taxonomy "Agrimonia->Agrimoniinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490045"
-pgloadind     taxon mapping OTT ID 852853 taxonomy "Aremonia->Agrimoniinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490047"
-pgloadind     taxon mapping OTT ID 328286 taxonomy "Hagenia->Agrimoniinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490049"
-pgloadind     taxon mapping OTT ID 813410 taxonomy "Leucosidea->Agrimoniinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490050"
-pgloadind     taxon mapping OTT ID 60997 taxonomy "Spenceria->Agrimoniinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490051"
-pgloadind     taxon mapping OTT ID 259066 taxonomy "Rosa->Rosoideae unplaced->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490072"
-pgloadind     taxon mapping OTT ID 533379 taxonomy "Alchemilla->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490059"
-pgloadind     taxon mapping OTT ID 559839 taxonomy "Comarum->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490060"
-pgloadind     taxon mapping OTT ID 176704 taxonomy "Sibbaldia->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490061"
-pgloadind     taxon mapping OTT ID 41544 taxonomy "Sibbaldianthe->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490062"
-pgloadind     taxon mapping OTT ID 852867 taxonomy "Chamaerhodos->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490065"
-pgloadind     taxon mapping OTT ID 922848 taxonomy "Dasiphora->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490067"
-pgloadind     taxon mapping OTT ID 829618 taxonomy "Potaninia->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490068"
-pgloadind     taxon mapping OTT ID 347805 taxonomy "Drymocallis->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490069"
-pgloadind     taxon mapping OTT ID 208027 taxonomy "Fragaria->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490070"
-pgloadind     taxon mapping OTT ID 7762 taxonomy "Fallugia->Colurieae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490074"
-pgloadind     taxon mapping OTT ID 259063 taxonomy "Geum->Colurieae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490075"
-pgloadind     taxon mapping OTT ID 28643 taxonomy "Sieversia->Colurieae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490076"
-pgloadind     taxon mapping OTT ID 972648 taxonomy "Rubus->Rosoideae unplaced->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490077"
-pgloadind     taxon mapping OTT ID 503376 taxonomy "Filipendula->Rosoideae unplaced->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490078"
-pgloadind     taxon mapping OTT ID 858484 taxonomy "Cercocarpus->Dryadoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490179"
-pgloadind     taxon mapping OTT ID 653074 taxonomy "Chamaebatia->Dryadoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490181"
-pgloadind     taxon mapping OTT ID 644048 taxonomy "Dryas->Dryadoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490184"
-pgloadind     taxon mapping OTT ID 464080 taxonomy "Adenostoma->Sorbarieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490085"
-pgloadind     taxon mapping OTT ID 858433 taxonomy "Chamaebatiaria->Sorbarieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490087"
-pgloadind     taxon mapping OTT ID 489722 taxonomy "Sorbaria->Sorbarieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490089"
-pgloadind     taxon mapping OTT ID 582094 taxonomy "Spiraeanthus->Sorbarieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490090"
-pgloadind     taxon mapping OTT ID 802382 taxonomy "Aruncus->Spiraeeae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490146"
-pgloadind     taxon mapping OTT ID 32527 taxonomy "Luetkea->Spiraeeae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490147"
-pgloadind     taxon mapping OTT ID 954179 taxonomy "Holodiscus->Spiraeeae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490148"
-pgloadind     taxon mapping OTT ID 292881 taxonomy "Kelseya->Spiraeeae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490151"
-pgloadind     taxon mapping OTT ID 247781 taxonomy "Petrophytum->Spiraeeae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490152"
-pgloadind     taxon mapping OTT ID 489730 taxonomy "Spiraea->Spiraeeae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490153"
-pgloadind     taxon mapping OTT ID 197803 taxonomy "Amelanchier->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490099"
-pgloadind     taxon mapping OTT ID 941750 taxonomy "Peraphyllum->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490100"
-pgloadind     taxon mapping OTT ID 941747 taxonomy "Malacomeles->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490101"
-pgloadind     taxon mapping OTT ID 842028 taxonomy "Crataegus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490103"
-pgloadind     taxon mapping OTT ID 941733 taxonomy "Mespilus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490104"
-pgloadind     taxon mapping OTT ID 366135 taxonomy "Aria->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490105"
-pgloadind     taxon mapping OTT ID 942668 taxonomy "Aronia->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490106"
-pgloadind     taxon mapping OTT ID 366131 taxonomy "Chaenomeles->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490108"
-pgloadind     taxon mapping OTT ID 941736 taxonomy "Osteomeles->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490109"
-pgloadind     taxon mapping OTT ID 962429 taxonomy "Chamaemeles->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490112"
-pgloadind     taxon mapping OTT ID 208026 taxonomy "Malus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490113"
-pgloadind     taxon mapping OTT ID 366116 taxonomy "Cotoneaster->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490114"
-pgloadind     taxon mapping OTT ID 942679 taxonomy "Chamaemespilus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490116"
-pgloadind     taxon mapping OTT ID 101457 taxonomy "Torminalis->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490117"
-pgloadind     taxon mapping OTT ID 366122 taxonomy "Cormus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490118"
-pgloadind     taxon mapping OTT ID 366142 taxonomy "Cydonia->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490120"
-pgloadind     taxon mapping OTT ID 48007 taxonomy "Photinia->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490122"
-pgloadind     taxon mapping OTT ID 316548 taxonomy "Pseudocydonia->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490123"
-pgloadind     taxon mapping OTT ID 144387 taxonomy "Dichotomanthes->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490124"
-pgloadind     taxon mapping OTT ID 144399 taxonomy "Docyniopsis->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490125"
-pgloadind     taxon mapping OTT ID 155169 taxonomy "Eriobotrya->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490130"
-pgloadind     taxon mapping OTT ID 316555 taxonomy "Rhaphiolepis->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490131"
-pgloadind     taxon mapping OTT ID 941742 taxonomy "Heteromeles->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490132"
-pgloadind     taxon mapping OTT ID 259068 taxonomy "Pyrus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490133"
-pgloadind     taxon mapping OTT ID 667056 taxonomy "Stranvaesia->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490134"
-pgloadind     taxon mapping OTT ID 144397 taxonomy "Eriolobus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490135"
-pgloadind     taxon mapping OTT ID 873508 taxonomy "Pyracantha->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490136"
-pgloadind     taxon mapping OTT ID 489718 taxonomy "Sorbus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490137"
-pgloadind     taxon mapping OTT ID 1023054 taxonomy "Vauquelinia->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490138"
-pgloadind     taxon mapping OTT ID 620829 taxonomy "Kageneckia->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490140"
-pgloadind     taxon mapping OTT ID 620831 taxonomy "Lindleya->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490141"
-pgloadind     taxon mapping OTT ID 817078 taxonomy "Coleogyne->Kerrieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490157"
-pgloadind     taxon mapping OTT ID 432503 taxonomy "Kerria->Kerrieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490158"
-pgloadind     taxon mapping OTT ID 48014 taxonomy "Neviusia->Kerrieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490159"
-pgloadind     taxon mapping OTT ID 339431 taxonomy "Rhodotypos->Kerrieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490160"
-pgloadind     taxon mapping OTT ID 7764 taxonomy "Exochorda->Osmaronieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490162"
-pgloadind     taxon mapping OTT ID 410342 taxonomy "Oemleria->Osmaronieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490164"
-pgloadind     taxon mapping OTT ID 187946 taxonomy "Prinsepia->Osmaronieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490165"
-pgloadind     taxon mapping OTT ID 48013 taxonomy "Neillia->Neillieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490174"
-pgloadind     taxon mapping OTT ID 738641 taxonomy "Physocarpus->Neillieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490175"
-pgloadind     taxon mapping OTT ID 4729766 taxonomy "Maddenia->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490169"
-pgloadind     taxon mapping OTT ID 731578 taxonomy "Prunus->Amygdaleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490170"
-pgloadind     taxon mapping OTT ID 817068 taxonomy "Pygeum->Amygdaleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490171"
+pgloadind     taxon mapping OTT ID 297052 taxonomy "Sanguisorba annua->Sanguisorba->Sanguisorbinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490041"
+pgloadind     taxon mapping OTT ID 628663 taxonomy "Acaena->Sanguisorbinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490035"
+pgloadind     taxon mapping OTT ID 934080 taxonomy "Margyricarpus->Sanguisorbinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490036"
+pgloadind     taxon mapping OTT ID 813419 taxonomy "Polylepis->Sanguisorbinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490037"
+pgloadind     taxon mapping OTT ID 783218 taxonomy "Cliffortia->Sanguisorbinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490038"
+pgloadind     taxon mapping OTT ID 435258 taxonomy "Agrimonia->Agrimoniinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490045"
+pgloadind     taxon mapping OTT ID 852853 taxonomy "Aremonia->Agrimoniinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490047"
+pgloadind     taxon mapping OTT ID 328286 taxonomy "Hagenia->Agrimoniinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490049"
+pgloadind     taxon mapping OTT ID 813410 taxonomy "Leucosidea->Agrimoniinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490050"
+pgloadind     taxon mapping OTT ID 60997 taxonomy "Spenceria->Agrimoniinae->Sanguisorbeae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490051"
+pgloadind     taxon mapping OTT ID 259066 taxonomy "Rosa->Rosoideae unplaced->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490072"
+pgloadind     taxon mapping OTT ID 533379 taxonomy "Alchemilla->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490059"
+pgloadind     taxon mapping OTT ID 559839 taxonomy "Comarum->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490060"
+pgloadind     taxon mapping OTT ID 176704 taxonomy "Sibbaldia->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490061"
+pgloadind     taxon mapping OTT ID 41544 taxonomy "Sibbaldianthe->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490062"
+pgloadind     taxon mapping OTT ID 852867 taxonomy "Chamaerhodos->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490065"
+pgloadind     taxon mapping OTT ID 922848 taxonomy "Dasiphora->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490067"
+pgloadind     taxon mapping OTT ID 829618 taxonomy "Potaninia->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490068"
+pgloadind     taxon mapping OTT ID 347805 taxonomy "Drymocallis->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490069"
+pgloadind     taxon mapping OTT ID 208027 taxonomy "Fragaria->Fragariinae->Potentilleae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490070"
+pgloadind     taxon mapping OTT ID 7762 taxonomy "Fallugia->Colurieae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490074"
+pgloadind     taxon mapping OTT ID 259063 taxonomy "Geum->Colurieae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490075"
+pgloadind     taxon mapping OTT ID 28643 taxonomy "Sieversia->Colurieae->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490076"
+pgloadind     taxon mapping OTT ID 972648 taxonomy "Rubus->Rosoideae unplaced->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490077"
+pgloadind     taxon mapping OTT ID 503376 taxonomy "Filipendula->Rosoideae unplaced->Rosoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490078"
+pgloadind     taxon mapping OTT ID 858484 taxonomy "Cercocarpus->Dryadoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490179"
+pgloadind     taxon mapping OTT ID 653074 taxonomy "Chamaebatia->Dryadoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490181"
+pgloadind     taxon mapping OTT ID 5334588 taxonomy "Purshia->Dryadoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490183"
+pgloadind     taxon mapping OTT ID 644048 taxonomy "Dryas->Dryadoideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490184"
+pgloadind     taxon mapping OTT ID 464080 taxonomy "Adenostoma->Sorbarieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490085"
+pgloadind     taxon mapping OTT ID 858433 taxonomy "Chamaebatiaria->Sorbarieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490087"
+pgloadind     taxon mapping OTT ID 489722 taxonomy "Sorbaria->Sorbarieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490089"
+pgloadind     taxon mapping OTT ID 582094 taxonomy "Spiraeanthus->Sorbarieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490090"
+pgloadind     taxon mapping OTT ID 802382 taxonomy "Aruncus->Spiraeeae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490146"
+pgloadind     taxon mapping OTT ID 32527 taxonomy "Luetkea->Spiraeeae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490147"
+pgloadind     taxon mapping OTT ID 954179 taxonomy "Holodiscus->Spiraeeae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490148"
+pgloadind     taxon mapping OTT ID 292881 taxonomy "Kelseya->Spiraeeae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490151"
+pgloadind     taxon mapping OTT ID 247781 taxonomy "Petrophytum->Spiraeeae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490152"
+pgloadind     taxon mapping OTT ID 489730 taxonomy "Spiraea->Spiraeeae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490153"
+pgloadind     taxon mapping OTT ID 197803 taxonomy "Amelanchier->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490099"
+pgloadind     taxon mapping OTT ID 941750 taxonomy "Peraphyllum->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490100"
+pgloadind     taxon mapping OTT ID 941747 taxonomy "Malacomeles->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490101"
+pgloadind     taxon mapping OTT ID 842028 taxonomy "Crataegus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490103"
+pgloadind     taxon mapping OTT ID 941733 taxonomy "Mespilus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490104"
+pgloadind     taxon mapping OTT ID 366135 taxonomy "Aria->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490105"
+pgloadind     taxon mapping OTT ID 942668 taxonomy "Aronia->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490106"
+pgloadind     taxon mapping OTT ID 366131 taxonomy "Chaenomeles->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490108"
+pgloadind     taxon mapping OTT ID 941736 taxonomy "Osteomeles->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490109"
+pgloadind     taxon mapping OTT ID 962429 taxonomy "Chamaemeles->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490112"
+pgloadind     taxon mapping OTT ID 208026 taxonomy "Malus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490113"
+pgloadind     taxon mapping OTT ID 366116 taxonomy "Cotoneaster->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490114"
+pgloadind     taxon mapping OTT ID 942679 taxonomy "Chamaemespilus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490116"
+pgloadind     taxon mapping OTT ID 101457 taxonomy "Torminalis->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490117"
+pgloadind     taxon mapping OTT ID 366122 taxonomy "Cormus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490118"
+pgloadind     taxon mapping OTT ID 366142 taxonomy "Cydonia->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490120"
+pgloadind     taxon mapping OTT ID 48007 taxonomy "Photinia->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490122"
+pgloadind     taxon mapping OTT ID 316548 taxonomy "Pseudocydonia->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490123"
+pgloadind     taxon mapping OTT ID 144387 taxonomy "Dichotomanthes->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490124"
+pgloadind     taxon mapping OTT ID 144399 taxonomy "Docyniopsis->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490125"
+pgloadind     taxon mapping OTT ID 155169 taxonomy "Eriobotrya->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490130"
+pgloadind     taxon mapping OTT ID 316555 taxonomy "Rhaphiolepis->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490131"
+pgloadind     taxon mapping OTT ID 941742 taxonomy "Heteromeles->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490132"
+pgloadind     taxon mapping OTT ID 259068 taxonomy "Pyrus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490133"
+pgloadind     taxon mapping OTT ID 667056 taxonomy "Stranvaesia->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490134"
+pgloadind     taxon mapping OTT ID 144397 taxonomy "Eriolobus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490135"
+pgloadind     taxon mapping OTT ID 873508 taxonomy "Pyracantha->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490136"
+pgloadind     taxon mapping OTT ID 489718 taxonomy "Sorbus->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490137"
+pgloadind     taxon mapping OTT ID 1023054 taxonomy "Vauquelinia->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490138"
+pgloadind     taxon mapping OTT ID 620829 taxonomy "Kageneckia->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490140"
+pgloadind     taxon mapping OTT ID 620831 taxonomy "Lindleya->Maleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490141"
+pgloadind     taxon mapping OTT ID 817078 taxonomy "Coleogyne->Kerrieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490157"
+pgloadind     taxon mapping OTT ID 432503 taxonomy "Kerria->Kerrieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490158"
+pgloadind     taxon mapping OTT ID 48014 taxonomy "Neviusia->Kerrieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490159"
+pgloadind     taxon mapping OTT ID 339431 taxonomy "Rhodotypos->Kerrieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490160"
+pgloadind     taxon mapping OTT ID 7764 taxonomy "Exochorda->Osmaronieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490162"
+pgloadind     taxon mapping OTT ID 410342 taxonomy "Oemleria->Osmaronieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490164"
+pgloadind     taxon mapping OTT ID 187946 taxonomy "Prinsepia->Osmaronieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490165"
+pgloadind     taxon mapping OTT ID 48013 taxonomy "Neillia->Neillieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490174"
+pgloadind     taxon mapping OTT ID 738641 taxonomy "Physocarpus->Neillieae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490175"
+pgloadind     taxon mapping OTT ID 4729766 taxonomy "Maddenia->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490169"
+pgloadind     taxon mapping OTT ID 731578 taxonomy "Prunus->Amygdaleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490170"
+pgloadind     taxon mapping OTT ID 817068 taxonomy "Pygeum->Amygdaleae->Maloideae->Rosaceae->Rosales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node490171"
 done fixing name
 pgloadind Finished with attempts to fix names
 pgloadind   Checking for uniqueness of OTT IDs tree id "1825"
@@ -143,7 +134,7 @@ pgloadind   Adding tree to graph tree id "1825"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Sanguisorba annua was remapped to 'Sanguisorba' (id=2749261)
+	Sanguisorba annua was remapped to 'Sanguisorba' (id=2750109)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -160,102 +151,12 @@ Adding property 'ot:curatorName': bryan drew
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1007/s00606-007-0539-9
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 879998
+Adding property 'ot:focalClade': 208036
 Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': strict consensus parsimony tree
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 926
-Committing nodes: 146
-{2737390}
-2737409
-2737450
-2737474
-2737487
-2737520
-2737575
-2737605
-2737610
-2737616
-2737624
-2738754
-2738766
-2738772
-2738779
-2738785
-2739120
-2739140
-2739158
-2739161
-2739169
-2739180
-2739185
-2739207
-2739217
-2739228
-2739371
-2739390
-2739396
-2739398
-2739402
-2739431
-2739461
-2739717
-2739951
-2739955
-2739959
-2739967
-2739985
-2740398
-2740400
-2740435
-2740449
-2740464
-2740466
-2740936
-2741904
-2741912
-2741958
-2741983
-2741994
-2741998
-2742002
-2742007
-2742009
-2742156
-2742177
-	adding Node[2742175] Rosoideae 731147 as compatible with Node[3501504]
-		adding Relationship[8257476]
-2742186
-2742203
-2742389
-2743786
-2743841
-2747034
-2747063
-2747102
-2747277
-2747337
-2747357
-2747361
-2747387
-2747397
-2748814
-2748993
-2749203
-2749385
-2749396
-2749399
-2749402
-2749404
-2749410
-2750180
-2749261
-	adding Node[2749261] Sanguisorba 902629 as compatible with Node[2749261]
-		adding Relationship[8257477]
-[Node[2748810], Node[3501505], Node[2742175], Node[2749261]]
-	Node[2748810]
-	Node[3501505]
-		adding Relationship[8257478] from Node[3501505] to Node[2742175]
-	Node[2742175]
-	Node[2749261]
-		adding Relationship[8257479] from Node[2749261] to Node[2748810]
+Committing nodes: 148
+	adding Node[2747880] Potentilleae 891491 as compatible with Node[2747881]
+		adding Relationship[8167249]
+		adding to root Relationship[8167250]

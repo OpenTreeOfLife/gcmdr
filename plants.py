@@ -103,7 +103,7 @@ studytreelist=["2827_6577",#Ilex NEW
                "1575_3164",#Tolpis
                "1573_3144",#Onoseris
                "934_1832",#Echinops
-               "200_6586",#Encelia
+               "200_6585",#Encelia
                "152_5743",#Coreopsis
                "53_1281",#Euryops
                "2076_4282",#Garrya 
