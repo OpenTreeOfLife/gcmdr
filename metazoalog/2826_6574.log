@@ -1,0 +1,334 @@
+pgloadind OTUs number 49
+pgloadind Processing tree @id "6573"
+pgloadind   tree info number nodes 96
+pgloadind   tree info number edges 95
+pgloadind   Ingested tree number of external nodes 49
+pgloadind   property added ot:studyPublicationReference "Fabien Burki, Kamran Shalchian-Tabrizi, Marianne Minge, Åsmund Skjæveland, Sergey I. Nikolaev, Kjetill S. Jakobsen, Jan Pawlowski. 2007. Phylogenomics Reshuffles the Eukaryotic Supergroups. PLoS ONE 2 (8): e790."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1371/journal.pone.0000790"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:studyId "2826"
+pgloadind   property added ot:studyYear "2007"
+pgloadind   property added ot:focalClade "304358"
+pgloadind   property added ot:focalCladeOTTTaxonName "Eukaryota"
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+pgloadind   property added ot:curatedType "Fig.1 ML (unrooted)"
+pgloadind Processing tree @id "6574"
+pgloadind   tree info number nodes 97
+pgloadind   tree info number edges 96
+pgloadind   Ingested tree number of external nodes 49
+pgloadind   property added ot:studyPublicationReference "Fabien Burki, Kamran Shalchian-Tabrizi, Marianne Minge, Åsmund Skjæveland, Sergey I. Nikolaev, Kjetill S. Jakobsen, Jan Pawlowski. 2007. Phylogenomics Reshuffles the Eukaryotic Supergroups. PLoS ONE 2 (8): e790."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1371/journal.pone.0000790"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:studyId "2826"
+pgloadind   property added ot:studyYear "2007"
+pgloadind   property added ot:focalClade "304358"
+pgloadind   property added ot:focalCladeOTTTaxonName "Eukaryota"
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+pgloadind   property added ot:curatedType "Fig.1 ML (rooted-Opisthokonts)"
+pgloadind Processing tree @id "6575"
+pgloadind   tree info number nodes 97
+pgloadind   tree info number edges 96
+pgloadind   Ingested tree number of external nodes 49
+pgloadind   property added ot:studyPublicationReference "Fabien Burki, Kamran Shalchian-Tabrizi, Marianne Minge, Åsmund Skjæveland, Sergey I. Nikolaev, Kjetill S. Jakobsen, Jan Pawlowski. 2007. Phylogenomics Reshuffles the Eukaryotic Supergroups. PLoS ONE 2 (8): e790."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1371/journal.pone.0000790"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:studyId "2826"
+pgloadind   property added ot:studyYear "2007"
+pgloadind   property added ot:focalClade "304358"
+pgloadind   property added ot:focalCladeOTTTaxonName "Eukaryota"
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+pgloadind   property added ot:curatedType "Fig.1 ML (rooted-Unikonts)"
+loading a specific tree: 6574
+skipping tree: 6573
+skipping tree: 6575
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "6574"
+pgloadind     OTT ID missing name "Reticulomyxa filosa" nexsonid "node1143114"
+pgloadind   TNRS unmatched total number 1
+pgloadind     pruning unmapped name "Reticulomyxa filosa" nexsonid "node1143114"
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Gymnophrys cometa" nexsonid "node1143111"
+pgloadind       dubious OTT ID 4019226
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Reclinomonas americana" nexsonid "node1143082"
+pgloadind       overlapping pruned name "Jakoba" nexsonid "node1143079"
+pgloadind     pruning dups and overlapping name "Jakoba" nexsonid "node1143079"
+pgloadind     pruning dups and overlapping name "Gymnophrys cometa" nexsonid "node1143111"
+pgloadind   postpruning newick tree "(((Drosophila,(Homo_sapiens,Mus_musculus)),((Cryptococcus_neoformans,Ustilago_maydis),(Neurospora_crassa,Schizosaccharomyces_pombe))),(((Acanthamoeba_castellanii,Vermamoeba_vermiformis),(Dictyostelium_discoideum,Mastigamoeba_balamuthi)),((((Guillardia_theta,(Pavlova_lutheri,(Emiliania_huxleyi,Isochrysis_galbana))),(Malawimonas,(Histiona_aroides,Reclinomonas_americana))),((Porphyra,(Cyanidioschyzon_merolae,Galdieria_sulphuraria)),((Cyanophora_paradoxa,Glaucocystis_nostochinearum),(Chlamydomonas,(Physcomitrella_patens,(Arabidopsis_thaliana,Oryza_sativa)))))),((Euglena_gracilis,(Leishmania,Trypanosoma)),(((Quinqueloculina,Bigelowiella_natans),(Blastocystis_hominis,(Phytophthora,(Phaeodactylum_tricornutum,Thalassiosira_pseudonana)))),((Paramecium,Tetrahymena),((Oxyrrhis_marina,(Alexandrium,Karlodinium_veneficum)),(Cryptosporidium,((Eimeria_tenella,Toxoplasma_gondii),(Plasmodium,Theileria))))))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 34907 taxonomy "Drosophila->Drosophiliti->Drosophilina->Drosophilini->Drosophilinae->Drosophilidae->Ephydroidea->Acalyptratae->Schizophora->Cyclorrhapha->Eremoneura->Muscomorpha->Brachycera->Diptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1143047"
+pgloadind     taxon mapping OTT ID 770315 taxonomy "Homo sapiens->Homo->Homininae->Hominidae->Hominoidea->Catarrhini->Simiiformes->Haplorrhini->Primates->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1143049"
+pgloadind     taxon mapping OTT ID 542509 taxonomy "Mus musculus->Mus subgenus Mus->Mus->Murinae->Muridae->Muroidea->Sciurognathi->Rodentia->Glires->Euarchontoglires->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1143050"
+pgloadind     taxon mapping OTT ID 634633 taxonomy "Cryptococcus neoformans->Cryptococcus->Tremellaceae->Tremellales->Tremellomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1143053"
+pgloadind     taxon mapping OTT ID 285447 taxonomy "Ustilago maydis->Ustilago->Ustilaginaceae->Ustilaginales->Ustilaginomycetidae->Ustilaginomycetes->Ustilaginomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1143054"
+pgloadind     taxon mapping OTT ID 572462 taxonomy "Neurospora crassa->Neurospora->Sordariaceae->Sordariales->Sordariomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1143056"
+pgloadind     taxon mapping OTT ID 990004 taxonomy "Schizosaccharomyces pombe->Schizosaccharomyces->Schizosaccharomycetaceae->Schizosaccharomycetales->Schizosaccaromycetes->Taphrinomycotina->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1143057"
+pgloadind     taxon mapping OTT ID 120245 taxonomy "Acanthamoeba castellanii->Acanthamoeba->Acanthamoebidae->Centramoebida->Longamoebia->Discosea->Amoebozoa->Eukaryota->cellular organisms->life" nexsonid "node1143061"
+pgloadind     taxon mapping OTT ID 68580 taxonomy "Vermamoeba vermiformis->Hartmannella->Hartmannellidae->Tubulinida->Euamoebida->Tubulinea->Amoebozoa->Eukaryota->cellular organisms->life" nexsonid "node1143062"
+pgloadind     taxon mapping OTT ID 160850 taxonomy "Dictyostelium discoideum->Dictyostelium->Dictyostelia->Amoebozoa->Eukaryota->cellular organisms->life" nexsonid "node1143064"
+pgloadind     taxon mapping OTT ID 202902 taxonomy "Mastigamoeba balamuthi->Mastigamoeba->Mastigamoebidae->Archamoebae->Amoebozoa->Eukaryota->cellular organisms->life" nexsonid "node1143065"
+pgloadind     taxon mapping OTT ID 5247740 taxonomy "Guillardia theta->Guillardia->Cryptomonadales->Cryptophyceae->Eukaryota->cellular organisms->life" nexsonid "node1143070"
+pgloadind     taxon mapping OTT ID 151008 taxonomy "Pavlova lutheri->Pavlova->Pavlovophyceae->Haptophyta->Eukaryota->cellular organisms->life" nexsonid "node1143072"
+pgloadind     taxon mapping OTT ID 695761 taxonomy "Emiliania huxleyi->Emiliania->Noelaerhabdaceae->Isochrysidales->Prymnesiophyceae->Haptophyta->Eukaryota->cellular organisms->life" nexsonid "node1143074"
+pgloadind     taxon mapping OTT ID 955647 taxonomy "Isochrysis galbana->Isochrysis->Isochrysidaceae->Isochrysidales->Prymnesiophyceae->Haptophyta->Eukaryota->cellular organisms->life" nexsonid "node1143075"
+pgloadind     taxon mapping OTT ID 935422 taxonomy "Malawimonas->Excavata->Eukaryota->cellular organisms->life" nexsonid "node1143077"
+pgloadind     taxon mapping OTT ID 836322 taxonomy "Histiona aroides->Histiona->Histionidae->Jakobida->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node1143081"
+pgloadind     taxon mapping OTT ID 429200 taxonomy "Reclinomonas americana->Jakoba->Jakobidae->Jakobida->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node1143082"
+pgloadind     taxon mapping OTT ID 726205 taxonomy "Porphyra->Bangiaceae->Bangiales->Bangiophyceae->Rhodophyceae->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1143085"
+pgloadind     taxon mapping OTT ID 85503 taxonomy "Cyanidioschyzon merolae->Cyanidioschyzon->Cyanidiaceae->Cyanidiales->Bangiophyceae->Rhodophyceae->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1143087"
+pgloadind     taxon mapping OTT ID 5155125 taxonomy "Galdieria sulphuraria->Galdieria->Cyanidiaceae->Cyanidiales->Bangiophyceae->Rhodophyceae->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1143088"
+pgloadind     taxon mapping OTT ID 878960 taxonomy "Cyanophora paradoxa->Cyanophora->Cyanophoraceae->Cyanophorales->Glaucophyceae->Glaucophyta->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1143091"
+pgloadind     taxon mapping OTT ID 716815 taxonomy "Glaucocystis nostochinearum->Glaucocystis->Glaucocystaceae->Glaucocystales->Glaucophyta->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1143092"
+pgloadind     taxon mapping OTT ID 33160 taxonomy "Chlamydomonas->Chlamydomonadaceae->Chlamydomonadales->Chlorophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1143094"
+pgloadind     taxon mapping OTT ID 821359 taxonomy "Physcomitrella patens->Physcomitrella->Funariaceae->Funariales->Funariidae->Bryopsida->Bryophytina->Bryophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1143096"
+pgloadind     taxon mapping OTT ID 309263 taxonomy "Arabidopsis thaliana->Arabidopsis->Camelineae->Brassicaceae->Brassicales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1143098"
+pgloadind     taxon mapping OTT ID 709894 taxonomy "Oryza sativa->Oryza->Oryzeae->Ehrhartoideae->BEP clade->Poaceae->Poales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Streptophytina->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1143099"
+pgloadind     taxon mapping OTT ID 1073327 taxonomy "Euglena gracilis->Euglena->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node1143102"
+pgloadind     taxon mapping OTT ID 192249 taxonomy "Leishmania->Trypanosomatida->Metakinetoplastina->Kinetoplastea->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node1143104"
+pgloadind     taxon mapping OTT ID 779558 taxonomy "Trypanosoma->Trypanosomatida->Metakinetoplastina->Kinetoplastea->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node1143105"
+pgloadind     taxon mapping OTT ID 158514 taxonomy "Quinqueloculina->Quinqueloculininae->Miliolidae->Miliolina->Miliolida->Tubothalamea->Foraminifera->Retaria->Rhizaria->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143113"
+pgloadind     taxon mapping OTT ID 5260606 taxonomy "Bigelowiella natans->Bigelowiella->Chlorarachniophyta->Cercozoa->Rhizaria->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143110"
+pgloadind     taxon mapping OTT ID 316473 taxonomy "Blastocystis hominis->Blastocystis->Stramenopiles->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143116"
+pgloadind     taxon mapping OTT ID 775740 taxonomy "Phytophthora->Peronosporomycetes->Stramenopiles->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143118"
+pgloadind     taxon mapping OTT ID 1095879 taxonomy "Phaeodactylum tricornutum->Phaeodactylum->Phaeodactylaceae->Naviculales->Bacillariophycidae->Bacillariophyceae->Bacillariophytina->Bacillariophyta->Stramenopiles->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143120"
+pgloadind     taxon mapping OTT ID 753596 taxonomy "Thalassiosira pseudonana->Thalassiosira->Mediophyceae->Bacillariophytina->Bacillariophyta->Stramenopiles->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143121"
+pgloadind     taxon mapping OTT ID 568126 taxonomy "Paramecium->Peniculia->Oligohymenophorea->Conthreep->Intramacronucleata->Ciliophora->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143124"
+pgloadind     taxon mapping OTT ID 47284 taxonomy "Tetrahymena->Hymenostomatia->Oligohymenophorea->Conthreep->Intramacronucleata->Ciliophora->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143125"
+pgloadind     taxon mapping OTT ID 746955 taxonomy "Oxyrrhis marina->Oxyrrhis->Protalveolata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143128"
+pgloadind     taxon mapping OTT ID 643103 taxonomy "Alexandrium->Gonyaulacaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143130"
+pgloadind     taxon mapping OTT ID 101878 taxonomy "Karlodinium veneficum->Karlodinium->Kareniaceae->Gymnodiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143131"
+pgloadind     taxon mapping OTT ID 775252 taxonomy "Cryptosporidium->Cryptosporida->Conoidasida->Apicomplexa->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143133"
+pgloadind     taxon mapping OTT ID 775246 taxonomy "Eimeria tenella->Eimeria->Eimeriidae->Eimeriorina->Eucoccidiorida->Coccidia->Conoidasida->Apicomplexa->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143136"
+pgloadind     taxon mapping OTT ID 252145 taxonomy "Toxoplasma gondii->Toxoplasma->Sarcocystidae->Eimeriorina->Eucoccidiorida->Coccidia->Conoidasida->Apicomplexa->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143137"
+pgloadind     taxon mapping OTT ID 724399 taxonomy "Plasmodium->Haemosporoidia->Aconoidasida->Apicomplexa->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143139"
+pgloadind     taxon mapping OTT ID 422823 taxonomy "Theileria->Piroplasmorida->Aconoidasida->Apicomplexa->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1143140"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6574"
+pgloadind   Adding tree to graph tree id "6574"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Karlodinium veneficum was remapped to 'Gymnodiniphycidae' (id=3113485)
+	Emiliania huxleyi was remapped to 'Noelaerhabdaceae' (id=3123237)
+	Acanthamoeba castellanii was remapped to 'Discosea' (id=3087475)
+	Paramecium was remapped to 'Peniculia' (id=3116206)
+	Physcomitrella patens was remapped to 'Bryophyta' (id=3040685)
+	Mastigamoeba balamuthi was remapped to 'Archamoebae' (id=3087382)
+	Oryza sativa was remapped to 'Liliopsida' (id=2833785)
+	Guillardia theta was remapped to 'Cryptophyceae' (id=3122429)
+	Neurospora crassa was remapped to 'Pezizomycotina' (id=271)
+	Cryptosporidium was remapped to 'Cryptosporida' (id=3112373)
+	Alexandrium was remapped to 'Peridiniphycidae' (id=3114091)
+	Vermamoeba vermiformis was remapped to 'Tubulinea' (id=3090081)
+	Oxyrrhis marina was remapped to 'Protalveolata' (id=3119367)
+	Reclinomonas americana was remapped to 'Jakobidae' (id=3124900)
+	Thalassiosira pseudonana was remapped to 'Mediophyceae' (id=3104270)
+	Histiona aroides was remapped to 'Histionidae' (id=3124916)
+	Dictyostelium discoideum was remapped to 'Dictyostelia' (id=3090439)
+	Cyanidioschyzon merolae was remapped to 'Cyanidioschyzon' (id=3078792)
+	Toxoplasma gondii was remapped to 'Sarcocystidae' (id=3112881)
+	Chlamydomonas was remapped to 'Chlorophyta' (id=3059559)
+	Mus musculus was remapped to 'Glires' (id=324461)
+	Arabidopsis thaliana was remapped to 'eudicotyledons' (id=2520902)
+	Cryptococcus neoformans was remapped to 'Agaricomycotina' (id=193992)
+	Quinqueloculina was remapped to 'Retaria' (id=3120846)
+	Galdieria sulphuraria was remapped to 'Galdieria' (id=3078799)
+	Euglena gracilis was remapped to 'Euglenida' (id=3124019)
+	Homo sapiens was remapped to 'Primates' (id=332851)
+	Theileria was remapped to 'Piroplasmorida' (id=3111401)
+	Tetrahymena was remapped to 'Hymenostomatia' (id=3115831)
+	Bigelowiella natans was remapped to 'Cercozoa' (id=3119636)
+	Drosophila was remapped to 'Protostomia' (id=571141)
+	Pavlova lutheri was remapped to 'Pavlovophyceae' (id=3122746)
+	Isochrysis galbana was remapped to 'Isochrysidaceae' (id=3123188)
+	Blastocystis hominis was remapped to 'Blastocystis' (id=3105908)
+	Eimeria tenella was remapped to 'Eimeriidae' (id=3112544)
+	Phytophthora was remapped to 'Peronosporomycetes' (id=3092511)
+	Phaeodactylum tricornutum was remapped to 'Bacillariophyceae' (id=3095249)
+	Porphyra was remapped to 'Bangiales' (id=3078825)
+	Ustilago maydis was remapped to 'Ustilaginomycotina' (id=272197)
+	Glaucocystis nostochinearum was remapped to 'Glaucocystales' (id=3087371)
+	Cyanophora paradoxa was remapped to 'Glaucophyceae' (id=3087375)
+	Schizosaccharomyces pombe was remapped to 'Taphrinomycotina' (id=193547)
+	Plasmodium was remapped to 'Haemosporoidia' (id=3111723)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Fabien Burki, Kamran Shalchian-Tabrizi, Marianne Minge, Åsmund Skjæveland, Sergey I. Nikolaev, Kjetill S. Jakobsen, Jan Pawlowski. 2007. Phylogenomics Reshuffles the Eukaryotic Supergroups. PLoS ONE 2 (8): e790.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Eukaryota
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2007
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph Brown
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1371/journal.pone.0000790
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 304358
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig.1 ML (rooted-Opisthokonts)
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 2826
+Committing nodes: 91
+	adding Node[3123300] Metakinetoplastina 5251344 as compatible with Node[3123301]
+		adding Relationship[8167119]
+		adding to root Relationship[8167120]
+	adding Node[3123299] Kinetoplastea 5248805 as compatible with Node[3123301]
+		adding Relationship[8167121]
+		adding to root Relationship[8167122]
+	adding Node[3123295] Discicristata 5246819 as compatible with Node[3123296]
+		adding Relationship[8167123]
+		adding to root Relationship[8167124]
+	adding Node[265] Fungi 352914 as compatible with Node[267]
+		adding Relationship[8167125]
+		adding to root Relationship[8167126]
+	adding Node[227] Nucletmycea 5246132 as compatible with Node[267]
+		adding Relationship[8167127]
+		adding to root Relationship[8167128]
+	adding Node[324458] Boreoeutheria 5334778 as compatible with Node[324460]
+		adding Relationship[8167129]
+		adding to root Relationship[8167130]
+	adding Node[324453] Eutheria 683263 as compatible with Node[324460]
+		adding Relationship[8167131]
+		adding to root Relationship[8167132]
+	adding Node[324452] Theria 229558 as compatible with Node[324460]
+		adding Relationship[8167133]
+		adding to root Relationship[8167134]
+	adding Node[324448] Mammalia 244265 as compatible with Node[324460]
+		adding Relationship[8167135]
+		adding to root Relationship[8167136]
+	adding Node[324446] Amniota 229560 as compatible with Node[324460]
+		adding Relationship[8167137]
+		adding to root Relationship[8167138]
+	adding Node[324444] Tetrapoda 229562 as compatible with Node[324460]
+		adding Relationship[8167139]
+		adding to root Relationship[8167140]
+	adding Node[324350] Dipnotetrapodomorpha 4940726 as compatible with Node[324460]
+		adding Relationship[8167141]
+		adding to root Relationship[8167142]
+	adding Node[324349] Sarcopterygii 458402 as compatible with Node[324460]
+		adding Relationship[8167143]
+		adding to root Relationship[8167144]
+	adding Node[324347] Euteleostomi 114654 as compatible with Node[324460]
+		adding Relationship[8167145]
+		adding to root Relationship[8167146]
+	adding Node[324346] Teleostomi 114656 as compatible with Node[324460]
+		adding Relationship[8167147]
+		adding to root Relationship[8167148]
+	adding Node[324344] Gnathostomata 278114 as compatible with Node[324460]
+		adding Relationship[8167149]
+		adding to root Relationship[8167150]
+	adding Node[324342] Vertebrata 801601 as compatible with Node[324460]
+		adding Relationship[8167151]
+		adding to root Relationship[8167152]
+	adding Node[324341] Craniata 947318 as compatible with Node[324460]
+		adding Relationship[8167153]
+		adding to root Relationship[8167154]
+	adding Node[317595] Chordata 125642 as compatible with Node[324460]
+		adding Relationship[8167155]
+		adding to root Relationship[8167156]
+	adding Node[317375] Deuterostomia 147604 as compatible with Node[324460]
+		adding Relationship[8167157]
+		adding to root Relationship[8167158]
+	adding Node[317373] Eumetazoa 641038 as compatible with Node[317374]
+		adding Relationship[8167159]
+		adding to root Relationship[8167160]
+	adding Node[297397] Metazoa 691846 as compatible with Node[317374]
+		adding Relationship[8167161]
+		adding to root Relationship[8167162]
+	adding Node[297396] Holozoa 5246131 as compatible with Node[317374]
+		adding Relationship[8167163]
+		adding to root Relationship[8167164]
+	adding Node[2511032] Magnoliophyta 99252 as compatible with Node[2511036]
+		adding Relationship[8167165]
+		adding to root Relationship[8167166]
+	adding Node[2511030] Spermatophyta 10218 as compatible with Node[2511036]
+		adding Relationship[8167167]
+		adding to root Relationship[8167168]
+	adding Node[2511028] Euphyllophyta 1007992 as compatible with Node[2511036]
+		adding Relationship[8167169]
+		adding to root Relationship[8167170]
+	adding Node[2510164] Tracheophyta 10210 as compatible with Node[2511036]
+		adding Relationship[8167171]
+		adding to root Relationship[8167172]
+	adding Node[2506557] Streptophyta 916750 as compatible with Node[2509545]
+		adding Relationship[8167173]
+		adding to root Relationship[8167174]
+	adding Node[3078790] Cyanidiales 4737162 as compatible with Node[3078791]
+		adding Relationship[8167175]
+		adding to root Relationship[8167176]
+	adding Node[3070551] Rhodophyceae 878953 as compatible with Node[3078742]
+		adding Relationship[8167177]
+		adding to root Relationship[8167178]
+	adding Node[3095242] Bacillariophyta 150991 as compatible with Node[3095248]
+		adding Relationship[8167179]
+		adding to root Relationship[8167180]
+	adding Node[3112447] Eucoccidiorida 687218 as compatible with Node[3112508]
+		adding Relationship[8167181]
+		adding to root Relationship[8167182]
+	adding Node[3112445] Coccidia 422671 as compatible with Node[3112508]
+		adding Relationship[8167183]
+		adding to root Relationship[8167184]
+	adding Node[3113458] Dinoflagellata 5246809 as compatible with Node[3113459]
+		adding Relationship[8167185]
+		adding to root Relationship[8167186]
+	adding Node[3115581] Conthreep 5248773 as compatible with Node[3115827]
+		adding Relationship[8167187]
+		adding to root Relationship[8167188]
+	adding Node[3115579] Intramacronucleata 340382 as compatible with Node[3115827]
+		adding Relationship[8167189]
+		adding to root Relationship[8167190]
+	adding Node[3115576] Ciliophora 302424 as compatible with Node[3115827]
+		adding Relationship[8167191]
+		adding to root Relationship[8167192]
+	adding Node[3122843] Prymnesiophyceae 5246140 as compatible with Node[3123186]
+		adding Relationship[8167193]
+		adding to root Relationship[8167194]
+		adding Relationship[8167195] from Node[3070551] to Node[2506549]
+		adding Relationship[8167196] from Node[3112447] to Node[3112445]
+		adding Relationship[8167197] from Node[2509545] to Node[2506550]
+		adding Relationship[8167198] from Node[2509545] to Node[2506557]
+		adding Relationship[8167199] from Node[265] to Node[227]
+		adding Relationship[8167200] from Node[3078790] to Node[3078742]
+		adding Relationship[8167201] from Node[317373] to Node[297397]
+		adding Relationship[8167202] from Node[317375] to Node[317374]
+		adding Relationship[8167203] from Node[317374] to Node[224]
+		adding Relationship[8167204] from Node[317374] to Node[317373]
+		adding Relationship[8167205] from Node[3113458] to Node[3111396]
+		adding Relationship[8167206] from Node[3078742] to Node[2506549]
+		adding Relationship[8167207] from Node[3078742] to Node[3070551]
+		adding Relationship[8167208] from Node[324444] to Node[324350]
+		adding Relationship[8167209] from Node[324446] to Node[324444]
+		adding Relationship[8167210] from Node[2511032] to Node[2511030]
+		adding Relationship[8167211] from Node[2511030] to Node[2511028]
+		adding Relationship[8167212] from Node[3115581] to Node[3115579]
+		adding Relationship[8167213] from Node[2511028] to Node[2510164]
+		adding Relationship[8167214] from Node[3115579] to Node[3115576]
+		adding Relationship[8167215] from Node[3115576] to Node[3111396]
+		adding Relationship[8167216] from Node[2510164] to Node[2509545]
+		adding Relationship[8167217] from Node[3123300] to Node[3123299]
+		adding Relationship[8167218] from Node[3123296] to Node[3468657]
+		adding Relationship[8167219] from Node[3123296] to Node[3123295]
+		adding Relationship[8167220] from Node[3123299] to Node[3123296]
+		adding Relationship[8167221] from Node[317595] to Node[317375]
+		adding Relationship[8167222] from Node[227] to Node[224]
+		adding Relationship[8167223] from Node[3122843] to Node[3122739]
+		adding Relationship[8167224] from Node[297396] to Node[224]
+		adding Relationship[8167225] from Node[324458] to Node[324453]
+		adding Relationship[8167226] from Node[297397] to Node[297396]
+		adding Relationship[8167227] from Node[2506557] to Node[2506550]
+		adding Relationship[8167228] from Node[324341] to Node[317595]
+		adding Relationship[8167229] from Node[324342] to Node[324341]
+		adding Relationship[8167230] from Node[2506550] to Node[2506549]
+		adding Relationship[8167231] from Node[324344] to Node[324342]
+		adding Relationship[8167232] from Node[324347] to Node[324346]
+		adding Relationship[8167233] from Node[324346] to Node[324344]
+		adding Relationship[8167234] from Node[324448] to Node[324446]
+		adding Relationship[8167235] from Node[324349] to Node[324347]
+		adding Relationship[8167236] from Node[324453] to Node[324452]
+		adding Relationship[8167237] from Node[324350] to Node[324349]
+		adding Relationship[8167238] from Node[324452] to Node[324448]
