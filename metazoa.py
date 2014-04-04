@@ -5,7 +5,6 @@ Note: studies are (for the most part) ordered from shallow to deep clades.
 
 FROM STEPHEN
 what about these
-http://treebase.org/treebase-web/search/study/summary.html?id=10691
 http://www.reelab.net/phylografter/stree/svgView/6014
 http://www.sciencemag.org/content/341/6143/292 [not sure where to find this tree]
 """
@@ -16,7 +15,6 @@ studytreelist=[
                "2806_6529", # Psittaciformes. Joseph et al. 2011. MPE
                "2805_6512", # Psittaciformes. Wright et al. 2008. MBE
                "1979_6300", # Psittacidae. Tavares et al. 2006. Syst. Biol.
-
                "2444_6526", # Columbiformes. Pereira et al. 2007. Syst. Biol.
                "2798_6497", # Spheniscidae. Subramanian et al. 2013. Biol. Lett.
                "2577_5980", # Galliformes. Wang et al. 2013. PLoS ONE
@@ -50,6 +48,8 @@ studytreelist=[
                "1797_3635", # Tenrecidae. Poux et al. 2008. BMC Evol. Biol.
                "1428_2855", # Mammals. Meredith et al. 2011. Science
                "1646_6231", # Caniformia (Pinnipeds). Higdon et al. 2007. BMC Evol. Biol.
+               "2833_6588", # Metatheria. Cardillo et al. 2004. J. Zool.
+               "2834_6589", # Metatheria. Nilsson et al. 2004. Gene
 
      ## Fish - need to figure out best ordering with mapcompat
 #               "2651_6177", # Actinopterygii (Bony fishes). Betancur-R et al. 2013. PLoS Currents
@@ -93,6 +93,9 @@ studytreelist=[
                "2667_6211", # maps to: Galatheoidea
 
      ## Insects and other crawley stuff
+               "2357_6538", # Evaniscus. Mullins et al. 2012. ZooKeys <- 2 new species are not in OTT
+               "2323_6537", # Bombyliidae. Lambkin and Bartlett. 2011. ZooKeys <- check sampling
+               "1940_3943", # Drosophilidae. Van der Linde et al. 2010. Genet. Res.
                "2581_5987", # Membracidae. Cryan et al. 2004. Syst. Ent.
                "2087_4323", # Austrogoniodes. Banks and Paterson. 2004. Invert. Syst.
                "2811_6533", # Vespinae. Lopez-Osorio et al. 2014. MPE
@@ -107,6 +110,7 @@ studytreelist=[
                "2604_6043", # Apoidea. Hedtke et al. 2013. BMC Evol. Biol.
                #"2686_6238", # Arthropoda. Lee et al. 2013. Curr. Biol.
                "437_6242",  # Diptera. Wiegmann et al. 2011. PNAS
+               "2594_6014", # Diptera. Lambkin et al. 2013. Syst. Ent.
                "1338_2666", # Pterygota. Simon et al. 2009. MBE
 
      ## Other
