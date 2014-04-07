@@ -3,10 +3,10 @@ import load_synth_extract
 from fungal_all import studytreelist
 
 if __name__ == "__main__":
-    from stephen_desktop_conf_TEMP import *
+    from stephen_desktop_conf_TEMP2 import *
     
     synthottolid="10218"
-    studytreelist = ["1975_4041"]
+    studytreelist = ["2407_6390"]
     print "loading synthottolid:",synthottolid
     print "loading studytreelist:",studytreelist
     

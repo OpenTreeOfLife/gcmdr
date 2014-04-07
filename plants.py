@@ -3,6 +3,23 @@ this is the stuff specific to the plant studies that are loaded. It can include 
 """
 
 import load_synth_extract
+"""
+new from bryan to adda
+ 17 > "1264_2544", # Isoetes
+ 18 > "43_3862", #  Hoya
+ 19 > "38_1750", #  Heliotropium
+ 20 > "32_1775", #  Valerianella
+ 21 > "20_2162", #  Galium
+ 22 > "52_463", #   Cucumis
+ 23 > "56_5821", #  Tsuga
+ 24 > "53_1280", #  Euryops
+ 25 > "62_2878", #  Lymania
+ 26 > "77_5878", #  Anaxagorea
+ 27 > "84_1014", #  Pereskia
+ 28 > "86_5634", #  Salsola
+ 29 > "2845_6597", #    Sparganium
+
+"""
 
 studytreelist=["2827_6577",#Ilex NEW
                "1022_1967",#Pontederiaceae

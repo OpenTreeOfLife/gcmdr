@@ -195,3 +195,17 @@ def extract_synth(javapre,treemloc,dsynth,ottolid,treeoutfile,append):
     if append == True:
         filemode = "a"
     pr = Popen(cmd).wait()
+
+def extract_graphml(javapre,treemloc,dload,ottolid,outfile,depth):
+    cmd = javapre.split(" ")
+    cmd.append(treemloc)
+    cmd.append("graphml_ottolid")
+    cmd.append(ottolid)
+    cmd.append(outfile)
+    cmd.append("T")
+    #cmd.append(str(ottolid))
+    cmd.append(dload)
+    cmd.append(str(depth))
+    print "extracting graphml tree with "+" ".join(cmd)
+    filemode = "w" #default is write
+    pr = Popen(cmd).wait()

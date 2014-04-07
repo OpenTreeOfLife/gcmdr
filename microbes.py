@@ -19,18 +19,22 @@ UPDATE THE INGROUP 2425	5121	Fewer D., Friedl T., & Budel B. 2002. Chroococcidio
 ## A possible alternative to Katz et al. 2012:
 studytreelist=["263_149",
                "2713_6309",
-               "2413_5093",
+               #"2413_5093",
                "2715_6308",
-               "2737_6322",
-               "2738_6323",
+               "2739_6601",
+               #"2737_6322",
+               #"2738_6323",
                "2753_6360",
                "2742_6342",
                "2757_6369",
                #"2760_6375",#Exception in thread "main" java.lang.IllegalStateException: this child is mapped the same graph node (Node[3114879]) as its parent [Alexandrium tamarense]
                "2553_5579",
                "2556_5586",
-               "2484_5436",
-               "312 264"
+               #"2484_5346",
+               "312_264",
+               "313_6019",
+               "2554_5580",
+               "2484_6607"
                ]#"2822_6569"] # Parfrey et al. 2011. PNAS
 studytreelistTF = [True] * len(studytreelist)
 """
