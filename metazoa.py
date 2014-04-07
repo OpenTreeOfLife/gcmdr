@@ -12,13 +12,18 @@ http://www.sciencemag.org/content/341/6143/292 [not sure where to find this tree
 
 studytreelist=[
      ## Birds
+               "2845_6606", # Sitta. Pasquet et al. 2014. J. Ornith.
                "2806_6529", # Psittaciformes. Joseph et al. 2011. MPE
                "2805_6512", # Psittaciformes. Wright et al. 2008. MBE
                "1979_6300", # Psittacidae. Tavares et al. 2006. Syst. Biol.
+               "2857_6628", # Gyps. Arshad et al. 2009. J. Ornith.
+               "1887_6629", # Accipitridae. Lerner et al. 2008. Auk
+               "2850_6620", # Columbidae. Cibois et al. 2014. MPE
                "2444_6526", # Columbiformes. Pereira et al. 2007. Syst. Biol.
                "2798_6497", # Spheniscidae. Subramanian et al. 2013. Biol. Lett.
                "2577_5980", # Galliformes. Wang et al. 2013. PLoS ONE
-               "2658_6192", # Trochilidae. McGuire et al. 2007. Syst. Biol.
+               "2853_6624", # Trochilidae. McGuire et al. 2014. Curr. Biol. *** Replaces McGuire et al. 2007. Syst. Biol.
+               #"2658_6192", # Trochilidae. McGuire et al. 2007. Syst. Biol.
                "2796_6491", # Pipridae. Ohlson et al. 2013. MPE
                "2707_6281", # Icteridae. Powell et al. 2013. MPE
                "1966_4019", # Maluridae. Lee et al. 2011. Syst. Biol.
@@ -32,6 +37,8 @@ studytreelist=[
                "2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
                "420_522",   # Aves. Hackett et al. 2008. Science
      ## Mammals
+               "2844_6605", # Talpa. Colangelo et al. 2010. MPE
+               "2843_6604", # Talpidae. He et al. 2014. MPE
                "2825_6572", # Xenarthra. Delsuc et al. 2012. MPE
                "2695_6250", # Ursidae. Krause et al. 2008. BMC Evol. Biol.
                "2656_6185", # Primates. Springer et al. 2012. PLoS ONE
@@ -67,6 +74,7 @@ studytreelist=[
                "2659_6195", # Otophysi. Chen et al. 2013. Evolution
 
      ## Other tetrapods
+               "2851_6621", # Kinosternidae. Spinks at al. 2014. MPE
                "2415_5096", # Turtles. Guillon et al. 2012. Contributions to Zoology
                "423_2857",  # Amphibia. Pyron and Weins. 2011. MPE
                "2573_5959", # Sauria. Crawford et al. 2012. Biology Letters
@@ -93,6 +101,7 @@ studytreelist=[
                "2667_6211", # maps to: Galatheoidea
 
      ## Insects and other crawley stuff
+               "2838_6594", # Pleocyemata. Bracken-Grissom et al. 2014. Syst. Biol.
                "2357_6538", # Evaniscus. Mullins et al. 2012. ZooKeys <- 2 new species are not in OTT
                "2323_6537", # Bombyliidae. Lambkin and Bartlett. 2011. ZooKeys <- check sampling
                "1940_3943", # Drosophilidae. Van der Linde et al. 2010. Genet. Res.
@@ -114,6 +123,9 @@ studytreelist=[
                "1338_2666", # Pterygota. Simon et al. 2009. MBE
 
      ## Other
+               "2709_6290", # Demospongiae. Redmond et al. 2013. Int. Comp. Biol.
+               "2842_6603", # Thecostraca. Perez-Losada et al. 2009. BMC Biol.
+               "2708_6289", # Cnidaria. Kayal et al. 2013. BMC Evol. Biol.
                "1343_6255", # Hexactinella. Dohrmann et al. 2009. MPE
                "1788_6534", # Siphonophora. Dunn et al. 2005. Syst. Biol.
                "1786_6257", # Hydrozoa. Cartwright et al. 2008. J. Marine Biol. Assoc. UK

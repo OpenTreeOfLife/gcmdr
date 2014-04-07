@@ -176,6 +176,19 @@ these are the studies identified by Chris, plus others from JWB
 "2323_6537", # Bombyliidae. Lambkin and Bartlett. 2011. ZooKeys <- check sampling
 "2357_6538", # Evaniscus. Mullins et al. 2012. ZooKeys <- 2 new species are not in OTT
 "2594_6014", # Diptera. Lambkin et al. 2013. Syst. Ent.
+"2844_6605", # Talpa. Colangelo et al. 2010. MPE
+"2843_6604", # Talpidae. He et al. 2014. MPE
+"2845_6606", # Sitta. Pasquet et al. 2014. J. Ornith.
+"2850_6620", # Columbidae. Cibois et al. 2014. MPE
+"2851_6621", # Kinosternidae. Spinks at al. 2014. MPE
+"2853_6624", # Trochilidae. McGuire et al. 2014. Curr. Biol.
+"2838_6594", # Pleocyemata. Bracken-Grissom et al. 2014. Syst. Biol.
+"2842_6603", # Thecostraca. Perez-Losada et al. 2009. BMC Biol.
+"2708_6289", # Cnidaria. Kayal et al. 2013. BMC Evol. Biol.
+"2709_6290", # Demospongiae. Redmond et al. 2013. Int. Comp. Biol.
+"2857_6628", # Gyps. Arshad et al. 2009. J. Ornith.
+"1887_6629", # Accipitridae. Lerner et al. 2008. Auk
+
 
 """
 
@@ -187,7 +200,7 @@ these are the studies identified by Chris, plus others from JWB
 "2815_6555", # Pancrustacea. von Reumont et al. 2012. MBE
 "2822_6569", # Parfrey et al. 2011. PNAS <- should be taken care of in microbes
 
-
+"2839_6600", # Carnivora. Agnarsson et al. 2010. MPE
 
 """
 
@@ -300,7 +313,11 @@ these are the studies identified by Chris, plus others from JWB
 
 studytreelist=[
 
-"2067_4258", # Boreoeutheria. Yoder and Yang. 2004. Mol. Ecol.
+#"2067_4258", # Boreoeutheria. Yoder and Yang. 2004. Mol. Ecol.
+
+
+
+
 
 
             ]
