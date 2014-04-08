@@ -34,7 +34,8 @@ studytreelist=["263_149",
                "312_264",
                "313_6019",
                "2554_5580",
-               "2484_6607"
+               "2484_6607",
+               "2849_6615"
                ]#"2822_6569"] # Parfrey et al. 2011. PNAS
 studytreelistTF = [True] * len(studytreelist)
 """
