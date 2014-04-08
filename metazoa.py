@@ -21,6 +21,7 @@ studytreelist=[
                "2850_6620", # Columbidae. Cibois et al. 2014. MPE
                "2444_6526", # Columbiformes. Pereira et al. 2007. Syst. Biol.
                "2798_6497", # Spheniscidae. Subramanian et al. 2013. Biol. Lett.
+               "2860_6646", # Anatidae. Fulton et al. 2012. Proc. Roy. Soc.
                "2577_5980", # Galliformes. Wang et al. 2013. PLoS ONE
                "2853_6624", # Trochilidae. McGuire et al. 2014. Curr. Biol. *** Replaces McGuire et al. 2007. Syst. Biol.
                #"2658_6192", # Trochilidae. McGuire et al. 2007. Syst. Biol.
@@ -37,6 +38,8 @@ studytreelist=[
                "2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
                "420_522",   # Aves. Hackett et al. 2008. Science
      ## Mammals
+               "2859_6643", # Muroidea. Schenk et al. 2013. Syst. Biol.
+               "1797_3635", # Tenrecidae. Poux et al. 2008. BMC Evol. Biol.
                "2844_6605", # Talpa. Colangelo et al. 2010. MPE
                "2843_6604", # Talpidae. He et al. 2014. MPE
                "2825_6572", # Xenarthra. Delsuc et al. 2012. MPE
@@ -50,14 +53,15 @@ studytreelist=[
                "2685_6235", # Mustelidae. Koepfli et al. 2008. BMC Evol. Biol.
                "1634_3303", # Chiroptera. Agnarsson et al. 2011. PLoS Currents Tree of Life
                "1927_6215", # Cetacea. Steeman et al. 2009. Syst. Biol.
+               "2587_5998", # Cetacea. McGowen et al. 2009. MPE
                "1981_4052", # Felidae. Johnson et al. 2006. Science
-               "2684_6229", # Hyaenidae. Koepfli et al. 2006. MPE
+               "2684_6644", # Hyaenidae. Koepfli et al. 2006. MPE
                "1797_3635", # Tenrecidae. Poux et al. 2008. BMC Evol. Biol.
                "1428_2855", # Mammals. Meredith et al. 2011. Science
                "1646_6231", # Caniformia (Pinnipeds). Higdon et al. 2007. BMC Evol. Biol.
                "2833_6588", # Metatheria. Cardillo et al. 2004. J. Zool.
                "2834_6589", # Metatheria. Nilsson et al. 2004. Gene
-
+               "2741_6645", # Catarrhini. Tarver et al. 2011. Proc. Roy. Soc. *** Lots of extinct taxa ***
      ## Fish - need to figure out best ordering with mapcompat
 #               "2651_6177", # Actinopterygii (Bony fishes). Betancur-R et al. 2013. PLoS Currents
 

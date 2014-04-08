@@ -65,7 +65,7 @@ these are the studies identified by Chris, plus others from JWB
 "1634_3303", # Chiroptera. Agnarsson et  al. 2011. PLoS Currents Tree of Life
 "1927_6215", # Cetacea. Steeman et al. 2009. Syst. Biol.
 "1981_4052", # Felidae. Johnson et al. 2006. Science
-"2684_6229", # Hyaenidae. Koepfli et al. 2006. MPE
+"2684_6644", # Hyaenidae. Koepfli et al. 2006. MPE
 "1797_3635", # Tenrecidae. Poux et al. 2008. BMC Evol. Biol.
 "1428_2855", # Mammals. Meredith et al. 2011. Science
 "1646_6231", # Caniformia (Pinnipeds). Higdon et al. 2007. BMC Evol. Biol.
@@ -188,7 +188,12 @@ these are the studies identified by Chris, plus others from JWB
 "2709_6290", # Demospongiae. Redmond et al. 2013. Int. Comp. Biol.
 "2857_6628", # Gyps. Arshad et al. 2009. J. Ornith.
 "1887_6629", # Accipitridae. Lerner et al. 2008. Auk
+"1797_3635", # Tenrecidae. Poux et al. 2008. BMC Evol. Biol.
+"2859_6643", # Muroidea. Schenk et al. 2013. Syst. Biol.
 
+"2741_6645", # Catarrhini. Tarver et al. 2011. Proc. Roy. Soc. *** Lots of extinct taxa ***
+
+"2860_6646", # Anatidae. Fulton et al. 2012. Proc. Roy. Soc.
 
 """
 
@@ -314,10 +319,6 @@ these are the studies identified by Chris, plus others from JWB
 studytreelist=[
 
 #"2067_4258", # Boreoeutheria. Yoder and Yang. 2004. Mol. Ecol.
-
-
-
-
 
 
             ]
