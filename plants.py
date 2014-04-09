@@ -18,9 +18,22 @@ studytreelist=["2827_6577",#Ilex NEW
                "2624_6139", #Veronica
                "2128_4437",#Plantago
                "1102_2177",#Collinsia
+               "625_1016", #   Hoheria
+               "761_1415", #   Drosera
+               "2048_4220", #  allium
                "1264_2544",#isoetes
-               "20_2162",#galium
-               "52_463", #   Cucumis
+               "1129_2251", #  Solanum
+               "1842_3724", #  Oxalis
+               "288_5028", #   Croton
+               "754_1392", #   Ribes
+               "1137_2295", #  Erythronium
+               "1109_2201", #  Castilleja
+               "2004_4118",#cyrtandra
+               "385_458", #    Begonia
+               "1843_3725", #  Euphorbia
+               "1858_3754", #  Euphorbia
+               "330_325", #    Santalum
+               "394_483", #   Cucumis
                "56_5821", #  Tsuga
                "53_1280", #  Euryops
                "62_2878", #  Lymania
@@ -110,6 +123,7 @@ studytreelist=["2827_6577",#Ilex NEW
                "1583_3194",#Gaillardia
                "1581_3188",#Dubautia
                "1575_3164",#Tolpis
+               "332_333", #    Polygonaceae
                "1573_3144",#Onoseris
                "934_1832",#Echinops
                "200_6585",#Encelia
@@ -174,6 +188,7 @@ studytreelist=["2827_6577",#Ilex NEW
                "1278_2572",#Liverworts
                "1268_2560",#hornworts
                "412_2166",#conifers
+               "787_1489", #   Ephedra
                "2046_5928" #Trebouxiophyceae, Chlorophyta
                ]
 studytreelistTF = [True] * len(studytreelist)
