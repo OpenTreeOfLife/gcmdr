@@ -11,9 +11,11 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S11535"
 pgloadind   property added ot:studyId "1563"
 pgloadind   property added ot:studyYear "2011"
-pgloadind   property added ot:focalClade "1648835"
+pgloadind   property added ot:focalClade "753726"
+pgloadind   property added ot:focalCladeOTTTaxonName "Hymenoptera"
 pgloadind   property added ot:branchLengthMode "ot:changesCount"
 pgloadind   property added ot:inGroupClade "node637246"
+pgloadind   property added ot:curatedType "Morphology MP consensus"
 pgloadind Processing tree @id "3126"
 pgloadind   tree info number nodes 159
 pgloadind   tree info number edges 158
@@ -26,9 +28,11 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S11535"
 pgloadind   property added ot:studyId "1563"
 pgloadind   property added ot:studyYear "2011"
-pgloadind   property added ot:focalClade "1648835"
+pgloadind   property added ot:focalClade "753726"
+pgloadind   property added ot:focalCladeOTTTaxonName "Hymenoptera"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
 pgloadind   property added ot:inGroupClade "node637385"
+pgloadind   property added ot:curatedType "MP COI"
 pgloadind Processing tree @id "3127"
 pgloadind   tree info number nodes 127
 pgloadind   tree info number edges 126
@@ -41,9 +45,11 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S11535"
 pgloadind   property added ot:studyId "1563"
 pgloadind   property added ot:studyYear "2011"
-pgloadind   property added ot:focalClade "1648835"
+pgloadind   property added ot:focalClade "753726"
+pgloadind   property added ot:focalCladeOTTTaxonName "Hymenoptera"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
 pgloadind   property added ot:inGroupClade "node637538"
+pgloadind   property added ot:curatedType "MP EF1a"
 pgloadind Processing tree @id "3128"
 pgloadind   tree info number nodes 164
 pgloadind   tree info number edges 163
@@ -56,9 +62,11 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S11535"
 pgloadind   property added ot:studyId "1563"
 pgloadind   property added ot:studyYear "2011"
-pgloadind   property added ot:focalClade "1648835"
+pgloadind   property added ot:focalClade "753726"
+pgloadind   property added ot:focalCladeOTTTaxonName "Hymenoptera"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
 pgloadind   property added ot:inGroupClade "node637665"
+pgloadind   property added ot:curatedType "MP 28S"
 pgloadind Processing tree @id "3129"
 pgloadind   tree info number nodes 167
 pgloadind   tree info number edges 166
@@ -71,9 +79,11 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S11535"
 pgloadind   property added ot:studyId "1563"
 pgloadind   property added ot:studyYear "2011"
-pgloadind   property added ot:focalClade "1648835"
+pgloadind   property added ot:focalClade "753726"
+pgloadind   property added ot:focalCladeOTTTaxonName "Hymenoptera"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
 pgloadind   property added ot:inGroupClade "node637833"
+pgloadind   property added ot:curatedType "MP 18S"
 pgloadind Processing tree @id "6170"
 pgloadind   tree info number nodes 214
 pgloadind   tree info number edges 213
@@ -86,9 +96,11 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S11535"
 pgloadind   property added ot:studyId "1563"
 pgloadind   property added ot:studyYear "2011"
-pgloadind   property added ot:focalClade "1648835"
+pgloadind   property added ot:focalClade "753726"
+pgloadind   property added ot:focalCladeOTTTaxonName "Hymenoptera"
 pgloadind   property added ot:inGroupClade "node1053699"
 pgloadind   property added ot:tag "Choose me"
+pgloadind   property added ot:curatedType "Total evidence parsimony Figure 2"
 loading a specific tree: 6170
 skipping tree: 3125
 skipping tree: 3126
@@ -97,16 +109,16 @@ skipping tree: 3128
 skipping tree: 3129
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "6170"
-pgloadind   all nodes have ottIds
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Dinapsis" nexsonid "node1053754"
-pgloadind       dubious OTT ID 4578552
+pgloadind     OTT ID missing name "Dinapsis" nexsonid "node1053754"
+pgloadind     OTT ID missing name "Archaeoteleia" nexsonid "node1053831"
+pgloadind   TNRS unmatched total number 0
+pgloadind     TNRS resolved ottId OTT ID 759402 name "Archaeoteleia" searched on "Archaeoteleia" nexsonid "node1053831"
+pgloadind     pruning unmapped name "Dinapsis" nexsonid "node1053754"
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Archaeoteleia" nexsonid "node1053831"
 pgloadind       dubious OTT ID 759402
 pgloadind     pruning dups and overlapping name "Archaeoteleia" nexsonid "node1053831"
-pgloadind     pruning dups and overlapping name "Dinapsis" nexsonid "node1053754"
-pgloadind   postpruning newick tree "((Macroxyela,Xyela),((Onycholyda,Cephalcia),(((Athalia,((Monoctenus,Corynis),(Notofenusa,Tenthredo))),(Runaria,((Heteroperreyia,Decameria),(Sterictiphora,Atomacera)))),((Cephus,Hartigia),((Syntexis,(Tremex,Urocerus,Sirex)),((Xiphydria,Derecyrta),((Orussobaius,Orussus),((Megischus,Schlettererius),((((Ceraphron,(Lagynodes,Megaspilus)),Megalyra),((Orthogonalys,Taeniogonalos),(((Brachygaster,(Evania,Evaniella)),((Aulacus,Pristaulacus),(Gasteruption,Pseudofoenus))),((Scolia,(Pison,(Stangeella,Chalybion))),((Sapyga,Dasymutilla),((Metapolybia,Rhopalosoma),(Ycaploca,(Cephalonomia,Plumarius)))))))),(((Dusona,(Zagryphus,(Labena,(Lymeon,Pimpla)))),(Orgilus,(Wroughtonia,(Urosigalphus,(Doryctes,(Aleiodes,Rhysipolis)))))),((((Proplatygaster,(Isostasius,Platygaster)),(Sparasion,Telenomus)),(Diplolepis,((Anacharis,Melanips),(Ibalia,(Parnips,(Periclistus,Paramblynotus)))))),((Helorus,Pelecinus,Ropronia,Vanhornia,Austronia,Peradenia,(Austroserphus,(Phaenoserphus,Proctotrupes,Exallonyx))),((Ismarus,((Maaminga,Monomachus),(Pantolytomyia,(Belyta,Poecilopsilus)))),((Mymaromma,Mymaromella),((Gonatocerus,Australomymar),(Chiloe,((Cales,Psilocharis),((Eurytoma,Spalangia),((Acanthochalcis,Cleonymus),((Megastigmus,Nasonia),(Cirrospilus,(Foersterella,(Coccophagus,Coccobius)))))))))))))))))))))))"
+pgloadind   postpruning newick tree "((Macroxyela,Xyela),((Onycholyda,Cephalcia),(((Athalia,((Monoctenus,Corynis),(Notofenusa,Tenthredo))),(Runaria,((Heteroperreyia,Decameria),(Sterictiphora,Atomacera)))),((Cephus,Hartigia),((Syntexis,(Tremex,Urocerus,Sirex)),((Xiphydria,Derecyrta),((Orussobaius,Orussus),((Megischus,Schlettererius),((((Ceraphron,(Lagynodes,Megaspilus)),Megalyra),((Orthogonalys,Taeniogonalos),(((Brachygaster,(Evania,Evaniella)),((Aulacus,Pristaulacus),(Gasteruption,Pseudofoenus))),((Scolia,(Pison,(Stangeella,Chalybion))),((Sapyga,Dasymutilla),((Metapolybia,Rhopalosoma),(Ycaploca,(Cephalonomia,Plumarius)))))))),(((Dusona,(Zagryphus,(Labena,(Lymeon,Pimpla)))),(Orgilus,(Wroughtonia,(Urosigalphus,(Doryctes,(Aleiodes,Rhysipolis)))))),((((Proplatygaster,(Isostasius,Platygaster)),(Sparasion,Telenomus)),(Diplolepis,((Anacharis,Melanips),(Ibalia,(Parnips,(Periclistus,Paramblynotus)))))),((Helorus,Pelecinus,Ropronia,Vanhornia,Austronia,Peradenia,(Austroserphus,(Phaenoserphus,Proctotrupes,Exallonyx))),((Ismarus,((Maaminga,Monomachus),(Pantolytomyia,(Belyta,Poecilopsilus)))),((Palaeomymar,Mymaromella),((Gonatocerus,Australomymar),(Chiloe,((Cales,Psilocharis),((Eurytoma,Spalangia),((Acanthochalcis,Cleonymus),((Megastigmus,Nasonia),(Cirrospilus,(Foersterella,(Coccophagus,Coccobius)))))))))))))))))))))))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 416999 taxonomy "Macroxyela->Xyelidae->Xyeloidea->Hymenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053701"
 pgloadind     taxon mapping OTT ID 1054961 taxonomy "Xyela->Xyelidae->Xyeloidea->Hymenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1053702"
@@ -221,78 +233,80 @@ pgloadind   Adding tree to graph tree id "6170"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Poecilopsilus was remapped to 'Diapriinae' (id=1814627)
+	Peradenia was remapped to 'Peradeniidae' (id=1815780)
+	Labena was remapped to 'Labeninae' (id=1865137)
 	Athalia was remapped to 'Allantinae' (id=1894981)
-	Schlettererius was remapped to 'Schlettererinae' (id=1813150)
-	Scolia was remapped to 'Scoliidae' (id=1796737)
-	Dusona was remapped to 'Campopleginae' (id=1873916)
-	Cephalonomia was remapped to 'Bethylidae' (id=1786456)
-	Maaminga was remapped to 'Maamingidae' (id=1813985)
-	Pimpla was remapped to 'Pimplinae' (id=1879770)
-	Periclistus was remapped to 'Synergini' (id=1816590)
-	Cirrospilus was remapped to 'Eulophidae' (id=1721196)
+	Rhysipolis was remapped to 'Exothecinae' (id=1843349)
+	Onycholyda was remapped to 'Pamphiliinae' (id=1704612)
 	Syntexis was remapped to 'Anaxyelidae' (id=1704837)
+	Poecilopsilus was remapped to 'Diapriinae' (id=1814627)
+	Acanthochalcis was remapped to 'Chalcididae' (id=1715134)
+	Periclistus was remapped to 'Synergini' (id=1816590)
+	Ceraphron was remapped to 'Ceraphronidae' (id=1813214)
+	Pison was remapped to 'Crabronidae' (id=1782321)
+	Pimpla was remapped to 'Pimplinae' (id=1879770)
+	Vanhornia was remapped to 'Vanhorniidae' (id=1814229)
+	Cephalonomia was remapped to 'Bethylidae' (id=1786456)
 	Anacharis was remapped to 'Anacharitinae' (id=1817142)
-	Sapyga was remapped to 'Sapygidae' (id=1812339)
-	Tenthredo was remapped to 'Tenthrediniinae' (id=1896453)
-	Austronia was remapped to 'Austroniidae' (id=1815775)
-	Dasymutilla was remapped to 'Mutillidae' (id=1811369)
+	Rhopalosoma was remapped to 'Rhopalosomatidae' (id=1812259)
+	Monoctenus was remapped to 'Diprionidae' (id=1894764)
+	Aleiodes was remapped to 'Rogadinae' (id=1820539)
 	Corynis was remapped to 'Cimbicidae' (id=1894691)
-	Ibalia was remapped to 'Ibaliidae' (id=1816771)
-	Notofenusa was remapped to 'Heterarthrinae' (id=1895189)
-	Pelecinus was remapped to 'Pelecinidae' (id=1814223)
+	Doryctes was remapped to 'Doryctinae' (id=1818123)
+	Orgilus was remapped to 'Orgilinae' (id=1827135)
+	Cirrospilus was remapped to 'Eulophidae' (id=1721196)
+	Dusona was remapped to 'Campopleginae' (id=1873916)
+	Monomachus was remapped to 'Monomachidae' (id=1813974)
 	Wroughtonia was remapped to 'Helconinae' (id=1844000)
+	Stangeella was remapped to 'Sphecini' (id=1784362)
+	Scolia was remapped to 'Scoliidae' (id=1796737)
+	Paramblynotus was remapped to 'Liopteridae' (id=1815785)
+	Megalyra was remapped to 'Megalyroidea' (id=1813919)
+	Schlettererius was remapped to 'Schlettererinae' (id=1813150)
+	Eurytoma was remapped to 'Eurytomidae' (id=1712796)
+	Spalangia was remapped to 'Spalangiinae' (id=1736366)
+	Runaria was remapped to 'Blasticotomidae' (id=1897205)
+	Ibalia was remapped to 'Ibaliidae' (id=1816771)
+	Cleonymus was remapped to 'Cleonyminae' (id=1731501)
+	Tenthredo was remapped to 'Tenthrediniinae' (id=1896453)
+	Ismarus was remapped to 'Ismarinae' (id=1815233)
+	Notofenusa was remapped to 'Heterarthrinae' (id=1895189)
+	Megastigmus was remapped to 'Torymidae' (id=1739998)
+	Megischus was remapped to 'Stephaninae' (id=1813157)
+	Foersterella was remapped to 'Tetracampidae' (id=1742316)
+	Psilocharis was remapped to 'Eucharitidae' (id=1705084)
+	Pelecinus was remapped to 'Pelecinidae' (id=1814223)
+	Pantolytomyia was remapped to 'Ambositrinae' (id=1815185)
+	Chiloe was remapped to 'Rotoitidae' (id=1706077)
+	Zagryphus was remapped to 'Tryphoninae' (id=1872098)
+	Belyta was remapped to 'Belytinae' (id=1814237)
+	Austronia was remapped to 'Austroniidae' (id=1815775)
+	Cales was remapped to 'Calesinae' (id=1743141)
+	Telenomus was remapped to 'Telenominae' (id=1889805)
+	Dasymutilla was remapped to 'Mutillidae' (id=1811369)
+	Ropronia was remapped to 'Roproniidae' (id=1813992)
+	Plumarius was remapped to 'Plumariidae' (id=1787172)
+	Parnips was remapped to 'Parnipinae' (id=1817194)
+	Metapolybia was remapped to 'Vespidae' (id=1787751)
+	Ycaploca was remapped to 'Scolebythidae' (id=1787167)
+	Diplolepis was remapped to 'Diplolepidini' (id=1816717)
 	Cephalcia was remapped to 'Cephalciinae' (id=1704559)
 	Urosigalphus was remapped to 'Blacinae' (id=1828570)
-	Chalybion was remapped to 'Sceliphrini' (id=1785018)
-	Aleiodes was remapped to 'Rogadinae' (id=1820539)
-	Diplolepis was remapped to 'Diplolepidini' (id=1816717)
-	Peradenia was remapped to 'Peradeniidae' (id=1815780)
-	Monoctenus was remapped to 'Diprionidae' (id=1894764)
-	Stangeella was remapped to 'Sphecini' (id=1784362)
-	Vanhornia was remapped to 'Vanhorniidae' (id=1814229)
-	Melanips was remapped to 'Aspicerinae' (id=1816812)
-	Eurytoma was remapped to 'Eurytomidae' (id=1712796)
-	Parnips was remapped to 'Parnipinae' (id=1817194)
-	Telenomus was remapped to 'Telenominae' (id=1889805)
-	Cales was remapped to 'Calesinae' (id=1743141)
-	Rhysipolis was remapped to 'Exothecinae' (id=1843349)
-	Monomachus was remapped to 'Monomachidae' (id=1813974)
-	Plumarius was remapped to 'Plumariidae' (id=1787172)
-	Megalyra was remapped to 'Megalyroidea' (id=1813919)
-	Megischus was remapped to 'Stephaninae' (id=1813157)
-	Chiloe was remapped to 'Rotoitidae' (id=1706077)
-	Foersterella was remapped to 'Tetracampidae' (id=1742316)
-	Runaria was remapped to 'Blasticotomidae' (id=1897205)
 	Helorus was remapped to 'Heloridae' (id=1815766)
-	Ropronia was remapped to 'Roproniidae' (id=1813992)
-	Nasonia was remapped to 'Pteromalinae' (id=1733583)
-	Pison was remapped to 'Crabronidae' (id=1782321)
-	Ceraphron was remapped to 'Ceraphronidae' (id=1813214)
-	Ycaploca was remapped to 'Scolebythidae' (id=1787167)
-	Cleonymus was remapped to 'Cleonyminae' (id=1731501)
-	Labena was remapped to 'Labeninae' (id=1865137)
-	Belyta was remapped to 'Belytinae' (id=1814237)
-	Doryctes was remapped to 'Doryctinae' (id=1818123)
-	Psilocharis was remapped to 'Eucharitidae' (id=1705084)
-	Orgilus was remapped to 'Orgilinae' (id=1827135)
+	Chalybion was remapped to 'Sceliphrini' (id=1785018)
 	Sparasion was remapped to 'Scelioninae' (id=1890402)
-	Zagryphus was remapped to 'Tryphoninae' (id=1872098)
-	Metapolybia was remapped to 'Vespidae' (id=1787751)
-	Rhopalosoma was remapped to 'Rhopalosomatidae' (id=1812259)
-	Ismarus was remapped to 'Ismarinae' (id=1815233)
+	Maaminga was remapped to 'Maamingidae' (id=1813985)
+	Nasonia was remapped to 'Pteromalinae' (id=1733583)
+	Melanips was remapped to 'Aspicerinae' (id=1816812)
+	Sapyga was remapped to 'Sapygidae' (id=1812339)
 	Lymeon was remapped to 'Cryptinae' (id=1855978)
-	Spalangia was remapped to 'Spalangiinae' (id=1736366)
-	Acanthochalcis was remapped to 'Chalcididae' (id=1715134)
-	Megastigmus was remapped to 'Torymidae' (id=1739998)
-	Pantolytomyia was remapped to 'Ambositrinae' (id=1815185)
-	Paramblynotus was remapped to 'Liopteridae' (id=1815785)
-	Onycholyda was remapped to 'Pamphiliinae' (id=1704612)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
 Dealing with metadata property: ot:studyPublicationReference
 Adding property 'ot:studyPublicationReference': Sharkey M., Carpenter J., Vilhelmsen L., Heraty J., Hawks D., Dowling A.P., Schulmeister S., Murray D., Deans A., Ronquist F., Krogmann L., & Wheeler W. 2011. Phylogenetic Relationships Among Superfamilies of Hymenoptera. Cladistics, 28: 80-112.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Hymenoptera
 Dealing with metadata property: ot:studyYear
 Adding property 'ot:studyYear': 2011
 Dealing with metadata property: ot:inGroupClade
@@ -304,55 +318,57 @@ Adding property 'ot:curatorName': Chris Owen
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1111/j.1096-0031.2011.00366.x
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 1648835
+Adding property 'ot:focalClade': 753726
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Total evidence parsimony Figure 2
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 1563
 Dealing with metadata property: ot:dataDeposit
 Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S11535
 Committing nodes: 204
 	adding Node[1704764] Cephoidea 42450 as compatible with Node[1704765]
-		adding Relationship[8163853]
-		adding to root Relationship[8163854]
+		adding Relationship[8167395]
+		adding to root Relationship[8167396]
 	adding Node[1704933] Orussoidea 563296 as compatible with Node[1704934]
-		adding Relationship[8163855]
-		adding to root Relationship[8163856]
+		adding Relationship[8167397]
+		adding to root Relationship[8167398]
 	adding Node[1704965] Xiphydrioidea 563298 as compatible with Node[1704966]
-		adding Relationship[8163857]
-		adding to root Relationship[8163858]
+		adding Relationship[8167399]
+		adding to root Relationship[8167400]
 	adding Node[1705008] Xyeloidea 563301 as compatible with Node[1705009]
-		adding Relationship[8163859]
-		adding to root Relationship[8163860]
+		adding Relationship[8167401]
+		adding to root Relationship[8167402]
 	adding Node[1705044] Mymarommatoidea 84293 as compatible with Node[1705045]
-		adding Relationship[8163861]
-		adding to root Relationship[8163862]
+		adding Relationship[8167403]
+		adding to root Relationship[8167404]
 	adding Node[1889612] Trigonaloidea 155409 as compatible with Node[1889613]
-		adding Relationship[8163863]
-		adding to root Relationship[8163864]
+		adding Relationship[8167405]
+		adding to root Relationship[8167406]
 	adding Node[1893033] Platygastridae 615167 as compatible with Node[1893035]
-		adding Relationship[8163865]
-		adding to root Relationship[8163866]
+		adding Relationship[8167407]
+		adding to root Relationship[8167408]
 	adding Node[1704554] Pamphilioidea 42447 as compatible with Node[1704556]
-		adding Relationship[8163867]
-		adding to root Relationship[8163868]
+		adding Relationship[8167409]
+		adding to root Relationship[8167410]
 	adding Node[1784358] Sphecidae 472221 as compatible with Node[1784360]
-		adding Relationship[8163869]
-		adding to root Relationship[8163870]
+		adding Relationship[8167411]
+		adding to root Relationship[8167412]
 	adding Node[1813148] Stephanoidea 266164 as compatible with Node[1813149]
-		adding Relationship[8163871]
-		adding to root Relationship[8163872]
-		adding Relationship[8163873] from Node[3467077] to Node[1704552]
-		adding Relationship[8163874] from Node[1705044] to Node[1705043]
-		adding Relationship[8163875] from Node[1889612] to Node[1705040]
-		adding Relationship[8163876] from Node[1813148] to Node[1705040]
-		adding Relationship[8163877] from Node[1705008] to Node[1704552]
-		adding Relationship[8163878] from Node[1704933] to Node[1704552]
-		adding Relationship[8163879] from Node[1705040] to Node[3467072]
-		adding Relationship[8163880] from Node[1705040] to Node[1704552]
-		adding Relationship[8163881] from Node[3467072] to Node[3467073]
-		adding Relationship[8163882] from Node[1705043] to Node[1705040]
-		adding Relationship[8163883] from Node[1704554] to Node[1704552]
-		adding Relationship[8163884] from Node[1704764] to Node[1704552]
-		adding Relationship[8163885] from Node[1704965] to Node[1704552]
-		adding Relationship[8163886] from Node[1893033] to Node[1889686]
-		adding Relationship[8163887] from Node[1889686] to Node[1705040]
-		adding Relationship[8163888] from Node[1784358] to Node[1782320]
+		adding Relationship[8167413]
+		adding to root Relationship[8167414]
+		adding Relationship[8167415] from Node[3468700] to Node[3468701]
+		adding Relationship[8167416] from Node[1705044] to Node[1705043]
+		adding Relationship[8167417] from Node[1889612] to Node[1705040]
+		adding Relationship[8167418] from Node[1813148] to Node[1705040]
+		adding Relationship[8167419] from Node[1705008] to Node[1704552]
+		adding Relationship[8167420] from Node[1704933] to Node[1704552]
+		adding Relationship[8167421] from Node[1705040] to Node[3468700]
+		adding Relationship[8167422] from Node[1705040] to Node[1704552]
+		adding Relationship[8167423] from Node[1705043] to Node[1705040]
+		adding Relationship[8167424] from Node[1704554] to Node[1704552]
+		adding Relationship[8167425] from Node[1704764] to Node[1704552]
+		adding Relationship[8167426] from Node[1704965] to Node[1704552]
+		adding Relationship[8167427] from Node[1893033] to Node[1889686]
+		adding Relationship[8167428] from Node[1889686] to Node[1705040]
+		adding Relationship[8167429] from Node[1784358] to Node[1782320]
+		adding Relationship[8167430] from Node[3468705] to Node[1704552]

@@ -18,10 +18,8 @@ loading a specific tree: 6589
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "6589"
 pgloadind     OTT ID missing name "Macrotis" nexsonid "node1145832"
-pgloadind     OTT ID missing name "Trichosurus" nexsonid "node1145846"
 pgloadind   TNRS unmatched total number 0
 pgloadind     TNRS resolved ottId OTT ID 940706 name "Macrotis" searched on "Macrotis" nexsonid "node1145832"
-pgloadind     TNRS resolved ottId OTT ID 323243 name "Trichosurus" searched on "Trichosurus" nexsonid "node1145846"
 pgloadind   postpruning newick tree "(((Didelphis,Metachirus),(Monodelphis,Thylamys)),(((Dromiciops,(((Isoodon,Perameles),Macrotis),(Notoryctes,(Sminthopsis,Phascogale)))),((((Potorous,Macropus),Vombatus),(Trichosurus,Pseudocheirus)),Tarsipes)),(Rhyncholestes,Caenolestes)))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 762047 taxonomy "Didelphis->Didelphinae->Didelphidae->Didelphimorphia->Metatheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1145818"
@@ -50,14 +48,14 @@ pgloadind   Adding tree to graph tree id "6589"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Dromiciops was remapped to 'Microbiotheria' (id=347806)
-	Trichosurus was remapped to 'Phalangeroidea' (id=347200)
-	Pseudocheirus was remapped to 'Pseudocheiridae' (id=347322)
-	Macropus was remapped to 'Macropodidae' (id=346936)
-	Potorous was remapped to 'Potoroidae' (id=346863)
-	Tarsipes was remapped to 'Tarsipedidae' (id=347315)
-	Vombatus was remapped to 'Vombatidae' (id=346814)
 	Notoryctes was remapped to 'Notoryctemorphia' (id=347923)
+	Trichosurus was remapped to 'Phalangeroidea' (id=347200)
+	Potorous was remapped to 'Potoroidae' (id=346863)
+	Vombatus was remapped to 'Vombatidae' (id=346814)
+	Tarsipes was remapped to 'Tarsipedidae' (id=347315)
+	Pseudocheirus was remapped to 'Pseudocheiridae' (id=347322)
+	Dromiciops was remapped to 'Microbiotheria' (id=347806)
+	Macropus was remapped to 'Macropodidae' (id=346936)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id

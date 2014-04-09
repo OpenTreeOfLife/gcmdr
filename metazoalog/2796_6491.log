@@ -10,7 +10,7 @@ pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.ympe
 pgloadind   property added ot:curatorName "Joseph Brown"
 pgloadind   property added ot:studyId "2796"
 pgloadind   property added ot:studyYear "2013"
-pgloadind   property added ot:focalClade "2672197"
+pgloadind   property added ot:focalClade "881043"
 pgloadind   property added ot:focalCladeOTTTaxonName "Pipridae"
 pgloadind   property added ot:tag "ingroup added;"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
@@ -19,20 +19,12 @@ pgloadind   property added ot:curatedType "Bayesian consensus"
 loading a specific tree: 6491
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "6491"
-pgloadind     OTT ID missing name "Chloropipo flavicapilla" nexsonid "node1121479"
-pgloadind     OTT ID missing name "Chloropipo unicolor" nexsonid "node1121480"
-pgloadind     OTT ID missing name "Chloropipo holochlora holochlora" nexsonid "node1121501"
-pgloadind     OTT ID missing name "Chloropipo holochlora litae" nexsonid "node1121502"
 pgloadind     OTT ID missing name "Dixiphia pipra pipra" nexsonid "node1121540"
 pgloadind     OTT ID missing name "Dixiphia pipra coracina" nexsonid "node1121541"
 pgloadind   TNRS unmatched total number 2
-pgloadind     TNRS resolved ottId OTT ID 5223434 name "Cryptopipo holochlora holochlora" searched on "Chloropipo holochlora holochlora" nexsonid "node1121501"
-pgloadind     TNRS resolved ottId OTT ID 485120 name "Xenopipo unicolor" searched on "Chloropipo unicolor" nexsonid "node1121480"
-pgloadind     TNRS resolved ottId OTT ID 3598413 name "Chloropipo flavicapilla" searched on "Chloropipo flavicapilla" nexsonid "node1121479"
-pgloadind     TNRS resolved ottId OTT ID 5223433 name "Cryptopipo holochlora litae" searched on "Chloropipo holochlora litae" nexsonid "node1121502"
 pgloadind     pruning unmapped name "Dixiphia pipra coracina" nexsonid "node1121541"
 pgloadind     pruning unmapped name "Dixiphia pipra pipra" nexsonid "node1121540"
-pgloadind   postpruning newick tree "(((Tyranneutes_stolzmanni,Tyranneutes_virescens),(Neopelma_pallescens,(Neopelma_chrysocephalum,Neopelma_sulphureiventer))),(((Chloropipo_flavicapilla,Chloropipo_unicolor),((Antilophia_galeata,(Chiroxiphia_caudata,Chiroxiphia_linearis)),(Ilicura_militaris,(Corapipo_gutturalis,(Masius_chrysopterus,Corapipo_leucorrhoa))))),((Xenopipo_atronitens,Chloropipo_uniformis),(((Chloropipo_holochlora_holochlora,Chloropipo_holochlora_litae),((Lepidothrix_serena,Lepidothrix_suavissima),(Lepidothrix_coronata,((Lepidothrix_coeruleocapilla,Lepidothrix_isidorei),(Lepidothrix_iris,Lepidothrix_nattereri))))),(Heterocercus_linteatus,((Manacus_candei,(Manacus_manacus,(Manacus_aurantiacus,Manacus_vitellinus))),((Pipra_filicauda,(Pipra_aureola,Pipra_fasciicauda)),((Machaeropterus_regulus,(Machaeropterus_deliciosus,Machaeropterus_pyrocephalus)),(Pipra_cornuta,((Pipra_chloromeros,Pipra_rubrocapilla),(Pipra_erythrocephala,Pipra_mentalis)))))))))))"
+pgloadind   postpruning newick tree "(((Tyranneutes_stolzmanni,Tyranneutes_virescens),(Neopelma_pallescens,(Neopelma_chrysocephalum,Neopelma_sulphureiventer))),(((Chloropipo_flavicapilla,Xenopipo_unicolor),((Antilophia_galeata,(Chiroxiphia_caudata,Chiroxiphia_linearis)),(Ilicura_militaris,(Corapipo_gutturalis,(Masius_chrysopterus,Corapipo_leucorrhoa))))),((Xenopipo_atronitens,Xenopipo_uniformis),(((Cryptopipo_holochlora_holochlora,Cryptopipo_holochlora_litae),((Lepidothrix_serena,Lepidothrix_suavissima),(Lepidothrix_coronata,((Lepidothrix_coeruleocapilla,Lepidothrix_isidorei),(Lepidothrix_iris,Lepidothrix_nattereri))))),(Heterocercus_linteatus,((Manacus_candei,(Manacus_manacus,(Manacus_aurantiacus,Manacus_vitellinus))),((Pipra_filicauda,(Pipra_aureola,Pipra_fasciicauda)),((Machaeropterus_regulus,(Machaeropterus_deliciosus,Machaeropterus_pyrocephalus)),(Pipra_cornuta,((Pipra_chloromeros,Pipra_rubrocapilla),(Pipra_erythrocephala,Pipra_mentalis)))))))))))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 806166 taxonomy "Tyranneutes stolzmanni->Tyranneutes->Pipridae->Passeriformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1121469"
 pgloadind     taxon mapping OTT ID 260633 taxonomy "Tyranneutes virescens->Tyranneutes->Pipridae->Passeriformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1121470"
@@ -82,11 +74,11 @@ pgloadind   Adding tree to graph tree id "6491"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Heterocercus linteatus was remapped to 'Heterocercus' (id=405109)
-	Antilophia galeata was remapped to 'Antilophia' (id=405003)
-	Ilicura militaris was remapped to 'Ilicura' (id=405009)
 	Masius chrysopterus was remapped to 'Masius' (id=405106)
+	Ilicura militaris was remapped to 'Ilicura' (id=405009)
 	Chloropipo flavicapilla was remapped to 'Chloropipo' (id=404973)
+	Antilophia galeata was remapped to 'Antilophia' (id=405003)
+	Heterocercus linteatus was remapped to 'Heterocercus' (id=405109)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -107,12 +99,12 @@ Adding property 'ot:curatorName': Joseph Brown
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.ympev.2013.06.024
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 2672197
+Adding property 'ot:focalClade': 881043
 Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': Bayesian consensus
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2796
 Committing nodes: 81
 	adding Node[405091] Cryptopipo 5223432 as compatible with Node[405092]
-		adding Relationship[8163569]
-		adding to root Relationship[8163570]
+		adding Relationship[8167111]
+		adding to root Relationship[8167112]

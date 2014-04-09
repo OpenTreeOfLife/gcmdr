@@ -10,7 +10,8 @@ pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1126/scienc
 pgloadind   property added ot:curatorName "Joseph Brown"
 pgloadind   property added ot:studyId "2710"
 pgloadind   property added ot:studyYear "2013"
-pgloadind   property added ot:focalClade "1571669"
+pgloadind   property added ot:focalClade "691846"
+pgloadind   property added ot:focalCladeOTTTaxonName "Metazoa"
 pgloadind   property added ot:tag "ingroup added;"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
 pgloadind   property added ot:inGroupClade "node1093975"
@@ -19,11 +20,14 @@ loading a specific tree: 6291
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "6291"
 pgloadind     OTT ID missing name "Mertensiid sp" nexsonid "node1093980"
+pgloadind     OTT ID missing name "Acropora palmata" nexsonid "node1094024"
+pgloadind     OTT ID missing name "Acropora millepora" nexsonid "node1094025"
+pgloadind     OTT ID missing name "Schmidtea mediterranea" nexsonid "node1094075"
 pgloadind   TNRS unmatched total number 1
+pgloadind     TNRS resolved ottId OTT ID 718262 name "Acropora millepora" searched on "Acropora millepora" nexsonid "node1094025"
+pgloadind     TNRS resolved ottId OTT ID 900428 name "Schmidtea mediterranea" searched on "Schmidtea mediterranea" nexsonid "node1094075"
+pgloadind     TNRS resolved ottId OTT ID 507954 name "Acropora palmata" searched on "Acropora palmata" nexsonid "node1094024"
 pgloadind     pruning unmapped name "Mertensiid sp" nexsonid "node1093980"
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Hydra magnipapillata" nexsonid "node1094010"
-pgloadind       dubious OTT ID 767776
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Acropora palmata" nexsonid "node1094024"
 pgloadind       dubious OTT ID 507954
@@ -33,11 +37,10 @@ pgloadind       dubious OTT ID 718262
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Schmidtea mediterranea" nexsonid "node1094075"
 pgloadind       dubious OTT ID 900428
-pgloadind     pruning dups and overlapping name "Schmidtea mediterranea" nexsonid "node1094075"
-pgloadind     pruning dups and overlapping name "Hydra magnipapillata" nexsonid "node1094010"
-pgloadind     pruning dups and overlapping name "Acropora millepora" nexsonid "node1094025"
 pgloadind     pruning dups and overlapping name "Acropora palmata" nexsonid "node1094024"
-pgloadind   postpruning newick tree "((Pleurobrachia_pileus,Mnemiopsis),((((Leucetta_chagosensis,Sycon_raphanus),(Oscarella_carmela,Oscarella_lobularis)),(Oopsacas_minuta,(Carteriospongia_foliascens,(Amphimedon_queenslandica,(Suberites_domuncula,(Lubomirskia_baicalensis,Ephydatia_muelleri)))))),(Trichoplax_adhaerens,(((Cyanea_capillata,(Clytia_hemisphaerica,(Podocoryna_carnea,Hydractinia_echinata))),((Nematostella_vectensis,(Anemonia_viridis,(Aiptasia_pallida,Metridium_senile))),(Porites_astreoides,Montastraea_faveolata))),((Xenoturbella_bocki,((Nemertoderma_westbladi,Meara_stichopi),(Isodiametra_pulchra,(Symsagittifera_roscoffensis,Convolutriloba_longifissura)))),((((Saccoglossus_kowalevskii,Ptychodera_flava),(Strongylocentrotus_purpuratus,Patiria_pectinifera)),(Branchiostoma_floridae,((Petromyzon_marinus,Gallus),(Ciona_intestinalis,Halocynthia_roretzi)))),(((Echinoderes_horni,Xiphinema_index),(Euperipatoides_kanangrensis,((Anoplodactylus_eroticus,Rhipicephalus_microplus),(Daphnia_pulex,Drosophila_melanogaster)))),(((Capitella_teleta,Helobdella_robusta),((Cerebratulus_lacteus,Terebratalia_transversa),(Euprymna_scolopes,(Lottia_gigantea,Crassostrea_virginica)))),Paraplanocera_oligoglena))))))))"
+pgloadind     pruning dups and overlapping name "Schmidtea mediterranea" nexsonid "node1094075"
+pgloadind     pruning dups and overlapping name "Acropora millepora" nexsonid "node1094025"
+pgloadind   postpruning newick tree "((Pleurobrachia_pileus,Mnemiopsis),((((Leucetta_chagosensis,Sycon_raphanus),(Oscarella_carmela,Oscarella_lobularis)),(Oopsacas_minuta,(Carteriospongia_foliascens,(Amphimedon_queenslandica,(Suberites_domuncula,(Lubomirskia_baicalensis,Ephydatia_muelleri)))))),(Trichoplax_adhaerens,(((Cyanea_capillata,(Clytia_hemisphaerica,(Hydra_vulgaris,(Podocoryna_carnea,Hydractinia_echinata)))),((Nematostella_vectensis,(Anemonia_viridis,(Aiptasia_pallida,Metridium_senile))),(Porites_astreoides,Montastraea_faveolata))),((Xenoturbella_bocki,((Nemertoderma_westbladi,Meara_stichopi),(Isodiametra_pulchra,(Symsagittifera_roscoffensis,Convolutriloba_longifissura)))),((((Saccoglossus_kowalevskii,Ptychodera_flava),(Strongylocentrotus_purpuratus,Patiria_pectinifera)),(Branchiostoma_floridae,((Petromyzon_marinus,Gallus),(Ciona_intestinalis,Halocynthia_roretzi)))),(((Echinoderes_horni,Xiphinema_index),(Euperipatoides_kanangrensis,((Anoplodactylus_eroticus,Rhipicephalus_microplus),(Daphnia_pulex,Drosophila_melanogaster)))),(((Capitella_teleta,Helobdella_robusta),((Cerebratulus_lacteus,Terebratalia_transversa),(Euprymna_scolopes,(Lottia_gigantea,Crassostrea_virginica)))),Paraplanocera_oligoglena))))))))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 626459 taxonomy "Pleurobrachia pileus->Pleurobrachia->Pleurobrachiidae->Cydippida->Typhlocoela->Ctenophora->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093977"
 pgloadind     taxon mapping OTT ID 161882 taxonomy "Mnemiopsis->Bolinopsidae->Lobata->Cyclocoela->Ctenophora->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1093979"
@@ -54,6 +57,7 @@ pgloadind     taxon mapping OTT ID 588770 taxonomy "Ephydatia muelleri->Ephydati
 pgloadind     taxon mapping OTT ID 570365 taxonomy "Trichoplax adhaerens->Trichoplax->Trichoplacidae->Placozoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094002"
 pgloadind     taxon mapping OTT ID 178412 taxonomy "Cyanea capillata->Cyanea->Cyaneidae->Semaeostomeae->Scyphozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094006"
 pgloadind     taxon mapping OTT ID 33386 taxonomy "Clytia hemisphaerica->Clytia->Campanulariidae->Leptomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094008"
+pgloadind     taxon mapping OTT ID 861536 taxonomy "Hydra vulgaris->Hydra->Hydridae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094010"
 pgloadind     taxon mapping OTT ID 612106 taxonomy "Podocoryna carnea->Podocoryna->Hydractiniidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094012"
 pgloadind     taxon mapping OTT ID 115617 taxonomy "Hydractinia echinata->Hydractinia->Hydractiniidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094013"
 pgloadind     taxon mapping OTT ID 938118 taxonomy "Nematostella vectensis->Nematostella->Edwardsiidae->Actiniaria->Hexacorallia->Anthozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1094016"
@@ -99,62 +103,65 @@ pgloadind   Adding tree to graph tree id "6291"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Ptychodera flava was remapped to 'Ptychoderidae' (id=317393)
-	Cerebratulus lacteus was remapped to 'Nemertea' (id=575388)
-	Xiphinema index was remapped to 'Nematoda' (id=778229)
-	Strongylocentrotus purpuratus was remapped to 'Echinozoa' (id=562207)
-	Metridium senile was remapped to 'Metridiidae' (id=2504889)
-	Nemertoderma westbladi was remapped to 'Nemertoderma' (id=2479497)
-	Aiptasia pallida was remapped to 'Aiptasiidae' (id=2503230)
-	Helobdella robusta was remapped to 'Clitellata' (id=718968)
-	Halocynthia roretzi was remapped to 'Stolidobranchia' (id=317603)
-	Petromyzon marinus was remapped to 'Hyperoartia' (id=552064)
-	Crassostrea virginica was remapped to 'Bivalvia' (id=686874)
-	Porites astreoides was remapped to 'Fungiina' (id=2501822)
-	Xenoturbella bocki was remapped to 'Xenoturbella' (id=2479492)
-	Rhipicephalus microplus was remapped to 'Arachnida' (id=2326029)
-	Mnemiopsis was remapped to 'Cyclocoela' (id=2505949)
-	Carteriospongia foliascens was remapped to 'Dictyoceratida' (id=310403)
-	Ciona intestinalis was remapped to 'Enterogona' (id=320204)
-	Euperipatoides kanangrensis was remapped to 'Onychophora' (id=2477835)
-	Trichoplax adhaerens was remapped to 'Placozoa' (id=317346)
 	Saccoglossus kowalevskii was remapped to 'Harrimaniidae' (id=317487)
-	Meara stichopi was remapped to 'Meara' (id=2479504)
-	Sycon raphanus was remapped to 'Calcaronea' (id=314664)
-	Lottia gigantea was remapped to 'Gastropoda' (id=595289)
-	Branchiostoma floridae was remapped to 'Cephalochordata' (id=324222)
-	Anemonia viridis was remapped to 'Actiniidae' (id=2503727)
-	Capitella teleta was remapped to 'Polychaeta' (id=725321)
-	Euprymna scolopes was remapped to 'Cephalopoda' (id=591561)
-	Clytia hemisphaerica was remapped to 'Leptomedusae' (id=2482210)
-	Montastraea faveolata was remapped to 'Faviina' (id=2500230)
-	Lubomirskia baicalensis was remapped to 'Lubomirskiidae' (id=301815)
-	Podocoryna carnea was remapped to 'Podocoryna' (id=2486915)
-	Convolutriloba longifissura was remapped to 'Convolutriloba' (id=2478812)
-	Hydractinia echinata was remapped to 'Hydractinia' (id=2486696)
-	Nematostella vectensis was remapped to 'Edwardsiidae' (id=2503054)
-	Leucetta chagosensis was remapped to 'Calcinea' (id=314206)
-	Isodiametra pulchra was remapped to 'Isodiametridae' (id=2479059)
-	Patiria pectinifera was remapped to 'Asterozoa' (id=552543)
-	Amphimedon queenslandica was remapped to 'Niphatidae' (id=303743)
-	Terebratalia transversa was remapped to 'Brachiopoda' (id=717593)
-	Gallus was remapped to 'Gnathostomata' (id=324344)
-	Cyanea capillata was remapped to 'Scyphozoa' (id=2490461)
 	Symsagittifera roscoffensis was remapped to 'Symsagittifera' (id=2478776)
-	Paraplanocera oligoglena was remapped to 'Platyhelminthes' (id=749046)
-	Anoplodactylus eroticus was remapped to 'Pycnogonida' (id=2475683)
-	Pleurobrachia pileus was remapped to 'Typhlocoela' (id=2505733)
-	Drosophila melanogaster was remapped to 'Hexapoda' (id=842615)
+	Rhipicephalus microplus was remapped to 'Arachnida' (id=2326029)
+	Hydra vulgaris was remapped to 'Hydridae' (id=2487786)
+	Aiptasia pallida was remapped to 'Aiptasiidae' (id=2503230)
+	Nematostella vectensis was remapped to 'Edwardsiidae' (id=2503054)
+	Isodiametra pulchra was remapped to 'Isodiametridae' (id=2479059)
+	Lottia gigantea was remapped to 'Gastropoda' (id=595289)
+	Hydractinia echinata was remapped to 'Hydractinia' (id=2486696)
+	Euperipatoides kanangrensis was remapped to 'Onychophora' (id=2477835)
+	Xenoturbella bocki was remapped to 'Xenoturbella' (id=2479492)
+	Ptychodera flava was remapped to 'Ptychoderidae' (id=317393)
+	Leucetta chagosensis was remapped to 'Calcinea' (id=314206)
+	Carteriospongia foliascens was remapped to 'Dictyoceratida' (id=310403)
+	Strongylocentrotus purpuratus was remapped to 'Echinozoa' (id=562207)
+	Patiria pectinifera was remapped to 'Asterozoa' (id=552543)
+	Sycon raphanus was remapped to 'Calcaronea' (id=314664)
+	Cyanea capillata was remapped to 'Scyphozoa' (id=2490461)
+	Capitella teleta was remapped to 'Polychaeta' (id=725321)
 	Ephydatia muelleri was remapped to 'Spongillidae' (id=303290)
+	Paraplanocera oligoglena was remapped to 'Platyhelminthes' (id=749046)
+	Lubomirskia baicalensis was remapped to 'Lubomirskiidae' (id=301815)
+	Ciona intestinalis was remapped to 'Enterogona' (id=320204)
+	Convolutriloba longifissura was remapped to 'Convolutriloba' (id=2478812)
+	Xiphinema index was remapped to 'Nematoda' (id=778229)
 	Suberites domuncula was remapped to 'Tetractinomorpha' (id=297406)
-	Daphnia pulex was remapped to 'Crustacea' (id=2215683)
+	Anemonia viridis was remapped to 'Actiniidae' (id=2503727)
+	Meara stichopi was remapped to 'Meara' (id=2479504)
+	Mnemiopsis was remapped to 'Cyclocoela' (id=2505949)
+	Montastraea faveolata was remapped to 'Faviina' (id=2500230)
+	Crassostrea virginica was remapped to 'Bivalvia' (id=686874)
+	Cerebratulus lacteus was remapped to 'Nemertea' (id=575388)
+	Podocoryna carnea was remapped to 'Podocoryna' (id=2486915)
+	Helobdella robusta was remapped to 'Clitellata' (id=718968)
+	Amphimedon queenslandica was remapped to 'Niphatidae' (id=303743)
+	Euprymna scolopes was remapped to 'Cephalopoda' (id=591561)
+	Trichoplax adhaerens was remapped to 'Placozoa' (id=317346)
 	Echinoderes horni was remapped to 'Scalidophora' (id=819390)
+	Clytia hemisphaerica was remapped to 'Leptomedusae' (id=2482210)
+	Halocynthia roretzi was remapped to 'Stolidobranchia' (id=317603)
+	Gallus was remapped to 'Gnathostomata' (id=324344)
 	Oopsacas minuta was remapped to 'Hexactinellida' (id=315940)
+	Metridium senile was remapped to 'Metridiidae' (id=2504889)
+	Anoplodactylus eroticus was remapped to 'Pycnogonida' (id=2475683)
+	Daphnia pulex was remapped to 'Crustacea' (id=2215683)
+	Drosophila melanogaster was remapped to 'Hexapoda' (id=842615)
+	Petromyzon marinus was remapped to 'Hyperoartia' (id=552064)
+	Branchiostoma floridae was remapped to 'Cephalochordata' (id=324222)
+	Nemertoderma westbladi was remapped to 'Nemertoderma' (id=2479497)
+	Pleurobrachia pileus was remapped to 'Typhlocoela' (id=2505733)
+	Porites astreoides was remapped to 'Fungiina' (id=2501822)
+	Terebratalia transversa was remapped to 'Brachiopoda' (id=717593)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
 Dealing with metadata property: ot:studyPublicationReference
 Adding property 'ot:studyPublicationReference': J. F. Ryan, K. Pang, C. E. Schnitzler, A.-D. Nguyen, R. T. Moreland, D. K. Simmons, B. J. Koch, W. R. Francis, P. Havlak, S. A. Smith, N. H. Putnam, S. H. D. Haddock, C. W. Dunn, T. G. Wolfsberg, J. C. Mullikin, M. Q. Martindale, A. D. Baxevanis. 2013. The genome of the ctenophore Mnemiopsis leidyi and its implications for cell type evolution. Science 342 (6164): 1242592-1242592.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Metazoa
 Dealing with metadata property: ot:studyYear
 Adding property 'ot:studyYear': 2013
 Dealing with metadata property: ot:inGroupClade
@@ -168,58 +175,52 @@ Adding property 'ot:curatorName': Joseph Brown
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1126/science.1242592
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 1571669
+Adding property 'ot:focalClade': 691846
 Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': ML bootstrap, EST (Figure 3)
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2710
-Committing nodes: 105
+Committing nodes: 107
 	adding Node[313927] Plakinidae 196338 as compatible with Node[313931]
-		adding Relationship[8163613]
-		adding to root Relationship[8163614]
+		adding Relationship[8167157]
+		adding to root Relationship[8167158]
 	adding Node[313926] Homosclerophorida 196337 as compatible with Node[313931]
-		adding Relationship[8163615]
-		adding to root Relationship[8163616]
+		adding Relationship[8167159]
+		adding to root Relationship[8167160]
 	adding Node[313925] Homoscleromorpha 519088 as compatible with Node[313931]
-		adding Relationship[8163617]
-		adding to root Relationship[8163618]
+		adding Relationship[8167161]
+		adding to root Relationship[8167162]
 	adding Node[317379] Enteropneusta 570381 as compatible with Node[317386]
-		adding Relationship[8163619]
-		adding to root Relationship[8163620]
+		adding Relationship[8167163]
+		adding to root Relationship[8167164]
 	adding Node[317377] Hemichordata 100746 as compatible with Node[317386]
-		adding Relationship[8163621]
-		adding to root Relationship[8163622]
+		adding Relationship[8167165]
+		adding to root Relationship[8167166]
 	adding Node[317598] Tunicata 125649 as compatible with Node[317601]
-		adding Relationship[8163623]
-		adding to root Relationship[8163624]
+		adding Relationship[8167167]
+		adding to root Relationship[8167168]
 	adding Node[324341] Craniata 947318 as compatible with Node[324342]
-		adding Relationship[8163625]
-		adding to root Relationship[8163626]
+		adding Relationship[8167169]
+		adding to root Relationship[8167170]
 	adding Node[552540] Echinodermata 451020 as compatible with Node[552542]
-		adding Relationship[8163627]
-		adding to root Relationship[8163628]
+		adding Relationship[8167171]
+		adding to root Relationship[8167172]
 	adding Node[821724] Mandibulata 985907 as compatible with Node[842614]
-		adding Relationship[8163629]
-		adding to root Relationship[8163630]
+		adding Relationship[8167173]
+		adding to root Relationship[8167174]
 	adding Node[2479495] Nemertodermatida 490210 as compatible with Node[2479496]
-		adding Relationship[8163631]
-		adding to root Relationship[8163632]
+		adding Relationship[8167175]
+		adding to root Relationship[8167176]
 	adding Node[2482207] Hydrozoa 641030 as compatible with Node[2482209]
-		adding Relationship[8163633]
-		adding to root Relationship[8163634]
-	adding Node[2486047] Anthomedusae 641027 as compatible with Node[2486694]
-		adding Relationship[8163635]
-		adding to root Relationship[8163636]
+		adding Relationship[8167177]
+		adding to root Relationship[8167178]
 	adding Node[2491063] Anthozoa 1084488 as compatible with Node[2496817]
-		adding Relationship[8163637]
-		adding to root Relationship[8163638]
-		adding Relationship[8163639] from Node[2482207] to Node[2479517]
-		adding Relationship[8163640] from Node[2486047] to Node[2482209]
-		adding Relationship[8163641] from Node[3467023] to Node[2479517]
-		adding Relationship[8163642] from Node[821724] to Node[821721]
-		adding Relationship[8163643] from Node[2491063] to Node[2479517]
-		adding Relationship[8163644] from Node[317379] to Node[317377]
-		adding Relationship[8163645] from Node[2482209] to Node[3467023]
-		adding Relationship[8163646] from Node[2482209] to Node[2482207]
-		adding Relationship[8163647] from Node[313926] to Node[313925]
-		adding Relationship[8163648] from Node[313927] to Node[313926]
+		adding Relationship[8167179]
+		adding to root Relationship[8167180]
+		adding Relationship[8167181] from Node[2482207] to Node[2479517]
+		adding Relationship[8167182] from Node[821724] to Node[821721]
+		adding Relationship[8167183] from Node[3468651] to Node[2479517]
+		adding Relationship[8167184] from Node[2491063] to Node[2479517]
+		adding Relationship[8167185] from Node[317379] to Node[317377]
+		adding Relationship[8167186] from Node[313926] to Node[313925]
+		adding Relationship[8167187] from Node[313927] to Node[313926]

@@ -10,13 +10,15 @@ pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1098/rspb.2
 pgloadind   property added ot:curatorName "Joseph Brown"
 pgloadind   property added ot:studyId "2687"
 pgloadind   property added ot:studyYear "2010"
-pgloadind   property added ot:focalClade "2607355"
+pgloadind   property added ot:focalClade "749626"
+pgloadind   property added ot:focalCladeOTTTaxonName "Phocidae"
 pgloadind   property added ot:inGroupClade "node1077729"
+pgloadind   property added ot:curatedType "ML nuc+mtDNA (Figure 1)"
 loading a specific tree: 6239
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "6239"
 pgloadind   all nodes have ottIds
-pgloadind   postpruning newick tree "(((((((Pusa_caspica,(Pusa_hispida,Pusa_sibirica)),(Phoca_largha,Phoca_vitulina)),Halichoerus_grypus),(Histriophoca_fasciata,Pagophilus_groenlandica)),Cystophora_cristata),Erignathus_barbatus),((Monachus_monachus,Monachus_schauinslandi),((Mirounga_leonina,Mirounga_angustirostris),((Ommatophoca_rossii,Lobodon_carcinophagus),(Hydrurga_leptonyx,Leptonychotes_weddellii)))))"
+pgloadind   postpruning newick tree "(((((((Pusa_caspica,(Pusa_hispida,Pusa_sibirica)),(Phoca_largha,Phoca_vitulina)),Halichoerus_grypus),(Phoca_fasciata,Pagophilus_groenlandica)),Cystophora_cristata),Erignathus_barbatus),((Monachus_monachus,Monachus_schauinslandi),((Mirounga_leonina,Mirounga_angustirostris),((Ommatophoca_rossii,Lobodon_carcinophaga),(Hydrurga_leptonyx,Leptonychotes_weddellii)))))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 22064 taxonomy "Pusa caspica->Pusa->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077736"
 pgloadind     taxon mapping OTT ID 175251 taxonomy "Pusa hispida->Pusa->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077738"
@@ -43,19 +45,21 @@ pgloadind   Adding tree to graph tree id "6239"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Pagophilus groenlandica was remapped to 'Pagophilus' (id=336426)
-	Ommatophoca rossii was remapped to 'Ommatophoca' (id=336396)
 	Hydrurga leptonyx was remapped to 'Hydrurga' (id=336355)
-	Leptonychotes weddellii was remapped to 'Leptonychotes' (id=336295)
-	Halichoerus grypus was remapped to 'Halichoerus' (id=336413)
-	Cystophora cristata was remapped to 'Cystophora' (id=336404)
 	Erignathus barbatus was remapped to 'Erignathus' (id=336400)
-	Lobodon carcinophagus was remapped to 'Lobodon' (id=336388)
+	Halichoerus grypus was remapped to 'Halichoerus' (id=336413)
+	Lobodon carcinophaga was remapped to 'Lobodon' (id=336388)
+	Ommatophoca rossii was remapped to 'Ommatophoca' (id=336396)
+	Cystophora cristata was remapped to 'Cystophora' (id=336404)
+	Pagophilus groenlandica was remapped to 'Pagophilus' (id=336426)
+	Leptonychotes weddellii was remapped to 'Leptonychotes' (id=336295)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
 Dealing with metadata property: ot:studyPublicationReference
 Adding property 'ot:studyPublicationReference': T. L. Fulton, C. Strobeck. 2010. Multiple markers and multiple individuals refine true seal phylogeny and bring molecules and morphology back in line. Proceedings of the Royal Society B: Biological Sciences 277(1684):1065-1070.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Phocidae
 Dealing with metadata property: ot:studyYear
 Adding property 'ot:studyYear': 2010
 Dealing with metadata property: ot:inGroupClade
@@ -65,7 +69,9 @@ Adding property 'ot:curatorName': Joseph Brown
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1098/rspb.2009.1783
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 2607355
+Adding property 'ot:focalClade': 749626
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': ML nuc+mtDNA (Figure 1)
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2687
 Committing nodes: 35

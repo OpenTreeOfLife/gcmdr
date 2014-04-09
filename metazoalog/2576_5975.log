@@ -9,7 +9,7 @@ pgloadind   property added ot:studyPublicationReference "T. J. Near, A. Dornburg
 pgloadind   property added ot:curatorName "Joseph Brown"
 pgloadind   property added ot:studyId "2576"
 pgloadind   property added ot:studyYear "2013"
-pgloadind   property added ot:focalClade "2339520"
+pgloadind   property added ot:focalClade "212189"
 pgloadind   property added ot:focalCladeOTTTaxonName "Euteleostei"
 pgloadind   property added ot:tag "ingroup added;"
 pgloadind   property added ot:branchLengthMode "ot:time"
@@ -19,22 +19,17 @@ pgloadind   property added ot:curatedType "BEAST MCC tree"
 loading a specific tree: 5975
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "5975"
-pgloadind   all nodes have ottIds
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Congrogadus subducens" nexsonid "node1014752"
-pgloadind       dubious OTT ID 3633742
+pgloadind     OTT ID missing name "Bothrocara hollandi" nexsonid "node1015106"
+pgloadind     OTT ID missing name "Leiognathus equulus" nexsonid "node1015210"
+pgloadind   TNRS unmatched total number 0
+pgloadind     TNRS resolved ottId OTT ID 611139 name "Leiognathus equulus" searched on "Leiognathus equulus" nexsonid "node1015210"
+pgloadind     TNRS resolved ottId OTT ID 293855 name "Bothrocara hollandi" searched on "Bothrocara hollandi" nexsonid "node1015106"
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Elassoma zonatum" nexsonid "node1014939"
 pgloadind       dubious OTT ID 777473
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Elassoma okefenokee" nexsonid "node1014940"
 pgloadind       dubious OTT ID 777466
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Etheostoma atripinne" nexsonid "node1015017"
-pgloadind       dubious OTT ID 3634751
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Hemanthias aureorubens" nexsonid "node1015030"
-pgloadind       dubious OTT ID 3634040
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Bothrocara hollandi" nexsonid "node1015106"
 pgloadind       dubious OTT ID 293855
@@ -56,19 +51,16 @@ pgloadind       overlapping pruned name "Chaunax" nexsonid "node1015279"
 pgloadind     overlapping tips
 pgloadind       overlapping retained name "Gigantactis vanhoeffeni" nexsonid "node1015286"
 pgloadind       overlapping pruned name "Gigantactis" nexsonid "node1015285"
+pgloadind     pruning dups and overlapping name "Chaunax" nexsonid "node1015279"
+pgloadind     pruning dups and overlapping name "Scopelengys" nexsonid "node1014276"
 pgloadind     pruning dups and overlapping name "Diaphus" nexsonid "node1014285"
 pgloadind     pruning dups and overlapping name "Elassoma okefenokee" nexsonid "node1014940"
-pgloadind     pruning dups and overlapping name "Etheostoma atripinne" nexsonid "node1015017"
-pgloadind     pruning dups and overlapping name "Chaunax" nexsonid "node1015279"
-pgloadind     pruning dups and overlapping name "Congrogadus subducens" nexsonid "node1014752"
-pgloadind     pruning dups and overlapping name "Pristolepis" nexsonid "node1014571"
-pgloadind     pruning dups and overlapping name "Hemanthias aureorubens" nexsonid "node1015030"
-pgloadind     pruning dups and overlapping name "Scopelengys" nexsonid "node1014276"
-pgloadind     pruning dups and overlapping name "Leiognathus equulus" nexsonid "node1015210"
+pgloadind     pruning dups and overlapping name "Elassoma zonatum" nexsonid "node1014939"
 pgloadind     pruning dups and overlapping name "Gigantactis" nexsonid "node1015285"
 pgloadind     pruning dups and overlapping name "Bothrocara hollandi" nexsonid "node1015106"
-pgloadind     pruning dups and overlapping name "Elassoma zonatum" nexsonid "node1014939"
-pgloadind   postpruning newick tree "((Argentina_silus,((Thymallus_brevirostris,(Parahucho_perryi,Salvelinus_alpinus)),(Umbra_limi,(Novumbra_hubbsi,Esox_americanus)))),(((Hypomesus_pretiosus,Osmerus_mordax),(Polymetme,(((Astronesthes_leucopogon,Neonesthes_capensis),(Chauliodus_sloani,Chauliodus_macouni)),((Gonostoma_elongatum,Cyclothone_microdon),(Polyipnus_spinifer,(Sternoptyx,(Argyropelecus_gigas,Argyropelecus_affinis))))))),((Ateleopus_japonicus,Ijimaia_loppei),(((Synodus_variegatus,Synodus_foetens),(Bathypterois_atricolor,(Benthalbella_infans,((Magnisudis_prionosa,Notolepis_coatsi),(Alepisaurus_ferox,Anotopterus_pharao))))),((((Neoscopelus_microchir,Neoscopelus_macrolepidotus),Scopelengys_tristis),(Ceratoscopelus_maderensis,((Lampanyctus_jordani,Stenobrachius_leucopsarus),(((Notoscopelus_resplendens,(Gymnoscopelus_nicholsi,(Gymnoscopelus_opisthopterus,Gymnoscopelus_braueri))),((Electrona_antarctica,(Protomyctophum_choriodon,Krefftichthys_anderssoni)),(Hygophum_proximum,(Tarletonbeania_crenularis,Symbolophorus_evermanni)))),Diaphus_rafinesquii)))),(((Polymixia_lowei,Polymixia_japonica),(Percopsis_omiscomaycus,(Chologaster_cornuta,Aphredoderus_sayanus))),(((Cyttomimus_affinis,(Cyttopsis_rosea,(Zenopsis_conchifer,Zeus_faber))),(Stylephorus_chordatus,((Muraenolepis_microps,(Lota_lota,Gadus_morhua)),((Macrourus,Nezumia_bairdii),(Coryphaenoides_armatus,Coryphaenoides_rupestris))))),((Lampris_guttatus,((Trachipterus_trachypterus,Trachipterus_arcticus),(Regalecus_russelii,Regalecus_glesne))),(((Anoplogaster_cornuta,((Diretmichthys_parini,Diretmus_argenteus),((Monocentris_japonicus,Anomalops_katoptron),((Hoplostethus_atlanticus,Gephyroberyx_darwinii),(Aulotrachichthys_prosthemius,Paratrachichthys_sajademalensis))))),(((Sargocentron_cornutum,Sargocentron_vexillarium),(Myripristis_murdjan,Myripristis_violacea)),((Rondeletia_loricata,((Cetostoma_regani,Gyrinomimus),(Acanthochaenus_luetkenii,Barbourisia_rufa))),((Beryx_decadactylus,Centroberyx_druzhinini),((Poromitra_crassiceps,Scopeloberyx),(Melamphaes_polylepis,Scopelogadus_beanii)))))),(((Brosmophycis_marginata,(Diplacanthopoma_brunnea,(Cataetyx_lepidogenys,Barathronus_maculatus))),(Brotula_multibarbata,(Lamprogrammus_niger,(Carapus_bermudensis,(Pyramodon_ventralis,Onuxodon_parvibrachium))))),(((Porichthys_notatus,Porichthys_plectrodon),(Batrachoides_pacifici,(Opsanus_beta,Opsanus_pardus))),((((Mulloidichthys_flavolineatus,Upeneus_parvus),(Pseudupeneus_maculatus,(Parupeneus_barberinus,Parupeneus_trifasciatus))),((((Eurypegasus_draconis,(Dactyloptena_peterseni,(Dactyloptena_gilberti,Dactyloptena_orientalis))),((Neosynchiropus_ocellatus,Synchiropus_splendidus),(Synchiropus_agassizii,(Foetorepus,Callionymus_bairdi)))),((Macroramphosus_scolopax,Aeoliscus_strigatus),((Aulostomus_chinensis,Aulostomus_maculatus),((Fistularia_petimba,Fistularia_commersonii),(Hippocampus_erectus,(Syngnathus_leptorhynchus,Syngnathus_fuscus)))))),((Scomber_scombrus,(Scomberomorus_maculatus,(Sarda_sarda,(Thunnus_albacares,Auxis_rochei)))),((Peprilus_triacanthus,(Psenes_maculatus,Cubiceps_baxteri)),(Icosteus_aenigmaticus,(((Caristius_macropus,Platyberyx_opalescens),(Icichthys_lockingtoni,Pomatomus_saltatrix)),(Ruvettus_pretiosus,((Chiasmodon,Kali_normani),((Assurger_anzac,Trichiurus_lepturus),(Paradiplospinus_gracilis,(Pteraclis_aesticola,(Brama_japonica,Taractes_asper)))))))))))),((((Kurtus_gulliveri,Kurtus_indicus),((Astrapogon_stellatus,Phaeoptyx_pigmentaria),(Sphaeramia_orbicularis,(Ostorhinchus_lateralis,Cheilodipterus_quinquelineatus)))),((Perccottus_glenii,Odontobutis_potamophila),((Lepidogobius_lepidus,(Stonogobiops_nematodes,(Ptereleotris_evides,Nemateleotris_magnifica))),((Eleotris_pisonis,Dormitator_maculatus),(Oxyeleotris_selheimi,Ophiocara_porocephala))))),(((((Monopterus_albus,((Indostomus_crocodilus,Indostomus_paradoxus),(Macrognathus_siamensis,(Mastacembelus_niger,(Mastacembelus_brachyrhinus,Mastacembelus_cunningtoni))))),((((Badis_pyema,Dario_dario),(Nandus_nebulosus,(Nandus_nandus,Nandus_andrewi))),Pristolepis_fasciata),((Channa_lucius,(Channa_melasoma,Channa_striata)),((Ctenopoma_kingsleyae,Microctenopoma_nanum),(Helostoma_temminkii,(Trichogaster_pectoralis,Betta_splendens)))))),((Polydactylus_sextarius,Eleutheronema_rhadinum),(((Lates_niloticus,Psettodes_erumei),(Citharoides_macrolepis,((Scophthalmus_aquosus,((Bothus_lunatus,Citharichthys_sordidus),(Paralichthys_dentatus,(Pseudopleuronectes_americanus,(Lepidopsetta_bilineata,Pleuronectes_platessa))))),((Gymnachirus_melas,Achirus_lineatus),(Samariscus_latus,(Citharoides_macrolepidotus,(Symphurus_atricaudus,(Aseraggodes_kobensis,Heteromycteris_japonicus)))))))),(((Seriola_dumerili,(Caranx_crysos,Selene_setapinnis)),((Echeneis_naucrates,(Coryphaena_hippurus,Rachycentron_canadum)),(Oligoplites_saurus,(Trachinotus_ovatus,Trachinotus_carolinus)))),((Toxotes_jaculatrix,(Mene_maculata,(Tetrapturus_angustirostris,Xiphias_gladius))),(Nematistius_pectoralis,((Centropomus_undecimalis,Centropomus_armatus),(Sphyraena_japonica,(Sphyraena_barracuda,Sphyraena_jello))))))))),((Polycentropsis_abbreviata,(Monocirrhus_polyacanthus,Polycentrus_schomburgkii)),((((Labidesthes_sicculus,(Menidia_peninsulae,(Poblana_ferdebueni,Menidia_beryllina))),(Atherinomorus_lacunosus,((Rheocles_wrightae,Melanotaenia),(Iso,(Phenacostethus_smithi,(Pseudomugil_gertrudae,Pseudomugil_signifer)))))),((Pachypanchax_playfairii,((Cyprinodon_variegatus,Jordanella_floridae),((Poeciliopsis_elongata,Gambusia_affinis),(Fundulus_heteroclitus,Lucania_goodei)))),(Oryzias_latipes,((Arrhamphus_sclerolepis,(Cheilopogon_pinnatibarbatus,Cheilopogon_melanurus)),(Dermogenys_collettei,(Xenentodon_cancila,(Scomberesox_saurus,(Strongylura_marina,Platybelone_argala)))))))),((Pholidichthys_leucotaenia,((Etroplus_maculatus,Paretroplus_maculatus),((Paratilapia_polleni,Ptychochromis_grandidieri),((Heterochromis_multidens,Oreochromis_niloticus),(Cichla_temensis,(Heros_efasciatus,Herichthys_cyanoguttatus)))))),(((Pseudambassis_ranga,Ambassis_urotaenia),((Mugil_cephalus,Mugil_curema),(Hyperprosopon_argenteum,(Cymatogaster_aggregata,((Phanerodon_furcatus,Rhacochilus_vacca),(Embiotoca_lateralis,Embiotoca_jacksoni)))))),((Plesiops_coeruleolineatus,((Chromis_cyanea,Abudefduf_saxatilis),(Stegastes_leucostictus,Microspathodon_bairdii))),((Labracinus_cyclophthalmus,(Ogilbyina_novaehollandiae,(Pholidochromis_cerasina,Pseudochromis_fridmani))),(Gramma_loreto,(Opistognathus_aurifrons,((Diademichthys_lineatus,(Gobiesox_maeandricus,Arcos)),((Enneanectes_boehlkei,Helcogramma_ellioti),((Gibbonsia_metzi,(Labrisomus_multiporosus,(Gillellus_semicinctus,Chaenopsis_alepidota))),((Hypsoblennius_hentz,(Meiacanthus_grammistes,Enchelyurus_flavipes)),(Ophioblennius_atlanticus,(Entomacrodus_nigricans,Salarias_fasciatus))))))))))))))),(Champsodon_snyderi,(((Eugerres_plumieri,Ulaema_lefroyi),((Lachnolaimus_maximus,(Haletta_semifasciata,(Clepticus_parrae,Bodianus_rufus))),((Pteragogus_enneacanthus,(Xyrichtys_martinicensis,(Coris_gaimard,(Gomphosus_varius,((Halichoeres_bivittatus,Oxyjulis_californica),((Coris_batuensis,Halichoeres_margaritaceus),(Labrichthys_unilineatus,(Labropsis_australis,Diproctacanthus_xanthurus)))))))),((Tautogolabrus_adspersus,Tautoga_onitis),((Oxycheilinus_celebicus,(Epibulus_brevis,Epibulus_insidiator)),(Calotomus_carolinus,(Cryptotomus_roseus,(Cetoscarus_bicolor,(Chlorurus_sordidus,(Scarus_globiceps,Scarus_niger)))))))))),((Centrogenys_vaigiensis,((Cheimarrichthys_fosteri,(Parapercis_clathrata,Parapercis_hexophtalma)),((Ammodytes_hexapterus,Ammodytes_dubius),(Kathetostoma_averruncus,Astroscopus_y-graecum)))),((((Girella_mezina,(Oplegnathus_punctatus,((Kyphosus_cinerascens,Kyphosus_elegans),((Kuhlia_rupestris,Kuhlia_marginata),(Terapon_jarbua,(Hephaestus_fuliginosus,Scortum_barcoo)))))),((Macquaria_colonorum,Macquaria_novemaculeata),((Enoplosus_armatus,((Maccullochella_peelii,Gadopsis_marmoratus),(Macquaria_ambigua,(Nannoperca_australis,Percilia_irwini)))),((Siniperca_chuatsi,((Lepomis_cyanellus,Micropterus_salmoides),(Archoplites_interruptus,Ambloplites_rupestris))),((Cheilodactylus_pixi,(Cheilodactylus_variegatus,Chirodactylus_brachydactylus)),(Paracirrhites_arcatus,(Neocirrhites_armatus,(Cirrhitichthys_falco,Amblycirrhitus_pinos)))))))),((((Limnichthys,Acanthaphritis_unoorum),((Pempheris_schwenkii,Pempheris_schomburgkii),(Glaucosoma_hebraicum,Glaucosoma_buergeri))),((Howella_zina,(Acropoma_japonicum,Ostracoberyx_dorygenys)),((Stereolepis_gigas,Malakichthys_elegans),(Banjos_banjos,(Histiopterus_typus,(Pseudopentaceros_pectoralis,(Pentaceros_japonicus,Pseudopentaceros_wheeleri))))))),(((Cephalopholis_argus,Mycteroperca_microlepis),(Grammistes_sexlineatus,Rypticus_saponaceus)),((Bovichtus_diacanthus,(Eleginops_maclovinus,(Chionobathyscus_dewitti,Dissostichus_eleginoides))),(((Niphon_spinosus,(Perca_flavescens,Percina_caprodes)),((Bembrops_gobioides,Bembrops_anatirostris),(Hypoplectrus_puella,(Paralabrax_nebulifer,Serranus_tigrinus)))),((((Rogadius_asper,Platycephalus_indicus),(Parabembras_curtus,Bembras_japonica)),((Hoplichthys_gilberti,Hoplichthys_langsdorfii),(((Prionotus_evolans,Pterygotrigla_hemisticta),(Sebastolobus_alascanus,(Sebastes_ruberrimus,Sebastes_fasciatus))),((Anoplopoma_fimbria,(Hexagrammos_otakii,((Trichodon_trichodon,((Eumicrotremus_orbis,Cyclopterus_lumpus),(Paraliparis_meganchus,Liparis_mucosus))),((Leptocottus_armatus,Cottus_carolinae),((Aspidophoroides_monopterygius,Stellerina_xyosterna),(Artediellus_uncinatus,Scorpaenichthys_marmoratus)))))),((Hypoptychus_dybowskii,((Aulorhynchus_flavidus,Aulichthys_japonicus),(Apeltes_quadracus,(Gasterosteus_aculeatus,Gasterosteus_wheatlandi)))),(Rathbunella_hypoplecta,(Bathymaster_signatus,(Cebidichthys_violaceus,((Cryptacanthodes_maculatus,(Pholis_crassispina,Pholis_ornata)),(Anarhichas_lupus,(Lycodes_terraenovae,Lycodes_diapterus))))))))))),Pseudanthias_pascalus)))))),((Morone_saxatilis,(Morone_mississippiensis,Morone_chrysops)),((Drepane_punctata,(Chaetodipterus_faber,Platax_orbicularis)),(((Grammatonotus_surugaensis,((Erythrocles_schlegelii,Erythrocles_scintillans),(Sillago_sihama,Sillago_chondropus))),(((Pagrus_pagrus,(Calamus_calamus,(Stenotomus_chrysops,Lagodon_rhomboides))),((Monotaxis_grandoculis,(Lethrinus_erythropterus,Lethrinus_erythracanthus)),(Pentapodus_caninus,(Scolopsis_margaritifera,Scolopsis_bilineata)))),((Caulolatilus_princeps,Malacanthus_plumieri),((Chaetodontoplus_melanosoma,(Holacanthus_passer,Pomacanthus_zonipectus)),((Orthopristis_chrysoptera,(Anisotremus_surinamensis,((Haemulon_vittatum,Haemulon_aurolineatum),(Haemulon_sciurus,Haemulon_plumierii)))),((Pterocaesio_pisang,Caesio_cuning),(Lutjanus_biguttatus,(Lutjanus_griseus,(Ocyurus_chrysurus,(Lutjanus_mahogoni,Rhomboplites_aurorubens)))))))))),((((Datnioides_microlepis,Lobotes_surinamensis),(Cynoscion_regalis,((Menticirrhus_littoralis,Leiostomus_xanthurus),(Aplodinotus_grunniens,(Micropogonias_undulatus,Sciaenops_ocellatus))))),(Monodactylus_sebae,(((Prognathodes_aculeatus,(Chaetodon_ornatissimus,Chaetodon_striatus)),(Chelmon_rostratus,(Forcipiger_flavissimus,(Johnrandallia_nigrirostris,Hemitaurichthys_polylepis)))),Gazza_minuta))),((Luvarus_imperialis,(Zanclus_cornutus,((Naso_brevirostris,Naso_lituratus),(Zebrasoma_rostratum,(Acanthurus_nigricans,(Ctenochaetus_strigosus,Acanthurus_bahianus)))))),((((Siganus_spinus,Siganus_vulpinus),(Selenotoca_multifasciata,Scatophagus_argus)),((Cepola_schlegelii,Sphenanthias_tosaensis),(Pristigenys_alta,(Priacanthus_arenatus,Heteropriacanthus_cruentatus)))),((Capros_aper,(Antigonia_rubescens,Antigonia_capros)),(((Lophius_gastrophysus,Lophius_americanus),((Halieutichthys_aculeatus,Ogcocephalus_nasutus),((Antennarius_striatus,Histiophryne_cryptacanthus),(((Himantolophus_sagamius,(Cryptopsaras_couesi,Ceratias_holboelli)),Gigantactis_vanhoeffeni),(Chaunax_suttkusi,Chaunax_stigmaeus))))),(((Diodon_holocanthus,Chilomycterus_schoepfii),(Canthigaster_jactator,(Sphoeroides_nephelus,(Tetraodon_miurus,Arothron_nigropunctatus)))),(Triodon_macropterus,((Aracana_aurita,(Ostracion_cubicus,Rhinesomus_triqueter)),(((Halimochirurgus_alcocki,Triacanthodes_anomalus),(Triacanthus_biaculeatus,(Ranzania_laevis,(Mola_mola,Masturus_lanceolatus)))),((Cantherhines_pullus,(Paraluteres_prionurus,(Pervagor_nigrolineatus,(Stephanolepis_hispidus,(Pervagor_janthinosoma,Acreichthys_tomentosus))))),((Balistapus_undulatus,(Xanthichthys_ringens,Pseudobalistes_flavimarginatus)),(Sufflamen_chrysopterum,((Balistes_capriscus,Balistes_vetula),(Abalistes_stellatus,Rhinecanthus_verrucosus)))))))))))))))))))))))))))))))))))"
+pgloadind     pruning dups and overlapping name "Leiognathus equulus" nexsonid "node1015210"
+pgloadind     pruning dups and overlapping name "Pristolepis" nexsonid "node1014571"
+pgloadind   postpruning newick tree "((Argentina_silus,((Thymallus_brevirostris,(Parahucho_perryi,Salvelinus_alpinus)),(Umbra_limi,(Novumbra_hubbsi,Esox_americanus)))),(((Hypomesus_pretiosus,Osmerus_mordax),(Polymetme,(((Astronesthes_leucopogon,Neonesthes_capensis),(Chauliodus_sloani,Chauliodus_macouni)),((Gonostoma_elongatum,Cyclothone_microdon),(Polyipnus_spinifer,(Sternoptyx,(Argyropelecus_gigas,Argyropelecus_affinis))))))),((Ateleopus_japonicus,Ijimaia_loppei),(((Synodus_variegatus,Synodus_foetens),(Bathypterois_atricolor,(Benthalbella_infans,((Magnisudis_prionosa,Notolepis_coatsi),(Alepisaurus_ferox,Anotopterus_pharao))))),((((Neoscopelus_microchir,Neoscopelus_macrolepidotus),Scopelengys_tristis),(Ceratoscopelus_maderensis,((Lampanyctus_jordani,Stenobrachius_leucopsarus),(((Notoscopelus_resplendens,(Gymnoscopelus_nicholsi,(Gymnoscopelus_opisthopterus,Gymnoscopelus_braueri))),((Electrona_antarctica,(Protomyctophum_choriodon,Krefftichthys_anderssoni)),(Hygophum_proximum,(Tarletonbeania_crenularis,Symbolophorus_evermanni)))),Diaphus_rafinesquii)))),(((Polymixia_lowei,Polymixia_japonica),(Percopsis_omiscomaycus,(Chologaster_cornuta,Aphredoderus_sayanus))),(((Cyttomimus_affinis,(Cyttopsis_rosea,(Zenopsis_conchifer,Zeus_faber))),(Stylephorus_chordatus,((Muraenolepis_microps,(Lota_lota,Gadus_morhua)),((Macrourus,Nezumia_bairdii),(Coryphaenoides_armatus,Coryphaenoides_rupestris))))),((Lampris_guttatus,((Trachipterus_trachypterus,Trachipterus_arcticus),(Regalecus_russelii,Regalecus_glesne))),(((Anoplogaster_cornuta,((Diretmichthys_parini,Diretmus_argenteus),((Monocentris_japonicus,Anomalops_katoptron),((Hoplostethus_atlanticus,Gephyroberyx_darwinii),(Aulotrachichthys_prosthemius,Paratrachichthys_sajademalensis))))),(((Sargocentron_cornutum,Sargocentron_vexillarium),(Myripristis_murdjan,Myripristis_violacea)),((Rondeletia_loricata,((Cetostoma_regani,Gyrinomimus),(Acanthochaenus_luetkenii,Barbourisia_rufa))),((Beryx_decadactylus,Centroberyx_druzhinini),((Poromitra_crassiceps,Scopeloberyx),(Melamphaes_polylepis,Scopelogadus_beanii)))))),(((Brosmophycis_marginata,(Diplacanthopoma_brunnea,(Cataetyx_lepidogenys,Barathronus_maculatus))),(Brotula_multibarbata,(Lamprogrammus_niger,(Carapus_bermudensis,(Pyramodon_ventralis,Onuxodon_parvibrachium))))),(((Porichthys_notatus,Porichthys_plectrodon),(Batrachoides_pacifici,(Opsanus_beta,Opsanus_pardus))),((((Mulloidichthys_flavolineatus,Upeneus_parvus),(Pseudupeneus_maculatus,(Parupeneus_barberinus,Parupeneus_trifasciatus))),((((Eurypegasus_draconis,(Dactyloptena_peterseni,(Dactyloptena_gilberti,Dactyloptena_orientalis))),((Neosynchiropus_ocellatus,Synchiropus_splendidus),(Synchiropus_agassizii,(Foetorepus,Callionymus_bairdi)))),((Macroramphosus_scolopax,Aeoliscus_strigatus),((Aulostomus_chinensis,Aulostomus_maculatus),((Fistularia_petimba,Fistularia_commersonii),(Hippocampus_erectus,(Syngnathus_leptorhynchus,Syngnathus_fuscus)))))),((Scomber_scombrus,(Scomberomorus_maculatus,(Sarda_sarda,(Thunnus_albacares,Auxis_rochei)))),((Peprilus_triacanthus,(Psenes_maculatus,Cubiceps_baxteri)),(Icosteus_aenigmaticus,(((Caristius_macropus,Platyberyx_opalescens),(Icichthys_lockingtoni,Pomatomus_saltatrix)),(Ruvettus_pretiosus,((Chiasmodon,Kali_normani),((Assurger_anzac,Trichiurus_lepturus),(Paradiplospinus_gracilis,(Pteraclis_aesticola,(Brama_japonica,Taractes_asper)))))))))))),((((Kurtus_gulliveri,Kurtus_indicus),((Astrapogon_stellatus,Phaeoptyx_pigmentaria),(Sphaeramia_orbicularis,(Ostorhinchus_lateralis,Cheilodipterus_quinquelineatus)))),((Perccottus_glenii,Odontobutis_potamophila),((Lepidogobius_lepidus,(Stonogobiops_nematodes,(Ptereleotris_evides,Nemateleotris_magnifica))),((Eleotris_pisonis,Dormitator_maculatus),(Oxyeleotris_selheimi,Ophiocara_porocephala))))),(((((Monopterus_albus,((Indostomus_crocodilus,Indostomus_paradoxus),(Macrognathus_siamensis,(Mastacembelus_niger,(Mastacembelus_brachyrhinus,Mastacembelus_cunningtoni))))),((((Badis_pyema,Dario_dario),(Nandus_nebulosus,(Nandus_nandus,Nandus_andrewi))),Pristolepis_fasciata),((Channa_lucius,(Channa_melasoma,Channa_striata)),((Ctenopoma_kingsleyae,Microctenopoma_nanum),(Helostoma_temminkii,(Trichogaster_pectoralis,Betta_splendens)))))),((Polydactylus_sextarius,Eleutheronema_rhadinum),(((Lates_niloticus,Psettodes_erumei),(Citharoides_macrolepis,((Scophthalmus_aquosus,((Bothus_lunatus,Citharichthys_sordidus),(Paralichthys_dentatus,(Pseudopleuronectes_americanus,(Lepidopsetta_bilineata,Pleuronectes_platessa))))),((Gymnachirus_melas,Achirus_lineatus),(Samariscus_latus,(Citharoides_macrolepidotus,(Symphurus_atricaudus,(Aseraggodes_kobensis,Heteromycteris_japonicus)))))))),(((Seriola_dumerili,(Caranx_crysos,Selene_setapinnis)),((Echeneis_naucrates,(Coryphaena_hippurus,Rachycentron_canadum)),(Oligoplites_saurus,(Trachinotus_ovatus,Trachinotus_carolinus)))),((Toxotes_jaculatrix,(Mene_maculata,(Tetrapturus_angustirostris,Xiphias_gladius))),(Nematistius_pectoralis,((Centropomus_undecimalis,Centropomus_armatus),(Sphyraena_japonica,(Sphyraena_barracuda,Sphyraena_jello))))))))),((Polycentropsis_abbreviata,(Monocirrhus_polyacanthus,Polycentrus_schomburgkii)),((((Labidesthes_sicculus,(Menidia_peninsulae,(Poblana_ferdebueni,Menidia_beryllina))),(Atherinomorus_lacunosus,((Rheocles_wrightae,Melanotaenia),(Iso,(Phenacostethus_smithi,(Pseudomugil_gertrudae,Pseudomugil_signifer)))))),((Pachypanchax_playfairii,((Cyprinodon_variegatus,Jordanella_floridae),((Poeciliopsis_elongata,Gambusia_affinis),(Fundulus_heteroclitus,Lucania_goodei)))),(Oryzias_latipes,((Arrhamphus_sclerolepis,(Cheilopogon_pinnatibarbatus,Cheilopogon_melanurus)),(Dermogenys_collettei,(Xenentodon_cancila,(Scomberesox_saurus,(Strongylura_marina,Platybelone_argala)))))))),((Pholidichthys_leucotaenia,((Etroplus_maculatus,Paretroplus_maculatus),((Paratilapia_polleni,Ptychochromis_grandidieri),((Heterochromis_multidens,Oreochromis_niloticus),(Cichla_temensis,(Heros_efasciatus,Herichthys_cyanoguttatus)))))),(Congogradus_subducens,(((Pseudambassis_ranga,Ambassis_urotaenia),((Mugil_cephalus,Mugil_curema),(Hyperprosopon_argenteum,(Cymatogaster_aggregata,((Phanerodon_furcatus,Rhacochilus_vacca),(Embiotoca_lateralis,Embiotoca_jacksoni)))))),((Plesiops_coeruleolineatus,((Chromis_cyanea,Abudefduf_saxatilis),(Stegastes_leucostictus,Microspathodon_bairdii))),((Labracinus_cyclophthalmus,(Ogilbyina_novaehollandiae,(Pholidochromis_cerasina,Pseudochromis_fridmani))),(Gramma_loreto,(Opistognathus_aurifrons,((Diademichthys_lineatus,(Gobiesox_maeandricus,Arcos)),((Enneanectes_boehlkei,Helcogramma_ellioti),((Gibbonsia_metzi,(Labrisomus_multiporosus,(Gillellus_semicinctus,Chaenopsis_alepidota))),((Hypsoblennius_hentz,(Meiacanthus_grammistes,Enchelyurus_flavipes)),(Ophioblennius_atlanticus,(Entomacrodus_nigricans,Salarias_fasciatus)))))))))))))))),(Champsodon_snyderi,(((Eugerres_plumieri,Ulaema_lefroyi),((Lachnolaimus_maximus,(Haletta_semifasciata,(Clepticus_parrae,Bodianus_rufus))),((Pteragogus_enneacanthus,(Xyrichtys_martinicensis,(Coris_gaimard,(Gomphosus_varius,((Halichoeres_bivittatus,Oxyjulis_californica),((Coris_batuensis,Halichoeres_margaritaceus),(Labrichthys_unilineatus,(Labropsis_australis,Diproctacanthus_xanthurus)))))))),((Tautogolabrus_adspersus,Tautoga_onitis),((Oxycheilinus_celebicus,(Epibulus_brevis,Epibulus_insidiator)),(Calotomus_carolinus,(Cryptotomus_roseus,(Cetoscarus_bicolor,(Chlorurus_sordidus,(Scarus_globiceps,Scarus_niger)))))))))),((Centrogenys_vaigiensis,((Cheimarrichthys_fosteri,(Parapercis_clathrata,Parapercis_hexophtalma)),((Ammodytes_hexapterus,Ammodytes_dubius),(Kathetostoma_averruncus,Astroscopus_y-graecum)))),((((Girella_mezina,(Oplegnathus_punctatus,((Kyphosus_cinerascens,Kyphosus_elegans),((Kuhlia_rupestris,Kuhlia_marginata),(Terapon_jarbua,(Hephaestus_fuliginosus,Scortum_barcoo)))))),((Macquaria_colonorum,Macquaria_novemaculeata),((Enoplosus_armatus,((Maccullochella_peelii,Gadopsis_marmoratus),(Macquaria_ambigua,(Nannoperca_australis,Percilia_irwini)))),((Siniperca_chuatsi,((Lepomis_cyanellus,Micropterus_salmoides),(Archoplites_interruptus,Ambloplites_rupestris))),((Cheilodactylus_pixi,(Cheilodactylus_variegatus,Chirodactylus_brachydactylus)),(Paracirrhites_arcatus,(Neocirrhites_armatus,(Cirrhitichthys_falco,Amblycirrhitus_pinos)))))))),((((Limnichthys,Acanthaphritis_unoorum),((Pempheris_schwenkii,Pempheris_schomburgkii),(Glaucosoma_hebraicum,Glaucosoma_buergeri))),((Howella_zina,(Acropoma_japonicum,Ostracoberyx_dorygenys)),((Stereolepis_gigas,Malakichthys_elegans),(Banjos_banjos,(Histiopterus_typus,(Pseudopentaceros_pectoralis,(Pentaceros_japonicus,Pseudopentaceros_wheeleri))))))),(((Cephalopholis_argus,Mycteroperca_microlepis),(Grammistes_sexlineatus,Rypticus_saponaceus)),((Bovichtus_diacanthus,(Eleginops_maclovinus,(Chionobathyscus_dewitti,Dissostichus_eleginoides))),(((Niphon_spinosus,(Perca_flavescens,(Percina_caprodes,Etheostoma_simoterum_atripinne))),((Bembrops_gobioides,Bembrops_anatirostris),(Hypoplectrus_puella,(Paralabrax_nebulifer,Serranus_tigrinus)))),((Pseudanthias_pascalus,Baldwinella_aureorubens),(((Rogadius_asper,Platycephalus_indicus),(Parabembras_curtus,Bembras_japonica)),((Hoplichthys_gilberti,Hoplichthys_langsdorfii),(((Prionotus_evolans,Pterygotrigla_hemisticta),(Sebastolobus_alascanus,(Sebastes_ruberrimus,Sebastes_fasciatus))),((Anoplopoma_fimbria,(Hexagrammos_otakii,((Trichodon_trichodon,((Eumicrotremus_orbis,Cyclopterus_lumpus),(Paraliparis_meganchus,Liparis_mucosus))),((Leptocottus_armatus,Cottus_carolinae),((Aspidophoroides_monopterygius,Stellerina_xyosterna),(Artediellus_uncinatus,Scorpaenichthys_marmoratus)))))),((Hypoptychus_dybowskii,((Aulorhynchus_flavidus,Aulichthys_japonicus),(Apeltes_quadracus,(Gasterosteus_aculeatus,Gasterosteus_wheatlandi)))),(Rathbunella_hypoplecta,(Bathymaster_signatus,(Cebidichthys_violaceus,((Cryptacanthodes_maculatus,(Pholis_crassispina,Pholis_ornata)),(Anarhichas_lupus,(Lycodes_terraenovae,Lycodes_diapterus))))))))))))))))),((Morone_saxatilis,(Morone_mississippiensis,Morone_chrysops)),((Drepane_punctata,(Chaetodipterus_faber,Platax_orbicularis)),(((Grammatonotus_surugaensis,((Erythrocles_schlegelii,Erythrocles_scintillans),(Sillago_sihama,Sillago_chondropus))),(((Pagrus_pagrus,(Calamus_calamus,(Stenotomus_chrysops,Lagodon_rhomboides))),((Monotaxis_grandoculis,(Lethrinus_erythropterus,Lethrinus_erythracanthus)),(Pentapodus_caninus,(Scolopsis_margaritifera,Scolopsis_bilineata)))),((Caulolatilus_princeps,Malacanthus_plumieri),((Chaetodontoplus_melanosoma,(Holacanthus_passer,Pomacanthus_zonipectus)),((Orthopristis_chrysoptera,(Anisotremus_surinamensis,((Haemulon_vittatum,Haemulon_aurolineatum),(Haemulon_sciurus,Haemulon_plumierii)))),((Pterocaesio_pisang,Caesio_cuning),(Lutjanus_biguttatus,(Lutjanus_griseus,(Ocyurus_chrysurus,(Lutjanus_mahogoni,Rhomboplites_aurorubens)))))))))),((((Datnioides_microlepis,Lobotes_surinamensis),(Cynoscion_regalis,((Menticirrhus_littoralis,Leiostomus_xanthurus),(Aplodinotus_grunniens,(Micropogonias_undulatus,Sciaenops_ocellatus))))),(Monodactylus_sebae,(((Prognathodes_aculeatus,(Chaetodon_ornatissimus,Chaetodon_striatus)),(Chelmon_rostratus,(Forcipiger_flavissimus,(Johnrandallia_nigrirostris,Hemitaurichthys_polylepis)))),Gazza_minuta))),((Luvarus_imperialis,(Zanclus_cornutus,((Naso_brevirostris,Naso_lituratus),(Zebrasoma_rostratum,(Acanthurus_nigricans,(Ctenochaetus_strigosus,Acanthurus_bahianus)))))),((((Siganus_spinus,Siganus_vulpinus),(Selenotoca_multifasciata,Scatophagus_argus)),((Cepola_schlegelii,Sphenanthias_tosaensis),(Pristigenys_alta,(Priacanthus_arenatus,Heteropriacanthus_cruentatus)))),((Capros_aper,(Antigonia_rubescens,Antigonia_capros)),(((Lophius_gastrophysus,Lophius_americanus),((Halieutichthys_aculeatus,Ogcocephalus_nasutus),((Antennarius_striatus,Histiophryne_cryptacanthus),(((Himantolophus_sagamius,(Cryptopsaras_couesi,Ceratias_holboelli)),Gigantactis_vanhoeffeni),(Chaunax_suttkusi,Chaunax_stigmaeus))))),(((Diodon_holocanthus,Chilomycterus_schoepfii),(Canthigaster_jactator,(Sphoeroides_nephelus,(Tetraodon_miurus,Arothron_nigropunctatus)))),(Triodon_macropterus,((Aracana_aurita,(Ostracion_cubicus,Rhinesomus_triqueter)),(((Halimochirurgus_alcocki,Triacanthodes_anomalus),(Triacanthus_biaculeatus,(Ranzania_laevis,(Mola_mola,Masturus_lanceolatus)))),((Cantherhines_pullus,(Paraluteres_prionurus,(Pervagor_nigrolineatus,(Stephanolepis_hispidus,(Pervagor_janthinosoma,Acreichthys_tomentosus))))),((Balistapus_undulatus,(Xanthichthys_ringens,Pseudobalistes_flavimarginatus)),(Sufflamen_chrysopterum,((Balistes_capriscus,Balistes_vetula),(Abalistes_stellatus,Rhinecanthus_verrucosus)))))))))))))))))))))))))))))))))))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 744414 taxonomy "Argentina silus->Argentina->Argentinidae->Argentinoidei->Osmeriformes->Protacanthopterygii->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1014210"
 pgloadind     taxon mapping OTT ID 552305 taxonomy "Thymallus brevirostris->Thymallus->Thymallinae->Salmonidae->Salmonoidei->Salmoniformes->Protacanthopterygii->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1014213"
@@ -338,6 +330,7 @@ pgloadind     taxon mapping OTT ID 288063 taxonomy "Oreochromis niloticus->Oreoc
 pgloadind     taxon mapping OTT ID 936817 taxonomy "Cichla temensis->Cichla->Cichlini->Cichlinae->New World cichlids->Cichlidae->Labroidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1014747"
 pgloadind     taxon mapping OTT ID 207341 taxonomy "Heros efasciatus->Heros->Heroini->Cichlasomatinae->New World cichlids->Cichlidae->Labroidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1014749"
 pgloadind     taxon mapping OTT ID 811931 taxonomy "Herichthys cyanoguttatus->Herichthys->Heroini->Cichlasomatinae->New World cichlids->Cichlidae->Labroidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1014750"
+pgloadind     taxon mapping OTT ID 1049970 taxonomy "Congogradus subducens->Congogradus->Congrogadinae->Pseudochromidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1014752"
 pgloadind     taxon mapping OTT ID 484155 taxonomy "Pseudambassis ranga->Pseudambassis->Ambassidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1014756"
 pgloadind     taxon mapping OTT ID 202150 taxonomy "Ambassis urotaenia->Ambassis->Ambassidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1014757"
 pgloadind     taxon mapping OTT ID 418648 taxonomy "Mugil cephalus->Mugil->Mugilidae->Mugiliformes->Mugilomorpha->Smegmamorpha->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1014760"
@@ -467,11 +460,14 @@ pgloadind     taxon mapping OTT ID 1040385 taxonomy "Dissostichus eleginoides->D
 pgloadind     taxon mapping OTT ID 114867 taxonomy "Niphon spinosus->Niphon->Epinephelinae->Serranidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015012"
 pgloadind     taxon mapping OTT ID 186474 taxonomy "Perca flavescens->Perca->Percinae->Percidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015014"
 pgloadind     taxon mapping OTT ID 814721 taxonomy "Percina caprodes->Percina subgenus Percina->Percina->Etheostomatinae->Percidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015016"
+pgloadind     taxon mapping OTT ID 618529 taxonomy "Etheostoma simoterum atripinne->Etheostoma simoterum->Ulocentra->Etheostoma->Etheostomatinae->Percidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015017"
 pgloadind     taxon mapping OTT ID 105611 taxonomy "Bembrops gobioides->Bembrops->Percophidae->Trachinoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015020"
 pgloadind     taxon mapping OTT ID 202153 taxonomy "Bembrops anatirostris->Bembrops->Percophidae->Trachinoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015021"
 pgloadind     taxon mapping OTT ID 284241 taxonomy "Hypoplectrus puella->Hypoplectrus->Serraninae->Serranidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015023"
 pgloadind     taxon mapping OTT ID 1089736 taxonomy "Paralabrax nebulifer->Paralabrax->Serraninae->Serranidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015025"
 pgloadind     taxon mapping OTT ID 807897 taxonomy "Serranus tigrinus->Serranus->Serraninae->Serranidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015026"
+pgloadind     taxon mapping OTT ID 306485 taxonomy "Pseudanthias pascalus->Pseudanthias->Anthiinae->Serranidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015029"
+pgloadind     taxon mapping OTT ID 934383 taxonomy "Baldwinella aureorubens->Baldwinella->Anthiinae->Serranidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015030"
 pgloadind     taxon mapping OTT ID 3631511 taxonomy "Rogadius asper->Rogadius->Platycephalidae->Platycephaloidei->Scorpaeniformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015034"
 pgloadind     taxon mapping OTT ID 599906 taxonomy "Platycephalus indicus->Platycephalus->Platycephalidae->Platycephaloidei->Scorpaeniformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015035"
 pgloadind     taxon mapping OTT ID 3631532 taxonomy "Parabembras curtus->Parabembras->Parabembridae->Platycephaloidei->Scorpaeniformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015037"
@@ -511,7 +507,6 @@ pgloadind     taxon mapping OTT ID 1084057 taxonomy "Pholis ornata->Pholis->Phol
 pgloadind     taxon mapping OTT ID 258651 taxonomy "Anarhichas lupus->Anarhichas->Anarhichadidae->Zoarcoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015104"
 pgloadind     taxon mapping OTT ID 138803 taxonomy "Lycodes terraenovae->Lycodes->Lycodinae->Zoarcidae->Zoarcoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015108"
 pgloadind     taxon mapping OTT ID 178071 taxonomy "Lycodes diapterus->Lycodes->Lycodinae->Zoarcidae->Zoarcoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015109"
-pgloadind     taxon mapping OTT ID 306485 taxonomy "Pseudanthias pascalus->Pseudanthias->Anthiinae->Serranidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015029"
 pgloadind     taxon mapping OTT ID 223669 taxonomy "Morone saxatilis->Morone->Moronidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015112"
 pgloadind     taxon mapping OTT ID 769290 taxonomy "Morone mississippiensis->Morone->Moronidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015114"
 pgloadind     taxon mapping OTT ID 246133 taxonomy "Morone chrysops->Morone->Moronidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1015115"
@@ -637,412 +632,415 @@ pgloadind   Adding tree to graph tree id "5975"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Etroplus maculatus was remapped to 'Etroplus' (id=466980)
-	Chilomycterus schoepfii was remapped to 'Chilomycterus' (id=442227)
-	Ceratias holboelli was remapped to 'Ceratias' (id=440989)
-	Ctenopoma kingsleyae was remapped to 'Ctenopoma' (id=497569)
-	Toxotes jaculatrix was remapped to 'Toxotidae' (id=490083)
+	Sciaenops ocellatus was remapped to 'Sciaenops' (id=493816)
 	Phaeoptyx pigmentaria was remapped to 'Phaeoptyx' (id=487668)
-	Platax orbicularis was remapped to 'Platax' (id=457116)
-	Pristigenys alta was remapped to 'Pristigenys' (id=488675)
-	Abalistes stellatus was remapped to 'Abalistes' (id=443412)
-	Salvelinus alpinus was remapped to 'Salvelinus' (id=510736)
-	Peprilus triacanthus was remapped to 'Stromateidae' (id=453553)
-	Nannoperca australis was remapped to 'Nannoperca' (id=480396)
-	Heteropriacanthus cruentatus was remapped to 'Heteropriacanthus' (id=488656)
-	Scopelengys tristis was remapped to 'Scopelengys' (id=508229)
-	Dissostichus eleginoides was remapped to 'Nototheniidae' (id=454546)
-	Auxis rochei was remapped to 'Auxis' (id=455372)
-	Rhinecanthus verrucosus was remapped to 'Rhinecanthus' (id=443441)
-	Astroscopus y-graecum was remapped to 'Astroscopus' (id=494239)
-	Tetraodon miurus was remapped to 'Tetraodon' (id=442361)
-	Apeltes quadracus was remapped to 'Apeltes' (id=445891)
-	Lota lota was remapped to 'Lotidae' (id=438859)
-	Cryptotomus roseus was remapped to 'Cryptotomus' (id=457348)
-	Micropogonias undulatus was remapped to 'Micropogonias' (id=493143)
-	Bembras japonica was remapped to 'Bembridae' (id=505571)
-	Centroberyx druzhinini was remapped to 'Centroberyx' (id=506276)
-	Oligoplites saurus was remapped to 'Oligoplites' (id=477745)
-	Microspathodon bairdii was remapped to 'Microspathodon' (id=462294)
-	Rogadius asper was remapped to 'Rogadius' (id=504984)
-	Anisotremus surinamensis was remapped to 'Anisotremus' (id=484951)
-	Dermogenys collettei was remapped to 'Zenarchopterinae' (id=452666)
-	Jordanella floridae was remapped to 'Jordanella' (id=448679)
-	Ptychochromis grandidieri was remapped to 'Ptychochrominae' (id=462688)
-	Acanthaphritis unoorum was remapped to 'Acanthaphritis' (id=494437)
-	Diretmichthys parini was remapped to 'Diretmichthys' (id=506260)
-	Siniperca chuatsi was remapped to 'Sinipercidae' (id=483490)
-	Anotopterus pharao was remapped to 'Anotopteridae' (id=509092)
-	Melanotaenia was remapped to 'Melanotaeniidae' (id=451116)
-	Hemitaurichthys polylepis was remapped to 'Hemitaurichthys' (id=486320)
-	Labracinus cyclophthalmus was remapped to 'Labracinus' (id=488725)
-	Amblycirrhitus pinos was remapped to 'Amblycirrhitus' (id=489351)
-	Heros efasciatus was remapped to 'Heros' (id=468195)
-	Ogilbyina novaehollandiae was remapped to 'Ogilbyina' (id=488774)
-	Astrapogon stellatus was remapped to 'Astrapogon' (id=487652)
-	Drepane punctata was remapped to 'Drepaneidae' (id=486218)
-	Labrisomus multiporosus was remapped to 'Labrisomidae' (id=494916)
-	Beryx decadactylus was remapped to 'Beryx' (id=506308)
-	Microctenopoma nanum was remapped to 'Microctenopoma' (id=497644)
-	Pentapodus caninus was remapped to 'Pentapodus' (id=479217)
-	Perccottus glenii was remapped to 'Perccottus' (id=477262)
-	Enoplosus armatus was remapped to 'Enoplosidae' (id=479417)
-	Gigantactis vanhoeffeni was remapped to 'Gigantactinidae' (id=441236)
-	Calamus calamus was remapped to 'Calamus' (id=481873)
-	Bathypterois atricolor was remapped to 'Chlorophthalmoidei' (id=508592)
-	Notolepis coatsi was remapped to 'Notolepis' (id=508909)
-	Parahucho perryi was remapped to 'Parahucho' (id=511077)
-	Meiacanthus grammistes was remapped to 'Meiacanthus' (id=496193)
-	Hoplostethus atlanticus was remapped to 'Hoplostethus' (id=506113)
-	Lucania goodei was remapped to 'Lucania' (id=448946)
-	Pagrus pagrus was remapped to 'Pagrus' (id=481934)
-	Percina caprodes was remapped to 'Etheostomatinae' (id=480611)
-	Aeoliscus strigatus was remapped to 'Centriscinae' (id=444541)
-	Champsodon snyderi was remapped to 'Champsodontidae' (id=494324)
-	Atherinomorus lacunosus was remapped to 'Atherinidae' (id=451612)
-	Ijimaia loppei was remapped to 'Ijimaia' (id=509121)
-	Taractes asper was remapped to 'Taractes' (id=487044)
-	Pomatomus saltatrix was remapped to 'Pomatomidae' (id=484498)
-	Diodon holocanthus was remapped to 'Diodon' (id=442171)
-	Krefftichthys anderssoni was remapped to 'Krefftichthys' (id=507524)
-	Malacanthus plumieri was remapped to 'Malacanthinae' (id=478748)
-	Sufflamen chrysopterum was remapped to 'Sufflamen' (id=443481)
-	Argentina silus was remapped to 'Argentinoidei' (id=511715)
-	Cetostoma regani was remapped to 'Cetostoma' (id=441833)
-	Sarda sarda was remapped to 'Sardini' (id=455260)
-	Diademichthys lineatus was remapped to 'Diademichthys' (id=454083)
-	Pleuronectes platessa was remapped to 'Pleuronectes' (id=499005)
-	Tarletonbeania crenularis was remapped to 'Tarletonbeania' (id=507481)
-	Ocyurus chrysurus was remapped to 'Ocyurus' (id=482307)
-	Monocentris japonicus was remapped to 'Monocentridae' (id=506059)
-	Zebrasoma rostratum was remapped to 'Zebrasoma' (id=456261)
-	Xanthichthys ringens was remapped to 'Xanthichthys' (id=443380)
-	Cryptacanthodes maculatus was remapped to 'Cryptacanthodidae' (id=470395)
-	Electrona antarctica was remapped to 'Electrona' (id=507264)
-	Mycteroperca microlepis was remapped to 'Mycteroperca' (id=491727)
-	Ruvettus pretiosus was remapped to 'Ruvettus' (id=455976)
-	Enchelyurus flavipes was remapped to 'Enchelyurus' (id=496087)
-	Muraenolepis microps was remapped to 'Muraenolepididae' (id=438605)
-	Percopsis omiscomaycus was remapped to 'Percopsoidei' (id=439342)
-	Mene maculata was remapped to 'Menidae' (id=478835)
-	Polycentrus schomburgkii was remapped to 'Polycentrus' (id=482264)
-	Macroramphosus scolopax was remapped to 'Macroramphosinae' (id=444567)
-	Barathronus maculatus was remapped to 'Aphyonidae' (id=439800)
-	Tautoga onitis was remapped to 'Tautoga' (id=459711)
-	Cyprinodon variegatus was remapped to 'Cyprinodon' (id=448684)
-	Gambusia affinis was remapped to 'Gambusia' (id=447600)
-	Hephaestus fuliginosus was remapped to 'Hephaestus' (id=490407)
-	Zeus faber was remapped to 'Zeus' (id=506860)
-	Chionobathyscus dewitti was remapped to 'Channichthyidae' (id=454852)
-	Oxycheilinus celebicus was remapped to 'Oxycheilinus' (id=458525)
-	Hypoptychus dybowskii was remapped to 'Hypoptychidae' (id=445953)
-	Fundulus heteroclitus was remapped to 'Fundulus' (id=448957)
-	Triacanthus biaculeatus was remapped to 'Triacanthidae' (id=444142)
-	Parabembras curtus was remapped to 'Parabembridae' (id=504976)
-	Lampanyctus jordani was remapped to 'Lampanyctus' (id=507290)
-	Paratilapia polleni was remapped to 'Paratilapia' (id=466992)
-	Rondeletia loricata was remapped to 'Rondeletiidae' (id=441857)
-	Gymnachirus melas was remapped to 'Gymnachirus' (id=500980)
-	Poeciliopsis elongata was remapped to 'Poeciliopsis' (id=447895)
-	Symphurus atricaudus was remapped to 'Cynoglossidae' (id=499862)
-	Paralichthys dentatus was remapped to 'Paralichthys' (id=498597)
-	Ogcocephalus nasutus was remapped to 'Ogcocephalus' (id=441670)
-	Artediellus uncinatus was remapped to 'Artediellus' (id=503540)
 	Paretroplus maculatus was remapped to 'Paretroplus' (id=467012)
-	Aulotrachichthys prosthemius was remapped to 'Aulotrachichthys' (id=506168)
-	Tautogolabrus adspersus was remapped to 'Tautogolabrus' (id=459721)
-	Melamphaes polylepis was remapped to 'Melamphaes' (id=441942)
-	Aplodinotus grunniens was remapped to 'Aplodinotus' (id=493362)
-	Alepisaurus ferox was remapped to 'Alepisauridae' (id=508862)
-	Cichla temensis was remapped to 'Cichlinae' (id=467064)
-	Neosynchiropus ocellatus was remapped to 'Neosynchiropus' (id=470899)
-	Caulolatilus princeps was remapped to 'Latilinae' (id=478663)
-	Caristius macropus was remapped to 'Caristius' (id=486952)
-	Esox americanus was remapped to 'Esocidae' (id=510241)
-	Lachnolaimus maximus was remapped to 'Lachnolaimus' (id=458374)
-	Rhomboplites aurorubens was remapped to 'Rhomboplites' (id=482288)
-	Malakichthys elegans was remapped to 'Malakichthys' (id=479694)
-	Lepidopsetta bilineata was remapped to 'Lepidopsetta' (id=498853)
-	Xyrichtys martinicensis was remapped to 'Xyrichtys' (id=459606)
-	Astronesthes leucopogon was remapped to 'Astronesthes' (id=509637)
 	Prognathodes aculeatus was remapped to 'Prognathodes' (id=486272)
-	Haletta semifasciata was remapped to 'Odacidae' (id=460710)
-	Anomalops katoptron was remapped to 'Anomalopidae' (id=506204)
-	Upeneus parvus was remapped to 'Upeneus' (id=483323)
-	Cyttopsis rosea was remapped to 'Parazenidae' (id=506834)
+	Drepane punctata was remapped to 'Drepaneidae' (id=486218)
+	Cepola schlegelii was remapped to 'Cepola' (id=488532)
+	Protomyctophum choriodon was remapped to 'Protomyctophum' (id=507439)
+	Enneanectes boehlkei was remapped to 'Enneanectes' (id=495488)
+	Liparis mucosus was remapped to 'Liparis' (id=504559)
+	Micropterus salmoides was remapped to 'Micropterus' (id=483622)
+	Tautoga onitis was remapped to 'Tautoga' (id=459711)
+	Sebastolobus alascanus was remapped to 'Sebastolobinae' (id=502840)
+	Cebidichthys violaceus was remapped to 'Stichaeidae' (id=470104)
+	Terapon jarbua was remapped to 'Terapon' (id=490365)
+	Scophthalmus aquosus was remapped to 'Scophthalmidae' (id=498747)
+	Microspathodon bairdii was remapped to 'Microspathodon' (id=462294)
+	Cryptotomus roseus was remapped to 'Cryptotomus' (id=457348)
+	Salvelinus alpinus was remapped to 'Salvelinus' (id=510736)
+	Pagrus pagrus was remapped to 'Pagrus' (id=481934)
+	Cetoscarus bicolor was remapped to 'Cetoscarus' (id=458021)
+	Oreochromis niloticus was remapped to 'Pseudocrenilabrinae' (id=462724)
+	Ctenopoma kingsleyae was remapped to 'Ctenopoma' (id=497569)
+	Icichthys lockingtoni was remapped to 'Centrolophidae' (id=453655)
+	Etheostoma simoterum atripinne was remapped to 'Etheostoma' (id=480859)
+	Paralichthys dentatus was remapped to 'Paralichthys' (id=498597)
+	Poeciliopsis elongata was remapped to 'Poeciliopsis' (id=447895)
+	Hephaestus fuliginosus was remapped to 'Hephaestus' (id=490407)
+	Chaenopsis alepidota was remapped to 'Chaenopsidae' (id=495879)
+	Histiopterus typus was remapped to 'Histiopterus' (id=483944)
+	Pomatomus saltatrix was remapped to 'Pomatomidae' (id=484498)
+	Psenes maculatus was remapped to 'Psenes' (id=453948)
+	Calamus calamus was remapped to 'Calamus' (id=481873)
+	Psettodes erumei was remapped to 'Psettodoidei' (id=498277)
 	Chromis cyanea was remapped to 'Chromis' (id=461852)
-	Phenacostethus smithi was remapped to 'Phallostethidae' (id=451563)
-	Aulorhynchus flavidus was remapped to 'Aulorhynchus' (id=445822)
-	Eleginops maclovinus was remapped to 'Eleginopidae' (id=454784)
-	Leiostomus xanthurus was remapped to 'Leiostomus' (id=493877)
-	Oryzias latipes was remapped to 'Adrianichthyoidei' (id=453436)
-	Brosmophycis marginata was remapped to 'Brosmophycinae' (id=439364)
+	Tetrapturus angustirostris was remapped to 'Istiophoridae' (id=455683)
+	Gramma loreto was remapped to 'Grammatidae' (id=484529)
+	Priacanthus arenatus was remapped to 'Priacanthus' (id=488600)
+	Atherinomorus lacunosus was remapped to 'Atherinidae' (id=451612)
+	Heteropriacanthus cruentatus was remapped to 'Heteropriacanthus' (id=488656)
+	Cyttopsis rosea was remapped to 'Parazenidae' (id=506834)
+	Chaetodontoplus melanosoma was remapped to 'Chaetodontoplus' (id=484441)
+	Percopsis omiscomaycus was remapped to 'Percopsoidei' (id=439342)
+	Strongylura marina was remapped to 'Strongylura' (id=452431)
+	Paratrachichthys sajademalensis was remapped to 'Paratrachichthys' (id=506087)
+	Rypticus saponaceus was remapped to 'Rypticus' (id=492155)
+	Rhinesomus triqueter was remapped to 'Rhinesomus' (id=444241)
+	Osmerus mordax was remapped to 'Osmerinae' (id=511967)
+	Diretmichthys parini was remapped to 'Diretmichthys' (id=506260)
+	Platax orbicularis was remapped to 'Platax' (id=457116)
+	Canthigaster jactator was remapped to 'Canthigaster' (id=442928)
+	Monocentris japonicus was remapped to 'Monocentridae' (id=506059)
+	Batrachoides pacifici was remapped to 'Batrachoides' (id=436741)
+	Samariscus latus was remapped to 'Samaridae' (id=498301)
+	Haletta semifasciata was remapped to 'Odacidae' (id=460710)
+	Diaphus rafinesquii was remapped to 'Diaphus' (id=507638)
+	Calotomus carolinus was remapped to 'Calotomus' (id=457515)
+	Histiophryne cryptacanthus was remapped to 'Histiophryne' (id=440841)
+	Badis pyema was remapped to 'Badis' (id=478897)
+	Mycteroperca microlepis was remapped to 'Mycteroperca' (id=491727)
+	Ogcocephalus nasutus was remapped to 'Ogcocephalus' (id=441670)
+	Cymatogaster aggregata was remapped to 'Cymatogaster' (id=462621)
+	Masturus lanceolatus was remapped to 'Masturus' (id=442157)
+	Pristigenys alta was remapped to 'Pristigenys' (id=488675)
+	Mene maculata was remapped to 'Menidae' (id=478835)
+	Ophiocara porocephala was remapped to 'Ophiocara' (id=477052)
+	Sphoeroides nephelus was remapped to 'Sphoeroides' (id=443146)
 	Pseudobalistes flavimarginatus was remapped to 'Pseudobalistes' (id=443561)
-	Polydactylus sextarius was remapped to 'Polydactylus' (id=479458)
-	Benthalbella infans was remapped to 'Scopelarchidae' (id=508803)
+	Hyperprosopon argenteum was remapped to 'Hyperprosopon' (id=462648)
+	Lachnolaimus maximus was remapped to 'Lachnolaimus' (id=458374)
+	Electrona antarctica was remapped to 'Electrona' (id=507264)
+	Girella mezina was remapped to 'Girellinae' (id=484636)
+	Chilomycterus schoepfii was remapped to 'Chilomycterus' (id=442227)
+	Lobotes surinamensis was remapped to 'Lobotidae' (id=486197)
+	Serranus tigrinus was remapped to 'Serranus' (id=490629)
+	Pseudochromis fridmani was remapped to 'Pseudochromis' (id=488798)
+	Lepomis cyanellus was remapped to 'Lepomis' (id=483766)
+	Heros efasciatus was remapped to 'Heros' (id=468195)
+	Chionobathyscus dewitti was remapped to 'Channichthyidae' (id=454852)
+	Herichthys cyanoguttatus was remapped to 'Herichthys' (id=468228)
+	Lamprogrammus niger was remapped to 'Neobythitinae' (id=440173)
+	Brotula multibarbata was remapped to 'Brotulinae' (id=440367)
+	Pterocaesio pisang was remapped to 'Pterocaesio' (id=479849)
+	Cyttomimus affinis was remapped to 'Zenionidae' (id=506926)
+	Centrogenys vaigiensis was remapped to 'Centrogeniidae' (id=494159)
+	Archoplites interruptus was remapped to 'Archoplites' (id=483761)
+	Trichodon trichodon was remapped to 'Trichodontidae' (id=494311)
+	Anoplogaster cornuta was remapped to 'Anoplogasteridae' (id=506240)
+	Champsodon snyderi was remapped to 'Champsodontidae' (id=494324)
+	Diodon holocanthus was remapped to 'Diodon' (id=442171)
+	Callionymus bairdi was remapped to 'Callionymus' (id=470643)
+	Lagodon rhomboides was remapped to 'Lagodon' (id=482244)
+	Argentina silus was remapped to 'Argentinoidei' (id=511715)
+	Icosteus aenigmaticus was remapped to 'Icosteoidei' (id=456237)
+	Aspidophoroides monopterygius was remapped to 'Anoplagoninae' (id=503812)
+	Diretmus argenteus was remapped to 'Diretmus' (id=506264)
+	Rathbunella hypoplecta was remapped to 'Rathbunella' (id=489434)
+	Sphaeramia orbicularis was remapped to 'Sphaeramia' (id=487756)
+	Eleutheronema rhadinum was remapped to 'Eleutheronema' (id=479560)
+	Krefftichthys anderssoni was remapped to 'Krefftichthys' (id=507524)
+	Lucania goodei was remapped to 'Lucania' (id=448946)
+	Eugerres plumieri was remapped to 'Eugerres' (id=480059)
+	Cheilodipterus quinquelineatus was remapped to 'Cheilodipterus' (id=488360)
+	Rhacochilus vacca was remapped to 'Rhacochilus' (id=462590)
+	Acreichthys tomentosus was remapped to 'Acreichthys' (id=443873)
+	Forcipiger flavissimus was remapped to 'Forcipiger' (id=486860)
+	Hexagrammos otakii was remapped to 'Hexagrammoidei' (id=505939)
+	Gazza minuta was remapped to 'Leiognathidae' (id=485653)
+	Stenotomus chrysops was remapped to 'Stenotomus' (id=481571)
+	Paraliparis meganchus was remapped to 'Paraliparis' (id=504350)
+	Dario dario was remapped to 'Dario' (id=478861)
+	Heteromycteris japonicus was remapped to 'Heteromycteris' (id=500816)
+	Malacanthus plumieri was remapped to 'Malacanthinae' (id=478748)
+	Lepidopsetta bilineata was remapped to 'Lepidopsetta' (id=498853)
+	Xanthichthys ringens was remapped to 'Xanthichthys' (id=443380)
+	Anoplopoma fimbria was remapped to 'Anoplopomatoidei' (id=506033)
+	Nemateleotris magnifica was remapped to 'Nemateleotris' (id=476367)
+	Hypomesus pretiosus was remapped to 'Hypomesinae' (id=512111)
+	Ceratoscopelus maderensis was remapped to 'Ceratoscopelus' (id=508073)
+	Pleuronectes platessa was remapped to 'Pleuronectes' (id=499005)
+	Pachypanchax playfairii was remapped to 'Aplocheiloidei' (id=449149)
 	Paraluteres prionurus was remapped to 'Paraluteres' (id=444040)
 	Kathetostoma averruncus was remapped to 'Kathetostoma' (id=494181)
-	Ostorhinchus lateralis was remapped to 'Ostorhinchus' (id=488101)
-	Sphaeramia orbicularis was remapped to 'Sphaeramia' (id=487756)
-	Ceratoscopelus maderensis was remapped to 'Ceratoscopelus' (id=508073)
-	Himantolophus sagamius was remapped to 'Himantolophidae' (id=441194)
-	Cataetyx lepidogenys was remapped to 'Cataetyx' (id=439488)
-	Aspidophoroides monopterygius was remapped to 'Anoplagoninae' (id=503812)
-	Pseudambassis ranga was remapped to 'Pseudambassis' (id=489450)
-	Trichiurus lepturus was remapped to 'Trichiurinae' (id=456089)
-	Labidesthes sicculus was remapped to 'Atherinopsinae' (id=452266)
-	Notoscopelus resplendens was remapped to 'Notoscopelus' (id=508002)
-	Gramma loreto was remapped to 'Grammatidae' (id=484529)
-	Eugerres plumieri was remapped to 'Eugerres' (id=480059)
-	Cyclopterus lumpus was remapped to 'Cyclopterus' (id=504256)
-	Ranzania laevis was remapped to 'Ranzania' (id=442071)
-	Oxyeleotris selheimi was remapped to 'Oxyeleotris' (id=477075)
-	Psettodes erumei was remapped to 'Psettodoidei' (id=498277)
-	Cetoscarus bicolor was remapped to 'Cetoscarus' (id=458021)
-	Gomphosus varius was remapped to 'Gomphosus' (id=458616)
-	Ostracoberyx dorygenys was remapped to 'Ostracoberycidae' (id=483874)
-	Girella mezina was remapped to 'Girellinae' (id=484636)
-	Strongylura marina was remapped to 'Strongylura' (id=452431)
-	Forcipiger flavissimus was remapped to 'Forcipiger' (id=486860)
-	Serranus tigrinus was remapped to 'Serranus' (id=490629)
-	Hippocampus erectus was remapped to 'Hippocampinae' (id=444659)
-	Icichthys lockingtoni was remapped to 'Centrolophidae' (id=453655)
-	Cheimarrichthys fosteri was remapped to 'Cheimarrichthys' (id=487312)
-	Clepticus parrae was remapped to 'Clepticus' (id=460231)
-	Bathymaster signatus was remapped to 'Bathymaster' (id=489441)
-	Nemateleotris magnifica was remapped to 'Nemateleotris' (id=476367)
-	Salarias fasciatus was remapped to 'Salarias' (id=496814)
-	Histiophryne cryptacanthus was remapped to 'Histiophryne' (id=440841)
-	Cirrhitichthys falco was remapped to 'Cirrhitichthys' (id=489224)
-	Oplegnathus punctatus was remapped to 'Oplegnathidae' (id=479378)
-	Cheilodipterus quinquelineatus was remapped to 'Cheilodipterus' (id=488360)
-	Ateleopus japonicus was remapped to 'Ateleopus' (id=509135)
-	Selene setapinnis was remapped to 'Selene' (id=477944)
-	Gazza minuta was remapped to 'Leiognathidae' (id=485653)
-	Banjos banjos was remapped to 'Banjosidae' (id=483842)
-	Datnioides microlepis was remapped to 'Datnioididae' (id=483850)
-	Samariscus latus was remapped to 'Samaridae' (id=498301)
-	Paralabrax nebulifer was remapped to 'Paralabrax' (id=490852)
-	Herichthys cyanoguttatus was remapped to 'Herichthys' (id=468228)
-	Batrachoides pacifici was remapped to 'Batrachoides' (id=436741)
-	Protomyctophum choriodon was remapped to 'Protomyctophum' (id=507439)
-	Novumbra hubbsi was remapped to 'Novumbra' (id=510217)
-	Oreochromis niloticus was remapped to 'Pseudocrenilabrinae' (id=462724)
-	Gibbonsia metzi was remapped to 'Clinidae' (id=494622)
-	Lamprogrammus niger was remapped to 'Neobythitinae' (id=440173)
-	Pterygotrigla hemisticta was remapped to 'Pterygotrigla' (id=505873)
-	Archoplites interruptus was remapped to 'Archoplites' (id=483761)
-	Carapus bermudensis was remapped to 'Carapus' (id=439848)
-	Monocirrhus polyacanthus was remapped to 'Monocirrhus' (id=478894)
-	Pachypanchax playfairii was remapped to 'Aplocheiloidei' (id=449149)
-	Scorpaenichthys marmoratus was remapped to 'Scorpaenichthys' (id=502929)
-	Micropterus salmoides was remapped to 'Micropterus' (id=483622)
-	Pteraclis aesticola was remapped to 'Pteraclis' (id=486971)
-	Pseudupeneus maculatus was remapped to 'Pseudupeneus' (id=483404)
-	Platybelone argala was remapped to 'Platybelone' (id=452586)
-	Lepidogobius lepidus was remapped to 'Gobionellinae' (id=474222)
-	Seriola dumerili was remapped to 'Seriola' (id=477566)
-	Onuxodon parvibrachium was remapped to 'Onuxodon' (id=439937)
-	Howella zina was remapped to 'Howellidae' (id=488577)
-	Abudefduf saxatilis was remapped to 'Abudefduf' (id=461505)
-	Gillellus semicinctus was remapped to 'Dactyloscopidae' (id=495300)
-	Scomberomorus maculatus was remapped to 'Scomberomorini' (id=454996)
-	Acropoma japonicum was remapped to 'Acropoma' (id=479662)
-	Orthopristis chrysoptera was remapped to 'Orthopristis' (id=485120)
-	Grammistes sexlineatus was remapped to 'Grammistes' (id=492149)
-	Mulloidichthys flavolineatus was remapped to 'Mulloidichthys' (id=483079)
-	Anoplogaster cornuta was remapped to 'Anoplogasteridae' (id=506240)
-	Brama japonica was remapped to 'Brama' (id=487060)
-	Pyramodon ventralis was remapped to 'Pyramodontinae' (id=439950)
-	Rhacochilus vacca was remapped to 'Rhacochilus' (id=462590)
-	Symbolophorus evermanni was remapped to 'Symbolophorus' (id=507879)
-	Gobiesox maeandricus was remapped to 'Gobiesox' (id=454093)
-	Grammatonotus surugaensis was remapped to 'Callanthiidae' (id=488465)
 	Stonogobiops nematodes was remapped to 'Gobiinae' (id=471343)
-	Lagodon rhomboides was remapped to 'Lagodon' (id=482244)
-	Rheocles wrightae was remapped to 'Bedotiidae' (id=451469)
-	Aphredoderus sayanus was remapped to 'Aphredoderidae' (id=439326)
-	Monodactylus sebae was remapped to 'Monodactylidae' (id=478794)
-	Cottus carolinae was remapped to 'Cottus' (id=503299)
-	Acanthochaenus luetkenii was remapped to 'Stephanoberycidae' (id=442036)
-	Scatophagus argus was remapped to 'Scatophagus' (id=456816)
-	Scortum barcoo was remapped to 'Scortum' (id=490482)
-	Odontobutis potamophila was remapped to 'Odontobutis' (id=477236)
-	Chaetodontoplus melanosoma was remapped to 'Chaetodontoplus' (id=484441)
-	Polycentropsis abbreviata was remapped to 'Polycentropsis' (id=482262)
-	Oxyjulis californica was remapped to 'Oxyjulis' (id=459846)
-	Cryptopsaras couesi was remapped to 'Cryptopsaras' (id=441014)
-	Pseudanthias pascalus was remapped to 'Anthiinae' (id=492274)
-	Arrhamphus sclerolepis was remapped to 'Hemiramphinae' (id=452807)
-	Plesiops coeruleolineatus was remapped to 'Plesiopidae' (id=483951)
-	Limnichthys was remapped to 'Creediidae' (id=494565)
-	Aulichthys japonicus was remapped to 'Aulichthys' (id=445818)
-	Ophiocara porocephala was remapped to 'Ophiocara' (id=477052)
-	Sphenanthias tosaensis was remapped to 'Sphenanthias' (id=488502)
-	Opistognathus aurifrons was remapped to 'Opistognathidae' (id=489717)
-	Menticirrhus littoralis was remapped to 'Menticirrhus' (id=493192)
-	Citharichthys sordidus was remapped to 'Citharichthys' (id=498375)
-	Masturus lanceolatus was remapped to 'Masturus' (id=442157)
-	Dormitator maculatus was remapped to 'Dormitator' (id=476785)
-	Ambloplites rupestris was remapped to 'Ambloplites' (id=483698)
-	Triacanthodes anomalus was remapped to 'Triacanthodes' (id=444182)
-	Diretmus argenteus was remapped to 'Diretmus' (id=506264)
-	Maccullochella peelii was remapped to 'Maccullochella' (id=480325)
-	Neonesthes capensis was remapped to 'Neonesthes' (id=509623)
-	Platyberyx opalescens was remapped to 'Platyberyx' (id=486949)
-	Antennarius striatus was remapped to 'Antennarius' (id=440720)
-	Paraliparis meganchus was remapped to 'Paraliparis' (id=504350)
-	Scomberesox saurus was remapped to 'Scomberesocidae' (id=452336)
-	Halieutichthys aculeatus was remapped to 'Halieutichthys' (id=441659)
-	Cepola schlegelii was remapped to 'Cepola' (id=488532)
-	Barbourisia rufa was remapped to 'Barbourisiidae' (id=441887)
-	Chologaster cornuta was remapped to 'Amblyopsidae' (id=439287)
-	Rathbunella hypoplecta was remapped to 'Rathbunella' (id=489434)
-	Pristolepis fasciata was remapped to 'Pristolepis' (id=478867)
-	Leptocottus armatus was remapped to 'Leptocottus' (id=503072)
-	Priacanthus arenatus was remapped to 'Priacanthus' (id=488600)
-	Paratrachichthys sajademalensis was remapped to 'Paratrachichthys' (id=506087)
-	Chaetodipterus faber was remapped to 'Chaetodipterus' (id=457148)
-	Sebastolobus alascanus was remapped to 'Sebastolobinae' (id=502840)
-	Helcogramma ellioti was remapped to 'Helcogramma' (id=495708)
-	Hexagrammos otakii was remapped to 'Hexagrammoidei' (id=505939)
-	Cubiceps baxteri was remapped to 'Cubiceps' (id=453880)
-	Bothus lunatus was remapped to 'Bothidae' (id=499351)
-	Ulaema lefroyi was remapped to 'Ulaema' (id=480171)
-	Balistapus undulatus was remapped to 'Balistapus' (id=443286)
-	Stegastes leucostictus was remapped to 'Stegastes' (id=461271)
-	Eumicrotremus orbis was remapped to 'Eumicrotremus' (id=504271)
-	Monopterus albus was remapped to 'Synbranchoidei' (id=446615)
-	Chirodactylus brachydactylus was remapped to 'Chirodactylus' (id=489103)
-	Entomacrodus nigricans was remapped to 'Entomacrodus' (id=497314)
-	Pterocaesio pisang was remapped to 'Pterocaesio' (id=479849)
-	Lobotes surinamensis was remapped to 'Lobotidae' (id=486197)
-	Rypticus saponaceus was remapped to 'Rypticus' (id=492155)
-	Trichogaster pectoralis was remapped to 'Luciocephalinae' (id=497899)
-	Magnisudis prionosa was remapped to 'Magnisudis' (id=508916)
-	Xiphias gladius was remapped to 'Xiphiidae' (id=456218)
-	Psenes maculatus was remapped to 'Psenes' (id=453948)
-	Anarhichas lupus was remapped to 'Anarhichadidae' (id=469923)
-	Perca flavescens was remapped to 'Percinae' (id=480537)
-	Pholidochromis cerasina was remapped to 'Pholidochromis' (id=488791)
-	Eurypegasus draconis was remapped to 'Pegasidae' (id=445769)
-	Centrogenys vaigiensis was remapped to 'Centrogeniidae' (id=494159)
-	Cyclothone microdon was remapped to 'Cyclothone' (id=509452)
-	Cynoscion regalis was remapped to 'Cynoscion' (id=493576)
-	Scopelogadus beanii was remapped to 'Scopelogadus' (id=441988)
-	Platycephalus indicus was remapped to 'Platycephalus' (id=505185)
-	Osmerus mordax was remapped to 'Osmerinae' (id=511967)
-	Coryphaena hippurus was remapped to 'Coryphaenidae' (id=483420)
-	Gadus morhua was remapped to 'Gadidae' (id=437127)
-	Paracirrhites arcatus was remapped to 'Paracirrhites' (id=489325)
-	Lepomis cyanellus was remapped to 'Lepomis' (id=483766)
-	Callionymus bairdi was remapped to 'Callionymus' (id=470643)
-	Arothron nigropunctatus was remapped to 'Arothron' (id=442555)
-	Stereolepis gigas was remapped to 'Polyprionidae' (id=486246)
-	Gonostoma elongatum was remapped to 'Gonostoma' (id=509547)
-	Gadopsis marmoratus was remapped to 'Gadopsis' (id=480309)
-	Ambassis urotaenia was remapped to 'Ambassis' (id=489469)
-	Cebidichthys violaceus was remapped to 'Stichaeidae' (id=470104)
-	Pholidichthys leucotaenia was remapped to 'Pholidichthyidae' (id=489404)
-	Lates niloticus was remapped to 'Latidae' (id=487342)
-	Brotula multibarbata was remapped to 'Brotulinae' (id=440367)
-	Eleotris pisonis was remapped to 'Eleotris' (id=476931)
-	Bodianus rufus was remapped to 'Bodianus' (id=458639)
-	Scomber scombrus was remapped to 'Scombrini' (id=455177)
-	Bovichtus diacanthus was remapped to 'Bovichtidae' (id=454490)
-	Achirus lineatus was remapped to 'Achirus' (id=500932)
-	Cyttomimus affinis was remapped to 'Zenionidae' (id=506926)
-	Aseraggodes kobensis was remapped to 'Aseraggodes' (id=500401)
-	Caesio cuning was remapped to 'Caesio' (id=479802)
-	Zenopsis conchifer was remapped to 'Zenopsis' (id=506887)
-	Lampris guttatus was remapped to 'Lampridae' (id=507159)
-	Cephalopholis argus was remapped to 'Cephalopholis' (id=491877)
-	Macrognathus siamensis was remapped to 'Macrognathus' (id=446986)
-	Chlorurus sordidus was remapped to 'Chlorurus' (id=457354)
-	Ostracion cubicus was remapped to 'Ostracion' (id=444282)
-	Pentaceros japonicus was remapped to 'Pentaceros' (id=483909)
-	Thunnus albacares was remapped to 'Thunnus' (id=455382)
-	Polymetme was remapped to 'Phosichthyidae' (id=509343)
-	Xenentodon cancila was remapped to 'Xenentodon' (id=452417)
-	Helostoma temminkii was remapped to 'Helostomatidae' (id=498022)
-	Heteromycteris japonicus was remapped to 'Heteromycteris' (id=500816)
-	Halimochirurgus alcocki was remapped to 'Halimochirurgus' (id=444198)
-	Johnrandallia nigrirostris was remapped to 'Johnrandallia' (id=486920)
-	Betta splendens was remapped to 'Macropodinae' (id=497687)
-	Triodon macropterus was remapped to 'Triodontidae' (id=442310)
-	Scophthalmus aquosus was remapped to 'Scophthalmidae' (id=498747)
-	Ptereleotris evides was remapped to 'Ptereleotris' (id=476427)
-	Stellerina xyosterna was remapped to 'Brachyopsinae' (id=503762)
-	Pseudochromis fridmani was remapped to 'Pseudochromis' (id=488798)
-	Rachycentron canadum was remapped to 'Rachycentridae' (id=477298)
-	Icosteus aenigmaticus was remapped to 'Icosteoidei' (id=456237)
-	Polyipnus spinifer was remapped to 'Polyipnus' (id=509226)
-	Pseudopleuronectes americanus was remapped to 'Pseudopleuronectes' (id=498911)
-	Paradiplospinus gracilis was remapped to 'Paradiplospinus' (id=455934)
-	Rhinesomus triqueter was remapped to 'Rhinesomus' (id=444241)
-	Hygophum proximum was remapped to 'Hygophum' (id=508099)
-	Tetrapturus angustirostris was remapped to 'Istiophoridae' (id=455683)
-	Stenotomus chrysops was remapped to 'Stenotomus' (id=481571)
-	Gephyroberyx darwinii was remapped to 'Gephyroberyx' (id=506101)
-	Cymatogaster aggregata was remapped to 'Cymatogaster' (id=462621)
-	Caranx crysos was remapped to 'Caranx' (id=478287)
-	Nezumia bairdii was remapped to 'Nezumia' (id=437549)
-	Hyperprosopon argenteum was remapped to 'Hyperprosopon' (id=462648)
-	Mola mola was remapped to 'Mola' (id=442095)
-	Prionotus evolans was remapped to 'Prionotus' (id=505666)
-	Hypsoblennius hentz was remapped to 'Hypsoblennius' (id=497166)
-	Stenobrachius leucopsarus was remapped to 'Stenobrachius' (id=507425)
-	Trichodon trichodon was remapped to 'Trichodontidae' (id=494311)
-	Iso was remapped to 'Notocheiridae' (id=451091)
-	Diproctacanthus xanthurus was remapped to 'Diproctacanthus' (id=459255)
-	Thymallus brevirostris was remapped to 'Thymallinae' (id=511218)
-	Kali normani was remapped to 'Kali' (id=480232)
-	Luvarus imperialis was remapped to 'Luvaridae' (id=457186)
-	Aracana aurita was remapped to 'Aracanidae' (id=444383)
-	Acreichthys tomentosus was remapped to 'Acreichthys' (id=443873)
-	Liparis mucosus was remapped to 'Liparis' (id=504559)
-	Anoplopoma fimbria was remapped to 'Anoplopomatoidei' (id=506033)
-	Hypomesus pretiosus was remapped to 'Hypomesinae' (id=512111)
-	Capros aper was remapped to 'Capros' (id=469163)
-	Sciaenops ocellatus was remapped to 'Sciaenops' (id=493816)
-	Umbra limi was remapped to 'Umbra' (id=510219)
-	Niphon spinosus was remapped to 'Niphon' (id=490892)
+	Gobiesox maeandricus was remapped to 'Gobiesox' (id=454093)
 	Neocirrhites armatus was remapped to 'Neocirrhites' (id=489283)
-	Histiopterus typus was remapped to 'Histiopterus' (id=483944)
+	Phenacostethus smithi was remapped to 'Phallostethidae' (id=451563)
+	Salarias fasciatus was remapped to 'Salarias' (id=496814)
+	Eleotris pisonis was remapped to 'Eleotris' (id=476931)
+	Thunnus albacares was remapped to 'Thunnus' (id=455382)
+	Mulloidichthys flavolineatus was remapped to 'Mulloidichthys' (id=483079)
+	Esox americanus was remapped to 'Esocidae' (id=510241)
+	Datnioides microlepis was remapped to 'Datnioididae' (id=483850)
+	Beryx decadactylus was remapped to 'Beryx' (id=506308)
+	Aulotrachichthys prosthemius was remapped to 'Aulotrachichthys' (id=506168)
+	Oxycheilinus celebicus was remapped to 'Oxycheilinus' (id=458525)
+	Symbolophorus evermanni was remapped to 'Symbolophorus' (id=507879)
+	Alepisaurus ferox was remapped to 'Alepisauridae' (id=508862)
+	Paralabrax nebulifer was remapped to 'Paralabrax' (id=490852)
+	Amblycirrhitus pinos was remapped to 'Amblycirrhitus' (id=489351)
+	Platycephalus indicus was remapped to 'Platycephalus' (id=505185)
+	Tetraodon miurus was remapped to 'Tetraodon' (id=442361)
+	Paratilapia polleni was remapped to 'Paratilapia' (id=466992)
+	Mola mola was remapped to 'Mola' (id=442095)
+	Cantherhines pullus was remapped to 'Cantherhines' (id=443959)
+	Nematistius pectoralis was remapped to 'Nematistiidae' (id=479287)
+	Hygophum proximum was remapped to 'Hygophum' (id=508099)
+	Malakichthys elegans was remapped to 'Malakichthys' (id=479694)
+	Notolepis coatsi was remapped to 'Notolepis' (id=508909)
+	Betta splendens was remapped to 'Macropodinae' (id=497687)
+	Hemitaurichthys polylepis was remapped to 'Hemitaurichthys' (id=486320)
+	Enchelyurus flavipes was remapped to 'Enchelyurus' (id=496087)
+	Gephyroberyx darwinii was remapped to 'Gephyroberyx' (id=506101)
+	Tautogolabrus adspersus was remapped to 'Tautogolabrus' (id=459721)
+	Gibbonsia metzi was remapped to 'Clinidae' (id=494622)
+	Cheimarrichthys fosteri was remapped to 'Cheimarrichthys' (id=487312)
+	Stephanolepis hispidus was remapped to 'Stephanolepis' (id=443580)
+	Oligoplites saurus was remapped to 'Oligoplites' (id=477745)
 	Percilia irwini was remapped to 'Perciliidae' (id=489711)
-	Stylephorus chordatus was remapped to 'Stylephoridae' (id=507083)
-	Pomacanthus zonipectus was remapped to 'Pomacanthus' (id=484314)
-	Dario dario was remapped to 'Dario' (id=478861)
+	Rondeletia loricata was remapped to 'Rondeletiidae' (id=441857)
+	Monotaxis grandoculis was remapped to 'Monotaxinae' (id=486120)
+	Polymetme was remapped to 'Phosichthyidae' (id=509343)
+	Leiostomus xanthurus was remapped to 'Leiostomus' (id=493877)
+	Diplacanthopoma brunnea was remapped to 'Diplacanthopoma' (id=439521)
+	Leptocottus armatus was remapped to 'Leptocottus' (id=503072)
+	Lepidogobius lepidus was remapped to 'Gobionellinae' (id=474222)
+	Scomberomorus maculatus was remapped to 'Scomberomorini' (id=454996)
+	Aeoliscus strigatus was remapped to 'Centriscinae' (id=444541)
+	Holacanthus passer was remapped to 'Holacanthus' (id=484251)
+	Apeltes quadracus was remapped to 'Apeltes' (id=445891)
+	Ranzania laevis was remapped to 'Ranzania' (id=442071)
+	Luvarus imperialis was remapped to 'Luvaridae' (id=457186)
+	Bathypterois atricolor was remapped to 'Chlorophthalmoidei' (id=508592)
+	Ctenochaetus strigosus was remapped to 'Ctenochaetus' (id=456646)
+	Cyclothone microdon was remapped to 'Cyclothone' (id=509452)
+	Cubiceps baxteri was remapped to 'Cubiceps' (id=453880)
+	Pteraclis aesticola was remapped to 'Pteraclis' (id=486971)
+	Diproctacanthus xanthurus was remapped to 'Diproctacanthus' (id=459255)
+	Acanthaphritis unoorum was remapped to 'Acanthaphritis' (id=494437)
+	Pyramodon ventralis was remapped to 'Pyramodontinae' (id=439950)
+	Maccullochella peelii was remapped to 'Maccullochella' (id=480325)
+	Brosmophycis marginata was remapped to 'Brosmophycinae' (id=439364)
+	Ulaema lefroyi was remapped to 'Ulaema' (id=480171)
+	Bothus lunatus was remapped to 'Bothidae' (id=499351)
+	Scomberesox saurus was remapped to 'Scomberesocidae' (id=452336)
+	Oxyjulis californica was remapped to 'Oxyjulis' (id=459846)
+	Chlorurus sordidus was remapped to 'Chlorurus' (id=457354)
+	Polycentrus schomburgkii was remapped to 'Polycentrus' (id=482264)
+	Assurger anzac was remapped to 'Lepidopodinae' (id=456158)
+	Artediellus uncinatus was remapped to 'Artediellus' (id=503540)
+	Eurypegasus draconis was remapped to 'Pegasidae' (id=445769)
+	Jordanella floridae was remapped to 'Jordanella' (id=448679)
 	Labropsis australis was remapped to 'Labropsis' (id=459786)
 	Echeneis naucrates was remapped to 'Echeneidae' (id=478570)
-	Eleutheronema rhadinum was remapped to 'Eleutheronema' (id=479560)
-	Monotaxis grandoculis was remapped to 'Monotaxinae' (id=486120)
-	Nematistius pectoralis was remapped to 'Nematistiidae' (id=479287)
 	Hypoplectrus puella was remapped to 'Hypoplectrus' (id=490792)
-	Diplacanthopoma brunnea was remapped to 'Diplacanthopoma' (id=439521)
-	Labrichthys unilineatus was remapped to 'Labrichthys' (id=459005)
-	Ctenochaetus strigosus was remapped to 'Ctenochaetus' (id=456646)
-	Phanerodon furcatus was remapped to 'Phanerodon' (id=462675)
+	Stylephorus chordatus was remapped to 'Stylephoridae' (id=507083)
+	Umbra limi was remapped to 'Umbra' (id=510219)
+	Aseraggodes kobensis was remapped to 'Aseraggodes' (id=500401)
+	Entomacrodus nigricans was remapped to 'Entomacrodus' (id=497314)
+	Ambloplites rupestris was remapped to 'Ambloplites' (id=483698)
+	Ptychochromis grandidieri was remapped to 'Ptychochrominae' (id=462688)
+	Bodianus rufus was remapped to 'Bodianus' (id=458639)
+	Parabembras curtus was remapped to 'Parabembridae' (id=504976)
+	Triodon macropterus was remapped to 'Triodontidae' (id=442310)
+	Pseudambassis ranga was remapped to 'Pseudambassis' (id=489450)
+	Toxotes jaculatrix was remapped to 'Toxotidae' (id=490083)
+	Caesio cuning was remapped to 'Caesio' (id=479802)
+	Enoplosus armatus was remapped to 'Enoplosidae' (id=479417)
+	Scorpaenichthys marmoratus was remapped to 'Scorpaenichthys' (id=502929)
+	Opistognathus aurifrons was remapped to 'Opistognathidae' (id=489717)
+	Pentaceros japonicus was remapped to 'Pentaceros' (id=483909)
+	Helcogramma ellioti was remapped to 'Helcogramma' (id=495708)
+	Odontobutis potamophila was remapped to 'Odontobutis' (id=477236)
+	Etroplus maculatus was remapped to 'Etroplus' (id=466980)
+	Bovichtus diacanthus was remapped to 'Bovichtidae' (id=454490)
+	Monocirrhus polyacanthus was remapped to 'Monocirrhus' (id=478894)
+	Muraenolepis microps was remapped to 'Muraenolepididae' (id=438605)
+	Labidesthes sicculus was remapped to 'Atherinopsinae' (id=452266)
+	Antennarius striatus was remapped to 'Antennarius' (id=440720)
+	Ateleopus japonicus was remapped to 'Ateleopus' (id=509135)
+	Cryptopsaras couesi was remapped to 'Cryptopsaras' (id=441014)
+	Trichogaster pectoralis was remapped to 'Luciocephalinae' (id=497899)
+	Oplegnathus punctatus was remapped to 'Oplegnathidae' (id=479378)
+	Anarhichas lupus was remapped to 'Anarhichadidae' (id=469923)
+	Barbourisia rufa was remapped to 'Barbourisiidae' (id=441887)
+	Oryzias latipes was remapped to 'Adrianichthyoidei' (id=453436)
+	Pholidochromis cerasina was remapped to 'Pholidochromis' (id=488791)
+	Selene setapinnis was remapped to 'Selene' (id=477944)
+	Grammistes sexlineatus was remapped to 'Grammistes' (id=492149)
+	Gambusia affinis was remapped to 'Gambusia' (id=447600)
+	Helostoma temminkii was remapped to 'Helostomatidae' (id=498022)
+	Pomacanthus zonipectus was remapped to 'Pomacanthus' (id=484314)
+	Banjos banjos was remapped to 'Banjosidae' (id=483842)
+	Chologaster cornuta was remapped to 'Amblyopsidae' (id=439287)
+	Rhinecanthus verrucosus was remapped to 'Rhinecanthus' (id=443441)
+	Perca flavescens was remapped to 'Percinae' (id=480537)
+	Dissostichus eleginoides was remapped to 'Nototheniidae' (id=454546)
 	Heterochromis multidens was remapped to 'Heterochromidinae' (id=466970)
-	Sphoeroides nephelus was remapped to 'Sphoeroides' (id=443146)
-	Zanclus cornutus was remapped to 'Zanclidae' (id=457096)
-	Enneanectes boehlkei was remapped to 'Enneanectes' (id=495488)
-	Calotomus carolinus was remapped to 'Calotomus' (id=457515)
-	Badis pyema was remapped to 'Badis' (id=478897)
-	Canthigaster jactator was remapped to 'Canthigaster' (id=442928)
-	Poromitra crassiceps was remapped to 'Poromitra' (id=441895)
-	Diaphus rafinesquii was remapped to 'Diaphus' (id=507638)
-	Assurger anzac was remapped to 'Lepidopodinae' (id=456158)
-	Chelmon rostratus was remapped to 'Chelmon' (id=486888)
-	Selenotoca multifasciata was remapped to 'Selenotoca' (id=456809)
-	Stephanolepis hispidus was remapped to 'Stephanolepis' (id=443580)
+	Labracinus cyclophthalmus was remapped to 'Labracinus' (id=488725)
+	Centroberyx druzhinini was remapped to 'Centroberyx' (id=506276)
+	Aulorhynchus flavidus was remapped to 'Aulorhynchus' (id=445822)
+	Kali normani was remapped to 'Kali' (id=480232)
+	Pterygotrigla hemisticta was remapped to 'Pterygotrigla' (id=505873)
+	Sarda sarda was remapped to 'Sardini' (id=455260)
+	Barathronus maculatus was remapped to 'Aphyonidae' (id=439800)
+	Anotopterus pharao was remapped to 'Anotopteridae' (id=509092)
+	Clepticus parrae was remapped to 'Clepticus' (id=460231)
+	Zebrasoma rostratum was remapped to 'Zebrasoma' (id=456261)
+	Ceratias holboelli was remapped to 'Ceratias' (id=440989)
 	Pteragogus enneacanthus was remapped to 'Pteragogus' (id=459269)
-	Cantherhines pullus was remapped to 'Cantherhines' (id=443959)
+	Peprilus triacanthus was remapped to 'Stromateidae' (id=453553)
+	Paradiplospinus gracilis was remapped to 'Paradiplospinus' (id=455934)
+	Gomphosus varius was remapped to 'Gomphosus' (id=458616)
+	Sufflamen chrysopterum was remapped to 'Sufflamen' (id=443481)
+	Novumbra hubbsi was remapped to 'Novumbra' (id=510217)
+	Aracana aurita was remapped to 'Aracanidae' (id=444383)
+	Melamphaes polylepis was remapped to 'Melamphaes' (id=441942)
+	Aplodinotus grunniens was remapped to 'Aplodinotus' (id=493362)
+	Meiacanthus grammistes was remapped to 'Meiacanthus' (id=496193)
+	Chelmon rostratus was remapped to 'Chelmon' (id=486888)
+	Microctenopoma nanum was remapped to 'Microctenopoma' (id=497644)
+	Chirodactylus brachydactylus was remapped to 'Chirodactylus' (id=489103)
+	Balistapus undulatus was remapped to 'Balistapus' (id=443286)
+	Pseudopleuronectes americanus was remapped to 'Pseudopleuronectes' (id=498911)
+	Auxis rochei was remapped to 'Auxis' (id=455372)
+	Achirus lineatus was remapped to 'Achirus' (id=500932)
+	Cichla temensis was remapped to 'Cichlinae' (id=467064)
+	Caranx crysos was remapped to 'Caranx' (id=478287)
+	Lampanyctus jordani was remapped to 'Lampanyctus' (id=507290)
+	Grammatonotus surugaensis was remapped to 'Callanthiidae' (id=488465)
+	Trichiurus lepturus was remapped to 'Trichiurinae' (id=456089)
+	Seriola dumerili was remapped to 'Seriola' (id=477566)
 	Ophioblennius atlanticus was remapped to 'Ophioblennius' (id=496501)
-	Terapon jarbua was remapped to 'Terapon' (id=490365)
+	Scatophagus argus was remapped to 'Scatophagus' (id=456816)
+	Ostracion cubicus was remapped to 'Ostracion' (id=444282)
+	Anomalops katoptron was remapped to 'Anomalopidae' (id=506204)
+	Polycentropsis abbreviata was remapped to 'Polycentropsis' (id=482262)
+	Scomber scombrus was remapped to 'Scombrini' (id=455177)
+	Selenotoca multifasciata was remapped to 'Selenotoca' (id=456809)
+	Caulolatilus princeps was remapped to 'Latilinae' (id=478663)
+	Lates niloticus was remapped to 'Latidae' (id=487342)
+	Stellerina xyosterna was remapped to 'Brachyopsinae' (id=503762)
+	Orthopristis chrysoptera was remapped to 'Orthopristis' (id=485120)
+	Notoscopelus resplendens was remapped to 'Notoscopelus' (id=508002)
+	Fundulus heteroclitus was remapped to 'Fundulus' (id=448957)
+	Iso was remapped to 'Notocheiridae' (id=451091)
+	Pseudanthias pascalus was remapped to 'Pseudanthias' (id=492275)
+	Coryphaena hippurus was remapped to 'Coryphaenidae' (id=483420)
+	Zanclus cornutus was remapped to 'Zanclidae' (id=457096)
+	Halimochirurgus alcocki was remapped to 'Halimochirurgus' (id=444198)
+	Scopelogadus beanii was remapped to 'Scopelogadus' (id=441988)
+	Triacanthus biaculeatus was remapped to 'Triacanthidae' (id=444142)
+	Baldwinella aureorubens was remapped to 'Baldwinella' (id=492475)
+	Chaetodipterus faber was remapped to 'Chaetodipterus' (id=457148)
+	Sphenanthias tosaensis was remapped to 'Sphenanthias' (id=488502)
+	Abalistes stellatus was remapped to 'Abalistes' (id=443412)
+	Gymnachirus melas was remapped to 'Gymnachirus' (id=500980)
+	Astrapogon stellatus was remapped to 'Astrapogon' (id=487652)
+	Cetostoma regani was remapped to 'Cetostoma' (id=441833)
+	Macrognathus siamensis was remapped to 'Macrognathus' (id=446986)
+	Anisotremus surinamensis was remapped to 'Anisotremus' (id=484951)
+	Nannoperca australis was remapped to 'Nannoperca' (id=480396)
+	Symphurus atricaudus was remapped to 'Cynoglossidae' (id=499862)
+	Neosynchiropus ocellatus was remapped to 'Neosynchiropus' (id=470899)
+	Scopelengys tristis was remapped to 'Scopelengys' (id=508229)
+	Micropogonias undulatus was remapped to 'Micropogonias' (id=493143)
+	Bembras japonica was remapped to 'Bembridae' (id=505571)
+	Dermogenys collettei was remapped to 'Zenarchopterinae' (id=452666)
+	Zenopsis conchifer was remapped to 'Zenopsis' (id=506887)
+	Gigantactis vanhoeffeni was remapped to 'Gigantactinidae' (id=441236)
+	Congogradus subducens was remapped to 'Congrogadinae' (id=488921)
+	Cottus carolinae was remapped to 'Cottus' (id=503299)
+	Rhomboplites aurorubens was remapped to 'Rhomboplites' (id=482288)
 	Poblana ferdebueni was remapped to 'Poblana' (id=452252)
-	Chaenopsis alepidota was remapped to 'Chaenopsidae' (id=495879)
-	Holacanthus passer was remapped to 'Holacanthus' (id=484251)
+	Stenobrachius leucopsarus was remapped to 'Stenobrachius' (id=507425)
+	Himantolophus sagamius was remapped to 'Himantolophidae' (id=441194)
+	Perccottus glenii was remapped to 'Perccottus' (id=477262)
+	Arothron nigropunctatus was remapped to 'Arothron' (id=442555)
+	Xiphias gladius was remapped to 'Xiphiidae' (id=456218)
+	Prionotus evolans was remapped to 'Prionotus' (id=505666)
+	Platybelone argala was remapped to 'Platybelone' (id=452586)
+	Ogilbyina novaehollandiae was remapped to 'Ogilbyina' (id=488774)
+	Zeus faber was remapped to 'Zeus' (id=506860)
+	Xyrichtys martinicensis was remapped to 'Xyrichtys' (id=459606)
+	Gadus morhua was remapped to 'Gadidae' (id=437127)
+	Caristius macropus was remapped to 'Caristius' (id=486952)
+	Astronesthes leucopogon was remapped to 'Astronesthes' (id=509637)
+	Diademichthys lineatus was remapped to 'Diademichthys' (id=454083)
+	Astroscopus y-graecum was remapped to 'Astroscopus' (id=494239)
+	Ostorhinchus lateralis was remapped to 'Ostorhinchus' (id=488101)
+	Bathymaster signatus was remapped to 'Bathymaster' (id=489441)
+	Aulichthys japonicus was remapped to 'Aulichthys' (id=445818)
+	Percina caprodes was remapped to 'Percina' (id=480644)
+	Ostracoberyx dorygenys was remapped to 'Ostracoberycidae' (id=483874)
+	Cyclopterus lumpus was remapped to 'Cyclopterus' (id=504256)
+	Ocyurus chrysurus was remapped to 'Ocyurus' (id=482307)
+	Taractes asper was remapped to 'Taractes' (id=487044)
+	Howella zina was remapped to 'Howellidae' (id=488577)
+	Menticirrhus littoralis was remapped to 'Menticirrhus' (id=493192)
+	Monopterus albus was remapped to 'Synbranchoidei' (id=446615)
+	Carapus bermudensis was remapped to 'Carapus' (id=439848)
+	Poromitra crassiceps was remapped to 'Poromitra' (id=441895)
+	Benthalbella infans was remapped to 'Scopelarchidae' (id=508803)
+	Gonostoma elongatum was remapped to 'Gonostoma' (id=509547)
+	Nezumia bairdii was remapped to 'Nezumia' (id=437549)
+	Macroramphosus scolopax was remapped to 'Macroramphosinae' (id=444567)
+	Limnichthys was remapped to 'Creediidae' (id=494565)
+	Polyipnus spinifer was remapped to 'Polyipnus' (id=509226)
+	Pentapodus caninus was remapped to 'Pentapodus' (id=479217)
+	Hoplostethus atlanticus was remapped to 'Hoplostethus' (id=506113)
+	Acropoma japonicum was remapped to 'Acropoma' (id=479662)
+	Ambassis urotaenia was remapped to 'Ambassis' (id=489469)
+	Triacanthodes anomalus was remapped to 'Triacanthodes' (id=444182)
+	Platyberyx opalescens was remapped to 'Platyberyx' (id=486949)
+	Gadopsis marmoratus was remapped to 'Gadopsis' (id=480309)
+	Hypoptychus dybowskii was remapped to 'Hypoptychidae' (id=445953)
+	Parahucho perryi was remapped to 'Parahucho' (id=511077)
+	Oxyeleotris selheimi was remapped to 'Oxyeleotris' (id=477075)
+	Neonesthes capensis was remapped to 'Neonesthes' (id=509623)
+	Ruvettus pretiosus was remapped to 'Ruvettus' (id=455976)
+	Citharichthys sordidus was remapped to 'Citharichthys' (id=498375)
+	Dormitator maculatus was remapped to 'Dormitator' (id=476785)
+	Eleginops maclovinus was remapped to 'Eleginopidae' (id=454784)
+	Abudefduf saxatilis was remapped to 'Abudefduf' (id=461505)
+	Ptereleotris evides was remapped to 'Ptereleotris' (id=476427)
+	Halieutichthys aculeatus was remapped to 'Halieutichthys' (id=441659)
+	Capros aper was remapped to 'Capros' (id=469163)
+	Pholidichthys leucotaenia was remapped to 'Pholidichthyidae' (id=489404)
+	Pseudupeneus maculatus was remapped to 'Pseudupeneus' (id=483404)
+	Upeneus parvus was remapped to 'Upeneus' (id=483323)
+	Cyprinodon variegatus was remapped to 'Cyprinodon' (id=448684)
+	Rheocles wrightae was remapped to 'Bedotiidae' (id=451469)
+	Gillellus semicinctus was remapped to 'Dactyloscopidae' (id=495300)
+	Aphredoderus sayanus was remapped to 'Aphredoderidae' (id=439326)
+	Brama japonica was remapped to 'Brama' (id=487060)
+	Hypsoblennius hentz was remapped to 'Hypsoblennius' (id=497166)
+	Rogadius asper was remapped to 'Rogadius' (id=504984)
+	Polydactylus sextarius was remapped to 'Polydactylus' (id=479458)
+	Ijimaia loppei was remapped to 'Ijimaia' (id=509121)
+	Arrhamphus sclerolepis was remapped to 'Hemiramphinae' (id=452807)
+	Monodactylus sebae was remapped to 'Monodactylidae' (id=478794)
+	Cephalopholis argus was remapped to 'Cephalopholis' (id=491877)
+	Stegastes leucostictus was remapped to 'Stegastes' (id=461271)
+	Stereolepis gigas was remapped to 'Polyprionidae' (id=486246)
+	Paracirrhites arcatus was remapped to 'Paracirrhites' (id=489325)
+	Lampris guttatus was remapped to 'Lampridae' (id=507159)
+	Labrisomus multiporosus was remapped to 'Labrisomidae' (id=494916)
+	Tarletonbeania crenularis was remapped to 'Tarletonbeania' (id=507481)
+	Rachycentron canadum was remapped to 'Rachycentridae' (id=477298)
+	Cryptacanthodes maculatus was remapped to 'Cryptacanthodidae' (id=470395)
+	Melanotaenia was remapped to 'Melanotaeniidae' (id=451116)
+	Niphon spinosus was remapped to 'Niphon' (id=490892)
+	Labrichthys unilineatus was remapped to 'Labrichthys' (id=459005)
+	Thymallus brevirostris was remapped to 'Thymallinae' (id=511218)
+	Scortum barcoo was remapped to 'Scortum' (id=490482)
+	Acanthochaenus luetkenii was remapped to 'Stephanoberycidae' (id=442036)
+	Johnrandallia nigrirostris was remapped to 'Johnrandallia' (id=486920)
+	Lota lota was remapped to 'Lotidae' (id=438859)
+	Phanerodon furcatus was remapped to 'Phanerodon' (id=462675)
+	Plesiops coeruleolineatus was remapped to 'Plesiopidae' (id=483951)
+	Magnisudis prionosa was remapped to 'Magnisudis' (id=508916)
+	Xenentodon cancila was remapped to 'Xenentodon' (id=452417)
+	Cirrhitichthys falco was remapped to 'Cirrhitichthys' (id=489224)
+	Cynoscion regalis was remapped to 'Cynoscion' (id=493576)
+	Eumicrotremus orbis was remapped to 'Eumicrotremus' (id=504271)
+	Pristolepis fasciata was remapped to 'Pristolepis' (id=478867)
+	Cataetyx lepidogenys was remapped to 'Cataetyx' (id=439488)
+	Hippocampus erectus was remapped to 'Hippocampinae' (id=444659)
+	Siniperca chuatsi was remapped to 'Sinipercidae' (id=483490)
+	Onuxodon parvibrachium was remapped to 'Onuxodon' (id=439937)
 Committing nodes 1 through 1000
 this is the ROOT
 placing root in index
@@ -1062,336 +1060,333 @@ Adding property 'ot:branchLengthMode': ot:time
 Dealing with metadata property: ot:curatorName
 Adding property 'ot:curatorName': Joseph Brown
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 2339520
+Adding property 'ot:focalClade': 212189
 Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': BEAST MCC tree
 Dealing with metadata property: ot:branchLengthTimeUnit
 Adding property 'ot:branchLengthTimeUnit': Myr
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2576
-Committing nodes: 1119
+Committing nodes: 1125
 	adding Node[436702] Batrachoidiformes 62637 as compatible with Node[436704]
-		adding Relationship[8166007]
-		adding to root Relationship[8166008]
+		adding Relationship[8169561]
+		adding to root Relationship[8169562]
 	adding Node[436818] Porichthyinae 720418 as compatible with Node[436819]
-		adding Relationship[8166009]
-		adding to root Relationship[8166010]
+		adding Relationship[8169563]
+		adding to root Relationship[8169564]
 	adding Node[437340] Macrouridae 340592 as compatible with Node[437346]
-		adding Relationship[8166011]
-		adding to root Relationship[8166012]
+		adding Relationship[8169565]
+		adding to root Relationship[8169566]
 	adding Node[441433] Chaunacidae 887848 as compatible with Node[441445]
-		adding Relationship[8166013]
-		adding to root Relationship[8166014]
+		adding Relationship[8169567]
+		adding to root Relationship[8169568]
 	adding Node[441431] Chaunacioidea 887850 as compatible with Node[441445]
-		adding Relationship[8166015]
-		adding to root Relationship[8166016]
+		adding Relationship[8169569]
+		adding to root Relationship[8169570]
 	adding Node[441430] Chaunacoidei 731201 as compatible with Node[441445]
-		adding Relationship[8166017]
-		adding to root Relationship[8166018]
+		adding Relationship[8169571]
+		adding to root Relationship[8169572]
 	adding Node[441472] Lophiidae 583638 as compatible with Node[441474]
-		adding Relationship[8166019]
-		adding to root Relationship[8166020]
+		adding Relationship[8169573]
+		adding to root Relationship[8169574]
 	adding Node[441471] Lophioidei 757267 as compatible with Node[441474]
-		adding Relationship[8166021]
-		adding to root Relationship[8166022]
+		adding Relationship[8169575]
+		adding to root Relationship[8169576]
 	adding Node[444445] Dactylopteridae 183859 as compatible with Node[444474]
-		adding Relationship[8166023]
-		adding to root Relationship[8166024]
+		adding Relationship[8169577]
+		adding to root Relationship[8169578]
 	adding Node[444444] Dactylopteroidei 447618 as compatible with Node[444474]
-		adding Relationship[8166025]
-		adding to root Relationship[8166026]
+		adding Relationship[8169579]
+		adding to root Relationship[8169580]
 	adding Node[444443] Dactylopteriformes 537985 as compatible with Node[444474]
-		adding Relationship[8166027]
-		adding to root Relationship[8166028]
+		adding Relationship[8169581]
+		adding to root Relationship[8169582]
 	adding Node[444510] Fistulariidae 21785 as compatible with Node[444511]
-		adding Relationship[8166029]
-		adding to root Relationship[8166030]
+		adding Relationship[8169583]
+		adding to root Relationship[8169584]
 	adding Node[444622] Indostomidae 463419 as compatible with Node[444623]
-		adding Relationship[8166031]
-		adding to root Relationship[8166032]
+		adding Relationship[8169585]
+		adding to root Relationship[8169586]
 	adding Node[444876] Syngnathinae 145131 as compatible with Node[445452]
-		adding Relationship[8166033]
-		adding to root Relationship[8166034]
+		adding Relationship[8169587]
+		adding to root Relationship[8169588]
 	adding Node[445828] Aulostomidae 231973 as compatible with Node[445829]
-		adding Relationship[8166035]
-		adding to root Relationship[8166036]
+		adding Relationship[8169589]
+		adding to root Relationship[8169590]
 	adding Node[445827] Aulostomoidea 231972 as compatible with Node[445829]
-		adding Relationship[8166037]
-		adding to root Relationship[8166038]
+		adding Relationship[8169591]
+		adding to root Relationship[8169592]
 	adding Node[445962] Mugilidae 437596 as compatible with Node[446079]
-		adding Relationship[8166039]
-		adding to root Relationship[8166040]
+		adding Relationship[8169593]
+		adding to root Relationship[8169594]
 	adding Node[445961] Mugiliformes 300513 as compatible with Node[446079]
-		adding Relationship[8166041]
-		adding to root Relationship[8166042]
+		adding Relationship[8169595]
+		adding to root Relationship[8169596]
 	adding Node[445960] Mugilomorpha 437598 as compatible with Node[446079]
-		adding Relationship[8166043]
-		adding to root Relationship[8166044]
+		adding Relationship[8169597]
+		adding to root Relationship[8169598]
 	adding Node[446758] Mastacembeloidei 615022 as compatible with Node[446759]
-		adding Relationship[8166045]
-		adding to root Relationship[8166046]
+		adding Relationship[8169599]
+		adding to root Relationship[8169600]
 	adding Node[451527] Pseudomugilidae 771196 as compatible with Node[451529]
-		adding Relationship[8166047]
-		adding to root Relationship[8166048]
+		adding Relationship[8169601]
+		adding to root Relationship[8169602]
 	adding Node[453059] Exocoetidae 407171 as compatible with Node[453259]
-		adding Relationship[8166049]
-		adding to root Relationship[8166050]
+		adding Relationship[8169603]
+		adding to root Relationship[8169604]
 	adding Node[453993] Gobiesocidae 288451 as compatible with Node[453997]
-		adding Relationship[8166051]
-		adding to root Relationship[8166052]
+		adding Relationship[8169605]
+		adding to root Relationship[8169606]
 	adding Node[453991] Gobiesocoidei 159761 as compatible with Node[453997]
-		adding Relationship[8166053]
-		adding to root Relationship[8166054]
+		adding Relationship[8169607]
+		adding to root Relationship[8169608]
 	adding Node[455540] Sphyraenidae 280947 as compatible with Node[455542]
-		adding Relationship[8166055]
-		adding to root Relationship[8166056]
+		adding Relationship[8169609]
+		adding to root Relationship[8169610]
 	adding Node[456246] Kurtidae 411977 as compatible with Node[456247]
-		adding Relationship[8166057]
-		adding to root Relationship[8166058]
+		adding Relationship[8169611]
+		adding to root Relationship[8169612]
 	adding Node[456245] Kurtoidei 411975 as compatible with Node[456247]
-		adding Relationship[8166059]
-		adding to root Relationship[8166060]
+		adding Relationship[8169613]
+		adding to root Relationship[8169614]
 	adding Node[456685] Nasinae 639700 as compatible with Node[456687]
-		adding Relationship[8166061]
-		adding to root Relationship[8166062]
+		adding Relationship[8169615]
+		adding to root Relationship[8169616]
 	adding Node[456837] Siganidae 563513 as compatible with Node[456839]
-		adding Relationship[8166063]
-		adding to root Relationship[8166064]
+		adding Relationship[8169617]
+		adding to root Relationship[8169618]
 	adding Node[469160] Caproidei 564450 as compatible with Node[469161]
-		adding Relationship[8166065]
-		adding to root Relationship[8166066]
+		adding Relationship[8169619]
+		adding to root Relationship[8169620]
 	adding Node[469207] Lycodinae 604383 as compatible with Node[469338]
-		adding Relationship[8166067]
-		adding to root Relationship[8166068]
+		adding Relationship[8169621]
+		adding to root Relationship[8169622]
 	adding Node[469205] Zoarcidae 34184 as compatible with Node[469338]
-		adding Relationship[8166069]
-		adding to root Relationship[8166070]
+		adding Relationship[8169623]
+		adding to root Relationship[8169624]
 	adding Node[469988] Pholinae 412909 as compatible with Node[469989]
-		adding Relationship[8166071]
-		adding to root Relationship[8166072]
+		adding Relationship[8169625]
+		adding to root Relationship[8169626]
 	adding Node[469985] Pholidae 292707 as compatible with Node[469989]
-		adding Relationship[8166073]
-		adding to root Relationship[8166074]
+		adding Relationship[8169627]
+		adding to root Relationship[8169628]
 	adding Node[470423] Callionymoidei 646016 as compatible with Node[470455]
-		adding Relationship[8166075]
-		adding to root Relationship[8166076]
+		adding Relationship[8169629]
+		adding to root Relationship[8169630]
 	adding Node[479293] Pempheridae 42412 as compatible with Node[479316]
-		adding Relationship[8166077]
-		adding to root Relationship[8166078]
+		adding Relationship[8169631]
+		adding to root Relationship[8169632]
 	adding Node[479716] Kuhliidae 99937 as compatible with Node[479718]
-		adding Relationship[8166079]
-		adding to root Relationship[8166080]
+		adding Relationship[8169633]
+		adding to root Relationship[8169634]
 	adding Node[482271] Lutjanidae 253373 as compatible with Node[482274]
-		adding Relationship[8166081]
-		adding to root Relationship[8166082]
+		adding Relationship[8169635]
+		adding to root Relationship[8169636]
 	adding Node[483542] Emmelichthyidae 412920 as compatible with Node[483569]
-		adding Relationship[8166083]
-		adding to root Relationship[8166084]
+		adding Relationship[8169637]
+		adding to root Relationship[8169638]
 	adding Node[483594] Centropomidae 384676 as compatible with Node[483596]
-		adding Relationship[8166085]
-		adding to root Relationship[8166086]
+		adding Relationship[8169639]
+		adding to root Relationship[8169640]
 	adding Node[484718] Kyphosinae 370788 as compatible with Node[484719]
-		adding Relationship[8166087]
-		adding to root Relationship[8166088]
+		adding Relationship[8169641]
+		adding to root Relationship[8169642]
 	adding Node[485929] Lethrininae 489888 as compatible with Node[485930]
-		adding Relationship[8166089]
-		adding to root Relationship[8166090]
+		adding Relationship[8169643]
+		adding to root Relationship[8169644]
 	adding Node[487389] Glaucosomatidae 701847 as compatible with Node[487391]
-		adding Relationship[8166091]
-		adding to root Relationship[8166092]
+		adding Relationship[8169645]
+		adding to root Relationship[8169646]
 	adding Node[489976] Moronidae 1032209 as compatible with Node[490021]
-		adding Relationship[8166093]
-		adding to root Relationship[8166094]
+		adding Relationship[8169647]
+		adding to root Relationship[8169648]
 	adding Node[490112] Sillaginidae 1089734 as compatible with Node[490114]
-		adding Relationship[8166095]
-		adding to root Relationship[8166096]
+		adding Relationship[8169649]
+		adding to root Relationship[8169650]
 	adding Node[494348] Ammodytidae 579429 as compatible with Node[494350]
-		adding Relationship[8166097]
-		adding to root Relationship[8166098]
+		adding Relationship[8169651]
+		adding to root Relationship[8169652]
 	adding Node[498031] Channidae 72390 as compatible with Node[498034]
-		adding Relationship[8166099]
-		adding to root Relationship[8166100]
+		adding Relationship[8169653]
+		adding to root Relationship[8169654]
 	adding Node[498029] Channoidei 956325 as compatible with Node[498034]
-		adding Relationship[8166101]
-		adding to root Relationship[8166102]
+		adding Relationship[8169655]
+		adding to root Relationship[8169656]
 	adding Node[502322] Sebastinae 204661 as compatible with Node[502359]
-		adding Relationship[8166103]
-		adding to root Relationship[8166104]
+		adding Relationship[8169657]
+		adding to root Relationship[8169658]
 	adding Node[501052] Scorpaenoidei 237338 as compatible with Node[502321]
-		adding Relationship[8166105]
-		adding to root Relationship[8166106]
+		adding Relationship[8169659]
+		adding to root Relationship[8169660]
 	adding Node[505408] Hoplichthyidae 441566 as compatible with Node[505411]
-		adding Relationship[8166107]
-		adding to root Relationship[8166108]
+		adding Relationship[8169661]
+		adding to root Relationship[8169662]
 	adding Node[506331] Holocentrinae 63599 as compatible with Node[506378]
-		adding Relationship[8166109]
-		adding to root Relationship[8166110]
+		adding Relationship[8169663]
+		adding to root Relationship[8169664]
 	adding Node[506328] Holocentroidei 564435 as compatible with Node[506329]
-		adding Relationship[8166111]
-		adding to root Relationship[8166112]
+		adding Relationship[8169665]
+		adding to root Relationship[8169666]
 	adding Node[506624] Myripristinae 453418 as compatible with Node[506626]
-		adding Relationship[8166113]
-		adding to root Relationship[8166114]
+		adding Relationship[8169667]
+		adding to root Relationship[8169668]
 	adding Node[506950] Polymixiidae 617749 as compatible with Node[506951]
-		adding Relationship[8166115]
-		adding to root Relationship[8166116]
+		adding Relationship[8169669]
+		adding to root Relationship[8169670]
 	adding Node[506949] Polymixiiformes 617750 as compatible with Node[506951]
-		adding Relationship[8166117]
-		adding to root Relationship[8166118]
+		adding Relationship[8169671]
+		adding to root Relationship[8169672]
 	adding Node[506948] Polymixiomorpha 734458 as compatible with Node[506951]
-		adding Relationship[8166119]
-		adding to root Relationship[8166120]
+		adding Relationship[8169673]
+		adding to root Relationship[8169674]
 	adding Node[506979] Trachipteridae 44803 as compatible with Node[506982]
-		adding Relationship[8166121]
-		adding to root Relationship[8166122]
+		adding Relationship[8169675]
+		adding to root Relationship[8169676]
 	adding Node[507092] Regalecidae 617743 as compatible with Node[507094]
-		adding Relationship[8166123]
-		adding to root Relationship[8166124]
+		adding Relationship[8169677]
+		adding to root Relationship[8169678]
 	adding Node[507187] Scopelomorpha 734466 as compatible with Node[507188]
-		adding Relationship[8166125]
-		adding to root Relationship[8166126]
+		adding Relationship[8169679]
+		adding to root Relationship[8169680]
 	adding Node[508361] Synodontinae 867423 as compatible with Node[508363]
-		adding Relationship[8166127]
-		adding to root Relationship[8166128]
+		adding Relationship[8169681]
+		adding to root Relationship[8169682]
 	adding Node[508269] Synodontidae 44805 as compatible with Node[508363]
-		adding Relationship[8166129]
-		adding to root Relationship[8166130]
+		adding Relationship[8169683]
+		adding to root Relationship[8169684]
 	adding Node[508242] Synodontoidei 264576 as compatible with Node[508363]
-		adding Relationship[8166131]
-		adding to root Relationship[8166132]
+		adding Relationship[8169685]
+		adding to root Relationship[8169686]
 	adding Node[508240] Cyclosquamata 734457 as compatible with Node[508241]
-		adding Relationship[8166133]
-		adding to root Relationship[8166134]
+		adding Relationship[8169687]
+		adding to root Relationship[8169688]
 	adding Node[509158] Sternoptychidae 540474 as compatible with Node[509160]
-		adding Relationship[8166135]
-		adding to root Relationship[8166136]
+		adding Relationship[8169689]
+		adding to root Relationship[8169690]
 	adding Node[510080] Chauliodontinae 540464 as compatible with Node[510082]
-		adding Relationship[8166137]
-		adding to root Relationship[8166138]
+		adding Relationship[8169691]
+		adding to root Relationship[8169692]
 	adding Node[440619] Antennarioidei 42136 as compatible with Node[440657]
-		adding Relationship[8166139]
-		adding to root Relationship[8166140]
+		adding Relationship[8169693]
+		adding to root Relationship[8169694]
 	adding Node[440986] Ceratioidei 60127 as compatible with Node[440987]
-		adding Relationship[8166141]
-		adding to root Relationship[8166142]
+		adding Relationship[8169695]
+		adding to root Relationship[8169696]
 	adding Node[441581] Ogcocephalioidei 887844 as compatible with Node[441582]
-		adding Relationship[8166143]
-		adding to root Relationship[8166144]
+		adding Relationship[8169697]
+		adding to root Relationship[8169698]
 	adding Node[442318] Tetradontoidea 803540 as compatible with Node[442319]
-		adding Relationship[8166145]
-		adding to root Relationship[8166146]
+		adding Relationship[8169699]
+		adding to root Relationship[8169700]
 	adding Node[447182] Poeciliidae 583631 as compatible with Node[447185]
-		adding Relationship[8166147]
-		adding to root Relationship[8166148]
+		adding Relationship[8169701]
+		adding to root Relationship[8169702]
 	adding Node[448448] Cyprinodontinae 497029 as compatible with Node[448678]
-		adding Relationship[8166149]
-		adding to root Relationship[8166150]
+		adding Relationship[8169703]
+		adding to root Relationship[8169704]
 	adding Node[448445] Cyprinodontidae 583654 as compatible with Node[448678]
-		adding Relationship[8166151]
-		adding to root Relationship[8166152]
+		adding Relationship[8169705]
+		adding to root Relationship[8169706]
 	adding Node[454979] Scombridae 308750 as compatible with Node[454995]
-		adding Relationship[8166153]
-		adding to root Relationship[8166154]
+		adding Relationship[8169707]
+		adding to root Relationship[8169708]
 	adding Node[467393] Cichlasomatinae 687285 as compatible with Node[467394]
-		adding Relationship[8166155]
-		adding to root Relationship[8166156]
+		adding Relationship[8169709]
+		adding to root Relationship[8169710]
 	adding Node[476361] Microdesmidae 961449 as compatible with Node[476364]
-		adding Relationship[8166157]
-		adding to root Relationship[8166158]
+		adding Relationship[8169711]
+		adding to root Relationship[8169712]
 	adding Node[479798] Caesionidae 129124 as compatible with Node[479800]
-		adding Relationship[8166159]
-		adding to root Relationship[8166160]
+		adding Relationship[8169713]
+		adding to root Relationship[8169714]
 	adding Node[487429] Apogonidae 823203 as compatible with Node[487481]
-		adding Relationship[8166161]
-		adding to root Relationship[8166162]
-	adding Node[488699] Pseudochromidae 892956 as compatible with Node[488724]
-		adding Relationship[8166163]
-		adding to root Relationship[8166164]
+		adding Relationship[8169715]
+		adding to root Relationship[8169716]
 	adding Node[495412] Tripterygiidae 628671 as compatible with Node[495426]
-		adding Relationship[8166165]
-		adding to root Relationship[8166166]
+		adding Relationship[8169717]
+		adding to root Relationship[8169718]
 	adding Node[498819] Pleuronectidae 883406 as compatible with Node[498824]
-		adding Relationship[8166167]
-		adding to root Relationship[8166168]
+		adding Relationship[8169719]
+		adding to root Relationship[8169720]
 	adding Node[504237] Cyclopteridae 237340 as compatible with Node[504255]
-		adding Relationship[8166169]
-		adding to root Relationship[8166170]
+		adding Relationship[8169721]
+		adding to root Relationship[8169722]
 	adding Node[506273] Berycoidei 564434 as compatible with Node[506274]
-		adding Relationship[8166171]
-		adding to root Relationship[8166172]
+		adding Relationship[8169723]
+		adding to root Relationship[8169724]
 	adding Node[509117] Ateleopodiformes 292503 as compatible with Node[509118]
-		adding Relationship[8166173]
-		adding to root Relationship[8166174]
+		adding Relationship[8169725]
+		adding to root Relationship[8169726]
 	adding Node[510287] Salmonoidei 120100 as compatible with Node[510288]
-		adding Relationship[8166175]
-		adding to root Relationship[8166176]
+		adding Relationship[8169727]
+		adding to root Relationship[8169728]
 	adding Node[510286] Salmoniformes 216171 as compatible with Node[510288]
-		adding Relationship[8166177]
-		adding to root Relationship[8166178]
+		adding Relationship[8169729]
+		adding to root Relationship[8169730]
 	adding Node[511954] Osmeroidea 175433 as compatible with Node[511955]
-		adding Relationship[8166179]
-		adding to root Relationship[8166180]
+		adding Relationship[8169731]
+		adding to root Relationship[8169732]
 	adding Node[511953] Osmeroidei 1077766 as compatible with Node[511955]
-		adding Relationship[8166181]
-		adding to root Relationship[8166182]
-		adding Relationship[8166183] from Node[448445] to Node[447089]
-		adding Relationship[8166184] from Node[453993] to Node[453991]
-		adding Relationship[8166185] from Node[456685] to Node[456258]
-		adding Relationship[8166186] from Node[445962] to Node[445961]
-		adding Relationship[8166187] from Node[3467217] to Node[3467218]
-		adding Relationship[8166188] from Node[445961] to Node[445960]
-		adding Relationship[8166189] from Node[440986] to Node[440617]
-		adding Relationship[8166190] from Node[447182] to Node[447089]
-		adding Relationship[8166191] from Node[508361] to Node[508269]
-		adding Relationship[8166192] from Node[485929] to Node[485926]
-		adding Relationship[8166193] from Node[510287] to Node[510286]
-		adding Relationship[8166194] from Node[441581] to Node[440617]
-		adding Relationship[8166195] from Node[436704] to Node[3467364]
-		adding Relationship[8166196] from Node[436704] to Node[436702]
-		adding Relationship[8166197] from Node[3467151] to Node[447089]
-		adding Relationship[8166198] from Node[506331] to Node[506329]
-		adding Relationship[8166199] from Node[506329] to Node[3467058]
-		adding Relationship[8166200] from Node[506329] to Node[506328]
-		adding Relationship[8166201] from Node[441472] to Node[441471]
-		adding Relationship[8166202] from Node[444445] to Node[444444]
-		adding Relationship[8166203] from Node[444444] to Node[444443]
-		adding Relationship[8166204] from Node[3467330] to Node[440617]
-		adding Relationship[8166205] from Node[3467329] to Node[3467330]
-		adding Relationship[8166206] from Node[3467328] to Node[3467329]
-		adding Relationship[8166207] from Node[448448] to Node[448445]
-		adding Relationship[8166208] from Node[469988] to Node[469985]
-		adding Relationship[8166209] from Node[436696] to Node[3467369]
-		adding Relationship[8166210] from Node[436697] to Node[436696]
-		adding Relationship[8166211] from Node[469207] to Node[469205]
-		adding Relationship[8166212] from Node[508269] to Node[508242]
-		adding Relationship[8166213] from Node[3467072] to Node[3467073]
-		adding Relationship[8166214] from Node[506949] to Node[506948]
-		adding Relationship[8166215] from Node[441430] to Node[440617]
-		adding Relationship[8166216] from Node[444658] to Node[3467072]
-		adding Relationship[8166217] from Node[506950] to Node[506949]
-		adding Relationship[8166218] from Node[441431] to Node[441430]
-		adding Relationship[8166219] from Node[441433] to Node[441431]
-		adding Relationship[8166220] from Node[495412] to Node[494621]
-		adding Relationship[8166221] from Node[440619] to Node[440617]
-		adding Relationship[8166222] from Node[504237] to Node[504236]
-		adding Relationship[8166223] from Node[444876] to Node[444658]
-		adding Relationship[8166224] from Node[445828] to Node[445827]
-		adding Relationship[8166225] from Node[437340] to Node[436973]
-		adding Relationship[8166226] from Node[441471] to Node[440617]
-		adding Relationship[8166227] from Node[498031] to Node[498029]
-		adding Relationship[8166228] from Node[502322] to Node[502321]
-		adding Relationship[8166229] from Node[506624] to Node[506329]
-		adding Relationship[8166230] from Node[494621] to Node[3467180]
-		adding Relationship[8166231] from Node[502321] to Node[3467259]
-		adding Relationship[8166232] from Node[502321] to Node[501052]
-		adding Relationship[8166233] from Node[508240] to Node[436696]
-		adding Relationship[8166234] from Node[508241] to Node[436696]
-		adding Relationship[8166235] from Node[508241] to Node[508240]
-		adding Relationship[8166236] from Node[508242] to Node[508241]
-		adding Relationship[8166237] from Node[511954] to Node[511953]
-		adding Relationship[8166238] from Node[436818] to Node[436704]
-		adding Relationship[8166239] from Node[456246] to Node[456245]
-		adding Relationship[8166240] from Node[510080] to Node[509586]
-		adding Relationship[8166241] from Node[507187] to Node[436697]
-		adding Relationship[8166242] from Node[467393] to Node[467049]
-		adding Relationship[8166243] from Node[3467067] to Node[3467071]
+		adding Relationship[8169733]
+		adding to root Relationship[8169734]
+		adding Relationship[8169735] from Node[448445] to Node[447089]
+		adding Relationship[8169736] from Node[453993] to Node[453991]
+		adding Relationship[8169737] from Node[456685] to Node[456258]
+		adding Relationship[8169738] from Node[445962] to Node[445961]
+		adding Relationship[8169739] from Node[445961] to Node[445960]
+		adding Relationship[8169740] from Node[440986] to Node[440617]
+		adding Relationship[8169741] from Node[447182] to Node[447089]
+		adding Relationship[8169742] from Node[508361] to Node[508269]
+		adding Relationship[8169743] from Node[485929] to Node[485926]
+		adding Relationship[8169744] from Node[510287] to Node[510286]
+		adding Relationship[8169745] from Node[441581] to Node[440617]
+		adding Relationship[8169746] from Node[436704] to Node[3468993]
+		adding Relationship[8169747] from Node[436704] to Node[436702]
+		adding Relationship[8169748] from Node[506331] to Node[506329]
+		adding Relationship[8169749] from Node[506329] to Node[3468686]
+		adding Relationship[8169750] from Node[506329] to Node[506328]
+		adding Relationship[8169751] from Node[441472] to Node[441471]
+		adding Relationship[8169752] from Node[444445] to Node[444444]
+		adding Relationship[8169753] from Node[444444] to Node[444443]
+		adding Relationship[8169754] from Node[3468846] to Node[3468847]
+		adding Relationship[8169755] from Node[448448] to Node[448445]
+		adding Relationship[8169756] from Node[469988] to Node[469985]
+		adding Relationship[8169757] from Node[436696] to Node[3468998]
+		adding Relationship[8169758] from Node[436697] to Node[436696]
+		adding Relationship[8169759] from Node[469207] to Node[469205]
+		adding Relationship[8169760] from Node[508269] to Node[508242]
+		adding Relationship[8169761] from Node[506949] to Node[506948]
+		adding Relationship[8169762] from Node[441430] to Node[440617]
+		adding Relationship[8169763] from Node[444658] to Node[3468700]
+		adding Relationship[8169764] from Node[506950] to Node[506949]
+		adding Relationship[8169765] from Node[441431] to Node[441430]
+		adding Relationship[8169766] from Node[441433] to Node[441431]
+		adding Relationship[8169767] from Node[3468779] to Node[447089]
+		adding Relationship[8169768] from Node[495412] to Node[494621]
+		adding Relationship[8169769] from Node[440619] to Node[440617]
+		adding Relationship[8169770] from Node[504237] to Node[504236]
+		adding Relationship[8169771] from Node[444876] to Node[444658]
+		adding Relationship[8169772] from Node[445828] to Node[445827]
+		adding Relationship[8169773] from Node[437340] to Node[436973]
+		adding Relationship[8169774] from Node[441471] to Node[440617]
+		adding Relationship[8169775] from Node[498031] to Node[498029]
+		adding Relationship[8169776] from Node[502322] to Node[502321]
+		adding Relationship[8169777] from Node[506624] to Node[506329]
+		adding Relationship[8169778] from Node[494621] to Node[3468808]
+		adding Relationship[8169779] from Node[502321] to Node[3468888]
+		adding Relationship[8169780] from Node[502321] to Node[501052]
+		adding Relationship[8169781] from Node[508240] to Node[436696]
+		adding Relationship[8169782] from Node[508241] to Node[436696]
+		adding Relationship[8169783] from Node[508241] to Node[508240]
+		adding Relationship[8169784] from Node[508242] to Node[508241]
+		adding Relationship[8169785] from Node[511954] to Node[511953]
+		adding Relationship[8169786] from Node[436818] to Node[436704]
+		adding Relationship[8169787] from Node[456246] to Node[456245]
+		adding Relationship[8169788] from Node[3468959] to Node[440617]
+		adding Relationship[8169789] from Node[3468958] to Node[3468959]
+		adding Relationship[8169790] from Node[3468957] to Node[3468958]
+		adding Relationship[8169791] from Node[3468700] to Node[3468701]
+		adding Relationship[8169792] from Node[510080] to Node[509586]
+		adding Relationship[8169793] from Node[507187] to Node[436697]
+		adding Relationship[8169794] from Node[3468695] to Node[3468699]
+		adding Relationship[8169795] from Node[467393] to Node[467049]
