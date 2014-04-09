@@ -156,9 +156,7 @@ these are the studies identified by Chris, plus others from JWB
 "2401_6387", # Chiroptera. Jones et al. 2002. Biol. Rev.Mur
 "2404_6388", # Passeriformes. Barker et al. 2004. PNAS
 "2812_6545", # Placental mammals. Lartillot and Delsuc. 2012. Evolution
-"1257_6547", # Panarthropoda. Meusemann et al. 2010. MBE
-"2813_6550", # Panarthropoda. Rota-Stabelli et al. 2011. Proc. Roy. Soc.
-"2814_6551", # Arthropoda. Rota-Stabelli et al. 2013. Syst. Biol.
+
 "2579_5983", # Primates. Faircloth et al. 2012. Syst. Biol.
 "2579_5984", # Aves.  Faircloth et al. 2012. Syst. Biol.
 "1986_4070", # Hyloidea. Hedgeset al. 2008. Zootaxa
@@ -190,10 +188,22 @@ these are the studies identified by Chris, plus others from JWB
 "1887_6629", # Accipitridae. Lerner et al. 2008. Auk
 "1797_3635", # Tenrecidae. Poux et al. 2008. BMC Evol. Biol.
 "2859_6643", # Muroidea. Schenk et al. 2013. Syst. Biol.
-
+"2861_6647", # Elephantidae. Rohland et al. 2010. PLoS Biol.
 "2741_6645", # Catarrhini. Tarver et al. 2011. Proc. Roy. Soc. *** Lots of extinct taxa ***
-
 "2860_6646", # Anatidae. Fulton et al. 2012. Proc. Roy. Soc.
+"1990_6648", # Bilateria. Bleidorn et al. 2009. BMC Evol. Biol.
+"2063_4251", # Mus. Lundrigan et al. 2002. Syst. Biol.
+"2516_6440", # Arthropoda. Pisani. 2004. Syst. Biol.
+"2068_6488", # Siboglinidae. Rouse et al. 2004. Science
+"2098_6487", # Stenocercus. Torres-Carvajal et al. 2005. MPE
+"2092_4335", # Alopiinae. de Weerd and Gittenberger. 2005. Zool. J. Linn. Soc.
+"2145_5952", # Squamata. Zaldivar-Riveron et al. 2008. J. Herp.
+"2143_4505", # Kentropyx. Collevatti et al. 2008. Mol. Ecol.
+"2156_5953", # Dorvilleidae. Wiklund et al. 2009. Zootaxa
+"2628_6143", # Sarcophaga. Whitmore et al. 2013. Zool. J. Linn. Soc.
+"2619_6131", # Elasmobranchii. Shiina. 2013. Biomed. Res. Int.
+"2614_6121", # Nicrophorus. Sikes and Venables. 2013.
+"2864_6651", # Platalea. Chesser et al. 2010. Zootaxa
 
 """
 
@@ -202,8 +212,13 @@ these are the studies identified by Chris, plus others from JWB
 """
 *** Possible for synthesis ***
 
+"1257_6547", # Panarthropoda. Meusemann et al. 2010. MBE
+"2813_6550", # Panarthropoda. Rota-Stabelli et al. 2011. Proc. Roy. Soc.
+"2814_6551", # Arthropoda. Rota-Stabelli et al. 2013. Syst. Biol.
+
 "2815_6555", # Pancrustacea. von Reumont et al. 2012. MBE
-"2822_6569", # Parfrey et al. 2011. PNAS <- should be taken care of in microbes
+
+"2061_4246", # Nematoda. Mullin et al. 2003. Nematology
 
 "2839_6600", # Carnivora. Agnarsson et al. 2010. MPE
 
@@ -212,20 +227,6 @@ these are the studies identified by Chris, plus others from JWB
 
 """
 *** Chris Owen studies. Need to check each one of these for problems. ***
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 "2405_5070",
 "2406_6389",
@@ -256,7 +257,6 @@ these are the studies identified by Chris, plus others from JWB
 "2461_5286",
 "2506_5398",
 "2514_6439",
-"2516_6440",
 "2524_6441",
 "2528_5446",
 "2535_5460",
@@ -271,28 +271,24 @@ these are the studies identified by Chris, plus others from JWB
 "2580_5986",
 "2586_5996",
 "2588_6484",
+
+
 "2593_6247",
-"2595_6015",
-"2604_6043",
-"2614_6121",
-"2619_6131",
-"2628_6143",
-"2667_6209",
-"2156_5953",
-"2143_4505",
-"2145_5952",
+
+
+"2595_6015", # Glires. Yin. 2013. ???
 
 
 
 
-"2092_4335",
-"2098_6487",
-"2068_6488",
-"2061_4246",
-"2063_4251",
 
 
-"1990_4076",
+
+
+
+
+
+
 
 
 ## Chris Decapoda trees
@@ -320,5 +316,7 @@ studytreelist=[
 
 #"2067_4258", # Boreoeutheria. Yoder and Yang. 2004. Mol. Ecol.
 
+
+"2865_6654", # Cynanthus. Garcia-Deras et al. 2008. Zootaxa.
 
             ]

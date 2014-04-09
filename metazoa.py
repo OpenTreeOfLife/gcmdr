@@ -12,6 +12,7 @@ http://www.sciencemag.org/content/341/6143/292 [not sure where to find this tree
 
 studytreelist=[
      ## Birds
+               "2864_6651", # Platalea. Chesser et al. 2010. Zootaxa
                "2845_6606", # Sitta. Pasquet et al. 2014. J. Ornith.
                "2806_6529", # Psittaciformes. Joseph et al. 2011. MPE
                "2805_6512", # Psittaciformes. Wright et al. 2008. MBE
@@ -38,6 +39,7 @@ studytreelist=[
                "2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
                "420_522",   # Aves. Hackett et al. 2008. Science
      ## Mammals
+               "2861_6647", # Elephantidae. Rohland et al. 2010. PLoS Biol.
                "2859_6643", # Muroidea. Schenk et al. 2013. Syst. Biol.
                "1797_3635", # Tenrecidae. Poux et al. 2008. BMC Evol. Biol.
                "2844_6605", # Talpa. Colangelo et al. 2010. MPE
@@ -61,6 +63,7 @@ studytreelist=[
                "1646_6231", # Caniformia (Pinnipeds). Higdon et al. 2007. BMC Evol. Biol.
                "2833_6588", # Metatheria. Cardillo et al. 2004. J. Zool.
                "2834_6589", # Metatheria. Nilsson et al. 2004. Gene
+               "2816_6556", # Primates. Pozzi et al. 2014. MPE
                "2741_6645", # Catarrhini. Tarver et al. 2011. Proc. Roy. Soc. *** Lots of extinct taxa ***
      ## Fish - need to figure out best ordering with mapcompat
 #               "2651_6177", # Actinopterygii (Bony fishes). Betancur-R et al. 2013. PLoS Currents
@@ -78,6 +81,8 @@ studytreelist=[
                "2659_6195", # Otophysi. Chen et al. 2013. Evolution
 
      ## Other tetrapods
+               "2143_4505", # Kentropyx. Collevatti et al. 2008. Mol. Ecol.
+               "2098_6487", # Stenocercus. Torres-Carvajal et al. 2005. MPE
                "2851_6621", # Kinosternidae. Spinks at al. 2014. MPE
                "2415_5096", # Turtles. Guillon et al. 2012. Contributions to Zoology
                "423_2857",  # Amphibia. Pyron and Weins. 2011. MPE
@@ -105,6 +110,8 @@ studytreelist=[
                "2667_6211", # maps to: Galatheoidea
 
      ## Insects and other crawley stuff
+               "2614_6121", # Nicrophorus. Sikes and Venables. 2013.
+               "2628_6143", # Sarcophaga. Whitmore et al. 2013. Zool. J. Linn. Soc.
                "2838_6594", # Pleocyemata. Bracken-Grissom et al. 2014. Syst. Biol.
                "2357_6538", # Evaniscus. Mullins et al. 2012. ZooKeys <- 2 new species are not in OTT
                "2323_6537", # Bombyliidae. Lambkin and Bartlett. 2011. ZooKeys <- check sampling
@@ -125,6 +132,9 @@ studytreelist=[
                "437_6242",  # Diptera. Wiegmann et al. 2011. PNAS
                "2594_6014", # Diptera. Lambkin et al. 2013. Syst. Ent.
                "1338_2666", # Pterygota. Simon et al. 2009. MBE
+               "2068_6488", # Siboglinidae. Rouse et al. 2004. Science
+               "2092_4335", # Alopiinae. de Weerd and Gittenberger. 2005. Zool. J. Linn. Soc.
+               "2156_5953", # Dorvilleidae. Wiklund et al. 2009. Zootaxa
 
      ## Other
                "2709_6290", # Demospongiae. Redmond et al. 2013. Int. Comp. Biol.
@@ -137,7 +147,7 @@ studytreelist=[
                "421_523",   # Mollusca. Smith et al. 2011. Nature
                "1366_6166", # Annelida. Struck et al. 2011. Nature
                "1761_6151", # Scleractinia (corals). Huang nad Roy. 2013. Ecology and Evolution
-               "2710_6291"  # Metazoa. Ryan et al. 2013. Science *** need to choose best Metazoa tree(s)
+               "2710_6291",  # Metazoa. Ryan et al. 2013. Science *** need to choose best Metazoa tree(s)
             #   "1482_5228", # Eumetazoa. Evans et al. 2008. BMC Evol. Biol. <- breaks stuff?
             #   "1217_2455", # Metazoa. Delsuc et al. 2008. Genesis
             #   "2418_6152", # Metazoa. Evans and Cartwright. 2010. MBE *** not working for some reason...
