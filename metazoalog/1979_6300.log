@@ -11,7 +11,8 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1577"
 pgloadind   property added ot:studyId "1979"
 pgloadind   property added ot:studyYear "2006"
-pgloadind   property added ot:focalClade "2583497"
+pgloadind   property added ot:focalClade "701704"
+pgloadind   property added ot:focalCladeOTTTaxonName "Arinia"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
 pgloadind   property added ot:inGroupClade "node754297"
 pgloadind   property added ot:curatedType "Fig. 1a BI"
@@ -27,7 +28,8 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1577"
 pgloadind   property added ot:studyId "1979"
 pgloadind   property added ot:studyYear "2006"
-pgloadind   property added ot:focalClade "2583497"
+pgloadind   property added ot:focalClade "701704"
+pgloadind   property added ot:focalCladeOTTTaxonName "Arinia"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
 pgloadind   property added ot:inGroupClade "node754351"
 pgloadind   property added ot:curatedType "Fig. 1b BI"
@@ -43,7 +45,8 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1577"
 pgloadind   property added ot:studyId "1979"
 pgloadind   property added ot:studyYear "2006"
-pgloadind   property added ot:focalClade "2583497"
+pgloadind   property added ot:focalClade "701704"
+pgloadind   property added ot:focalCladeOTTTaxonName "Arinia"
 pgloadind   property added ot:inGroupClade "node1096174"
 pgloadind   property added ot:curatedType "Fig. 2 Bayesian mt+nucDNA"
 loading a specific tree: 6300
@@ -51,11 +54,9 @@ skipping tree: 4046
 skipping tree: 4047
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "6300"
-pgloadind   all nodes have ottIds
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Guarouba" nexsonid "node1096214"
-pgloadind       dubious OTT ID 3600434
-pgloadind     pruning dups and overlapping name "Guarouba" nexsonid "node1096214"
+pgloadind     OTT ID missing name "Guarouba" nexsonid "node1096214"
+pgloadind   TNRS unmatched total number 0
+pgloadind     pruning unmapped name "Guarouba" nexsonid "node1096214"
 pgloadind   postpruning newick tree "((Bolborhynchus,Nannopsittaca),(((Myiopsitta,Brotogeris),(Pionopsitta_pileata,(Triclaria,(Pionopsitta_barrabandi,((Graydidascalus,Amazona_xanthops),(Amazona_farinosa,Pionus)))))),(Forpus,((Deroptyus,Pionites),((Rhynchopsitta,Pyrrhura),(Enicognathus,(Cyanoliseus,(Anodorhynchus,(((Aratinga_leucophthalma,Aratinga_aurea),((Nandayus,Aratinga_solstitialis),(Cyanopsitta,(Orthopsittaca,(Ara,Primolius))))),Diopsittaca)))))))))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 213647 taxonomy "Bolborhynchus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1096176"
@@ -98,6 +99,8 @@ placing root in index
 Dealing with metadata property: id
 Dealing with metadata property: ot:studyPublicationReference
 Adding property 'ot:studyPublicationReference': Tavares E.S., Baker A., Pereira S., & Miyaki C. 2006. Phylogenetic relationships and historical biogeography of neotropical parrots (Psittaciformes: Psittacidae: Arini) inferred from mitochondrial and nuclear DNA Sequences. Systematic Biology 55 (3): 454-470.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Arinia
 Dealing with metadata property: ot:studyYear
 Adding property 'ot:studyYear': 2006
 Dealing with metadata property: ot:inGroupClade
@@ -107,7 +110,7 @@ Adding property 'ot:curatorName': Chris Owen
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1080/10635150600697390
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 2583497
+Adding property 'ot:focalClade': 701704
 Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': Fig. 2 Bayesian mt+nucDNA
 Dealing with metadata property: ot:studyId

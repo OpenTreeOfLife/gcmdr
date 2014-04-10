@@ -39,9 +39,7 @@ pgloadind   name fixing on tree tree id "6390"
 pgloadind     OTT ID missing name "brachyceran dipteran" nexsonid "node1112710"
 pgloadind     OTT ID missing name "nematoceran dipteran" nexsonid "node1112711"
 pgloadind     OTT ID missing name "Caprella sp." nexsonid "node1112730"
-pgloadind     OTT ID missing name "Lepidochitona hartwegi" nexsonid "node1112756"
 pgloadind   TNRS unmatched total number 2
-pgloadind     TNRS resolved ottId OTT ID 2866728 name "Lepidochitona hartwegii" searched on "Lepidochitona hartwegi" nexsonid "node1112756"
 pgloadind     TNRS resolved ottId OTT ID 5335548 name "Caprella" searched on "Caprella sp." nexsonid "node1112730"
 pgloadind     pruning unmapped name "nematoceran dipteran" nexsonid "node1112711"
 pgloadind     pruning unmapped name "brachyceran dipteran" nexsonid "node1112710"
@@ -53,7 +51,7 @@ pgloadind       duplicate name "Diplopoda" nexsonid "node1112735"
 pgloadind       duplicate OTT ID 1078162
 pgloadind     pruning dups and overlapping name "Diplopoda" nexsonid "node1112735"
 pgloadind     pruning dups and overlapping name "Caprella sp." nexsonid "node1112730"
-pgloadind   postpruning newick tree "((((((((((Ctenocephalides_felis,Acrosternum_hilare),Doru_lineare),Drosophila_melanogaster),(Harmonia_axyridis,Tenebrio_molitor)),(Caenorhabditis_elegans,Artemia_franciscana)),((Callinectes_sapidus,Carcinus_maenas),Oniscidea)),((Scolopocryptops_sexspinosus,Diplopoda),((Opiliones,Garypus_californicus),Loxosceles_reclusa))),(((((((Lottia_austrodigitalis,Tegula_brunnea),Onchidella_borealis),(Macoma_nasuta,Lampsilis_cardium)),(Lepidochitona_hartwegi,Octopus_rubescens)),(((Dugesia_japonica,Schistosoma_mansoni),Pantinonemertes),(Conopeum,Watersipora_subtorquata))),(Phoronopsis_harmeri,Terebratalia_transversa)),(Hubrechtella_dubia,Lineus_ruber))),(Patiria_miniata,Strongylocentrotus_purpuratus)),((((((((Canis_lupus_familiaris,Homo_sapiens),Sus_scrofa),Rattus_norvegicus),Ovis_aries),Gallus_gallus),(Xenopus_laevis,Rhinella_marina)),Torpedo_californica),((Danio_rerio,Catostomus_commersonii),(Anguilla_anguilla,Oreochromis_mossambicus))))"
+pgloadind   postpruning newick tree "((((((((((Ctenocephalides_felis,Acrosternum_hilare),Doru_lineare),Drosophila_melanogaster),(Harmonia_axyridis,Tenebrio_molitor)),(Caenorhabditis_elegans,Artemia_franciscana)),((Callinectes_sapidus,Carcinus_maenas),Oniscidea)),((Scolopocryptops_sexspinosus,Diplopoda),((Opiliones,Garypus_californicus),Loxosceles_reclusa))),(((((((Lottia_austrodigitalis,Tegula_brunnea),Onchidella_borealis),(Macoma_nasuta,Lampsilis_cardium)),(Lepidochitona_hartwegii,Octopus_rubescens)),(((Dugesia_japonica,Schistosoma_mansoni),Pantinonemertes),(Conopeum,Watersipora_subtorquata))),(Phoronopsis_harmeri,Terebratalia_transversa)),(Hubrechtella_dubia,Lineus_ruber))),(Patiria_miniata,Strongylocentrotus_purpuratus)),((((((((Canis_lupus_familiaris,Homo_sapiens),Sus_scrofa),Rattus_norvegicus),Ovis_aries),Gallus_gallus),(Xenopus_laevis,Rhinella_marina)),Torpedo_californica),((Danio_rerio,Catostomus_commersonii),(Anguilla_anguilla,Oreochromis_mossambicus))))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 81976 taxonomy "Ctenocephalides felis->Ctenocephalides->Archaeopsyllinae->Pulicidae->Pulicoidea->Pulicomorpha->Siphonaptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1112715"
 pgloadind     taxon mapping OTT ID 906497 taxonomy "Acrosternum hilare->Acrosternum->Pentatominae->Pentatomidae->Pentatomoidea->Pentatomomorpha->Panheteroptera->Neoheteroptera->Euheteroptera->Heteroptera->Prosorrhyncha->Neohemiptera->Euhemiptera->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1112716"
@@ -109,51 +107,51 @@ pgloadind   Adding tree to graph tree id "6390"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Loxosceles reclusa was remapped to 'Araneae' (id=2416527)
-	Lineus ruber was remapped to 'Heteronemertea' (id=575709)
-	Ovis aries was remapped to 'Ruminantia' (id=338865)
+	Catostomus commersonii was remapped to 'Cobitoidea' (id=525969)
+	Watersipora subtorquata was remapped to 'Neocheilostomatina' (id=582898)
+	Danio rerio was remapped to 'Cyprinoidea' (id=514668)
+	Canis lupus familiaris was remapped to 'Carnivora' (id=335072)
+	Lottia austrodigitalis was remapped to 'Patellogastropoda' (id=595291)
+	Onchidella borealis was remapped to 'Heterobranchia' (id=596139)
+	Pantinonemertes was remapped to 'Enopla' (id=576692)
+	Ctenocephalides felis was remapped to 'Siphonaptera' (id=1437501)
+	Xenopus laevis was remapped to 'Pipoidea' (id=412674)
 	Lampsilis cardium was remapped to 'Palaeoheterodonta' (id=707005)
+	Conopeum was remapped to 'Malacostegina' (id=582544)
+	Rattus norvegicus was remapped to 'Glires' (id=324461)
+	Garypus californicus was remapped to 'Pseudoscorpiones' (id=2407096)
+	Artemia franciscana was remapped to 'Branchiopoda' (id=2323937)
+	Dugesia japonica was remapped to 'Rhabditophora' (id=749049)
+	Schistosoma mansoni was remapped to 'Trematoda' (id=758492)
+	Ovis aries was remapped to 'Ruminantia' (id=338865)
+	Oreochromis mossambicus was remapped to 'Euteleostei' (id=436693)
+	Harmonia axyridis was remapped to 'Cucujoidea' (id=2070309)
+	Phoronopsis harmeri was remapped to 'Phoroniformea' (id=717596)
+	Sus scrofa was remapped to 'Suina' (id=338662)
+	Lepidochitona hartwegii was remapped to 'Polyplacophora' (id=684557)
+	Carcinus maenas was remapped to 'Carcinidae' (id=2243647)
 	Drosophila melanogaster was remapped to 'Diptera' (id=1440547)
 	Octopus rubescens was remapped to 'Cephalopoda' (id=591561)
-	Scolopocryptops sexspinosus was remapped to 'Chilopoda' (id=821879)
-	Ctenocephalides felis was remapped to 'Siphonaptera' (id=1437501)
-	Terebratalia transversa was remapped to 'Rhynchonelliformea' (id=717660)
-	Tenebrio molitor was remapped to 'Tenebrionoidea' (id=2085188)
-	Schistosoma mansoni was remapped to 'Trematoda' (id=758492)
-	Catostomus commersonii was remapped to 'Cobitoidea' (id=525969)
-	Hubrechtella dubia was remapped to 'Paleonemertea' (id=575394)
-	Rhinella marina was remapped to 'Neobatrachia' (id=412968)
 	Tegula brunnea was remapped to 'Vetigastropoda' (id=674625)
-	Onchidella borealis was remapped to 'Heterobranchia' (id=596139)
-	Oniscidea was remapped to 'Peracarida' (id=2248458)
-	Watersipora subtorquata was remapped to 'Neocheilostomatina' (id=582898)
-	Phoronopsis harmeri was remapped to 'Phoroniformea' (id=717596)
-	Torpedo californica was remapped to 'Chondrichthyes' (id=546004)
-	Doru lineare was remapped to 'Orthopteroidea' (id=877475)
-	Artemia franciscana was remapped to 'Branchiopoda' (id=2323937)
-	Carcinus maenas was remapped to 'Carcinidae' (id=2243647)
-	Pantinonemertes was remapped to 'Enopla' (id=576692)
-	Patiria miniata was remapped to 'Asterozoa' (id=552543)
-	Xenopus laevis was remapped to 'Pipoidea' (id=412674)
-	Conopeum was remapped to 'Malacostegina' (id=582544)
-	Lepidochitona hartwegi was remapped to 'Polyplacophora' (id=684557)
-	Harmonia axyridis was remapped to 'Cucujoidea' (id=2070309)
-	Gallus gallus was remapped to 'Sauropsida' (id=347994)
-	Garypus californicus was remapped to 'Pseudoscorpiones' (id=2407096)
-	Rattus norvegicus was remapped to 'Glires' (id=324461)
-	Lottia austrodigitalis was remapped to 'Patellogastropoda' (id=595291)
-	Callinectes sapidus was remapped to 'Portunidae' (id=2242653)
-	Strongylocentrotus purpuratus was remapped to 'Echinozoa' (id=562207)
-	Canis lupus familiaris was remapped to 'Carnivora' (id=335072)
-	Danio rerio was remapped to 'Cyprinoidea' (id=514668)
-	Caenorhabditis elegans was remapped to 'Nematoda' (id=778229)
-	Anguilla anguilla was remapped to 'Elopomorpha' (id=432958)
-	Oreochromis mossambicus was remapped to 'Euteleostei' (id=436693)
-	Sus scrofa was remapped to 'Suina' (id=338662)
-	Dugesia japonica was remapped to 'Rhabditophora' (id=749049)
-	Macoma nasuta was remapped to 'Heteroconchia' (id=686878)
 	Homo sapiens was remapped to 'Primates' (id=332851)
+	Strongylocentrotus purpuratus was remapped to 'Echinozoa' (id=562207)
+	Scolopocryptops sexspinosus was remapped to 'Chilopoda' (id=821879)
+	Caenorhabditis elegans was remapped to 'Nematoda' (id=778229)
 	Acrosternum hilare was remapped to 'Paraneoptera' (id=952142)
+	Terebratalia transversa was remapped to 'Rhynchonelliformea' (id=717660)
+	Hubrechtella dubia was remapped to 'Paleonemertea' (id=575394)
+	Tenebrio molitor was remapped to 'Tenebrionoidea' (id=2085188)
+	Gallus gallus was remapped to 'Sauropsida' (id=347994)
+	Doru lineare was remapped to 'Orthopteroidea' (id=877475)
+	Rhinella marina was remapped to 'Neobatrachia' (id=412968)
+	Torpedo californica was remapped to 'Chondrichthyes' (id=546004)
+	Patiria miniata was remapped to 'Asterozoa' (id=552543)
+	Oniscidea was remapped to 'Peracarida' (id=2248458)
+	Macoma nasuta was remapped to 'Heteroconchia' (id=686878)
+	Loxosceles reclusa was remapped to 'Araneae' (id=2416527)
+	Lineus ruber was remapped to 'Heteronemertea' (id=575709)
+	Anguilla anguilla was remapped to 'Elopomorpha' (id=432958)
+	Callinectes sapidus was remapped to 'Portunidae' (id=2242653)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id

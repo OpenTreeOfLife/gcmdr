@@ -10,7 +10,7 @@ pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1093/sysbio
 pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:studyId "2678"
 pgloadind   property added ot:studyYear "2011"
-pgloadind   property added ot:focalClade "2458997"
+pgloadind   property added ot:focalClade "451020"
 pgloadind   property added ot:focalCladeOTTTaxonName "Echinodermata"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
 pgloadind   property added ot:inGroupClade "node1075496"
@@ -18,15 +18,11 @@ pgloadind   property added ot:curatedType "BI 50% maj-rule"
 loading a specific tree: 6224
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "6224"
-pgloadind   all nodes have ottIds
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Ophiopsammus maculata" nexsonid "node1075583"
-pgloadind       dubious OTT ID 3654871
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Neogymnocrinus richeri" nexsonid "node1075652"
-pgloadind       dubious OTT ID 445485
-pgloadind     pruning dups and overlapping name "Neogymnocrinus richeri" nexsonid "node1075652"
-pgloadind     pruning dups and overlapping name "Ophiopsammus maculata" nexsonid "node1075583"
+pgloadind     OTT ID missing name "Ophiopsammusmaculata" nexsonid "node1075583"
+pgloadind     OTT ID missing name "Gymnocrinusricheri" nexsonid "node1075652"
+pgloadind   TNRS unmatched total number 1
+pgloadind     pruning unmapped name "Gymnocrinusricheri" nexsonid "node1075652"
+pgloadind     pruning unmapped name "Ophiopsammusmaculata" nexsonid "node1075583"
 pgloadind   postpruning newick tree "(((((((((((((Patiria_miniata,Perknaster_fuscus),Stegnaster_inflatus),Patiriella_regularis),(Crossaster_papposus,Solaster_stimpsoni)),Dermasterias_imbricata),((((Diplodontias_miliaris,Odontaster_validus),Acodontaster_conspicuus),Eurygonius_hylacanthus),Pseudarchaster_parelii)),(((Luidia_clathrata,Luidia_foliolata),Macroptychaster_accrescens),(Astropecten_articulatus,Astropecten_polyacanthus))),((Echinaster_sentus,Henricia_sp_AMCC_113385),Archaster_typicus)),((((((((Evasterias_troschelii,Pisaster_ochraceus),Leptasterias_hexactis),Rathbunaster_californicus),Asterias_forbesi),Coscinasterias_muricata),Diplasterias_brucei),((Allostichaster_sp_AMCC_113388,Stichaster_australis),Brisingaster_robillardi,Heliaster_helianthoides)),Caymanostella_sp_FMNH_5167)),((Hymenaster_pellucidus,Pteraster_tesselatus),Xyloplax_janetae)),(((((((Ophiopholis_aculeata,Ophiothrix_oerstedii),Amphipholis_squamata),Ophionereis_reticulata),Ophiocoma_echinata),(Ophioderma_brevispinum,Ophiomyxa_flaccida)),Ophiocanops_fugiens),((Asteronyx_sp_AMCC_113420,Gorgonocephalus_eucnemis),Schizostella_bifurcata))),((((((((Echinocardium_cordatum,Meoma_ventricosa),Encope_aberrans),Stomopneustes_variolaris),((Arbacia_lixula,Arbacia_punctulata),Eucidaris_tribuloides)),((Psammechinus_miliaris,Sphaerechinus_granularis),Paracentrotus_lividus)),((((((Salmaciella_oligopora,Salmacis_belli),Temnopleurus_alexandri),Temnotrema_sculptum),Mespilia_globulus),(Amblypneustes_ovum,Holopneustes_inflatus)),Pseudechinus_albocinctus),(Echinus_esculentus,Strongylocentrotus_purpuratus)),(Genocidaris_maculata,Tripneustes_gratilla)),((((((Cucumaria_miniata,Cucumaria_salma),Pentacta_pygmaea),(Parastichopus_californicus,Pseudostichopus_villosus)),Holothuria_leucospilota),Psychropotes_longicauda),(Chiridota_rotifera,Leptosynapta_clarki)))),(Florometra_serratissima,Metacrinus_rotundus))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 174354 taxonomy "Patiria miniata->Patiria->Asterinidae->Valvatida->Valvatacea->Asteroidea->Asterozoa->Eleutherozoa->Echinodermata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1075509"
@@ -115,77 +111,77 @@ pgloadind   Adding tree to graph tree id "6224"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Salmacis belli was remapped to 'Salmacis' (id=562993)
-	Solaster stimpsoni was remapped to 'Solaster' (id=557769)
-	Caymanostella sp. FMNH 5167 was remapped to 'Caymanostellidae' (id=557485)
-	Ophionereis reticulata was remapped to 'Ophionereidae' (id=554797)
-	Patiria miniata was remapped to 'Patiria' (id=559884)
-	Stomopneustes variolaris was remapped to 'Diadematacea' (id=563288)
-	Psammechinus miliaris was remapped to 'Psammechinus' (id=562260)
-	Strongylocentrotus purpuratus was remapped to 'Strongylocentrotidae' (id=562467)
-	Allostichaster sp. AMCC 113388 was remapped to 'Allostichaster' (id=559048)
 	Amblypneustes ovum was remapped to 'Amblypneustes' (id=562882)
-	Leptosynapta clarki was remapped to 'Synaptidae' (id=566258)
-	Temnotrema sculptum was remapped to 'Temnotrema' (id=562911)
-	Amphipholis squamata was remapped to 'Amphiuridae' (id=555431)
-	Tripneustes gratilla was remapped to 'Tripneustes' (id=562727)
-	Parastichopus californicus was remapped to 'Stichopodidae' (id=568634)
-	Xyloplax janetae was remapped to 'Peripodida' (id=562190)
-	Pteraster tesselatus was remapped to 'Pteraster' (id=557578)
-	Stichaster australis was remapped to 'Stichaster' (id=558914)
-	Crossaster papposus was remapped to 'Crossaster' (id=557727)
-	Paracentrotus lividus was remapped to 'Paracentrotus' (id=562385)
-	Mespilia globulus was remapped to 'Mespilia' (id=562980)
-	Eucidaris tribuloides was remapped to 'Perischoechinoidea' (id=565288)
-	Florometra serratissima was remapped to 'Comatulida' (id=569675)
-	Diplasterias brucei was remapped to 'Diplasterias' (id=558668)
-	Evasterias troschelii was remapped to 'Evasterias' (id=558614)
-	Brisingaster robillardi was remapped to 'Brisingida' (id=557826)
-	Eurygonius hylacanthus was remapped to 'Eurygonius' (id=558925)
-	Perknaster fuscus was remapped to 'Ganeriidae' (id=559233)
-	Holothuria leucospilota was remapped to 'Holothuriidae' (id=568763)
-	Odontaster validus was remapped to 'Odontaster' (id=559722)
-	Holopneustes inflatus was remapped to 'Holopneustes' (id=562869)
-	Meoma ventricosa was remapped to 'Brissidae' (id=563770)
-	Diplodontias miliaris was remapped to 'Diplodontias' (id=559772)
-	Leptasterias hexactis was remapped to 'Leptasterias' (id=558368)
-	Echinocardium cordatum was remapped to 'Loveniidae' (id=563674)
-	Heliaster helianthoides was remapped to 'Heliasteridae' (id=558229)
-	Pisaster ochraceus was remapped to 'Pisaster' (id=558623)
-	Dermasterias imbricata was remapped to 'Poraniidae' (id=559592)
-	Henricia sp. AMCC 113385 was remapped to 'Henricia' (id=557139)
-	Encope aberrans was remapped to 'Gnathostomata' (id=564662)
-	Sphaerechinus granularis was remapped to 'Sphaerechinus' (id=562770)
-	Genocidaris maculata was remapped to 'Genocidaridae' (id=562717)
-	Echinus esculentus was remapped to 'Echinus' (id=562337)
-	Salmaciella oligopora was remapped to 'Salmaciella' (id=562901)
-	Psychropotes longicauda was remapped to 'Elasipodida' (id=568297)
-	Asterias forbesi was remapped to 'Asterias' (id=558815)
-	Echinaster sentus was remapped to 'Echinaster' (id=557354)
-	Temnopleurus alexandri was remapped to 'Temnopleurus' (id=563013)
-	Archaster typicus was remapped to 'Archasteridae' (id=559188)
-	Asteronyx sp. AMCC 113420 was remapped to 'Asteronychidae' (id=556988)
-	Rathbunaster californicus was remapped to 'Labidiasteridae' (id=559106)
 	Chiridota rotifera was remapped to 'Chiridotidae' (id=566633)
-	Coscinasterias muricata was remapped to 'Coscinasterias' (id=559027)
-	Schizostella bifurcata was remapped to 'Schizostella' (id=556794)
-	Acodontaster conspicuus was remapped to 'Acodontaster' (id=559693)
-	Ophiocoma echinata was remapped to 'Ophiocomidea' (id=554609)
-	Ophioderma brevispinum was remapped to 'Ophiodermatina' (id=552846)
-	Hymenaster pellucidus was remapped to 'Hymenaster' (id=557504)
-	Ophiocanops fugiens was remapped to 'Ophiocanops' (id=556389)
-	Pseudechinus albocinctus was remapped to 'Pseudechinus' (id=562951)
-	Pentacta pygmaea was remapped to 'Pentacta' (id=567304)
-	Ophiothrix oerstedii was remapped to 'Ophiotrichidae' (id=555046)
-	Ophiomyxa flaccida was remapped to 'Ophiomyxa' (id=556405)
 	Gorgonocephalus eucnemis was remapped to 'Gorgonocephalus' (id=556637)
-	Patiriella regularis was remapped to 'Patiriella' (id=559905)
-	Ophiopholis aculeata was remapped to 'Ophiactidae' (id=554873)
+	Mespilia globulus was remapped to 'Mespilia' (id=562980)
+	Temnopleurus alexandri was remapped to 'Temnopleurus' (id=563013)
+	Echinocardium cordatum was remapped to 'Loveniidae' (id=563674)
+	Pseudechinus albocinctus was remapped to 'Pseudechinus' (id=562951)
 	Macroptychaster accrescens was remapped to 'Macroptychaster' (id=561901)
-	Pseudarchaster parelii was remapped to 'Goniasteridae' (id=560573)
+	Echinus esculentus was remapped to 'Echinus' (id=562337)
+	Ophiocanops fugiens was remapped to 'Ophiocanops' (id=556389)
+	Dermasterias imbricata was remapped to 'Poraniidae' (id=559592)
+	Perknaster fuscus was remapped to 'Ganeriidae' (id=559233)
+	Caymanostella sp. FMNH 5167 was remapped to 'Caymanostellidae' (id=557485)
+	Leptosynapta clarki was remapped to 'Synaptidae' (id=566258)
+	Sphaerechinus granularis was remapped to 'Sphaerechinus' (id=562770)
 	Pseudostichopus villosus was remapped to 'Synallactidae' (id=569249)
-	Stegnaster inflatus was remapped to 'Stegnaster' (id=560049)
+	Eucidaris tribuloides was remapped to 'Perischoechinoidea' (id=565288)
+	Ophioderma brevispinum was remapped to 'Ophiodermatina' (id=552846)
+	Echinaster sentus was remapped to 'Echinaster' (id=557354)
+	Strongylocentrotus purpuratus was remapped to 'Strongylocentrotidae' (id=562467)
+	Henricia sp. AMCC 113385 was remapped to 'Henricia' (id=557139)
+	Pteraster tesselatus was remapped to 'Pteraster' (id=557578)
+	Ophiothrix oerstedii was remapped to 'Ophiotrichidae' (id=555046)
+	Holothuria leucospilota was remapped to 'Holothuriidae' (id=568763)
+	Pisaster ochraceus was remapped to 'Pisaster' (id=558623)
+	Genocidaris maculata was remapped to 'Genocidaridae' (id=562717)
+	Parastichopus californicus was remapped to 'Stichopodidae' (id=568634)
+	Ophiomyxa flaccida was remapped to 'Ophiomyxa' (id=556405)
+	Pentacta pygmaea was remapped to 'Pentacta' (id=567304)
+	Salmaciella oligopora was remapped to 'Salmaciella' (id=562901)
+	Heliaster helianthoides was remapped to 'Heliasteridae' (id=558229)
+	Allostichaster sp. AMCC 113388 was remapped to 'Allostichaster' (id=559048)
+	Evasterias troschelii was remapped to 'Evasterias' (id=558614)
+	Hymenaster pellucidus was remapped to 'Hymenaster' (id=557504)
+	Asteronyx sp. AMCC 113420 was remapped to 'Asteronychidae' (id=556988)
+	Brisingaster robillardi was remapped to 'Brisingida' (id=557826)
+	Encope aberrans was remapped to 'Gnathostomata' (id=564662)
+	Meoma ventricosa was remapped to 'Brissidae' (id=563770)
+	Ophionereis reticulata was remapped to 'Ophionereidae' (id=554797)
+	Acodontaster conspicuus was remapped to 'Acodontaster' (id=559693)
+	Psammechinus miliaris was remapped to 'Psammechinus' (id=562260)
 	Metacrinus rotundus was remapped to 'Isocrinida' (id=569616)
+	Leptasterias hexactis was remapped to 'Leptasterias' (id=558368)
+	Psychropotes longicauda was remapped to 'Elasipodida' (id=568297)
+	Pseudarchaster parelii was remapped to 'Goniasteridae' (id=560573)
+	Stomopneustes variolaris was remapped to 'Diadematacea' (id=563288)
+	Diplodontias miliaris was remapped to 'Diplodontias' (id=559772)
+	Solaster stimpsoni was remapped to 'Solaster' (id=557769)
+	Patiriella regularis was remapped to 'Patiriella' (id=559905)
+	Patiria miniata was remapped to 'Patiria' (id=559884)
+	Xyloplax janetae was remapped to 'Peripodida' (id=562190)
+	Florometra serratissima was remapped to 'Comatulida' (id=569675)
+	Ophiocoma echinata was remapped to 'Ophiocomidea' (id=554609)
+	Archaster typicus was remapped to 'Archasteridae' (id=559188)
+	Diplasterias brucei was remapped to 'Diplasterias' (id=558668)
+	Stichaster australis was remapped to 'Stichaster' (id=558914)
+	Ophiopholis aculeata was remapped to 'Ophiactidae' (id=554873)
+	Tripneustes gratilla was remapped to 'Tripneustes' (id=562727)
+	Asterias forbesi was remapped to 'Asterias' (id=558815)
+	Odontaster validus was remapped to 'Odontaster' (id=559722)
+	Stegnaster inflatus was remapped to 'Stegnaster' (id=560049)
+	Coscinasterias muricata was remapped to 'Coscinasterias' (id=559027)
+	Amphipholis squamata was remapped to 'Amphiuridae' (id=555431)
+	Holopneustes inflatus was remapped to 'Holopneustes' (id=562869)
+	Crossaster papposus was remapped to 'Crossaster' (id=557727)
+	Schizostella bifurcata was remapped to 'Schizostella' (id=556794)
+	Salmacis belli was remapped to 'Salmacis' (id=562993)
+	Eurygonius hylacanthus was remapped to 'Eurygonius' (id=558925)
+	Temnotrema sculptum was remapped to 'Temnotrema' (id=562911)
+	Paracentrotus lividus was remapped to 'Paracentrotus' (id=562385)
+	Rathbunaster californicus was remapped to 'Labidiasteridae' (id=559106)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -204,49 +200,49 @@ Adding property 'ot:curatorName': Chris Owen
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1093/sysbio/syr044
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 2458997
+Adding property 'ot:focalClade': 451020
 Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': BI 50% maj-rule
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2678
 Committing nodes: 155
 	adding Node[561410] Luidiidae 246165 as compatible with Node[561411]
-		adding Relationship[8163772]
-		adding to root Relationship[8163773]
+		adding Relationship[8167314]
+		adding to root Relationship[8167315]
 	adding Node[563103] Arbaciidae 312577 as compatible with Node[563106]
-		adding Relationship[8163774]
-		adding to root Relationship[8163775]
+		adding Relationship[8167316]
+		adding to root Relationship[8167317]
 	adding Node[563102] Arbacoida 312576 as compatible with Node[563106]
-		adding Relationship[8163776]
-		adding to root Relationship[8163777]
+		adding Relationship[8167318]
+		adding to root Relationship[8167319]
 	adding Node[566836] Dendrochirotida 699704 as compatible with Node[567302]
-		adding Relationship[8163778]
-		adding to root Relationship[8163779]
+		adding Relationship[8167320]
+		adding to root Relationship[8167321]
 	adding Node[566835] Dendrochirotacea 699703 as compatible with Node[567302]
-		adding Relationship[8163780]
-		adding to root Relationship[8163781]
+		adding Relationship[8167322]
+		adding to root Relationship[8167323]
 	adding Node[552544] Ophiuroidea 197634 as compatible with Node[552546]
-		adding Relationship[8163782]
-		adding to root Relationship[8163783]
+		adding Relationship[8167324]
+		adding to root Relationship[8167325]
 	adding Node[557131] Spinulosida 843666 as compatible with Node[557137]
-		adding Relationship[8163784]
-		adding to root Relationship[8163785]
+		adding Relationship[8167326]
+		adding to root Relationship[8167327]
 	adding Node[563607] Atelostomata 732553 as compatible with Node[563608]
-		adding Relationship[8163786]
-		adding to root Relationship[8163787]
+		adding Relationship[8167328]
+		adding to root Relationship[8167329]
 	adding Node[565985] Apodacea 220317 as compatible with Node[566256]
-		adding Relationship[8163788]
-		adding to root Relationship[8163789]
+		adding Relationship[8167330]
+		adding to root Relationship[8167331]
 	adding Node[569602] Crinoidea 732545 as compatible with Node[569604]
-		adding Relationship[8163790]
-		adding to root Relationship[8163791]
+		adding Relationship[8167332]
+		adding to root Relationship[8167333]
 	adding Node[569601] Pelmatozoa 317278 as compatible with Node[569604]
-		adding Relationship[8163792]
-		adding to root Relationship[8163793]
-		adding Relationship[8163794] from Node[565985] to Node[565981]
-		adding Relationship[8163795] from Node[563103] to Node[563102]
-		adding Relationship[8163796] from Node[569601] to Node[552540]
-		adding Relationship[8163797] from Node[569602] to Node[569601]
-		adding Relationship[8163798] from Node[552544] to Node[552543]
-		adding Relationship[8163799] from Node[566836] to Node[566835]
-		adding Relationship[8163800] from Node[566835] to Node[565981]
+		adding Relationship[8167334]
+		adding to root Relationship[8167335]
+		adding Relationship[8167336] from Node[565985] to Node[565981]
+		adding Relationship[8167337] from Node[563103] to Node[563102]
+		adding Relationship[8167338] from Node[569601] to Node[552540]
+		adding Relationship[8167339] from Node[569602] to Node[569601]
+		adding Relationship[8167340] from Node[552544] to Node[552543]
+		adding Relationship[8167341] from Node[566836] to Node[566835]
+		adding Relationship[8167342] from Node[566835] to Node[565981]

@@ -11,9 +11,11 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S12859"
 pgloadind   property added ot:studyId "2359"
 pgloadind   property added ot:studyYear "2013"
-pgloadind   property added ot:focalClade "3586321"
+pgloadind   property added ot:focalClade "3615249"
+pgloadind   property added ot:focalCladeOTTTaxonName "Artiodactyla"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
 pgloadind   property added ot:inGroupClade "node857971"
+pgloadind   property added ot:curatedType "MrBayes"
 loading a specific tree: 4962
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "4962"
@@ -22,7 +24,7 @@ pgloadind     overlapping tips
 pgloadind       overlapping retained name "Gazella subgutturosa marica" nexsonid "node857987"
 pgloadind       overlapping pruned name "Gazella subgutturosa" nexsonid "node857982"
 pgloadind     pruning dups and overlapping name "Gazella subgutturosa" nexsonid "node857982"
-pgloadind   postpruning newick tree "((((((Antilope_cervicapra,((((Gazella_cuvieri,Gazella_leptoceros),Gazella_subgutturosa_marica),Gazella_bennettii),(Gazella_dorcas,(Gazella_gazella,Gazella_spekei)))),((Eudorcas_rufifrons,Eudorcas_thomsonii),(Nanger_dama,(Nanger_granti,Nanger_soemmerringii)))),(Antidorcas_marsupialis,Litocranius_walleri)),Saiga_tatarica),Ourebia_ourebi),(((Dorcatragus_megalotis,((Madoqua_guentheri,Madoqua_kirki),Madoqua_saltiana)),(Raphicerus_campestris,(Raphicerus_melanotis,Raphicerus_sharpei))),((Procapra_gutturosa,Procapra_przewalskii),Procapra_picticaudata)))"
+pgloadind   postpruning newick tree "((((((Antilope_cervicapra,((((Gazella_cuvieri,Gazella_leptoceros),Gazella_subgutturosa_marica),Gazella_bennettii),(Gazella_dorcas,(Gazella_gazella,Gazella_spekei)))),((Eudorcas_rufifrons,Eudorcas_thomsonii),(Nanger_dama,(Nanger_granti,Nanger_soemmerringii)))),(Antidorcas_marsupialis,Litocranius_walleri)),Saiga_tatarica),Ourebia_ourebi),(((Dorcatragus_megalotis,((Madoqua_guentheri,Madoqua_kirkii),Madoqua_saltiana)),(Raphicerus_campestris,(Raphicerus_melanotis,Raphicerus_sharpei))),((Procapra_gutturosa,Procapra_przewalskii),Procapra_picticaudata)))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 363043 taxonomy "Antilope cervicapra->Antilope->Antilopinae->Bovidae->Pecora->Ruminantia->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node857977"
 pgloadind     taxon mapping OTT ID 702515 taxonomy "Gazella cuvieri->Gazella->Antilopinae->Bovidae->Pecora->Ruminantia->Cetartiodactyla->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node857985"
@@ -58,18 +60,20 @@ pgloadind   Adding tree to graph tree id "4962"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Antidorcas marsupialis was remapped to 'Antidorcas' (id=339386)
-	Dorcatragus megalotis was remapped to 'Dorcatragus' (id=339415)
-	Ourebia ourebi was remapped to 'Ourebia' (id=339528)
 	Gazella subgutturosa marica was remapped to 'Gazella subgutturosa' (id=339444)
+	Ourebia ourebi was remapped to 'Ourebia' (id=339528)
+	Antidorcas marsupialis was remapped to 'Antidorcas' (id=339386)
 	Litocranius walleri was remapped to 'Litocranius' (id=339375)
-	Antilope cervicapra was remapped to 'Antilope' (id=339389)
+	Dorcatragus megalotis was remapped to 'Dorcatragus' (id=339415)
 	Saiga tatarica was remapped to 'Saiga' (id=339379)
+	Antilope cervicapra was remapped to 'Antilope' (id=339389)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
 Dealing with metadata property: ot:studyPublicationReference
 Adding property 'ot:studyPublicationReference': Bärmann E.V., Rössner G.E., & Wörheide G. 2013. A revised phylogeny of Antilopini (Bovidae, Artiodactyla) using combined mitochondrial and nuclear genes. Molecular Phylogenetics and Evolution 67 (2): 484-493. .
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Artiodactyla
 Dealing with metadata property: ot:studyYear
 Adding property 'ot:studyYear': 2013
 Dealing with metadata property: ot:inGroupClade
@@ -81,7 +85,9 @@ Adding property 'ot:curatorName': Chris Owen
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.ympev.2013.02.015
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 3586321
+Adding property 'ot:focalClade': 3615249
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MrBayes
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2359
 Dealing with metadata property: ot:dataDeposit

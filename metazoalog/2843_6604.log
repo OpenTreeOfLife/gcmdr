@@ -1,0 +1,85 @@
+pgloadind OTUs number 14
+pgloadind Processing tree @id "6604"
+pgloadind   tree info number nodes 27
+pgloadind   tree info number edges 26
+pgloadind   tree info ingroup "node1153011"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 13
+pgloadind   property added ot:studyPublicationReference "Kai He, Akio Shinohara, Xue-Long Jiang, Kevin L. Campbell. 2014. Multilocus phylogeny of talpine moles (Talpini, Talpidae, Eulipotyphla) and its implications for systematics. Molecular Phylogenetics and Evolution 70: 513-521."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.ympev.2013.10.002"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:studyId "2843"
+pgloadind   property added ot:studyYear "2014"
+pgloadind   property added ot:focalClade "222358"
+pgloadind   property added ot:focalCladeOTTTaxonName "Talpidae"
+pgloadind   property added ot:tag "ingroup added;"
+pgloadind   property added ot:branchLengthMode "ot:time"
+pgloadind   property added ot:branchLengthTimeUnit "Myr"
+pgloadind   property added ot:inGroupClade "node1153011"
+pgloadind   property added ot:curatedType "Fig. 2b *BEAST"
+loading a specific tree: 6604
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "6604"
+pgloadind     OTT ID missing name "Parascaptor sp." nexsonid "node1153028"
+pgloadind     OTT ID missing name "Euroscaptor sp." nexsonid "node1153034"
+pgloadind   TNRS unmatched total number 0
+pgloadind     TNRS resolved ottId OTT ID 767007 name "Euroscaptor" searched on "Euroscaptor sp." nexsonid "node1153034"
+pgloadind     TNRS resolved ottId OTT ID 3614310 name "Parascaptor" searched on "Parascaptor sp." nexsonid "node1153028"
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Euroscaptor mizura" nexsonid "node1153016"
+pgloadind       overlapping pruned name "Euroscaptor sp." nexsonid "node1153034"
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Parascaptor leucura" nexsonid "node1153027"
+pgloadind       overlapping pruned name "Parascaptor sp." nexsonid "node1153028"
+pgloadind     pruning dups and overlapping name "Parascaptor sp." nexsonid "node1153028"
+pgloadind     pruning dups and overlapping name "Euroscaptor sp." nexsonid "node1153034"
+pgloadind   postpruning newick tree "((Talpa_altaica,Talpa_europaea),(Euroscaptor_mizura,((Mogera_insularis,(Mogera_imaizumii,Mogera_wogura)),((Scaptochirus_moschatus,Parascaptor_leucura),(Euroscaptor_parvidens,(Euroscaptor_malayana,Euroscaptor_longirostris))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 243622 taxonomy "Talpa altaica->Talpa->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153013"
+pgloadind     taxon mapping OTT ID 222362 taxonomy "Talpa europaea->Talpa->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153014"
+pgloadind     taxon mapping OTT ID 201752 taxonomy "Euroscaptor mizura->Euroscaptor->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153016"
+pgloadind     taxon mapping OTT ID 201749 taxonomy "Mogera insularis->Mogera->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153019"
+pgloadind     taxon mapping OTT ID 201757 taxonomy "Mogera imaizumii->Mogera->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153021"
+pgloadind     taxon mapping OTT ID 634080 taxonomy "Mogera wogura->Mogera->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153022"
+pgloadind     taxon mapping OTT ID 872314 taxonomy "Scaptochirus moschatus->Scaptochirus->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153025"
+pgloadind     taxon mapping OTT ID 3614309 taxonomy "Parascaptor leucura->Parascaptor->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153027"
+pgloadind     taxon mapping OTT ID 3614252 taxonomy "Euroscaptor parvidens->Euroscaptor->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153030"
+pgloadind     taxon mapping OTT ID 911109 taxonomy "Euroscaptor malayana->Euroscaptor->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153032"
+pgloadind     taxon mapping OTT ID 293562 taxonomy "Euroscaptor longirostris->Euroscaptor->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153035"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6604"
+pgloadind   Adding tree to graph tree id "6604"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Parascaptor leucura was remapped to 'Parascaptor' (id=344636)
+	Scaptochirus moschatus was remapped to 'Scaptochirus' (id=344716)
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Kai He, Akio Shinohara, Xue-Long Jiang, Kevin L. Campbell. 2014. Multilocus phylogeny of talpine moles (Talpini, Talpidae, Eulipotyphla) and its implications for systematics. Molecular Phylogenetics and Evolution 70: 513-521.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Talpidae
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:time
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': Myr
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 2843
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2014
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1153011
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.ympev.2013.10.002
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph Brown
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 222358
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig. 2b *BEAST
+Committing nodes: 21

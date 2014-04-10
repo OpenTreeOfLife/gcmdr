@@ -5,12 +5,13 @@ pgloadind   tree info number edges 104
 pgloadind   tree info ingroup "node1077632"
 pgloadind   Setting ingroup root node.
 pgloadind   Ingested tree number of external nodes 49
-pgloadind   property added ot:studyPublicationReference "Lee, M. S., Soubrier, J., & Edgecombe, G. D. (2013). Rates of Phenotypic and Genomic Evolution during the Cambrian Explosion. Current Biology 23 (19): 1889-1895."
+pgloadind   property added ot:studyPublicationReference "Lee, M. S., Soubrier, J., & Edgecombe, G. D. (2013). Rates of phenotypic and genomic evolution during the Cambrian explosion. Current Biology 23 (19): 1889-1895."
 pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.cub.2013.07.055"
 pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:studyId "2686"
 pgloadind   property added ot:studyYear "2013"
-pgloadind   property added ot:focalClade "2133803"
+pgloadind   property added ot:focalClade "632179"
+pgloadind   property added ot:focalCladeOTTTaxonName "Arthropoda"
 pgloadind   property added ot:tag "ingroup added;"
 pgloadind   property added ot:branchLengthMode "ot:time"
 pgloadind   property added ot:branchLengthTimeUnit "Myr"
@@ -78,103 +79,105 @@ pgloadind   Adding tree to graph tree id "6238"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Cydia pomonella was remapped to 'Endopterygota' (id=1086556)
-	Narceus americanus was remapped to 'Helminthomorpha' (id=827561)
-	Carcinoscorpius rotundicauda was remapped to 'Carcinoscorpius' (id=2477512)
-	Acheta domesticus was remapped to 'Orthoptera' (id=902849)
-	Nymphon unguiculatum-charcoti complex sp. SEM-1997 was remapped to 'Nymphonidae' (id=2477106)
-	Libinia emarginata was remapped to 'Eucarida' (id=2215530)
-	Scutigerella sp. 'Scu3' was remapped to 'Scutigerella' (id=821451)
-	Machiloides banksi was remapped to 'Machiloides' (id=850848)
-	Tanystylum orbiculare was remapped to 'Tanystylidae' (id=2476151)
-	Cypridopsis vidua was remapped to 'Ostracoda' (id=2314716)
-	Eurytemora affinis was remapped to 'Copepoda' (id=2286473)
-	Armillifer armillatus was remapped to 'Pentastomida' (id=2311842)
-	Hutchinsoniella macracantha was remapped to 'Cephalocarida' (id=2325690)
-	Tomocerus sp. 'Tom2' was remapped to 'Ellipura' (id=843680)
-	Leiobunum verrucosum was remapped to 'Opiliones' (id=2325719)
-	Eurypauropus spinosus was remapped to 'Pauropoda' (id=827081)
-	Limulus polyphemus was remapped to 'Limulus' (id=2477507)
-	Aphonopelma chalcodes was remapped to 'Araneae' (id=2416215)
-	Craterostigmus tasmanianus was remapped to 'Craterostigmomorpha' (id=826822)
-	Amblyomma sp. 'Amb2' was remapped to 'Acari' (id=2337905)
-	Hanseniella sp. 'Han2' was remapped to 'Hanseniella' (id=821496)
-	Streptocephalus sealii was remapped to 'Streptocephalidae' (id=2324023)
-	Derocheilocaris typicus was remapped to 'Mystacocarida' (id=2286450)
-	Neogonodactylus oerstedii was remapped to 'Hoplocarida' (id=2246784)
-	Lithobius forficatus was remapped to 'Lithobiomorpha' (id=821602)
-	Daphnia magna was remapped to 'Cladocera' (id=2324109)
-	Periplaneta americana was remapped to 'Dictyoptera' (id=877195)
-	Eremocosta gigasella was remapped to 'Solifugae' (id=2471876)
-	Ctenolepisma lineata was remapped to 'Thysanura' (id=851265)
-	Polyxenus fasciculatus was remapped to 'Penicillata' (id=842037)
-	Scolopendra polymorpha was remapped to 'Epimorpha' (id=823600)
-	Speleonectes tulumensis was remapped to 'Remipedia' (id=2215373)
-	Triops longicaudatus was remapped to 'Notostraca' (id=2325623)
-	Ephemerella inconstans was remapped to 'Palaeoptera' (id=852328)
-	Mastigoproctus giganteus was remapped to 'Uropygi' (id=2416010)
-	Limnadia lenticularis was remapped to 'Spinicaudata' (id=2325426)
-	Lynceus sp. 'Lyn' was remapped to 'Laevicaudata' (id=2325381)
-	Argulus sp. Arg2 was remapped to 'Branchiura' (id=2311909)
-	Eumesocampa frigilis was remapped to 'Campodeoidea' (id=843037)
-	Metajapyx subterraneus was remapped to 'Japygoidea' (id=842407)
-	Armadillidium vulgare was remapped to 'Peracarida' (id=2248146)
-	Artemia salina was remapped to 'Artemiidae' (id=2323629)
-	Semibalanus balanoides was remapped to 'Thecostraca' (id=2312184)
-	Scutigera coleoptrata was remapped to 'Notostigmophora' (id=826829)
-	Heterometrus spinifer was remapped to 'Scorpiones' (id=2412391)
-	Endeis laevis was remapped to 'Endeidae' (id=2475374)
-	Cryptocellus centralis was remapped to 'Ricinulei' (id=2406705)
-	Nebalia hessleri was remapped to 'Phyllocarida' (id=2215421)
-	Pedetontus saltator was remapped to 'Pedetontus' (id=850748)
+	Tanystylum orbiculare was remapped to 'Tanystylidae' (id=2476463)
+	Streptocephalus sealii was remapped to 'Streptocephalidae' (id=2324335)
+	Ctenolepisma lineata was remapped to 'Thysanura' (id=851546)
+	Armillifer armillatus was remapped to 'Pentastomida' (id=2312154)
+	Lynceus sp. 'Lyn' was remapped to 'Laevicaudata' (id=2325693)
+	Speleonectes tulumensis was remapped to 'Remipedia' (id=2215685)
+	Nymphon unguiculatum-charcoti complex sp. SEM-1997 was remapped to 'Nymphonidae' (id=2477418)
+	Heterometrus spinifer was remapped to 'Scorpiones' (id=2412703)
+	Endeis laevis was remapped to 'Endeidae' (id=2475686)
+	Argulus sp. Arg2 was remapped to 'Branchiura' (id=2312221)
+	Hanseniella sp. 'Han2' was remapped to 'Hanseniella' (id=821777)
+	Daphnia magna was remapped to 'Cladocera' (id=2324421)
+	Acheta domesticus was remapped to 'Orthoptera' (id=903130)
+	Eremocosta gigasella was remapped to 'Solifugae' (id=2472188)
+	Polyxenus fasciculatus was remapped to 'Penicillata' (id=842318)
+	Scutigerella sp. 'Scu3' was remapped to 'Scutigerella' (id=821732)
+	Leiobunum verrucosum was remapped to 'Opiliones' (id=2326031)
+	Mastigoproctus giganteus was remapped to 'Uropygi' (id=2416322)
+	Eurypauropus spinosus was remapped to 'Pauropoda' (id=827362)
+	Amblyomma sp. 'Amb2' was remapped to 'Acari' (id=2338217)
+	Tomocerus sp. 'Tom2' was remapped to 'Ellipura' (id=843961)
+	Lithobius forficatus was remapped to 'Lithobiomorpha' (id=821883)
+	Aphonopelma chalcodes was remapped to 'Araneae' (id=2416527)
+	Semibalanus balanoides was remapped to 'Thecostraca' (id=2312496)
+	Eurytemora affinis was remapped to 'Copepoda' (id=2286785)
+	Libinia emarginata was remapped to 'Eucarida' (id=2215842)
+	Ephemerella inconstans was remapped to 'Palaeoptera' (id=852609)
+	Triops longicaudatus was remapped to 'Notostraca' (id=2325935)
+	Scutigera coleoptrata was remapped to 'Notostigmophora' (id=827110)
+	Carcinoscorpius rotundicauda was remapped to 'Carcinoscorpius' (id=2477824)
+	Pedetontus saltator was remapped to 'Pedetontus' (id=851029)
+	Craterostigmus tasmanianus was remapped to 'Craterostigmomorpha' (id=827103)
+	Derocheilocaris typicus was remapped to 'Mystacocarida' (id=2286762)
+	Scolopendra polymorpha was remapped to 'Epimorpha' (id=823881)
+	Armadillidium vulgare was remapped to 'Peracarida' (id=2248458)
+	Nebalia hessleri was remapped to 'Phyllocarida' (id=2215733)
+	Metajapyx subterraneus was remapped to 'Japygoidea' (id=842688)
+	Limnadia lenticularis was remapped to 'Spinicaudata' (id=2325738)
+	Artemia salina was remapped to 'Artemiidae' (id=2323941)
+	Periplaneta americana was remapped to 'Dictyoptera' (id=877476)
+	Narceus americanus was remapped to 'Helminthomorpha' (id=827842)
+	Limulus polyphemus was remapped to 'Limulus' (id=2477819)
+	Hutchinsoniella macracantha was remapped to 'Cephalocarida' (id=2326002)
+	Neogonodactylus oerstedii was remapped to 'Hoplocarida' (id=2247096)
+	Cydia pomonella was remapped to 'Endopterygota' (id=1086837)
+	Cryptocellus centralis was remapped to 'Ricinulei' (id=2407017)
+	Eumesocampa frigilis was remapped to 'Campodeoidea' (id=843318)
+	Cypridopsis vidua was remapped to 'Ostracoda' (id=2315028)
+	Machiloides banksi was remapped to 'Machiloides' (id=851129)
 this is the ROOT
 placing root in index
-Dealing with metadata property: id
 Dealing with metadata property: ot:studyPublicationReference
-Adding property 'ot:studyPublicationReference': Lee, M. S., Soubrier, J., & Edgecombe, G. D. (2013). Rates of Phenotypic and Genomic Evolution during the Cambrian Explosion. Current Biology 23 (19): 1889-1895.
+Adding property 'ot:studyPublicationReference': Lee, M. S., Soubrier, J., & Edgecombe, G. D. (2013). Rates of phenotypic and genomic evolution during the Cambrian explosion. Current Biology 23 (19): 1889-1895.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Arthropoda
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:time
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': Myr
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 2686
+Dealing with metadata property: id
 Dealing with metadata property: ot:studyYear
 Adding property 'ot:studyYear': 2013
 Dealing with metadata property: ot:inGroupClade
 Adding property 'ot:inGroupClade': node1077632
 Dealing with metadata property: ot:tag
 Adding property 'ot:tag': ingroup added;
-Dealing with metadata property: ot:branchLengthMode
-Adding property 'ot:branchLengthMode': ot:time
-Dealing with metadata property: ot:curatorName
-Adding property 'ot:curatorName': Chris Owen
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.cub.2013.07.055
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Chris Owen
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 2133803
+Adding property 'ot:focalClade': 632179
 Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': BEAST chronogram
-Dealing with metadata property: ot:branchLengthTimeUnit
-Adding property 'ot:branchLengthTimeUnit': Myr
-Dealing with metadata property: ot:studyId
-Adding property 'ot:studyId': 2686
 Committing nodes: 97
-	adding Node[821447] Symphyla 1054098 as compatible with Node[821450]
-		adding Relationship[8163595]
-		adding to root Relationship[8163596]
-	adding Node[850609] Archaeognatha 388213 as compatible with Node[850687]
-		adding Relationship[8163597]
-		adding to root Relationship[8163598]
-	adding Node[850608] Monocondylia 883320 as compatible with Node[850687]
-		adding Relationship[8163599]
-		adding to root Relationship[8163600]
-	adding Node[2323626] Sarsostraca 180188 as compatible with Node[2323627]
-		adding Relationship[8163601]
-		adding to root Relationship[8163602]
-	adding Node[2475371] Pycnogonida 910210 as compatible with Node[2475373]
-		adding Relationship[8163603]
-		adding to root Relationship[8163604]
-	adding Node[2477496] Xiphosura 5308304 as compatible with Node[2477497]
-		adding Relationship[8163605]
-		adding to root Relationship[8163606]
-	adding Node[2477494] Merostomata 1041483 as compatible with Node[2477497]
-		adding Relationship[8163607]
-		adding to root Relationship[8163608]
-		adding Relationship[8163609] from Node[2477496] to Node[2477494]
-		adding Relationship[8163610] from Node[2323626] to Node[2323625]
-		adding Relationship[8163611] from Node[850608] to Node[850606]
-		adding Relationship[8163612] from Node[850609] to Node[850608]
+	adding Node[821728] Symphyla 1054098 as compatible with Node[821731]
+		adding Relationship[8167148]
+		adding to root Relationship[8167149]
+	adding Node[850890] Archaeognatha 388213 as compatible with Node[850968]
+		adding Relationship[8167150]
+		adding to root Relationship[8167151]
+	adding Node[850889] Monocondylia 883320 as compatible with Node[850968]
+		adding Relationship[8167152]
+		adding to root Relationship[8167153]
+	adding Node[2323938] Sarsostraca 180188 as compatible with Node[2323939]
+		adding Relationship[8167154]
+		adding to root Relationship[8167155]
+	adding Node[2475683] Pycnogonida 910210 as compatible with Node[2475685]
+		adding Relationship[8167156]
+		adding to root Relationship[8167157]
+	adding Node[2477808] Xiphosura 5308278 as compatible with Node[2477809]
+		adding Relationship[8167158]
+		adding to root Relationship[8167159]
+	adding Node[2477806] Merostomata 1041483 as compatible with Node[2477809]
+		adding Relationship[8167160]
+		adding to root Relationship[8167161]
+		adding Relationship[8167162] from Node[850889] to Node[850887]
+		adding Relationship[8167163] from Node[850890] to Node[850889]
+		adding Relationship[8167164] from Node[2323938] to Node[2323937]
+		adding Relationship[8167165] from Node[2477808] to Node[2477806]

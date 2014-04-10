@@ -11,18 +11,20 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S11931"
 pgloadind   property added ot:studyId "1981"
 pgloadind   property added ot:studyYear "2006"
-pgloadind   property added ot:focalClade "2515310"
+pgloadind   property added ot:focalClade "563159"
+pgloadind   property added ot:focalCladeOTTTaxonName "Felidae"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
 pgloadind   property added ot:inGroupClade "node754749"
+pgloadind   property added ot:curatedType "Fig. 1 ML"
 loading a specific tree: 4052
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "4052"
 pgloadind   all nodes have ottIds
 pgloadind     overlapping tips
-pgloadind       overlapping retained name "Felis libyca" nexsonid "node754822"
+pgloadind       overlapping retained name "Felis silvestris lybica" nexsonid "node754822"
 pgloadind       overlapping pruned name "Felis silvestris" nexsonid "node754820"
 pgloadind     pruning dups and overlapping name "Felis silvestris" nexsonid "node754820"
-pgloadind   postpruning newick tree "((Neofelis_nebulosa,((Panthera_tigris,Panthera_uncia),(Panthera_pardus,(Panthera_leo,Panthera_onca)))),((Pardofelis_marmorata,(Pardofelis_badia,Pardofelis_temminckii)),((Leptailurus_serval,(Caracal_caracal,Profelis_aurata)),(((Leopardus_pardalis,Leopardus_wiedii),((Leopardus_jacobitus,Leopardus_colocolo),(Leopardus_tigrinus,(Leopardus_geoffroyi,Leopardus_guigna)))),((Lynx_rufus,(Lynx_canadensis,(Lynx_pardinus,Lynx_lynx))),((Acinonyx_jubatus,(Puma_concolor,Puma_yagouaroundi)),((Otocolobus_manul,(Prionailurus_rubiginosus,(Prionailurus_planiceps,(Prionailurus_bengalensis,Prionailurus_viverrinus)))),(Felis_chaus,(Felis_nigripes,(Felis_margarita,((Felis_libyca,Felis_bieti),Felis_catus)))))))))))"
+pgloadind   postpruning newick tree "((Neofelis_nebulosa,((Panthera_tigris,Uncia_uncia),(Panthera_pardus,(Panthera_leo,Panthera_onca)))),((Pardofelis_marmorata,(Catopuma_badia,Catopuma_temminckii)),((Leptailurus_serval,(Caracal_caracal,Profelis_aurata)),(((Leopardus_pardalis,Leopardus_wiedii),((Leopardus_jacobita,Leopardus_colocolo),(Leopardus_tigrinus,(Leopardus_geoffroyi,Leopardus_guigna)))),((Lynx_rufus,(Lynx_canadensis,(Lynx_pardinus,Lynx_lynx))),((Acinonyx_jubatus,(Puma_concolor,Herpailurus_yaguarondi)),((Otocolobus_manul,(Prionailurus_rubiginosus,(Prionailurus_planiceps,(Prionailurus_bengalensis,Prionailurus_viverrinus)))),(Felis_chaus,(Felis_nigripes,(Felis_margarita,((Felis_silvestris_lybica,Felis_silvestris_bieti),Felis_catus)))))))))))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 763016 taxonomy "Neofelis nebulosa->Neofelis->Pantherinae->Felidae->Feliformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node754751"
 pgloadind     taxon mapping OTT ID 42314 taxonomy "Panthera tigris->Panthera->Pantherinae->Felidae->Feliformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node754754"
@@ -68,21 +70,23 @@ pgloadind   Adding tree to graph tree id "4052"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Leptailurus serval was remapped to 'Leptailurus' (id=335375)
-	Acinonyx jubatus was remapped to 'Acinonychinae' (id=335688)
-	Pardofelis marmorata was remapped to 'Pardofelis' (id=335614)
+	Herpailurus yaguarondi was remapped to 'Herpailurus' (id=335369)
+	Uncia uncia was remapped to 'Uncia' (id=335617)
 	Otocolobus manul was remapped to 'Otocolobus' (id=335386)
-	Puma yagouaroundi was remapped to 'Herpailurus' (id=335369)
-	Caracal caracal was remapped to 'Caracal' (id=335593)
-	Panthera uncia was remapped to 'Uncia' (id=335617)
-	Neofelis nebulosa was remapped to 'Neofelis' (id=335682)
+	Pardofelis marmorata was remapped to 'Pardofelis' (id=335614)
+	Leptailurus serval was remapped to 'Leptailurus' (id=335375)
 	Puma concolor was remapped to 'Puma' (id=335602)
+	Caracal caracal was remapped to 'Caracal' (id=335593)
+	Acinonyx jubatus was remapped to 'Acinonychinae' (id=335688)
 	Profelis aurata was remapped to 'Profelis' (id=335486)
+	Neofelis nebulosa was remapped to 'Neofelis' (id=335682)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
 Dealing with metadata property: ot:studyPublicationReference
 Adding property 'ot:studyPublicationReference': Johnson W.E., Eizirik E., Pecon-slattery J., Murphy W., Antunes A., Teeling E., & O'brien S. 2006. The Late Miocene Radiation of Modern Felidae: A Genetic Assessment. Science, 311(5757): 73-77.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Felidae
 Dealing with metadata property: ot:studyYear
 Adding property 'ot:studyYear': 2006
 Dealing with metadata property: ot:inGroupClade
@@ -94,7 +98,9 @@ Adding property 'ot:curatorName': Chris Owen
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1126/science.1122277
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 2515310
+Adding property 'ot:focalClade': 563159
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig. 1 ML
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 1981
 Dealing with metadata property: ot:dataDeposit

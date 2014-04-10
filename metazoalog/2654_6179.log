@@ -10,7 +10,7 @@ pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1111/j.1365
 pgloadind   property added ot:curatorName "Joseph Brown"
 pgloadind   property added ot:studyId "2654"
 pgloadind   property added ot:studyYear "2011"
-pgloadind   property added ot:focalClade "2515351"
+pgloadind   property added ot:focalClade "563241"
 pgloadind   property added ot:focalCladeOTTTaxonName "Leiognathidae"
 pgloadind   property added ot:tag "ingroup added;"
 pgloadind   property added ot:branchLengthMode "ot:time"
@@ -20,34 +20,41 @@ pgloadind   property added ot:curatedType "BEAST MCC tree"
 loading a specific tree: 6179
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "6179"
-pgloadind   all nodes have ottIds
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Leiognathus" nexsonid "node1057971"
-pgloadind       dubious OTT ID 611124
+pgloadind     OTT ID missing name "Leiognathus striatus" nexsonid "node1057972"
+pgloadind     OTT ID missing name "Leiognathus equulus" nexsonid "node1057980"
+pgloadind     OTT ID missing name "Leiognathus robustus" nexsonid "node1057983"
+pgloadind     OTT ID missing name "Karalla daura" nexsonid "node1058005"
+pgloadind     OTT ID missing name "Karalla dussumieri" nexsonid "node1058006"
+pgloadind   TNRS unmatched total number 0
+pgloadind     TNRS resolved ottId OTT ID 611139 name "Leiognathus equulus" searched on "Leiognathus equulus" nexsonid "node1057980"
+pgloadind     TNRS resolved ottId OTT ID 524536 name "Leiognathus robustus" searched on "Leiognathus robustus" nexsonid "node1057983"
+pgloadind     TNRS resolved ottId OTT ID 524539 name "Leiognathus daura" searched on "Karalla daura" nexsonid "node1058005"
+pgloadind     TNRS resolved ottId OTT ID 524542 name "Leiognathus dussumieri" searched on "Karalla dussumieri" nexsonid "node1058006"
+pgloadind     TNRS resolved ottId OTT ID 3633240 name "Leiognathus striatus" searched on "Leiognathus striatus" nexsonid "node1057972"
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Leiognathus striatus" nexsonid "node1057972"
 pgloadind       dubious OTT ID 3633240
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Leiognathus" nexsonid "node1057974"
-pgloadind       dubious OTT ID 611124
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Ornithonyssus" nexsonid "node1057974"
+pgloadind       duplicate OTT ID 690234
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Leiognathus equulus" nexsonid "node1057980"
 pgloadind       dubious OTT ID 611139
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Leiognathus" nexsonid "node1057982"
-pgloadind       dubious OTT ID 611124
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Ornithonyssus" nexsonid "node1057982"
+pgloadind       duplicate OTT ID 690234
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Leiognathus robustus" nexsonid "node1057983"
 pgloadind       dubious OTT ID 524536
 pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Leiognathus daura" nexsonid "node1058005"
+pgloadind       dubious name "Karalla daura" nexsonid "node1058005"
 pgloadind       dubious OTT ID 524539
 pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Leiognathus dussumieri" nexsonid "node1058006"
+pgloadind       dubious name "Karalla dussumieri" nexsonid "node1058006"
 pgloadind       dubious OTT ID 524542
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Nuchequula gerreoides" nexsonid "node1058018"
-pgloadind       dubious OTT ID 4136959
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Nuchequula decora" nexsonid "node1058018"
+pgloadind       duplicate OTT ID 611132
 pgloadind     OTT ID reused in tree
 pgloadind       duplicate name "Photopectoralis aureus" nexsonid "node1058030"
 pgloadind       duplicate OTT ID 632792
@@ -60,21 +67,23 @@ pgloadind       overlapping pruned name "Photopectoralis" nexsonid "node1058032"
 pgloadind     overlapping tips
 pgloadind       overlapping retained name "Secutor hanedai" nexsonid "node1058046"
 pgloadind       overlapping pruned name "Secutor" nexsonid "node1058051"
-pgloadind     pruning dups and overlapping name "Leiognathus" nexsonid "node1057974"
 pgloadind     pruning dups and overlapping name "Equulites" nexsonid "node1057993"
-pgloadind     pruning dups and overlapping name "Leiognathus" nexsonid "node1057982"
-pgloadind     pruning dups and overlapping name "Leiognathus equulus" nexsonid "node1057980"
-pgloadind     pruning dups and overlapping name "Leiognathus robustus" nexsonid "node1057983"
-pgloadind     pruning dups and overlapping name "Leiognathus daura" nexsonid "node1058005"
-pgloadind     pruning dups and overlapping name "Leiognathus striatus" nexsonid "node1057972"
-pgloadind     pruning dups and overlapping name "Leiognathus" nexsonid "node1057971"
+pgloadind     pruning dups and overlapping name "Nuchequula decora" nexsonid "node1058018"
+pgloadind     pruning dups and overlapping name "Karalla dussumieri" nexsonid "node1058006"
 pgloadind     pruning dups and overlapping name "Photopectoralis" nexsonid "node1058032"
-pgloadind     pruning dups and overlapping name "Nuchequula gerreoides" nexsonid "node1058018"
-pgloadind     pruning dups and overlapping name "Secutor" nexsonid "node1058051"
 pgloadind     pruning dups and overlapping name "Photopectoralis aureus" nexsonid "node1058030"
-pgloadind     pruning dups and overlapping name "Leiognathus dussumieri" nexsonid "node1058006"
-pgloadind   postpruning newick tree "(((((Equulites_stercorarius,(Equulites_lineolatus,Equulites_antongil)),(Equulites_laterofenestra,(Equulites_elongatus,(Equulites_rivulatus,(Equulites_absconditus,Equulites_leuciscus))))),(Nuchequula_blochii,(Nuchequula_nuchalis,((Nuchequula_flavaxilla,Nuchequula_mannusella),(Nuchequula_decora,Nuchequula_longicornis))))),(((Eubleekeria_jonesi,Eubleekeria_splendens),(Photopectoralis_bindus,(Photopectoralis_panayensis,Photopectoralis_aureus))),((Gazza_squamiventralis,(Gazza_minuta,(Gazza_achlamys,(Gazza_rhombea,Gazza_dentex)))),((Secutor_hanedai,(Secutor_megalolepis,Secutor_ruconius)),(Secutor_indicius,Secutor_insidiator))))),(Aurigequula_fasciata,Aurigequula_longispina))"
+pgloadind     pruning dups and overlapping name "Leiognathus robustus" nexsonid "node1057983"
+pgloadind     pruning dups and overlapping name "Ornithonyssus" nexsonid "node1057974"
+pgloadind     pruning dups and overlapping name "Ornithonyssus" nexsonid "node1057982"
+pgloadind     pruning dups and overlapping name "Secutor" nexsonid "node1058051"
+pgloadind     pruning dups and overlapping name "Leiognathus equulus" nexsonid "node1057980"
+pgloadind     pruning dups and overlapping name "Karalla daura" nexsonid "node1058005"
+pgloadind     pruning dups and overlapping name "Leiognathus striatus" nexsonid "node1057972"
+pgloadind   postpruning newick tree "(((Aurigequula_fasciata,Aurigequula_longispina),Ornithonyssus),((((Equulites_stercorarius,(Equulites_lineolatus,Equulites_antongil)),(Equulites_laterofenestra,(Equulites_elongatus,(Equulites_rivulatus,(Equulites_absconditus,Equulites_leuciscus))))),(Nuchequula_blochii,(Nuchequula_nuchalis,((Nuchequula_flavaxilla,Nuchequula_mannusella),(Nuchequula_decora,Nuchequula_longicornis))))),(((Eubleekeria_jonesi,Eubleekeria_splendens),(Photopectoralis_bindus,(Photopectoralis_panayensis,Photopectoralis_aureus))),((Gazza_squamiventralis,(Gazza_minuta,(Gazza_achlamys,(Gazza_rhombea,Gazza_dentex)))),((Secutor_hanedai,(Secutor_megalolepis,Secutor_ruconius)),(Secutor_indicius,Secutor_insidiator))))))"
 pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 654588 taxonomy "Aurigequula fasciata->Aurigequula->Leiognathidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1057976"
+pgloadind     taxon mapping OTT ID 885825 taxonomy "Aurigequula longispina->Aurigequula->Leiognathidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1057977"
+pgloadind     taxon mapping OTT ID 690234 taxonomy "Ornithonyssus->Macronyssidae->Dermanyssoidea->Dermanyssina->Monogynaspida->Mesostigmata->Parasitiformes->Acari->Arachnida->Chelicerata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1057971"
 pgloadind     taxon mapping OTT ID 611152 taxonomy "Equulites stercorarius->Equulites->Leiognathidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1057988"
 pgloadind     taxon mapping OTT ID 1080420 taxonomy "Equulites lineolatus->Equulites->Leiognathidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1057990"
 pgloadind     taxon mapping OTT ID 3633247 taxonomy "Equulites antongil->Equulites->Leiognathidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1057992"
@@ -104,8 +113,6 @@ pgloadind     taxon mapping OTT ID 89853 taxonomy "Secutor megalolepis->Secutor-
 pgloadind     taxon mapping OTT ID 151865 taxonomy "Secutor ruconius->Secutor->Leiognathidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1058049"
 pgloadind     taxon mapping OTT ID 89838 taxonomy "Secutor indicius->Secutor->Leiognathidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1058053"
 pgloadind     taxon mapping OTT ID 242507 taxonomy "Secutor insidiator->Secutor->Leiognathidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1058054"
-pgloadind     taxon mapping OTT ID 654588 taxonomy "Aurigequula fasciata->Aurigequula->Leiognathidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1057976"
-pgloadind     taxon mapping OTT ID 885825 taxonomy "Aurigequula longispina->Aurigequula->Leiognathidae->Percoidei->Perciformes->Percomorpha->Euacanthopterygii->Acanthopterygii->Holacanthopterygii->Euacanthomorpha->Acanthomorpha->Ctenosquamata->Eurypterygii->Neoteleostei->Neognathi->Euteleostei->Clupeocephala->Elopocephala->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1057977"
 done fixing name
 pgloadind Finished with attempts to fix names
 pgloadind   Checking for uniqueness of OTT IDs tree id "6179"
@@ -113,6 +120,7 @@ pgloadind   Adding tree to graph tree id "6179"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
+	Ornithonyssus was remapped to 'Protostomia' (id=571141)
 this is the ROOT
 placing root in index
 Dealing with metadata property: ot:studyPublicationReference
@@ -137,7 +145,7 @@ Adding property 'ot:studyPublication': http://dx.doi.org/10.1111/j.1365-294X.201
 Dealing with metadata property: ot:curatorName
 Adding property 'ot:curatorName': Joseph Brown
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 2515351
+Adding property 'ot:focalClade': 563241
 Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': BEAST MCC tree
-Committing nodes: 61
+Committing nodes: 63
