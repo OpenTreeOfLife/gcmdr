@@ -204,6 +204,18 @@ these are the studies identified by Chris, plus others from JWB
 "2619_6131", # Elasmobranchii. Shiina. 2013. Biomed. Res. Int.
 "2614_6121", # Nicrophorus. Sikes and Venables. 2013.
 "2864_6651", # Platalea. Chesser et al. 2010. Zootaxa
+"2461_6655", # Hawaiian Drosophila. Baker and Desalle. 1997. Syst. Biol.
+"2865_6654", # Cynanthus. Garcia-Deras et al. 2008. Zootaxa.
+"2866_6656", # Anseriformes. Gonzalez et al. 2009. J. Zool.
+"2868_6660", # Metazoa. Pick et al. 2010. MBE
+"2867_6658", # Metazoa. Philippe et al. 2009. Curr. Biol.
+"2869_6661", # Bucerotiformes. Gonzalez et al. 2013. MPE
+"2870_6662", # Falconidae. Fuchs et al. 2011. MPE
+"2871_6663", # Falconidae. Fuchs et al. 2012. Ibis
+"1872_3780", # Gruiformes. Fain et al 2007. MPE
+"2872_6665", # Caprimuligidae. Han et al. MPE
+
+
 
 """
 
@@ -253,8 +265,10 @@ these are the studies identified by Chris, plus others from JWB
 "2455_6408",
 "2457_6416",
 "2458_6436",
+
 "2459_6437",
-"2461_5286",
+
+
 "2506_5398",
 "2514_6439",
 "2524_6441",
@@ -317,6 +331,7 @@ studytreelist=[
 #"2067_4258", # Boreoeutheria. Yoder and Yang. 2004. Mol. Ecol.
 
 
-"2865_6654", # Cynanthus. Garcia-Deras et al. 2008. Zootaxa.
+
+
 
             ]

@@ -12,6 +12,11 @@ http://www.sciencemag.org/content/341/6143/292 [not sure where to find this tree
 
 studytreelist=[
      ## Birds
+               "2872_6665", # Caprimuligidae. Han et al. MPE
+               "1872_3780", # Gruiformes. Fain et al 2007. MPE
+               "2869_6661", # Bucerotiformes. Gonzalez et al. 2013. MPE
+               "2870_6662", # Falconidae. Fuchs et al. 2011. MPE
+               "2871_6663", # Falconidae. Fuchs et al. 2012. Ibis
                "2864_6651", # Platalea. Chesser et al. 2010. Zootaxa
                "2845_6606", # Sitta. Pasquet et al. 2014. J. Ornith.
                "2806_6529", # Psittaciformes. Joseph et al. 2011. MPE
@@ -22,8 +27,10 @@ studytreelist=[
                "2850_6620", # Columbidae. Cibois et al. 2014. MPE
                "2444_6526", # Columbiformes. Pereira et al. 2007. Syst. Biol.
                "2798_6497", # Spheniscidae. Subramanian et al. 2013. Biol. Lett.
+               "2866_6656", # Anseriformes. Gonzalez et al. 2009. J. Zool.
                "2860_6646", # Anatidae. Fulton et al. 2012. Proc. Roy. Soc.
                "2577_5980", # Galliformes. Wang et al. 2013. PLoS ONE
+               "2865_6654", # Cynanthus. Garcia-Deras et al. 2008. Zootaxa.
                "2853_6624", # Trochilidae. McGuire et al. 2014. Curr. Biol. *** Replaces McGuire et al. 2007. Syst. Biol.
                #"2658_6192", # Trochilidae. McGuire et al. 2007. Syst. Biol.
                "2796_6491", # Pipridae. Ohlson et al. 2013. MPE
@@ -87,8 +94,8 @@ studytreelist=[
                "2415_5096", # Turtles. Guillon et al. 2012. Contributions to Zoology
                "423_2857",  # Amphibia. Pyron and Weins. 2011. MPE
                "2573_5959", # Sauria. Crawford et al. 2012. Biology Letters
-               "2711_6295", # Henophidia. Reynolds et al. 2014. MPE *** check this doesn't break the Pyron study
-               "2460_5285", # Squamata. Pyron et al. 2013. BMC Evol. Biol. -- Anolis nonmonophyly
+    ##           "2711_6295", # Henophidia. Reynolds et al. 2014. MPE *** check this doesn't break the Pyron study
+    ##           "2460_5285", # Squamata. Pyron et al. 2013. BMC Evol. Biol. -- Anolis nonmonophyly
 
      ## Decapoda
                "1252_2661", # maps to: Anomura
