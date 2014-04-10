@@ -4,11 +4,11 @@ This includes the studies and the ottolid
 import load_synth_extract
 
 
-studytreelist=["240_123",#Pezizomycotina
+studytreelist=["2818_6563", #hibbett 2007
+               "240_123",#Pezizomycotina
                "827_1585",#Blastocladiomycota
                "1144_5800",#Entomophthoromycota
                "439_5514",#Glomeromycota
-               "2818_6563", #hibbett 2007
                #"238_110",#Ascomycota	<- mapped back to Eukaryota
                "1197_5822",#Fungi
                "2701_6271",#Dikarya	<- mapped back to Eukaryota

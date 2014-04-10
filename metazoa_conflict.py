@@ -2,11 +2,10 @@ from general_tm_utils import *
 from general_utils import *
 
 studytreelist=[
-              "2418_6152", # Metazoa. Evans and Cartwright. 2010. MBE *** not working for some reason...
-              "1217_2455", # Metazoa. Delsuc et al. 2008. Genesis
               "2710_6291",  # Metazoa. Ryan et al. 2013. Science *** need to choose best Metazoa tree(s)
               "413_524",
-              "2407_6390" # Bilateria. Anderson et al. 2004. JME
+              "2867_6658", # philippe et al 2009
+              "2868_6660" #pick et al 2010
             ]
 
 studytreelistTF = [True] * len(studytreelist)
@@ -14,7 +13,7 @@ studytreelistTF = [True] * len(studytreelist)
 if __name__ == "__main__":
 	synthottolid = "691846" #Metazoa
 	print "loading studytreelist:",studytreelist
-	depth = 2
+	depth = 3
 	#location of studies
 	studyloc="/media/data/avatol_nexsons"
 	#location of just ott database
