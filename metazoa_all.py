@@ -214,7 +214,7 @@ these are the studies identified by Chris, plus others from JWB
 "2871_6663", # Falconidae. Fuchs et al. 2012. Ibis
 "1872_3780", # Gruiformes. Fain et al 2007. MPE
 "2872_6665", # Caprimuligidae. Han et al. MPE
-
+"1953_3977", # Furnariidae. Derryberry et al. 2001. Evolution
 
 
 """
@@ -329,7 +329,6 @@ these are the studies identified by Chris, plus others from JWB
 studytreelist=[
 
 #"2067_4258", # Boreoeutheria. Yoder and Yang. 2004. Mol. Ecol.
-
 
 
 
