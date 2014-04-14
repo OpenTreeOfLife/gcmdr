@@ -11,18 +11,16 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1158"
 pgloadind   property added ot:studyId "2581"
 pgloadind   property added ot:studyYear "2004"
-pgloadind   property added ot:focalClade "2552300"
+pgloadind   property added ot:focalClade "638494"
 pgloadind   property added ot:focalCladeOTTTaxonName "Membracidae"
 pgloadind   property added ot:inGroupClade "node1016229"
 pgloadind   property added ot:curatedType "Fig 3. MP strict consensus"
 loading a specific tree: 5987
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "5987"
-pgloadind   all nodes have ottIds
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Membracini sp. NYSM 97-02-19-86" nexsonid "node1016245"
-pgloadind       dubious OTT ID 4201230
-pgloadind     pruning dups and overlapping name "Membracini sp. NYSM 97-02-19-86" nexsonid "node1016245"
+pgloadind     OTT ID missing name "undet Membracini" nexsonid "node1016245"
+pgloadind   TNRS unmatched total number 1
+pgloadind     pruning unmapped name "undet Membracini" nexsonid "node1016245"
 pgloadind   postpruning newick tree "(((((((Aconophora_flavipes,(Calloconophora_sp_NYSM_95-02-01-28,Guayaquila_gracilicornis)),((Enchenopa_binotata,Membracis_sp_NYSM_97-02-19-42),Tylopelta_sp_NYSM_97-02-19-17)),((Alchisme_sp_NYSM_96-09-16-68,Umbonia_crassicornis),Ochropepla_mourei)),(Cladonota_apicalis,(Notocera_sp_NYSM_96-09-16-79,Scalmophorus_minutus))),((((((Antianthe_sp_NYSM_95-02-01-39,Cyrtolobus_tuberosus),((Cyrtolobus_fenestratus,(Cyrtolobus_maculifrontis,Xantholobus_muticus)),(Ophiderma_definita,((Ophiderma_evelyna,Ophiderma_pubescens),Ophiderma_grisea),Ophiderma_flavicephala))),((Cyrtolobus_arcuatus,Cyrtolobus_fuliginosus),(Carynota_mera,(Glossonotus_acuminatus,(Telamona_monticola,Telamona_unicolor)))),((Ennya_sp_NYSM_95-02-01-45,Metheisa_lucillodes),Polyglypta_sp_NYSM_96-09-16-37)),Harmonides_sp_NYSM_95-02-01-46),(Acutalis_tartarea,(Cyphonia_clavata,(((Stictocephala_brevitylus,Spissistilus_festinus),Stictocephala_taurina),Vestistilus_variabilis)))),(Cymbomorpha_sp_1,(Darnis_latior,Stictopelta_sp_NYSM_Lin_LSCT-1)))),Micrutalis_calva),(((((((Brachybelus_cruralis,Campylocentrus_sp_NYSM_95-05-12-52),(Centrodontus_atlas,(Platycentrus_acuticornis,Tylocentrus_reticulatus))),(Callicentrus_sp_NYSM_97-02-19-45,Nessorhinus_sp_NYSM_CRB_Nes)),((Eufairmairia_fraterna,Ceraon_vitta,Sextius_virescens),Pyrgauchenia_sp_NYSM_Stegmann_Pyr2)),(Gargara_sp_NYSM_Lin_GAR-1,Anchon_sp_NYSM_95-02-01-35),Ischnocentrus_niger),(Deiroderes_inermis,(Microcentrus_caryae,Antillotolania_microcentroides))),Lycoderes_sp_NYSM_96-09-16-34))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 107176 taxonomy "Aconophora flavipes->Aconophora->Membracidae->Membracoidea->Clypeorrhyncha->Euhemiptera->Hemiptera->Paraneoptera->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1016236"
@@ -92,52 +90,52 @@ pgloadind   Adding tree to graph tree id "5987"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Enchenopa binotata was remapped to 'Enchenopa' (id=1056746)
-	Callicentrus sp. NYSM 97-02-19-45 was remapped to 'Callicentrus' (id=1056657)
-	Harmonides sp. NYSM 95-02-01-46 was remapped to 'Harmonides' (id=1055178)
-	Anchon sp. NYSM 95-02-01-35 was remapped to 'Anchon' (id=1056328)
-	Scalmophorus minutus was remapped to 'Scalmophorus' (id=1055662)
-	Campylocentrus sp. NYSM 95-05-12-52 was remapped to 'Campylocentrus' (id=1055551)
-	Gargara sp. NYSM Lin GAR-1 was remapped to 'Gargara' (id=1055184)
-	Umbonia crassicornis was remapped to 'Umbonia' (id=1056784)
-	Carynota mera was remapped to 'Carynota' (id=1056453)
-	Ceraon vitta was remapped to 'Ceraon' (id=1055531)
-	Eufairmairia fraterna was remapped to 'Eufairmairia' (id=1056243)
-	Centrodontus atlas was remapped to 'Centrodontus' (id=1056679)
-	Alchisme sp. NYSM 96-09-16-68 was remapped to 'Alchisme' (id=1055369)
-	Brachybelus cruralis was remapped to 'Brachybelus' (id=1056388)
-	Ochropepla mourei was remapped to 'Ochropepla' (id=1056628)
-	Platycentrus acuticornis was remapped to 'Platycentrus' (id=1056620)
-	Metheisa lucillodes was remapped to 'Metheisa' (id=1055844)
-	Aconophora flavipes was remapped to 'Aconophora' (id=1055432)
-	Notocera sp. NYSM 96-09-16-79 was remapped to 'Notocera' (id=1055899)
-	Cymbomorpha sp. 1 was remapped to 'Cymbomorpha' (id=1055643)
-	Tylopelta sp. NYSM 97-02-19-17 was remapped to 'Tylopelta' (id=1057146)
-	Tylocentrus reticulatus was remapped to 'Tylocentrus' (id=1056865)
-	Ennya sp. NYSM 95-02-01-45 was remapped to 'Ennya' (id=1056271)
-	Vestistilus variabilis was remapped to 'Vestistilus' (id=1055958)
-	Antianthe sp. NYSM 95-02-01-39 was remapped to 'Antianthe' (id=1056377)
-	Stictopelta sp. NYSM Lin LSCT-1 was remapped to 'Stictopelta' (id=1056868)
-	Guayaquila gracilicornis was remapped to 'Guayaquila' (id=1055150)
-	Spissistilus festinus was remapped to 'Spissistilus' (id=1056315)
-	Lycoderes sp. NYSM 96-09-16-34 was remapped to 'Lycoderes' (id=1056708)
-	Darnis latior was remapped to 'Darnis' (id=1056263)
-	Acutalis tartarea was remapped to 'Acutalis' (id=1055420)
-	Xantholobus muticus was remapped to 'Xantholobus' (id=1056298)
-	Cladonota apicalis was remapped to 'Cladonota' (id=1055594)
-	Micrutalis calva was remapped to 'Micrutalis' (id=1056804)
-	Ischnocentrus niger was remapped to 'Ischnocentrus' (id=1055144)
-	Cyphonia clavata was remapped to 'Cyphonia' (id=1055567)
-	Polyglypta sp. NYSM 96-09-16-37 was remapped to 'Polyglypta' (id=1056614)
-	Deiroderes inermis was remapped to 'Deiroderes' (id=1056291)
-	Nessorhinus sp. NYSM CRB Nes was remapped to 'Nessorhinus' (id=1055923)
-	Antillotolania microcentroides was remapped to 'Antillotolania' (id=1056675)
-	Membracis sp. NYSM 97-02-19-42 was remapped to 'Membracis' (id=1055847)
-	Pyrgauchenia sp. NYSM Stegmann Pyr2 was remapped to 'Pyrgauchenia' (id=1056640)
-	Microcentrus caryae was remapped to 'Microcentrus' (id=1055937)
-	Glossonotus acuminatus was remapped to 'Glossonotus' (id=1056445)
-	Sextius virescens was remapped to 'Sextius' (id=1055665)
-	Calloconophora sp. NYSM 95-02-01-28 was remapped to 'Calloconophora' (id=1056391)
+	Polyglypta sp. NYSM 96-09-16-37 was remapped to 'Polyglypta' (id=1149181)
+	Deiroderes inermis was remapped to 'Deiroderes' (id=1148858)
+	Scalmophorus minutus was remapped to 'Scalmophorus' (id=1148229)
+	Guayaquila gracilicornis was remapped to 'Guayaquila' (id=1147717)
+	Umbonia crassicornis was remapped to 'Umbonia' (id=1149351)
+	Nessorhinus sp. NYSM CRB Nes was remapped to 'Nessorhinus' (id=1148490)
+	Gargara sp. NYSM Lin GAR-1 was remapped to 'Gargara' (id=1147751)
+	Antillotolania microcentroides was remapped to 'Antillotolania' (id=1149242)
+	Cladonota apicalis was remapped to 'Cladonota' (id=1148161)
+	Lycoderes sp. NYSM 96-09-16-34 was remapped to 'Lycoderes' (id=1149275)
+	Cymbomorpha sp. 1 was remapped to 'Cymbomorpha' (id=1148210)
+	Anchon sp. NYSM 95-02-01-35 was remapped to 'Anchon' (id=1148895)
+	Membracis sp. NYSM 97-02-19-42 was remapped to 'Membracis' (id=1148414)
+	Tylopelta sp. NYSM 97-02-19-17 was remapped to 'Tylopelta' (id=1149713)
+	Acutalis tartarea was remapped to 'Acutalis' (id=1147987)
+	Xantholobus muticus was remapped to 'Xantholobus' (id=1148865)
+	Microcentrus caryae was remapped to 'Microcentrus' (id=1148504)
+	Cyphonia clavata was remapped to 'Cyphonia' (id=1148134)
+	Ceraon vitta was remapped to 'Ceraon' (id=1148098)
+	Eufairmairia fraterna was remapped to 'Eufairmairia' (id=1148810)
+	Alchisme sp. NYSM 96-09-16-68 was remapped to 'Alchisme' (id=1147936)
+	Darnis latior was remapped to 'Darnis' (id=1148830)
+	Ochropepla mourei was remapped to 'Ochropepla' (id=1149195)
+	Spissistilus festinus was remapped to 'Spissistilus' (id=1148882)
+	Ischnocentrus niger was remapped to 'Ischnocentrus' (id=1147711)
+	Aconophora flavipes was remapped to 'Aconophora' (id=1147999)
+	Ennya sp. NYSM 95-02-01-45 was remapped to 'Ennya' (id=1148838)
+	Platycentrus acuticornis was remapped to 'Platycentrus' (id=1149187)
+	Centrodontus atlas was remapped to 'Centrodontus' (id=1149246)
+	Stictopelta sp. NYSM Lin LSCT-1 was remapped to 'Stictopelta' (id=1149435)
+	Pyrgauchenia sp. NYSM Stegmann Pyr2 was remapped to 'Pyrgauchenia' (id=1149207)
+	Notocera sp. NYSM 96-09-16-79 was remapped to 'Notocera' (id=1148466)
+	Antianthe sp. NYSM 95-02-01-39 was remapped to 'Antianthe' (id=1148944)
+	Brachybelus cruralis was remapped to 'Brachybelus' (id=1148955)
+	Glossonotus acuminatus was remapped to 'Glossonotus' (id=1149012)
+	Enchenopa binotata was remapped to 'Enchenopa' (id=1149313)
+	Vestistilus variabilis was remapped to 'Vestistilus' (id=1148525)
+	Calloconophora sp. NYSM 95-02-01-28 was remapped to 'Calloconophora' (id=1148958)
+	Tylocentrus reticulatus was remapped to 'Tylocentrus' (id=1149432)
+	Harmonides sp. NYSM 95-02-01-46 was remapped to 'Harmonides' (id=1147745)
+	Micrutalis calva was remapped to 'Micrutalis' (id=1149371)
+	Campylocentrus sp. NYSM 95-05-12-52 was remapped to 'Campylocentrus' (id=1148118)
+	Metheisa lucillodes was remapped to 'Metheisa' (id=1148411)
+	Sextius virescens was remapped to 'Sextius' (id=1148232)
+	Carynota mera was remapped to 'Carynota' (id=1149020)
+	Callicentrus sp. NYSM 97-02-19-45 was remapped to 'Callicentrus' (id=1149224)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -154,7 +152,7 @@ Adding property 'ot:curatorName': Chris Owen
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1111/j.0307-6970.2004.00260.x
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 2552300
+Adding property 'ot:focalClade': 638494
 Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': Fig 3. MP strict consensus
 Dealing with metadata property: ot:studyId

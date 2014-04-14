@@ -1,6 +1,17 @@
 pgloadind OTUs number 64
 pgloadind Processing tree @id "4215"
-pgloadind Tree tagged as deprecated. Ignoring. @id "4215"
+pgloadind   tree info number nodes 102
+pgloadind   tree info number edges 101
+pgloadind   Ingested tree number of external nodes 64
+pgloadind   property added ot:studyPublicationReference "Bock, C., Luo, W., Kusber, W. H., Hegewald, E., Pažoutová, M., & Krienitz, L. (2013). Classification of Crucigenoid Algae: Phylogenetic Position of the Reinstated Genus Lemmermannia, Tetrastrum spp. Crucigenia tetrapedia, and C. lauterbornii (Trebouxiophyceae, Chlorophyta) 1. Journal of Phycology. 49:329–339"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1111/jpy.12039"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S13453"
+pgloadind   property added ot:studyId "2046"
+pgloadind   property added ot:studyYear "2013"
+pgloadind   property added ot:focalClade "155230"
+pgloadind   property added ot:focalCladeOTTTaxonName "Trebouxiophyceae"
+pgloadind   property added ot:curatedType "18S-ITS Chlorellaceae NJ boot"
 pgloadind Processing tree @id "4216"
 pgloadind   tree info number nodes 102
 pgloadind   tree info number edges 101
@@ -11,7 +22,7 @@ pgloadind   property added ot:curatorName "bryan drew"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S13453"
 pgloadind   property added ot:studyId "2046"
 pgloadind   property added ot:studyYear "2013"
-pgloadind   property added ot:focalClade "2311035"
+pgloadind   property added ot:focalClade "155230"
 pgloadind   property added ot:focalCladeOTTTaxonName "Trebouxiophyceae"
 pgloadind   property added ot:curatedType "18S-ITS Chlorellaceae MP bootstrap"
 pgloadind Processing tree @id "5928"
@@ -26,7 +37,7 @@ pgloadind   property added ot:curatorName "bryan drew"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S13453"
 pgloadind   property added ot:studyId "2046"
 pgloadind   property added ot:studyYear "2013"
-pgloadind   property added ot:focalClade "2311035"
+pgloadind   property added ot:focalClade "155230"
 pgloadind   property added ot:focalCladeOTTTaxonName "Trebouxiophyceae"
 pgloadind   property added ot:branchLengthMode "ot:bootstrapValues"
 pgloadind   property added ot:inGroupClade "node1006080"
@@ -43,11 +54,12 @@ pgloadind   property added ot:curatorName "bryan drew"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S13453"
 pgloadind   property added ot:studyId "2046"
 pgloadind   property added ot:studyYear "2013"
-pgloadind   property added ot:focalClade "2311035"
+pgloadind   property added ot:focalClade "155230"
 pgloadind   property added ot:focalCladeOTTTaxonName "Trebouxiophyceae"
 pgloadind   property added ot:inGroupClade "node1006183"
 pgloadind   property added ot:curatedType "18S-ITS Chlorellaceae MP bootstrap"
 loading a specific tree: 5928
+skipping tree: 4215
 skipping tree: 4216
 skipping tree: 5929
 pgloadind conducting TNRS on trees
@@ -59,9 +71,6 @@ pgloadind       dubious OTT ID 360743
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Parachlorella sp. CCAP 206/1" nexsonid "node1006085"
 pgloadind       dubious OTT ID 1070583
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Chlorella pituita" nexsonid "node1006093"
-pgloadind       dubious OTT ID 75845
 pgloadind     OTT ID reused in tree
 pgloadind       duplicate name "Chlorella pulchelloides" nexsonid "node1006102"
 pgloadind       duplicate OTT ID 4734267
@@ -83,6 +92,9 @@ pgloadind       dubious OTT ID 1079561
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Heynigia riparia" nexsonid "node1006125"
 pgloadind       dubious OTT ID 658025
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Chlorella pituita" nexsonid "node1006128"
+pgloadind       duplicate OTT ID 4734245
 pgloadind     OTT ID reused in tree
 pgloadind       duplicate name "Chlorella pituita" nexsonid "node1006129"
 pgloadind       duplicate OTT ID 4734245
@@ -161,50 +173,51 @@ pgloadind       dubious OTT ID 978508
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Dicloster acuatus" nexsonid "node1006180"
 pgloadind       dubious OTT ID 386113
-pgloadind     pruning dups and overlapping name "Mucidosphaerium palustre" nexsonid "node1006135"
 pgloadind     pruning dups and overlapping name "Mucidosphaerium pulchellum" nexsonid "node1006137"
-pgloadind     pruning dups and overlapping name "Dictyosphaerium libertatis" nexsonid "node1006162"
-pgloadind     pruning dups and overlapping name "Actinastrum hantzschii" nexsonid "node1006122"
-pgloadind     pruning dups and overlapping name "Chlorella pituita" nexsonid "node1006093"
-pgloadind     pruning dups and overlapping name "Dictyosphaerium lacustre" nexsonid "node1006153"
-pgloadind     pruning dups and overlapping name "Dictyosphaerium ehrenbergianum" nexsonid "node1006158"
-pgloadind     pruning dups and overlapping name "Chlorella pituita" nexsonid "node1006129"
 pgloadind     pruning dups and overlapping name "Marasphaerium gattermannii" nexsonid "node1006172"
-pgloadind     pruning dups and overlapping name "Meyerella planktonica" nexsonid "node1006121"
-pgloadind     pruning dups and overlapping name "Dictyosphaerium ehrenbergianum" nexsonid "node1006160"
-pgloadind     pruning dups and overlapping name "Heynigia riparia" nexsonid "node1006125"
-pgloadind     pruning dups and overlapping name "Parachlorella beijerinckii" nexsonid "node1006140"
 pgloadind     pruning dups and overlapping name "Dictyosphaerium sp. CB 2008/108" nexsonid "node1006084"
+pgloadind     pruning dups and overlapping name "Dictyosphaerium ehrenbergianum" nexsonid "node1006158"
+pgloadind     pruning dups and overlapping name "Parachlorella kessleri" nexsonid "node1006142"
 pgloadind     pruning dups and overlapping name "Dicloster acuatus" nexsonid "node1006180"
-pgloadind     pruning dups and overlapping name "Chlorella pulchelloides" nexsonid "node1006102"
-pgloadind     pruning dups and overlapping name "Dictyosphaerium sp. CCAP 222/43" nexsonid "node1006179"
+pgloadind     pruning dups and overlapping name "Dictyosphaerium sp. ACOI 1988" nexsonid "node1006174"
+pgloadind     pruning dups and overlapping name "Parachlorella beijerinckii" nexsonid "node1006140"
+pgloadind     pruning dups and overlapping name "Parachlorella hussii" nexsonid "node1006141"
+pgloadind     pruning dups and overlapping name "Dictyosphaerium sp. CCAP 222/25" nexsonid "node1006166"
+pgloadind     pruning dups and overlapping name "Dictyosphaerium ehrenbergianum" nexsonid "node1006161"
+pgloadind     pruning dups and overlapping name "Compactochlorella kochii" nexsonid "node1006148"
+pgloadind     pruning dups and overlapping name "Chlorella pituita" nexsonid "node1006128"
+pgloadind     pruning dups and overlapping name "Heynigia dictyosphaerioides" nexsonid "node1006124"
+pgloadind     pruning dups and overlapping name "Dictyosphaerium lacustre" nexsonid "node1006153"
+pgloadind     pruning dups and overlapping name "Dictyosphaerium sp. CCAP 222/1C" nexsonid "node1006175"
+pgloadind     pruning dups and overlapping name "Mucidosphaerium planctonicum" nexsonid "node1006133"
+pgloadind     pruning dups and overlapping name "Kalenjinia gelatinosa" nexsonid "node1006169"
+pgloadind     pruning dups and overlapping name "Chlorella pituita" nexsonid "node1006129"
+pgloadind     pruning dups and overlapping name "Mucidosphaerium sphagnale" nexsonid "node1006136"
+pgloadind     pruning dups and overlapping name "Dictyosphaerium lacustre" nexsonid "node1006152"
+pgloadind     pruning dups and overlapping name "Actinastrum hantzschii" nexsonid "node1006122"
+pgloadind     pruning dups and overlapping name "Chlorella pulchelloides" nexsonid "node1006103"
+pgloadind     pruning dups and overlapping name "Dictyosphaerium ehrenbergianum" nexsonid "node1006160"
+pgloadind     pruning dups and overlapping name "Parachlorella sp. CCAP 206/1" nexsonid "node1006085"
 pgloadind     pruning dups and overlapping name "Compactochlorella kochii" nexsonid "node1006149"
 pgloadind     pruning dups and overlapping name "Dictyosphaerium ehrenbergianum" nexsonid "node1006157"
-pgloadind     pruning dups and overlapping name "Mucidosphaerium sphagnale" nexsonid "node1006136"
-pgloadind     pruning dups and overlapping name "Dictyosphaerium sp. CCAP 222/25" nexsonid "node1006166"
-pgloadind     pruning dups and overlapping name "Chlorella variabilis" nexsonid "node1006109"
-pgloadind     pruning dups and overlapping name "Parachlorella kessleri" nexsonid "node1006142"
-pgloadind     pruning dups and overlapping name "Parachlorella sp. CCAP 206/1" nexsonid "node1006085"
-pgloadind     pruning dups and overlapping name "Kalenjinia gelatinosa" nexsonid "node1006169"
-pgloadind     pruning dups and overlapping name "Dictyosphaerium ehrenbergianum" nexsonid "node1006161"
-pgloadind     pruning dups and overlapping name "Chlorella pulchelloides" nexsonid "node1006103"
-pgloadind     pruning dups and overlapping name "Dictyosphaerium sp. ACOI 1988" nexsonid "node1006174"
-pgloadind     pruning dups and overlapping name "Masaia oloidia" nexsonid "node1006165"
-pgloadind     pruning dups and overlapping name "Compactochlorella kochii" nexsonid "node1006148"
-pgloadind     pruning dups and overlapping name "Dictyosphaerium lacustre" nexsonid "node1006152"
-pgloadind     pruning dups and overlapping name "Dictyosphaerium sp. CCAP 222/1C" nexsonid "node1006175"
-pgloadind     pruning dups and overlapping name "Parachlorella hussii" nexsonid "node1006141"
 pgloadind     pruning dups and overlapping name "Hindakia fallax" nexsonid "node1006130"
-pgloadind     pruning dups and overlapping name "Mucidosphaerium planctonicum" nexsonid "node1006133"
-pgloadind     pruning dups and overlapping name "Heynigia dictyosphaerioides" nexsonid "node1006124"
-pgloadind   postpruning newick tree "((Chlorella_elongata,(Chlorella_sorokiniana,Chlorella_lewinii),Chlorella_volutis,(Chlorella_lobophora,Chlorella_vulgaris),Crucigenia_lauterbornii,((Chlorella_chlorelloides,Chlorella_pulchelloides),Chlorella_singularis,Chlorella_coloniales),(Chlorella_rotunda,Chlorella_heliozoae),(Micractinium_pusillum,Micractinium_belenophorum),(Didymogenes_palatina,Didymogenes_anomala),Meyerella_planktonica,Coronastrum_ellipsoideum,Chlorella_variabilis,Chlorella_pituita),(((Compactochlorella_dohrmannii,Compactochlorella_kochii),Marasphaerium_gattermannii,Kalenjinia_gelatinosa,Masaia_oloidia),Closteriopsis_acicularis))"
+pgloadind     pruning dups and overlapping name "Dictyosphaerium sp. CCAP 222/43" nexsonid "node1006179"
+pgloadind     pruning dups and overlapping name "Dictyosphaerium libertatis" nexsonid "node1006162"
+pgloadind     pruning dups and overlapping name "Masaia oloidia" nexsonid "node1006165"
+pgloadind     pruning dups and overlapping name "Chlorella variabilis" nexsonid "node1006109"
+pgloadind     pruning dups and overlapping name "Chlorella pulchelloides" nexsonid "node1006102"
+pgloadind     pruning dups and overlapping name "Heynigia riparia" nexsonid "node1006125"
+pgloadind     pruning dups and overlapping name "Meyerella planktonica" nexsonid "node1006121"
+pgloadind     pruning dups and overlapping name "Mucidosphaerium palustre" nexsonid "node1006135"
+pgloadind   postpruning newick tree "((Chlorella_elongata,(Chlorella_sorokiniana,Chlorella_lewinii),Chlorella_volutis,((Chlorella_pituita,Chlorella_vulgaris),Chlorella_lobophora),Crucigenia_lauterbornii,((Chlorella_chlorelloides,Chlorella_pulchelloides),Chlorella_singularis,Chlorella_coloniales),(Chlorella_rotunda,Chlorella_heliozoae),(Micractinium_pusillum,Micractinium_belenophorum),(Didymogenes_palatina,Didymogenes_anomala),Coronastrum_ellipsoideum,Chlorella_variabilis,Meyerella_planktonica),(((Compactochlorella_dohrmannii,Compactochlorella_kochii),Marasphaerium_gattermannii,Kalenjinia_gelatinosa,Masaia_oloidia),Closteriopsis_acicularis))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 950986 taxonomy "Chlorella elongata->Chlorella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006086"
 pgloadind     taxon mapping OTT ID 339037 taxonomy "Chlorella sorokiniana->Chlorella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006088"
 pgloadind     taxon mapping OTT ID 799180 taxonomy "Chlorella lewinii->Chlorella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006089"
 pgloadind     taxon mapping OTT ID 301036 taxonomy "Chlorella volutis->Chlorella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006090"
-pgloadind     taxon mapping OTT ID 651339 taxonomy "Chlorella lobophora->Chlorella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006095"
+pgloadind     taxon mapping OTT ID 4734245 taxonomy "Chlorella pituita->Chlorella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006093"
 pgloadind     taxon mapping OTT ID 804978 taxonomy "Chlorella vulgaris->Chlorella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006094"
+pgloadind     taxon mapping OTT ID 651339 taxonomy "Chlorella lobophora->Chlorella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006095"
 pgloadind     taxon mapping OTT ID 5153032 taxonomy "Crucigenia lauterbornii->Crucigenia->Scenedesmaceae->Sphaeropleales->Chlorophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006096"
 pgloadind     taxon mapping OTT ID 159742 taxonomy "Chlorella chlorelloides->Chlorella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006104"
 pgloadind     taxon mapping OTT ID 4734267 taxonomy "Chlorella pulchelloides->Chlorella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006101"
@@ -216,10 +229,9 @@ pgloadind     taxon mapping OTT ID 395207 taxonomy "Micractinium pusillum->Micra
 pgloadind     taxon mapping OTT ID 816168 taxonomy "Micractinium belenophorum->Micractinium->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006115"
 pgloadind     taxon mapping OTT ID 204198 taxonomy "Didymogenes palatina->Didymogenes->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006117"
 pgloadind     taxon mapping OTT ID 593286 taxonomy "Didymogenes anomala->Didymogenes->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006118"
-pgloadind     taxon mapping OTT ID 1010277 taxonomy "Meyerella planktonica->Meyerella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006120"
 pgloadind     taxon mapping OTT ID 360745 taxonomy "Coronastrum ellipsoideum->Coronastrum->Scenedesmaceae->Sphaeropleales->Chlorophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006083"
 pgloadind     taxon mapping OTT ID 950958 taxonomy "Chlorella variabilis->Chlorella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006108"
-pgloadind     taxon mapping OTT ID 4734245 taxonomy "Chlorella pituita->Chlorella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006128"
+pgloadind     taxon mapping OTT ID 1010277 taxonomy "Meyerella planktonica->Meyerella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006120"
 pgloadind     taxon mapping OTT ID 39426 taxonomy "Compactochlorella dohrmannii->Compactochlorella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006144"
 pgloadind     taxon mapping OTT ID 318194 taxonomy "Compactochlorella kochii->Compactochlorella->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006147"
 pgloadind     taxon mapping OTT ID 978515 taxonomy "Marasphaerium gattermannii->Marasphaerium->Chlorellaceae->Chlorellales->Trebouxiophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1006171"
@@ -233,13 +245,13 @@ pgloadind   Adding tree to graph tree id "5928"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Closteriopsis acicularis was remapped to 'Closteriopsis' (id=3058412)
-	Kalenjinia gelatinosa was remapped to 'Kalenjinia' (id=3058424)
-	Marasphaerium gattermannii was remapped to 'Marasphaerium' (id=3058437)
-	Coronastrum ellipsoideum was remapped to 'Coronastrum' (id=3062978)
-	Meyerella planktonica was remapped to 'Meyerella' (id=3058968)
-	Masaia oloidia was remapped to 'Masaia' (id=3058439)
-	Crucigenia lauterbornii was remapped to 'Crucigenia' (id=3062950)
+	Crucigenia lauterbornii was remapped to 'Crucigenia' (id=3162169)
+	Meyerella planktonica was remapped to 'Meyerella' (id=3158206)
+	Marasphaerium gattermannii was remapped to 'Marasphaerium' (id=3157651)
+	Masaia oloidia was remapped to 'Masaia' (id=3157653)
+	Closteriopsis acicularis was remapped to 'Closteriopsis' (id=3157626)
+	Kalenjinia gelatinosa was remapped to 'Kalenjinia' (id=3157638)
+	Coronastrum ellipsoideum was remapped to 'Coronastrum' (id=3162197)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -258,11 +270,11 @@ Adding property 'ot:curatorName': bryan drew
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1111/jpy.12039
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 2311035
+Adding property 'ot:focalClade': 155230
 Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': 18S-ITS Chlorellaceae NJ boot
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2046
 Dealing with metadata property: ot:dataDeposit
 Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S13453
-Committing nodes: 39
+Committing nodes: 40

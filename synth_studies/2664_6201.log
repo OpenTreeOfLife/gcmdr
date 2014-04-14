@@ -10,7 +10,7 @@ pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1371/journa
 pgloadind   property added ot:curatorName "Joseph Brown"
 pgloadind   property added ot:studyId "2664"
 pgloadind   property added ot:studyYear "2013"
-pgloadind   property added ot:focalClade "2531849"
+pgloadind   property added ot:focalClade "596629"
 pgloadind   property added ot:focalCladeOTTTaxonName "Ditrysia"
 pgloadind   property added ot:tag "ingroup added;"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
@@ -28,7 +28,7 @@ pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1371/journa
 pgloadind   property added ot:curatorName "Joseph Brown"
 pgloadind   property added ot:studyId "2664"
 pgloadind   property added ot:studyYear "2013"
-pgloadind   property added ot:focalClade "2531849"
+pgloadind   property added ot:focalClade "596629"
 pgloadind   property added ot:focalCladeOTTTaxonName "Ditrysia"
 pgloadind   property added ot:tag "ingroup added;"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
@@ -38,7 +38,11 @@ loading a specific tree: 6201
 skipping tree: 6202
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "6201"
-pgloadind   all nodes have ottIds
+pgloadind     OTT ID missing name "Heliocosma melanotypa" nexsonid "node1069180"
+pgloadind     OTT ID missing name "Datana drexelii" nexsonid "node1069713"
+pgloadind   TNRS unmatched total number 2
+pgloadind     pruning unmapped name "Heliocosma melanotypa" nexsonid "node1069180"
+pgloadind     pruning unmapped name "Datana drexelii" nexsonid "node1069713"
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Kearfottia albifasciella" nexsonid "node1069007"
 pgloadind       dubious OTT ID 575835
@@ -51,30 +55,18 @@ pgloadind       dubious OTT ID 46987
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Amydria brevipennella" nexsonid "node1069035"
 pgloadind       dubious OTT ID 732012
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Yponomeuta multipunctella" nexsonid "node1069107"
-pgloadind       dubious OTT ID 909593
 pgloadind     OTT ID reused in tree
 pgloadind       duplicate name "Schreckensteinia" nexsonid "node1069156"
 pgloadind       duplicate OTT ID 929876
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Heliocosma melanotypa" nexsonid "node1069180"
-pgloadind       dubious OTT ID 3059100
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Phricanthes asperana" nexsonid "node1069213"
 pgloadind       dubious OTT ID 687195
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Anacrusis piriferana" nexsonid "node1069216"
 pgloadind       dubious OTT ID 146771
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Lagoa crispata" nexsonid "node1069268"
-pgloadind       dubious OTT ID 1008125
 pgloadind     OTT ID reused in tree
 pgloadind       duplicate name "Cyclotorna" nexsonid "node1069290"
 pgloadind       duplicate OTT ID 292155
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Stathmopodidae" nexsonid "node1069423"
-pgloadind       dubious OTT ID 216147
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Pseudurgis" nexsonid "node1069464"
 pgloadind       dubious OTT ID 688312
@@ -87,9 +79,6 @@ pgloadind       dubious OTT ID 412575
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Pentina flammans" nexsonid "node1069474"
 pgloadind       dubious OTT ID 744076
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Datana drexelii" nexsonid "node1069713"
-pgloadind       dubious OTT ID 4240734
 pgloadind     OTT ID not in database (probably dubious)
 pgloadind       dubious name "Apha aequalis" nexsonid "node1069792"
 pgloadind       dubious OTT ID 464261
@@ -112,38 +101,37 @@ pgloadind     overlapping tips
 pgloadind       overlapping retained name "Neoblastobasis spiniharpella" nexsonid "node1069417"
 pgloadind       overlapping pruned name "Blastobasidae" nexsonid "node1069416"
 pgloadind     overlapping tips
+pgloadind       overlapping retained name "Hieromantis kurokoi" nexsonid "node1069426"
+pgloadind       overlapping pruned name "Stathmopodinae" nexsonid "node1069423"
+pgloadind     overlapping tips
 pgloadind       overlapping retained name "Phycomorpha prasinochroa" nexsonid "node1069501"
 pgloadind       overlapping pruned name "Copromorphidae" nexsonid "node1069484"
 pgloadind     overlapping tips
 pgloadind       overlapping retained name "Epermenia chaerophyllella" nexsonid "node1069498"
 pgloadind       overlapping pruned name "Epermenia" nexsonid "node1069496"
-pgloadind     pruning dups and overlapping name "Schreckensteinia" nexsonid "node1069156"
-pgloadind     pruning dups and overlapping name "Gelechioidea" nexsonid "node1069447"
-pgloadind     pruning dups and overlapping name "Amydria sp. Ayte" nexsonid "node1069031"
-pgloadind     pruning dups and overlapping name "Lacturidae" nexsonid "node1069242"
-pgloadind     pruning dups and overlapping name "Mompha" nexsonid "node1069411"
-pgloadind     pruning dups and overlapping name "Rhodoneura terminalis" nexsonid "node1069469"
-pgloadind     pruning dups and overlapping name "Yponomeuta multipunctella" nexsonid "node1069107"
-pgloadind     pruning dups and overlapping name "Stathmopodidae" nexsonid "node1069423"
-pgloadind     pruning dups and overlapping name "Blastobasidae" nexsonid "node1069416"
-pgloadind     pruning dups and overlapping name "Pseudarbela" nexsonid "node1069012"
-pgloadind     pruning dups and overlapping name "Cyclotorna" nexsonid "node1069290"
-pgloadind     pruning dups and overlapping name "Lagoa crispata" nexsonid "node1069268"
-pgloadind     pruning dups and overlapping name "Kearfottia albifasciella" nexsonid "node1069007"
-pgloadind     pruning dups and overlapping name "Autostichidae" nexsonid "node1069399"
-pgloadind     pruning dups and overlapping name "Immidae" nexsonid "node1069172"
-pgloadind     pruning dups and overlapping name "Apha aequalis" nexsonid "node1069792"
-pgloadind     pruning dups and overlapping name "Datana drexelii" nexsonid "node1069713"
-pgloadind     pruning dups and overlapping name "Microsca" nexsonid "node1069470"
-pgloadind     pruning dups and overlapping name "Pentina flammans" nexsonid "node1069474"
-pgloadind     pruning dups and overlapping name "Copromorphidae" nexsonid "node1069484"
-pgloadind     pruning dups and overlapping name "Pseudurgis" nexsonid "node1069464"
-pgloadind     pruning dups and overlapping name "Amydria brevipennella" nexsonid "node1069035"
-pgloadind     pruning dups and overlapping name "Heliocosma melanotypa" nexsonid "node1069180"
 pgloadind     pruning dups and overlapping name "Epermenia" nexsonid "node1069496"
-pgloadind     pruning dups and overlapping name "Phricanthes asperana" nexsonid "node1069213"
+pgloadind     pruning dups and overlapping name "Autostichidae" nexsonid "node1069399"
+pgloadind     pruning dups and overlapping name "Pseudurgis" nexsonid "node1069464"
+pgloadind     pruning dups and overlapping name "Pentina flammans" nexsonid "node1069474"
+pgloadind     pruning dups and overlapping name "Rhodoneura terminalis" nexsonid "node1069469"
+pgloadind     pruning dups and overlapping name "Blastobasidae" nexsonid "node1069416"
+pgloadind     pruning dups and overlapping name "Gelechioidea" nexsonid "node1069447"
+pgloadind     pruning dups and overlapping name "Apha aequalis" nexsonid "node1069792"
+pgloadind     pruning dups and overlapping name "Pseudarbela" nexsonid "node1069012"
+pgloadind     pruning dups and overlapping name "Lacturidae" nexsonid "node1069242"
+pgloadind     pruning dups and overlapping name "Stathmopodinae" nexsonid "node1069423"
+pgloadind     pruning dups and overlapping name "Cyclotorna" nexsonid "node1069290"
+pgloadind     pruning dups and overlapping name "Immidae" nexsonid "node1069172"
 pgloadind     pruning dups and overlapping name "Anacrusis piriferana" nexsonid "node1069216"
-pgloadind   postpruning newick tree "(Eudarcia_simulatricella,(((Typhonia_ciliaris,(Psyche_crassiorella,(Oreopsyche_tenella,Thyridopteryx_ephemeraeformis))),((Scoriodyta_suttonensis,(Arrhenophanes,Dysoptus_bilobus)),Narycia_duplicella)),((Compsoctena,Eriocottis),((((Hapsifera,Paraptica_concinerata),((Psecadioides_aspersus,Myrmecozela_ochraceella),(Cephimallota_chasanica,(Exoncotis_umbraticella,Acrolophus_arcanella)))),((Perissomastix,Edosa),(((Erechthias_zebrina,Pyloetis_mimosae),((Morophaga_bucephala,Scardiella_approximatella),(Opogona_thiadelpha,Moerarchis_inconcisella))),((Mea_bipunctella,(Xystrologa_sp_Xwi,Hybroma_servulella)),(Nemapogon_cloacella,(Trichophaga_tapetzella,(Phereoeca_uterella,(Tineola_bisselliella,Tinea_columbariella)))))))),(((Agriothera_elaeocarpophaga,Roeslerstammia_pronubella),(((Epicephala_relictella,Parectopa_robiniella),((Caloptilia_bimaculatella,Callisto_denticulella),((Eumetriochroa_hederae,Spulerina_dissotoma),((Phyllocnistis_citrella,Phyllocnistis_longipalpa),(Phyllonorycter_aberrans,(Cameraria_gaultheriella,Phyllonorycter_pomonella)))))),((Bucculatrix,Leucoptera_coffeella),((Thecobathra_anas,(Eucalantica_costaricae,Cedestis_subfasciella)),((Atteva_aurea,((Lyonetia_prunifoliella,Prays_fraxinella),((Aetole_tripunctella,Epicroesa_metallifera),(Bedellia_somnulentella,Scythropia_crataegella)))),((Ochsenheimeria_urella,Ypsolopha_nigrimaculata),(Plutella_xylostella,((Orthotelia_sparganella,(Doxophyrtis_hydrocosma,Proditrix_gahniae)),((Acrolepiopsis_sapporensis,Digitivalva_hemiglypha),(Lepidotarphius_perornatellus,(Glyphipterix,Diploschizia_impigritella))))))))))),((Urodus_decens,(Wockia_asperipunctella,Wockia_koreana)),(((Klimeschia_transversella,Schreckensteinia),(Brenthia,((Hemerophila_felis,Tortyra),(Anthophila_fabriciana,(Prochoreutis,Tebenna_micalis))))),((Millieria_dolosalis,(Birthana_cleis,Imma_tetrascia)),(((((Histura_perseavora,Pseudatteria_volcanica),((Hilarographa,(Auratonota_dispersa,Heppnerographa_tricesimana)),((Cryptaspasma,(((Endothenia_hebesana,Olethreutes_fasciatana),(Episimus_tyrius,Ancylis_sparulana)),((Epiblema_abruptana,Pelochrista_zomonana),(Eucosma_picrodelta,(Cydia_pomonella,Grapholita_delineana))))),(((Acleris_semipurpurana,(Cnephasia_alfacarana,Decodes_asapheus)),((Aethes_promptana,Eugnosta_busckana),(Eulia_ministrana,Bonagota))),((Platynota_idaeusalis,Sparganothis_reticulatana),(Cerace,(Argyrotaenia_alisellana,Choristoneura_rosaceana))))))),Homadaula_anisocentra),((((Himantopteridae,(Brachycodilla_osorius,(Mesoscia_dyari,(Norape_tener,(Megalopyge_contigua,Megalopyge_lapena))))),((Strigivenifera_venata,(Euclea_delphinii,(Prolimacodes_badia,Phobetron_hipparchia))),(Pantoctenia_prasina,(Minacraga_plata,(Dalcerides_ingenita,(Acraga_coa,Acraga_philetera)))))),((Lactura_subfervens,(Anticrates_phaedima,Phauda_mimica)),((Pollanisus_apicalis,Eterusia_aedea),(Pryeria_sinica,Zygaena_fausta)))),(((Pennisetia_hylaeiformis,(Melittia_cucurbitae,(Vitacea_polistiformis,(Podosesia_syringae,Synanthedon_exitiosa)))),(((Dudgeonea,Archaeoses_pentasema),(((Cossus,Prionoxystus_robiniae),(Culama_crepera,Chilecomadia_valdiviana)),(Spinulata_maruga,(Pseudocossus_boisduvalii,(Synechodes_coniophora,Miscera))))),(((Heteropsyche,(Epipomponia_nawai,Fulgoraecia_exigua)),((Xyleutes_mineus,Zeuzera_coffeae),(Endoxyla_encalypti,Psychogena_miranda))),((Synemon_plana,(Paysandisia_archon,(Amauta_cacica,Telchin_licus_pauperata))),((Metarbela_naumanni,Lebedodes_cossula),(Langsdorfia_lunifera,(Philiodoron_frater,Givira_mucida))))))),Cyclotorna))),((((Lypusa_maurella,((Acria_ceramitis,(Odites_leucostola,Rhizosthenes_falciformis)),((Diurnea_fagella,(Agonopterix_alstroemeriana,Bibarrambla_allenella)),((Psilocorsis_reflexella,Aeolanthes_semiostrina),(Thudaca_haplonota,(Eupselia_carpocapsella,Hypertropha_tortriciformis)))))),(((Deuterogonia_pudorina,Promalactis_jezonica),(Leistarcha_scitissimella,Wingia_aurata)),((Batrachedra,(Homaloxestis_croceata,Lecithocera_chersitis)),((Illidgea,Tymbophora_peltastis),(Deoclona_yuccasella,(Autosticha_modicella,Galagete_protozona)))))),((((Cosmiotes_illectella,Elachista_tengstromi),Mompha_cephalonthiella),(Coleophora_cratipennella,(((Rhamphura,Scythris_immaculatella),(Stathmopoda_melanochra,Hieromantis_kurokoi)),Neoblastobasis_spiniharpella))),((Ethmia_eupostica,(Antaeotricha_renselariana,Stenoma_patens)),((Filinota_brunniceps,(Pancalia_schwarzella,(Cosmopterix,Hyposmocoma_turdella))),(Dichomeris_punctidiscella,(Pectinophora_gossypiella,(((Aristotelia_mesotenebrella,Monochroa_cleodoroides),(Stenolechia_bathrodyas,(Friseria_cockerelli,(Aroga_trialbamaculella,Caryocolum_pullatella)))),Encolapta_tegulifera))))))),((((((Agdistopis_sinhala,(Hyblaea_ibidias,Hyblaea_firmamentum)),(Pterodecta_felderi,(Griveaudia_vieui,(Helicomitra_pulchra,Pterothysanus_laticilia)))),(Alucita_sp_JCR-2011,((Phycomorpha_prasinochroa,(Carposina_fernaldana,(Meridarchis_excisa,Sosineura_mimica))),(Epermenia_chaerophyllella,Epermenia_sinjovi)))),((Glanycus_insolitus,Dysodia),Striglina_suzukii)),((Agdistis_americana,(Emmelina_monodactyla,(Anstenoptilia_marmarodactyla,Platyptilia_ignifera))),((Mimoides_branchus,Parides_iphidamas),(((Coeliades_ramanatek,Hasora_chromus),(Calpodes_ethlius,(Urbanus_doryssus,(Cyclosemia_subcaerulea,(Hovala,Mysoria_ambigua))))),(Macrosoma_conifera,((Dismorphia_amphiona,((Colias_eurytheme,Kricogonia_lyside),(Pseudopontia_paradoxa,Pieris_rapae))),((Curetis_bulis_stigmata,(Liphyra_brassolis,(Poritia_erycinoides,Strymon_eurytulus))),(Libytheana_carinenta_bachmanii,((Danaus_plexippus,Heliconius_sara),(Asterocampa_celtis,(Dynamine_sosthenes,(Phyciodes_phaon,Vanessa_carye)))))))))))),((((Polyterpnes_polyrrhoda,(Monoloxis_flavicinctalis,Macrotheca)),((Ambesa_laetella,Plodia_interpunctella),(Accinctapubes_albifasciata,(Gauna_aegusalis,Hypsopygia_olinalis)))),((Pyrausta_zonalis,(Niphopyralis_chionesis,Phaedropsis_alitemeralis)),((Dicymolomia_metalliferalis,(Noorda_blitealis,Evergestis_funalis)),(Syntonarcha_iriastis,((Neurophyseta_conantia,(Catoptria_oregonica,Eudonia_spenceri)),(Cacographis_osteolalis,(Scirpophaga_incertulas,(Rupela_albina,Petrophila_confusalis)))))))),(((Cyclidia_substigmaria_modesta,((Tethea_consimilis,(Habrosyne_pyritoides,Pseudothyatira_cymatophoroides)),(Oreta_rosea,(Macrauzata_maxima,(Drepana_arcuata,Macrocilix_mysticata))))),(Axia_margarita,(Doa,(Euphaneta_divisa,(Bedosia_turgidus,(Druentica_alsa,(Eadmuna,(Lacosoma_chiridota,Trogoptera)))))))),((((Epicopeia_hainesii,Psychostrophia_melanargia),(Sematura_lunus,(Coronidia_orithea,Homidiana))),(((Metorthocheilus_emarginatus,Syngria_druidaria),(Acropteris_sparsaria,(Lyssa_zampa,Urapteroides_astheniata))),(((Eupithecia_acutipennis,(Trichopteryx_carpinata,(Orthonama_obstipata,Earophila_badiata))),((Idaea_demissaria,Scopula_limboundata),(Cyclophora_nanaria,Haematopis_grataria))),(Archiearis_parthenias,(Dichromodes,(Dinophalus_lechriomita,((Chlorosea_margaretaria,Hypobapta_xenomorpha),((Campaea_perlata,Alsophila_pometaria),(Biston_betularia,(Hasodima_elegans,Odontothera)))))))))),((((Discophlebia,Oenosandra_boisduvalii),((Gluphisia_septentrionis,Crinodes_besckei),(Spatalia_doerriesi,(Furcula_cinerea,Thaumetopoea_pityocampa)))),(((Hypoprepia_miniata,(Amata_fortunei,Cisseps_fulvicollis)),(Rivula_propinqualis,((Catocala_ultronia,(Phobolosia_anfracta,Micronoctua_karsholti)),(Eudocima_salaminia,(Hypena_scabra,Lymantria_dispar))))),((Gyrtona,((Blenina_senex,Earias_roseifera),(Meganola_phylla,(Iscadia_producta,Negeta_contrariata)))),((Trichoplusia_ni,(Trichosea_champa,Cucullia_convexipennis)),(Helicoverpa_zea,(Spodoptera_frugiperda,(Caradrina_meralis,(Agrotis_ipsilon,Mythimna_unipuncta)))))))),((Chionopsyche_montana,((Tolype_notialis,(Poecilocampa_populi,Chondrostega_vandalicia)),(Malacosoma_americanum,(Macrothylacia_rubi,(Heteropacha_rileyana,Lasiocampa_quercus))))),((Apatelodes_torrefacta,((Acanthobrahmaea_europaea,(Dactyloceras_widenmanni,Lemonia_dumi)),((Hoplojana_rhodoptera,Jana_palliatella),(Cotana_serranotata,Panacela)))),(((Prismosticta_fenestrata,(Endromis_versicolora,(Oberthueria_formosibia,Mirina_christophi))),((Phiditia,Carthaea_saturnioides),(Munychryia_senicula,(Chelepteryx_collesi,Nataxa_flavescens)))),((Bombyx_mori,Quentalia_chromana),((Hyles_lineata,(Manduca_sexta,Paonias_myops)),(Janiodes_laverna,(Oxytenis_modestia,(Antheraea_paukstadtorum,Saturnia_naessigi)))))))))))))))))))))))"
+pgloadind     pruning dups and overlapping name "Mompha" nexsonid "node1069411"
+pgloadind     pruning dups and overlapping name "Amydria brevipennella" nexsonid "node1069035"
+pgloadind     pruning dups and overlapping name "Phricanthes asperana" nexsonid "node1069213"
+pgloadind     pruning dups and overlapping name "Kearfottia albifasciella" nexsonid "node1069007"
+pgloadind     pruning dups and overlapping name "Schreckensteinia" nexsonid "node1069156"
+pgloadind     pruning dups and overlapping name "Copromorphidae" nexsonid "node1069484"
+pgloadind     pruning dups and overlapping name "Microsca" nexsonid "node1069470"
+pgloadind     pruning dups and overlapping name "Amydria sp. Ayte" nexsonid "node1069031"
+pgloadind   postpruning newick tree "(Eudarcia_simulatricella,(((Typhonia_ciliaris,(Psyche_crassiorella,(Oreopsyche_tenella,Thyridopteryx_ephemeraeformis))),((Scoriodyta_suttonensis,(Arrhenophanes,Dysoptus_bilobus)),Narycia_duplicella)),((Compsoctena,Eriocottis),((((Hapsifera,Paraptica_concinerata),((Psecadioides_aspersus,Myrmecozela_ochraceella),(Cephimallota_chasanica,(Exoncotis_umbraticella,Acrolophus_arcanella)))),((Perissomastix,Edosa),(((Erechthias_zebrina,Pyloetis_mimosae),((Morophaga_bucephala,Scardiella_approximatella),(Opogona_thiadelpha,Moerarchis_inconcisella))),((Mea_bipunctella,(Xystrologa_sp_Xwi,Hybroma_servulella)),(Nemapogon_cloacella,(Trichophaga_tapetzella,(Phereoeca_uterella,(Tineola_bisselliella,Tinea_columbariella)))))))),(((Agriothera_elaeocarpophaga,Roeslerstammia_pronubella),(((Epicephala_relictella,Parectopa_robiniella),((Caloptilia_bimaculatella,Callisto_denticulella),((Eumetriochroa_hederae,Spulerina_dissotoma),((Phyllocnistis_citrella,Phyllocnistis_longipalpa),(Phyllonorycter_aberrans,(Cameraria_gaultheriella,Phyllonorycter_pomonella)))))),((Bucculatrix,Leucoptera_coffeella),((Thecobathra_anas,(Eucalantica_costaricae,(Yponomeuta_multipunctellus,Cedestis_subfasciella))),((Atteva_aurea,((Lyonetia_prunifoliella,Prays_fraxinella),((Aetole_tripunctella,Epicroesa_metallifera),(Bedellia_somnulentella,Scythropia_crataegella)))),((Ochsenheimeria_urella,Ypsolopha_nigrimaculata),(Plutella_xylostella,((Orthotelia_sparganella,(Doxophyrtis_hydrocosma,Proditrix_gahniae)),((Acrolepiopsis_sapporensis,Digitivalva_hemiglypha),(Lepidotarphius_perornatellus,(Glyphipterix,Diploschizia_impigritella))))))))))),((Urodus_decens,(Wockia_asperipunctella,Wockia_koreana)),(((Klimeschia_transversella,Schreckensteinia),(Brenthia,((Hemerophila_felis,Tortyra),(Anthophila_fabriciana,(Prochoreutis,Tebenna_micalis))))),((Millieria_dolosalis,(Birthana_cleis,Imma_tetrascia)),(((((Histura_perseavora,Pseudatteria_volcanica),((Hilarographa,(Auratonota_dispersa,Heppnerographa_tricesimana)),((Cryptaspasma,(((Endothenia_hebesana,Olethreutes_fasciatana),(Episimus_tyrius,Ancylis_sparulana)),((Epiblema_abruptana,Pelochrista_zomonana),(Eucosma_picrodelta,(Cydia_pomonella,Grapholita_delineana))))),(((Acleris_semipurpurana,(Cnephasia_alfacarana,Decodes_asapheus)),((Aethes_promptana,Eugnosta_busckana),(Eulia_ministrana,Bonagota))),((Platynota_idaeusalis,Sparganothis_reticulatana),(Cerace,(Argyrotaenia_alisellana,Choristoneura_rosaceana))))))),Homadaula_anisocentra),((((Himantopteridae,(Brachycodilla_osorius,(Mesoscia_dyari,(Norape_tener,(Megalopyge_contigua,(Megalopyge_crispata,Megalopyge_lapena)))))),((Strigivenifera_venata,(Euclea_delphinii,(Prolimacodes_badia,Phobetron_hipparchia))),(Pantoctenia_prasina,(Minacraga_plata,(Dalcerides_ingenita,(Acraga_coa,Acraga_philetera)))))),((Lactura_subfervens,(Anticrates_phaedima,Phauda_mimica)),((Pollanisus_apicalis,Eterusia_aedea),(Pryeria_sinica,Zygaena_fausta)))),(((Pennisetia_hylaeiformis,(Melittia_cucurbitae,(Vitacea_polistiformis,(Podosesia_syringae,Synanthedon_exitiosa)))),(((Dudgeonea,Archaeoses_pentasema),(((Cossus,Prionoxystus_robiniae),(Culama_crepera,Chilecomadia_valdiviana)),(Spinulata_maruga,(Pseudocossus_boisduvalii,(Synechodes_coniophora,Miscera))))),(((Heteropsyche,(Epipomponia_nawai,Fulgoraecia_exigua)),((Xyleutes_mineus,Zeuzera_coffeae),(Endoxyla_encalypti,Psychogena_miranda))),((Synemon_plana,(Paysandisia_archon,(Amauta_cacica,Telchin_licus_pauperata))),((Metarbela_naumanni,Lebedodes_cossula),(Langsdorfia_lunifera,(Philiodoron_frater,Givira_mucida))))))),Cyclotorna))),((((Lypusa_maurella,((Acria_ceramitis,(Odites_leucostola,Rhizosthenes_falciformis)),((Diurnea_fagella,(Agonopterix_alstroemeriana,Bibarrambla_allenella)),((Psilocorsis_reflexella,Aeolanthes_semiostrina),(Thudaca_haplonota,(Eupselia_carpocapsella,Hypertropha_tortriciformis)))))),(((Deuterogonia_pudorina,Promalactis_jezonica),(Leistarcha_scitissimella,Wingia_aurata)),((Batrachedra,(Homaloxestis_croceata,Lecithocera_chersitis)),((Illidgea,Tymbophora_peltastis),(Deoclona_yuccasella,(Autosticha_modicella,Galagete_protozona)))))),((((Cosmiotes_illectella,Elachista_tengstromi),Mompha_cephalonthiella),(Coleophora_cratipennella,(((Rhamphura,Scythris_immaculatella),(Stathmopoda_melanochra,Hieromantis_kurokoi)),Neoblastobasis_spiniharpella))),((Ethmia_eupostica,(Antaeotricha_renselariana,Stenoma_patens)),((Filinota_brunniceps,(Pancalia_schwarzella,(Cosmopterix,Hyposmocoma_turdella))),(Dichomeris_punctidiscella,(Pectinophora_gossypiella,(((Aristotelia_mesotenebrella,Monochroa_cleodoroides),(Stenolechia_bathrodyas,(Friseria_cockerelli,(Aroga_trialbamaculella,Caryocolum_pullatella)))),Encolapta_tegulifera))))))),((((((Agdistopis_sinhala,(Hyblaea_ibidias,Hyblaea_firmamentum)),(Pterodecta_felderi,(Griveaudia_vieui,(Helicomitra_pulchra,Pterothysanus_laticilia)))),(Alucita_sp_JCR-2011,((Phycomorpha_prasinochroa,(Carposina_fernaldana,(Meridarchis_excisa,Sosineura_mimica))),(Epermenia_chaerophyllella,Epermenia_sinjovi)))),((Glanycus_insolitus,Dysodia),Striglina_suzukii)),((Agdistis_americana,(Emmelina_monodactyla,(Anstenoptilia_marmarodactyla,Platyptilia_ignifera))),((Mimoides_branchus,Parides_iphidamas),(((Coeliades_ramanatek,Hasora_chromus),(Calpodes_ethlius,(Urbanus_doryssus,(Cyclosemia_subcaerulea,(Hovala,Mysoria_ambigua))))),(Macrosoma_conifera,((Dismorphia_amphiona,((Colias_eurytheme,Kricogonia_lyside),(Pseudopontia_paradoxa,Pieris_rapae))),((Curetis_bulis_stigmata,(Liphyra_brassolis,(Poritia_erycinoides,Strymon_eurytulus))),(Libytheana_carinenta_bachmanii,((Danaus_plexippus,Heliconius_sara),(Asterocampa_celtis,(Dynamine_sosthenes,(Phyciodes_phaon,Vanessa_carye)))))))))))),((((Polyterpnes_polyrrhoda,(Monoloxis_flavicinctalis,Macrotheca)),((Ambesa_laetella,Plodia_interpunctella),(Accinctapubes_albifasciata,(Gauna_aegusalis,Hypsopygia_olinalis)))),((Pyrausta_zonalis,(Niphopyralis_chionesis,Phaedropsis_alitemeralis)),((Dicymolomia_metalliferalis,(Noorda_blitealis,Evergestis_funalis)),(Syntonarcha_iriastis,((Neurophyseta_conantia,(Catoptria_oregonica,Eudonia_spenceri)),(Cacographis_osteolalis,(Scirpophaga_incertulas,(Rupela_albina,Petrophila_confusalis)))))))),(((Cyclidia_substigmaria_modesta,((Tethea_consimilis,(Habrosyne_pyritoides,Pseudothyatira_cymatophoroides)),(Oreta_rosea,(Macrauzata_maxima,(Drepana_arcuata,Macrocilix_mysticata))))),(Axia_margarita,(Doa,(Euphaneta_divisa,(Bedosia_turgidus,(Druentica_alsa,(Eadmuna,(Lacosoma_chiridota,Trogoptera)))))))),((((Epicopeia_hainesii,Psychostrophia_melanargia),(Sematura_lunus,(Coronidia_orithea,Homidiana))),(((Metorthocheilus_emarginatus,Syngria_druidaria),(Acropteris_sparsaria,(Lyssa_zampa,Urapteroides_astheniata))),(((Eupithecia_acutipennis,(Trichopteryx_carpinata,(Orthonama_obstipata,Earophila_badiata))),((Idaea_demissaria,Scopula_limboundata),(Cyclophora_nanaria,Haematopis_grataria))),(Archiearis_parthenias,(Dichromodes,(Dinophalus_lechriomita,((Chlorosea_margaretaria,Hypobapta_xenomorpha),((Campaea_perlata,Alsophila_pometaria),(Biston_betularia,(Hasodima_elegans,Odontothera)))))))))),((((Discophlebia,Oenosandra_boisduvalii),((Gluphisia_septentrionis,Crinodes_besckei),(Spatalia_doerriesi,(Furcula_cinerea,Thaumetopoea_pityocampa)))),(((Hypoprepia_miniata,(Amata_fortunei,Cisseps_fulvicollis)),(Rivula_propinqualis,((Catocala_ultronia,(Phobolosia_anfracta,Micronoctua_karsholti)),(Eudocima_salaminia,(Hypena_scabra,Lymantria_dispar))))),((Gyrtona,((Blenina_senex,Earias_roseifera),(Meganola_phylla,(Iscadia_producta,Negeta_contrariata)))),((Trichoplusia_ni,(Trichosea_champa,Cucullia_convexipennis)),(Helicoverpa_zea,(Spodoptera_frugiperda,(Caradrina_meralis,(Agrotis_ipsilon,Mythimna_unipuncta)))))))),((Chionopsyche_montana,((Tolype_notialis,(Poecilocampa_populi,Chondrostega_vandalicia)),(Malacosoma_americanum,(Macrothylacia_rubi,(Heteropacha_rileyana,Lasiocampa_quercus))))),((Apatelodes_torrefacta,((Acanthobrahmaea_europaea,(Dactyloceras_widenmanni,Lemonia_dumi)),((Hoplojana_rhodoptera,Jana_palliatella),(Cotana_serranotata,Panacela)))),(((Prismosticta_fenestrata,(Endromis_versicolora,(Oberthueria_formosibia,Mirina_christophi))),((Phiditia,Carthaea_saturnioides),(Munychryia_senicula,(Chelepteryx_collesi,Nataxa_flavescens)))),((Bombyx_mori,Quentalia_chromana),((Hyles_lineata,(Manduca_sexta,Paonias_myops)),(Janiodes_laverna,(Oxytenis_modestia,(Antheraea_paukstadtorum,Saturnia_naessigi)))))))))))))))))))))))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 739746 taxonomy "Eudarcia simulatricella->Eudarcia->Meessiinae->Tineidae->Tineoidea->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1068995"
 pgloadind     taxon mapping OTT ID 811714 taxonomy "Typhonia ciliaris->Typhonia->Typhoniinae->Psychidae->Tineoidea->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1068999"
@@ -196,6 +184,7 @@ pgloadind     taxon mapping OTT ID 714616 taxonomy "Bucculatrix->Bucculatricidae
 pgloadind     taxon mapping OTT ID 10889 taxonomy "Leucoptera coffeella->Leucoptera->Lyonetiidae->Yponomeutoidea->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1069100"
 pgloadind     taxon mapping OTT ID 811717 taxonomy "Thecobathra anas->Thecobathra->Yponomeutinae->Yponomeutidae->Yponomeutoidea->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1069103"
 pgloadind     taxon mapping OTT ID 603015 taxonomy "Eucalantica costaricae->Eucalantica->Plutellidae->Yponomeutoidea->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1069105"
+pgloadind     taxon mapping OTT ID 483577 taxonomy "Yponomeuta multipunctellus->Yponomeuta->Yponomeutinae->Yponomeutidae->Yponomeutoidea->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1069107"
 pgloadind     taxon mapping OTT ID 1011055 taxonomy "Cedestis subfasciella->Cedestis->Yponomeutinae->Yponomeutidae->Yponomeutoidea->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1069108"
 pgloadind     taxon mapping OTT ID 6619 taxonomy "Atteva aurea->Atteva->Attevinae->Yponomeutidae->Yponomeutoidea->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1069111"
 pgloadind     taxon mapping OTT ID 1084893 taxonomy "Lyonetia prunifoliella->Lyonetia->Lyonetiidae->Yponomeutoidea->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1069114"
@@ -262,6 +251,7 @@ pgloadind     taxon mapping OTT ID 241523 taxonomy "Brachycodilla osorius->Brach
 pgloadind     taxon mapping OTT ID 245452 taxonomy "Mesoscia dyari->Mesoscia->Megalopygidae->Zygaenoidea->Apoditrysia->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1069262"
 pgloadind     taxon mapping OTT ID 467476 taxonomy "Norape tener->Norape->Megalopygidae->Zygaenoidea->Apoditrysia->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1069264"
 pgloadind     taxon mapping OTT ID 888329 taxonomy "Megalopyge contigua->Megalopyge->Megalopygidae->Zygaenoidea->Apoditrysia->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1069266"
+pgloadind     taxon mapping OTT ID 3041122 taxonomy "Megalopyge crispata->Megalopyge->Megalopygidae->Zygaenoidea->Apoditrysia->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1069268"
 pgloadind     taxon mapping OTT ID 245454 taxonomy "Megalopyge lapena->Megalopyge->Megalopygidae->Zygaenoidea->Apoditrysia->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1069269"
 pgloadind     taxon mapping OTT ID 811759 taxonomy "Strigivenifera venata->Strigivenifera->Limacodidae->Zygaenoidea->Apoditrysia->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1069272"
 pgloadind     taxon mapping OTT ID 851577 taxonomy "Euclea delphinii->Euclea->Limacodidae->Zygaenoidea->Apoditrysia->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1069274"
@@ -545,361 +535,362 @@ pgloadind   Adding tree to graph tree id "6201"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Gluphisia septentrionis was remapped to 'Gluphisia' (id=1327248)
-	Caloptilia bimaculatella was remapped to 'Caloptilia' (id=1136412)
-	Synemon plana was remapped to 'Synemoninae' (id=1148829)
-	Heppnerographa tricesimana was remapped to 'Heppnerographa' (id=1161258)
-	Psilocorsis reflexella was remapped to 'Amphisbatidae' (id=1125502)
-	Euphaneta divisa was remapped to 'Euphaneta' (id=1191989)
-	Parides iphidamas was remapped to 'Troidini' (id=1281992)
-	Macrauzata maxima was remapped to 'Macrauzata' (id=1385412)
-	Agdistis americana was remapped to 'Agdistinae' (id=1207135)
-	Cephimallota chasanica was remapped to 'Cephimallota' (id=1142104)
-	Anthophila fabriciana was remapped to 'Anthophila' (id=1151958)
-	Orthonama obstipata was remapped to 'Orthonama' (id=1394293)
-	Aethes promptana was remapped to 'Aethes' (id=1173045)
-	Hybroma servulella was remapped to 'Hybroma' (id=1139824)
-	Dismorphia amphiona was remapped to 'Dismorphiinae' (id=1236550)
-	Pennisetia hylaeiformis was remapped to 'Tinthiinae' (id=1149321)
-	Phaedropsis alitemeralis was remapped to 'Phaedropsis' (id=1219197)
-	Givira mucida was remapped to 'Givira' (id=1148062)
-	Habrosyne pyritoides was remapped to 'Habrosyne' (id=1385184)
-	Cucullia convexipennis was remapped to 'Cuculliinae' (id=1354147)
-	Agdistopis sinhala was remapped to 'Macropiratinae' (id=1205916)
-	Psecadioides aspersus was remapped to 'Psecadioides' (id=1142116)
-	Alsophila pometaria was remapped to 'Alsophilinae' (id=1388166)
-	Scopula limboundata was remapped to 'Scopula' (id=1402796)
-	Furcula cinerea was remapped to 'Stauropinae' (id=1327790)
-	Pseudocossus boisduvalii was remapped to 'Pseudocossus' (id=1147498)
-	Bedosia turgidus was remapped to 'Bedosia' (id=1192253)
-	Heliconius sara was remapped to 'Heliconiinae' (id=1246462)
-	Encolapta tegulifera was remapped to 'Encolapta' (id=1129213)
-	Druentica alsa was remapped to 'Druentica' (id=1192137)
-	Acleris semipurpurana was remapped to 'Acleris' (id=1170743)
-	Nemapogon cloacella was remapped to 'Nemapogoninae' (id=1139620)
-	Lyssa zampa was remapped to 'Lyssa' (id=1386590)
-	Schreckensteinia was remapped to 'Schreckensteinioidea' (id=1147257)
-	Prays fraxinella was remapped to 'Praydinae' (id=1104128)
-	Helicoverpa zea was remapped to 'Heliothinae' (id=1362866)
-	Hieromantis kurokoi was remapped to 'Stathmopodinae' (id=1116168)
-	Oreta rosea was remapped to 'Oretinae' (id=1384690)
-	Cisseps fulvicollis was remapped to 'Ctenuchinae' (id=1310770)
-	Spodoptera frugiperda was remapped to 'Amphipyrinae' (id=1355021)
-	Narycia duplicella was remapped to 'Taleporiinae' (id=1145649)
-	Eterusia aedea was remapped to 'Chalcosiinae' (id=1152567)
-	Mimoides branchus was remapped to 'Leptocircini' (id=1283181)
-	Dudgeonea was remapped to 'Dudgeoneidae' (id=1148815)
-	Stenoma patens was remapped to 'Stenoma' (id=1121108)
-	Lasiocampa quercus was remapped to 'Lasiocampa' (id=1178646)
-	Philiodoron frater was remapped to 'Philiodoron' (id=1147917)
-	Cameraria gaultheriella was remapped to 'Cameraria' (id=1137995)
-	Libytheana carinenta bachmanii was remapped to 'Libytheinae' (id=1265723)
-	Platynota idaeusalis was remapped to 'Sparganothidini' (id=1170347)
-	Argyrotaenia alisellana was remapped to 'Argyrotaenia' (id=1168303)
-	Hypsopygia olinalis was remapped to 'Hypsopygia' (id=1225309)
-	Doxophyrtis hydrocosma was remapped to 'Doxophyrtis' (id=1103253)
-	Lemonia dumi was remapped to 'Lemoniidae' (id=1187442)
-	Epipomponia nawai was remapped to 'Epipomponia' (id=1160044)
-	Xystrologa sp. Xwi was remapped to 'Xystrologa' (id=1140764)
-	Prismosticta fenestrata was remapped to 'Prismosticta' (id=1182196)
-	Syngria druidaria was remapped to 'Syngria' (id=1386681)
-	Colias eurytheme was remapped to 'Colias' (id=1237041)
-	Eucosma picrodelta was remapped to 'Eucosma' (id=1164505)
-	Acria ceramitis was remapped to 'Peleopodidae' (id=1135744)
-	Dynamine sosthenes was remapped to 'Biblidinae' (id=1254096)
-	Psychogena miranda was remapped to 'Psychogena' (id=1147904)
-	Wingia aurata was remapped to 'Wingia' (id=1115459)
-	Brachycodilla osorius was remapped to 'Aididae' (id=1160148)
-	Paysandisia archon was remapped to 'Paysandisia' (id=1148907)
-	Telchin licus pauperata was remapped to 'Telchin' (id=1148932)
-	Pterodecta felderi was remapped to 'Callidulidae' (id=1208018)
-	Stathmopoda melanochra was remapped to 'Stathmopoda' (id=1114283)
-	Tolype notialis was remapped to 'Macromphaliinae' (id=1179137)
-	Norape tener was remapped to 'Norape' (id=1159732)
-	Aetole tripunctella was remapped to 'Aetole' (id=1103937)
-	Eudocima salaminia was remapped to 'Eudocima' (id=1345942)
-	Psyche crassiorella was remapped to 'Phychinae' (id=1145510)
-	Zygaena fausta was remapped to 'Zygaena' (id=1152748)
-	Metorthocheilus emarginatus was remapped to 'Metorthocheilus' (id=1386728)
-	Hoplojana rhodoptera was remapped to 'Hoplojana' (id=1181561)
-	Filinota brunniceps was remapped to 'Filinota' (id=1124146)
-	Cyclotorna was remapped to 'Cyclotornidae' (id=1160135)
-	Deoclona yuccasella was remapped to 'Deoclonidae' (id=1106084)
-	Euclea delphinii was remapped to 'Euclea' (id=1157823)
-	Imma tetrascia was remapped to 'Imma' (id=1160456)
-	Drepana arcuata was remapped to 'Drepana' (id=1385641)
-	Psychostrophia melanargia was remapped to 'Psychostrophia' (id=1386392)
-	Paraptica concinerata was remapped to 'Paraptica' (id=1141374)
-	Atteva aurea was remapped to 'Attevinae' (id=1104184)
-	Idaea demissaria was remapped to 'Idaea' (id=1404360)
-	Haematopis grataria was remapped to 'Haematopis' (id=1406136)
-	Scoriodyta suttonensis was remapped to 'Scoriodytinae' (id=1145134)
-	Antaeotricha renselariana was remapped to 'Antaeotricha' (id=1122017)
-	Archiearis parthenias was remapped to 'Archiearinae' (id=1401673)
-	Pseudothyatira cymatophoroides was remapped to 'Pseudothyatira' (id=1384855)
-	Tineola bisselliella was remapped to 'Tineola' (id=1141378)
-	Amauta cacica was remapped to 'Amauta' (id=1148912)
-	Spatalia doerriesi was remapped to 'Spatalia' (id=1327293)
-	Strymon eurytulus was remapped to 'Theclinae' (id=1292934)
-	Glanycus insolitus was remapped to 'Glanycus' (id=1235671)
-	Cyclophora nanaria was remapped to 'Cyclophora' (id=1405856)
-	Janiodes laverna was remapped to 'Cercophaninae' (id=1182681)
-	Crinodes besckei was remapped to 'Didusiinae' (id=1328171)
-	Carposina fernaldana was remapped to 'Carposina' (id=1160757)
-	Pieris rapae was remapped to 'Pierinae' (id=1239366)
-	Phereoeca uterella was remapped to 'Phereoeca' (id=1141047)
-	Xyleutes mineus was remapped to 'Xyleutes' (id=1140784)
-	Odites leucostola was remapped to 'Odites' (id=1105361)
-	Choristoneura rosaceana was remapped to 'Choristoneura' (id=1168620)
-	Hypertropha tortriciformis was remapped to 'Hypertropha' (id=1109357)
-	Amata fortunei was remapped to 'Syntominae' (id=1316696)
-	Mirina christophi was remapped to 'Mirinidae' (id=1182673)
-	Platyptilia ignifera was remapped to 'Platyptilia' (id=1206778)
-	Nataxa flavescens was remapped to 'Nataxa' (id=1181936)
-	Digitivalva hemiglypha was remapped to 'Digitivalva' (id=1103383)
-	Syntonarcha iriastis was remapped to 'Odontiinae' (id=1214974)
-	Phiditia was remapped to 'Phiditiinae' (id=1177162)
-	Hovala was remapped to 'Heteropterinae' (id=1197467)
-	Minacraga plata was remapped to 'Minacraga' (id=1152494)
-	Mompha cephalonthiella was remapped to 'Momphidae' (id=1106091)
-	Negeta contrariata was remapped to 'Westermanniinae' (id=1323099)
-	Tymbophora peltastis was remapped to 'Tymbophora' (id=1127120)
-	Eupithecia acutipennis was remapped to 'Eupithecia' (id=1388552)
-	Dinophalus lechriomita was remapped to 'Dinophalus' (id=1388089)
-	Earias roseifera was remapped to 'Eariadinae' (id=1322895)
-	Strigivenifera venata was remapped to 'Strigivenifera' (id=1157062)
-	Diurnea fagella was remapped to 'Chimabachinae' (id=1116154)
-	Eudonia spenceri was remapped to 'Scopariinae' (id=1215539)
-	Mea bipunctella was remapped to 'Mea' (id=1139971)
-	Klimeschia transversella was remapped to 'Douglasiidae' (id=1144601)
-	Sparganothis reticulatana was remapped to 'Sparganothini' (id=1171948)
-	Bedellia somnulentella was remapped to 'Bedelliidae' (id=1102076)
-	Eulia ministrana was remapped to 'Eulia' (id=1170186)
-	Vanessa carye was remapped to 'Nymphalini' (id=1266842)
-	Bibarrambla allenella was remapped to 'Bibarrambla' (id=1125383)
-	Curetis bulis stigmata was remapped to 'Curetinae' (id=1286735)
-	Urbanus doryssus was remapped to 'Urbanus' (id=1202087)
-	Paonias myops was remapped to 'Smerinthinae' (id=1190758)
-	Meganola phylla was remapped to 'Nolinae' (id=1324067)
-	Neurophyseta conantia was remapped to 'Musotiminae' (id=1215179)
-	Eupselia carpocapsella was remapped to 'Eupselia' (id=1109296)
-	Catocala ultronia was remapped to 'Catocala' (id=1348171)
-	Sematura lunus was remapped to 'Sematura' (id=1386513)
-	Phauda mimica was remapped to 'Phaudinae' (id=1155233)
-	Prionoxystus robiniae was remapped to 'Prionoxystus' (id=1147621)
-	Pancalia schwarzella was remapped to 'Antequerinae' (id=1108099)
-	Gauna aegusalis was remapped to 'Gauna' (id=1225944)
-	Endromis versicolora was remapped to 'Endromidae' (id=1187490)
-	Mythimna unipuncta was remapped to 'Hadeninae' (id=1338099)
-	Proditrix gahniae was remapped to 'Proditrix' (id=1103283)
-	Aroga trialbamaculella was remapped to 'Aroga' (id=1132731)
-	Quentalia chromana was remapped to 'Quentalia' (id=1182323)
-	Parectopa robiniella was remapped to 'Parectopa' (id=1135903)
-	Cryptaspasma was remapped to 'Microcorsini' (id=1163151)
-	Galagete protozona was remapped to 'Autostichidae' (id=1120343)
-	Carthaea saturnioides was remapped to 'Carthaeidae' (id=1181231)
-	Erechthias zebrina was remapped to 'Erechthiinae' (id=1141608)
-	Accinctapubes albifasciata was remapped to 'Epipaschiinae' (id=1226131)
-	Pseudopontia paradoxa was remapped to 'Pseudopontiinae' (id=1236539)
-	Pelochrista zomonana was remapped to 'Pelochrista' (id=1165467)
-	Rivula propinqualis was remapped to 'Rivula' (id=1350903)
-	Polyterpnes polyrrhoda was remapped to 'Polyterpnes' (id=1225011)
-	Chilecomadia valdiviana was remapped to 'Chilecomadia' (id=1147493)
-	Lepidotarphius perornatellus was remapped to 'Lepidotarphius' (id=1102107)
-	Hypoprepia miniata was remapped to 'Lithosiinae' (id=1313679)
-	Heteropacha rileyana was remapped to 'Heteropacha' (id=1177985)
-	Tinea columbariella was remapped to 'Tinea' (id=1140487)
-	Birthana cleis was remapped to 'Birthana' (id=1160674)
-	Hyposmocoma turdella was remapped to 'Hyposmocoma' (id=1107270)
-	Epicopeia hainesii was remapped to 'Epicopeia' (id=1386401)
-	Acrolophus arcanella was remapped to 'Acrolophus' (id=1144305)
-	Epicroesa metallifera was remapped to 'Epicroesa' (id=1103939)
-	Earophila badiata was remapped to 'Earophila' (id=1395422)
-	Lyonetia prunifoliella was remapped to 'Lyonetia' (id=1102585)
-	Opogona thiadelpha was remapped to 'Opogona' (id=1139357)
-	Autosticha modicella was remapped to 'Autosticha' (id=1115518)
-	Trichoplusia ni was remapped to 'Plusiinae' (id=1336591)
-	Thudaca haplonota was remapped to 'Thudaca' (id=1109268)
-	Apatelodes torrefacta was remapped to 'Apatelodinae' (id=1177228)
-	Friseria cockerelli was remapped to 'Friseria' (id=1130078)
-	Grapholita delineana was remapped to 'Grapholita' (id=1167012)
-	Trichopteryx carpinata was remapped to 'Trichopteryx' (id=1394427)
-	Dicymolomia metalliferalis was remapped to 'Glaphyriinae' (id=1213774)
-	Bucculatrix was remapped to 'Bucculatricidae' (id=1144649)
-	Pollanisus apicalis was remapped to 'Procridinae' (id=1155257)
-	Coronidia orithea was remapped to 'Coronidia' (id=1386516)
-	Epiblema abruptana was remapped to 'Epiblema' (id=1165864)
-	Spinulata maruga was remapped to 'Spinulata' (id=1147639)
-	Pseudatteria volcanica was remapped to 'Pseudatteria' (id=1161298)
-	Blenina senex was remapped to 'Bleninae' (id=1323022)
-	Poecilocampa populi was remapped to 'Poecilocampinae' (id=1177384)
-	Tebenna micalis was remapped to 'Tebenna' (id=1152128)
-	Episimus tyrius was remapped to 'Episimus' (id=1162699)
-	Culama crepera was remapped to 'Culama' (id=1147712)
-	Vitacea polistiformis was remapped to 'Paranthrenini' (id=1149540)
-	Acropteris sparsaria was remapped to 'Microniinae' (id=1386621)
-	Phobetron hipparchia was remapped to 'Phobetron' (id=1157716)
-	Lebedodes cossula was remapped to 'Lebedodes' (id=1147464)
-	Rupela albina was remapped to 'Rupela' (id=1214885)
-	Helicomitra pulchra was remapped to 'Pterothysanidae' (id=1208115)
-	Chondrostega vandalicia was remapped to 'Chondrosteginae' (id=1177355)
-	Cnephasia alfacarana was remapped to 'Cnephasia' (id=1169654)
-	Scardiella approximatella was remapped to 'Scardiella' (id=1142150)
-	Manduca sexta was remapped to 'Sphinginae' (id=1187521)
-	Ancylis sparulana was remapped to 'Enarmoniini' (id=1163193)
-	Plutella xylostella was remapped to 'Plutella' (id=1103297)
-	Monochroa cleodoroides was remapped to 'Monochroa' (id=1129297)
-	Typhonia ciliaris was remapped to 'Typhoniinae' (id=1145861)
-	Chlorosea margaretaria was remapped to 'Chlorosea' (id=1401098)
-	Iscadia producta was remapped to 'Chloephorinae' (id=1323216)
-	Auratonota dispersa was remapped to 'Auratonota' (id=1161193)
-	Elachista tengstromi was remapped to 'Elachista' (id=1123182)
-	Leucoptera coffeella was remapped to 'Leucoptera' (id=1102689)
-	Mysoria ambigua was remapped to 'Pyrrhopyginae' (id=1197797)
-	Coleophora cratipennella was remapped to 'Coleophoridae' (id=1118811)
-	Chionopsyche montana was remapped to 'Chionopsychinae' (id=1177349)
-	Scythris immaculatella was remapped to 'Scythris' (id=1125547)
-	Synechodes coniophora was remapped to 'Synechodes' (id=1152194)
-	Phyciodes phaon was remapped to 'Melitaeini' (id=1267786)
-	Hasodima elegans was remapped to 'Hasodima' (id=1419341)
-	Ypsolopha nigrimaculata was remapped to 'Ypsolopha' (id=1102882)
-	Campaea perlata was remapped to 'Campaea' (id=1419524)
-	Langsdorfia lunifera was remapped to 'Langsdorfia' (id=1147866)
-	Prolimacodes badia was remapped to 'Prolimacodes' (id=1157064)
-	Perissomastix was remapped to 'Perissomasticinae' (id=1139218)
-	Aristotelia mesotenebrella was remapped to 'Aristotelia' (id=1132092)
-	Cosmiotes illectella was remapped to 'Cosmiotes' (id=1123070)
-	Olethreutes fasciatana was remapped to 'Olethreutes' (id=1162201)
-	Zeuzera coffeae was remapped to 'Zeuzera' (id=1147391)
-	Hypobapta xenomorpha was remapped to 'Hypobapta' (id=1399889)
-	Pyrausta zonalis was remapped to 'Pyrausta' (id=1219238)
-	Millieria dolosalis was remapped to 'Millieriinae' (id=1151621)
-	Macrothylacia rubi was remapped to 'Macrothylacia' (id=1179076)
-	Agriothera elaeocarpophaga was remapped to 'Agriothera' (id=1144999)
-	Ochsenheimeria urella was remapped to 'Ochsenheimeria' (id=1102852)
-	Noorda blitealis was remapped to 'Noordinae' (id=1215166)
-	Oberthueria formosibia was remapped to 'Oberthueria' (id=1182203)
-	Dysoptus bilobus was remapped to 'Arrhenophanidae' (id=1145040)
-	Macrotheca was remapped to 'Galleriinae' (id=1230027)
-	Trichosea champa was remapped to 'Pantheinae' (id=1349424)
-	Micronoctua karsholti was remapped to 'Micronoctuidae' (id=1305193)
-	Coeliades ramanatek was remapped to 'Coeliades' (id=1192558)
-	Deuterogonia pudorina was remapped to 'Deuterogoniidae' (id=1106060)
-	Hasora chromus was remapped to 'Hasora' (id=1192605)
-	Promalactis jezonica was remapped to 'Promalactis' (id=1121023)
-	Cotana serranotata was remapped to 'Cotana' (id=1181261)
-	Eugnosta busckana was remapped to 'Eugnosta' (id=1172431)
-	Thyridopteryx ephemeraeformis was remapped to 'Thyridopteryx' (id=1145386)
-	Evergestis funalis was remapped to 'Evergestinae' (id=1214378)
-	Eucalantica costaricae was remapped to 'Eucalantica' (id=1103214)
-	Histura perseavora was remapped to 'Histura' (id=1161344)
-	Axia margarita was remapped to 'Cimelioidea' (id=1205550)
-	Agonopterix alstroemeriana was remapped to 'Agonopterix' (id=1124770)
-	Caradrina meralis was remapped to 'Caradrina' (id=1359024)
-	Alucita sp. JCR-2011 was remapped to 'Alucitoidea' (id=1205660)
-	Rhizosthenes falciformis was remapped to 'Rhizosthenes' (id=1105524)
-	Catoptria oregonica was remapped to 'Crambinae' (id=1216212)
-	Bombyx mori was remapped to 'Bombyx' (id=1182225)
-	Hemerophila felis was remapped to 'Hemerophila' (id=1152112)
-	Melittia cucurbitae was remapped to 'Melittiini' (id=1149381)
-	Trichophaga tapetzella was remapped to 'Trichophaga' (id=1141008)
-	Monoloxis flavicinctalis was remapped to 'Monoloxis' (id=1225101)
-	Asterocampa celtis was remapped to 'Apaturinae' (id=1254917)
-	Endothenia hebesana was remapped to 'Endotheniini' (id=1166518)
-	Striglina suzukii was remapped to 'Striglininae' (id=1235826)
-	Callisto denticulella was remapped to 'Callisto' (id=1136955)
-	Phobolosia anfracta was remapped to 'Strepsimaninae' (id=1333506)
-	Griveaudia vieui was remapped to 'Ophiderinae' (id=1351291)
-	Homaloxestis croceata was remapped to 'Homaloxestis' (id=1104990)
-	Oenosandra boisduvalii was remapped to 'Oenosandra' (id=1380160)
-	Petrophila confusalis was remapped to 'Nymphulinae' (id=1213905)
-	Roeslerstammia pronubella was remapped to 'Roeslerstammia' (id=1144959)
-	Munychryia senicula was remapped to 'Munychryiinae' (id=1181914)
-	Decodes asapheus was remapped to 'Decodes' (id=1169950)
-	Myrmecozela ochraceella was remapped to 'Myrmecozela' (id=1141989)
-	Hyles lineata was remapped to 'Macroglossinae' (id=1188358)
-	Aeolanthes semiostrina was remapped to 'Aeolanthinae' (id=1124098)
-	Synanthedon exitiosa was remapped to 'Synanthedon' (id=1150052)
-	Pantoctenia prasina was remapped to 'Pantoctenia' (id=1157776)
-	Thecobathra anas was remapped to 'Thecobathra' (id=1104402)
-	Moerarchis inconcisella was remapped to 'Moerarchis' (id=1142055)
-	Dalcerides ingenita was remapped to 'Dalcerides' (id=1152498)
-	Archaeoses pentasema was remapped to 'Archaeoses' (id=1148169)
-	Eumetriochroa hederae was remapped to 'Oecophyllembiinae' (id=1135887)
-	Cacographis osteolalis was remapped to 'Midilinae' (id=1215405)
-	Lactura subfervens was remapped to 'Lactura' (id=1160330)
-	Cyclosemia subcaerulea was remapped to 'Cyclosemia' (id=1200781)
-	Acrolepiopsis sapporensis was remapped to 'Acrolepiopsis' (id=1103184)
-	Pryeria sinica was remapped to 'Pryeria' (id=1152739)
-	Biston betularia was remapped to 'Biston' (id=1419380)
-	Danaus plexippus was remapped to 'Danainae' (id=1269396)
-	Orthotelia sparganella was remapped to 'Orthotelia' (id=1102105)
-	Lacosoma chiridota was remapped to 'Lacosoma' (id=1192085)
-	Cedestis subfasciella was remapped to 'Cedestis' (id=1104267)
-	Metarbela naumanni was remapped to 'Metarbela' (id=1147563)
-	Lecithocera chersitis was remapped to 'Lecithocera' (id=1105056)
-	Agrotis ipsilon was remapped to 'Agrotis' (id=1358182)
-	Tethea consimilis was remapped to 'Tethea' (id=1385055)
-	Plodia interpunctella was remapped to 'Plodia' (id=1228954)
-	Neoblastobasis spiniharpella was remapped to 'Blastobasidae' (id=1118354)
-	Eudarcia simulatricella was remapped to 'Eudarcia' (id=1139982)
-	Homadaula anisocentra was remapped to 'Homadaula' (id=1103411)
-	Dichomeris punctidiscella was remapped to 'Dichomeridinae' (id=1128097)
-	Morophaga bucephala was remapped to 'Morophaga' (id=1142213)
-	Scythropia crataegella was remapped to 'Scythropiinae' (id=1104115)
-	Mesoscia dyari was remapped to 'Mesoscia' (id=1159832)
-	Batrachedra was remapped to 'Batrachedridae' (id=1109091)
-	Fulgoraecia exigua was remapped to 'Fulgoraecia' (id=1160058)
-	Macrocilix mysticata was remapped to 'Macrocilix' (id=1385398)
-	Lymantria dispar was remapped to 'Lymantriidae' (id=1380167)
-	Leistarcha scitissimella was remapped to 'Leistarcha' (id=1126437)
-	Podosesia syringae was remapped to 'Podosesia' (id=1149760)
-	Cyclidia substigmaria modesta was remapped to 'Cyclidiinae' (id=1384824)
-	Kricogonia lyside was remapped to 'Kricogonia' (id=1239223)
-	Hypena scabra was remapped to 'Hypena' (id=1349907)
-	Meridarchis excisa was remapped to 'Meridarchis' (id=1160926)
-	Poritia erycinoides was remapped to 'Poritiinae' (id=1297043)
-	Urodus decens was remapped to 'Urodus' (id=1147294)
-	Dactyloceras widenmanni was remapped to 'Dactyloceras' (id=1187400)
-	Urapteroides astheniata was remapped to 'Urapteroides' (id=1386551)
-	Pyloetis mimosae was remapped to 'Pyloetis' (id=1139351)
-	Saturnia naessigi was remapped to 'Saturnia' (id=1183190)
-	Caryocolum pullatella was remapped to 'Caryocolum' (id=1130095)
-	Cydia pomonella was remapped to 'Cydia' (id=1167243)
-	Exoncotis umbraticella was remapped to 'Exoncotis' (id=1144300)
-	Epicephala relictella was remapped to 'Epicephala' (id=1137494)
-	Pectinophora gossypiella was remapped to 'Pexicopiinae' (id=1128027)
-	Sosineura mimica was remapped to 'Sosineura' (id=1160741)
-	Diploschizia impigritella was remapped to 'Diploschizia' (id=1102453)
-	Brenthia was remapped to 'Brenthiinae' (id=1151628)
-	Hapsifera was remapped to 'Hapsiferinae' (id=1141481)
-	Calpodes ethlius was remapped to 'Hesperiinae' (id=1192754)
-	Endoxyla encalypti was remapped to 'Endoxyla' (id=1148173)
-	Ethmia eupostica was remapped to 'Ethmiinae' (id=1123610)
-	Stenolechia bathrodyas was remapped to 'Stenolechia' (id=1130294)
-	Oreopsyche tenella was remapped to 'Oreopsyche' (id=1145221)
-	Antheraea paukstadtorum was remapped to 'Antheraea' (id=1183507)
-	Doa was remapped to 'Doidae' (id=1380129)
-	Oxytenis modestia was remapped to 'Oxyteninae' (id=1184464)
-	Scirpophaga incertulas was remapped to 'Scirpophaga' (id=1214800)
-	Niphopyralis chionesis was remapped to 'Wurthiinae' (id=1214368)
-	Pterothysanus laticilia was remapped to 'Pterothysanus' (id=1147939)
-	Gyrtona was remapped to 'Xyleninae' (id=1351531)
-	Thaumetopoea pityocampa was remapped to 'Thaumetopoeinae' (id=1326317)
-	Macrosoma conifera was remapped to 'Hedyloidea' (id=1192323)
-	Ambesa laetella was remapped to 'Ambesa' (id=1228414)
-	Malacosoma americanum was remapped to 'Malacosoma' (id=1178421)
-	Liphyra brassolis was remapped to 'Miletinae' (id=1297953)
-	Anstenoptilia marmarodactyla was remapped to 'Anstenoptilia' (id=1206500)
-	Spulerina dissotoma was remapped to 'Spulerina' (id=1136381)
-	Lypusa maurella was remapped to 'Lypusinae' (id=1145494)
-	Arrhenophanes was remapped to 'Arrhenophaninae' (id=1145126)
-	Anticrates phaedima was remapped to 'Anticrates' (id=1160263)
-	Phycomorpha prasinochroa was remapped to 'Copromorphidae' (id=1161089)
-	Chelepteryx collesi was remapped to 'Chelepteryx' (id=1182155)
-	Jana palliatella was remapped to 'Jana' (id=1181590)
-	Emmelina monodactyla was remapped to 'Emmelina' (id=1207107)
-	Acanthobrahmaea europaea was remapped to 'Acanthobrahmaea' (id=1187426)
+	Digitivalva hemiglypha was remapped to 'Digitivalva' (id=1195950)
+	Scoriodyta suttonensis was remapped to 'Scoriodytinae' (id=1237706)
+	Exoncotis umbraticella was remapped to 'Exoncotis' (id=1236872)
+	Acanthobrahmaea europaea was remapped to 'Acanthobrahmaea' (id=1279998)
+	Parides iphidamas was remapped to 'Troidini' (id=1374581)
+	Monoloxis flavicinctalis was remapped to 'Monoloxis' (id=1317678)
+	Heliconius sara was remapped to 'Heliconiinae' (id=1339041)
+	Sosineura mimica was remapped to 'Sosineura' (id=1253313)
+	Metorthocheilus emarginatus was remapped to 'Metorthocheilus' (id=1479325)
+	Scythropia crataegella was remapped to 'Scythropiinae' (id=1196682)
+	Caradrina meralis was remapped to 'Caradrina' (id=1451621)
+	Paraptica concinerata was remapped to 'Paraptica' (id=1233946)
+	Biston betularia was remapped to 'Biston' (id=1511977)
+	Poritia erycinoides was remapped to 'Poritiinae' (id=1389641)
+	Podosesia syringae was remapped to 'Podosesia' (id=1242332)
+	Quentalia chromana was remapped to 'Quentalia' (id=1274895)
+	Trichoplusia ni was remapped to 'Plusiinae' (id=1429192)
+	Hemerophila felis was remapped to 'Hemerophila' (id=1244684)
+	Agdistis americana was remapped to 'Agdistinae' (id=1299712)
+	Hypena scabra was remapped to 'Hypena' (id=1442502)
+	Cephimallota chasanica was remapped to 'Cephimallota' (id=1234676)
+	Kricogonia lyside was remapped to 'Kricogonia' (id=1331800)
+	Mimoides branchus was remapped to 'Leptocircini' (id=1375768)
+	Xystrologa sp. Xwi was remapped to 'Xystrologa' (id=1233336)
+	Narycia duplicella was remapped to 'Taleporiinae' (id=1238221)
+	Dinophalus lechriomita was remapped to 'Dinophalus' (id=1480686)
+	Munychryia senicula was remapped to 'Munychryiinae' (id=1274486)
+	Epicroesa metallifera was remapped to 'Epicroesa' (id=1196506)
+	Danaus plexippus was remapped to 'Danainae' (id=1361982)
+	Lebedodes cossula was remapped to 'Lebedodes' (id=1240036)
+	Scythris immaculatella was remapped to 'Scythris' (id=1218119)
+	Mompha cephalonthiella was remapped to 'Momphidae' (id=1198658)
+	Coronidia orithea was remapped to 'Coronidia' (id=1479113)
+	Rivula propinqualis was remapped to 'Rivula' (id=1443498)
+	Niphopyralis chionesis was remapped to 'Wurthiinae' (id=1306945)
+	Thyridopteryx ephemeraeformis was remapped to 'Thyridopteryx' (id=1237958)
+	Dichomeris punctidiscella was remapped to 'Dichomeridinae' (id=1220669)
+	Arrhenophanes was remapped to 'Arrhenophaninae' (id=1237698)
+	Homaloxestis croceata was remapped to 'Homaloxestis' (id=1197557)
+	Drepana arcuata was remapped to 'Drepana' (id=1478238)
+	Strymon eurytulus was remapped to 'Theclinae' (id=1385532)
+	Spatalia doerriesi was remapped to 'Spatalia' (id=1419894)
+	Lasiocampa quercus was remapped to 'Lasiocampa' (id=1271218)
+	Psychostrophia melanargia was remapped to 'Psychostrophia' (id=1478989)
+	Eugnosta busckana was remapped to 'Eugnosta' (id=1265003)
+	Epicopeia hainesii was remapped to 'Epicopeia' (id=1478998)
+	Hypoprepia miniata was remapped to 'Lithosiinae' (id=1406280)
+	Cyclotorna was remapped to 'Cyclotornidae' (id=1252707)
+	Platyptilia ignifera was remapped to 'Platyptilia' (id=1299355)
+	Typhonia ciliaris was remapped to 'Typhoniinae' (id=1238433)
+	Endothenia hebesana was remapped to 'Endotheniini' (id=1259090)
+	Prolimacodes badia was remapped to 'Prolimacodes' (id=1249636)
+	Gauna aegusalis was remapped to 'Gauna' (id=1318521)
+	Cyclophora nanaria was remapped to 'Cyclophora' (id=1498453)
+	Endromis versicolora was remapped to 'Endromidae' (id=1280062)
+	Blenina senex was remapped to 'Bleninae' (id=1415623)
+	Acrolophus arcanella was remapped to 'Acrolophus' (id=1236877)
+	Pantoctenia prasina was remapped to 'Pantoctenia' (id=1250348)
+	Metarbela naumanni was remapped to 'Metarbela' (id=1240135)
+	Meridarchis excisa was remapped to 'Meridarchis' (id=1253498)
+	Heppnerographa tricesimana was remapped to 'Heppnerographa' (id=1253830)
+	Pelochrista zomonana was remapped to 'Pelochrista' (id=1258039)
+	Stathmopoda melanochra was remapped to 'Stathmopoda' (id=1206855)
+	Pseudocossus boisduvalii was remapped to 'Pseudocossus' (id=1240070)
+	Trichophaga tapetzella was remapped to 'Trichophaga' (id=1233580)
+	Cucullia convexipennis was remapped to 'Cuculliinae' (id=1446742)
+	Acrolepiopsis sapporensis was remapped to 'Acrolepiopsis' (id=1195751)
+	Phycomorpha prasinochroa was remapped to 'Copromorphidae' (id=1253661)
+	Manduca sexta was remapped to 'Sphinginae' (id=1280093)
+	Micronoctua karsholti was remapped to 'Micronoctuidae' (id=1397792)
+	Lemonia dumi was remapped to 'Lemoniidae' (id=1280014)
+	Hypsopygia olinalis was remapped to 'Hypsopygia' (id=1317886)
+	Agriothera elaeocarpophaga was remapped to 'Agriothera' (id=1237571)
+	Hovala was remapped to 'Heteropterinae' (id=1290039)
+	Prismosticta fenestrata was remapped to 'Prismosticta' (id=1274768)
+	Thecobathra anas was remapped to 'Thecobathra' (id=1196969)
+	Roeslerstammia pronubella was remapped to 'Roeslerstammia' (id=1237531)
+	Cacographis osteolalis was remapped to 'Midilinae' (id=1307982)
+	Urapteroides astheniata was remapped to 'Urapteroides' (id=1479148)
+	Coeliades ramanatek was remapped to 'Coeliades' (id=1285130)
+	Cedestis subfasciella was remapped to 'Cedestis' (id=1196834)
+	Lacosoma chiridota was remapped to 'Lacosoma' (id=1284657)
+	Sparganothis reticulatana was remapped to 'Sparganothini' (id=1264520)
+	Alucita sp. JCR-2011 was remapped to 'Alucitoidea' (id=1298237)
+	Platynota idaeusalis was remapped to 'Sparganothidini' (id=1262919)
+	Macrauzata maxima was remapped to 'Macrauzata' (id=1478009)
+	Hyles lineata was remapped to 'Macroglossinae' (id=1280930)
+	Endoxyla encalypti was remapped to 'Endoxyla' (id=1240745)
+	Acropteris sparsaria was remapped to 'Microniinae' (id=1479218)
+	Zeuzera coffeae was remapped to 'Zeuzera' (id=1239963)
+	Homadaula anisocentra was remapped to 'Homadaula' (id=1195978)
+	Mesoscia dyari was remapped to 'Mesoscia' (id=1252404)
+	Pseudothyatira cymatophoroides was remapped to 'Pseudothyatira' (id=1477452)
+	Euclea delphinii was remapped to 'Euclea' (id=1250395)
+	Yponomeuta multipunctellus was remapped to 'Yponomeuta' (id=1197048)
+	Idaea demissaria was remapped to 'Idaea' (id=1496957)
+	Langsdorfia lunifera was remapped to 'Langsdorfia' (id=1240438)
+	Pseudopontia paradoxa was remapped to 'Pseudopontiinae' (id=1329116)
+	Nemapogon cloacella was remapped to 'Nemapogoninae' (id=1232192)
+	Epicephala relictella was remapped to 'Epicephala' (id=1230066)
+	Hypertropha tortriciformis was remapped to 'Hypertropha' (id=1201927)
+	Earias roseifera was remapped to 'Eariadinae' (id=1415496)
+	Coleophora cratipennella was remapped to 'Coleophoridae' (id=1211383)
+	Scopula limboundata was remapped to 'Scopula' (id=1495393)
+	Phobetron hipparchia was remapped to 'Phobetron' (id=1250288)
+	Encolapta tegulifera was remapped to 'Encolapta' (id=1221785)
+	Neurophyseta conantia was remapped to 'Musotiminae' (id=1307756)
+	Argyrotaenia alisellana was remapped to 'Argyrotaenia' (id=1260875)
+	Chondrostega vandalicia was remapped to 'Chondrosteginae' (id=1269927)
+	Monochroa cleodoroides was remapped to 'Monochroa' (id=1221869)
+	Carposina fernaldana was remapped to 'Carposina' (id=1253329)
+	Evergestis funalis was remapped to 'Evergestinae' (id=1306955)
+	Pieris rapae was remapped to 'Pierinae' (id=1331943)
+	Liphyra brassolis was remapped to 'Miletinae' (id=1390547)
+	Gluphisia septentrionis was remapped to 'Gluphisia' (id=1419849)
+	Ambesa laetella was remapped to 'Ambesa' (id=1320991)
+	Macrocilix mysticata was remapped to 'Macrocilix' (id=1477995)
+	Wingia aurata was remapped to 'Wingia' (id=1208031)
+	Druentica alsa was remapped to 'Druentica' (id=1284709)
+	Doxophyrtis hydrocosma was remapped to 'Doxophyrtis' (id=1195820)
+	Archaeoses pentasema was remapped to 'Archaeoses' (id=1240741)
+	Glanycus insolitus was remapped to 'Glanycus' (id=1328248)
+	Olethreutes fasciatana was remapped to 'Olethreutes' (id=1254773)
+	Aetole tripunctella was remapped to 'Aetole' (id=1196504)
+	Caryocolum pullatella was remapped to 'Caryocolum' (id=1222667)
+	Ypsolopha nigrimaculata was remapped to 'Ypsolopha' (id=1195449)
+	Phaedropsis alitemeralis was remapped to 'Phaedropsis' (id=1311774)
+	Tethea consimilis was remapped to 'Tethea' (id=1477652)
+	Brachycodilla osorius was remapped to 'Aididae' (id=1252720)
+	Galagete protozona was remapped to 'Autostichidae' (id=1212915)
+	Lyonetia prunifoliella was remapped to 'Lyonetia' (id=1195152)
+	Philiodoron frater was remapped to 'Philiodoron' (id=1240489)
+	Malacosoma americanum was remapped to 'Malacosoma' (id=1270993)
+	Eudarcia simulatricella was remapped to 'Eudarcia' (id=1232554)
+	Mea bipunctella was remapped to 'Mea' (id=1232543)
+	Chionopsyche montana was remapped to 'Chionopsychinae' (id=1269921)
+	Heteropacha rileyana was remapped to 'Heteropacha' (id=1270557)
+	Culama crepera was remapped to 'Culama' (id=1240284)
+	Hasora chromus was remapped to 'Hasora' (id=1285177)
+	Hasodima elegans was remapped to 'Hasodima' (id=1511938)
+	Cnephasia alfacarana was remapped to 'Cnephasia' (id=1262226)
+	Eudonia spenceri was remapped to 'Scopariinae' (id=1308116)
+	Pseudatteria volcanica was remapped to 'Pseudatteria' (id=1253870)
+	Parectopa robiniella was remapped to 'Parectopa' (id=1228475)
+	Mythimna unipuncta was remapped to 'Hadeninae' (id=1430700)
+	Macrothylacia rubi was remapped to 'Macrothylacia' (id=1271648)
+	Acria ceramitis was remapped to 'Peleopodidae' (id=1228316)
+	Ochsenheimeria urella was remapped to 'Ochsenheimeria' (id=1195419)
+	Choristoneura rosaceana was remapped to 'Choristoneura' (id=1261192)
+	Spodoptera frugiperda was remapped to 'Amphipyrinae' (id=1447618)
+	Pterothysanus laticilia was remapped to 'Pterothysanus' (id=1240511)
+	Histura perseavora was remapped to 'Histura' (id=1253916)
+	Earophila badiata was remapped to 'Earophila' (id=1488019)
+	Janiodes laverna was remapped to 'Cercophaninae' (id=1275253)
+	Hyposmocoma turdella was remapped to 'Hyposmocoma' (id=1199840)
+	Atteva aurea was remapped to 'Attevinae' (id=1196751)
+	Hypobapta xenomorpha was remapped to 'Hypobapta' (id=1492486)
+	Anstenoptilia marmarodactyla was remapped to 'Anstenoptilia' (id=1299077)
+	Bedosia turgidus was remapped to 'Bedosia' (id=1284825)
+	Aeolanthes semiostrina was remapped to 'Aeolanthinae' (id=1216670)
+	Synanthedon exitiosa was remapped to 'Synanthedon' (id=1242624)
+	Phyciodes phaon was remapped to 'Melitaeini' (id=1360365)
+	Syntonarcha iriastis was remapped to 'Odontiinae' (id=1307551)
+	Eumetriochroa hederae was remapped to 'Oecophyllembiinae' (id=1228459)
+	Eucalantica costaricae was remapped to 'Eucalantica' (id=1195781)
+	Epipomponia nawai was remapped to 'Epipomponia' (id=1252616)
+	Aroga trialbamaculella was remapped to 'Aroga' (id=1225303)
+	Promalactis jezonica was remapped to 'Promalactis' (id=1213595)
+	Spulerina dissotoma was remapped to 'Spulerina' (id=1228953)
+	Myrmecozela ochraceella was remapped to 'Myrmecozela' (id=1234561)
+	Urbanus doryssus was remapped to 'Urbanus' (id=1294664)
+	Iscadia producta was remapped to 'Chloephorinae' (id=1415817)
+	Carthaea saturnioides was remapped to 'Carthaeidae' (id=1273803)
+	Macrotheca was remapped to 'Galleriinae' (id=1322604)
+	Filinota brunniceps was remapped to 'Filinota' (id=1216718)
+	Diurnea fagella was remapped to 'Chimabachinae' (id=1208726)
+	Zygaena fausta was remapped to 'Zygaena' (id=1245320)
+	Synemon plana was remapped to 'Synemoninae' (id=1241401)
+	Curetis bulis stigmata was remapped to 'Curetinae' (id=1379330)
+	Libytheana carinenta bachmanii was remapped to 'Libytheinae' (id=1358302)
+	Oberthueria formosibia was remapped to 'Oberthueria' (id=1274775)
+	Axia margarita was remapped to 'Cimelioidea' (id=1298127)
+	Ethmia eupostica was remapped to 'Ethmiinae' (id=1216182)
+	Rhizosthenes falciformis was remapped to 'Rhizosthenes' (id=1198091)
+	Crinodes besckei was remapped to 'Didusiinae' (id=1420772)
+	Furcula cinerea was remapped to 'Stauropinae' (id=1420391)
+	Phauda mimica was remapped to 'Phaudinae' (id=1247805)
+	Bombyx mori was remapped to 'Bombyx' (id=1274797)
+	Leucoptera coffeella was remapped to 'Leucoptera' (id=1195256)
+	Psyche crassiorella was remapped to 'Phychinae' (id=1238082)
+	Antheraea paukstadtorum was remapped to 'Antheraea' (id=1276079)
+	Tymbophora peltastis was remapped to 'Tymbophora' (id=1219692)
+	Scardiella approximatella was remapped to 'Scardiella' (id=1234722)
+	Hybroma servulella was remapped to 'Hybroma' (id=1232396)
+	Auratonota dispersa was remapped to 'Auratonota' (id=1253765)
+	Scirpophaga incertulas was remapped to 'Scirpophaga' (id=1307377)
+	Amata fortunei was remapped to 'Syntominae' (id=1409297)
+	Cameraria gaultheriella was remapped to 'Cameraria' (id=1230567)
+	Morophaga bucephala was remapped to 'Morophaga' (id=1234785)
+	Meganola phylla was remapped to 'Nolinae' (id=1416668)
+	Cotana serranotata was remapped to 'Cotana' (id=1273833)
+	Friseria cockerelli was remapped to 'Friseria' (id=1222650)
+	Catoptria oregonica was remapped to 'Crambinae' (id=1308789)
+	Syngria druidaria was remapped to 'Syngria' (id=1479278)
+	Pollanisus apicalis was remapped to 'Procridinae' (id=1247829)
+	Alsophila pometaria was remapped to 'Alsophilinae' (id=1480763)
+	Anthophila fabriciana was remapped to 'Anthophila' (id=1244530)
+	Eupselia carpocapsella was remapped to 'Eupselia' (id=1201866)
+	Proditrix gahniae was remapped to 'Proditrix' (id=1195850)
+	Thaumetopoea pityocampa was remapped to 'Thaumetopoeinae' (id=1418918)
+	Prionoxystus robiniae was remapped to 'Prionoxystus' (id=1240193)
+	Doa was remapped to 'Doidae' (id=1472726)
+	Melittia cucurbitae was remapped to 'Melittiini' (id=1241953)
+	Habrosyne pyritoides was remapped to 'Habrosyne' (id=1477781)
+	Cyclosemia subcaerulea was remapped to 'Cyclosemia' (id=1293358)
+	Tebenna micalis was remapped to 'Tebenna' (id=1244700)
+	Hoplojana rhodoptera was remapped to 'Hoplojana' (id=1274133)
+	Erechthias zebrina was remapped to 'Erechthiinae' (id=1234180)
+	Eulia ministrana was remapped to 'Eulia' (id=1262758)
+	Rupela albina was remapped to 'Rupela' (id=1307462)
+	Klimeschia transversella was remapped to 'Douglasiidae' (id=1237173)
+	Griveaudia vieui was remapped to 'Ophiderinae' (id=1443886)
+	Orthonama obstipata was remapped to 'Orthonama' (id=1486890)
+	Chilecomadia valdiviana was remapped to 'Chilecomadia' (id=1240065)
+	Emmelina monodactyla was remapped to 'Emmelina' (id=1299684)
+	Thudaca haplonota was remapped to 'Thudaca' (id=1201838)
+	Agonopterix alstroemeriana was remapped to 'Agonopterix' (id=1217342)
+	Hieromantis kurokoi was remapped to 'Stathmopodinae' (id=1208740)
+	Autosticha modicella was remapped to 'Autosticha' (id=1208090)
+	Xyleutes mineus was remapped to 'Xyleutes' (id=1233356)
+	Pennisetia hylaeiformis was remapped to 'Tinthiinae' (id=1241893)
+	Elachista tengstromi was remapped to 'Elachista' (id=1215754)
+	Nataxa flavescens was remapped to 'Nataxa' (id=1274508)
+	Stenoma patens was remapped to 'Stenoma' (id=1213680)
+	Catocala ultronia was remapped to 'Catocala' (id=1440766)
+	Trichosea champa was remapped to 'Pantheinae' (id=1442019)
+	Synechodes coniophora was remapped to 'Synechodes' (id=1244766)
+	Plodia interpunctella was remapped to 'Plodia' (id=1321531)
+	Tineola bisselliella was remapped to 'Tineola' (id=1233950)
+	Orthotelia sparganella was remapped to 'Orthotelia' (id=1194672)
+	Polyterpnes polyrrhoda was remapped to 'Polyterpnes' (id=1317588)
+	Odites leucostola was remapped to 'Odites' (id=1197928)
+	Moerarchis inconcisella was remapped to 'Moerarchis' (id=1234627)
+	Tinea columbariella was remapped to 'Tinea' (id=1233059)
+	Cosmiotes illectella was remapped to 'Cosmiotes' (id=1215642)
+	Bedellia somnulentella was remapped to 'Bedelliidae' (id=1194643)
+	Psecadioides aspersus was remapped to 'Psecadioides' (id=1234688)
+	Caloptilia bimaculatella was remapped to 'Caloptilia' (id=1228984)
+	Urodus decens was remapped to 'Urodus' (id=1239866)
+	Episimus tyrius was remapped to 'Episimus' (id=1255271)
+	Eudocima salaminia was remapped to 'Eudocima' (id=1438537)
+	Antaeotricha renselariana was remapped to 'Antaeotricha' (id=1214589)
+	Dactyloceras widenmanni was remapped to 'Dactyloceras' (id=1279972)
+	Dicymolomia metalliferalis was remapped to 'Glaphyriinae' (id=1306351)
+	Lymantria dispar was remapped to 'Lymantriidae' (id=1472764)
+	Oreopsyche tenella was remapped to 'Oreopsyche' (id=1237793)
+	Callisto denticulella was remapped to 'Callisto' (id=1229527)
+	Minacraga plata was remapped to 'Minacraga' (id=1245066)
+	Oxytenis modestia was remapped to 'Oxyteninae' (id=1277036)
+	Deoclona yuccasella was remapped to 'Deoclonidae' (id=1198651)
+	Euphaneta divisa was remapped to 'Euphaneta' (id=1284561)
+	Millieria dolosalis was remapped to 'Millieriinae' (id=1244193)
+	Vitacea polistiformis was remapped to 'Paranthrenini' (id=1242112)
+	Paonias myops was remapped to 'Smerinthinae' (id=1283330)
+	Calpodes ethlius was remapped to 'Hesperiinae' (id=1285326)
+	Hapsifera was remapped to 'Hapsiferinae' (id=1234053)
+	Dysoptus bilobus was remapped to 'Arrhenophanidae' (id=1237612)
+	Vanessa carye was remapped to 'Nymphalini' (id=1359421)
+	Eucosma picrodelta was remapped to 'Eucosma' (id=1257077)
+	Cydia pomonella was remapped to 'Cydia' (id=1259815)
+	Mirina christophi was remapped to 'Mirinidae' (id=1275245)
+	Plutella xylostella was remapped to 'Plutella' (id=1195864)
+	Cisseps fulvicollis was remapped to 'Ctenuchinae' (id=1403371)
+	Gyrtona was remapped to 'Xyleninae' (id=1444126)
+	Phiditia was remapped to 'Phiditiinae' (id=1269734)
+	Helicoverpa zea was remapped to 'Heliothinae' (id=1455463)
+	Pectinophora gossypiella was remapped to 'Pexicopiinae' (id=1220599)
+	Dudgeonea was remapped to 'Dudgeoneidae' (id=1241387)
+	Helicomitra pulchra was remapped to 'Pterothysanidae' (id=1300692)
+	Telchin licus pauperata was remapped to 'Telchin' (id=1241504)
+	Psilocorsis reflexella was remapped to 'Amphisbatidae' (id=1218074)
+	Chlorosea margaretaria was remapped to 'Chlorosea' (id=1493695)
+	Cryptaspasma was remapped to 'Microcorsini' (id=1255723)
+	Oreta rosea was remapped to 'Oretinae' (id=1477287)
+	Noorda blitealis was remapped to 'Noordinae' (id=1307743)
+	Eupithecia acutipennis was remapped to 'Eupithecia' (id=1481149)
+	Dismorphia amphiona was remapped to 'Dismorphiinae' (id=1329127)
+	Lactura subfervens was remapped to 'Lactura' (id=1252902)
+	Lepidotarphius perornatellus was remapped to 'Lepidotarphius' (id=1194674)
+	Pyloetis mimosae was remapped to 'Pyloetis' (id=1231923)
+	Trichopteryx carpinata was remapped to 'Trichopteryx' (id=1487024)
+	Chelepteryx collesi was remapped to 'Chelepteryx' (id=1274727)
+	Pyrausta zonalis was remapped to 'Pyrausta' (id=1311815)
+	Ancylis sparulana was remapped to 'Enarmoniini' (id=1255765)
+	Prays fraxinella was remapped to 'Praydinae' (id=1196695)
+	Stenolechia bathrodyas was remapped to 'Stenolechia' (id=1222866)
+	Diploschizia impigritella was remapped to 'Diploschizia' (id=1195020)
+	Oenosandra boisduvalii was remapped to 'Oenosandra' (id=1472757)
+	Agrotis ipsilon was remapped to 'Agrotis' (id=1450779)
+	Lyssa zampa was remapped to 'Lyssa' (id=1479187)
+	Haematopis grataria was remapped to 'Haematopis' (id=1498733)
+	Anticrates phaedima was remapped to 'Anticrates' (id=1252835)
+	Pryeria sinica was remapped to 'Pryeria' (id=1245311)
+	Mysoria ambigua was remapped to 'Pyrrhopyginae' (id=1290369)
+	Aristotelia mesotenebrella was remapped to 'Aristotelia' (id=1224664)
+	Phereoeca uterella was remapped to 'Phereoeca' (id=1233619)
+	Asterocampa celtis was remapped to 'Apaturinae' (id=1347496)
+	Grapholita delineana was remapped to 'Grapholita' (id=1259584)
+	Psychogena miranda was remapped to 'Psychogena' (id=1240476)
+	Poecilocampa populi was remapped to 'Poecilocampinae' (id=1269956)
+	Birthana cleis was remapped to 'Birthana' (id=1253246)
+	Spinulata maruga was remapped to 'Spinulata' (id=1240211)
+	Pterodecta felderi was remapped to 'Callidulidae' (id=1300595)
+	Aethes promptana was remapped to 'Aethes' (id=1265617)
+	Amauta cacica was remapped to 'Amauta' (id=1241484)
+	Deuterogonia pudorina was remapped to 'Deuterogoniidae' (id=1198627)
+	Epiblema abruptana was remapped to 'Epiblema' (id=1258436)
+	Dalcerides ingenita was remapped to 'Dalcerides' (id=1245070)
+	Tolype notialis was remapped to 'Macromphaliinae' (id=1271709)
+	Neoblastobasis spiniharpella was remapped to 'Blastobasidae' (id=1210926)
+	Archiearis parthenias was remapped to 'Archiearinae' (id=1494270)
+	Perissomastix was remapped to 'Perissomasticinae' (id=1231790)
+	Strigivenifera venata was remapped to 'Strigivenifera' (id=1249634)
+	Bucculatrix was remapped to 'Bucculatricidae' (id=1237221)
+	Macrosoma conifera was remapped to 'Hedyloidea' (id=1284895)
+	Negeta contrariata was remapped to 'Westermanniinae' (id=1415700)
+	Agdistopis sinhala was remapped to 'Macropiratinae' (id=1298493)
+	Colias eurytheme was remapped to 'Colias' (id=1329618)
+	Striglina suzukii was remapped to 'Striglininae' (id=1328403)
+	Dynamine sosthenes was remapped to 'Biblidinae' (id=1346675)
+	Givira mucida was remapped to 'Givira' (id=1240634)
+	Lypusa maurella was remapped to 'Lypusinae' (id=1238066)
+	Bibarrambla allenella was remapped to 'Bibarrambla' (id=1217955)
+	Saturnia naessigi was remapped to 'Saturnia' (id=1275762)
+	Pancalia schwarzella was remapped to 'Antequerinae' (id=1200669)
+	Phobolosia anfracta was remapped to 'Strepsimaninae' (id=1426107)
+	Petrophila confusalis was remapped to 'Nymphulinae' (id=1306482)
+	Decodes asapheus was remapped to 'Decodes' (id=1262522)
+	Accinctapubes albifasciata was remapped to 'Epipaschiinae' (id=1318708)
+	Norape tener was remapped to 'Norape' (id=1252304)
+	Jana palliatella was remapped to 'Jana' (id=1274162)
+	Schreckensteinia was remapped to 'Schreckensteinioidea' (id=1239829)
+	Acleris semipurpurana was remapped to 'Acleris' (id=1263315)
+	Campaea perlata was remapped to 'Campaea' (id=1512121)
+	Leistarcha scitissimella was remapped to 'Leistarcha' (id=1219009)
+	Sematura lunus was remapped to 'Sematura' (id=1479110)
+	Apatelodes torrefacta was remapped to 'Apatelodinae' (id=1269800)
+	Brenthia was remapped to 'Brenthiinae' (id=1244200)
+	Eterusia aedea was remapped to 'Chalcosiinae' (id=1245139)
+	Cyclidia substigmaria modesta was remapped to 'Cyclidiinae' (id=1477421)
+	Batrachedra was remapped to 'Batrachedridae' (id=1201661)
+	Imma tetrascia was remapped to 'Imma' (id=1253028)
+	Opogona thiadelpha was remapped to 'Opogona' (id=1231929)
+	Fulgoraecia exigua was remapped to 'Fulgoraecia' (id=1252630)
+	Lecithocera chersitis was remapped to 'Lecithocera' (id=1197623)
+	Paysandisia archon was remapped to 'Paysandisia' (id=1241479)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -920,51 +911,51 @@ Adding property 'ot:curatorName': Joseph Brown
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1371/journal.pone.0058568
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 2531849
+Adding property 'ot:focalClade': 596629
 Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': ML nt123_degen1 dataset
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2664
-Committing nodes: 785
-	adding Node[1137829] Phyllocnistinae 883117 as compatible with Node[1137830]
-		adding Relationship[8165432]
-		adding to root Relationship[8165433]
-	adding Node[1147280] Urodoidea 371727 as compatible with Node[1147281]
-		adding Relationship[8165434]
-		adding to root Relationship[8165435]
-	adding Node[1161183] Tortricoidea 596646 as compatible with Node[1161184]
-		adding Relationship[8165436]
-		adding to root Relationship[8165437]
-	adding Node[1191986] Mimallonoidea 244454 as compatible with Node[1191987]
-		adding Relationship[8165438]
-		adding to root Relationship[8165439]
-	adding Node[1205604] Hyblaeidae 739391 as compatible with Node[1205605]
-		adding Relationship[8165440]
-		adding to root Relationship[8165441]
-	adding Node[1205602] Hyblaeoidea 626088 as compatible with Node[1205605]
-		adding Relationship[8165442]
-		adding to root Relationship[8165443]
-	adding Node[1207825] Epermeniidae 529677 as compatible with Node[1207863]
-		adding Relationship[8165444]
-		adding to root Relationship[8165445]
-	adding Node[1207824] Epermenioidea 626096 as compatible with Node[1207863]
-		adding Relationship[8165446]
-		adding to root Relationship[8165447]
-	adding Node[1148827] Castnioidea 371734 as compatible with Node[1148828]
-		adding Relationship[8165448]
-		adding to root Relationship[8165449]
-	adding Node[1160454] Immoidea 371737 as compatible with Node[1160455]
-		adding Relationship[8165450]
-		adding to root Relationship[8165451]
-	adding Node[1182737] Saturniinae 391860 as compatible with Node[1183189]
-		adding Relationship[8165452]
-		adding to root Relationship[8165453]
-	adding Node[1192410] Hesperioidea 336117 as compatible with Node[1192411]
-		adding Relationship[8165454]
-		adding to root Relationship[8165455]
-	adding Node[1279525] Papilionidae 661439 as compatible with Node[1281990]
-		adding Relationship[8165456]
-		adding to root Relationship[8165457]
-		adding Relationship[8165458] from Node[3467206] to Node[3467207]
-		adding Relationship[8165459] from Node[1205604] to Node[1205602]
-		adding Relationship[8165460] from Node[1207825] to Node[1207824]
+Committing nodes: 789
+	adding Node[1230401] Phyllocnistinae 883117 as compatible with Node[1230402]
+		adding Relationship[8417904]
+		adding to root Relationship[8417905]
+	adding Node[1239852] Urodoidea 371727 as compatible with Node[1239853]
+		adding Relationship[8417906]
+		adding to root Relationship[8417907]
+	adding Node[1253755] Tortricoidea 596646 as compatible with Node[1253756]
+		adding Relationship[8417908]
+		adding to root Relationship[8417909]
+	adding Node[1284558] Mimallonoidea 244454 as compatible with Node[1284559]
+		adding Relationship[8417910]
+		adding to root Relationship[8417911]
+	adding Node[1298181] Hyblaeidae 739391 as compatible with Node[1298182]
+		adding Relationship[8417912]
+		adding to root Relationship[8417913]
+	adding Node[1298179] Hyblaeoidea 626088 as compatible with Node[1298182]
+		adding Relationship[8417914]
+		adding to root Relationship[8417915]
+	adding Node[1300402] Epermeniidae 529677 as compatible with Node[1300440]
+		adding Relationship[8417916]
+		adding to root Relationship[8417917]
+	adding Node[1300401] Epermenioidea 626096 as compatible with Node[1300440]
+		adding Relationship[8417918]
+		adding to root Relationship[8417919]
+	adding Node[1241399] Castnioidea 371734 as compatible with Node[1241400]
+		adding Relationship[8417920]
+		adding to root Relationship[8417921]
+	adding Node[1253026] Immoidea 371737 as compatible with Node[1253027]
+		adding Relationship[8417922]
+		adding to root Relationship[8417923]
+	adding Node[1275309] Saturniinae 391860 as compatible with Node[1275761]
+		adding Relationship[8417924]
+		adding to root Relationship[8417925]
+	adding Node[1284982] Hesperioidea 336117 as compatible with Node[1284983]
+		adding Relationship[8417926]
+		adding to root Relationship[8417927]
+	adding Node[1372114] Papilionidae 661439 as compatible with Node[1374579]
+		adding Relationship[8417928]
+		adding to root Relationship[8417929]
+		adding Relationship[8417930] from Node[1298181] to Node[1298179]
+		adding Relationship[8417931] from Node[1300402] to Node[1300401]
+		adding Relationship[8417932] from Node[3566343] to Node[3566344]

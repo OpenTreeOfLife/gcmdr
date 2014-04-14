@@ -331,6 +331,7 @@ studytreelist=[
 #"2067_4258", # Boreoeutheria. Yoder and Yang. 2004. Mol. Ecol.
 
 
-
-
-            ]
+"2829_6579", # Thraupidae. Burns et al. 2014. MPE
+"2858_6642", # Turdidae. Nylander et al. 2008. Syst. Biol.
+"1953_3977", # Furnariidae. Derryberry et al. 2001. Evolution            
+]

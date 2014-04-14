@@ -11,20 +11,18 @@ pgloadind   property added ot:curatorName "Karen Cranston"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S2108"
 pgloadind   property added ot:studyId "420"
 pgloadind   property added ot:studyYear "2008"
-pgloadind   property added ot:focalClade "1490651"
+pgloadind   property added ot:focalClade "81461"
+pgloadind   property added ot:focalCladeOTTTaxonName "Aves"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
 pgloadind   property added ot:inGroupClade "node208482"
+pgloadind   property added ot:curatedType "ML majority rule consensus"
 loading a specific tree: 522
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "522"
-pgloadind     OTT ID missing name "Speotyto" nexsonid "node208607"
-pgloadind   TNRS unmatched total number 0
-pgloadind     TNRS resolved ottId OTT ID 98071 name "Athene" searched on "Speotyto" nexsonid "node208607"
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Regulus" nexsonid "node208503"
-pgloadind       dubious OTT ID 3599326
-pgloadind     pruning dups and overlapping name "Regulus" nexsonid "node208503"
-pgloadind   postpruning newick tree "((((((((((Acanthisitta,(((((((((Sylvia,Turdus),Bombycilla),((Fringilla,Passer),(Ploceus,Vidua))),Picathartes),Corvus),Malurus),Climacteris),Menura),(((((Dendrocolaptes,Scytalopus),Grallaria),Thamnophilus),((Mionectes,Tyrannus),Pipra)),((Pitta,Smithornis),Sapayoa)))),(((((Alisterus,Psittacula),Micropsitta),(Chalcopsitta,Platycercus)),Psittacus),Cacatua)),((Daptrius,Falco),(Herpetotheres,Micrastur))),Cariama),((((((((((Alcedo,Momotus),Todus),(Brachypteracias,Coracias)),Merops),((Bucco,Galbula),((Capito,Megalaima),(Dryocopus,Indicator)))),((Bucorvus,Tockus),(Phoeniculus,Upupa))),(Pharomachrus,Trogon)),Leptosomus),((Colius,Urocolius),((Phodilus,Tyto),(Speotyto,Strix)))),((((Buteo,Gampsonyx),Pandion),Sagittarius),(Cathartes,Sarcoramphus)))),(((Arenaria,((Jacana,Rostratula),(Pedionomus,Thinocorus))),((Dromas,Larus),Turnix)),(Burhinus,((Charadrius,Phegornis),Haematopus)))),((((((((((Anhinga,Phalacrocorax),Morus),Fregata),(((Ardea,Cochlearius),Eudocimus),((Balaeniceps,Scopus),Pelecanus))),Ciconia),(((Diomedea,(Oceanodroma,(Pelecanoides,Puffinus))),Oceanites),Eudyptula)),Gavia),(Corythaeola,Tauraco)),(((((Aramus,Grus),Psophia),((Heliornis,Sarothrura),(Himantornis,Rallus))),(((Centropus,Coua),((Coccyzus,Phaenicophaeus),Cuculus)),(Crotophaga,Geococcyx))),(Choriotis,Eupodotis))),Opisthocomus)),((((((Aegotheles,(((Aerodramus,Streptoprocne),Hemiprocne),(Colibri,Phaethornis))),(Caprimulgus,Eurostopodus)),(Batrachostomus,Podargus)),((Nyctibius_bracteatus,Nyctibius_grandis),Steatornis)),(Eurypyga,Rhynochetos)),(((((((Columba,Geotrygon),Treron),(Columbina,Otidiphaps)),(Mesitornis,Monias)),(Pterocles,Syrrhaptes)),(Phaethon_lepturus,Phaethon_rubricauda)),(Phoenicopterus,Podiceps)))),(((Alectura,Megapodius),(((Colinus,((Coturnix,Gallus),Rollulus)),Numida),Crax)),((((((Anas,Aythya),Biziura),(Anser,Malacorhynchus)),Oxyura),Anseranas),Chauna))),((((Apteryx,(Casuarius,Dromaius)),((Crypturellus,Tinamus),(Eudromia,Nothoprocta))),Rhea),Struthio))"
+pgloadind     OTT ID missing name "Regulus" nexsonid "node208503"
+pgloadind   TNRS unmatched total number 1
+pgloadind     pruning unmapped name "Regulus" nexsonid "node208503"
+pgloadind   postpruning newick tree "((((((((((Acanthisitta,(((((((((Sylvia,Turdus),Bombycilla),((Fringilla,Passer),(Ploceus,Vidua))),Picathartes),Corvus),Malurus),Climacteris),Menura),(((((Dendrocolaptes,Scytalopus),Grallaria),Thamnophilus),((Mionectes,Tyrannus),Pipra)),((Pitta,Smithornis),Sapayoa)))),(((((Alisterus,Psittacula),Micropsitta),(Chalcopsitta,Platycercus)),Psittacus),Cacatua)),((Daptrius,Falco),(Herpetotheres,Micrastur))),Cariama),((((((((((Alcedo,Momotus),Todus),(Brachypteracias,Coracias)),Merops),((Bucco,Galbula),((Capito,Megalaima),(Dryocopus,Indicator)))),((Bucorvus,Tockus),(Phoeniculus,Upupa))),(Pharomachrus,Trogon)),Leptosomus),((Colius,Urocolius),((Phodilus,Tyto),(Athene,Strix)))),((((Buteo,Gampsonyx),Pandion),Sagittarius),(Cathartes,Sarcoramphus)))),(((Arenaria,((Jacana,Rostratula),(Pedionomus,Thinocorus))),((Dromas,Larus),Turnix)),(Burhinus,((Charadrius,Phegornis),Haematopus)))),((((((((((Anhinga,Phalacrocorax),Morus),Fregata),(((Ardea,Cochlearius),Eudocimus),((Balaeniceps,Scopus),Pelecanus))),Ciconia),(((Diomedea,(Oceanodroma,(Pelecanoides,Puffinus))),Oceanites),Eudyptula)),Gavia),(Corythaeola,Tauraco)),(((((Aramus,Grus),Psophia),((Heliornis,Sarothrura),(Himantornis,Rallus))),(((Centropus,Coua),((Coccyzus,Phaenicophaeus),Cuculus)),(Crotophaga,Geococcyx))),(Choriotis,Eupodotis))),Opisthocomus)),((((((Aegotheles,(((Aerodramus,Streptoprocne),Hemiprocne),(Colibri,Phaethornis))),(Caprimulgus,Eurostopodus)),(Batrachostomus,Podargus)),((Nyctibius_bracteatus,Nyctibius_grandis),Steatornis)),(Eurypyga,Rhynochetos)),(((((((Columba,Geotrygon),Treron),(Columbina,Otidiphaps)),(Mesitornis,Monias)),(Pterocles,Syrrhaptes)),(Phaethon_lepturus,Phaethon_rubricauda)),(Phoenicopterus,Podiceps)))),(((Alectura,Megapodius),(((Colinus,((Coturnix,Gallus),Rollulus)),Numida),Crax)),((((((Anas,Aythya),Biziura),(Anser,Malacorhynchus)),Oxyura),Anseranas),Chauna))),((((Apteryx,(Casuarius,Dromaius)),((Crypturellus,Tinamus),(Eudromia,Nothoprocta))),Rhea),Struthio))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 1085741 taxonomy "Acanthisitta->Acanthisittidae->Passeriformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208492"
 pgloadind     taxon mapping OTT ID 463177 taxonomy "Sylvia->Sylviinae->Sylviidae->Passeriformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208505"
@@ -201,107 +199,109 @@ pgloadind   Adding tree to graph tree id "522"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Malurus was remapped to 'Maluridae' (id=405335)
-	Bombycilla was remapped to 'Bombycillidae' (id=402120)
-	Megalaima was remapped to 'Megalaimidae' (id=382793)
-	Casuarius was remapped to 'Casuariidae' (id=377096)
-	Cacatua was remapped to 'Cacatuidae' (id=388390)
-	Balaeniceps was remapped to 'Balaenicipitidae' (id=381667)
-	Bucorvus was remapped to 'Bucorvidae' (id=381525)
-	Climacteris was remapped to 'Climacteridae' (id=390647)
-	Podiceps was remapped to 'Podicipediformes' (id=384166)
-	Eudyptula was remapped to 'Sphenisciformes' (id=384347)
-	Sagittarius was remapped to 'Sagittariidae' (id=378827)
-	Leptosomus was remapped to 'Leptosomidae' (id=387039)
-	Batrachostomus was remapped to 'Batrachostomatidae' (id=381236)
-	Chauna was remapped to 'Anhimidae' (id=378831)
-	Acanthisitta was remapped to 'Acanthisittidae' (id=405456)
-	Geococcyx was remapped to 'Neomorphidae' (id=377556)
-	Thinocorus was remapped to 'Thinocoridae' (id=381939)
-	Apteryx was remapped to 'Apterygiformes' (id=377252)
-	Picathartes was remapped to 'Picathartidae' (id=397318)
-	Rhea was remapped to 'Rheiformes' (id=377229)
-	Arenaria was remapped to 'Scolopacidae' (id=380565)
-	Pedionomus was remapped to 'Pedionomidae' (id=379579)
-	Ciconia was remapped to 'Ciconiidae' (id=381565)
-	Opisthocomus was remapped to 'Opisthocomiformes' (id=386877)
-	Indicator was remapped to 'Indicatoridae' (id=382855)
-	Alcedo was remapped to 'Alcedinidae' (id=387048)
-	Fregata was remapped to 'Fregatidae' (id=387424)
-	Hemiprocne was remapped to 'Hemiprocnidae' (id=384927)
-	Crax was remapped to 'Cracidae' (id=384989)
-	Burhinus was remapped to 'Burhinidae' (id=379647)
-	Dromas was remapped to 'Dromadidae' (id=380955)
-	Aramus was remapped to 'Aramidae' (id=388042)
-	Haematopus was remapped to 'Haematopodidae' (id=379922)
-	Aegotheles was remapped to 'Aegothelidae' (id=381265)
-	Ploceus was remapped to 'Ploceidae' (id=397107)
-	Vidua was remapped to 'Estrildidae' (id=395771)
-	Phoeniculus was remapped to 'Phoeniculidae' (id=384956)
-	Larus was remapped to 'Laridae' (id=380121)
-	Turnix was remapped to 'Turniciformes' (id=386816)
-	Rhynochetos was remapped to 'Rhynochetidae' (id=387558)
-	Anhinga was remapped to 'Anhingidae' (id=387317)
-	Scytalopus was remapped to 'Rhinocryptidae' (id=390438)
-	Fringilla was remapped to 'Fringillidae' (id=393753)
-	Galbula was remapped to 'Galbulidae' (id=384311)
-	Pitta was remapped to 'Pittidae' (id=390562)
-	Psophia was remapped to 'Psophiidae' (id=388051)
-	Dromaius was remapped to 'Dromaiidae' (id=377065)
-	Corvus was remapped to 'Corvoidea' (id=402205)
-	Coracias was remapped to 'Coraciidae' (id=386890)
-	Tockus was remapped to 'Bucerotidae' (id=381326)
-	Numida was remapped to 'Numididae' (id=385274)
-	Bucco was remapped to 'Bucconidae' (id=384239)
-	Heliornis was remapped to 'Heliornithidae' (id=388031)
-	Todus was remapped to 'Todidae' (id=386969)
-	Eudocimus was remapped to 'Threskiornithidae' (id=381952)
-	Cariama was remapped to 'Cariamidae' (id=388152)
-	Eurypyga was remapped to 'Eurypygidae' (id=387569)
-	Pipra was remapped to 'Pipridae' (id=404972)
-	Morus was remapped to 'Sulidae' (id=387332)
-	Gavia was remapped to 'Gaviiformes' (id=377286)
-	Jacana was remapped to 'Jacanidae' (id=379892)
-	Steatornis was remapped to 'Steatornithidae' (id=381304)
-	Caprimulgus was remapped to 'Caprimulgidae' (id=381021)
-	Sylvia was remapped to 'Sylviidae' (id=398223)
-	Crotophaga was remapped to 'Crotophagidae' (id=377664)
-	Phoenicopterus was remapped to 'Phoenicopteriformes' (id=383611)
-	Podargus was remapped to 'Podargidae' (id=381250)
-	Capito was remapped to 'Ramphastidae' (id=382963)
-	Menura was remapped to 'Menuridae' (id=390630)
-	Anseranas was remapped to 'Anseranatidae' (id=378846)
-	Eurostopodus was remapped to 'Eurostopodidae' (id=381308)
-	Grus was remapped to 'Gruidae' (id=388171)
-	Pandion was remapped to 'Pandioninae' (id=377885)
-	Scopus was remapped to 'Scopidae' (id=382061)
-	Smithornis was remapped to 'Eurylaimidae' (id=402154)
-	Rostratula was remapped to 'Rostratulidae' (id=379561)
-	Centropus was remapped to 'Centropidae' (id=377574)
-	Struthio was remapped to 'Struthioniformes' (id=377273)
-	Thamnophilus was remapped to 'Thamnophilidae' (id=404384)
-	Phalacrocorax was remapped to 'Phalacrocoracidae' (id=387438)
-	Dendrocolaptes was remapped to 'Dendrocolaptidae' (id=392605)
-	Grallaria was remapped to 'Formicariidae' (id=404823)
-	Turdus was remapped to 'Turdidae' (id=390662)
-	Brachypteracias was remapped to 'Brachypteraciidae' (id=386926)
-	Passer was remapped to 'Passeridae' (id=396186)
-	Merops was remapped to 'Meropidae' (id=386978)
-	Gallus was remapped to 'Phasianinae' (id=385297)
-	Puffinus was remapped to 'Procellariidae' (id=383853)
-	Pelecanus was remapped to 'Pelecanidae' (id=387383)
-	Coccyzus was remapped to 'Coccyzidae' (id=377609)
-	Colinus was remapped to 'Odontophoridae' (id=385130)
-	Dryocopus was remapped to 'Picidae' (id=383161)
-	Diomedea was remapped to 'Diomedeidae' (id=383647)
-	Momotus was remapped to 'Momotidae' (id=386942)
-	Upupa was remapped to 'Upupidae' (id=384938)
-	Pelecanoides was remapped to 'Pelecanoididae' (id=383830)
+	Phalacrocorax was remapped to 'Phalacrocoracidae' (id=477085)
+	Gallus was remapped to 'Phasianinae' (id=474944)
+	Psophia was remapped to 'Psophiidae' (id=477701)
+	Diomedea was remapped to 'Diomedeidae' (id=473289)
+	Thamnophilus was remapped to 'Thamnophilidae' (id=494033)
+	Struthio was remapped to 'Struthioniformes' (id=466912)
+	Heliornis was remapped to 'Heliornithidae' (id=477681)
+	Burhinus was remapped to 'Burhinidae' (id=469286)
+	Aegotheles was remapped to 'Aegothelidae' (id=470907)
+	Opisthocomus was remapped to 'Opisthocomiformes' (id=476524)
+	Crax was remapped to 'Cracidae' (id=474636)
+	Upupa was remapped to 'Upupidae' (id=474585)
+	Coccyzus was remapped to 'Coccyzidae' (id=467248)
+	Leptosomus was remapped to 'Leptosomidae' (id=476686)
+	Rhea was remapped to 'Rheiformes' (id=466868)
+	Eudyptula was remapped to 'Sphenisciformes' (id=473992)
+	Chauna was remapped to 'Anhimidae' (id=468470)
+	Arenaria was remapped to 'Scolopacidae' (id=470207)
+	Caprimulgus was remapped to 'Caprimulgidae' (id=470663)
+	Ciconia was remapped to 'Ciconiidae' (id=471207)
+	Gavia was remapped to 'Gaviiformes' (id=466925)
+	Coracias was remapped to 'Coraciidae' (id=476537)
+	Geococcyx was remapped to 'Neomorphidae' (id=467195)
+	Puffinus was remapped to 'Procellariidae' (id=473495)
+	Smithornis was remapped to 'Eurylaimidae' (id=491803)
+	Indicator was remapped to 'Indicatoridae' (id=472497)
+	Pandion was remapped to 'Pandioninae' (id=467524)
+	Menura was remapped to 'Menuridae' (id=480283)
+	Turdus was remapped to 'Turdidae' (id=480315)
+	Anseranas was remapped to 'Anseranatidae' (id=468485)
+	Alcedo was remapped to 'Alcedinidae' (id=476695)
+	Pitta was remapped to 'Pittidae' (id=480212)
+	Batrachostomus was remapped to 'Batrachostomatidae' (id=470878)
+	Galbula was remapped to 'Galbulidae' (id=473956)
+	Eurypyga was remapped to 'Eurypygidae' (id=477216)
+	Acanthisitta was remapped to 'Acanthisittidae' (id=495105)
+	Passer was remapped to 'Passeridae' (id=485839)
+	Numida was remapped to 'Numididae' (id=474921)
+	Aramus was remapped to 'Aramidae' (id=477692)
+	Phoenicopterus was remapped to 'Phoenicopteriformes' (id=473253)
+	Bucco was remapped to 'Bucconidae' (id=473884)
+	Grus was remapped to 'Gruidae' (id=477821)
+	Eurostopodus was remapped to 'Eurostopodidae' (id=470950)
+	Momotus was remapped to 'Momotidae' (id=476589)
+	Haematopus was remapped to 'Haematopodidae' (id=469564)
+	Crotophaga was remapped to 'Crotophagidae' (id=467303)
+	Larus was remapped to 'Laridae' (id=469763)
+	Apteryx was remapped to 'Apterygiformes' (id=466891)
+	Phoeniculus was remapped to 'Phoeniculidae' (id=474603)
+	Scytalopus was remapped to 'Rhinocryptidae' (id=480088)
+	Pelecanus was remapped to 'Pelecanidae' (id=477030)
+	Sagittarius was remapped to 'Sagittariidae' (id=468466)
+	Megalaima was remapped to 'Megalaimidae' (id=472435)
+	Brachypteracias was remapped to 'Brachypteraciidae' (id=476573)
+	Cacatua was remapped to 'Cacatuidae' (id=478040)
+	Capito was remapped to 'Ramphastidae' (id=472605)
+	Corvus was remapped to 'Corvoidea' (id=491854)
+	Balaeniceps was remapped to 'Balaenicipitidae' (id=471309)
+	Scopus was remapped to 'Scopidae' (id=471703)
+	Malurus was remapped to 'Maluridae' (id=494984)
+	Dromas was remapped to 'Dromadidae' (id=470597)
+	Climacteris was remapped to 'Climacteridae' (id=480300)
+	Hemiprocne was remapped to 'Hemiprocnidae' (id=474574)
+	Anhinga was remapped to 'Anhingidae' (id=476964)
+	Podiceps was remapped to 'Podicipediformes' (id=473811)
+	Dendrocolaptes was remapped to 'Dendrocolaptidae' (id=482258)
+	Picathartes was remapped to 'Picathartidae' (id=486971)
+	Pelecanoides was remapped to 'Pelecanoididae' (id=473472)
+	Steatornis was remapped to 'Steatornithidae' (id=470946)
+	Turnix was remapped to 'Turniciformes' (id=476463)
+	Bucorvus was remapped to 'Bucorvidae' (id=471167)
+	Colinus was remapped to 'Odontophoridae' (id=474777)
+	Morus was remapped to 'Sulidae' (id=476979)
+	Dromaius was remapped to 'Dromaiidae' (id=466704)
+	Jacana was remapped to 'Jacanidae' (id=469534)
+	Centropus was remapped to 'Centropidae' (id=467213)
+	Rostratula was remapped to 'Rostratulidae' (id=469200)
+	Merops was remapped to 'Meropidae' (id=476625)
+	Todus was remapped to 'Todidae' (id=476616)
+	Podargus was remapped to 'Podargidae' (id=470892)
+	Tockus was remapped to 'Bucerotidae' (id=470968)
+	Cariama was remapped to 'Cariamidae' (id=477802)
+	Sylvia was remapped to 'Sylviidae' (id=487876)
+	Fregata was remapped to 'Fregatidae' (id=477071)
+	Ploceus was remapped to 'Ploceidae' (id=486760)
+	Casuarius was remapped to 'Casuariidae' (id=466735)
+	Grallaria was remapped to 'Formicariidae' (id=494472)
+	Bombycilla was remapped to 'Bombycillidae' (id=491769)
+	Eudocimus was remapped to 'Threskiornithidae' (id=471594)
+	Thinocorus was remapped to 'Thinocoridae' (id=471581)
+	Pedionomus was remapped to 'Pedionomidae' (id=469218)
+	Fringilla was remapped to 'Fringillidae' (id=483406)
+	Rhynochetos was remapped to 'Rhynochetidae' (id=477205)
+	Pipra was remapped to 'Pipridae' (id=494621)
+	Dryocopus was remapped to 'Picidae' (id=472803)
+	Vidua was remapped to 'Estrildidae' (id=485424)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
 Dealing with metadata property: ot:studyPublicationReference
 Adding property 'ot:studyPublicationReference': S. J. Hackett, R. T. Kimball, S. Reddy, R. C. K. Bowie, E. L. Braun, M. J. Braun, J. L. Chojnowski, W. A. Cox, K.-L. Han, J. Harshman, C. J. Huddleston, B. D. Marks, K. J. Miglia, W. S. Moore, F. H. Sheldon, D. W. Steadman, C. C. Witt, T. Yuri. 2008. A Phylogenomic Study of Birds Reveals Their Evolutionary History. Science 320 (5884): 1763-1768.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Aves
 Dealing with metadata property: ot:studyYear
 Adding property 'ot:studyYear': 2008
 Dealing with metadata property: ot:inGroupClade
@@ -313,33 +313,35 @@ Adding property 'ot:curatorName': Karen Cranston
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1126/science.1157704
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 1490651
+Adding property 'ot:focalClade': 81461
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': ML majority rule consensus
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 420
 Dealing with metadata property: ot:dataDeposit
 Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S2108
 Committing nodes: 335
-	adding Node[377118] Tinamiformes 292467 as compatible with Node[377120]
-		adding Relationship[8164198]
-		adding to root Relationship[8164199]
-	adding Node[381010] Nyctibiidae 178243 as compatible with Node[381011]
-		adding Relationship[8164200]
-		adding to root Relationship[8164201]
-	adding Node[382066] Columbiformes 363030 as compatible with Node[382076]
-		adding Relationship[8164202]
-		adding to root Relationship[8164203]
-	adding Node[384500] Trogoniformes 539130 as compatible with Node[384501]
-		adding Relationship[8164204]
-		adding to root Relationship[8164205]
-	adding Node[384587] Musophagiformes 539139 as compatible with Node[384588]
-		adding Relationship[8164206]
-		adding to root Relationship[8164207]
-	adding Node[384971] Coliiformes 815970 as compatible with Node[384972]
-		adding Relationship[8164208]
-		adding to root Relationship[8164209]
-	adding Node[386075] Trochiliformes 810738 as compatible with Node[386076]
-		adding Relationship[8164210]
-		adding to root Relationship[8164211]
-	adding Node[387406] Phaethontidae 452467 as compatible with Node[387408]
-		adding Relationship[8164212]
-		adding to root Relationship[8164213]
+	adding Node[466757] Tinamiformes 292467 as compatible with Node[466759]
+		adding Relationship[8416659]
+		adding to root Relationship[8416660]
+	adding Node[470652] Nyctibiidae 178243 as compatible with Node[470653]
+		adding Relationship[8416661]
+		adding to root Relationship[8416662]
+	adding Node[471708] Columbiformes 363030 as compatible with Node[471718]
+		adding Relationship[8416663]
+		adding to root Relationship[8416664]
+	adding Node[474145] Trogoniformes 539130 as compatible with Node[474146]
+		adding Relationship[8416665]
+		adding to root Relationship[8416666]
+	adding Node[474232] Musophagiformes 539139 as compatible with Node[474233]
+		adding Relationship[8416667]
+		adding to root Relationship[8416668]
+	adding Node[474618] Coliiformes 815970 as compatible with Node[474619]
+		adding Relationship[8416669]
+		adding to root Relationship[8416670]
+	adding Node[475722] Trochiliformes 810738 as compatible with Node[475723]
+		adding Relationship[8416671]
+		adding to root Relationship[8416672]
+	adding Node[477053] Phaethontidae 452467 as compatible with Node[477055]
+		adding Relationship[8416673]
+		adding to root Relationship[8416674]

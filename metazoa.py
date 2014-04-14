@@ -12,6 +12,15 @@ http://www.sciencemag.org/content/341/6143/292 [not sure where to find this tree
 
 studytreelist=[
      ## Birds
+               "2876_6670", # Tinamidae. Bertelli, Sara, Ana Luz Porzecanski
+               "2875_6668", # Oriolidae. Jonsson et al. 2010. Ecography
+               "2874_6667", # Carpodacus. Tietze et al. 2013. Zool. J. Linn. Soc.
+               "2873_6666", # Certhia. Tietze et al. 2006. Ibis
+               "2332_4912", # Sylviidae. Voelker and Light. 2011. BMC Evol. Biol.
+               "1854_3743", # Troglodytinae. Mann et al. 2006. MPE
+               "1586_3208", # Timaliidae. Moyle et al. 2012. Syst. Biol.
+               "2858_6642", # Turdidae. Nylander et al. 2008. Syst. Biol.
+               "2829_6579", # Thraupidae. Burns et al. 2014. MPE
                "1953_3977", # Furnariidae. Derryberry et al. 2001. Evolution
                "2872_6665", # Caprimuligidae. Han et al. MPE
                "1872_3780", # Gruiformes. Fain et al 2007. MPE
@@ -46,6 +55,7 @@ studytreelist=[
                "2575_5974", # Passeriformes. Barker et al. 2013. Syst. Biol.
                "2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
                "420_522",   # Aves. Hackett et al. 2008. Science
+
      ## Mammals
                "2861_6647", # Elephantidae. Rohland et al. 2010. PLoS Biol.
                "2859_6643", # Muroidea. Schenk et al. 2013. Syst. Biol.
@@ -73,9 +83,8 @@ studytreelist=[
                "2834_6589", # Metatheria. Nilsson et al. 2004. Gene
                "2816_6556", # Primates. Pozzi et al. 2014. MPE
                "2741_6645", # Catarrhini. Tarver et al. 2011. Proc. Roy. Soc. *** Lots of extinct taxa ***
-     ## Fish - need to figure out best ordering with mapcompat
-#               "2651_6177", # Actinopterygii (Bony fishes). Betancur-R et al. 2013. PLoS Currents
 
+     ## Fish - need to figure out best ordering with mapcompat
                "2589_6001", # Gobioidei. Agorreta et al. 2013. MPE
                "2655_6181", # Cichlidae. Friedman et al. 2013. Proc. Roy. Soc.
                "1997_6183", # Percidae. Near et al. 2011. Syst. Biol. *** not working for some reason...
@@ -87,6 +96,7 @@ studytreelist=[
                "2576_5975", # Euteleostei. Near et al. 2013. PNAS
                "1870_3769", # Cyprinidae. Ruber et al. 2007. BMC Evol. Biol.
                "2659_6195", # Otophysi. Chen et al. 2013. Evolution
+              # "2651_6177", # Actinopterygii (Bony fishes). Betancur-R et al. 2013. PLoS Currents *** dies for some reason ***
 
      ## Other tetrapods
                "2143_4505", # Kentropyx. Collevatti et al. 2008. Mol. Ecol.
@@ -118,6 +128,7 @@ studytreelist=[
                "2667_6211", # maps to: Galatheoidea
 
      ## Insects and other crawley stuff
+               "2405_6669", # Phyllodocidae. Eklof et al. 2007. MPE
                "2614_6121", # Nicrophorus. Sikes and Venables. 2013.
                "2628_6143", # Sarcophaga. Whitmore et al. 2013. Zool. J. Linn. Soc.
                "2838_6594", # Pleocyemata. Bracken-Grissom et al. 2014. Syst. Biol.

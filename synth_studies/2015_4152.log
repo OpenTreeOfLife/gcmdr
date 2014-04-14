@@ -11,7 +11,7 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S12179"
 pgloadind   property added ot:studyId "2015"
 pgloadind   property added ot:studyYear "2011"
-pgloadind   property added ot:focalClade "2752677"
+pgloadind   property added ot:focalClade "1041547"
 pgloadind   property added ot:focalCladeOTTTaxonName "Passeriformes"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
 pgloadind   property added ot:inGroupClade "node772024"
@@ -19,11 +19,9 @@ pgloadind   property added ot:curatedType "Fig. 2 BI"
 loading a specific tree: 4152
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "4152"
-pgloadind   all nodes have ottIds
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Regulus" nexsonid "node772122"
-pgloadind       dubious OTT ID 3599326
-pgloadind     pruning dups and overlapping name "Regulus" nexsonid "node772122"
+pgloadind     OTT ID missing name "Regulus" nexsonid "node772122"
+pgloadind   TNRS unmatched total number 1
+pgloadind     pruning unmapped name "Regulus" nexsonid "node772122"
 pgloadind   postpruning newick tree "(Acanthisitta_chloris,((Pitta,((Hypocnemis_cantator,Phlegopsis),(Manacus_manacus,(Onychorhynchus,(Camptostoma_obsoletum,(Myiarchus,Tyrannus)))))),(Menura_novaehollandiae,((Ailuroedus,Sericulus_chrysocephalus),((Gerygone_fusca,(Amytornis_striatus,Lichenostomus)),(Pomatostomus,(Orthonyx_temminckii,((Cnemophilus,(Toxorhamphus,(Coracina,((Oriolus,(Cyclarhis_gujanensis,Vireo)),(Dicrurus,Rhipidura,((Cyanocorax_chrysops,(Corvus_corone,Pica_pica)),(Manucodia,(Paradisaea_raggiana,Ptiloris_magnificus)))))))),((Eopsaltria_australis,Petroica_rosea),((Promerops_cafer,((Lonchura,Nectarinia),(Motacilla,(Serinus,(Emberiza,(Dendroica,Icterus)))))),((Parus,((Hirundo_rustica,(Acrocephalus,Donacobius_atricapilla)),(Pycnonotus,(Phylloscopus,(Leiothrix_argentauris,Zosterops))))),((Sitta,Troglodytes),((Mimus,Sturnus_vulgaris),(Turdus,(Ficedula_hypoleuca,Luscinia_svecica)))))))))))))))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 1085740 taxonomy "Acanthisitta chloris->Acanthisitta->Acanthisittidae->Passeriformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node772025"
@@ -89,46 +87,46 @@ pgloadind   Adding tree to graph tree id "4152"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Ficedula hypoleuca was remapped to 'Muscicapidae' (id=391266)
-	Eopsaltria australis was remapped to 'Eopsaltria' (id=390179)
-	Gerygone fusca was remapped to 'Acanthizidae' (id=399077)
-	Sturnus vulgaris was remapped to 'Sturnidae' (id=401783)
-	Hypocnemis cantator was remapped to 'Hypocnemis' (id=404714)
-	Serinus was remapped to 'Carduelinae' (id=395273)
-	Sericulus chrysocephalus was remapped to 'Sericulus' (id=390389)
-	Sitta was remapped to 'Sittidae' (id=402071)
-	Vireo was remapped to 'Vireoninae' (id=403153)
-	Zosterops was remapped to 'Zosteropidae' (id=392345)
-	Pycnonotus was remapped to 'Pycnonotidae' (id=391954)
-	Troglodytes was remapped to 'Certhiidae' (id=399289)
-	Emberiza was remapped to 'Emberizinae' (id=393855)
-	Acanthisitta chloris was remapped to 'Acanthisittidae' (id=405456)
-	Luscinia svecica was remapped to 'Luscinia' (id=390710)
-	Orthonyx temminckii was remapped to 'Orthonychidae' (id=403123)
-	Corvus corone was remapped to 'Corvus' (id=402563)
-	Donacobius atricapilla was remapped to 'Donacobius' (id=399259)
-	Cyanocorax chrysops was remapped to 'Cyanocorax' (id=402514)
-	Menura novaehollandiae was remapped to 'Menuridae' (id=390630)
-	Icterus was remapped to 'Icteridae' (id=396348)
-	Motacilla was remapped to 'Motacillidae' (id=392779)
-	Amytornis striatus was remapped to 'Maluridae' (id=405335)
-	Leiothrix argentauris was remapped to 'Leiothrix' (id=401694)
-	Dendroica was remapped to 'Parulidae' (id=393290)
-	Lonchura was remapped to 'Estrildidae' (id=395771)
-	Toxorhamphus was remapped to 'Melanocharitidae' (id=392939)
-	Ptiloris magnificus was remapped to 'Ptiloris' (id=404326)
-	Parus was remapped to 'Paridae' (id=400223)
-	Pica pica was remapped to 'Pica' (id=402445)
-	Coracina was remapped to 'Campephagidae' (id=403428)
-	Promerops cafer was remapped to 'Promerops' (id=393255)
-	Camptostoma obsoletum was remapped to 'Camptostoma' (id=397949)
-	Pitta was remapped to 'Pittidae' (id=390562)
-	Hirundo rustica was remapped to 'Hirundinidae' (id=405113)
-	Cyclarhis gujanensis was remapped to 'Cyclarhinae' (id=403220)
-	Lichenostomus was remapped to 'Meliphagidae' (id=405674)
-	Manacus manacus was remapped to 'Pipridae' (id=404972)
-	Petroica rosea was remapped to 'Petroica' (id=390237)
-	Paradisaea raggiana was remapped to 'Paradisaea' (id=404277)
+	Paradisaea raggiana was remapped to 'Paradisaea' (id=493926)
+	Sitta was remapped to 'Sittidae' (id=491720)
+	Motacilla was remapped to 'Motacillidae' (id=482432)
+	Pitta was remapped to 'Pittidae' (id=480212)
+	Acanthisitta chloris was remapped to 'Acanthisittidae' (id=495105)
+	Gerygone fusca was remapped to 'Acanthizidae' (id=488731)
+	Cyanocorax chrysops was remapped to 'Cyanocorax' (id=492163)
+	Zosterops was remapped to 'Zosteropidae' (id=481998)
+	Icterus was remapped to 'Icteridae' (id=486001)
+	Promerops cafer was remapped to 'Promerops' (id=482908)
+	Coracina was remapped to 'Campephagidae' (id=493077)
+	Menura novaehollandiae was remapped to 'Menuridae' (id=480283)
+	Eopsaltria australis was remapped to 'Eopsaltria' (id=479829)
+	Lonchura was remapped to 'Estrildidae' (id=485424)
+	Parus was remapped to 'Paridae' (id=489877)
+	Leiothrix argentauris was remapped to 'Leiothrix' (id=491343)
+	Troglodytes was remapped to 'Certhiidae' (id=488943)
+	Amytornis striatus was remapped to 'Maluridae' (id=494984)
+	Sericulus chrysocephalus was remapped to 'Sericulus' (id=480039)
+	Sturnus vulgaris was remapped to 'Sturnidae' (id=491432)
+	Orthonyx temminckii was remapped to 'Orthonychidae' (id=492772)
+	Toxorhamphus was remapped to 'Melanocharitidae' (id=482592)
+	Pica pica was remapped to 'Pica' (id=492094)
+	Hirundo rustica was remapped to 'Hirundinidae' (id=494762)
+	Petroica rosea was remapped to 'Petroica' (id=479887)
+	Hypocnemis cantator was remapped to 'Hypocnemis' (id=494363)
+	Camptostoma obsoletum was remapped to 'Camptostoma' (id=487602)
+	Pycnonotus was remapped to 'Pycnonotidae' (id=481607)
+	Serinus was remapped to 'Carduelinae' (id=484926)
+	Lichenostomus was remapped to 'Meliphagidae' (id=495323)
+	Donacobius atricapilla was remapped to 'Donacobius' (id=488913)
+	Emberiza was remapped to 'Emberizinae' (id=483508)
+	Ficedula hypoleuca was remapped to 'Muscicapidae' (id=480919)
+	Corvus corone was remapped to 'Corvus' (id=492212)
+	Luscinia svecica was remapped to 'Luscinia' (id=480363)
+	Vireo was remapped to 'Vireoninae' (id=492802)
+	Dendroica was remapped to 'Parulidae' (id=482943)
+	Ptiloris magnificus was remapped to 'Ptiloris' (id=493975)
+	Manacus manacus was remapped to 'Pipridae' (id=494621)
+	Cyclarhis gujanensis was remapped to 'Cyclarhinae' (id=492869)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -147,7 +145,7 @@ Adding property 'ot:curatorName': Chris Owen
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1186/1471-2148-11-313
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 2752677
+Adding property 'ot:focalClade': 1041547
 Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': Fig. 2 BI
 Dealing with metadata property: ot:studyId

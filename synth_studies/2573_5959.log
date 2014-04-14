@@ -10,15 +10,17 @@ pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1098/rsbl.2
 pgloadind   property added ot:curatorName "Joseph Brown"
 pgloadind   property added ot:studyId "2573"
 pgloadind   property added ot:studyYear "2012"
-pgloadind   property added ot:focalClade "2401083"
+pgloadind   property added ot:focalClade "335588"
+pgloadind   property added ot:focalCladeOTTTaxonName "Archosauria"
 pgloadind   property added ot:tag "ingroup added;"
 pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
 pgloadind   property added ot:inGroupClade "node1011364"
+pgloadind   property added ot:curatedType "STEAC tree"
 loading a specific tree: 5959
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "5959"
 pgloadind   all nodes have ottIds
-pgloadind   postpruning newick tree "(((Chrysemys_picta,Pelomedusa_subrufa),((Crocodylus_porosus,Alligator_mississippiensis),(Gallus_gallus,Taeniopygia_guttata))),(Sphenodon_punctatus,(Anolis_carolinensis,Pantherophis_guttata)))"
+pgloadind   postpruning newick tree "(((Chrysemys_picta,Pelomedusa_subrufa),((Crocodylus_porosus,Alligator_mississippiensis),(Gallus_gallus,Taeniopygia_guttata))),(Sphenodon_punctatus,(Anolis_carolinensis,Pantherophis_guttatus)))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 587300 taxonomy "Chrysemys picta->Chrysemys->Emydidae->Testudinoidea->Cryptodira->Testudines->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1011367"
 pgloadind     taxon mapping OTT ID 775044 taxonomy "Pelomedusa subrufa->Pelomedusa->Pelomedusidae->Pleurodira->Testudines->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1011368"
@@ -36,20 +38,22 @@ pgloadind   Adding tree to graph tree id "5959"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Taeniopygia guttata was remapped to 'Passeriformes' (id=390153)
-	Chrysemys picta was remapped to 'Cryptodira' (id=407025)
-	Anolis carolinensis was remapped to 'Iguania' (id=367141)
-	Alligator mississippiensis was remapped to 'Alligatoridae' (id=406284)
-	Gallus gallus was remapped to 'Galliformes' (id=384987)
-	Sphenodon punctatus was remapped to 'Sphenodontia' (id=348002)
-	Pelomedusa subrufa was remapped to 'Pleurodira' (id=406572)
-	Pantherophis guttata was remapped to 'Serpentes' (id=354965)
-	Crocodylus porosus was remapped to 'Longirostres' (id=406367)
+	Gallus gallus was remapped to 'Galliformes' (id=474634)
+	Alligator mississippiensis was remapped to 'Alligatoridae' (id=495933)
+	Crocodylus porosus was remapped to 'Longirostres' (id=496016)
+	Anolis carolinensis was remapped to 'Iguania' (id=456775)
+	Pelomedusa subrufa was remapped to 'Pleurodira' (id=496221)
+	Pantherophis guttatus was remapped to 'Serpentes' (id=444574)
+	Sphenodon punctatus was remapped to 'Sphenodontia' (id=437576)
+	Chrysemys picta was remapped to 'Cryptodira' (id=496674)
+	Taeniopygia guttata was remapped to 'Passeriformes' (id=479803)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
 Dealing with metadata property: ot:studyPublicationReference
 Adding property 'ot:studyPublicationReference': Crawford, N. G., B. C. Faircloth, J. E. McCormack, R. T. Brumfield, K. Winker, T. C. Glenn. 2012. More than 1000 ultraconserved elements provide evidence that turtles are the sister group of archosaurs. Biology Letters 8 (5): 783-786.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Archosauria
 Dealing with metadata property: ot:studyYear
 Adding property 'ot:studyYear': 2012
 Dealing with metadata property: ot:inGroupClade
@@ -63,43 +67,45 @@ Adding property 'ot:curatorName': Joseph Brown
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1098/rsbl.2012.0331
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 2401083
+Adding property 'ot:focalClade': 335588
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': STEAC tree
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 2573
 Committing nodes: 17
-	adding Node[351897] Episquamata 4945816 as compatible with Node[354334]
-		adding Relationship[8163415]
-		adding to root Relationship[8163416]
-	adding Node[351896] Unidentata 4945815 as compatible with Node[354334]
-		adding Relationship[8163417]
-		adding to root Relationship[8163418]
-	adding Node[348025] Bifurcata 4945781 as compatible with Node[354334]
-		adding Relationship[8163419]
-		adding to root Relationship[8163420]
-	adding Node[348023] Squamata 35888 as compatible with Node[354334]
-		adding Relationship[8163421]
-		adding to root Relationship[8163422]
-	adding Node[377061] Aves 81461 as compatible with Node[377285]
-		adding Relationship[8163423]
-		adding to root Relationship[8163424]
-	adding Node[377060] Coelurosauria 664351 as compatible with Node[377285]
-		adding Relationship[8163425]
-		adding to root Relationship[8163426]
-	adding Node[377059] Theropoda 664350 as compatible with Node[377285]
-		adding Relationship[8163427]
-		adding to root Relationship[8163428]
-	adding Node[377058] Saurischia 90223 as compatible with Node[377285]
-		adding Relationship[8163429]
-		adding to root Relationship[8163430]
-	adding Node[377057] Dinosauria 90215 as compatible with Node[377285]
-		adding Relationship[8163431]
-		adding to root Relationship[8163432]
-		adding Relationship[8163433] from Node[348025] to Node[348023]
-		adding Relationship[8163434] from Node[377060] to Node[377059]
-		adding Relationship[8163435] from Node[377061] to Node[377060]
-		adding Relationship[8163436] from Node[377058] to Node[377057]
-		adding Relationship[8163437] from Node[377059] to Node[377058]
-		adding Relationship[8163438] from Node[377057] to Node[377056]
-		adding Relationship[8163439] from Node[351896] to Node[348025]
-		adding Relationship[8163440] from Node[351897] to Node[351896]
-		adding Relationship[8163441] from Node[348023] to Node[347999]
+	adding Node[441496] Episquamata 4945816 as compatible with Node[443943]
+		adding Relationship[8415876]
+		adding to root Relationship[8415877]
+	adding Node[441495] Unidentata 4945815 as compatible with Node[443943]
+		adding Relationship[8415878]
+		adding to root Relationship[8415879]
+	adding Node[437599] Bifurcata 4945781 as compatible with Node[443943]
+		adding Relationship[8415880]
+		adding to root Relationship[8415881]
+	adding Node[437597] Squamata 35888 as compatible with Node[443943]
+		adding Relationship[8415882]
+		adding to root Relationship[8415883]
+	adding Node[466700] Aves 81461 as compatible with Node[466924]
+		adding Relationship[8415884]
+		adding to root Relationship[8415885]
+	adding Node[466699] Coelurosauria 664351 as compatible with Node[466924]
+		adding Relationship[8415886]
+		adding to root Relationship[8415887]
+	adding Node[466698] Theropoda 664350 as compatible with Node[466924]
+		adding Relationship[8415888]
+		adding to root Relationship[8415889]
+	adding Node[466697] Saurischia 90223 as compatible with Node[466924]
+		adding Relationship[8415890]
+		adding to root Relationship[8415891]
+	adding Node[466696] Dinosauria 90215 as compatible with Node[466924]
+		adding Relationship[8415892]
+		adding to root Relationship[8415893]
+		adding Relationship[8415894] from Node[466696] to Node[466695]
+		adding Relationship[8415895] from Node[466697] to Node[466696]
+		adding Relationship[8415896] from Node[466698] to Node[466697]
+		adding Relationship[8415897] from Node[466699] to Node[466698]
+		adding Relationship[8415898] from Node[466700] to Node[466699]
+		adding Relationship[8415899] from Node[441496] to Node[441495]
+		adding Relationship[8415900] from Node[441495] to Node[437599]
+		adding Relationship[8415901] from Node[437599] to Node[437597]
+		adding Relationship[8415902] from Node[437597] to Node[437573]

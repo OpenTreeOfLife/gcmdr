@@ -17,6 +17,12 @@ if __name__ == "__main__":
     # synthottolid="805080" # life
     synthottolid="93302" # cellular organisms
     
+    studytreelist = [
+    "2829_6579", # Thraupidae. Burns et al. 2014. MPE
+    "2858_6642", # Turdidae. Nylander et al. 2008. Syst. Biol.
+    "1953_3977", # Furnariidae. Derryberry et al. 2001. Evolution 
+    ]
+    
     print "loading synthottolid:",synthottolid
     print "loading studytreelist:",studytreelist
     

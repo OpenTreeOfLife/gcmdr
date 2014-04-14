@@ -11,7 +11,7 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S2067"
 pgloadind   property added ot:studyId "1786"
 pgloadind   property added ot:studyYear "2008"
-pgloadind   property added ot:focalClade "2553527"
+pgloadind   property added ot:focalClade "641030"
 pgloadind   property added ot:focalCladeOTTTaxonName "Hydrozoa"
 pgloadind   property added ot:branchLengthMode "ot:changesCount"
 pgloadind   property added ot:inGroupClade "node692370"
@@ -28,7 +28,7 @@ pgloadind   property added ot:curatorName "Chris Owen"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S2067"
 pgloadind   property added ot:studyId "1786"
 pgloadind   property added ot:studyYear "2008"
-pgloadind   property added ot:focalClade "2553527"
+pgloadind   property added ot:focalClade "641030"
 pgloadind   property added ot:focalCladeOTTTaxonName "Hydrozoa"
 pgloadind   property added ot:inGroupClade "node1084004"
 pgloadind   property added ot:curatedType "ML 50% maj-rule"
@@ -36,24 +36,10 @@ loading a specific tree: 6257
 skipping tree: 3604
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "6257"
-pgloadind   all nodes have ottIds
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Dipurena ophiogaster" nexsonid "node1084133"
-pgloadind       dubious OTT ID 245133
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Stephanomia amphytridis" nexsonid "node1084155"
-pgloadind       dubious OTT ID 486583
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Clausophyes ovata" nexsonid "node1084166"
-pgloadind       dubious OTT ID 913322
-pgloadind     OTT ID not in database (probably dubious)
-pgloadind       dubious name "Brinckmannia hexactinellidophila" nexsonid "node1084195"
-pgloadind       dubious OTT ID 4712577
-pgloadind     pruning dups and overlapping name "Stephanomia amphytridis" nexsonid "node1084155"
-pgloadind     pruning dups and overlapping name "Clausophyes ovata" nexsonid "node1084166"
-pgloadind     pruning dups and overlapping name "Dipurena ophiogaster" nexsonid "node1084133"
-pgloadind     pruning dups and overlapping name "Brinckmannia hexactinellidophila" nexsonid "node1084195"
-pgloadind   postpruning newick tree "(((((((((((((Bougainvillia_carolinensis,Bougainvillia_fulva),Koellikerina_fasciculata),(Corydendrium_sp_PC-2008,Garveia_grisea)),((Bimeria_vestita,Cordylophora_caspia),Pachycordyle_pusilla)),(Turritopsis_dohrnii,Turritopsis_nutricula)),(((((Neoturris_breviconis,Pandea_sp_PC-2008),Hydrichthys_boycei),Leuckartiara_octona),Garveia_annulata),((Lizzia_blondina,Rathkea_octopunctata),Rhizogeton_nudus))),Dicoryne_conybearei),((((((((Crypthelia_cryptotrema,Pseudocrypthelia_pachypoma),Conopora_anthohelia),Lepidopora_microstylus),Adelopora_crassilabrum),Clavactinia_gallensis),(Clava_multicornis,Podocoryna_carnea)),Hydractinia_sp_PC-2008),Hydractinia_symbiolongicarpus)),((((((((((((Sertularia_cupressina,Thuiaria_thuja),Abietinaria_filicula),Hydrallmania_falcata),Sertularia_perpusilla),Diphasia_fallax),(((Halopteris_minuta,Monostaechas),(Nemertesia_antennina,Plumularia_hyalina)),Aglaophenia_tubiformis)),Halecium_muricatum),Anthohebella_parasitica),((((((((Aequorea_aequorea,Aequorea_victoria),Octophialucium_indicum),Blackfordia_virginica),Aequorea_floridana),Rhacostoma_atlantica),Eutima_sapinhoa),Clytia_noliformis),Tiaropsidium_kelseyi)),Melicertissa_sp_AGC-2001),Lafoea_dumosa),Melicertum_octocostatum)),((((((Solanderia_ericopsis,Solanderia_secunda),Zanclea_prolifera),(Porpita_sp_AGC-2001,Velella_sp_PC-2008)),Cladocoryne_floccosa),(Moerisia_sp_AGC-2001,Pennaria_disticha)),(Scrippsia_pacifica,Coryne_nipponica))),((((((((Agalma_elegans,Halistemma_rubrum),Nanomia_bijuga),(Forskalia_edwardsi,Physophora_hydrostatica)),Cordagalma_cordiforme),(Erenna_sp_PC-2008,Stephalia_dilata)),(((Nectadamas_diomedeae,Nectopyramis_sp_AGC-2001),Hippopodius_hippopus,Praya_dubia,Rosacea_flaccida),(Physalia_physalis,Sulculeolaria_quadrivalvis))),Apolemia_sp_PC-2008),((((Ralpharia_gorgoniae,Zyzzyzus_calderi),Ectopleura_dumortierii),(Corymorpha_sp_PC-2009b,Corymorpha_bigelowi)),(Candelabrum_cocksii,Hydra_circumcincta)))),((Eudendrium_capillare,Eudendrium_racemosum),Eudendrium_californicum)),(Hydrichthella_epigorgia,((Proboscidactyla_flavicirrata,Proboscidactyla_ornata),Fabienna_sphaerica)))"
+pgloadind     OTT ID missing name "Brinckmannia hexactinellidophila" nexsonid "node1084195"
+pgloadind   TNRS unmatched total number 1
+pgloadind     pruning unmapped name "Brinckmannia hexactinellidophila" nexsonid "node1084195"
+pgloadind   postpruning newick tree "(((((((((((((Bougainvillia_carolinensis,Bougainvillia_fulva),Koellikerina_fasciculata),(Corydendrium_sp_PC-2008,Garveia_grisea)),((Bimeria_vestita,Cordylophora_caspia),Pachycordyle_pusilla)),(Turritopsis_dohrnii,Turritopsis_nutricula)),(((((Neoturris_breviconis,Pandea_sp_PC-2008),Hydrichthys_boycei),Leuckartiara_octona),Garveia_annulata),((Lizzia_blondina,Rathkea_octopunctata),Rhizogeton_nudus))),Dicoryne_conybearei),((((((((Crypthelia_cryptotrema,Pseudocrypthelia_pachypoma),Conopora_anthohelia),Lepidopora_microstylus),Adelopora_crassilabrum),Clavactinia_gallensis),(Clava_multicornis,Podocoryna_carnea)),Hydractinia_sp_PC-2008),Hydractinia_symbiolongicarpus)),((((((((((((Sertularia_cupressina,Thuiaria_thuja),Abietinaria_filicula),Hydrallmania_falcata),Sertularia_perpusilla),Diphasia_fallax),(((Halopteris_minuta,Monostaechas),(Nemertesia_antennina,Plumularia_hyalina)),Aglaophenia_tubiformis)),Halecium_muricatum),Anthohebella_parasitica),((((((((Aequorea_aequorea,Aequorea_victoria),Octophialucium_indicum),Blackfordia_virginica),Aequorea_floridana),Rhacostoma_atlantica),Eutima_sapinhoa),Clytia_noliformis),Tiaropsidium_kelseyi)),Melicertissa_sp_AGC-2001),Lafoea_dumosa),Melicertum_octocostatum)),((((((Solanderia_ericopsis,Solanderia_secunda),Zanclea_prolifera),(Porpita_sp_AGC-2001,Velella_sp_PC-2008)),Cladocoryne_floccosa),(Moerisia_sp_AGC-2001,Pennaria_disticha)),((Stauridiosarsia_ophiogaster,Coryne_nipponica),Scrippsia_pacifica))),((((((((Agalma_elegans,Halistemma_rubrum),Nanomia_bijuga),(Forskalia_edwardsi,Physophora_hydrostatica)),Cordagalma_cordiforme),((Erenna_sp_PC-2008,Stephalia_dilata),Halistemma_amphytridis)),(((Nectadamas_diomedeae,Nectopyramis_sp_AGC-2001),Hippopodius_hippopus,Praya_dubia,Rosacea_flaccida),((Kephyes_ovata,Sulculeolaria_quadrivalvis),Physalia_physalis))),Apolemia_sp_PC-2008),((((Ralpharia_gorgoniae,Zyzzyzus_calderi),Ectopleura_dumortierii),(Corymorpha_sp_PC-2009b,Corymorpha_bigelowi)),(Candelabrum_cocksii,Hydra_circumcincta)))),((Eudendrium_capillare,Eudendrium_racemosum),Eudendrium_californicum)),(Hydrichthella_epigorgia,((Proboscidactyla_flavicirrata,Proboscidactyla_ornata),Fabienna_sphaerica)))"
 pgloadind   taxon mapping summary
 pgloadind     taxon mapping OTT ID 281469 taxonomy "Bougainvillia carolinensis->Bougainvillia->Bougainvilliidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084017"
 pgloadind     taxon mapping OTT ID 523402 taxonomy "Bougainvillia fulva->Bougainvillia->Bougainvilliidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084018"
@@ -117,8 +103,9 @@ pgloadind     taxon mapping OTT ID 805155 taxonomy "Velella sp. PC-2008->Velella
 pgloadind     taxon mapping OTT ID 132725 taxonomy "Cladocoryne floccosa->Cladocoryne->Cladocorynidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084127"
 pgloadind     taxon mapping OTT ID 358895 taxonomy "Moerisia sp. AGC-2001->Moerisia->Moerisiidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084129"
 pgloadind     taxon mapping OTT ID 707213 taxonomy "Pennaria disticha->Pennaria->Pennariidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084130"
-pgloadind     taxon mapping OTT ID 627420 taxonomy "Scrippsia pacifica->Scrippsia->Polyorchidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084135"
+pgloadind     taxon mapping OTT ID 141204 taxonomy "Stauridiosarsia ophiogaster->Stauridiosarsia->Corynidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084133"
 pgloadind     taxon mapping OTT ID 545638 taxonomy "Coryne nipponica->Coryne->Corynidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084134"
+pgloadind     taxon mapping OTT ID 627420 taxonomy "Scrippsia pacifica->Scrippsia->Polyorchidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084135"
 pgloadind     taxon mapping OTT ID 536352 taxonomy "Agalma elegans->Agalma->Agalmatidae->Physonectae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084144"
 pgloadind     taxon mapping OTT ID 486585 taxonomy "Halistemma rubrum->Halistemma->Agalmatidae->Physonectae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084145"
 pgloadind     taxon mapping OTT ID 358889 taxonomy "Nanomia bijuga->Nanomia->Agalmatidae->Physonectae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084146"
@@ -127,13 +114,15 @@ pgloadind     taxon mapping OTT ID 408506 taxonomy "Physophora hydrostatica->Phy
 pgloadind     taxon mapping OTT ID 15308 taxonomy "Cordagalma cordiforme->Cordagalma->Agalmatidae->Physonectae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084150"
 pgloadind     taxon mapping OTT ID 1038038 taxonomy "Erenna sp. PC-2008->Erenna->Erennidae->Physonectae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084153"
 pgloadind     taxon mapping OTT ID 863143 taxonomy "Stephalia dilata->Stephalia->Rhodaliidae->Physonectae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084154"
+pgloadind     taxon mapping OTT ID 320482 taxonomy "Halistemma amphytridis->Halistemma->Agalmatidae->Physonectae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084155"
 pgloadind     taxon mapping OTT ID 338560 taxonomy "Nectadamas diomedeae->Nectadamas->Prayidae->Calycophorae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084159"
 pgloadind     taxon mapping OTT ID 985078 taxonomy "Nectopyramis sp. AGC-2001->Nectopyramis->Prayidae->Calycophorae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084160"
 pgloadind     taxon mapping OTT ID 934506 taxonomy "Hippopodius hippopus->Hippopodius->Hippopodiidae->Calycophorae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084161"
 pgloadind     taxon mapping OTT ID 486578 taxonomy "Praya dubia->Praya->Prayidae->Calycophorae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084162"
 pgloadind     taxon mapping OTT ID 486575 taxonomy "Rosacea flaccida->Rosacea->Prayidae->Calycophorae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084163"
-pgloadind     taxon mapping OTT ID 702294 taxonomy "Physalia physalis->Physalia->Physaliidae->Cystonectae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084168"
+pgloadind     taxon mapping OTT ID 219163 taxonomy "Kephyes ovata->Kephyes->Clausophyidae->Calycophorae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084166"
 pgloadind     taxon mapping OTT ID 1062858 taxonomy "Sulculeolaria quadrivalvis->Sulculeolaria->Diphyidae->Calycophorae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084167"
+pgloadind     taxon mapping OTT ID 702294 taxonomy "Physalia physalis->Physalia->Physaliidae->Cystonectae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084168"
 pgloadind     taxon mapping OTT ID 281473 taxonomy "Apolemia sp. PC-2008->Apolemia->Apolemiidae->Physonectae->Siphonophora->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084169"
 pgloadind     taxon mapping OTT ID 456794 taxonomy "Ralpharia gorgoniae->Ralpharia->Tubulariidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084174"
 pgloadind     taxon mapping OTT ID 76921 taxonomy "Zyzzyzus calderi->Zyzzyzus->Tubulariidae->Anthomedusae->Hydroida->Hydrozoa->Cnidaria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1084175"
@@ -156,77 +145,78 @@ pgloadind   Adding tree to graph tree id "6257"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Melicertum octocostatum was remapped to 'Melicertidae' (id=2484564)
-	Diphasia fallax was remapped to 'Diphasia' (id=2482869)
-	Pandea sp. PC-2008 was remapped to 'Pandea' (id=2488015)
-	Hydra circumcincta was remapped to 'Hydridae' (id=2487786)
-	Blackfordia virginica was remapped to 'Blackfordiidae' (id=2482511)
-	Clytia noliformis was remapped to 'Campanulariidae' (id=2485334)
-	Pennaria disticha was remapped to 'Pennariidae' (id=2487687)
-	Adelopora crassilabrum was remapped to 'Adelopora' (id=2488882)
-	Porpita sp. AGC-2001 was remapped to 'Porpita' (id=2487427)
-	Sulculeolaria quadrivalvis was remapped to 'Diphyidae' (id=2488972)
-	Nectadamas diomedeae was remapped to 'Nectadamas' (id=2489120)
-	Scrippsia pacifica was remapped to 'Polyorchidae' (id=2487770)
-	Forskalia edwardsi was remapped to 'Forskaliidae' (id=2489404)
-	Pachycordyle pusilla was remapped to 'Pachycordyle' (id=2486527)
-	Thuiaria thuja was remapped to 'Thuiaria' (id=2483578)
-	Praya dubia was remapped to 'Praya' (id=2489158)
-	Clavactinia gallensis was remapped to 'Clavactinia' (id=2487023)
-	Melicertissa sp. AGC-2001 was remapped to 'Laodiceidae' (id=2485247)
-	Ralpharia gorgoniae was remapped to 'Ralpharia' (id=2487361)
-	Zanclea prolifera was remapped to 'Zancleidae' (id=2487633)
-	Eutima sapinhoa was remapped to 'Eirenidae' (id=2482517)
-	Hippopodius hippopus was remapped to 'Hippopodiidae' (id=2489240)
-	Lepidopora microstylus was remapped to 'Lepidopora' (id=2488544)
-	Rathkea octopunctata was remapped to 'Rathkeidae' (id=2487200)
-	Clava multicornis was remapped to 'Clava' (id=2487007)
-	Rhacostoma atlantica was remapped to 'Rhacostoma' (id=2483993)
-	Cordagalma cordiforme was remapped to 'Cordagalma' (id=2489310)
-	Velella sp. PC-2008 was remapped to 'Velella' (id=2487434)
-	Dicoryne conybearei was remapped to 'Dicoryne' (id=2486471)
-	Podocoryna carnea was remapped to 'Podocoryna' (id=2486915)
-	Rhizogeton nudus was remapped to 'Clavidae' (id=2486050)
-	Octophialucium indicum was remapped to 'Malagazziidae' (id=2482794)
-	Tiaropsidium kelseyi was remapped to 'Tiaropsidae' (id=2482831)
-	Candelabrum cocksii was remapped to 'Candelabridae' (id=2487720)
-	Apolemia sp. PC-2008 was remapped to 'Apolemiidae' (id=2489422)
-	Moerisia sp. AGC-2001 was remapped to 'Moerisiidae' (id=2487224)
-	Coryne nipponica was remapped to 'Corynidae' (id=2487444)
-	Physalia physalis was remapped to 'Cystonectae' (id=2489503)
-	Lafoea dumosa was remapped to 'Lafoeidae' (id=2482281)
-	Agalma elegans was remapped to 'Agalma' (id=2489355)
-	Erenna sp. PC-2008 was remapped to 'Erennidae' (id=2489482)
-	Pseudocrypthelia pachypoma was remapped to 'Pseudocrypthelia' (id=2488539)
-	Lizzia blondina was remapped to 'Lizzia' (id=2486512)
-	Rosacea flaccida was remapped to 'Rosacea' (id=2489124)
-	Aglaophenia tubiformis was remapped to 'Aglaopheniidae' (id=2484592)
-	Crypthelia cryptotrema was remapped to 'Crypthelia' (id=2488468)
-	Hydrichthys boycei was remapped to 'Anthoathecata' (id=2489549)
-	Stephalia dilata was remapped to 'Rhodaliidae' (id=2489453)
-	Conopora anthohelia was remapped to 'Conopora' (id=2488891)
-	Hydrichthella epigorgia was remapped to 'Ptilocodiidae' (id=2486673)
-	Anthohebella parasitica was remapped to 'Hebellidae' (id=2482213)
-	Halopteris minuta was remapped to 'Halopterididae' (id=2484009)
-	Leuckartiara octona was remapped to 'Leuckartiara' (id=2488032)
-	Neoturris breviconis was remapped to 'Neoturris' (id=2488103)
-	Halistemma rubrum was remapped to 'Halistemma' (id=2489340)
-	Cladocoryne floccosa was remapped to 'Cladocorynidae' (id=2487705)
-	Plumularia hyalina was remapped to 'Plumularia' (id=2484313)
-	Nanomia bijuga was remapped to 'Nanomia' (id=2489316)
-	Fabienna sphaerica was remapped to 'Fabienna' (id=2486065)
-	Zyzzyzus calderi was remapped to 'Zyzzyzus' (id=2487251)
-	Nemertesia antennina was remapped to 'Nemertesia' (id=2484206)
-	Hydrallmania falcata was remapped to 'Hydrallmania' (id=2482859)
-	Halecium muricatum was remapped to 'Haleciidae' (id=2485023)
-	Bimeria vestita was remapped to 'Bimeria' (id=2486555)
-	Abietinaria filicula was remapped to 'Abietinaria' (id=2483725)
-	Cordylophora caspia was remapped to 'Cordylophora' (id=2488263)
-	Koellikerina fasciculata was remapped to 'Koellikerina' (id=2486484)
-	Corydendrium sp. PC-2008 was remapped to 'Corydendrium' (id=2488211)
-	Ectopleura dumortierii was remapped to 'Ectopleura' (id=2487284)
-	Physophora hydrostatica was remapped to 'Physophoridae' (id=2489295)
-	Nectopyramis sp. AGC-2001 was remapped to 'Nectopyramis' (id=2489150)
+	Zyzzyzus calderi was remapped to 'Zyzzyzus' (id=2580034)
+	Bimeria vestita was remapped to 'Bimeria' (id=2579338)
+	Clava multicornis was remapped to 'Clava' (id=2579790)
+	Pseudocrypthelia pachypoma was remapped to 'Pseudocrypthelia' (id=2581322)
+	Melicertissa sp. AGC-2001 was remapped to 'Laodiceidae' (id=2578030)
+	Halecium muricatum was remapped to 'Haleciidae' (id=2577806)
+	Sulculeolaria quadrivalvis was remapped to 'Diphyidae' (id=2581755)
+	Nanomia bijuga was remapped to 'Nanomia' (id=2582099)
+	Abietinaria filicula was remapped to 'Abietinaria' (id=2576508)
+	Thuiaria thuja was remapped to 'Thuiaria' (id=2576361)
+	Podocoryna carnea was remapped to 'Podocoryna' (id=2579698)
+	Rhizogeton nudus was remapped to 'Clavidae' (id=2578833)
+	Halopteris minuta was remapped to 'Halopterididae' (id=2576792)
+	Tiaropsidium kelseyi was remapped to 'Tiaropsidae' (id=2575614)
+	Koellikerina fasciculata was remapped to 'Koellikerina' (id=2579267)
+	Melicertum octocostatum was remapped to 'Melicertidae' (id=2577347)
+	Lepidopora microstylus was remapped to 'Lepidopora' (id=2581327)
+	Leuckartiara octona was remapped to 'Leuckartiara' (id=2580815)
+	Pennaria disticha was remapped to 'Pennariidae' (id=2580470)
+	Ralpharia gorgoniae was remapped to 'Ralpharia' (id=2580144)
+	Zanclea prolifera was remapped to 'Zancleidae' (id=2580416)
+	Candelabrum cocksii was remapped to 'Candelabridae' (id=2580503)
+	Hydrichthella epigorgia was remapped to 'Ptilocodiidae' (id=2579456)
+	Clavactinia gallensis was remapped to 'Clavactinia' (id=2579806)
+	Pandea sp. PC-2008 was remapped to 'Pandea' (id=2580798)
+	Pachycordyle pusilla was remapped to 'Pachycordyle' (id=2579310)
+	Cladocoryne floccosa was remapped to 'Cladocorynidae' (id=2580488)
+	Rathkea octopunctata was remapped to 'Rathkeidae' (id=2579983)
+	Hydrichthys boycei was remapped to 'Anthoathecata' (id=2582332)
+	Dicoryne conybearei was remapped to 'Dicoryne' (id=2579254)
+	Hydra circumcincta was remapped to 'Hydridae' (id=2580569)
+	Diphasia fallax was remapped to 'Diphasia' (id=2575652)
+	Cordagalma cordiforme was remapped to 'Cordagalma' (id=2582093)
+	Corydendrium sp. PC-2008 was remapped to 'Corydendrium' (id=2580994)
+	Forskalia edwardsi was remapped to 'Forskaliidae' (id=2582187)
+	Apolemia sp. PC-2008 was remapped to 'Apolemiidae' (id=2582205)
+	Hippopodius hippopus was remapped to 'Hippopodiidae' (id=2582023)
+	Stephalia dilata was remapped to 'Rhodaliidae' (id=2582236)
+	Eutima sapinhoa was remapped to 'Eirenidae' (id=2575300)
+	Nemertesia antennina was remapped to 'Nemertesia' (id=2576989)
+	Ectopleura dumortierii was remapped to 'Ectopleura' (id=2580067)
+	Stauridiosarsia ophiogaster was remapped to 'Stauridiosarsia' (id=2580317)
+	Praya dubia was remapped to 'Praya' (id=2581941)
+	Crypthelia cryptotrema was remapped to 'Crypthelia' (id=2581251)
+	Nectadamas diomedeae was remapped to 'Nectadamas' (id=2581903)
+	Physalia physalis was remapped to 'Cystonectae' (id=2582286)
+	Hydrallmania falcata was remapped to 'Hydrallmania' (id=2575642)
+	Cordylophora caspia was remapped to 'Cordylophora' (id=2581046)
+	Anthohebella parasitica was remapped to 'Hebellidae' (id=2574996)
+	Lafoea dumosa was remapped to 'Lafoeidae' (id=2575064)
+	Scrippsia pacifica was remapped to 'Polyorchidae' (id=2580553)
+	Clytia noliformis was remapped to 'Campanulariidae' (id=2578117)
+	Conopora anthohelia was remapped to 'Conopora' (id=2581674)
+	Porpita sp. AGC-2001 was remapped to 'Porpita' (id=2580210)
+	Fabienna sphaerica was remapped to 'Fabienna' (id=2578848)
+	Moerisia sp. AGC-2001 was remapped to 'Moerisiidae' (id=2580007)
+	Coryne nipponica was remapped to 'Coryne' (id=2580248)
+	Aglaophenia tubiformis was remapped to 'Aglaopheniidae' (id=2577375)
+	Kephyes ovata was remapped to 'Clausophyidae' (id=2582045)
+	Blackfordia virginica was remapped to 'Blackfordiidae' (id=2575294)
+	Erenna sp. PC-2008 was remapped to 'Erennidae' (id=2582265)
+	Agalma elegans was remapped to 'Agalma' (id=2582138)
+	Neoturris breviconis was remapped to 'Neoturris' (id=2580886)
+	Lizzia blondina was remapped to 'Lizzia' (id=2579295)
+	Physophora hydrostatica was remapped to 'Physophoridae' (id=2582078)
+	Nectopyramis sp. AGC-2001 was remapped to 'Nectopyramis' (id=2581933)
+	Plumularia hyalina was remapped to 'Plumularia' (id=2577096)
+	Rhacostoma atlantica was remapped to 'Rhacostoma' (id=2576776)
+	Adelopora crassilabrum was remapped to 'Adelopora' (id=2581665)
+	Octophialucium indicum was remapped to 'Malagazziidae' (id=2575577)
+	Velella sp. PC-2008 was remapped to 'Velella' (id=2580217)
+	Rosacea flaccida was remapped to 'Rosacea' (id=2581907)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
@@ -243,20 +233,20 @@ Adding property 'ot:curatorName': Chris Owen
 Dealing with metadata property: ot:studyPublication
 Adding property 'ot:studyPublication': http://dx.doi.org/10.1017/S0025315408002257
 Dealing with metadata property: ot:focalClade
-Adding property 'ot:focalClade': 2553527
+Adding property 'ot:focalClade': 641030
 Dealing with metadata property: ot:curatedType
 Adding property 'ot:curatedType': ML 50% maj-rule
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 1786
 Dealing with metadata property: ot:dataDeposit
 Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S2067
-Committing nodes: 185
-	adding Node[2486101] Corymorphidae 183502 as compatible with Node[2486112]
-		adding Relationship[8163878]
-		adding to root Relationship[8163879]
-	adding Node[2487070] Eudendriidae 309118 as compatible with Node[2487071]
-		adding Relationship[8163880]
-		adding to root Relationship[8163881]
-	adding Node[2488355] Stylasterina 590276 as compatible with Node[2488356]
-		adding Relationship[8163882]
-		adding to root Relationship[8163883]
+Committing nodes: 191
+	adding Node[2578884] Corymorphidae 183502 as compatible with Node[2578895]
+		adding Relationship[8416352]
+		adding to root Relationship[8416353]
+	adding Node[2579853] Eudendriidae 309118 as compatible with Node[2579854]
+		adding Relationship[8416354]
+		adding to root Relationship[8416355]
+	adding Node[2581138] Stylasterina 590276 as compatible with Node[2581139]
+		adding Relationship[8416356]
+		adding to root Relationship[8416357]
