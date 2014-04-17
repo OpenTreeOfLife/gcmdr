@@ -1,0 +1,129 @@
+pgloadind OTUs number 42
+pgloadind Processing tree @id "3453"
+pgloadind   tree info number nodes 83
+pgloadind   tree info number edges 82
+pgloadind   tree info ingroup "node673958"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 38
+pgloadind   property added ot:studyPublicationReference "Grubisha L., Trappe J., Molina R., & Spatafora J. 2001. Biology of the ectomycorrhizal genus Rhizopogon. V. Phylogenetic relationships in the Boletales inferred from LSU rDNA sequences. Mycologia, 93(1): 82-89."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/3761607"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S677"
+pgloadind   property added ot:studyId "1714"
+pgloadind   property added ot:studyYear "2001"
+pgloadind   property added ot:focalClade "207725"
+pgloadind   property added ot:focalCladeOTTTaxonName "Boletales"
+pgloadind   property added ot:inGroupClade "node673958"
+pgloadind   property added ot:curatedType "MP, LSU"
+loading a specific tree: 3453
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "3453"
+pgloadind     OTT ID missing name "Bolbitius vitellinus" nexsonid "node673970"
+pgloadind     OTT ID missing name "Xerocomus chrysenteron" nexsonid "node673988"
+pgloadind     OTT ID missing name "Suillus sinuspaulianus" nexsonid "node674014"
+pgloadind   TNRS unmatched total number 0
+pgloadind     TNRS resolved ottId OTT ID 484257 name "Bolbitius vitellinus" searched on "Bolbitius vitellinus" nexsonid "node673970"
+pgloadind     TNRS resolved ottId OTT ID 428803 name "Suillus sinuspaulianus" searched on "Suillus sinuspaulianus" nexsonid "node674014"
+pgloadind     pruning unmapped name "Xerocomus chrysenteron" nexsonid "node673988"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Boletus satanas" nexsonid "node673992"
+pgloadind       duplicate OTT ID 111540
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Boletus edulis" nexsonid "node673999"
+pgloadind       duplicate OTT ID 1017219
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Rhizopogon truncatus" nexsonid "node674023"
+pgloadind       duplicate OTT ID 646174
+pgloadind     pruning dups and overlapping name "Boletus edulis" nexsonid "node673999"
+pgloadind     pruning dups and overlapping name "Rhizopogon truncatus" nexsonid "node674023"
+pgloadind     pruning dups and overlapping name "Boletus satanas" nexsonid "node673992"
+pgloadind   postpruning newick tree "(((((Chlorophyllum_rachodes,Agaricus_bisporus),Leucoagaricus_leucothites),((Hebeloma_crustuliniforme,Cortinarius_stuntzii),Bolbitius_vitellinus)),((Marasmius_delectans,Crinipellis_campanella),(Pleurotus_cornucopiae,Pleurotus_ostreatus))),((((Paragyrodon_sphaerosporus,Alpova_trappei),(((Retiboletus_retipes,Boletus_satanas),((Boletellus_mirabilis,(Phylloporus_rhodoxanthus,Boletus_edulis)),Tylopilus_felleus)),Melanogaster_tuberiformis)),Alpova_diplophloeus),(((((Chroogomphus_vinicolor,Gomphidius_glutinosus),((Suillus_cavipes,Suillus_sinuspaulianus),Truncocolumella_citrina)),((Rhizopogon_olivaceotinctus,(Rhizopogon_occidentalis,Rhizopogon_truncatus)),Rhizopogon_smithii)),((Rhizopogon_villosulus,Rhizopogon_hawkerae),Rhizopogon_parksii)),(Rhizopogon_subcaerulescens,Rhizopogon_subpurpurascens))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 484264 taxonomy "Chlorophyllum rachodes->Chlorophyllum->Agaricaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673963"
+pgloadind     taxon mapping OTT ID 737449 taxonomy "Agaricus bisporus->Agaricus->Agaricaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673964"
+pgloadind     taxon mapping OTT ID 191811 taxonomy "Leucoagaricus leucothites->Leucoagaricus->Agaricaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673965"
+pgloadind     taxon mapping OTT ID 433926 taxonomy "Hebeloma crustuliniforme->Hebeloma->Strophariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673968"
+pgloadind     taxon mapping OTT ID 433925 taxonomy "Cortinarius stuntzii->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673969"
+pgloadind     taxon mapping OTT ID 484257 taxonomy "Bolbitius vitellinus->Bolbitius->Bolbitiaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673970"
+pgloadind     taxon mapping OTT ID 959451 taxonomy "Marasmius delectans->Marasmius->Marasmiaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673973"
+pgloadind     taxon mapping OTT ID 959444 taxonomy "Crinipellis campanella->Crinipellis->Marasmiaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673974"
+pgloadind     taxon mapping OTT ID 581153 taxonomy "Pleurotus cornucopiae->Pleurotus->Pleurotaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673976"
+pgloadind     taxon mapping OTT ID 581149 taxonomy "Pleurotus ostreatus->Pleurotus->Pleurotaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673977"
+pgloadind     taxon mapping OTT ID 111545 taxonomy "Paragyrodon sphaerosporus->Paragyrodon->Paxillaceae->Paxilineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673982"
+pgloadind     taxon mapping OTT ID 646169 taxonomy "Alpova trappei->Alpova->Paxillaceae->Paxilineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673983"
+pgloadind     taxon mapping OTT ID 5304086 taxonomy "Retiboletus retipes->Retiboletus->Boletaceae->Boletineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673989"
+pgloadind     taxon mapping OTT ID 111540 taxonomy "Boletus satanas->Boletus->Boletaceae->Boletineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673991"
+pgloadind     taxon mapping OTT ID 731269 taxonomy "Boletellus mirabilis->Boletellus->Boletaceae->Boletineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673995"
+pgloadind     taxon mapping OTT ID 111535 taxonomy "Phylloporus rhodoxanthus->Phylloporus->Boletaceae->Boletineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674000"
+pgloadind     taxon mapping OTT ID 1017219 taxonomy "Boletus edulis->Boletus->Boletaceae->Boletineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node673998"
+pgloadind     taxon mapping OTT ID 646170 taxonomy "Tylopilus felleus->Tylopilus->Boletaceae->Boletineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674001"
+pgloadind     taxon mapping OTT ID 378887 taxonomy "Melanogaster tuberiformis->Melanogaster->Paxillaceae->Paxilineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674002"
+pgloadind     taxon mapping OTT ID 581422 taxonomy "Alpova diplophloeus->Alpova->Paxillaceae->Paxilineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674003"
+pgloadind     taxon mapping OTT ID 954796 taxonomy "Chroogomphus vinicolor->Chroogomphus->Gomphidiaceae->Suillineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674009"
+pgloadind     taxon mapping OTT ID 954794 taxonomy "Gomphidius glutinosus->Gomphidius->Gomphidiaceae->Suillineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674010"
+pgloadind     taxon mapping OTT ID 428802 taxonomy "Suillus cavipes->Suillus->Suillaceae->Suillineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674013"
+pgloadind     taxon mapping OTT ID 428803 taxonomy "Suillus sinuspaulianus->Suillus->Suillaceae->Suillineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674014"
+pgloadind     taxon mapping OTT ID 1026595 taxonomy "Truncocolumella citrina->Truncocolumella->Suillaceae->Suillineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674015"
+pgloadind     taxon mapping OTT ID 581433 taxonomy "Rhizopogon olivaceotinctus->Rhizopogon->Rhizopogonaceae->Suillineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674018"
+pgloadind     taxon mapping OTT ID 966686 taxonomy "Rhizopogon occidentalis->Rhizopogon->Rhizopogonaceae->Suillineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674020"
+pgloadind     taxon mapping OTT ID 646174 taxonomy "Rhizopogon truncatus->Rhizopogon->Rhizopogonaceae->Suillineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674022"
+pgloadind     taxon mapping OTT ID 760985 taxonomy "Rhizopogon smithii->Rhizopogon->Rhizopogonaceae->Suillineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674024"
+pgloadind     taxon mapping OTT ID 207772 taxonomy "Rhizopogon villosulus->Rhizopogon->Rhizopogonaceae->Suillineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674027"
+pgloadind     taxon mapping OTT ID 646165 taxonomy "Rhizopogon hawkerae->Rhizopogon->Rhizopogonaceae->Suillineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674028"
+pgloadind     taxon mapping OTT ID 966683 taxonomy "Rhizopogon parksii->Rhizopogon->Rhizopogonaceae->Suillineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674029"
+pgloadind     taxon mapping OTT ID 111538 taxonomy "Rhizopogon subcaerulescens->Rhizopogon->Rhizopogonaceae->Suillineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674031"
+pgloadind     taxon mapping OTT ID 1059558 taxonomy "Rhizopogon subpurpurascens->Rhizopogon->Rhizopogonaceae->Suillineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node674032"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "3453"
+pgloadind   Adding tree to graph tree id "3453"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Chlorophyllum rachodes was remapped to 'Chlorophyllum' (id=299032)
+	Crinipellis campanella was remapped to 'Crinipellis' (id=320241)
+	Paragyrodon sphaerosporus was remapped to 'Paragyrodon' (id=291232)
+	Leucoagaricus leucothites was remapped to 'Leucoagaricus' (id=307841)
+	Agaricus bisporus was remapped to 'Agaricus' (id=301642)
+	Bolbitius vitellinus was remapped to 'Bolbitiaceae' (id=308948)
+	Marasmius delectans was remapped to 'Marasmius' (id=320971)
+	Melanogaster tuberiformis was remapped to 'Melanogaster' (id=291275)
+	Tylopilus felleus was remapped to 'Tylopilus' (id=294445)
+	Hebeloma crustuliniforme was remapped to 'Strophariaceae' (id=329369)
+	Boletellus mirabilis was remapped to 'Boletellus' (id=291526)
+	Gomphidius glutinosus was remapped to 'Gomphidius' (id=295384)
+	Phylloporus rhodoxanthus was remapped to 'Phylloporus' (id=293761)
+	Cortinarius stuntzii was remapped to 'Cortinariaceae' (id=310807)
+	Truncocolumella citrina was remapped to 'Truncocolumella' (id=295445)
+	Chroogomphus vinicolor was remapped to 'Chroogomphus' (id=295316)
+	Retiboletus retipes was remapped to 'Retiboletus' (id=294217)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Grubisha L., Trappe J., Molina R., & Spatafora J. 2001. Biology of the ectomycorrhizal genus Rhizopogon. V. Phylogenetic relationships in the Boletales inferred from LSU rDNA sequences. Mycologia, 93(1): 82-89.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Boletales
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2001
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node673958
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.2307/3761607
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 207725
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP, LSU
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 1714
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S677
+Committing nodes: 67
+	adding Node[291481] Boletineae 457224 as compatible with Node[291483]
+		adding Relationship[8415999]
+		adding to root Relationship[8416000]
+	adding Node[326915] Pleurotaceae 1019482 as compatible with Node[326923]
+		adding Relationship[8416001]
+		adding to root Relationship[8416002]

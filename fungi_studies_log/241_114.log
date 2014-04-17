@@ -1,0 +1,316 @@
+pgloadind OTUs number 108
+pgloadind Processing tree @id "114"
+pgloadind   tree info number nodes 215
+pgloadind   tree info number edges 214
+pgloadind   tree info ingroup "node161931"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 108
+pgloadind   property added ot:studyPublicationReference "Wang, Z., Johnston, P. R., Takamatsu, S., Spatafora, J. W., & Hibbett, D. S. (2006). Toward a phylogenetic classification of the leotiomycetes based on rDNA data. Mycologia, 98(6), 1065-75. Retrieved from http://www.ncbi.nlm.nih.gov/pubmed/17486981"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.3852/mycologia.98.6.1065"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1599"
+pgloadind   property added ot:studyId "241"
+pgloadind   property added ot:studyYear "2006"
+pgloadind   property added ot:focalClade "346134"
+pgloadind   property added ot:focalCladeOTTTaxonName "Leotiomycetes"
+pgloadind   property added ot:branchLengthMode "ot:changesCount"
+pgloadind   property added ot:inGroupClade "node161931"
+pgloadind   property added ot:curatedType "MP, ITS"
+loading a specific tree: 114
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "114"
+pgloadind     OTT ID missing name "Lachnum bicolor" nexsonid "node161956"
+pgloadind     OTT ID missing name "Ombrophila violacea" nexsonid "node161976"
+pgloadind     OTT ID missing name "Brasiliomyces trina" nexsonid "node162001"
+pgloadind     OTT ID missing name "Chlorociboria sp. G80" nexsonid "node162014"
+pgloadind     OTT ID missing name "Chlorociboria aeruginosa" nexsonid "node162015"
+pgloadind     OTT ID missing name "Sarea resinae" nexsonid "node162073"
+pgloadind     OTT ID missing name "Microglossum sp. NZG100" nexsonid "node162087"
+pgloadind     OTT ID missing name "Pseudogymnoascus roseus" nexsonid "node162089"
+pgloadind     OTT ID missing name "Pseudeurotium zonatum" nexsonid "node162090"
+pgloadind     OTT ID missing name "Byssoascus striatisporus" nexsonid "node162131"
+pgloadind     OTT ID missing name "Myxotrichum deflexum" nexsonid "node162132"
+pgloadind   TNRS unmatched total number 8
+pgloadind     TNRS resolved ottId OTT ID 540702 name "Brasiliomyces trina" searched on "Brasiliomyces trina" nexsonid "node162001"
+pgloadind     TNRS resolved ottId OTT ID 178977 name "Lachnum bicolor" searched on "Lachnum bicolor" nexsonid "node161956"
+pgloadind     pruning unmapped name "Myxotrichum deflexum" nexsonid "node162132"
+pgloadind     pruning unmapped name "Microglossum sp. NZG100" nexsonid "node162087"
+pgloadind     pruning unmapped name "Chlorociboria sp. G80" nexsonid "node162014"
+pgloadind     pruning unmapped name "Ombrophila violacea" nexsonid "node161976"
+pgloadind     pruning unmapped name "Chlorociboria aeruginosa" nexsonid "node162015"
+pgloadind     pruning unmapped name "Pseudeurotium zonatum" nexsonid "node162090"
+pgloadind     pruning unmapped name "Pseudogymnoascus roseus" nexsonid "node162089"
+pgloadind     pruning unmapped name "Sarea resinae" nexsonid "node162073"
+pgloadind     pruning unmapped name "Byssoascus striatisporus" nexsonid "node162131"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Cudoniella clavus" nexsonid "node161975"
+pgloadind       duplicate OTT ID 745596
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Heyderia abietis" nexsonid "node162098"
+pgloadind       duplicate OTT ID 694134
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Dothidea sambuci" nexsonid "node162032"
+pgloadind       overlapping pruned name "Dothidea" nexsonid "node162031"
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Sarcoleotia globosa" nexsonid "node162058"
+pgloadind       overlapping pruned name "Sarcoleotia" nexsonid "node162059"
+pgloadind     pruning dups and overlapping name "Sarcoleotia" nexsonid "node162059"
+pgloadind     pruning dups and overlapping name "Heyderia abietis" nexsonid "node162098"
+pgloadind     pruning dups and overlapping name "Dothidea" nexsonid "node162031"
+pgloadind     pruning dups and overlapping name "Cudoniella clavus" nexsonid "node161975"
+pgloadind   postpruning newick tree "(Spirosphaera_floriformis,(Lambertella_tubulosa,((((((((Clathrosporium_intricatum,(Gremmeniella_abietina,(Mitrula_borealis,Mitrula_paludosa))),Hydrocina_chaetocladia),((((Bryoglossum_gracile,Lachnum_virgineum),Lachnum_bicolor),(Chlorovibrissea,Vibrissea_albofusca)),(Hyaloscypha_daedaleae,((Loramyces_juncicola,Mollisia_cinerea),(Phialocephala_fortinii,(Vibrissea_flavovirens,Vibrissea_truncorum)))))),(Hymenoscyphus_scutula,Cudoniella_clavus)),(((((((Arthrocladiella_mougeotii,((Leveillula_taurica,Phyllactinia_moricola),Pleochaeta_shiraiana)),((((((Erysiphe_gracilis,Erysiphe_mori),(Erysiphe_simulans,Brasiliomyces_trina)),Erysiphe_pulchra),Erysiphe_diffusa),Neoerysiphe_galeopsidis),Erysiphe_australiana)),((Podosphaera_tridactyla,Sawadaea_polyfida),Blumeria_graminis)),Parauncinula_septata),Cyttaria_darwinii),(((((Bulgaria_inquinans,Discula_pyri),Holwaya_mucida),((Leotia_lubrica,Microglossum_rufum),Microglossum_olivaceum)),(((((Neofusicoccum_ribis,Phoma_herbarum),(Arthonia,Roccella_tuberculata)),Dothidea_sambuci),(((Cladonia_caroliniana,Lecanora_concolor),(Peltigera_aphthosa,(Ochrolechia_parella,Trapelia_placodioides))),((Capronia_nigerrima,Capronia_mansonii),(Penicillium_javanicum,Aspergillus_amstelodami)))),((((Geoglossum_glabrum,Geoglossum_umbratile),Trichoglossum_hirsutum),Sarcoleotia_globosa),(((Neolecta_irregularis,(Saccharomyces_cerevisiae,Candida_albicans)),(Peziza_phyllogena,Peziza_varia)),(Orbilia_delicatula,Orbilia_auricolor))))),((((Chlorencoelia,Heyderia_abietis),Sarcotrochila_longispora),(Fabrella_tsugae,Meria_laricis)),((((Ciboria,Sclerotinia_sclerotiorum),(Monilinia_fructicola,Monilinia_laxa)),(Rutstroemia_bolaris,Scleromitrula_shiraiana)),Rutstroemia_bulgarioides)))),(Dermea_acerina,(Neofabraea_malicorticis,Neofabraea_alba)))),(Bisporella,(((Ascocoryne_cylichnium,Ascocoryne_sarcoides),Sarcoleotia_turficola),Chloroscypha))),(((Coccomyces_dentatus,(Cudonia,Spathularia_flavida)),Lophodermium_pinastri),Rhytisma)),(Pilidium_acerinum,Pilidium_concavum))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 18119 taxonomy "Spirosphaera floriformis->Spirosphaera->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161932"
+pgloadind     taxon mapping OTT ID 590931 taxonomy "Lambertella tubulosa->Lambertella->Rutstroemiaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161934"
+pgloadind     taxon mapping OTT ID 590940 taxonomy "Clathrosporium intricatum->Clathrosporium->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161943"
+pgloadind     taxon mapping OTT ID 677363 taxonomy "Gremmeniella abietina->Gremmeniella->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161945"
+pgloadind     taxon mapping OTT ID 790174 taxonomy "Mitrula borealis->Mitrula->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161947"
+pgloadind     taxon mapping OTT ID 694128 taxonomy "Mitrula paludosa->Mitrula->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161948"
+pgloadind     taxon mapping OTT ID 221960 taxonomy "Hydrocina chaetocladia->Hydrocina->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161949"
+pgloadind     taxon mapping OTT ID 694135 taxonomy "Bryoglossum gracile->Bryoglossum->Hyaloscyphaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161954"
+pgloadind     taxon mapping OTT ID 178976 taxonomy "Lachnum virgineum->Lachnum->Hyaloscyphaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161955"
+pgloadind     taxon mapping OTT ID 178977 taxonomy "Lachnum bicolor->Lachnum->Hyaloscyphaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161956"
+pgloadind     taxon mapping OTT ID 328860 taxonomy "Chlorovibrissea->Vibrisseaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161958"
+pgloadind     taxon mapping OTT ID 745597 taxonomy "Vibrissea albofusca->Vibrissea->Vibrisseaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161959"
+pgloadind     taxon mapping OTT ID 221958 taxonomy "Hyaloscypha daedaleae->Hyaloscypha->Hyaloscyphaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161961"
+pgloadind     taxon mapping OTT ID 94190 taxonomy "Loramyces juncicola->Loramyces->Loramycetaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161964"
+pgloadind     taxon mapping OTT ID 542792 taxonomy "Mollisia cinerea->Mollisia->Dermateaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161965"
+pgloadind     taxon mapping OTT ID 85903 taxonomy "Phialocephala fortinii->Phialocephala->Vibrisseaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161967"
+pgloadind     taxon mapping OTT ID 221959 taxonomy "Vibrissea flavovirens->Vibrissea->Vibrisseaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161969"
+pgloadind     taxon mapping OTT ID 224153 taxonomy "Vibrissea truncorum->Vibrissea->Vibrisseaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161970"
+pgloadind     taxon mapping OTT ID 4042486 taxonomy "Hymenoscyphus scutula->Hymenoscyphus->Helotiaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161977"
+pgloadind     taxon mapping OTT ID 745596 taxonomy "Cudoniella clavus->Cudoniella->Helotiaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161974"
+pgloadind     taxon mapping OTT ID 829310 taxonomy "Arthrocladiella mougeotii->Arthrocladiella->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161985"
+pgloadind     taxon mapping OTT ID 712252 taxonomy "Leveillula taurica->Leveillula->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161988"
+pgloadind     taxon mapping OTT ID 1089925 taxonomy "Phyllactinia moricola->Phyllactinia->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161989"
+pgloadind     taxon mapping OTT ID 1089923 taxonomy "Pleochaeta shiraiana->Pleochaeta->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161990"
+pgloadind     taxon mapping OTT ID 1006539 taxonomy "Erysiphe gracilis->Erysiphe->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161997"
+pgloadind     taxon mapping OTT ID 622889 taxonomy "Erysiphe mori->Erysiphe->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node161998"
+pgloadind     taxon mapping OTT ID 152646 taxonomy "Erysiphe simulans->Erysiphe->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162000"
+pgloadind     taxon mapping OTT ID 540702 taxonomy "Brasiliomyces trina->Brasiliomyces->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162001"
+pgloadind     taxon mapping OTT ID 1065851 taxonomy "Erysiphe pulchra->Erysiphe->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162002"
+pgloadind     taxon mapping OTT ID 129269 taxonomy "Erysiphe diffusa->Erysiphe->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162003"
+pgloadind     taxon mapping OTT ID 773763 taxonomy "Neoerysiphe galeopsidis->Neoerysiphe->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162004"
+pgloadind     taxon mapping OTT ID 254932 taxonomy "Erysiphe australiana->Erysiphe->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162005"
+pgloadind     taxon mapping OTT ID 85912 taxonomy "Podosphaera tridactyla->Podosphaera->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162008"
+pgloadind     taxon mapping OTT ID 1097412 taxonomy "Sawadaea polyfida->Sawadaea->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162009"
+pgloadind     taxon mapping OTT ID 555363 taxonomy "Blumeria graminis->Blumeria->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162010"
+pgloadind     taxon mapping OTT ID 208308 taxonomy "Parauncinula septata->Parauncinula->Erysiphaceae->Erysiphales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162011"
+pgloadind     taxon mapping OTT ID 68614 taxonomy "Cyttaria darwinii->Cyttaria->Cyttariaceae->Cyttariales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162016"
+pgloadind     taxon mapping OTT ID 902757 taxonomy "Bulgaria inquinans->Bulgaria->Bulgariaceae->Leotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162077"
+pgloadind     taxon mapping OTT ID 5316772 taxonomy "Discula pyri->Discula->Gnomoniaceae->Diaporthales->Sordariomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162078"
+pgloadind     taxon mapping OTT ID 527601 taxonomy "Holwaya mucida->Holwaya->Bulgariaceae->Leotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162079"
+pgloadind     taxon mapping OTT ID 339442 taxonomy "Leotia lubrica->Leotia->Leotiaceae->Leotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162084"
+pgloadind     taxon mapping OTT ID 554275 taxonomy "Microglossum rufum->Microglossum->Leotiaceae->Leotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162085"
+pgloadind     taxon mapping OTT ID 745599 taxonomy "Microglossum olivaceum->Microglossum->Leotiaceae->Leotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162086"
+pgloadind     taxon mapping OTT ID 33907 taxonomy "Neofusicoccum ribis->Neofusicoccum->Botryosphaeriaceae->Botryosphaeriales->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162025"
+pgloadind     taxon mapping OTT ID 437937 taxonomy "Phoma herbarum->Phoma->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162026"
+pgloadind     taxon mapping OTT ID 124626 taxonomy "Arthonia->Arthoniaceae->Arthoniales->Arthoniomycetidae->Arthoniomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162028"
+pgloadind     taxon mapping OTT ID 925785 taxonomy "Roccella tuberculata->Roccella->Roccellaceae->Arthoniales->Arthoniomycetidae->Arthoniomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162029"
+pgloadind     taxon mapping OTT ID 95390 taxonomy "Dothidea sambuci->Dothidea->Dothideaceae->Dothideales->Dothideomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162032"
+pgloadind     taxon mapping OTT ID 677139 taxonomy "Cladonia caroliniana->Cladonia->Cladoniaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162036"
+pgloadind     taxon mapping OTT ID 876618 taxonomy "Lecanora concolor->Lecanora->Lecanoraceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162037"
+pgloadind     taxon mapping OTT ID 1003026 taxonomy "Peltigera aphthosa->Peltigera->Peltigeraceae->Peltigerineae->Peltigerales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162039"
+pgloadind     taxon mapping OTT ID 466005 taxonomy "Ochrolechia parella->Ochrolechia->Ochrolechiaceae->Pertusariales->Ostropomycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162041"
+pgloadind     taxon mapping OTT ID 413900 taxonomy "Trapelia placodioides->Trapelia->Trapeliaceae->Agyriales->Ostropomycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162042"
+pgloadind     taxon mapping OTT ID 849146 taxonomy "Capronia nigerrima->Capronia->Herpotrichiellaceae->Chaetothyriales->Chaetothyriomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162045"
+pgloadind     taxon mapping OTT ID 425085 taxonomy "Capronia mansonii->Capronia->Herpotrichiellaceae->Chaetothyriales->Chaetothyriomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162046"
+pgloadind     taxon mapping OTT ID 589692 taxonomy "Penicillium javanicum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162048"
+pgloadind     taxon mapping OTT ID 550761 taxonomy "Aspergillus amstelodami->Aspergillus->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162049"
+pgloadind     taxon mapping OTT ID 845887 taxonomy "Geoglossum glabrum->Geoglossum->Geoglossaceae->Geoglossales->Geoglossomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162054"
+pgloadind     taxon mapping OTT ID 694142 taxonomy "Geoglossum umbratile->Geoglossum->Geoglossaceae->Geoglossales->Geoglossomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162055"
+pgloadind     taxon mapping OTT ID 428 taxonomy "Trichoglossum hirsutum->Trichoglossum->Geoglossaceae->Geoglossales->Geoglossomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162056"
+pgloadind     taxon mapping OTT ID 694133 taxonomy "Sarcoleotia globosa->Sarcoleotia->Geoglossaceae->Geoglossales->Geoglossomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162058"
+pgloadind     taxon mapping OTT ID 998160 taxonomy "Neolecta irregularis->Neolecta->Neolectaceae->Neolectales->Neolectomycetidae->Neolectomycetes->Taphrinomycotina->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162063"
+pgloadind     taxon mapping OTT ID 908549 taxonomy "Saccharomyces cerevisiae->Saccharomyces->Saccharomycetaceae->Saccharomycetales->Saccharomycetidae->Saccharomycetes->Saccharomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162065"
+pgloadind     taxon mapping OTT ID 1034966 taxonomy "Candida albicans->Candida->Saccharomycetales->Saccharomycetidae->Saccharomycetes->Saccharomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162066"
+pgloadind     taxon mapping OTT ID 713546 taxonomy "Peziza phyllogena->Peziza->Pyronemataceae->Pezizales->Pezizomycetidae->Pezizomycetes->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162068"
+pgloadind     taxon mapping OTT ID 643967 taxonomy "Peziza varia->Peziza->Pyronemataceae->Pezizales->Pezizomycetidae->Pezizomycetes->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162069"
+pgloadind     taxon mapping OTT ID 309918 taxonomy "Orbilia delicatula->Orbilia->Orbiliaceae->Orbiliales->Orbiliomycetidae->Orbiliomycetes->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162071"
+pgloadind     taxon mapping OTT ID 309921 taxonomy "Orbilia auricolor->Orbilia->Orbiliaceae->Orbiliales->Orbiliomycetidae->Orbiliomycetes->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162072"
+pgloadind     taxon mapping OTT ID 822637 taxonomy "Chlorencoelia->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162095"
+pgloadind     taxon mapping OTT ID 694134 taxonomy "Heyderia abietis->Heyderia->Hemiphacidiaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162097"
+pgloadind     taxon mapping OTT ID 5309539 taxonomy "Sarcotrochila longispora->Sarcotrochila->Hemiphacidiaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162099"
+pgloadind     taxon mapping OTT ID 295879 taxonomy "Fabrella tsugae->Fabrella->Hemiphacidiaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162101"
+pgloadind     taxon mapping OTT ID 164628 taxonomy "Meria laricis->Meria->Hemiphacidiaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162102"
+pgloadind     taxon mapping OTT ID 743498 taxonomy "Ciboria->Sclerotiniaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162107"
+pgloadind     taxon mapping OTT ID 880963 taxonomy "Sclerotinia sclerotiorum->Sclerotinia->Sclerotiniaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162108"
+pgloadind     taxon mapping OTT ID 176417 taxonomy "Monilinia fructicola->Monilinia->Sclerotiniaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162110"
+pgloadind     taxon mapping OTT ID 466066 taxonomy "Monilinia laxa->Monilinia->Sclerotiniaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162111"
+pgloadind     taxon mapping OTT ID 636586 taxonomy "Rutstroemia bolaris->Rutstroemia->Rutstroemiaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162113"
+pgloadind     taxon mapping OTT ID 636578 taxonomy "Scleromitrula shiraiana->Scleromitrula->Rutstroemiaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162114"
+pgloadind     taxon mapping OTT ID 5309783 taxonomy "Rutstroemia bulgarioides->Rutstroemia->Rutstroemiaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162115"
+pgloadind     taxon mapping OTT ID 1061678 taxonomy "Dermea acerina->Dermea->Dermateaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162117"
+pgloadind     taxon mapping OTT ID 986461 taxonomy "Neofabraea malicorticis->Neofabraea->Dermateaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162119"
+pgloadind     taxon mapping OTT ID 409759 taxonomy "Neofabraea alba->Neofabraea->Dermateaceae->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162120"
+pgloadind     taxon mapping OTT ID 67220 taxonomy "Bisporella->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162133"
+pgloadind     taxon mapping OTT ID 699525 taxonomy "Ascocoryne cylichnium->Ascocoryne->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162126"
+pgloadind     taxon mapping OTT ID 714997 taxonomy "Ascocoryne sarcoides->Ascocoryne->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162127"
+pgloadind     taxon mapping OTT ID 790169 taxonomy "Sarcoleotia turficola->Sarcoleotia->Geoglossaceae->Geoglossales->Geoglossomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162128"
+pgloadind     taxon mapping OTT ID 870820 taxonomy "Chloroscypha->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162129"
+pgloadind     taxon mapping OTT ID 227028 taxonomy "Coccomyces dentatus->Coccomyces->Rhytismataceae->Rhytismatales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162137"
+pgloadind     taxon mapping OTT ID 332572 taxonomy "Cudonia->Cudoniaceae->Rhytismatales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162139"
+pgloadind     taxon mapping OTT ID 332571 taxonomy "Spathularia flavida->Spathularia->Cudoniaceae->Rhytismatales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162140"
+pgloadind     taxon mapping OTT ID 866316 taxonomy "Lophodermium pinastri->Lophodermium->Rhytismataceae->Rhytismatales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162141"
+pgloadind     taxon mapping OTT ID 405333 taxonomy "Rhytisma->Rhytismataceae->Rhytismatales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162142"
+pgloadind     taxon mapping OTT ID 181906 taxonomy "Pilidium acerinum->Pilidium->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162144"
+pgloadind     taxon mapping OTT ID 181908 taxonomy "Pilidium concavum->Pilidium->Helotiales->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node162145"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "114"
+pgloadind   Adding tree to graph tree id "114"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Spirosphaera floriformis was remapped to 'Spirosphaera' (id=77678)
+	Blumeria graminis was remapped to 'Blumeria' (id=82583)
+	Scleromitrula shiraiana was remapped to 'Scleromitrula' (id=77150)
+	Pleochaeta shiraiana was remapped to 'Pleochaeta' (id=82804)
+	Lecanora concolor was remapped to 'Lecanoraceae' (id=183283)
+	Cyttaria darwinii was remapped to 'Cyttariales' (id=81271)
+	Phyllactinia moricola was remapped to 'Phyllactinia' (id=82647)
+	Lophodermium pinastri was remapped to 'Lophodermium' (id=62707)
+	Parauncinula septata was remapped to 'Parauncinula' (id=81464)
+	Candida albicans was remapped to 'Candida' (id=243386)
+	Holwaya mucida was remapped to 'Holwaya' (id=63915)
+	Discula pyri was remapped to 'Sordariomycetes' (id=836)
+	Clathrosporium intricatum was remapped to 'Clathrosporium' (id=81110)
+	Hymenoscyphus scutula was remapped to 'Hymenoscyphus' (id=67729)
+	Cladonia caroliniana was remapped to 'Cladoniaceae' (id=181212)
+	Phoma herbarum was remapped to 'Pleosporomycetidae' (id=110544)
+	Leveillula taurica was remapped to 'Leveillula' (id=82444)
+	Meria laricis was remapped to 'Meria' (id=71221)
+	Peltigera aphthosa was remapped to 'Peltigerales' (id=210767)
+	Aspergillus amstelodami was remapped to 'Aspergillus' (id=96534)
+	Neofusicoccum ribis was remapped to 'Botryosphaeriales' (id=168377)
+	Dermea acerina was remapped to 'Dermea' (id=64793)
+	Neoerysiphe galeopsidis was remapped to 'Neoerysiphe' (id=81418)
+	Trapelia placodioides was remapped to 'Agyriales' (id=228193)
+	Roccella tuberculata was remapped to 'Roccellaceae' (id=106269)
+	Neolecta irregularis was remapped to 'Taphrinomycotina' (id=234)
+	Arthonia was remapped to 'Arthoniaceae' (id=104529)
+	Sarcotrochila longispora was remapped to 'Sarcotrochila' (id=71195)
+	Trichoglossum hirsutum was remapped to 'Trichoglossum' (id=233185)
+	Arthrocladiella mougeotii was remapped to 'Arthrocladiella' (id=82575)
+	Bulgaria inquinans was remapped to 'Bulgaria' (id=63873)
+	Phialocephala fortinii was remapped to 'Phialocephala' (id=64483)
+	Heyderia abietis was remapped to 'Heyderia' (id=71162)
+	Lambertella tubulosa was remapped to 'Lambertella' (id=77167)
+	Ochrolechia parella was remapped to 'Pertusariales' (id=228761)
+	Dothidea sambuci was remapped to 'Dothideomycetidae' (id=139457)
+	Fabrella tsugae was remapped to 'Fabrella' (id=71154)
+	Coccomyces dentatus was remapped to 'Coccomyces' (id=62338)
+	Podosphaera tridactyla was remapped to 'Podosphaera' (id=82823)
+	Gremmeniella abietina was remapped to 'Gremmeniella' (id=78382)
+	Sclerotinia sclerotiorum was remapped to 'Sclerotinia' (id=76334)
+	Hyaloscypha daedaleae was remapped to 'Hyaloscypha' (id=72325)
+	Sawadaea polyfida was remapped to 'Sawadaea' (id=83084)
+	Hydrocina chaetocladia was remapped to 'Hydrocina' (id=64218)
+	Loramyces juncicola was remapped to 'Loramycetaceae' (id=75081)
+	Saccharomyces cerevisiae was remapped to 'Saccharomycetaceae' (id=247908)
+	Cudoniella clavus was remapped to 'Cudoniella' (id=69093)
+	Leotia lubrica was remapped to 'Leotia' (id=63989)
+	Mollisia cinerea was remapped to 'Mollisia' (id=65218)
+	Penicillium javanicum was remapped to 'Penicillium' (id=98535)
+	Spathularia flavida was remapped to 'Spathularia' (id=63697)
+	Bryoglossum gracile was remapped to 'Bryoglossum' (id=71638)
+	Brasiliomyces trina was remapped to 'Brasiliomyces' (id=82611)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Wang, Z., Johnston, P. R., Takamatsu, S., Spatafora, J. W., & Hibbett, D. S. (2006). Toward a phylogenetic classification of the leotiomycetes based on rDNA data. Mycologia, 98(6), 1065-75. Retrieved from http://www.ncbi.nlm.nih.gov/pubmed/17486981
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Leotiomycetes
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2006
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node161931
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:changesCount
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.3852/mycologia.98.6.1065
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 346134
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP, ITS
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 241
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1599
+Committing nodes: 189
+	adding Node[81303] Erysiphales 728374 as compatible with Node[81308]
+		adding Relationship[8416307]
+		adding to root Relationship[8416308]
+	adding Node[94450] Herpotrichiellaceae 1051950 as compatible with Node[94507]
+		adding Relationship[8416309]
+		adding to root Relationship[8416310]
+	adding Node[93976] Chaetothyriales 537959 as compatible with Node[94507]
+		adding Relationship[8416311]
+		adding to root Relationship[8416312]
+	adding Node[87159] Chaetothyriomycetidae 81982 as compatible with Node[94507]
+		adding Relationship[8416313]
+		adding to root Relationship[8416314]
+	adding Node[233229] Orbiliaceae 293786 as compatible with Node[233294]
+		adding Relationship[8416315]
+		adding to root Relationship[8416316]
+	adding Node[233228] Orbiliales 972723 as compatible with Node[233294]
+		adding Relationship[8416317]
+		adding to root Relationship[8416318]
+	adding Node[233227] Orbiliomycetidae 5291462 as compatible with Node[233294]
+		adding Relationship[8416319]
+		adding to root Relationship[8416320]
+	adding Node[233226] Orbiliomycetes 972724 as compatible with Node[233294]
+		adding Relationship[8416321]
+		adding to root Relationship[8416322]
+	adding Node[237234] Pyronemataceae 620530 as compatible with Node[237387]
+		adding Relationship[8416323]
+		adding to root Relationship[8416324]
+	adding Node[234209] Pezizales 880969 as compatible with Node[237387]
+		adding Relationship[8416325]
+		adding to root Relationship[8416326]
+	adding Node[234208] Pezizomycetidae 5291463 as compatible with Node[237387]
+		adding Relationship[8416327]
+		adding to root Relationship[8416328]
+	adding Node[234207] Pezizomycetes 346133 as compatible with Node[237387]
+		adding Relationship[8416329]
+		adding to root Relationship[8416330]
+	adding Node[95613] Eurotiales 800595 as compatible with Node[95880]
+		adding Relationship[8416331]
+		adding to root Relationship[8416332]
+	adding Node[95612] Eurotiomycetidae 81981 as compatible with Node[95880]
+		adding Relationship[8416333]
+		adding to root Relationship[8416334]
+	adding Node[104319] Arthoniomycetidae 5296852 as compatible with Node[104512]
+		adding Relationship[8416335]
+		adding to root Relationship[8416336]
+	adding Node[104314] Arthoniomycetes 971711 as compatible with Node[104512]
+		adding Relationship[8416337]
+		adding to root Relationship[8416338]
+	adding Node[243212] Saccharomycetidae 5292177 as compatible with Node[243213]
+		adding Relationship[8416339]
+		adding to root Relationship[8416340]
+	adding Node[243210] Saccharomycetes 989999 as compatible with Node[243213]
+		adding Relationship[8416341]
+		adding to root Relationship[8416342]
+	adding Node[243209] Saccharomycotina 971714 as compatible with Node[243213]
+		adding Relationship[8416343]
+		adding to root Relationship[8416344]
+		adding Relationship[8416345] from Node[93976] to Node[87159]
+		adding Relationship[8416346] from Node[94450] to Node[93976]
+		adding Relationship[8416347] from Node[87159] to Node[87158]
+		adding Relationship[8416348] from Node[234209] to Node[234208]
+		adding Relationship[8416349] from Node[234208] to Node[234207]
+		adding Relationship[8416350] from Node[3566194] to Node[3566195]
+		adding Relationship[8416351] from Node[95613] to Node[95612]
+		adding Relationship[8416352] from Node[3566193] to Node[3566194]
+		adding Relationship[8416353] from Node[95612] to Node[87158]
+		adding Relationship[8416354] from Node[243212] to Node[243210]
+		adding Relationship[8416355] from Node[233229] to Node[233228]
+		adding Relationship[8416356] from Node[233228] to Node[233227]
+		adding Relationship[8416357] from Node[243210] to Node[243209]
+		adding Relationship[8416358] from Node[104319] to Node[104314]
+		adding Relationship[8416359] from Node[237234] to Node[234209]
+		adding Relationship[8416360] from Node[233227] to Node[233226]

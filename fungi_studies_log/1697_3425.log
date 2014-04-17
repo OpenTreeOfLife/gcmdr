@@ -1,0 +1,155 @@
+pgloadind OTUs number 50
+pgloadind Processing tree @id "3425"
+pgloadind   tree info number nodes 96
+pgloadind   tree info number edges 95
+pgloadind   tree info ingroup "node672227"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 45
+pgloadind   property added ot:studyPublicationReference "Kohlmeyer J., Spatafora J., & Volkmann-kohlmeyer B. 2000. Lulworthiales, a new order of marine Ascomycota. Mycologia, 92(3): 453-458."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/3761504"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S593"
+pgloadind   property added ot:studyId "1697"
+pgloadind   property added ot:studyYear "2000"
+pgloadind   property added ot:focalClade "90655"
+pgloadind   property added ot:focalCladeOTTTaxonName "Lulworthiales"
+pgloadind   property added ot:inGroupClade "node672227"
+pgloadind   property added ot:curatedType "MP, LSU + SSU (strict)"
+loading a specific tree: 3425
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "3425"
+pgloadind     OTT ID missing name "Halosphaeriopsis mediosetigera" nexsonid "node672253"
+pgloadind     OTT ID missing name "Diaporthe phaseolarum" nexsonid "node672292"
+pgloadind   TNRS unmatched total number 0
+pgloadind     TNRS resolved ottId OTT ID 809125 name "Halosphaeriopsis mediosetigera" searched on "Halosphaeriopsis mediosetigera" nexsonid "node672253"
+pgloadind     pruning unmapped name "Diaporthe phaseolarum" nexsonid "node672292"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Lindra thalassiae" nexsonid "node672307"
+pgloadind       duplicate OTT ID 172400
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Lindra thalassiae" nexsonid "node672308"
+pgloadind       duplicate OTT ID 172400
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Lulworthia" nexsonid "node672311"
+pgloadind       duplicate OTT ID 172399
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Lulworthia grandispora" nexsonid "node672312"
+pgloadind       overlapping pruned name "Lulworthia" nexsonid "node672310"
+pgloadind     pruning dups and overlapping name "Lulworthia" nexsonid "node672310"
+pgloadind     pruning dups and overlapping name "Lindra thalassiae" nexsonid "node672308"
+pgloadind     pruning dups and overlapping name "Lindra thalassiae" nexsonid "node672307"
+pgloadind     pruning dups and overlapping name "Lulworthia" nexsonid "node672311"
+pgloadind   postpruning newick tree "(((((((((((Aniptodera_chesapeakensis,Aniptodera_juncicola),(Nimbospora_effusa,Nohea_umiumi)),Halosphaeria_appendiculata),Lignincola_laevis),(((Ceriosporopsis_halima,Halosarpheia_fibrosa),(Corollospora_maritima,Varicosporina_ramulosa),Halosphaeriopsis_mediosetigera),Ophiodeira_monosemeia)),(Microascus_trigonosporus,Petriella_setifera)),(Ceratocystis_fimbriata,Ceratocystis_virescens)),(Colletotrichum_gloeosporioides,Glomerella_rufomaculans-vaccinii)),((((Aphysiostroma_stercorarium,Hypocrea_schweinitzii),Hypomyces_polyporinus,Sphaerostilbella_aureonitens),((Nigrocornus_scleroticus,Claviceps_paspali),(Paecilomyces_tenuipes,Elaphocordyceps_ophioglossoides))),(Nectria_cinnabarina,(Haematonectria_haematococca,Fusarium_neocosmosporiellum)))),((((Cercophora_septentrionalis,Chaetomium_globosum),Neurospora_crassa),Ceratocystis_pilifera),(Daldinia_concentrica,(Diatrype_disciformis,(Xylaria_curta,Xylaria_hypoxylon))))),((Lulworthia_grandispora,Lindra_thalassiae),Lulworthia_medusa))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 695332 taxonomy "Aniptodera chesapeakensis->Aniptodera->Halosphaeriaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672238"
+pgloadind     taxon mapping OTT ID 483869 taxonomy "Aniptodera juncicola->Aniptodera->Halosphaeriaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672239"
+pgloadind     taxon mapping OTT ID 642750 taxonomy "Nimbospora effusa->Nimbospora->Halosphaeriaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672241"
+pgloadind     taxon mapping OTT ID 642752 taxonomy "Nohea umiumi->Nohea->Halosphaeriaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672242"
+pgloadind     taxon mapping OTT ID 172404 taxonomy "Halosphaeria appendiculata->Halosphaeria->Halosphaeriaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672243"
+pgloadind     taxon mapping OTT ID 150299 taxonomy "Lignincola laevis->Lignincola->Halosphaeriaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672244"
+pgloadind     taxon mapping OTT ID 201847 taxonomy "Ceriosporopsis halima->Ceriosporopsis->Halosphaeriaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672248"
+pgloadind     taxon mapping OTT ID 642754 taxonomy "Halosarpheia fibrosa->Halosarpheia->Halosphaeriaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672249"
+pgloadind     taxon mapping OTT ID 172402 taxonomy "Corollospora maritima->Corollospora->Halosphaeriaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672251"
+pgloadind     taxon mapping OTT ID 483881 taxonomy "Varicosporina ramulosa->Varicosporina->Halosphaeriaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672252"
+pgloadind     taxon mapping OTT ID 809125 taxonomy "Halosphaeriopsis mediosetigera->Halosphaeriopsis->Halosphaeriaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672253"
+pgloadind     taxon mapping OTT ID 642747 taxonomy "Ophiodeira monosemeia->Ophiodeira->Halosphaeriaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672254"
+pgloadind     taxon mapping OTT ID 737682 taxonomy "Microascus trigonosporus->Microascus->Microascaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672256"
+pgloadind     taxon mapping OTT ID 809132 taxonomy "Petriella setifera->Petriella->Microascaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672257"
+pgloadind     taxon mapping OTT ID 1097914 taxonomy "Ceratocystis fimbriata->Ceratocystis->Ceratocystidaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672259"
+pgloadind     taxon mapping OTT ID 148772 taxonomy "Ceratocystis virescens->Ceratocystis->Ceratocystidaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672260"
+pgloadind     taxon mapping OTT ID 570883 taxonomy "Colletotrichum gloeosporioides->Colletotrichum->mitosporic Glomerellaceae->Glomerellaceae->Sordariomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672262"
+pgloadind     taxon mapping OTT ID 1085557 taxonomy "Glomerella rufomaculans-vaccinii->Glomerella->Glomerellaceae->Sordariomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672263"
+pgloadind     taxon mapping OTT ID 759025 taxonomy "Aphysiostroma stercorarium->Aphysiostroma->Hypocreaceae->Hypocreales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672268"
+pgloadind     taxon mapping OTT ID 5317031 taxonomy "Hypocrea schweinitzii->Hypocrea->Hypocreaceae->Hypocreales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672269"
+pgloadind     taxon mapping OTT ID 234765 taxonomy "Hypomyces polyporinus->Hypomyces->Hypocreaceae->Hypocreales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672270"
+pgloadind     taxon mapping OTT ID 409107 taxonomy "Sphaerostilbella aureonitens->Sphaerostilbella->Hypocreaceae->Hypocreales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672271"
+pgloadind     taxon mapping OTT ID 301031 taxonomy "Nigrocornus scleroticus->Nigrocornus->Clavicipitaceae->Hypocreales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672274"
+pgloadind     taxon mapping OTT ID 664936 taxonomy "Claviceps paspali->Claviceps->Clavicipitaceae->Hypocreales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672275"
+pgloadind     taxon mapping OTT ID 590328 taxonomy "Paecilomyces tenuipes->Paecilomyces->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672277"
+pgloadind     taxon mapping OTT ID 161178 taxonomy "Elaphocordyceps ophioglossoides->Elaphocordyceps->Ophiocordycipitaceae->Hypocreales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672278"
+pgloadind     taxon mapping OTT ID 359518 taxonomy "Nectria cinnabarina->Nectria->Nectriaceae->Hypocreales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672280"
+pgloadind     taxon mapping OTT ID 743045 taxonomy "Haematonectria haematococca->Haematonectria->Nectriaceae->Hypocreales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672282"
+pgloadind     taxon mapping OTT ID 716780 taxonomy "Fusarium neocosmosporiellum->Fusarium->Nectriaceae->Hypocreales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672283"
+pgloadind     taxon mapping OTT ID 234763 taxonomy "Cercophora septentrionalis->Cercophora->Lasiosphaeriaceae->Sordariales->Sordariomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672288"
+pgloadind     taxon mapping OTT ID 758745 taxonomy "Chaetomium globosum->Chaetomium->Chaetomiaceae->Sordariales->Sordariomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672289"
+pgloadind     taxon mapping OTT ID 572462 taxonomy "Neurospora crassa->Neurospora->Sordariaceae->Sordariales->Sordariomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672290"
+pgloadind     taxon mapping OTT ID 5316941 taxonomy "Ceratocystis pilifera->Ceratocystis->Ceratocystidaceae->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672293"
+pgloadind     taxon mapping OTT ID 183726 taxonomy "Daldinia concentrica->Daldinia->Xylariaceae->Xylariales->Xylariomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672295"
+pgloadind     taxon mapping OTT ID 183727 taxonomy "Diatrype disciformis->Diatrype->Diatrypaceae->Xylariales->Xylariomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672297"
+pgloadind     taxon mapping OTT ID 620715 taxonomy "Xylaria curta->Xylaria->Xylariaceae->Xylariales->Xylariomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672299"
+pgloadind     taxon mapping OTT ID 44255 taxonomy "Xylaria hypoxylon->Xylaria->Xylariaceae->Xylariales->Xylariomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672300"
+pgloadind     taxon mapping OTT ID 618474 taxonomy "Lulworthia grandispora->Lulworthia->Lulworthiaceae->Lulworthiales->Spathulosporomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672312"
+pgloadind     taxon mapping OTT ID 172400 taxonomy "Lindra thalassiae->Lindra->Lulworthiaceae->Lulworthiales->Spathulosporomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672306"
+pgloadind     taxon mapping OTT ID 566309 taxonomy "Lulworthia medusa->Lulworthia->Lulworthiaceae->Lulworthiales->Spathulosporomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node672313"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "3425"
+pgloadind   Adding tree to graph tree id "3425"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Diatrype disciformis was remapped to 'Diatrypaceae' (id=44577)
+	Nimbospora effusa was remapped to 'Nimbospora' (id=21301)
+	Varicosporina ramulosa was remapped to 'Varicosporina' (id=21370)
+	Daldinia concentrica was remapped to 'Daldinia' (id=49685)
+	Lindra thalassiae was remapped to 'Lindra' (id=61085)
+	Hypocrea schweinitzii was remapped to 'Hypocrea' (id=24816)
+	Ophiodeira monosemeia was remapped to 'Ophiodeira' (id=21000)
+	Glomerella rufomaculans-vaccinii was remapped to 'Glomerella' (id=17183)
+	Sphaerostilbella aureonitens was remapped to 'Sphaerostilbella' (id=25783)
+	Halosarpheia fibrosa was remapped to 'Halosarpheia' (id=21231)
+	Nohea umiumi was remapped to 'Nohea' (id=21023)
+	Claviceps paspali was remapped to 'Claviceps' (id=23976)
+	Elaphocordyceps ophioglossoides was remapped to 'Ophiocordycipitaceae' (id=40182)
+	Cercophora septentrionalis was remapped to 'Lasiosphaeriaceae' (id=3294)
+	Chaetomium globosum was remapped to 'Chaetomiaceae' (id=2226)
+	Neurospora crassa was remapped to 'Sordariaceae' (id=4491)
+	Microascus trigonosporus was remapped to 'Microascus' (id=21635)
+	Halosphaeria appendiculata was remapped to 'Halosphaeria' (id=21252)
+	Paecilomyces tenuipes was remapped to 'Eurotiomycetes' (id=87158)
+	Nigrocornus scleroticus was remapped to 'Nigrocornus' (id=23431)
+	Colletotrichum gloeosporioides was remapped to 'mitosporic Glomerellaceae' (id=17387)
+	Nectria cinnabarina was remapped to 'Nectria' (id=33482)
+	Petriella setifera was remapped to 'Petriella' (id=21697)
+	Lignincola laevis was remapped to 'Lignincola' (id=21272)
+	Hypomyces polyporinus was remapped to 'Hypomyces' (id=25448)
+	Fusarium neocosmosporiellum was remapped to 'Fusarium' (id=28086)
+	Halosphaeriopsis mediosetigera was remapped to 'Halosphaeriopsis' (id=21270)
+	Ceriosporopsis halima was remapped to 'Ceriosporopsis' (id=21159)
+	Corollospora maritima was remapped to 'Corollospora' (id=21190)
+	Haematonectria haematococca was remapped to 'Haematonectria' (id=27565)
+	Aphysiostroma stercorarium was remapped to 'Aphysiostroma' (id=24799)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Kohlmeyer J., Spatafora J., & Volkmann-kohlmeyer B. 2000. Lulworthiales, a new order of marine Ascomycota. Mycologia, 92(3): 453-458.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Lulworthiales
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2000
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node672227
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.2307/3761504
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 90655
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP, LSU + SSU (strict)
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 1697
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S593
+Committing nodes: 77
+	adding Node[41664] Xylariomycetidae 936975 as compatible with Node[41665]
+		adding Relationship[8416035]
+		adding to root Relationship[8416036]
+	adding Node[61046] Lulworthiales 90655 as compatible with Node[61061]
+		adding Relationship[8416037]
+		adding to root Relationship[8416038]
+	adding Node[61045] Spathulosporomycetidae 5296848 as compatible with Node[61061]
+		adding Relationship[8416039]
+		adding to root Relationship[8416040]
+		adding Relationship[8416041] from Node[61046] to Node[61045]
