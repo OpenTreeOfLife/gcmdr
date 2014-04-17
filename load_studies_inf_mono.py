@@ -1,6 +1,6 @@
 import load_synth_extract
 
-from plants_all import studytreelist
+from microbes import studytreelist
 
 if __name__ == "__main__":
     from stephen_desktop_conf_TEMP import *
@@ -12,9 +12,9 @@ if __name__ == "__main__":
     
     for i in studytreelist:
         tstudy_list = [i]
-        generallogfileloc = "plantslog_inf_mono/"+i+".log"
-        ttfntreefn = "plantslog_inf_mono/"+i+".tre"
-        infmonofn = "plantslog_inf_mono/"+i+".inf_mono"
+        generallogfileloc = "microbeslog_inf_mono/"+i+".log"
+        ttfntreefn = "microbeslog_inf_mono/"+i+".tre"
+        infmonofn = "microbeslog_inf_mono/"+i+".inf_mono"
         load_synth_extract.run_load_single_ttfn_inf_mono(dott,dload,studyloc,tstudy_list,javapre,
                                                 treemloc,generallogfileloc,dsynth,synthottolid,treefn,ttfntreefn,infmonofn)
 

@@ -1,0 +1,87 @@
+pgloadind OTUs number 25
+pgloadind Processing tree @id "4408"
+pgloadind   tree info number nodes 42
+pgloadind   tree info number edges 41
+pgloadind   tree info ingroup "node801536"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 12
+pgloadind   property added ot:studyPublicationReference "Cano, M. J., Jiménez, J. A., & Jiménez, J. F. (2010). A systematic revision of the genus Erythrophyllopsis (Pottiaceae, Bryophyta). Systematic Botany, 35(4), 683-694."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1600/036364410X539772"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S10308"
+pgloadind   property added ot:studyId "2123"
+pgloadind   property added ot:studyYear "2010"
+pgloadind   property added ot:focalClade "947452"
+pgloadind   property added ot:focalCladeOTTTaxonName "Pottiaceae"
+pgloadind   property added ot:inGroupClade "node801536"
+pgloadind   property added ot:curatedType "Fig. 1"
+loading a specific tree: 4408
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "4408"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Erythrophyllopsis andina" nexsonid "node801542"
+pgloadind       duplicate OTT ID 459302
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Erythrophyllopsis andina" nexsonid "node801543"
+pgloadind       duplicate OTT ID 459302
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Erythrophyllopsis andina" nexsonid "node801544"
+pgloadind       duplicate OTT ID 459302
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Erythrophyllopsis andina" nexsonid "node801546"
+pgloadind       duplicate OTT ID 459302
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Erythrophyllopsis andina" nexsonid "node801547"
+pgloadind       duplicate OTT ID 459302
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Erythrophyllopsis zanderi" nexsonid "node801550"
+pgloadind       duplicate OTT ID 459301
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Bryoerythrophyllum campylocarpum" nexsonid "node801554"
+pgloadind       duplicate OTT ID 818206
+pgloadind     pruning dups and overlapping name "Bryoerythrophyllum campylocarpum" nexsonid "node801554"
+pgloadind     pruning dups and overlapping name "Erythrophyllopsis andina" nexsonid "node801544"
+pgloadind     pruning dups and overlapping name "Erythrophyllopsis zanderi" nexsonid "node801550"
+pgloadind     pruning dups and overlapping name "Erythrophyllopsis andina" nexsonid "node801547"
+pgloadind     pruning dups and overlapping name "Erythrophyllopsis andina" nexsonid "node801543"
+pgloadind     pruning dups and overlapping name "Erythrophyllopsis andina" nexsonid "node801542"
+pgloadind     pruning dups and overlapping name "Erythrophyllopsis andina" nexsonid "node801546"
+pgloadind   postpruning newick tree "(Bryoerythrophyllum_inaequalifolium,((Erythrophyllopsis_zanderi,Erythrophyllopsis_andina),(Bryoerythrophyllum_recurvirostrum,Bryoerythrophyllum_campylocarpum)))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 1072376 taxonomy "Bryoerythrophyllum inaequalifolium->Bryoerythrophyllum->Pottiaceae->Pottiales->Dicranidae->Bryopsida->Bryophytina->Bryophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node801537"
+pgloadind     taxon mapping OTT ID 459301 taxonomy "Erythrophyllopsis zanderi->Erythrophyllopsis->Pottiaceae->Pottiales->Dicranidae->Bryopsida->Bryophytina->Bryophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node801549"
+pgloadind     taxon mapping OTT ID 459302 taxonomy "Erythrophyllopsis andina->Erythrophyllopsis->Pottiaceae->Pottiales->Dicranidae->Bryopsida->Bryophytina->Bryophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node801541"
+pgloadind     taxon mapping OTT ID 969546 taxonomy "Bryoerythrophyllum recurvirostrum->Bryoerythrophyllum->Pottiaceae->Pottiales->Dicranidae->Bryopsida->Bryophytina->Bryophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node801555"
+pgloadind     taxon mapping OTT ID 818206 taxonomy "Bryoerythrophyllum campylocarpum->Bryoerythrophyllum->Pottiaceae->Pottiales->Dicranidae->Bryopsida->Bryophytina->Bryophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node801553"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "4408"
+pgloadind   Adding tree to graph tree id "4408"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Cano, M. J., Jiménez, J. A., & Jiménez, J. F. (2010). A systematic revision of the genus Erythrophyllopsis (Pottiaceae, Bryophyta). Systematic Botany, 35(4), 683-694.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Pottiaceae
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2010
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node801536
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1600/036364410X539772
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 947452
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig. 1
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 2123
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S10308
+Committing nodes: 9

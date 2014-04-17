@@ -1,0 +1,84 @@
+pgloadind OTUs number 46
+pgloadind Processing tree @id "2512"
+pgloadind   tree info number nodes 58
+pgloadind   tree info number edges 57
+pgloadind   tree info ingroup "node574231"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 16
+pgloadind   property added ot:studyPublicationReference "O'kelly C., Bellows W., & Wysor B. 2004. Phylogenetic position of Bolbocoleon piliferum (Ulvophyceae, Chlorophyta): evidence from reproduction, zoospore and gamete ultrastructure, and SSU ribosomal RNA gene sequences. Journal of Phycology, 40(1), 209-222."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1046/j.1529-8817.2004.03104.x"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1101"
+pgloadind   property added ot:studyId "1247"
+pgloadind   property added ot:studyYear "2004"
+pgloadind   property added ot:inGroupClade "node574231"
+pgloadind   property added ot:curatedType "Figure"
+loading a specific tree: 2512
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "2512"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Ulva intestinalis" nexsonid "node574242"
+pgloadind       duplicate OTT ID 951298
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Ulvella leptochaete" nexsonid "node574251"
+pgloadind       duplicate OTT ID 862059
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Bolbocoleon piliferum" nexsonid "node574255"
+pgloadind       dubious OTT ID 862055
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Pseudoneochloris marina" nexsonid "node574259"
+pgloadind       dubious OTT ID 662640
+pgloadind     pruning dups and overlapping name "Bolbocoleon piliferum" nexsonid "node574255"
+pgloadind     pruning dups and overlapping name "Ulvella leptochaete" nexsonid "node574251"
+pgloadind     pruning dups and overlapping name "Pseudoneochloris marina" nexsonid "node574259"
+pgloadind     pruning dups and overlapping name "Ulva intestinalis" nexsonid "node574242"
+pgloadind   postpruning newick tree "((Desmochloris_halophila,Halochlorococcum_moorei),((Percursaria,Ulvaria,((Ulva_intestinalis,Enteromorpha),Ulva_rigida)),(((Ulvella_viridis,Ulvella_repens,Ulvella_leptochaete),Ulvella_ramosa),Ulvella_endozoica)))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 133650 taxonomy "Desmochloris halophila->Desmochloris->Chlorocystidales->Ulvophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574257"
+pgloadind     taxon mapping OTT ID 239817 taxonomy "Halochlorococcum moorei->Halochlorococcum->Chlorocystidaceae->Ulotrichales->Ulvophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574258"
+pgloadind     taxon mapping OTT ID 711022 taxonomy "Percursaria->Kornmanniaceae->Ulvales->Ulvophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574243"
+pgloadind     taxon mapping OTT ID 958087 taxonomy "Ulvaria->Monostromataceae->Ulvales->Ulvophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574244"
+pgloadind     taxon mapping OTT ID 951298 taxonomy "Ulva intestinalis->Ulva->Ulvaceae->Ulvales->Ulvophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574239"
+pgloadind     taxon mapping OTT ID 4003163 taxonomy "Enteromorpha->Ulvaceae->Ulvales->Ulvophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574240"
+pgloadind     taxon mapping OTT ID 1036621 taxonomy "Ulva rigida->Ulva->Ulvaceae->Ulvales->Ulvophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574241"
+pgloadind     taxon mapping OTT ID 166702 taxonomy "Ulvella viridis->Ulvella->Ulvellaceae->Ulvales->Ulvophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574248"
+pgloadind     taxon mapping OTT ID 962674 taxonomy "Ulvella repens->Ulvella->Ulvellaceae->Ulvales->Ulvophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574252"
+pgloadind     taxon mapping OTT ID 862059 taxonomy "Ulvella leptochaete->Ulvella->Ulvellaceae->Ulvales->Ulvophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574250"
+pgloadind     taxon mapping OTT ID 862061 taxonomy "Ulvella ramosa->Ulvella->Ulvellaceae->Ulvales->Ulvophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574253"
+pgloadind     taxon mapping OTT ID 862057 taxonomy "Ulvella endozoica->Ulvella->Ulvellaceae->Ulvales->Ulvophyceae->Chlorophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node574254"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "2512"
+pgloadind   Adding tree to graph tree id "2512"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Halochlorococcum moorei was remapped to 'Ulotrichales' (id=3167512)
+	Ulvaria was remapped to 'Monostromataceae' (id=3166541)
+	Percursaria was remapped to 'Kornmanniaceae' (id=3166411)
+	Desmochloris halophila was remapped to 'Chlorocystidales' (id=3166136)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': O'kelly C., Bellows W., & Wysor B. 2004. Phylogenetic position of Bolbocoleon piliferum (Ulvophyceae, Chlorophyta): evidence from reproduction, zoospore and gamete ultrastructure, and SSU ribosomal RNA gene sequences. Journal of Phycology, 40(1), 209-222.
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2004
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node574231
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1046/j.1529-8817.2004.03104.x
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Figure
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 1247
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1101
+Committing nodes: 21
+	adding Node[3166432] Ulvellaceae 1018102 as compatible with Node[3166433]
+		adding Relationship[8415892]
+		adding to root Relationship[8415893]
+		adding Relationship[8415894] from Node[3166432] to Node[3166396]
