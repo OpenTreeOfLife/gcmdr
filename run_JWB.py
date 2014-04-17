@@ -12,10 +12,10 @@ from wopr_conf import *
 #from decapods import studytreelist as decapodlist
 
 ## for serious synthesis:
-#from plants import studytreelist as plantslist
+from plants import studytreelist as plantslist
 from metazoa import studytreelist as metalist
-#from fungi import studytreelist as fungilist
-#from microbes import studytreelist as microbelist
+from fungi import studytreelist as fungilist
+from microbes import studytreelist as microbelist
 
 studytreelist = []
 #studytreelist.extend(goolist)
@@ -24,10 +24,10 @@ studytreelist = []
 #studytreelist.extend(tetrapodalist)
 #studytreelist.extend(decapodlist)
 
-#studytreelist.extend(plantslist)
+studytreelist.extend(plantslist)
 studytreelist.extend(metalist)
-#studytreelist.extend(fungilist)
-#studytreelist.extend(microbelist)
+studytreelist.extend(fungilist)
+studytreelist.extend(microbelist)
 
 import load_synth_extract
 
@@ -53,7 +53,7 @@ print "loading studytreelist:",studytreelist
 #aname="Metazoa_test_2.5draft1_mapcompat"
 #aname="Life_taxonomy-only_2.5draft1"
 #aname="Decapoda_OTT2.5draft1_taxonomy-only"
-aname="Metazoa_v2.6_mapcompat"
+aname="Life_v2.6_mapcompat_14April"
 # location of synth database
 dsynth=bdir+aname+".db"
 # location of synth treefile
