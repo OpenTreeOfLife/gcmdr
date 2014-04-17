@@ -1,25 +1,11 @@
 pgloadind OTUs number 161
-pgloadind Processing tree @id "135"
-pgloadind   tree info number nodes 317
-pgloadind   tree info number edges 316
-pgloadind   tree info ingroup "node165887"
-pgloadind   Setting ingroup root node.
-pgloadind   Ingested tree number of external nodes 155
-pgloadind   property added ot:studyPublicationReference "Schoch C.L., Wang Z., Townsend J., & Spatafora J. 2010. Geoglossomycetes cl. nov., Geoglossales ord. nov. and taxa above class rank in the Ascomycota Tree of Life. Persoonia, 22: 129-138."
-pgloadind   property added ot:studyPublication "http://dx.doi.org/10.3767/003158509X461486"
-pgloadind   property added ot:curatorName "Romina Gazis"
-pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S10279"
-pgloadind   property added ot:studyId "253"
-pgloadind   property added ot:studyYear "2010"
-pgloadind   property added ot:focalClade "79135"
-pgloadind   property added ot:focalCladeOTTTaxonName "Geoglossomycetes"
-pgloadind   property added ot:inGroupClade "node165887"
-pgloadind   property added ot:curatedType "ML, mtSSU + EF-1 + RPB1 + RPB2 + SSU + LSU"
 pgloadind Processing tree @id "136"
 pgloadind   tree info number nodes 321
 pgloadind   tree info number edges 320
-pgloadind   Ingested tree number of external nodes 161
-pgloadind   property added ot:studyPublicationReference "Schoch C.L., Wang Z., Townsend J., & Spatafora J. 2010. Geoglossomycetes cl. nov., Geoglossales ord. nov. and taxa above class rank in the Ascomycota Tree of Life. Persoonia, 22: 129-138."
+pgloadind   tree info ingroup "node166205"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 155
+pgloadind   property added ot:studyPublicationReference "Schoch, C.L., Wang Z., Townsend J., & Spatafora J. 2010. Geoglossomycetes cl. nov., Geoglossales ord. nov. and taxa above class rank in the Ascomycota Tree of Life. Persoonia 22: 129-138."
 pgloadind   property added ot:studyPublication "http://dx.doi.org/10.3767/003158509X461486"
 pgloadind   property added ot:curatorName "Romina Gazis"
 pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S10279"
@@ -27,9 +13,26 @@ pgloadind   property added ot:studyId "253"
 pgloadind   property added ot:studyYear "2010"
 pgloadind   property added ot:focalClade "79135"
 pgloadind   property added ot:focalCladeOTTTaxonName "Geoglossomycetes"
-pgloadind   property added ot:curatedType "ML, mtSSU + EF-1 + RPB1 + RPB2 + SSU + LSU"
+pgloadind   property added ot:inGroupClade "node166205"
+pgloadind   property added ot:curatedType "Fig.2 ML mtSSU + EF-1 + RPB1 + RPB2 + SSU + LSU"
+pgloadind Processing tree @id "6677"
+pgloadind   tree info number nodes 318
+pgloadind   tree info number edges 317
+pgloadind   tree info ingroup "node1164349"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 155
+pgloadind   property added ot:studyPublicationReference "Schoch, C.L., Wang Z., Townsend J., & Spatafora J. 2010. Geoglossomycetes cl. nov., Geoglossales ord. nov. and taxa above class rank in the Ascomycota Tree of Life. Persoonia 22: 129-138."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.3767/003158509X461486"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S10279"
+pgloadind   property added ot:studyId "253"
+pgloadind   property added ot:studyYear "2010"
+pgloadind   property added ot:focalClade "79135"
+pgloadind   property added ot:focalCladeOTTTaxonName "Geoglossomycetes"
+pgloadind   property added ot:inGroupClade "node1164349"
+pgloadind   property added ot:curatedType "Bayesian consensus mtSSU + EF-1 + RPB1 + RPB2 + SSU + LSU"
 loading a specific tree: 136
-skipping tree: 135
+skipping tree: 6677
 pgloadind conducting TNRS on trees
 pgloadind   name fixing on tree tree id "136"
 pgloadind     OTT ID missing name "Diaporthe eres" nexsonid "node166288"
@@ -37,9 +40,9 @@ pgloadind     OTT ID missing name "Hypocrea lutea" nexsonid "node166322"
 pgloadind     OTT ID missing name "Botryosphaeria tsugae" nexsonid "node166434"
 pgloadind     OTT ID missing name "Trapelia glebosa" nexsonid "node166486"
 pgloadind   TNRS unmatched total number 0
+pgloadind     TNRS resolved ottId OTT ID 935193 name "Hypocrea lutea" searched on "Hypocrea lutea" nexsonid "node166322"
 pgloadind     TNRS resolved ottId OTT ID 855272 name "Diaporthe eres" searched on "Diaporthe eres" nexsonid "node166288"
 pgloadind     TNRS resolved ottId OTT ID 958336 name "Botryosphaeria tsugae" searched on "Botryosphaeria tsugae" nexsonid "node166434"
-pgloadind     Name previously ingested into graphNamedNodes Hypocrea lutea 935193
 pgloadind     pruning unmapped name "Trapelia glebosa" nexsonid "node166486"
 pgloadind     OTT ID reused in tree
 pgloadind       duplicate name "Sarcoleotia globosa" nexsonid "node166260"
@@ -59,20 +62,14 @@ pgloadind       duplicate OTT ID 554275
 pgloadind     OTT ID reused in tree
 pgloadind       duplicate name "Spathulariopsis velutipes" nexsonid "node166374"
 pgloadind       duplicate OTT ID 5309175
+pgloadind     pruning dups and overlapping name "Microglossum rufum" nexsonid "node166350"
 pgloadind     pruning dups and overlapping name "Trichoglossum hirsutum" nexsonid "node166265"
-pgloadind     pruning dups and overlapping name "Spathulariopsis velutipes" nexsonid "node166374"
 pgloadind     pruning dups and overlapping name "Sarcoleotia globosa" nexsonid "node166260"
 pgloadind     pruning dups and overlapping name "Sarcoleotia globosa" nexsonid "node166261"
-pgloadind     pruning dups and overlapping name "Microglossum rufum" nexsonid "node166350"
+pgloadind     pruning dups and overlapping name "Spathulariopsis velutipes" nexsonid "node166374"
 pgloadind     pruning dups and overlapping name "Geoglossum atropurpureum" nexsonid "node166347"
-pgloadind   postpruning newick tree "(Rhizopus_liquefaciens,((Cryptococcus_neoformans,(Calocera_cornea,(Calostoma_cinnabarinum,(Grifola_frondosa,Fomitopsis_pinicola)))),(((Schizosaccharomyces_pombe,(Saitoella_complicata,(Taphrina_deformans,Taphrina_wiesneri))),(Neolecta_irregularis,Neolecta_vitellina)),(((Debaryomyces_hansenii,Candida_tropicalis),(Eremothecium_gossypii,(Candida_glabrata,Saccharomyces_cerevisiae))),((((Pseudosarcosoma_latahense,(Eleutherascus_lectardii,(Pyronema_domesticum,(Scutellinia_scutellata,Aleuria_aurantia)))),(Caloscypha_fulgens,(Verpa_conica,Pseudorhizina_californica))),((Sarcosphaera_coronaria,Peziza_vesiculosa),(Saccobolus_dilutellus,Ascobolus_carbonarius))),((Orbilia_vinosa,Arthrobotrys_elegans),((((Geoglossum_umbratile,(Geoglossum_nigritum,Geoglossum_glabrum)),Trichoglossum_hirsutum),Sarcoleotia_globosa),((((Pyxidiophora_arvernensis,(Hesperomyces_virescens,Stigmatomyces_protrudens)),(((Xylaria_hypoxylon,(((Calosphaeria_pulchella,(Diaporthe_eres,(Endothia_radicalis,(Gnomonia_gnomon,Winterella_hypodermia)))),(Ceratocystis_stenoceras,(Gaeumannomyces_medullaris,Magnaporthe_grisea))),(Neurospora_crassa,Sordaria_fimicola))),((((Corollospora_maritima,Halosphaeria_appendiculata),(Ceratocystis_fimbriata,Gondwanamyces_capensis)),(Verticillium_dahliae,Glomerella_rufomaculans-vaccinii)),((Bertia_moriformis,Melanospora_tiffanyae),(Clonostachys_rosea,((Hypocrea_lutea,(Nectria_cinnabarina,Cordyceps_cardinalis)),((Elaphocordyceps_ophioglossoides,Elaphocordyceps_capitata),(Claviceps_purpurea,Epichloe_typhina))))))),(Lulworthia_grandispora,Lindra_thalassiae))),(Neobulgaria_pura,(((Microglossum_olivaceum,(Leotia_lubrica,(Geoglossum_atropurpureum,Microglossum_rufum))),((((Mitrula_elegans,Mitrula_brevispora),(Lambertella_subrenispora,(Monilinia_laxa,Botryotinia_fuckeliana))),(Cudoniella_clavus,(Lachnum_virgineum,Bryoglossum_gracile))),(Neofabraea_malicorticis,Dermea_acerina))),(Cudonia_circinans,Spathulariopsis_velutipes)))),((Lichinella_iodopulchra,(Peltula_auriculata,Peltula_umbilicata)),((((((Lophium_mytilinum,(Mytilinidion_rhenanum,Mytilinidion_australe)),((Delitschia_winteri,((Verruculina_enalia,(Ulospora_bilgramii,Lepidosphaeria_nicotiae)),(Pleomassaria_siparia,((Westerdykella_cylindrica,Sporormiella_minima),((Didymella_pisi,Phoma_herbarum),(Leptosphaeria_maculans,((Pyrenophora_phaeocomes,Allewia_eureka),(Cochliobolus_heterostrophus,Pleospora_herbarum)))))))),(Hysterium_angustatum,(Hysterobrevium_mori,Hysterobrevium_smilacis)))),((Helicomyces_roseus,Tubeufia_paludosa),((Phoma_uvicola,Guignardia_gaultheriae),(Botryosphaeria_dothidea,Botryosphaeria_tsugae)))),(((Sydowia_polyspora,(Dothidea_sambuci,Dothiora_cannabinae)),(Elsinoe_veneta,Myriangium_duriaei)),((Cladosporium_herbarum,Cladosporium_cladosporioides),((Mycosphaerella_fijiensis,(Mycosphaerella_graminicola,Mycosphaerella_punctiformis)),(Scorias_spongiosa,Capnodium_coffeae))))),(Roccellographa_cretacea,(Roccella_fuciformis,Dendrographa_decolorans))),(((Caliciopsis_orientalis,((Penicillium_limosum,Aspergillus_protuberus),(Ajellomyces_capsulatus,Coccidioides_immitis))),((Exophiala_salmonis,(Cyphellophora_laciniata,Ceramothyrium_carniolicum)),(Agonimia,Staurothele_frustulenta))),(((Pertusaria_dactylina,Icmadophila_ericetorum),(Glomerobolus_gelineus,Diploschistes_ocellatus)),((Teloschistes_exilis,(Heterodermia_vulgaris,Pyxine_subcinerea)),((Lecidea_fuscoatra,(Coccocarpia_erythroxyli,(Nephroma_parile,(Peltigera_degenii,(Lobariella_pallida,Lobaria_scrobiculata))))),(Canoparmelia_caroliniana,Hypogymnia_physodes)))))))))))))))"
+pgloadind   postpruning newick tree "(((Schizosaccharomyces_pombe,(Saitoella_complicata,(Taphrina_deformans,Taphrina_wiesneri))),(Neolecta_irregularis,Neolecta_vitellina)),(((Debaryomyces_hansenii,Candida_tropicalis),(Eremothecium_gossypii,(Candida_glabrata,Saccharomyces_cerevisiae))),((((Pseudosarcosoma_latahense,(Eleutherascus_lectardii,(Pyronema_domesticum,(Scutellinia_scutellata,Aleuria_aurantia)))),(Caloscypha_fulgens,(Verpa_conica,Pseudorhizina_californica))),((Sarcosphaera_coronaria,Peziza_vesiculosa),(Saccobolus_dilutellus,Ascobolus_carbonarius))),((Orbilia_vinosa,Arthrobotrys_elegans),((((Geoglossum_umbratile,(Geoglossum_nigritum,Geoglossum_glabrum)),Trichoglossum_hirsutum),Sarcoleotia_globosa),((((Pyxidiophora_arvernensis,(Hesperomyces_virescens,Stigmatomyces_protrudens)),(((Xylaria_hypoxylon,(((Calosphaeria_pulchella,(Diaporthe_eres,(Endothia_radicalis,(Gnomonia_gnomon,Winterella_hypodermia)))),(Ceratocystis_stenoceras,(Gaeumannomyces_medullaris,Magnaporthe_grisea))),(Neurospora_crassa,Sordaria_fimicola))),((((Corollospora_maritima,Halosphaeria_appendiculata),(Ceratocystis_fimbriata,Gondwanamyces_capensis)),(Verticillium_dahliae,Glomerella_rufomaculans-vaccinii)),((Bertia_moriformis,Melanospora_tiffanyae),(Clonostachys_rosea,((Hypocrea_lutea,(Nectria_cinnabarina,Cordyceps_cardinalis)),((Elaphocordyceps_ophioglossoides,Elaphocordyceps_capitata),(Claviceps_purpurea,Epichloe_typhina))))))),(Lulworthia_grandispora,Lindra_thalassiae))),(Neobulgaria_pura,(((Microglossum_olivaceum,(Leotia_lubrica,(Geoglossum_atropurpureum,Microglossum_rufum))),((((Mitrula_elegans,Mitrula_brevispora),(Lambertella_subrenispora,(Monilinia_laxa,Botryotinia_fuckeliana))),(Cudoniella_clavus,(Lachnum_virgineum,Bryoglossum_gracile))),(Neofabraea_malicorticis,Dermea_acerina))),(Cudonia_circinans,Spathulariopsis_velutipes)))),((Lichinella_iodopulchra,(Peltula_auriculata,Peltula_umbilicata)),((((((Lophium_mytilinum,(Mytilinidion_rhenanum,Mytilinidion_australe)),((Delitschia_winteri,((Verruculina_enalia,(Ulospora_bilgramii,Lepidosphaeria_nicotiae)),(Pleomassaria_siparia,((Westerdykella_cylindrica,Sporormiella_minima),((Didymella_pisi,Phoma_herbarum),(Leptosphaeria_maculans,((Pyrenophora_phaeocomes,Allewia_eureka),(Cochliobolus_heterostrophus,Pleospora_herbarum)))))))),(Hysterium_angustatum,(Hysterobrevium_mori,Hysterobrevium_smilacis)))),((Helicomyces_roseus,Tubeufia_paludosa),((Phoma_uvicola,Guignardia_gaultheriae),(Botryosphaeria_dothidea,Botryosphaeria_tsugae)))),(((Sydowia_polyspora,(Dothidea_sambuci,Dothiora_cannabinae)),(Elsinoe_veneta,Myriangium_duriaei)),((Cladosporium_herbarum,Cladosporium_cladosporioides),((Mycosphaerella_fijiensis,(Mycosphaerella_graminicola,Mycosphaerella_punctiformis)),(Scorias_spongiosa,Capnodium_coffeae))))),(Roccellographa_cretacea,(Roccella_fuciformis,Dendrographa_decolorans))),(((Caliciopsis_orientalis,((Penicillium_limosum,Aspergillus_protuberus),(Ajellomyces_capsulatus,Coccidioides_immitis))),((Exophiala_salmonis,(Cyphellophora_laciniata,Ceramothyrium_carniolicum)),(Agonimia,Staurothele_frustulenta))),(((Pertusaria_dactylina,Icmadophila_ericetorum),(Glomerobolus_gelineus,Diploschistes_ocellatus)),((Teloschistes_exilis,(Heterodermia_vulgaris,Pyxine_subcinerea)),((Lecidea_fuscoatra,(Coccocarpia_erythroxyli,(Nephroma_parile,(Peltigera_degenii,(Lobariella_pallida,Lobaria_scrobiculata))))),(Canoparmelia_caroliniana,Hypogymnia_physodes)))))))))))))"
 pgloadind   taxon mapping summary
-pgloadind     taxon mapping OTT ID 530834 taxonomy "Rhizopus liquefaciens->Rhizopus->Rhizopodaceae->Mucorineae->Mucorales->Mucoromycotina->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node166194"
-pgloadind     taxon mapping OTT ID 634633 taxonomy "Cryptococcus neoformans->Cryptococcus->Tremellaceae->Tremellales->Tremellomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node166197"
-pgloadind     taxon mapping OTT ID 985692 taxonomy "Calocera cornea->Calocera->Dacrymycetaceae->Dacrymycetales->Dacrymycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node166199"
-pgloadind     taxon mapping OTT ID 253478 taxonomy "Calostoma cinnabarinum->Calostoma->Calostomataceae->Sclerodermatineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node166201"
-pgloadind     taxon mapping OTT ID 868676 taxonomy "Grifola frondosa->Grifola->Meripilaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node166203"
-pgloadind     taxon mapping OTT ID 417422 taxonomy "Fomitopsis pinicola->Fomitopsis->Fomitopsidaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node166204"
 pgloadind     taxon mapping OTT ID 990004 taxonomy "Schizosaccharomyces pombe->Schizosaccharomyces->Schizosaccharomycetaceae->Schizosaccharomycetales->Schizosaccaromycetes->Taphrinomycotina->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node166208"
 pgloadind     taxon mapping OTT ID 818008 taxonomy "Saitoella complicata->Saitoella->Protomycetaceae->Taphrinales->Taphrinomycetidae->Taphrinomycetes->Taphrinomycotina->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node166210"
 pgloadind     taxon mapping OTT ID 406032 taxonomy "Taphrina deformans->Taphrina->Taphrinaceae->Taphrinales->Taphrinomycetidae->Taphrinomycetes->Taphrinomycotina->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node166212"
@@ -228,135 +225,131 @@ pgloadind   Adding tree to graph tree id "136"
 all trees have all taxa: false
 	using bipartition technique
 attempting to remap tips to deepest exemplified taxa
-	Caliciopsis orientalis was remapped to 'Coryneliales' (id=102114)
-	Sarcoleotia globosa was remapped to 'Sarcoleotia' (id=233177)
-	Magnaporthe grisea was remapped to 'Magnaporthe' (id=20014)
-	Pertusaria dactylina was remapped to 'Pertusariaceae' (id=229987)
-	Helicomyces roseus was remapped to 'mitosporic Tubeufiaceae' (id=117237)
-	Ascobolus carbonarius was remapped to 'Ascobolus' (id=234340)
-	Lambertella subrenispora was remapped to 'Rutstroemiaceae' (id=77136)
-	Nectria cinnabarina was remapped to 'Nectriaceae' (id=27538)
-	Schizosaccharomyces pombe was remapped to 'Schizosaccaromycetes' (id=763)
-	Dothiora cannabinae was remapped to 'Dothiora' (id=163056)
-	Fomitopsis pinicola was remapped to 'Fomitopsidaceae' (id=279082)
-	Leotia lubrica was remapped to 'Leotia' (id=63989)
-	Spathulariopsis velutipes was remapped to 'Spathulariopsis' (id=63722)
-	Sporormiella minima was remapped to 'Preussia complex' (id=114945)
-	Clonostachys rosea was remapped to 'Bionectriaceae' (id=37298)
-	Caloscypha fulgens was remapped to 'Caloscyphaceae' (id=242200)
-	Cyphellophora laciniata was remapped to 'Cyphellophora' (id=94259)
-	Neurospora crassa was remapped to 'Neurospora' (id=4612)
-	Diaporthe eres was remapped to 'Diaporthaceae' (id=6678)
-	Endothia radicalis was remapped to 'Cryphonectriaceae' (id=16242)
 	Heterodermia vulgaris was remapped to 'Physciaceae' (id=204882)
-	Arthrobotrys elegans was remapped to 'Arthrobotrys' (id=233566)
-	Eremothecium gossypii was remapped to 'Eremotheciaceae' (id=249477)
-	Sordaria fimicola was remapped to 'Sordaria' (id=4709)
+	Lambertella subrenispora was remapped to 'Rutstroemiaceae' (id=77136)
 	Corollospora maritima was remapped to 'Corollospora' (id=21190)
-	Debaryomyces hansenii was remapped to 'Debaryomyces' (id=249742)
-	Rhizopus liquefaciens was remapped to 'Mucoromycotina' (id=378653)
-	Staurothele frustulenta was remapped to 'Verrucariaceae' (id=89307)
-	Epichloe typhina was remapped to 'Epichloe' (id=24089)
-	Scorias spongiosa was remapped to 'Scorias' (id=141837)
-	Teloschistes exilis was remapped to 'Teloschistineae' (id=206986)
-	Verpa conica was remapped to 'Morchellaceae' (id=235525)
+	Aspergillus protuberus was remapped to 'Aspergillus' (id=96534)
+	Lichinella iodopulchra was remapped to 'Lichinaceae' (id=231866)
+	Cyphellophora laciniata was remapped to 'Cyphellophora' (id=94259)
+	Pseudosarcosoma latahense was remapped to 'Chorioactidaceae' (id=243179)
+	Pyronema domesticum was remapped to 'Pyronema' (id=240610)
+	Peziza vesiculosa was remapped to 'Peziza' (id=237387)
+	Bertia moriformis was remapped to 'Coronophorales' (id=22631)
+	Capnodium coffeae was remapped to 'Capnodium' (id=141941)
+	Hesperomyces virescens was remapped to 'Hesperomyces' (id=85328)
 	Lobariella pallida was remapped to 'Lobariella' (id=211306)
+	Hysterium angustatum was remapped to 'Hysterium' (id=137683)
+	Neobulgaria pura was remapped to 'Neobulgaria' (id=67418)
+	Debaryomyces hansenii was remapped to 'Debaryomyces' (id=249742)
+	Sarcosphaera coronaria was remapped to 'Pezizaceae' (id=235980)
+	Ascobolus carbonarius was remapped to 'Ascobolus' (id=234340)
+	Saccobolus dilutellus was remapped to 'Saccobolus' (id=234268)
+	Hypogymnia physodes was remapped to 'Hypogymnia' (id=191751)
+	Clonostachys rosea was remapped to 'Bionectriaceae' (id=37298)
+	Bryoglossum gracile was remapped to 'Bryoglossum' (id=71638)
+	Pertusaria dactylina was remapped to 'Pertusariaceae' (id=229987)
+	Staurothele frustulenta was remapped to 'Verrucariaceae' (id=89307)
+	Teloschistes exilis was remapped to 'Teloschistineae' (id=206986)
+	Trichoglossum hirsutum was remapped to 'Trichoglossum' (id=233185)
+	Pseudorhizina californica was remapped to 'Discinaceae' (id=234787)
+	Endothia radicalis was remapped to 'Cryphonectriaceae' (id=16242)
+	Sporormiella minima was remapped to 'Preussia complex' (id=114945)
+	Tubeufia paludosa was remapped to 'Tubeufia' (id=116800)
+	Nectria cinnabarina was remapped to 'Nectriaceae' (id=27538)
+	Leptosphaeria maculans was remapped to 'Leptosphaeriaceae' (id=126766)
+	Arthrobotrys elegans was remapped to 'Arthrobotrys' (id=233566)
+	Coccocarpia erythroxyli was remapped to 'Collematineae' (id=212877)
+	Didymella pisi was remapped to 'Didymella' (id=119898)
+	Diaporthe eres was remapped to 'Diaporthaceae' (id=6678)
+	Claviceps purpurea was remapped to 'Claviceps' (id=23976)
+	Diploschistes ocellatus was remapped to 'Thelotremataceae' (id=224900)
+	Glomerella rufomaculans-vaccinii was remapped to 'Glomerellaceae' (id=17182)
+	Lophium mytilinum was remapped to 'Lophium' (id=114293)
+	Eremothecium gossypii was remapped to 'Eremotheciaceae' (id=249477)
+	Hypocrea lutea was remapped to 'Hypocreaceae' (id=24796)
+	Myriangium duriaei was remapped to 'Myriangiaceae' (id=164193)
+	Guignardia gaultheriae was remapped to 'Phyllosticta' (id=168775)
+	Neurospora crassa was remapped to 'Neurospora' (id=4612)
+	Pyxine subcinerea was remapped to 'Caliciaceae' (id=202518)
+	Spathulariopsis velutipes was remapped to 'Spathulariopsis' (id=63722)
+	Calosphaeria pulchella was remapped to 'Calosphaeriales' (id=6438)
+	Winterella hypodermia was remapped to 'Massarineae' (id=125331)
+	Gaeumannomyces medullaris was remapped to 'Gaeumannomyces' (id=19973)
+	Coccidioides immitis was remapped to 'Onygenaceae' (id=103131)
+	Pleomassaria siparia was remapped to 'Pleomassariaceae' (id=117475)
+	Penicillium limosum was remapped to 'Penicillium' (id=98535)
+	Leotia lubrica was remapped to 'Leotia' (id=63989)
+	Gondwanamyces capensis was remapped to 'Gondwanamyces' (id=22200)
+	Saccharomyces cerevisiae was remapped to 'Saccharomycetaceae' (id=247908)
+	Monilinia laxa was remapped to 'Monilinia' (id=76195)
+	Botryotinia fuckeliana was remapped to 'Botryotinia' (id=75748)
+	Verruculina enalia was remapped to 'Hyponectriaceae' (id=46010)
+	Roccellographa cretacea was remapped to 'Roccellographa' (id=108389)
+	Melanospora tiffanyae was remapped to 'Melanosporales' (id=20530)
+	Cudonia circinans was remapped to 'Cudonia' (id=63675)
+	Lepidosphaeria nicotiae was remapped to 'Lepidosphaeria' (id=115266)
+	Aleuria aurantia was remapped to 'Aleuria' (id=239020)
+	Cudoniella clavus was remapped to 'Cudoniella' (id=69093)
+	Exophiala salmonis was remapped to 'Herpotrichiellaceae' (id=94450)
+	Magnaporthe grisea was remapped to 'Magnaporthe' (id=20014)
+	Dothidea sambuci was remapped to 'Dothideaceae' (id=162008)
+	Caliciopsis orientalis was remapped to 'Coryneliales' (id=102114)
+	Scorias spongiosa was remapped to 'Scorias' (id=141837)
+	Sordaria fimicola was remapped to 'Sordaria' (id=4709)
+	Cordyceps cardinalis was remapped to 'Cordycipitaceae' (id=35856)
+	Lindra thalassiae was remapped to 'Lindra' (id=61085)
+	Lobaria scrobiculata was remapped to 'Lobaria' (id=211383)
+	Ceramothyrium carniolicum was remapped to 'Ceramothyrium' (id=94058)
+	Saitoella complicata was remapped to 'Protomycetaceae' (id=308)
+	Lulworthia grandispora was remapped to 'Lulworthia' (id=61094)
+	Verpa conica was remapped to 'Morchellaceae' (id=235525)
+	Cochliobolus heterostrophus was remapped to 'Cochliobolus' (id=132249)
+	Canoparmelia caroliniana was remapped to 'Canoparmelia' (id=188811)
+	Xylaria hypoxylon was remapped to 'Xylariaceae' (id=46611)
+	Glomerobolus gelineus was remapped to 'Stictidaceae' (id=224329)
+	Sarcoleotia globosa was remapped to 'Sarcoleotia' (id=233177)
+	Schizosaccharomyces pombe was remapped to 'Schizosaccaromycetes' (id=763)
+	Ulospora bilgramii was remapped to 'Ulospora' (id=115284)
+	Gnomonia gnomon was remapped to 'Gnomoniaceae' (id=10063)
+	Orbilia vinosa was remapped to 'Orbilia' (id=233294)
+	Roccella fuciformis was remapped to 'Roccella' (id=108218)
+	Lachnum virgineum was remapped to 'Lachnum' (id=72657)
+	Helicomyces roseus was remapped to 'mitosporic Tubeufiaceae' (id=117237)
+	Caloscypha fulgens was remapped to 'Caloscyphaceae' (id=242200)
+	Peltigera degenii was remapped to 'Peltigeraceae' (id=210902)
+	Scutellinia scutellata was remapped to 'Scutellinia' (id=240684)
+	Lecidea fuscoatra was remapped to 'Lecideales' (id=215197)
+	Pleospora herbarum was remapped to 'Pleospora' (id=132582)
+	Elsinoe veneta was remapped to 'Elsinoaceae' (id=164291)
+	Halosphaeria appendiculata was remapped to 'Halosphaeria' (id=21252)
+	Sydowia polyspora was remapped to 'Sydowia' (id=163194)
 	Dendrographa decolorans was remapped to 'Dendrographa' (id=106828)
 	Dermea acerina was remapped to 'Dermea' (id=64793)
-	Lepidosphaeria nicotiae was remapped to 'Lepidosphaeria' (id=115266)
-	Grifola frondosa was remapped to 'Meripilaceae' (id=265267)
-	Lichinella iodopulchra was remapped to 'Lichinaceae' (id=231866)
-	Stigmatomyces protrudens was remapped to 'Stigmatomyces' (id=86572)
-	Pyronema domesticum was remapped to 'Pyronema' (id=240610)
-	Ajellomyces capsulatus was remapped to 'Ajellomycetaceae' (id=103533)
-	Cudonia circinans was remapped to 'Cudonia' (id=63675)
-	Pleomassaria siparia was remapped to 'Pleomassariaceae' (id=117475)
-	Sarcosphaera coronaria was remapped to 'Pezizaceae' (id=235980)
-	Roccella fuciformis was remapped to 'Roccella' (id=108218)
-	Peltigera degenii was remapped to 'Peltigeraceae' (id=210902)
-	Diploschistes ocellatus was remapped to 'Thelotremataceae' (id=224900)
-	Westerdykella cylindrica was remapped to 'Westerdykella' (id=114898)
-	Cochliobolus heterostrophus was remapped to 'Cochliobolus' (id=132249)
-	Penicillium limosum was remapped to 'Penicillium' (id=98535)
-	Bertia moriformis was remapped to 'Coronophorales' (id=22631)
-	Myriangium duriaei was remapped to 'Myriangiaceae' (id=164193)
-	Gondwanamyces capensis was remapped to 'Gondwanamyces' (id=22200)
-	Cryptococcus neoformans was remapped to 'Tremellomycetes' (id=251234)
-	Bryoglossum gracile was remapped to 'Bryoglossum' (id=71638)
-	Dothidea sambuci was remapped to 'Dothideaceae' (id=162008)
-	Hypocrea lutea was remapped to 'Hypocreaceae' (id=24796)
-	Cordyceps cardinalis was remapped to 'Cordycipitaceae' (id=35856)
-	Botryotinia fuckeliana was remapped to 'Botryotinia' (id=75748)
-	Guignardia gaultheriae was remapped to 'Phyllosticta' (id=168775)
-	Halosphaeria appendiculata was remapped to 'Halosphaeria' (id=21252)
-	Neobulgaria pura was remapped to 'Neobulgaria' (id=67418)
-	Lachnum virgineum was remapped to 'Lachnum' (id=72657)
-	Pseudorhizina californica was remapped to 'Discinaceae' (id=234787)
-	Glomerobolus gelineus was remapped to 'Stictidaceae' (id=224329)
-	Pseudosarcosoma latahense was remapped to 'Chorioactidaceae' (id=243179)
-	Calostoma cinnabarinum was remapped to 'Agaricomycetidae' (id=290851)
-	Hysterium angustatum was remapped to 'Hysterium' (id=137683)
-	Icmadophila ericetorum was remapped to 'Icmadophilaceae' (id=228834)
-	Calocera cornea was remapped to 'Dacrymycetes' (id=254378)
-	Nephroma parile was remapped to 'Nephromataceae' (id=212694)
-	Winterella hypodermia was remapped to 'Massarineae' (id=125331)
-	Saccobolus dilutellus was remapped to 'Saccobolus' (id=234268)
-	Leptosphaeria maculans was remapped to 'Leptosphaeriaceae' (id=126766)
-	Pleospora herbarum was remapped to 'Pleospora' (id=132582)
-	Sydowia polyspora was remapped to 'Sydowia' (id=163194)
-	Tubeufia paludosa was remapped to 'Tubeufia' (id=116800)
-	Saccharomyces cerevisiae was remapped to 'Saccharomycetaceae' (id=247908)
-	Hypogymnia physodes was remapped to 'Hypogymnia' (id=191751)
-	Ceramothyrium carniolicum was remapped to 'Ceramothyrium' (id=94058)
-	Eleutherascus lectardii was remapped to 'Ascodesmidaceae' (id=234707)
-	Lophium mytilinum was remapped to 'Lophium' (id=114293)
-	Scutellinia scutellata was remapped to 'Scutellinia' (id=240684)
-	Roccellographa cretacea was remapped to 'Roccellographa' (id=108389)
-	Cudoniella clavus was remapped to 'Cudoniella' (id=69093)
-	Xylaria hypoxylon was remapped to 'Xylariaceae' (id=46611)
-	Verruculina enalia was remapped to 'Hyponectriaceae' (id=46010)
-	Claviceps purpurea was remapped to 'Claviceps' (id=23976)
-	Ulospora bilgramii was remapped to 'Ulospora' (id=115284)
-	Didymella pisi was remapped to 'Didymella' (id=119898)
-	Exophiala salmonis was remapped to 'Herpotrichiellaceae' (id=94450)
-	Verticillium dahliae was remapped to 'Plectosphaerellaceae' (id=41343)
-	Aspergillus protuberus was remapped to 'Aspergillus' (id=96534)
-	Pyxidiophora arvernensis was remapped to 'Pyxidiophorales' (id=87072)
-	Orbilia vinosa was remapped to 'Orbilia' (id=233294)
-	Delitschia winteri was remapped to 'Delitschiaceae' (id=118298)
-	Calosphaeria pulchella was remapped to 'Calosphaeriales' (id=6438)
-	Peziza vesiculosa was remapped to 'Peziza' (id=237387)
-	Melanospora tiffanyae was remapped to 'Melanosporales' (id=20530)
-	Gaeumannomyces medullaris was remapped to 'Gaeumannomyces' (id=19973)
-	Allewia eureka was remapped to 'Allewia' (id=132019)
-	Gnomonia gnomon was remapped to 'Gnomoniaceae' (id=10063)
-	Lindra thalassiae was remapped to 'Lindra' (id=61085)
-	Lulworthia grandispora was remapped to 'Lulworthia' (id=61094)
-	Elsinoe veneta was remapped to 'Elsinoaceae' (id=164291)
-	Capnodium coffeae was remapped to 'Capnodium' (id=141941)
 	Neofabraea malicorticis was remapped to 'Neofabraea' (id=65737)
-	Aleuria aurantia was remapped to 'Aleuria' (id=239020)
-	Hesperomyces virescens was remapped to 'Hesperomyces' (id=85328)
-	Canoparmelia caroliniana was remapped to 'Canoparmelia' (id=188811)
-	Glomerella rufomaculans-vaccinii was remapped to 'Glomerellaceae' (id=17182)
-	Trichoglossum hirsutum was remapped to 'Trichoglossum' (id=233185)
-	Saitoella complicata was remapped to 'Protomycetaceae' (id=308)
-	Lobaria scrobiculata was remapped to 'Lobaria' (id=211383)
-	Lecidea fuscoatra was remapped to 'Lecideales' (id=215197)
+	Ajellomyces capsulatus was remapped to 'Ajellomycetaceae' (id=103533)
+	Icmadophila ericetorum was remapped to 'Icmadophilaceae' (id=228834)
+	Westerdykella cylindrica was remapped to 'Westerdykella' (id=114898)
+	Pyxidiophora arvernensis was remapped to 'Pyxidiophorales' (id=87072)
 	Pyrenophora phaeocomes was remapped to 'Pyrenophora' (id=133454)
-	Coccocarpia erythroxyli was remapped to 'Collematineae' (id=212877)
-	Monilinia laxa was remapped to 'Monilinia' (id=76195)
-	Coccidioides immitis was remapped to 'Onygenaceae' (id=103131)
-	Pyxine subcinerea was remapped to 'Caliciaceae' (id=202518)
+	Stigmatomyces protrudens was remapped to 'Stigmatomyces' (id=86572)
+	Dothiora cannabinae was remapped to 'Dothiora' (id=163056)
+	Allewia eureka was remapped to 'Allewia' (id=132019)
+	Delitschia winteri was remapped to 'Delitschiaceae' (id=118298)
+	Eleutherascus lectardii was remapped to 'Ascodesmidaceae' (id=234707)
+	Nephroma parile was remapped to 'Nephromataceae' (id=212694)
+	Epichloe typhina was remapped to 'Epichloe' (id=24089)
+	Verticillium dahliae was remapped to 'Plectosphaerellaceae' (id=41343)
 this is the ROOT
 placing root in index
 Dealing with metadata property: id
 Dealing with metadata property: ot:studyPublicationReference
-Adding property 'ot:studyPublicationReference': Schoch C.L., Wang Z., Townsend J., & Spatafora J. 2010. Geoglossomycetes cl. nov., Geoglossales ord. nov. and taxa above class rank in the Ascomycota Tree of Life. Persoonia, 22: 129-138.
+Adding property 'ot:studyPublicationReference': Schoch, C.L., Wang Z., Townsend J., & Spatafora J. 2010. Geoglossomycetes cl. nov., Geoglossales ord. nov. and taxa above class rank in the Ascomycota Tree of Life. Persoonia 22: 129-138.
 Dealing with metadata property: ot:focalCladeOTTTaxonName
 Adding property 'ot:focalCladeOTTTaxonName': Geoglossomycetes
 Dealing with metadata property: ot:studyYear
 Adding property 'ot:studyYear': 2010
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node166205
 Dealing with metadata property: ot:curatorName
 Adding property 'ot:curatorName': Romina Gazis
 Dealing with metadata property: ot:studyPublication
@@ -364,146 +357,142 @@ Adding property 'ot:studyPublication': http://dx.doi.org/10.3767/003158509X46148
 Dealing with metadata property: ot:focalClade
 Adding property 'ot:focalClade': 79135
 Dealing with metadata property: ot:curatedType
-Adding property 'ot:curatedType': ML, mtSSU + EF-1 + RPB1 + RPB2 + SSU + LSU
+Adding property 'ot:curatedType': Fig.2 ML mtSSU + EF-1 + RPB1 + RPB2 + SSU + LSU
 Dealing with metadata property: ot:studyId
 Adding property 'ot:studyId': 253
 Dealing with metadata property: ot:dataDeposit
 Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S10279
-Committing nodes: 307
+Committing nodes: 295
 	adding Node[246] Neolectaceae 834207 as compatible with Node[247]
+		adding Relationship[8416515]
+		adding to root Relationship[8416516]
+	adding Node[245] Neolectales 75871 as compatible with Node[247]
+		adding Relationship[8416517]
+		adding to root Relationship[8416518]
+	adding Node[244] Neolectomycetidae 5292178 as compatible with Node[247]
+		adding Relationship[8416519]
+		adding to root Relationship[8416520]
+	adding Node[243] Neolectomycetes 921283 as compatible with Node[247]
+		adding Relationship[8416521]
+		adding to root Relationship[8416522]
+	adding Node[426] Taphrinaceae 698727 as compatible with Node[427]
+		adding Relationship[8416523]
+		adding to root Relationship[8416524]
+	adding Node[305] Taphrinomycetidae 5292180 as compatible with Node[306]
+		adding Relationship[8416525]
+		adding to root Relationship[8416526]
+	adding Node[304] Taphrinomycetes 921288 as compatible with Node[306]
+		adding Relationship[8416527]
+		adding to root Relationship[8416528]
+	adding Node[40182] Ophiocordycipitaceae 419068 as compatible with Node[40765]
+		adding Relationship[8416529]
+		adding to root Relationship[8416530]
+	adding Node[137501] Hysteriales 109863 as compatible with Node[137502]
+		adding Relationship[8416531]
+		adding to root Relationship[8416532]
+	adding Node[142393] Mycosphaerellaceae 827790 as compatible with Node[143164]
+		adding Relationship[8416533]
+		adding to root Relationship[8416534]
+	adding Node[159940] Davidiellaceae 179887 as compatible with Node[160082]
+		adding Relationship[8416535]
+		adding to root Relationship[8416536]
+	adding Node[231777] Peltulaceae 280214 as compatible with Node[231785]
 		adding Relationship[8416537]
 		adding to root Relationship[8416538]
-	adding Node[245] Neolectales 75871 as compatible with Node[247]
+	adding Node[231768] Lichinomycetidae 5294218 as compatible with Node[231775]
 		adding Relationship[8416539]
 		adding to root Relationship[8416540]
-	adding Node[244] Neolectomycetidae 5292178 as compatible with Node[247]
+	adding Node[231767] Lichinomycetes 200832 as compatible with Node[231775]
 		adding Relationship[8416541]
 		adding to root Relationship[8416542]
-	adding Node[243] Neolectomycetes 921283 as compatible with Node[247]
+	adding Node[243212] Saccharomycetidae 5292177 as compatible with Node[243213]
 		adding Relationship[8416543]
 		adding to root Relationship[8416544]
-	adding Node[426] Taphrinaceae 698727 as compatible with Node[427]
+	adding Node[243210] Saccharomycetes 989999 as compatible with Node[243213]
 		adding Relationship[8416545]
 		adding to root Relationship[8416546]
-	adding Node[305] Taphrinomycetidae 5292180 as compatible with Node[306]
+	adding Node[243209] Saccharomycotina 971714 as compatible with Node[243213]
 		adding Relationship[8416547]
 		adding to root Relationship[8416548]
-	adding Node[304] Taphrinomycetes 921288 as compatible with Node[306]
+	adding Node[2099] Sordariales 153813 as compatible with Node[4491]
 		adding Relationship[8416549]
 		adding to root Relationship[8416550]
-	adding Node[40182] Ophiocordycipitaceae 419068 as compatible with Node[40765]
+	adding Node[61046] Lulworthiales 90655 as compatible with Node[61061]
 		adding Relationship[8416551]
 		adding to root Relationship[8416552]
-	adding Node[137501] Hysteriales 109863 as compatible with Node[137502]
+	adding Node[61045] Spathulosporomycetidae 5296848 as compatible with Node[61061]
 		adding Relationship[8416553]
 		adding to root Relationship[8416554]
-	adding Node[142393] Mycosphaerellaceae 827790 as compatible with Node[143164]
+	adding Node[61717] Rhytismatales 68613 as compatible with Node[63674]
 		adding Relationship[8416555]
 		adding to root Relationship[8416556]
-	adding Node[159940] Davidiellaceae 179887 as compatible with Node[160082]
+	adding Node[84240] Laboulbeniales 820103 as compatible with Node[84241]
 		adding Relationship[8416557]
 		adding to root Relationship[8416558]
-	adding Node[231777] Peltulaceae 280214 as compatible with Node[231785]
+	adding Node[84238] Laboulbeniomycetes 972725 as compatible with Node[84239]
 		adding Relationship[8416559]
 		adding to root Relationship[8416560]
-	adding Node[231768] Lichinomycetidae 5294218 as compatible with Node[231775]
+	adding Node[95613] Eurotiales 800595 as compatible with Node[95880]
 		adding Relationship[8416561]
 		adding to root Relationship[8416562]
-	adding Node[231767] Lichinomycetes 200832 as compatible with Node[231775]
+	adding Node[104512] Arthoniales 124640 as compatible with Node[106269]
 		adding Relationship[8416563]
 		adding to root Relationship[8416564]
-	adding Node[243212] Saccharomycetidae 5292177 as compatible with Node[243213]
+	adding Node[104319] Arthoniomycetidae 5296852 as compatible with Node[106269]
 		adding Relationship[8416565]
 		adding to root Relationship[8416566]
-	adding Node[243210] Saccharomycetes 989999 as compatible with Node[243213]
+	adding Node[104314] Arthoniomycetes 971711 as compatible with Node[106269]
 		adding Relationship[8416567]
 		adding to root Relationship[8416568]
-	adding Node[243209] Saccharomycotina 971714 as compatible with Node[243213]
+	adding Node[180148] Lecanorales 306155 as compatible with Node[188808]
 		adding Relationship[8416569]
 		adding to root Relationship[8416570]
-	adding Node[2099] Sordariales 153813 as compatible with Node[4491]
+	adding Node[233228] Orbiliales 972723 as compatible with Node[233229]
 		adding Relationship[8416571]
 		adding to root Relationship[8416572]
-	adding Node[61046] Lulworthiales 90655 as compatible with Node[61061]
+	adding Node[233227] Orbiliomycetidae 5291462 as compatible with Node[233229]
 		adding Relationship[8416573]
 		adding to root Relationship[8416574]
-	adding Node[61045] Spathulosporomycetidae 5296848 as compatible with Node[61061]
+	adding Node[233226] Orbiliomycetes 972724 as compatible with Node[233229]
 		adding Relationship[8416575]
 		adding to root Relationship[8416576]
-	adding Node[61717] Rhytismatales 68613 as compatible with Node[63674]
+	adding Node[234208] Pezizomycetidae 5291463 as compatible with Node[234209]
 		adding Relationship[8416577]
 		adding to root Relationship[8416578]
-	adding Node[84240] Laboulbeniales 820103 as compatible with Node[84241]
+	adding Node[234207] Pezizomycetes 346133 as compatible with Node[234209]
 		adding Relationship[8416579]
 		adding to root Relationship[8416580]
-	adding Node[84238] Laboulbeniomycetes 972725 as compatible with Node[84239]
-		adding Relationship[8416581]
-		adding to root Relationship[8416582]
-	adding Node[95613] Eurotiales 800595 as compatible with Node[95880]
-		adding Relationship[8416583]
-		adding to root Relationship[8416584]
-	adding Node[104512] Arthoniales 124640 as compatible with Node[106269]
-		adding Relationship[8416585]
-		adding to root Relationship[8416586]
-	adding Node[104319] Arthoniomycetidae 5296852 as compatible with Node[106269]
-		adding Relationship[8416587]
-		adding to root Relationship[8416588]
-	adding Node[104314] Arthoniomycetes 971711 as compatible with Node[106269]
-		adding Relationship[8416589]
-		adding to root Relationship[8416590]
-	adding Node[180148] Lecanorales 306155 as compatible with Node[188808]
-		adding Relationship[8416591]
-		adding to root Relationship[8416592]
-	adding Node[233228] Orbiliales 972723 as compatible with Node[233229]
-		adding Relationship[8416593]
-		adding to root Relationship[8416594]
-	adding Node[233227] Orbiliomycetidae 5291462 as compatible with Node[233229]
-		adding Relationship[8416595]
-		adding to root Relationship[8416596]
-	adding Node[233226] Orbiliomycetes 972724 as compatible with Node[233229]
-		adding Relationship[8416597]
-		adding to root Relationship[8416598]
-	adding Node[234208] Pezizomycetidae 5291463 as compatible with Node[234209]
-		adding Relationship[8416599]
-		adding to root Relationship[8416600]
-	adding Node[234207] Pezizomycetes 346133 as compatible with Node[234209]
-		adding Relationship[8416601]
-		adding to root Relationship[8416602]
-	adding Node[251230] Basidiomycota 634628 as compatible with Node[251232]
-		adding Relationship[8416603]
-		adding to root Relationship[8416604]
-		adding Relationship[8416605] from Node[142393] to Node[139458]
-		adding Relationship[8416606] from Node[84240] to Node[84239]
-		adding Relationship[8416607] from Node[159940] to Node[139458]
-		adding Relationship[8416608] from Node[84239] to Node[3566191]
-		adding Relationship[8416609] from Node[84239] to Node[84238]
-		adding Relationship[8416610] from Node[251230] to Node[230]
-		adding Relationship[8416611] from Node[305] to Node[304]
-		adding Relationship[8416612] from Node[304] to Node[234]
-		adding Relationship[8416613] from Node[306] to Node[3566153]
-		adding Relationship[8416614] from Node[306] to Node[305]
-		adding Relationship[8416615] from Node[3566222] to Node[139458]
-		adding Relationship[8416616] from Node[3566235] to Node[832]
-		adding Relationship[8416617] from Node[426] to Node[306]
-		adding Relationship[8416618] from Node[243212] to Node[243210]
-		adding Relationship[8416619] from Node[243209] to Node[831]
-		adding Relationship[8416620] from Node[243210] to Node[243209]
-		adding Relationship[8416621] from Node[104319] to Node[104314]
-		adding Relationship[8416622] from Node[61046] to Node[61045]
-		adding Relationship[8416623] from Node[3566190] to Node[3566191]
-		adding Relationship[8416624] from Node[234208] to Node[234207]
-		adding Relationship[8416625] from Node[233228] to Node[233227]
-		adding Relationship[8416626] from Node[233227] to Node[233226]
-		adding Relationship[8416627] from Node[231777] to Node[231775]
-		adding Relationship[8416628] from Node[233226] to Node[832]
-		adding Relationship[8416629] from Node[231775] to Node[3566233]
-		adding Relationship[8416630] from Node[231775] to Node[231768]
-		adding Relationship[8416631] from Node[231768] to Node[231767]
-		adding Relationship[8416632] from Node[3566153] to Node[234]
-		adding Relationship[8416633] from Node[104512] to Node[104319]
-		adding Relationship[8416634] from Node[234207] to Node[832]
-		adding Relationship[8416635] from Node[832] to Node[831]
-		adding Relationship[8416636] from Node[246] to Node[245]
-		adding Relationship[8416637] from Node[244] to Node[243]
-		adding Relationship[8416638] from Node[245] to Node[244]
-		adding Relationship[8416639] from Node[243] to Node[234]
+		adding Relationship[8416581] from Node[142393] to Node[139458]
+		adding Relationship[8416582] from Node[84240] to Node[84239]
+		adding Relationship[8416583] from Node[159940] to Node[139458]
+		adding Relationship[8416584] from Node[84239] to Node[3566190]
+		adding Relationship[8416585] from Node[84239] to Node[84238]
+		adding Relationship[8416586] from Node[305] to Node[304]
+		adding Relationship[8416587] from Node[304] to Node[234]
+		adding Relationship[8416588] from Node[306] to Node[3566152]
+		adding Relationship[8416589] from Node[306] to Node[305]
+		adding Relationship[8416590] from Node[3566221] to Node[139458]
+		adding Relationship[8416591] from Node[426] to Node[306]
+		adding Relationship[8416592] from Node[3566234] to Node[832]
+		adding Relationship[8416593] from Node[243212] to Node[243210]
+		adding Relationship[8416594] from Node[243209] to Node[831]
+		adding Relationship[8416595] from Node[243210] to Node[243209]
+		adding Relationship[8416596] from Node[104319] to Node[104314]
+		adding Relationship[8416597] from Node[61046] to Node[61045]
+		adding Relationship[8416598] from Node[3566189] to Node[3566190]
+		adding Relationship[8416599] from Node[234208] to Node[234207]
+		adding Relationship[8416600] from Node[233228] to Node[233227]
+		adding Relationship[8416601] from Node[233227] to Node[233226]
+		adding Relationship[8416602] from Node[231777] to Node[231775]
+		adding Relationship[8416603] from Node[233226] to Node[832]
+		adding Relationship[8416604] from Node[231775] to Node[3566232]
+		adding Relationship[8416605] from Node[231775] to Node[231768]
+		adding Relationship[8416606] from Node[231768] to Node[231767]
+		adding Relationship[8416607] from Node[104512] to Node[104319]
+		adding Relationship[8416608] from Node[234207] to Node[832]
+		adding Relationship[8416609] from Node[3566152] to Node[234]
+		adding Relationship[8416610] from Node[832] to Node[831]
+		adding Relationship[8416611] from Node[246] to Node[245]
+		adding Relationship[8416612] from Node[244] to Node[243]
+		adding Relationship[8416613] from Node[245] to Node[244]
+		adding Relationship[8416614] from Node[243] to Node[234]
