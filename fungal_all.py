@@ -112,7 +112,7 @@ studytreelist =[
 "1172_5809", # Fungi_352914
 "800_5672", # Teloschistales_1001393
 "697_1253", # Tetraplosphaeriaceae_798147
-"697_1254", # Eukaryota_304358
+"697_1254", # Leotiomyceta_5287301
 "807_5676", # Leotiomyceta_5287301
 "1147_2327", # Verrucariaceae_525957
 "750_1373", # Fungi_352914
