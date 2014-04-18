@@ -1,12 +1,6 @@
 """
 Note: studies are (for the most part) ordered from shallow to deep clades. 
       This might need to be reversed when using the mapcompatible function.
-      
-
-FROM STEPHEN
-what about these
-http://www.reelab.net/phylografter/stree/svgView/6014
-http://www.sciencemag.org/content/341/6143/292 [not sure where to find this tree]
 """
 
 
