@@ -33,11 +33,11 @@ studytreelist=["263_149",
                #"2484_5346",
                "312_264",
                #"313_6019",
-               "313_6681", # fixed Grant et al. tree
+               "313_6681", # fixed Grant et al. tree (topology)
                "2554_5580",
                "2484_6607",
                "2849_6615"
-               ]#"2822_6569"] # Parfrey et al. 2011. PNAS
+               ]#"2822_6569"] # Parfrey et al. 2011. PNAS <- why not this one? it is good.
 studytreelistTF = [True] * len(studytreelist)
 """
 studytreelist=["425_5976", # Eukaryota. Katz et al. 2012. Syst Biol.

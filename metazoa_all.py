@@ -15,56 +15,11 @@ these are the studies identified by Chris, plus others from JWB
 *** good, but minor problems with taxonomy. check these ***
 
 "1653_6541", # Colubroidea. Pyron et al. 2011. MPE *** Plagiopholis is in wrong family (Acrochordidae instead of Colubridae)
-"2696_6249", # Demospongiae. Hill et al. 2013. PLoS ONE *** Ingroup is currently set to Porifera rather than Demospongiae
+
 "2672_6218", # Gnathostomata. Zhu et al. 2013. Nature *** mapping to Bilateria
 "1345_6256", # Actiniaria. Daly et al. 1345. MPE *** Dactylanthus antarcticus mapping to Ptychodactiaria instead of Actiniaria.
 
 
-*** Studies suggested by Chris Owen. Make sure each fit the requirements. ***
-
-"2405_5070",
-"2406_6389",
-"2407_6390",
-"2408_6391",
-"2409_6401",
-"2411_6402",
-"2412_6403",
-"2417_5098",
-"2418_6152",
-"2419_6023",
-"2421_5109",
-"2422_5117",
-"2423_5119",
-"2426_5122",
-"2428_5137",
-"2437_5173",
-"2445_5215",
-"2446_5220",
-"2447_6406",
-"2451_6407",
-"2453_5240",
-"2454_5247",
-"2455_6408",
-"2457_6416",
-"2458_6436",
-"2459_6437",
-"2506_5398",
-"2514_6439",
-"2524_6441",
-"2528_5446",
-"2535_5460",
-"2543_5481",
-"2544_6482",
-"2545_5489",
-"2547_6483",
-"2550_5513",
-"2551_6180",
-"2578_5982",
-"2579_5983",
-"2580_5986",
-"2586_5996",
-"2588_6484",
-"2593_6247",
 
 
 "2595_6015", # Glires. Yin. 2013. ???
