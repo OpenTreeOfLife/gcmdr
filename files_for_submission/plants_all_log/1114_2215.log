@@ -1,0 +1,68 @@
+pgloadind OTUs number 13
+pgloadind Processing tree @id "2215"
+pgloadind   tree info number nodes 24
+pgloadind   tree info number edges 23
+pgloadind   tree info ingroup "node538488"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 8
+pgloadind   property added ot:studyPublicationReference "Zhong, B., Yonezawa, T., Zhong, Y., & Hasegawa, M. 2010. The position of Gnetales among seed plants: Overcoming pitfalls of chloroplast phylogenomics. Mol. Biol. Evol. 27: 2855-2863."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1093/molbev/msq170"
+pgloadind   property added ot:curatorName "Jiabin Deng"
+pgloadind   property added ot:studyId "1114"
+pgloadind   property added ot:studyYear "2010"
+pgloadind   property added ot:focalClade "47945"
+pgloadind   property added ot:focalCladeOTTTaxonName "Gnetales"
+pgloadind   property added ot:inGroupClade "node538488"
+pgloadind   property added ot:curatedType "ML"
+loading a specific tree: 2215
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "2215"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "((Cryptomeria,(((Welwitschia,Gnetum),Ephedra),(Keteleeria,Pinus))),(Ginkgo,Cycas))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 620748 taxonomy "Cryptomeria->Cupressaceae->Cupressophyta->Coniferales->Coniferopsida->Coniferophyta->Acrogymnospermae->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node538490"
+pgloadind     taxon mapping OTT ID 47948 taxonomy "Welwitschia->Welwitschiaceae->Welwitschiales->Gnetopsida->Gnetophyta->Acrogymnospermae->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node538494"
+pgloadind     taxon mapping OTT ID 673439 taxonomy "Gnetum->Gnetaceae->Gnetales->Gnetopsida->Gnetophyta->Acrogymnospermae->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node538495"
+pgloadind     taxon mapping OTT ID 673430 taxonomy "Ephedra->Ephedraceae->Ephedrales->Gnetopsida->Gnetophyta->Acrogymnospermae->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node538496"
+pgloadind     taxon mapping OTT ID 994518 taxonomy "Keteleeria->Pinaceae->Coniferales->Coniferopsida->Coniferophyta->Acrogymnospermae->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node538498"
+pgloadind     taxon mapping OTT ID 771683 taxonomy "Pinus->Pinaceae->Coniferales->Coniferopsida->Coniferophyta->Acrogymnospermae->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node538499"
+pgloadind     taxon mapping OTT ID 950165 taxonomy "Ginkgo->Ginkgoaceae->Ginkgoales->Ginkgoopsida->Ginkgophyta->Acrogymnospermae->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node538501"
+pgloadind     taxon mapping OTT ID 99238 taxonomy "Cycas->Cycadaceae->Cycadales->Cycadopsida->Cycadophyta->Acrogymnospermae->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node538502"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "2215"
+pgloadind   Adding tree to graph tree id "2215"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Cycas was remapped to 'Cycadophyta' (id=3119155)
+	Ginkgo was remapped to 'Ginkgophyta' (id=3119784)
+	Welwitschia was remapped to 'Welwitschiales' (id=3118965)
+	Gnetum was remapped to 'Gnetales' (id=3118856)
+	Ephedra was remapped to 'Ephedrales' (id=3118970)
+	Cryptomeria was remapped to 'Cupressophyta' (id=3119815)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Zhong, B., Yonezawa, T., Zhong, Y., & Hasegawa, M. 2010. The position of Gnetales among seed plants: Overcoming pitfalls of chloroplast phylogenomics. Mol. Biol. Evol. 27: 2855-2863.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Gnetales
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2010
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node538488
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Jiabin Deng
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1093/molbev/msq170
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 47945
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': ML
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 1114
+Committing nodes: 15
+	adding Node[3118852] Gnetophyta 10209 as compatible with Node[3118853]
+		adding Relationship[8415881]
+		adding to root Relationship[8415882]

@@ -1,0 +1,68 @@
+pgloadind OTUs number 72
+pgloadind Processing tree @id "4985"
+pgloadind   tree info number nodes 11
+pgloadind   tree info number edges 10
+pgloadind   tree info ingroup "node862200"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 6
+pgloadind   property added ot:studyPublicationReference "Corl A., and Ellegren H. 2013. Sampling strategies for species trees: the effects on phylogenetic inference of the number of genes, number of individuals, and whether loci are mitochondrial, sex-linked, or autosomal. Molecular Phylogenetics and Evolution 67 (2): 358-366."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.ympev.2013.02.002"
+pgloadind   property added ot:curatorName "Chris Owen"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S13356"
+pgloadind   property added ot:studyId "2371"
+pgloadind   property added ot:studyYear "2013"
+pgloadind   property added ot:focalClade "887699"
+pgloadind   property added ot:focalCladeOTTTaxonName "Scolopacidae"
+pgloadind   property added ot:branchLengthMode "ot:time"
+pgloadind   property added ot:branchLengthTimeUnit "Myr"
+pgloadind   property added ot:inGroupClade "node862200"
+pgloadind   property added ot:curatedType "Fig. 1-*BEAST"
+loading a specific tree: 4985
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "4985"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "((((Calidris_minutilla,Calidris_fuscicollis),(Calidris_melanotos,Calidris_mauri)),Philomachus_pugnax),Phalaropus_lobatus)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 654822 taxonomy "Calidris minutilla->Calidris->Scolopacidae->Charadriiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node862204"
+pgloadind     taxon mapping OTT ID 234673 taxonomy "Calidris fuscicollis->Calidris->Scolopacidae->Charadriiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node862205"
+pgloadind     taxon mapping OTT ID 57825 taxonomy "Calidris melanotos->Calidris->Scolopacidae->Charadriiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node862207"
+pgloadind     taxon mapping OTT ID 234671 taxonomy "Calidris mauri->Calidris->Scolopacidae->Charadriiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node862208"
+pgloadind     taxon mapping OTT ID 1090732 taxonomy "Philomachus pugnax->Philomachus->Scolopacidae->Charadriiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node862209"
+pgloadind     taxon mapping OTT ID 57821 taxonomy "Phalaropus lobatus->Phalaropus->Scolopacidae->Charadriiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node862210"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "4985"
+pgloadind   Adding tree to graph tree id "4985"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Phalaropus lobatus was remapped to 'Phalaropus' (id=470238)
+	Philomachus pugnax was remapped to 'Philomachus' (id=470568)
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Corl A., and Ellegren H. 2013. Sampling strategies for species trees: the effects on phylogenetic inference of the number of genes, number of individuals, and whether loci are mitochondrial, sex-linked, or autosomal. Molecular Phylogenetics and Evolution 67 (2): 358-366.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Scolopacidae
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:time
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': Myr
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S13356
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 2371
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2013
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node862200
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.ympev.2013.02.002
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Chris Owen
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 887699
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig. 1-*BEAST
+Committing nodes: 11

@@ -1,0 +1,58 @@
+pgloadind OTUs number 5
+pgloadind Processing tree @id "3045"
+pgloadind   tree info number nodes 7
+pgloadind   tree info number edges 6
+pgloadind   tree info ingroup "node629294"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 4
+pgloadind   property added ot:studyPublicationReference "Kvist L. 1990. Revision of Heppiella (Gesneriaceae). Systematic Botany, 15: 720-735"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/2419166"
+pgloadind   property added ot:curatorName "Jiabin Deng"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S170"
+pgloadind   property added ot:studyId "1523"
+pgloadind   property added ot:studyYear "1990"
+pgloadind   property added ot:focalClade "40969"
+pgloadind   property added ot:focalCladeOTTTaxonName "Heppiella"
+pgloadind   property added ot:inGroupClade "node629294"
+pgloadind   property added ot:curatedType "Fig. 5"
+loading a specific tree: 3045
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "3045"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "(Heppiella_repens,Heppiella_verticillata,Heppiella_viscida,Heppiella_ulmifolia)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 3885266 taxonomy "Heppiella repens->Heppiella->Gloxineae->Gesnerioideae->Gesneriaceae->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node629295"
+pgloadind     taxon mapping OTT ID 725253 taxonomy "Heppiella verticillata->Heppiella->Gloxineae->Gesnerioideae->Gesneriaceae->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node629296"
+pgloadind     taxon mapping OTT ID 324015 taxonomy "Heppiella viscida->Heppiella->Gloxineae->Gesnerioideae->Gesneriaceae->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node629297"
+pgloadind     taxon mapping OTT ID 40967 taxonomy "Heppiella ulmifolia->Heppiella->Gloxineae->Gesnerioideae->Gesneriaceae->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node629298"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "3045"
+pgloadind   Adding tree to graph tree id "3045"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Kvist L. 1990. Revision of Heppiella (Gesneriaceae). Systematic Botany, 15: 720-735
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Heppiella
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 1990
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node629294
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Jiabin Deng
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.2307/2419166
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 40969
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig. 5
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 1523
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S170
+Committing nodes: 5

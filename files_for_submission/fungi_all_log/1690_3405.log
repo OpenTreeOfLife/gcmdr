@@ -1,0 +1,170 @@
+pgloadind OTUs number 69
+pgloadind Processing tree @id "3405"
+pgloadind   tree info number nodes 111
+pgloadind   tree info number edges 110
+pgloadind   tree info ingroup "node671248"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 57
+pgloadind   property added ot:studyPublicationReference "Thorn R., Moncalvo J., Reddy C., & Vilgalys R. 2000. Phylogenetic analyses and the distribution of nematophagy support a monophyletic Pleurotaceae within the polyphyletic pleurotoid-lentinoid fungi. Mycologia, 92(2): 241-252."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/3761557"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S568"
+pgloadind   property added ot:studyId "1690"
+pgloadind   property added ot:studyYear "2000"
+pgloadind   property added ot:focalClade "1019482"
+pgloadind   property added ot:focalCladeOTTTaxonName "Pleurotaceae"
+pgloadind   property added ot:inGroupClade "node671248"
+pgloadind   property added ot:curatedType "MP, ITS + LSU"
+pgloadind Processing tree @id "3406"
+pgloadind   tree info number nodes 41
+pgloadind   tree info number edges 40
+pgloadind   tree info ingroup "node671360"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 22
+pgloadind   property added ot:studyPublicationReference "Thorn R., Moncalvo J., Reddy C., & Vilgalys R. 2000. Phylogenetic analyses and the distribution of nematophagy support a monophyletic Pleurotaceae within the polyphyletic pleurotoid-lentinoid fungi. Mycologia, 92(2): 241-252."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/3761557"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S568"
+pgloadind   property added ot:studyId "1690"
+pgloadind   property added ot:studyYear "2000"
+pgloadind   property added ot:focalClade "1019482"
+pgloadind   property added ot:focalCladeOTTTaxonName "Pleurotaceae"
+pgloadind   property added ot:inGroupClade "node671360"
+pgloadind   property added ot:curatedType "MP, ITS + LSU"
+loading a specific tree: 3405
+skipping tree: 3406
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "3405"
+pgloadind     OTT ID missing name "Hohenbuehelia sp. UAMH 5317" nexsonid "node671288"
+pgloadind     OTT ID missing name "Melanoleuca alboflavida" nexsonid "node671310"
+pgloadind     OTT ID missing name "Lepista nuda" nexsonid "node671316"
+pgloadind     OTT ID missing name "Tricholoma myomyces" nexsonid "node671319"
+pgloadind     OTT ID missing name "Panus lecomtei" nexsonid "node671348"
+pgloadind   TNRS unmatched total number 2
+pgloadind     TNRS resolved ottId OTT ID 1019478 name "Melanoleuca alboflavida" searched on "Melanoleuca alboflavida" nexsonid "node671310"
+pgloadind     TNRS resolved ottId OTT ID 446092 name "Panus lecomtei" searched on "Panus lecomtei" nexsonid "node671348"
+pgloadind     TNRS resolved ottId OTT ID 431732 name "Tricholoma myomyces" searched on "Tricholoma myomyces" nexsonid "node671319"
+pgloadind     pruning unmapped name "Lepista nuda" nexsonid "node671316"
+pgloadind     pruning unmapped name "Hohenbuehelia sp. UAMH 5317" nexsonid "node671288"
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Resupinatus dealbatus" nexsonid "node671306"
+pgloadind       overlapping pruned name "Resupinatus" nexsonid "node671307"
+pgloadind     pruning dups and overlapping name "Resupinatus" nexsonid "node671307"
+pgloadind   postpruning newick tree "(((((((Omphalotus_nidiformis,Omphalotus_japonicus),Neonothopanus_nambi),(Gymnopus_dryophilus,Lentinula_edodes)),(Crinipellis_campanella,Marasmius_delectans)),((((((((Pleurotus_cornucopiae,Pleurotus_djamor),(Pleurotus_eryngii,Pleurotus_ostreatus)),Pleurotus_cystidiosus),Lentinus_tuber-regium),Pleurotus_purpureo-olivaceus),((Nematoctonus_robustus,Hohenbuehelia_grisea),(Hohenbuehelia_petaloides,Nematoctonus_geogenius))),((((Agrocybe_praecox,Agrocybe_pediades),Stropharia_rugosoannulata),(Coprinopsis_variegata,Agaricus_areolatus)),((((((Resupinatus_alboniger,Resupinatus_dealbatus),Conchomyces_bursiformis),Melanoleuca_alboflavida),Phyllotopsis_nidulans),(Hypsizygus_ulmarius,Tephrocybe_tylicolor)),(Tricholoma_matsutake,Tricholoma_myomyces)))),((Agaricus_bisporus,Chlorophyllum_rachodes),Leucoagaricus_leucothites))),((Retiboletus_retipes,Phylloporus_rhodoxanthus),Serpula_lacrymans)),(Heliocybe_sulcata,(((Neolentinus_kauffmanii,Neolentinus_dactyloides),Neolentinus_lepideus),Gloeophyllum_trabeum)),((Lentinellus_micheneri,(Lactarius_corrugis,Russula_nobilis)),Heterobasidion_annosum),(Panus_conchatus,Panus_lecomtei),Faerberia_carbonaria,((Ganoderma_lucidum,Irpex_lacteus,Lentinus_tigrinus),Polyporus_squamosus))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 1065746 taxonomy "Omphalotus nidiformis->Omphalotus->Marasmiaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671255"
+pgloadind     taxon mapping OTT ID 310000 taxonomy "Omphalotus japonicus->Omphalotus->Marasmiaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671256"
+pgloadind     taxon mapping OTT ID 751656 taxonomy "Neonothopanus nambi->Neonothopanus->Marasmiaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671257"
+pgloadind     taxon mapping OTT ID 677117 taxonomy "Gymnopus dryophilus->Gymnopus->Marasmiaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671259"
+pgloadind     taxon mapping OTT ID 162647 taxonomy "Lentinula edodes->Lentinula->Marasmiaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671260"
+pgloadind     taxon mapping OTT ID 959444 taxonomy "Crinipellis campanella->Crinipellis->Marasmiaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671262"
+pgloadind     taxon mapping OTT ID 959451 taxonomy "Marasmius delectans->Marasmius->Marasmiaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671263"
+pgloadind     taxon mapping OTT ID 581153 taxonomy "Pleurotus cornucopiae->Pleurotus->Pleurotaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671272"
+pgloadind     taxon mapping OTT ID 383220 taxonomy "Pleurotus djamor->Pleurotus->Pleurotaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671273"
+pgloadind     taxon mapping OTT ID 581151 taxonomy "Pleurotus eryngii->Pleurotus->Pleurotaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671275"
+pgloadind     taxon mapping OTT ID 581149 taxonomy "Pleurotus ostreatus->Pleurotus->Pleurotaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671276"
+pgloadind     taxon mapping OTT ID 17236 taxonomy "Pleurotus cystidiosus->Pleurotus->Pleurotaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671277"
+pgloadind     taxon mapping OTT ID 93504 taxonomy "Lentinus tuber-regium->Lentinus->Polyporaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671278"
+pgloadind     taxon mapping OTT ID 333861 taxonomy "Pleurotus purpureo-olivaceus->Pleurotus->Pleurotaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671279"
+pgloadind     taxon mapping OTT ID 148036 taxonomy "Nematoctonus robustus->Nematoctonus->mitosporic Hohenbuehelia->Pleurotaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671282"
+pgloadind     taxon mapping OTT ID 493751 taxonomy "Hohenbuehelia grisea->Hohenbuehelia->Pleurotaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671283"
+pgloadind     taxon mapping OTT ID 415045 taxonomy "Hohenbuehelia petaloides->Hohenbuehelia->Pleurotaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671286"
+pgloadind     taxon mapping OTT ID 1019479 taxonomy "Nematoctonus geogenius->Nematoctonus->mitosporic Hohenbuehelia->Pleurotaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671287"
+pgloadind     taxon mapping OTT ID 887971 taxonomy "Agrocybe praecox->Agrocybe->Strophariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671293"
+pgloadind     taxon mapping OTT ID 58501 taxonomy "Agrocybe pediades->Agrocybe->Strophariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671294"
+pgloadind     taxon mapping OTT ID 684081 taxonomy "Stropharia rugosoannulata->Psilocybe->Strophariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671295"
+pgloadind     taxon mapping OTT ID 343482 taxonomy "Coprinopsis variegata->Coprinopsis->Psathyrellaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671297"
+pgloadind     taxon mapping OTT ID 5304637 taxonomy "Agaricus areolatus->Agaricus->Agaricaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671298"
+pgloadind     taxon mapping OTT ID 240843 taxonomy "Resupinatus alboniger->Resupinatus->Tricholomataceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671308"
+pgloadind     taxon mapping OTT ID 343473 taxonomy "Resupinatus dealbatus->Resupinatus->Tricholomataceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671306"
+pgloadind     taxon mapping OTT ID 5306456 taxonomy "Conchomyces bursiformis->Conchomyces->Tricholomataceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671309"
+pgloadind     taxon mapping OTT ID 1019478 taxonomy "Melanoleuca alboflavida->Melanoleuca->Tricholomataceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671310"
+pgloadind     taxon mapping OTT ID 776631 taxonomy "Phyllotopsis nidulans->Phyllotopsis->Tricholomataceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671311"
+pgloadind     taxon mapping OTT ID 518861 taxonomy "Hypsizygus ulmarius->Hypsizygus->Lyophyllaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671314"
+pgloadind     taxon mapping OTT ID 284718 taxonomy "Tephrocybe tylicolor->Tephrocybe->Lyophyllaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671315"
+pgloadind     taxon mapping OTT ID 831066 taxonomy "Tricholoma matsutake->Tricholoma->Tricholomataceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671318"
+pgloadind     taxon mapping OTT ID 431732 taxonomy "Tricholoma myomyces->Tricholoma->Tricholomataceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671319"
+pgloadind     taxon mapping OTT ID 737449 taxonomy "Agaricus bisporus->Agaricus->Agaricaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671322"
+pgloadind     taxon mapping OTT ID 484264 taxonomy "Chlorophyllum rachodes->Chlorophyllum->Agaricaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671323"
+pgloadind     taxon mapping OTT ID 191811 taxonomy "Leucoagaricus leucothites->Leucoagaricus->Agaricaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671324"
+pgloadind     taxon mapping OTT ID 5304086 taxonomy "Retiboletus retipes->Retiboletus->Boletaceae->Boletineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671327"
+pgloadind     taxon mapping OTT ID 111535 taxonomy "Phylloporus rhodoxanthus->Phylloporus->Boletaceae->Boletineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671328"
+pgloadind     taxon mapping OTT ID 385505 taxonomy "Serpula lacrymans->Serpula->Serpulaceae->Coniophorineae->Boletales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671329"
+pgloadind     taxon mapping OTT ID 685636 taxonomy "Heliocybe sulcata->Heliocybe->Polyporaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671331"
+pgloadind     taxon mapping OTT ID 4099991 taxonomy "Neolentinus kauffmanii->Neolentinus->Polyporaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671335"
+pgloadind     taxon mapping OTT ID 950410 taxonomy "Neolentinus dactyloides->Neolentinus->Polyporaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671336"
+pgloadind     taxon mapping OTT ID 982765 taxonomy "Neolentinus lepideus->Neolentinus->Polyporaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671337"
+pgloadind     taxon mapping OTT ID 493749 taxonomy "Gloeophyllum trabeum->Gloeophyllum->Gloeophyllaceae->Gloeophyllales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671338"
+pgloadind     taxon mapping OTT ID 625340 taxonomy "Lentinellus micheneri->Lentinellus->Auriscalpiaceae->Russulales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671341"
+pgloadind     taxon mapping OTT ID 959446 taxonomy "Lactarius corrugis->Lactarius->Russulaceae->Russulales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671343"
+pgloadind     taxon mapping OTT ID 5299312 taxonomy "Russula nobilis->Russula->Russulaceae->Russulales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671344"
+pgloadind     taxon mapping OTT ID 1072058 taxonomy "Heterobasidion annosum->Heterobasidion annosum species complex->Heterobasidion->Bondarzewiaceae->Russulales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671345"
+pgloadind     taxon mapping OTT ID 414777 taxonomy "Panus conchatus->Panus->Polyporaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671347"
+pgloadind     taxon mapping OTT ID 446092 taxonomy "Panus lecomtei->Panus->Polyporaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671348"
+pgloadind     taxon mapping OTT ID 493750 taxonomy "Faerberia carbonaria->Faerberia->Polyporaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671349"
+pgloadind     taxon mapping OTT ID 60045 taxonomy "Ganoderma lucidum->Ganoderma->Ganodermataceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671352"
+pgloadind     taxon mapping OTT ID 60033 taxonomy "Irpex lacteus->Irpex->Meruliaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671353"
+pgloadind     taxon mapping OTT ID 685638 taxonomy "Lentinus tigrinus->Lentinus->Polyporaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671354"
+pgloadind     taxon mapping OTT ID 715746 taxonomy "Polyporus squamosus->Polyporus->Polyporaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node671355"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "3405"
+pgloadind   Adding tree to graph tree id "3405"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Hypsizygus ulmarius was remapped to 'Hypsizygus' (id=297727)
+	Phyllotopsis nidulans was remapped to 'Phyllotopsis' (id=336406)
+	Neonothopanus nambi was remapped to 'Neonothopanus' (id=320088)
+	Lentinellus micheneri was remapped to 'Auriscalpiaceae' (id=258166)
+	Stropharia rugosoannulata was remapped to 'Psilocybe' (id=331811)
+	Faerberia carbonaria was remapped to 'Faerberia' (id=271023)
+	Coprinopsis variegata was remapped to 'Psathyrellaceae' (id=343930)
+	Heliocybe sulcata was remapped to 'Heliocybe' (id=274082)
+	Ganoderma lucidum was remapped to 'Ganodermataceae' (id=266965)
+	Crinipellis campanella was remapped to 'Crinipellis' (id=320241)
+	Irpex lacteus was remapped to 'Meruliaceae' (id=268055)
+	Polyporus squamosus was remapped to 'Polyporus' (id=276369)
+	Lactarius corrugis was remapped to 'Lactarius' (id=262205)
+	Russula nobilis was remapped to 'Russula' (id=259803)
+	Marasmius delectans was remapped to 'Marasmius' (id=320971)
+	Retiboletus retipes was remapped to 'Retiboletus' (id=294217)
+	Lentinula edodes was remapped to 'Lentinula' (id=319577)
+	Melanoleuca alboflavida was remapped to 'Melanoleuca' (id=337921)
+	Tephrocybe tylicolor was remapped to 'Tephrocybe' (id=297745)
+	Serpula lacrymans was remapped to 'Coniophorineae' (id=294968)
+	Chlorophyllum rachodes was remapped to 'Chlorophyllum' (id=299032)
+	Conchomyces bursiformis was remapped to 'Conchomyces' (id=335715)
+	Heterobasidion annosum was remapped to 'Bondarzewiaceae' (id=258411)
+	Leucoagaricus leucothites was remapped to 'Leucoagaricus' (id=307841)
+	Phylloporus rhodoxanthus was remapped to 'Phylloporus' (id=293761)
+	Gymnopus dryophilus was remapped to 'Gymnopus' (id=318966)
+	Gloeophyllum trabeum was remapped to 'Gloeophyllales' (id=285647)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Thorn R., Moncalvo J., Reddy C., & Vilgalys R. 2000. Phylogenetic analyses and the distribution of nematophagy support a monophyletic Pleurotaceae within the polyphyletic pleurotoid-lentinoid fungi. Mycologia, 92(2): 241-252.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Pleurotaceae
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2000
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node671248
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.2307/3761557
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 1019482
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP, ITS + LSU
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 1690
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S568
+Committing nodes: 102
+	adding Node[291481] Boletineae 457224 as compatible with Node[291483]
+		adding Relationship[8416084]
+		adding to root Relationship[8416085]
+		adding Relationship[8416086] from Node[291481] to Node[290852]

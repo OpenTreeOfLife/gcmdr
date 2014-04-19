@@ -1,0 +1,61 @@
+pgloadind OTUs number 60
+pgloadind Processing tree @id "266"
+pgloadind   tree info number nodes 101
+pgloadind   tree info number edges 100
+pgloadind   tree info ingroup "node189682"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 6
+pgloadind   property added ot:studyPublicationReference "Alexander P., Windham M., Bailey C., Rajanikanth G., & Al-shehbaz I. 2010. Molecular phylogenetics and taxonomy of the genus Thysanocarpus (Brassicaceae). Systematic Botany, 35(3): 559-577."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1600/036364410792495926"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S10201"
+pgloadind   property added ot:studyId "315"
+pgloadind   property added ot:studyYear "2010"
+pgloadind   property added ot:focalClade "64218"
+pgloadind   property added ot:focalCladeOTTTaxonName "Thysanocarpus"
+pgloadind   property added ot:inGroupClade "node189682"
+pgloadind   property added ot:curatedType "MP"
+loading a specific tree: 266
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "266"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "(Thysanocarpus_erectus,((Thysanocarpus_radians,Thysanocarpus_curvipes),(Thysanocarpus_rigidus,(Thysanocarpus_laciniatus_var_laciniatus,Thysanocarpus_conchuliferus))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 428842 taxonomy "Thysanocarpus erectus->Thysanocarpus->Thelypodieae->Brassicaceae->Brassicales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node189683"
+pgloadind     taxon mapping OTT ID 954873 taxonomy "Thysanocarpus radians->Thysanocarpus->Thelypodieae->Brassicaceae->Brassicales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node189686"
+pgloadind     taxon mapping OTT ID 951975 taxonomy "Thysanocarpus curvipes->Thysanocarpus->Thelypodieae->Brassicaceae->Brassicales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node189687"
+pgloadind     taxon mapping OTT ID 3931999 taxonomy "Thysanocarpus rigidus->Thysanocarpus->Thelypodieae->Brassicaceae->Brassicales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node189689"
+pgloadind     taxon mapping OTT ID 428852 taxonomy "Thysanocarpus laciniatus var. laciniatus->Thysanocarpus laciniatus->Thysanocarpus->Thelypodieae->Brassicaceae->Brassicales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node189691"
+pgloadind     taxon mapping OTT ID 428856 taxonomy "Thysanocarpus conchuliferus->Thysanocarpus->Thelypodieae->Brassicaceae->Brassicales->malvids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node189692"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "266"
+pgloadind   Adding tree to graph tree id "266"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Thysanocarpus laciniatus var. laciniatus was remapped to 'Thysanocarpus laciniatus' (id=2789890)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Alexander P., Windham M., Bailey C., Rajanikanth G., & Al-shehbaz I. 2010. Molecular phylogenetics and taxonomy of the genus Thysanocarpus (Brassicaceae). Systematic Botany, 35(3): 559-577.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Thysanocarpus
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2010
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node189682
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1600/036364410792495926
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 64218
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 315
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S10201
+Committing nodes: 11

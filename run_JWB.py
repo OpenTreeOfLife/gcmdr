@@ -53,7 +53,7 @@ print "loading studytreelist:",studytreelist
 #aname="Metazoa_test_2.5draft1_mapcompat"
 #aname="Life_taxonomy-only_2.5draft1"
 #aname="Decapoda_OTT2.5draft1_taxonomy-only"
-aname="Life_v2.6_mapcompat_14April"
+aname="Life_v2.6_mapcompat_19April"
 # location of synth database
 dsynth=bdir+aname+".db"
 # location of synth treefile

@@ -17,9 +17,9 @@ dsynth=bdir+"terp-synth.db"
 #location of synth treefile
 treefn=bdir+"terp-synth.tre"
 #location of test output
-outl=bdir+"testloc"
+outl=bdir+"terp-testloc"
 #trashing the log file
-generallogfileloc=bdir+"TRASHLOG"
+generallogfileloc=bdir+"terp-TRASHLOG"
 #java prefix
 javapre="java -XX:+UseConcMarkSweepGC -Xmx32g -server -jar"
 #location of treemachine

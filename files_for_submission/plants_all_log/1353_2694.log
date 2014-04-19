@@ -1,0 +1,66 @@
+pgloadind OTUs number 11
+pgloadind Processing tree @id "2694"
+pgloadind   tree info number nodes 21
+pgloadind   tree info number edges 20
+pgloadind   tree info ingroup "node593548"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 10
+pgloadind   property added ot:studyPublicationReference "Kachalkin A.V., & Yurkov A.M. 2012. Yeast communities in Sphagnum phyllosphere along the temperature-moisture ecocline in the boreal forest-swamp ecosystem and description of Candida sphagnicola sp. nov. Antonie van Leeuwenhoek International Journal of General and Molecular Microbiology, 102(1): 29-43."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1007/s10482-012-9710-6"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S11989"
+pgloadind   property added ot:studyId "1353"
+pgloadind   property added ot:studyYear "2012"
+pgloadind   property added ot:focalClade "1034970"
+pgloadind   property added ot:focalCladeOTTTaxonName "Candida"
+pgloadind   property added ot:inGroupClade "node593548"
+pgloadind   property added ot:curatedType "tree 1"
+loading a specific tree: 2694
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "2694"
+pgloadind     OTT ID missing name "Candida sphagnicola k280" nexsonid "node593554"
+pgloadind   TNRS unmatched total number 1
+pgloadind     pruning unmapped name "Candida sphagnicola k280" nexsonid "node593554"
+pgloadind   postpruning newick tree "((((Candida_palmioleophila,Candida_fluviatilis),((Candida_glaebosa,Candida_pseudoglaebosa),Candida_saitoana)),Scheffersomyces_spartinae),((Candida_zeylanoides,Candida_oleophila),Candida_fragi))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 832184 taxonomy "Candida palmioleophila->Candida->Saccharomycetales->Saccharomycetidae->Saccharomycetes->Saccharomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node593555"
+pgloadind     taxon mapping OTT ID 325026 taxonomy "Candida fluviatilis->Candida->Saccharomycetales->Saccharomycetidae->Saccharomycetes->Saccharomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node593553"
+pgloadind     taxon mapping OTT ID 780837 taxonomy "Candida glaebosa->Candida->Saccharomycetales->Saccharomycetidae->Saccharomycetes->Saccharomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node593560"
+pgloadind     taxon mapping OTT ID 735677 taxonomy "Candida pseudoglaebosa->Candida->Saccharomycetales->Saccharomycetidae->Saccharomycetes->Saccharomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node593559"
+pgloadind     taxon mapping OTT ID 558326 taxonomy "Candida saitoana->Candida->Saccharomycetales->Saccharomycetidae->Saccharomycetes->Saccharomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node593557"
+pgloadind     taxon mapping OTT ID 882710 taxonomy "Scheffersomyces spartinae->Scheffersomyces->Debaryomycetaceae->Saccharomycetales->Saccharomycetidae->Saccharomycetes->Saccharomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node593561"
+pgloadind     taxon mapping OTT ID 984639 taxonomy "Candida zeylanoides->Candida->Saccharomycetales->Saccharomycetidae->Saccharomycetes->Saccharomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node593565"
+pgloadind     taxon mapping OTT ID 832179 taxonomy "Candida oleophila->Candida->Saccharomycetales->Saccharomycetidae->Saccharomycetes->Saccharomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node593566"
+pgloadind     taxon mapping OTT ID 735679 taxonomy "Candida fragi->Candida->Saccharomycetales->Saccharomycetidae->Saccharomycetes->Saccharomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node593563"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "2694"
+pgloadind   Adding tree to graph tree id "2694"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Scheffersomyces spartinae was remapped to 'Debaryomycetaceae' (id=250496)
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Kachalkin A.V., & Yurkov A.M. 2012. Yeast communities in Sphagnum phyllosphere along the temperature-moisture ecocline in the boreal forest-swamp ecosystem and description of Candida sphagnicola sp. nov. Antonie van Leeuwenhoek International Journal of General and Molecular Microbiology, 102(1): 29-43.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Candida
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2012
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node593548
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1007/s10482-012-9710-6
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 1034970
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': tree 1
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 1353
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S11989
+Committing nodes: 17

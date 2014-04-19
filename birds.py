@@ -1,15 +1,15 @@
 studytreelist=[
-     ## Birds
+## Birds
                "2876_6670", # Tinamidae. Bertelli, Sara, Ana Luz Porzecanski
                "2875_6668", # Oriolidae. Jonsson et al. 2010. Ecography
                "2874_6667", # Carpodacus. Tietze et al. 2013. Zool. J. Linn. Soc.
                "2873_6666", # Certhia. Tietze et al. 2006. Ibis
-               "2332_4912", # Sylviidae. Voelker and Light. 2011. BMC Evol. Biol.
+               "2332_4912", # Sylviidae. Voelker and Light. 2011. BMC Evol. Biol. *** Pseudoalcippe should be in the family Silviidae rather than Timaliidae
                "1854_3743", # Troglodytinae. Mann et al. 2006. MPE
                "1586_3208", # Timaliidae. Moyle et al. 2012. Syst. Biol.
                "2858_6642", # Turdidae. Nylander et al. 2008. Syst. Biol.
                "2829_6579", # Thraupidae. Burns et al. 2014. MPE
-               "1953_3977", # Furnariidae. Derryberry et al. 2001. Evolution
+               "1953_3977", # Furnariidae. Derryberry et al. 2011. Evolution
                "2872_6665", # Caprimuligidae. Han et al. MPE
                "1872_3780", # Gruiformes. Fain et al 2007. MPE
                "2869_6661", # Bucerotiformes. Gonzalez et al. 2013. MPE
@@ -30,16 +30,15 @@ studytreelist=[
                "2577_5980", # Galliformes. Wang et al. 2013. PLoS ONE
                "2865_6654", # Cynanthus. Garcia-Deras et al. 2008. Zootaxa.
                "2853_6624", # Trochilidae. McGuire et al. 2014. Curr. Biol. *** Replaces McGuire et al. 2007. Syst. Biol.
-               #"2658_6192", # Trochilidae. McGuire et al. 2007. Syst. Biol.
                "2796_6491", # Pipridae. Ohlson et al. 2013. MPE
-               "2707_6281", # Icteridae. Powell et al. 2013. MPE
+               "2707_6281", # Icteridae. Powell et al. 2013. MPE *** Hypopyrrhus not mapped to Icteridae
                "1966_4019", # Maluridae. Lee et al. 2011. Syst. Biol.
                "2600_6022", # Paridae. Johansson et al. 2013. MPE
                "2599_6021", # Alaudidae (larks). Alstrom et al. 2013. MPE
                "2591_6008", # Parulidae (warblers). Lovette et al. 2008. MPE
                "2454_5247", # Thamnophilus. Brumfield and Edwards. 2007. Evolution
                "2692_6245", # Fringillidae. Zuccon et al. 2012. MPE
-               "2702_6274", # core Corvoidea. Aggerbeck et al. 2014. MPE
+               "2702_6274", # core Corvoidea. Aggerbeck et al. 2014. MPE *** mapping back to Passeroidea
                "2575_5974", # Passeriformes. Barker et al. 2013. Syst. Biol.
                "2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
                "420_522",   # Aves. Hackett et al. 2008. Science

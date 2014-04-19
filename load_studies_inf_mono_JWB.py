@@ -24,9 +24,9 @@ if __name__ == "__main__":
     
     for i in studytreelist:
         tstudy_list = [i]
-        generallogfileloc = "metazoalog/"+i+".log"
-        ttfntreefn = "metazoalog/"+i+".tre"
-        infmonofn = "metazoalog/"+i+".inf_mono"
+        generallogfileloc = "metazoa_all_log/"+i+".log"
+        ttfntreefn = "metazoa_all_log/"+i+".tre"
+        infmonofn = "metazoa_all_log/"+i+".inf_mono"
         load_synth_extract.run_load_single_ttfn_inf_mono(dott,dload,studyloc,tstudy_list,javapre,
                                                 treemloc,generallogfileloc,dsynth,synthottolid,treefn,ttfntreefn,infmonofn)
 

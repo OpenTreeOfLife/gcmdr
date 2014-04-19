@@ -1,0 +1,67 @@
+pgloadind OTUs number 12
+pgloadind Processing tree @id "5712"
+pgloadind   tree info number nodes 23
+pgloadind   tree info number edges 22
+pgloadind   tree info ingroup "node981839"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 6
+pgloadind   property added ot:studyPublicationReference "Mathews, K. G., Dunne, N., York, E., & Struwe, L. (2009). A phylogenetic analysis and taxonomic revision of Bartonia (Gentianaceae: Gentianeae), based on molecular and morphological evidence. Systematic Botany, 34(1), 162-172."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1600/036364409787602320"
+pgloadind   property added ot:curatorName "William Wysocki"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S2096"
+pgloadind   property added ot:studyId "39"
+pgloadind   property added ot:studyYear "2008"
+pgloadind   property added ot:focalClade "889091"
+pgloadind   property added ot:focalCladeOTTTaxonName "Bartonia"
+pgloadind   property added ot:tag "cpDNA & nrDNA"
+pgloadind   property added ot:tag "ingroup added;"
+pgloadind   property added ot:inGroupClade "node981839"
+pgloadind   property added ot:curatedType "Fig. 4"
+loading a specific tree: 5712
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "5712"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Bartonia virginica" nexsonid "node981849"
+pgloadind       duplicate OTT ID 889100
+pgloadind     pruning dups and overlapping name "Bartonia virginica" nexsonid "node981849"
+pgloadind   postpruning newick tree "(((Bartonia_paniculata_subsp_paniculata,Bartonia_paniculata_subsp_texana),Bartonia_paniculata_subsp_iodandra),(Bartonia_verna,Bartonia_virginica))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 1033652 taxonomy "Bartonia paniculata subsp. paniculata->Bartonia paniculata->Bartonia->Gentianeae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node981842"
+pgloadind     taxon mapping OTT ID 1033653 taxonomy "Bartonia paniculata subsp. texana->Bartonia paniculata->Bartonia->Gentianeae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node981843"
+pgloadind     taxon mapping OTT ID 406979 taxonomy "Bartonia paniculata subsp. iodandra->Bartonia paniculata->Bartonia->Gentianeae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node981844"
+pgloadind     taxon mapping OTT ID 1033648 taxonomy "Bartonia verna->Bartonia->Gentianeae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node981846"
+pgloadind     taxon mapping OTT ID 889100 taxonomy "Bartonia virginica->Bartonia->Gentianeae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node981848"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "5712"
+pgloadind   Adding tree to graph tree id "5712"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Mathews, K. G., Dunne, N., York, E., & Struwe, L. (2009). A phylogenetic analysis and taxonomic revision of Bartonia (Gentianaceae: Gentianeae), based on molecular and morphological evidence. Systematic Botany, 34(1), 162-172.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Bartonia
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2008
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node981839
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': William Wysocki
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1600/036364409787602320
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 889091
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig. 4
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 39
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S2096
+Committing nodes: 9

@@ -1,0 +1,63 @@
+pgloadind OTUs number 30
+pgloadind Processing tree @id "166"
+pgloadind   tree info number nodes 55
+pgloadind   tree info number edges 54
+pgloadind   tree info ingroup "node171663"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 6
+pgloadind   property added ot:studyPublicationReference "Shipunov, A. B., & Shipunova, E. 2011. Haptanthus story: Rediscovery of enigmatic flowering plant from Honduras. American J. Bot. 98: 761-763."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.3732/ajb.1000307"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:studyId "274"
+pgloadind   property added ot:studyYear "2011"
+pgloadind   property added ot:focalClade "1000247"
+pgloadind   property added ot:focalCladeOTTTaxonName "Buxaceae"
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+pgloadind   property added ot:inGroupClade "node171663"
+pgloadind   property added ot:curatedType "BI consensus tree"
+loading a specific tree: 166
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "166"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Buxus" nexsonid "node171667"
+pgloadind       duplicate OTT ID 1000250
+pgloadind     pruning dups and overlapping name "Buxus" nexsonid "node171667"
+pgloadind   postpruning newick tree "((Haptanthus,Buxus),((Styloceras,Pachysandra),Sarcococca))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 482650 taxonomy "Haptanthus->Buxaceae->Buxales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171668"
+pgloadind     taxon mapping OTT ID 1000250 taxonomy "Buxus->Buxaceae->Buxales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171666"
+pgloadind     taxon mapping OTT ID 650197 taxonomy "Styloceras->Buxaceae->Buxales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171671"
+pgloadind     taxon mapping OTT ID 314707 taxonomy "Pachysandra->Buxaceae->Buxales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171672"
+pgloadind     taxon mapping OTT ID 1007349 taxonomy "Sarcococca->Buxaceae->Buxales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node171673"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "166"
+pgloadind   Adding tree to graph tree id "166"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Shipunov, A. B., & Shipunova, E. 2011. Haptanthus story: Rediscovery of enigmatic flowering plant from Honduras. American J. Bot. 98: 761-763.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Buxaceae
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2011
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node171663
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.3732/ajb.1000307
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 1000247
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': BI consensus tree
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 274
+Committing nodes: 9

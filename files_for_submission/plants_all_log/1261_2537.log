@@ -1,0 +1,72 @@
+pgloadind OTUs number 20
+pgloadind Processing tree @id "2537"
+pgloadind   tree info number nodes 38
+pgloadind   tree info number edges 37
+pgloadind   tree info ingroup "node577211"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 3
+pgloadind   property added ot:studyPublicationReference "Nishiyama T., Wolf P.G., Kugita M., Sinclair R.B., Sugita M., Sugiura C., Wakasugi
+T., Yamada K., Yoshinaga K., Yamaguchi K., Ueda K., & Hasebe M. 2004. Chloroplast
+Phylogeny Indicates that Bryophytes are Monophyletic. Molecular Biology and
+Evolution, 21(10): 1813-1819."
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1093/molbev/msh203"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S12032"
+pgloadind   property added ot:studyId "1261"
+pgloadind   property added ot:studyYear "2004"
+pgloadind   property added ot:focalClade "246594"
+pgloadind   property added ot:focalCladeOTTTaxonName "Bryophyta"
+pgloadind   property added ot:tag "ingroup added;"
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+pgloadind   property added ot:inGroupClade "node577211"
+pgloadind   property added ot:curatedType "ML"
+loading a specific tree: 2537
+pgloadind conducting TNRS on trees
+pgloadind   name fixing on tree tree id "2537"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "((Marchantia_polymorpha,Physcomitrella_patens),Anthoceros_angustus)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 56596 taxonomy "Marchantia polymorpha->Marchantia->Marchantiaceae->Marchantiales->Marchantiidae->Marchantiopsida->Marchantiophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node577213"
+pgloadind     taxon mapping OTT ID 821359 taxonomy "Physcomitrella patens->Physcomitrella->Funariaceae->Funariales->Funariidae->Bryopsida->Bryophytina->Bryophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node577214"
+pgloadind     taxon mapping OTT ID 539796 taxonomy "Anthoceros angustus->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node577215"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "2537"
+pgloadind   Adding tree to graph tree id "2537"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Anthoceros angustus was remapped to 'Anthocerotophyta' (id=3156045)
+	Physcomitrella patens was remapped to 'Bryophyta' (id=3137825)
+	Marchantia polymorpha was remapped to 'Marchantiophyta' (id=3133163)
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Nishiyama T., Wolf P.G., Kugita M., Sinclair R.B., Sugita M., Sugiura C., Wakasugi
+T., Yamada K., Yoshinaga K., Yamaguchi K., Ueda K., & Hasebe M. 2004. Chloroplast
+Phylogeny Indicates that Bryophytes are Monophyletic. Molecular Biology and
+Evolution, 21(10): 1813-1819.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Bryophyta
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S12032
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': 1261
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2004
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node577211
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1093/molbev/msh203
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 246594
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': ML
+Committing nodes: 5
