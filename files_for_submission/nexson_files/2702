@@ -1,0 +1,4895 @@
+{
+"nexml": {
+"@about": "#study", 
+"@generator": "Phylografter nexml-json exporter", 
+"@id": "study", 
+"@nexmljson": "http://purl.org/opentree/nexson", 
+"@version": "0.9", 
+"@xmlns": {
+"$": "http://www.nexml.org/2009", 
+"nex": "http://www.nexml.org/2009", 
+"ot": "http://purl.org/opentree-terms#", 
+"xsd": "http://www.w3.org/2001/XMLSchema#", 
+"xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}, 
+"meta": [
+{
+"$": "Marie Aggerbeck, Jon Fjelds\u00e5, Les Christidis, Pierre-Henri Fabre, Knud Andreas J\u00f8nsson. 2014. Resolving deep lineage divergences in core corvoid passerine birds supports a proto-Papuan island origin. Molecular Phylogenetics and Evolution 70: 272-285.", 
+"@property": "ot:studyPublicationReference", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://dx.doi.org/10.1016/j.ympev.2013.09.027", 
+"@rel": "ot:studyPublication", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": "Joseph Brown", 
+"@property": "ot:curatorName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "2702", 
+"@property": "ot:studyId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 2014, 
+"@property": "ot:studyYear", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 635217, 
+"@property": "ot:focalClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corvoidea", 
+"@property": "ot:focalCladeOTTTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "ingroup added;", 
+"@property": "ot:tag", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"otus": {
+"@id": "otus2702", 
+"otu": [
+{
+"@about": "#otu405175", 
+"@id": "otu405175", 
+"@label": "Acanthisitta", 
+"meta": [
+{
+"$": 1085741, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Acanthisitta", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Acanthisitta", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405176", 
+"@id": "otu405176", 
+"@label": "Pitta", 
+"meta": [
+{
+"$": 44875, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pitta", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pitta", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405177", 
+"@id": "otu405177", 
+"@label": "Menura", 
+"meta": [
+{
+"$": 73933, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Menura", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Menura", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405178", 
+"@id": "otu405178", 
+"@label": "Climacteris", 
+"meta": [
+{
+"$": 531218, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Climacteris", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Climacteris", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405179", 
+"@id": "otu405179", 
+"@label": "Malurus", 
+"meta": [
+{
+"$": 901831, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Malurus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Malurus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405180", 
+"@id": "otu405180", 
+"@label": "Pomatostomus", 
+"meta": [
+{
+"$": 565810, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pomatostomus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pomatostomus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405181", 
+"@id": "otu405181", 
+"@label": "Orthonyx", 
+"meta": [
+{
+"$": 488741, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Orthonyx", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Orthonyx", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405182", 
+"@id": "otu405182", 
+"@label": "Philesturnus carunculatus", 
+"meta": [
+{
+"$": 61981, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Philesturnus carunculatus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Philesturnus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405183", 
+"@id": "otu405183", 
+"@label": "Melanocharis", 
+"meta": [
+{
+"$": 176451, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Melanocharis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Melanocharis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405184", 
+"@id": "otu405184", 
+"@label": "Cnemophilus", 
+"meta": [
+{
+"$": 808268, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cnemophilus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cnemophilus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405185", 
+"@id": "otu405185", 
+"@label": "Picathartes", 
+"meta": [
+{
+"$": 699624, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Picathartes", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Picathartes", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405186", 
+"@id": "otu405186", 
+"@label": "Bombycilla", 
+"meta": [
+{
+"$": 613883, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Bombycilla", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Bombycilla", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405187", 
+"@id": "otu405187", 
+"@label": "Petroica", 
+"meta": [
+{
+"$": 918819, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Petroica", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Petroica", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405188", 
+"@id": "otu405188", 
+"@label": "Mohoua", 
+"meta": [
+{
+"$": 409115, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mohoua", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mohoua", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405189", 
+"@id": "otu405189", 
+"@label": "Pachycephala", 
+"meta": [
+{
+"$": 896892, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pachycephala", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pachycephala", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405190", 
+"@id": "otu405190", 
+"@label": "Oreoica", 
+"meta": [
+{
+"$": 540003, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Oreoica", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Oreoica", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405191", 
+"@id": "otu405191", 
+"@label": "Cinclosoma", 
+"meta": [
+{
+"$": 242585, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cinclosoma", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cinclosoma", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405192", 
+"@id": "otu405192", 
+"@label": "Falcunculus", 
+"meta": [
+{
+"$": 965224, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Falcunculus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Falcunculus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405193", 
+"@id": "otu405193", 
+"@label": "Daphoenositta", 
+"meta": [
+{
+"$": 439418, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Daphoenositta", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Daphoenositta", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405194", 
+"@id": "otu405194", 
+"@label": "Eulacestoma", 
+"meta": [
+{
+"$": 663330, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Eulacestoma", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Eulacestoma", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405195", 
+"@id": "otu405195", 
+"@label": "Oriolus", 
+"meta": [
+{
+"$": 631323, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Oriolus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Oriolus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405196", 
+"@id": "otu405196", 
+"@label": "Oreocharis", 
+"meta": [
+{
+"$": 880758, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Oreocharis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Oreocharis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405197", 
+"@id": "otu405197", 
+"@label": "Psophodes", 
+"meta": [
+{
+"$": 242582, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Psophodes", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Psophodes", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405198", 
+"@id": "otu405198", 
+"@label": "Vireolanius", 
+"meta": [
+{
+"$": 289427, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Vireolanius", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Vireolanius", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405199", 
+"@id": "otu405199", 
+"@label": "Rhipidura", 
+"meta": [
+{
+"$": 21006, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Rhipidura", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Rhipidura", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405200", 
+"@id": "otu405200", 
+"@label": "Dicrurus", 
+"meta": [
+{
+"$": 72474, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Dicrurus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Dicrurus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405201", 
+"@id": "otu405201", 
+"@label": "Monarcha castaneiventris", 
+"meta": [
+{
+"$": 355988, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Monarcha castaneiventris", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Monarcha", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405202", 
+"@id": "otu405202", 
+"@label": "Corvus", 
+"meta": [
+{
+"$": 952596, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corvus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corvus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405203", 
+"@id": "otu405203", 
+"@label": "Lanius", 
+"meta": [
+{
+"$": 551816, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Lanius", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Lanius", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405204", 
+"@id": "otu405204", 
+"@label": "Platylophus", 
+"meta": [
+{
+"$": 106249, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Platylophus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Platylophus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405205", 
+"@id": "otu405205", 
+"@label": "Ifrita", 
+"meta": [
+{
+"$": 242584, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Ifrita", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Ifrita", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405206", 
+"@id": "otu405206", 
+"@label": "Melampitta", 
+"meta": [
+{
+"$": 749723, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Melampitta", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Melampitta", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405207", 
+"@id": "otu405207", 
+"@label": "Corcorax", 
+"meta": [
+{
+"$": 659774, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corcorax", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corcorax", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405208", 
+"@id": "otu405208", 
+"@label": "Ptiloris", 
+"meta": [
+{
+"$": 551824, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Ptiloris", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Ptiloris", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405209", 
+"@id": "otu405209", 
+"@label": "Coracina", 
+"meta": [
+{
+"$": 808266, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Coracina", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Coracina", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405210", 
+"@id": "otu405210", 
+"@label": "Rhagologus", 
+"meta": [
+{
+"$": 96016, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Rhagologus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Rhagologus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405211", 
+"@id": "otu405211", 
+"@label": "Peltops", 
+"meta": [
+{
+"$": 935198, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Peltops", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Peltops", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405212", 
+"@id": "otu405212", 
+"@label": "Artamus", 
+"meta": [
+{
+"$": 1054558, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Artamus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Artamus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405213", 
+"@id": "otu405213", 
+"@label": "Gymnorhina", 
+"meta": [
+{
+"$": 613403, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gymnorhina", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gymnorhina", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405214", 
+"@id": "otu405214", 
+"@label": "Machaerirhynchus", 
+"meta": [
+{
+"$": 630525, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Machaerirhynchus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Machaerirhynchus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405215", 
+"@id": "otu405215", 
+"@label": "Prionops", 
+"meta": [
+{
+"$": 269027, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Prionops", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Prionops", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405216", 
+"@id": "otu405216", 
+"@label": "Batis", 
+"meta": [
+{
+"$": 310378, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Batis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Batis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405217", 
+"@id": "otu405217", 
+"@label": "Aegithina", 
+"meta": [
+{
+"$": 1054564, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Aegithina", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Aegithina", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405218", 
+"@id": "otu405218", 
+"@label": "Dryoscopus", 
+"meta": [
+{
+"$": 891276, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Dryoscopus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Dryoscopus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405219", 
+"@id": "otu405219", 
+"@label": "Pityriasis", 
+"meta": [
+{
+"$": 656023, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pityriasis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pityriasis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu405220", 
+"@id": "otu405220", 
+"@label": "Pityriasis", 
+"meta": [
+{
+"$": 656023, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pityriasis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pityria", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}, 
+"trees": {
+"@id": "trees2702", 
+"@otus": "otus2702", 
+"tree": [
+{
+"@about": "#tree6272", 
+"@id": "tree6272", 
+"edge": [
+{
+"@id": "edge1085404", 
+"@length": 0.081927, 
+"@source": "node1085403", 
+"@target": "node1085404"
+}, 
+{
+"@id": "edge1085405", 
+"@length": 0.0409635, 
+"@source": "node1085403", 
+"@target": "node1085405"
+}, 
+{
+"@id": "edge1085406", 
+"@length": 0.093314, 
+"@source": "node1085405", 
+"@target": "node1085406"
+}, 
+{
+"@id": "edge1085407", 
+"@length": 0.019268, 
+"@source": "node1085405", 
+"@target": "node1085407"
+}, 
+{
+"@id": "edge1085408", 
+"@length": 0.048021999999999995, 
+"@source": "node1085407", 
+"@target": "node1085408"
+}, 
+{
+"@id": "edge1085409", 
+"@length": 0.002452999999999997, 
+"@source": "node1085407", 
+"@target": "node1085409"
+}, 
+{
+"@id": "edge1085410", 
+"@length": 0.060944, 
+"@source": "node1085409", 
+"@target": "node1085410"
+}, 
+{
+"@id": "edge1085411", 
+"@length": 0.011081999999999995, 
+"@source": "node1085409", 
+"@target": "node1085411"
+}, 
+{
+"@id": "edge1085412", 
+"@length": 0.066646, 
+"@source": "node1085411", 
+"@target": "node1085412"
+}, 
+{
+"@id": "edge1085413", 
+"@length": 0.006068999999999991, 
+"@source": "node1085411", 
+"@target": "node1085413"
+}, 
+{
+"@id": "edge1085414", 
+"@length": 0.0023940000000000072, 
+"@source": "node1085413", 
+"@target": "node1085414"
+}, 
+{
+"@id": "edge1085415", 
+"@length": 0.043567999999999996, 
+"@source": "node1085414", 
+"@target": "node1085415"
+}, 
+{
+"@id": "edge1085416", 
+"@length": 0.04034299999999999, 
+"@source": "node1085414", 
+"@target": "node1085416"
+}, 
+{
+"@id": "edge1085417", 
+"@length": 0.002814000000000011, 
+"@source": "node1085413", 
+"@target": "node1085417"
+}, 
+{
+"@id": "edge1085418", 
+"@length": 0.0023330000000000017, 
+"@source": "node1085417", 
+"@target": "node1085418"
+}, 
+{
+"@id": "edge1085419", 
+"@length": 0.035047999999999996, 
+"@source": "node1085418", 
+"@target": "node1085419"
+}, 
+{
+"@id": "edge1085420", 
+"@length": 0.0017359999999999876, 
+"@source": "node1085418", 
+"@target": "node1085420"
+}, 
+{
+"@id": "edge1085421", 
+"@length": 0.035288000000000014, 
+"@source": "node1085420", 
+"@target": "node1085421"
+}, 
+{
+"@id": "edge1085422", 
+"@length": 0.0008720000000000117, 
+"@source": "node1085420", 
+"@target": "node1085422"
+}, 
+{
+"@id": "edge1085423", 
+"@length": 0.036102999999999996, 
+"@source": "node1085422", 
+"@target": "node1085423"
+}, 
+{
+"@id": "edge1085424", 
+"@length": 0.001805000000000001, 
+"@source": "node1085422", 
+"@target": "node1085424"
+}, 
+{
+"@id": "edge1085425", 
+"@length": 0.04314299999999999, 
+"@source": "node1085424", 
+"@target": "node1085425"
+}, 
+{
+"@id": "edge1085426", 
+"@length": 0.0021539999999999893, 
+"@source": "node1085424", 
+"@target": "node1085426"
+}, 
+{
+"@id": "edge1085427", 
+"@length": 0.062727, 
+"@source": "node1085426", 
+"@target": "node1085427"
+}, 
+{
+"@id": "edge1085428", 
+"@length": 0.049204, 
+"@source": "node1085426", 
+"@target": "node1085428"
+}, 
+{
+"@id": "edge1085429", 
+"@length": 0.004372, 
+"@source": "node1085417", 
+"@target": "node1085429"
+}, 
+{
+"@id": "edge1085430", 
+"@length": 0.02458500000000001, 
+"@source": "node1085429", 
+"@target": "node1085430"
+}, 
+{
+"@id": "edge1085431", 
+"@length": 0.0019820000000000115, 
+"@source": "node1085429", 
+"@target": "node1085431"
+}, 
+{
+"@id": "edge1085432", 
+"@length": 0.0009909999999999919, 
+"@source": "node1085431", 
+"@target": "node1085432"
+}, 
+{
+"@id": "edge1085433", 
+"@length": 0.0010690000000000005, 
+"@source": "node1085432", 
+"@target": "node1085433"
+}, 
+{
+"@id": "edge1085434", 
+"@length": 0.025504, 
+"@source": "node1085433", 
+"@target": "node1085434"
+}, 
+{
+"@id": "edge1085435", 
+"@length": 0.000903000000000001, 
+"@source": "node1085433", 
+"@target": "node1085435"
+}, 
+{
+"@id": "edge1085436", 
+"@length": 0.029042, 
+"@source": "node1085435", 
+"@target": "node1085436"
+}, 
+{
+"@id": "edge1085437", 
+"@length": 0.0030909999999999965, 
+"@source": "node1085435", 
+"@target": "node1085437"
+}, 
+{
+"@id": "edge1085438", 
+"@length": 0.028243000000000004, 
+"@source": "node1085437", 
+"@target": "node1085438"
+}, 
+{
+"@id": "edge1085439", 
+"@length": 0.025089, 
+"@source": "node1085437", 
+"@target": "node1085439"
+}, 
+{
+"@id": "edge1085440", 
+"@length": 0.0004730000000000012, 
+"@source": "node1085432", 
+"@target": "node1085440"
+}, 
+{
+"@id": "edge1085441", 
+"@length": 0.0007380000000000025, 
+"@source": "node1085440", 
+"@target": "node1085441"
+}, 
+{
+"@id": "edge1085442", 
+"@length": 0.032761, 
+"@source": "node1085441", 
+"@target": "node1085442"
+}, 
+{
+"@id": "edge1085443", 
+"@length": 0.02692599999999999, 
+"@source": "node1085441", 
+"@target": "node1085443"
+}, 
+{
+"@id": "edge1085444", 
+"@length": 0.0008620000000000017, 
+"@source": "node1085440", 
+"@target": "node1085444"
+}, 
+{
+"@id": "edge1085445", 
+"@length": 0.030639, 
+"@source": "node1085444", 
+"@target": "node1085445"
+}, 
+{
+"@id": "edge1085446", 
+"@length": 0.032055, 
+"@source": "node1085444", 
+"@target": "node1085446"
+}, 
+{
+"@id": "edge1085447", 
+"@length": 0.006328, 
+"@source": "node1085444", 
+"@target": "node1085447"
+}, 
+{
+"@id": "edge1085448", 
+"@length": 0.019642999999999994, 
+"@source": "node1085447", 
+"@target": "node1085448"
+}, 
+{
+"@id": "edge1085449", 
+"@length": 0.02726200000000001, 
+"@source": "node1085447", 
+"@target": "node1085449"
+}, 
+{
+"@id": "edge1085450", 
+"@length": 0.0010550000000000004, 
+"@source": "node1085431", 
+"@target": "node1085450"
+}, 
+{
+"@id": "edge1085451", 
+"@length": 0.006495999999999995, 
+"@source": "node1085450", 
+"@target": "node1085451"
+}, 
+{
+"@id": "edge1085452", 
+"@length": 0.037084, 
+"@source": "node1085451", 
+"@target": "node1085452"
+}, 
+{
+"@id": "edge1085453", 
+"@length": 0.0005070000000000005, 
+"@source": "node1085451", 
+"@target": "node1085453"
+}, 
+{
+"@id": "edge1085454", 
+"@length": 0.020671999999999996, 
+"@source": "node1085453", 
+"@target": "node1085454"
+}, 
+{
+"@id": "edge1085455", 
+"@length": 0.0009779999999999997, 
+"@source": "node1085453", 
+"@target": "node1085455"
+}, 
+{
+"@id": "edge1085456", 
+"@length": 0.0013330000000000009, 
+"@source": "node1085455", 
+"@target": "node1085456"
+}, 
+{
+"@id": "edge1085457", 
+"@length": 0.026240000000000006, 
+"@source": "node1085456", 
+"@target": "node1085457"
+}, 
+{
+"@id": "edge1085458", 
+"@length": 0.001457, 
+"@source": "node1085456", 
+"@target": "node1085458"
+}, 
+{
+"@id": "edge1085459", 
+"@length": 0.019719999999999994, 
+"@source": "node1085458", 
+"@target": "node1085459"
+}, 
+{
+"@id": "edge1085460", 
+"@length": 0.003918999999999999, 
+"@source": "node1085458", 
+"@target": "node1085460"
+}, 
+{
+"@id": "edge1085461", 
+"@length": 0.027187000000000003, 
+"@source": "node1085460", 
+"@target": "node1085461"
+}, 
+{
+"@id": "edge1085462", 
+"@length": 0.020348999999999992, 
+"@source": "node1085460", 
+"@target": "node1085462"
+}, 
+{
+"@id": "edge1085463", 
+"@length": 0.0012170000000000028, 
+"@source": "node1085455", 
+"@target": "node1085463"
+}, 
+{
+"@id": "edge1085464", 
+"@length": 0.023686, 
+"@source": "node1085463", 
+"@target": "node1085464"
+}, 
+{
+"@id": "edge1085465", 
+"@length": 0.0006680000000000019, 
+"@source": "node1085463", 
+"@target": "node1085465"
+}, 
+{
+"@id": "edge1085466", 
+"@length": 0.016590000000000008, 
+"@source": "node1085465", 
+"@target": "node1085466"
+}, 
+{
+"@id": "edge1085467", 
+"@length": 0.0007049999999999973, 
+"@source": "node1085465", 
+"@target": "node1085467"
+}, 
+{
+"@id": "edge1085468", 
+"@length": 0.020815, 
+"@source": "node1085467", 
+"@target": "node1085468"
+}, 
+{
+"@id": "edge1085469", 
+"@length": 0.019505999999999996, 
+"@source": "node1085467", 
+"@target": "node1085469"
+}, 
+{
+"@id": "edge1085470", 
+"@length": 0.0015929999999999833, 
+"@source": "node1085450", 
+"@target": "node1085470"
+}, 
+{
+"@id": "edge1085471", 
+"@length": 0.027090000000000003, 
+"@source": "node1085470", 
+"@target": "node1085471"
+}, 
+{
+"@id": "edge1085472", 
+"@length": 0.00515800000000001, 
+"@source": "node1085470", 
+"@target": "node1085472"
+}, 
+{
+"@id": "edge1085473", 
+"@length": 0.000564000000000002, 
+"@source": "node1085472", 
+"@target": "node1085473"
+}, 
+{
+"@id": "edge1085474", 
+"@length": 0.020047000000000002, 
+"@source": "node1085473", 
+"@target": "node1085474"
+}, 
+{
+"@id": "edge1085475", 
+"@length": 0.0028400000000000022, 
+"@source": "node1085473", 
+"@target": "node1085475"
+}, 
+{
+"@id": "edge1085476", 
+"@length": 0.019045000000000006, 
+"@source": "node1085475", 
+"@target": "node1085476"
+}, 
+{
+"@id": "edge1085477", 
+"@length": 0.0008169999999999983, 
+"@source": "node1085475", 
+"@target": "node1085477"
+}, 
+{
+"@id": "edge1085478", 
+"@length": 0.030842999999999995, 
+"@source": "node1085477", 
+"@target": "node1085478"
+}, 
+{
+"@id": "edge1085479", 
+"@length": 0.017235, 
+"@source": "node1085477", 
+"@target": "node1085479"
+}, 
+{
+"@id": "edge1085480", 
+"@length": 0.0007250000000000034, 
+"@source": "node1085472", 
+"@target": "node1085480"
+}, 
+{
+"@id": "edge1085481", 
+"@length": 0.022696000000000008, 
+"@source": "node1085480", 
+"@target": "node1085481"
+}, 
+{
+"@id": "edge1085482", 
+"@length": 0.0017150000000000012, 
+"@source": "node1085480", 
+"@target": "node1085482"
+}, 
+{
+"@id": "edge1085483", 
+"@length": 0.0018089999999999981, 
+"@source": "node1085482", 
+"@target": "node1085483"
+}, 
+{
+"@id": "edge1085484", 
+"@length": 0.023751000000000008, 
+"@source": "node1085483", 
+"@target": "node1085484"
+}, 
+{
+"@id": "edge1085485", 
+"@length": 0.022426, 
+"@source": "node1085483", 
+"@target": "node1085485"
+}, 
+{
+"@id": "edge1085486", 
+"@length": 0.0008290000000000033, 
+"@source": "node1085482", 
+"@target": "node1085486"
+}, 
+{
+"@id": "edge1085487", 
+"@length": 0.025543999999999997, 
+"@source": "node1085486", 
+"@target": "node1085487"
+}, 
+{
+"@id": "edge1085488", 
+"@length": 0.001117, 
+"@source": "node1085486", 
+"@target": "node1085488"
+}, 
+{
+"@id": "edge1085489", 
+"@length": 0.021832999999999998, 
+"@source": "node1085488", 
+"@target": "node1085489"
+}, 
+{
+"@id": "edge1085490", 
+"@length": 0.021025999999999996, 
+"@source": "node1085488", 
+"@target": "node1085490"
+}
+], 
+"meta": [
+{
+"$": "ot:substitutionCount", 
+"@property": "ot:branchLengthMode", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "node1085429", 
+"@property": "ot:inGroupClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Bayesian consensus", 
+"@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"node": [
+{
+"@id": "node1085403", 
+"@root": true
+}, 
+{
+"@about": "#node1085404", 
+"@id": "node1085404", 
+"@otu": "otu405175", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085405"
+}, 
+{
+"@about": "#node1085406", 
+"@id": "node1085406", 
+"@otu": "otu405176", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085407"
+}, 
+{
+"@about": "#node1085408", 
+"@id": "node1085408", 
+"@otu": "otu405177", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085409"
+}, 
+{
+"@about": "#node1085410", 
+"@id": "node1085410", 
+"@otu": "otu405178", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085411"
+}, 
+{
+"@about": "#node1085412", 
+"@id": "node1085412", 
+"@otu": "otu405179", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085413"
+}, 
+{
+"@id": "node1085414"
+}, 
+{
+"@about": "#node1085415", 
+"@id": "node1085415", 
+"@otu": "otu405180", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085416", 
+"@id": "node1085416", 
+"@otu": "otu405181", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085417"
+}, 
+{
+"@id": "node1085418"
+}, 
+{
+"@about": "#node1085419", 
+"@id": "node1085419", 
+"@otu": "otu405182", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085420"
+}, 
+{
+"@about": "#node1085421", 
+"@id": "node1085421", 
+"@otu": "otu405183", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085422"
+}, 
+{
+"@about": "#node1085423", 
+"@id": "node1085423", 
+"@otu": "otu405184", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085424"
+}, 
+{
+"@about": "#node1085425", 
+"@id": "node1085425", 
+"@otu": "otu405185", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085426"
+}, 
+{
+"@about": "#node1085427", 
+"@id": "node1085427", 
+"@otu": "otu405186", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085428", 
+"@id": "node1085428", 
+"@otu": "otu405187", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085429"
+}, 
+{
+"@about": "#node1085430", 
+"@id": "node1085430", 
+"@otu": "otu405188", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085431"
+}, 
+{
+"@id": "node1085432"
+}, 
+{
+"@id": "node1085433"
+}, 
+{
+"@about": "#node1085434", 
+"@id": "node1085434", 
+"@otu": "otu405189", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085435"
+}, 
+{
+"@about": "#node1085436", 
+"@id": "node1085436", 
+"@otu": "otu405190", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085437"
+}, 
+{
+"@about": "#node1085438", 
+"@id": "node1085438", 
+"@otu": "otu405191", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085439", 
+"@id": "node1085439", 
+"@otu": "otu405192", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085440"
+}, 
+{
+"@id": "node1085441"
+}, 
+{
+"@about": "#node1085442", 
+"@id": "node1085442", 
+"@otu": "otu405193", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085443", 
+"@id": "node1085443", 
+"@otu": "otu405194", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085444"
+}, 
+{
+"@about": "#node1085445", 
+"@id": "node1085445", 
+"@otu": "otu405195", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085446", 
+"@id": "node1085446", 
+"@otu": "otu405196", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085447"
+}, 
+{
+"@about": "#node1085448", 
+"@id": "node1085448", 
+"@otu": "otu405197", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085449", 
+"@id": "node1085449", 
+"@otu": "otu405198", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085450"
+}, 
+{
+"@id": "node1085451"
+}, 
+{
+"@about": "#node1085452", 
+"@id": "node1085452", 
+"@otu": "otu405199", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085453"
+}, 
+{
+"@about": "#node1085454", 
+"@id": "node1085454", 
+"@otu": "otu405200", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085455"
+}, 
+{
+"@id": "node1085456"
+}, 
+{
+"@about": "#node1085457", 
+"@id": "node1085457", 
+"@otu": "otu405201", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085458"
+}, 
+{
+"@about": "#node1085459", 
+"@id": "node1085459", 
+"@otu": "otu405202", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085460"
+}, 
+{
+"@about": "#node1085461", 
+"@id": "node1085461", 
+"@otu": "otu405203", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085462", 
+"@id": "node1085462", 
+"@otu": "otu405204", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085463"
+}, 
+{
+"@about": "#node1085464", 
+"@id": "node1085464", 
+"@otu": "otu405205", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085465"
+}, 
+{
+"@about": "#node1085466", 
+"@id": "node1085466", 
+"@otu": "otu405206", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085467"
+}, 
+{
+"@about": "#node1085468", 
+"@id": "node1085468", 
+"@otu": "otu405207", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085469", 
+"@id": "node1085469", 
+"@otu": "otu405208", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085470"
+}, 
+{
+"@about": "#node1085471", 
+"@id": "node1085471", 
+"@otu": "otu405209", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085472"
+}, 
+{
+"@id": "node1085473"
+}, 
+{
+"@about": "#node1085474", 
+"@id": "node1085474", 
+"@otu": "otu405210", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085475"
+}, 
+{
+"@about": "#node1085476", 
+"@id": "node1085476", 
+"@otu": "otu405211", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085477"
+}, 
+{
+"@about": "#node1085478", 
+"@id": "node1085478", 
+"@otu": "otu405212", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085479", 
+"@id": "node1085479", 
+"@otu": "otu405213", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085480"
+}, 
+{
+"@about": "#node1085481", 
+"@id": "node1085481", 
+"@otu": "otu405214", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085482"
+}, 
+{
+"@id": "node1085483"
+}, 
+{
+"@about": "#node1085484", 
+"@id": "node1085484", 
+"@otu": "otu405215", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085485", 
+"@id": "node1085485", 
+"@otu": "otu405216", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085486"
+}, 
+{
+"@about": "#node1085487", 
+"@id": "node1085487", 
+"@otu": "otu405217", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085488"
+}, 
+{
+"@about": "#node1085489", 
+"@id": "node1085489", 
+"@otu": "otu405218", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085490", 
+"@id": "node1085490", 
+"@otu": "otu405219", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}, 
+{
+"@about": "#tree6273", 
+"@id": "tree6273", 
+"edge": [
+{
+"@id": "edge1085492", 
+"@length": 0.04186620465151244, 
+"@source": "node1085491", 
+"@target": "node1085492"
+}, 
+{
+"@id": "edge1085493", 
+"@length": 0.09475532303069839, 
+"@source": "node1085492", 
+"@target": "node1085493"
+}, 
+{
+"@id": "edge1085494", 
+"@length": 0.0198082679659, 
+"@source": "node1085492", 
+"@target": "node1085494"
+}, 
+{
+"@id": "edge1085495", 
+"@length": 0.0024648462308139163, 
+"@source": "node1085494", 
+"@target": "node1085495"
+}, 
+{
+"@id": "edge1085496", 
+"@length": 0.011366291390657313, 
+"@source": "node1085495", 
+"@target": "node1085496"
+}, 
+{
+"@id": "edge1085497", 
+"@length": 0.06776281163132644, 
+"@source": "node1085496", 
+"@target": "node1085497"
+}, 
+{
+"@id": "edge1085498", 
+"@length": 0.006135117885645872, 
+"@source": "node1085496", 
+"@target": "node1085498"
+}, 
+{
+"@id": "edge1085499", 
+"@length": 0.002397850014440636, 
+"@source": "node1085498", 
+"@target": "node1085499"
+}, 
+{
+"@id": "edge1085500", 
+"@length": 0.041247710238918434, 
+"@source": "node1085499", 
+"@target": "node1085500"
+}, 
+{
+"@id": "edge1085501", 
+"@length": 0.04449309642889532, 
+"@source": "node1085499", 
+"@target": "node1085501"
+}, 
+{
+"@id": "edge1085502", 
+"@length": 0.0028642862420440313, 
+"@source": "node1085498", 
+"@target": "node1085502"
+}, 
+{
+"@id": "edge1085503", 
+"@length": 0.00462472978761, 
+"@source": "node1085502", 
+"@target": "node1085503"
+}, 
+{
+"@id": "edge1085504", 
+"@length": 0.024887113160872026, 
+"@source": "node1085503", 
+"@target": "node1085504"
+}, 
+{
+"@id": "edge1085505", 
+"@length": 0.0019483964041800972, 
+"@source": "node1085503", 
+"@target": "node1085505"
+}, 
+{
+"@id": "edge1085506", 
+"@length": 0.000953279284388292, 
+"@source": "node1085505", 
+"@target": "node1085506"
+}, 
+{
+"@id": "edge1085507", 
+"@length": 0.00044676273369731456, 
+"@source": "node1085506", 
+"@target": "node1085507"
+}, 
+{
+"@id": "edge1085508", 
+"@length": 0.0008369316216230854, 
+"@source": "node1085507", 
+"@target": "node1085508"
+}, 
+{
+"@id": "edge1085509", 
+"@length": 0.001246836740839738, 
+"@source": "node1085508", 
+"@target": "node1085509"
+}, 
+{
+"@id": "edge1085510", 
+"@length": 0.006150752743822402, 
+"@source": "node1085509", 
+"@target": "node1085510"
+}, 
+{
+"@id": "edge1085511", 
+"@length": 0.026322606281810587, 
+"@source": "node1085510", 
+"@target": "node1085511"
+}, 
+{
+"@id": "edge1085512", 
+"@length": 0.020005609386957182, 
+"@source": "node1085510", 
+"@target": "node1085512"
+}, 
+{
+"@id": "edge1085513", 
+"@length": 0.03273472360622137, 
+"@source": "node1085509", 
+"@target": "node1085513"
+}, 
+{
+"@id": "edge1085514", 
+"@length": 0.03192928839014915, 
+"@source": "node1085508", 
+"@target": "node1085514"
+}, 
+{
+"@id": "edge1085515", 
+"@length": 0.0006210113163758746, 
+"@source": "node1085507", 
+"@target": "node1085515"
+}, 
+{
+"@id": "edge1085516", 
+"@length": 0.0335934043189445, 
+"@source": "node1085515", 
+"@target": "node1085516"
+}, 
+{
+"@id": "edge1085517", 
+"@length": 0.02769171480244019, 
+"@source": "node1085515", 
+"@target": "node1085517"
+}, 
+{
+"@id": "edge1085518", 
+"@length": 0.0009306659702135178, 
+"@source": "node1085506", 
+"@target": "node1085518"
+}, 
+{
+"@id": "edge1085519", 
+"@length": 0.025865167516177144, 
+"@source": "node1085518", 
+"@target": "node1085519"
+}, 
+{
+"@id": "edge1085520", 
+"@length": 0.0009627310983503501, 
+"@source": "node1085518", 
+"@target": "node1085520"
+}, 
+{
+"@id": "edge1085521", 
+"@length": 0.029471899206870468, 
+"@source": "node1085520", 
+"@target": "node1085521"
+}, 
+{
+"@id": "edge1085522", 
+"@length": 0.0030061507314415314, 
+"@source": "node1085520", 
+"@target": "node1085522"
+}, 
+{
+"@id": "edge1085523", 
+"@length": 0.025656649110098705, 
+"@source": "node1085522", 
+"@target": "node1085523"
+}, 
+{
+"@id": "edge1085524", 
+"@length": 0.028734252634986857, 
+"@source": "node1085522", 
+"@target": "node1085524"
+}, 
+{
+"@id": "edge1085525", 
+"@length": 0.0009702327319367626, 
+"@source": "node1085505", 
+"@target": "node1085525"
+}, 
+{
+"@id": "edge1085526", 
+"@length": 0.0015997169912674164, 
+"@source": "node1085525", 
+"@target": "node1085526"
+}, 
+{
+"@id": "edge1085527", 
+"@length": 0.02765821854568796, 
+"@source": "node1085526", 
+"@target": "node1085527"
+}, 
+{
+"@id": "edge1085528", 
+"@length": 0.00531610349215024, 
+"@source": "node1085526", 
+"@target": "node1085528"
+}, 
+{
+"@id": "edge1085529", 
+"@length": 0.0003100388021423789, 
+"@source": "node1085528", 
+"@target": "node1085529"
+}, 
+{
+"@id": "edge1085530", 
+"@length": 0.020656069215615525, 
+"@source": "node1085529", 
+"@target": "node1085530"
+}, 
+{
+"@id": "edge1085531", 
+"@length": 0.0028531893281995846, 
+"@source": "node1085529", 
+"@target": "node1085531"
+}, 
+{
+"@id": "edge1085532", 
+"@length": 0.019774315354942285, 
+"@source": "node1085531", 
+"@target": "node1085532"
+}, 
+{
+"@id": "edge1085533", 
+"@length": 0.0007244328743983564, 
+"@source": "node1085531", 
+"@target": "node1085533"
+}, 
+{
+"@id": "edge1085534", 
+"@length": 0.031630603280903405, 
+"@source": "node1085533", 
+"@target": "node1085534"
+}, 
+{
+"@id": "edge1085535", 
+"@length": 0.017265196406257732, 
+"@source": "node1085533", 
+"@target": "node1085535"
+}, 
+{
+"@id": "edge1085536", 
+"@length": 0.0006832191844692442, 
+"@source": "node1085528", 
+"@target": "node1085536"
+}, 
+{
+"@id": "edge1085537", 
+"@length": 0.023581917867862345, 
+"@source": "node1085536", 
+"@target": "node1085537"
+}, 
+{
+"@id": "edge1085538", 
+"@length": 0.0016948807378077413, 
+"@source": "node1085536", 
+"@target": "node1085538"
+}, 
+{
+"@id": "edge1085539", 
+"@length": 0.0008185568636608909, 
+"@source": "node1085538", 
+"@target": "node1085539"
+}, 
+{
+"@id": "edge1085540", 
+"@length": 0.02627660834990371, 
+"@source": "node1085539", 
+"@target": "node1085540"
+}, 
+{
+"@id": "edge1085541", 
+"@length": 0.0008114646869305242, 
+"@source": "node1085539", 
+"@target": "node1085541"
+}, 
+{
+"@id": "edge1085542", 
+"@length": 0.021331198711406305, 
+"@source": "node1085541", 
+"@target": "node1085542"
+}, 
+{
+"@id": "edge1085543", 
+"@length": 0.022506936491057034, 
+"@source": "node1085541", 
+"@target": "node1085543"
+}, 
+{
+"@id": "edge1085544", 
+"@length": 0.0018084700762918127, 
+"@source": "node1085538", 
+"@target": "node1085544"
+}, 
+{
+"@id": "edge1085545", 
+"@length": 0.02278568236711609, 
+"@source": "node1085544", 
+"@target": "node1085545"
+}, 
+{
+"@id": "edge1085546", 
+"@length": 0.02432484658135102, 
+"@source": "node1085544", 
+"@target": "node1085546"
+}, 
+{
+"@id": "edge1085547", 
+"@length": 0.006614493886018133, 
+"@source": "node1085525", 
+"@target": "node1085547"
+}, 
+{
+"@id": "edge1085548", 
+"@length": 0.03799130698897524, 
+"@source": "node1085547", 
+"@target": "node1085548"
+}, 
+{
+"@id": "edge1085549", 
+"@length": 0.0004179019171013376, 
+"@source": "node1085547", 
+"@target": "node1085549"
+}, 
+{
+"@id": "edge1085550", 
+"@length": 0.02115984180524256, 
+"@source": "node1085549", 
+"@target": "node1085550"
+}, 
+{
+"@id": "edge1085551", 
+"@length": 0.0009027585924532566, 
+"@source": "node1085549", 
+"@target": "node1085551"
+}, 
+{
+"@id": "edge1085552", 
+"@length": 0.0013222881754553356, 
+"@source": "node1085551", 
+"@target": "node1085552"
+}, 
+{
+"@id": "edge1085553", 
+"@length": 0.026455725569036637, 
+"@source": "node1085552", 
+"@target": "node1085553"
+}, 
+{
+"@id": "edge1085554", 
+"@length": 0.0014504745511616929, 
+"@source": "node1085552", 
+"@target": "node1085554"
+}, 
+{
+"@id": "edge1085555", 
+"@length": 0.003331902130605899, 
+"@source": "node1085554", 
+"@target": "node1085555"
+}, 
+{
+"@id": "edge1085556", 
+"@length": 0.01998599079501298, 
+"@source": "node1085555", 
+"@target": "node1085556"
+}, 
+{
+"@id": "edge1085557", 
+"@length": 0.02803259514914741, 
+"@source": "node1085555", 
+"@target": "node1085557"
+}, 
+{
+"@id": "edge1085558", 
+"@length": 0.020221028190890403, 
+"@source": "node1085554", 
+"@target": "node1085558"
+}, 
+{
+"@id": "edge1085559", 
+"@length": 0.0011834167318111044, 
+"@source": "node1085551", 
+"@target": "node1085559"
+}, 
+{
+"@id": "edge1085560", 
+"@length": 0.024706761386931675, 
+"@source": "node1085559", 
+"@target": "node1085560"
+}, 
+{
+"@id": "edge1085561", 
+"@length": 0.00045292889499484734, 
+"@source": "node1085559", 
+"@target": "node1085561"
+}, 
+{
+"@id": "edge1085562", 
+"@length": 0.0005775818425021867, 
+"@source": "node1085561", 
+"@target": "node1085562"
+}, 
+{
+"@id": "edge1085563", 
+"@length": 0.021064045720734878, 
+"@source": "node1085562", 
+"@target": "node1085563"
+}, 
+{
+"@id": "edge1085564", 
+"@length": 0.020059839915025357, 
+"@source": "node1085562", 
+"@target": "node1085564"
+}, 
+{
+"@id": "edge1085565", 
+"@length": 0.016150037232441863, 
+"@source": "node1085561", 
+"@target": "node1085565"
+}, 
+{
+"@id": "edge1085566", 
+"@length": 0.0022638622849512208, 
+"@source": "node1085502", 
+"@target": "node1085566"
+}, 
+{
+"@id": "edge1085567", 
+"@length": 0.0015824310078665499, 
+"@source": "node1085566", 
+"@target": "node1085567"
+}, 
+{
+"@id": "edge1085568", 
+"@length": 0.03663522830821031, 
+"@source": "node1085567", 
+"@target": "node1085568"
+}, 
+{
+"@id": "edge1085569", 
+"@length": 0.000794420060069273, 
+"@source": "node1085567", 
+"@target": "node1085569"
+}, 
+{
+"@id": "edge1085570", 
+"@length": 0.03689304360268772, 
+"@source": "node1085569", 
+"@target": "node1085570"
+}, 
+{
+"@id": "edge1085571", 
+"@length": 0.001808617197678844, 
+"@source": "node1085569", 
+"@target": "node1085571"
+}, 
+{
+"@id": "edge1085572", 
+"@length": 0.002153129309505758, 
+"@source": "node1085571", 
+"@target": "node1085572"
+}, 
+{
+"@id": "edge1085573", 
+"@length": 0.05022628582400877, 
+"@source": "node1085572", 
+"@target": "node1085573"
+}, 
+{
+"@id": "edge1085574", 
+"@length": 0.06435456379438029, 
+"@source": "node1085572", 
+"@target": "node1085574"
+}, 
+{
+"@id": "edge1085575", 
+"@length": 0.04421615746952881, 
+"@source": "node1085571", 
+"@target": "node1085575"
+}, 
+{
+"@id": "edge1085576", 
+"@length": 0.03561345529691973, 
+"@source": "node1085566", 
+"@target": "node1085576"
+}, 
+{
+"@id": "edge1085577", 
+"@length": 0.06222151178979059, 
+"@source": "node1085495", 
+"@target": "node1085577"
+}, 
+{
+"@id": "edge1085578", 
+"@length": 0.04913303565212557, 
+"@source": "node1085494", 
+"@target": "node1085578"
+}, 
+{
+"@id": "edge1085579", 
+"@length": 0.08373240930302489, 
+"@source": "node1085491", 
+"@target": "node1085579"
+}
+], 
+"meta": [
+{
+"$": "ot:substitutionCount", 
+"@property": "ot:branchLengthMode", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "node1085503", 
+"@property": "ot:inGroupClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "ML majority-rule bootstrap consensus", 
+"@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"node": [
+{
+"@id": "node1085491", 
+"@root": true
+}, 
+{
+"@id": "node1085492"
+}, 
+{
+"@about": "#node1085493", 
+"@id": "node1085493", 
+"@otu": "otu405176", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085494"
+}, 
+{
+"@id": "node1085495"
+}, 
+{
+"@id": "node1085496"
+}, 
+{
+"@about": "#node1085497", 
+"@id": "node1085497", 
+"@otu": "otu405179", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085498"
+}, 
+{
+"@id": "node1085499"
+}, 
+{
+"@about": "#node1085500", 
+"@id": "node1085500", 
+"@otu": "otu405181", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085501", 
+"@id": "node1085501", 
+"@otu": "otu405180", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085502"
+}, 
+{
+"@id": "node1085503"
+}, 
+{
+"@about": "#node1085504", 
+"@id": "node1085504", 
+"@otu": "otu405188", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085505"
+}, 
+{
+"@id": "node1085506"
+}, 
+{
+"@id": "node1085507"
+}, 
+{
+"@id": "node1085508"
+}, 
+{
+"@id": "node1085509"
+}, 
+{
+"@id": "node1085510"
+}, 
+{
+"@about": "#node1085511", 
+"@id": "node1085511", 
+"@otu": "otu405198", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085512", 
+"@id": "node1085512", 
+"@otu": "otu405197", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085513", 
+"@id": "node1085513", 
+"@otu": "otu405196", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085514", 
+"@id": "node1085514", 
+"@otu": "otu405195", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085515"
+}, 
+{
+"@about": "#node1085516", 
+"@id": "node1085516", 
+"@otu": "otu405193", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085517", 
+"@id": "node1085517", 
+"@otu": "otu405194", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085518"
+}, 
+{
+"@about": "#node1085519", 
+"@id": "node1085519", 
+"@otu": "otu405189", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085520"
+}, 
+{
+"@about": "#node1085521", 
+"@id": "node1085521", 
+"@otu": "otu405190", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085522"
+}, 
+{
+"@about": "#node1085523", 
+"@id": "node1085523", 
+"@otu": "otu405192", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085524", 
+"@id": "node1085524", 
+"@otu": "otu405191", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085525"
+}, 
+{
+"@id": "node1085526"
+}, 
+{
+"@about": "#node1085527", 
+"@id": "node1085527", 
+"@otu": "otu405209", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085528"
+}, 
+{
+"@id": "node1085529"
+}, 
+{
+"@about": "#node1085530", 
+"@id": "node1085530", 
+"@otu": "otu405210", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085531"
+}, 
+{
+"@about": "#node1085532", 
+"@id": "node1085532", 
+"@otu": "otu405211", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085533"
+}, 
+{
+"@about": "#node1085534", 
+"@id": "node1085534", 
+"@otu": "otu405212", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085535", 
+"@id": "node1085535", 
+"@otu": "otu405213", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085536"
+}, 
+{
+"@about": "#node1085537", 
+"@id": "node1085537", 
+"@otu": "otu405214", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085538"
+}, 
+{
+"@id": "node1085539"
+}, 
+{
+"@about": "#node1085540", 
+"@id": "node1085540", 
+"@otu": "otu405217", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085541"
+}, 
+{
+"@about": "#node1085542", 
+"@id": "node1085542", 
+"@otu": "otu405220", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085543", 
+"@id": "node1085543", 
+"@otu": "otu405218", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085544"
+}, 
+{
+"@about": "#node1085545", 
+"@id": "node1085545", 
+"@otu": "otu405216", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085546", 
+"@id": "node1085546", 
+"@otu": "otu405215", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085547"
+}, 
+{
+"@about": "#node1085548", 
+"@id": "node1085548", 
+"@otu": "otu405199", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085549"
+}, 
+{
+"@about": "#node1085550", 
+"@id": "node1085550", 
+"@otu": "otu405200", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085551"
+}, 
+{
+"@id": "node1085552"
+}, 
+{
+"@about": "#node1085553", 
+"@id": "node1085553", 
+"@otu": "otu405201", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085554"
+}, 
+{
+"@id": "node1085555"
+}, 
+{
+"@about": "#node1085556", 
+"@id": "node1085556", 
+"@otu": "otu405204", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085557", 
+"@id": "node1085557", 
+"@otu": "otu405203", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085558", 
+"@id": "node1085558", 
+"@otu": "otu405202", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085559"
+}, 
+{
+"@about": "#node1085560", 
+"@id": "node1085560", 
+"@otu": "otu405205", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085561"
+}, 
+{
+"@id": "node1085562"
+}, 
+{
+"@about": "#node1085563", 
+"@id": "node1085563", 
+"@otu": "otu405207", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085564", 
+"@id": "node1085564", 
+"@otu": "otu405208", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085565", 
+"@id": "node1085565", 
+"@otu": "otu405206", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085566"
+}, 
+{
+"@id": "node1085567"
+}, 
+{
+"@about": "#node1085568", 
+"@id": "node1085568", 
+"@otu": "otu405183", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085569"
+}, 
+{
+"@about": "#node1085570", 
+"@id": "node1085570", 
+"@otu": "otu405184", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085571"
+}, 
+{
+"@id": "node1085572"
+}, 
+{
+"@about": "#node1085573", 
+"@id": "node1085573", 
+"@otu": "otu405187", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085574", 
+"@id": "node1085574", 
+"@otu": "otu405186", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085575", 
+"@id": "node1085575", 
+"@otu": "otu405185", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085576", 
+"@id": "node1085576", 
+"@otu": "otu405182", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085577", 
+"@id": "node1085577", 
+"@otu": "otu405178", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085578", 
+"@id": "node1085578", 
+"@otu": "otu405177", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085579", 
+"@id": "node1085579", 
+"@otu": "otu405175", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}, 
+{
+"@about": "#tree6274", 
+"@id": "tree6274", 
+"edge": [
+{
+"@id": "edge1085581", 
+"@length": 3.8480243514324712, 
+"@source": "node1085580", 
+"@target": "node1085581"
+}, 
+{
+"@id": "edge1085582", 
+"@length": 14.8608922178, 
+"@source": "node1085581", 
+"@target": "node1085582"
+}, 
+{
+"@id": "edge1085583", 
+"@length": 55.56025886818965, 
+"@source": "node1085582", 
+"@target": "node1085583"
+}, 
+{
+"@id": "edge1085584", 
+"@length": 2.2422706058877893, 
+"@source": "node1085582", 
+"@target": "node1085584"
+}, 
+{
+"@id": "edge1085585", 
+"@length": 8.573377721489898, 
+"@source": "node1085584", 
+"@target": "node1085585"
+}, 
+{
+"@id": "edge1085586", 
+"@length": 5.226771548849577, 
+"@source": "node1085585", 
+"@target": "node1085586"
+}, 
+{
+"@id": "edge1085587", 
+"@length": 2.470267928125608, 
+"@source": "node1085586", 
+"@target": "node1085587"
+}, 
+{
+"@id": "edge1085588", 
+"@length": 5.54145419478, 
+"@source": "node1085587", 
+"@target": "node1085588"
+}, 
+{
+"@id": "edge1085589", 
+"@length": 31.506116869051894, 
+"@source": "node1085588", 
+"@target": "node1085589"
+}, 
+{
+"@id": "edge1085590", 
+"@length": 1.9093212402281239, 
+"@source": "node1085588", 
+"@target": "node1085590"
+}, 
+{
+"@id": "edge1085591", 
+"@length": 1.1785529638789676, 
+"@source": "node1085590", 
+"@target": "node1085591"
+}, 
+{
+"@id": "edge1085592", 
+"@length": 0.4140416119660735, 
+"@source": "node1085591", 
+"@target": "node1085592"
+}, 
+{
+"@id": "edge1085593", 
+"@length": 0.8517665748458967, 
+"@source": "node1085592", 
+"@target": "node1085593"
+}, 
+{
+"@id": "edge1085594", 
+"@length": 27.152434478132832, 
+"@source": "node1085593", 
+"@target": "node1085594"
+}, 
+{
+"@id": "edge1085595", 
+"@length": 1.129041007118893, 
+"@source": "node1085593", 
+"@target": "node1085595"
+}, 
+{
+"@id": "edge1085596", 
+"@length": 5.217029000569532, 
+"@source": "node1085595", 
+"@target": "node1085596"
+}, 
+{
+"@id": "edge1085597", 
+"@length": 20.806364470444407, 
+"@source": "node1085596", 
+"@target": "node1085597"
+}, 
+{
+"@id": "edge1085598", 
+"@length": 20.806364470444407, 
+"@source": "node1085596", 
+"@target": "node1085598"
+}, 
+{
+"@id": "edge1085599", 
+"@length": 26.02339347101394, 
+"@source": "node1085595", 
+"@target": "node1085599"
+}, 
+{
+"@id": "edge1085600", 
+"@length": 0.6900280029320669, 
+"@source": "node1085592", 
+"@target": "node1085600"
+}, 
+{
+"@id": "edge1085601", 
+"@length": 27.314173050046662, 
+"@source": "node1085600", 
+"@target": "node1085601"
+}, 
+{
+"@id": "edge1085602", 
+"@length": 27.314173050046662, 
+"@source": "node1085600", 
+"@target": "node1085602"
+}, 
+{
+"@id": "edge1085603", 
+"@length": 1.19525875791712, 
+"@source": "node1085591", 
+"@target": "node1085603"
+}, 
+{
+"@id": "edge1085604", 
+"@length": 27.222983907027682, 
+"@source": "node1085603", 
+"@target": "node1085604"
+}, 
+{
+"@id": "edge1085605", 
+"@length": 0.8140750898250104, 
+"@source": "node1085603", 
+"@target": "node1085605"
+}, 
+{
+"@id": "edge1085606", 
+"@length": 3.0262345593530426, 
+"@source": "node1085605", 
+"@target": "node1085606"
+}, 
+{
+"@id": "edge1085607", 
+"@length": 23.38267425784963, 
+"@source": "node1085606", 
+"@target": "node1085607"
+}, 
+{
+"@id": "edge1085608", 
+"@length": 23.38267425784963, 
+"@source": "node1085606", 
+"@target": "node1085608"
+}, 
+{
+"@id": "edge1085609", 
+"@length": 26.408908817202672, 
+"@source": "node1085605", 
+"@target": "node1085609"
+}, 
+{
+"@id": "edge1085610", 
+"@length": 0.9436497088239406, 
+"@source": "node1085590", 
+"@target": "node1085610"
+}, 
+{
+"@id": "edge1085611", 
+"@length": 1.6519545887053653, 
+"@source": "node1085610", 
+"@target": "node1085611"
+}, 
+{
+"@id": "edge1085612", 
+"@length": 27.001191331294464, 
+"@source": "node1085611", 
+"@target": "node1085612"
+}, 
+{
+"@id": "edge1085613", 
+"@length": 4.621364369997359, 
+"@source": "node1085611", 
+"@target": "node1085613"
+}, 
+{
+"@id": "edge1085614", 
+"@length": 0.5126841379663816, 
+"@source": "node1085613", 
+"@target": "node1085614"
+}, 
+{
+"@id": "edge1085615", 
+"@length": 21.867142823330724, 
+"@source": "node1085614", 
+"@target": "node1085615"
+}, 
+{
+"@id": "edge1085616", 
+"@length": 2.4861666063391006, 
+"@source": "node1085614", 
+"@target": "node1085616"
+}, 
+{
+"@id": "edge1085617", 
+"@length": 19.380976216991623, 
+"@source": "node1085616", 
+"@target": "node1085617"
+}, 
+{
+"@id": "edge1085618", 
+"@length": 0.8204073722072955, 
+"@source": "node1085616", 
+"@target": "node1085618"
+}, 
+{
+"@id": "edge1085619", 
+"@length": 18.560568844784328, 
+"@source": "node1085618", 
+"@target": "node1085619"
+}, 
+{
+"@id": "edge1085620", 
+"@length": 18.560568844784328, 
+"@source": "node1085618", 
+"@target": "node1085620"
+}, 
+{
+"@id": "edge1085621", 
+"@length": 0.6124553491806992, 
+"@source": "node1085613", 
+"@target": "node1085621"
+}, 
+{
+"@id": "edge1085622", 
+"@length": 21.767371612116406, 
+"@source": "node1085621", 
+"@target": "node1085622"
+}, 
+{
+"@id": "edge1085623", 
+"@length": 1.5540311080903635, 
+"@source": "node1085621", 
+"@target": "node1085623"
+}, 
+{
+"@id": "edge1085624", 
+"@length": 0.8919485862254888, 
+"@source": "node1085623", 
+"@target": "node1085624"
+}, 
+{
+"@id": "edge1085625", 
+"@length": 19.321391917800554, 
+"@source": "node1085624", 
+"@target": "node1085625"
+}, 
+{
+"@id": "edge1085626", 
+"@length": 1.0979470094193857, 
+"@source": "node1085624", 
+"@target": "node1085626"
+}, 
+{
+"@id": "edge1085627", 
+"@length": 18.223444908381175, 
+"@source": "node1085626", 
+"@target": "node1085627"
+}, 
+{
+"@id": "edge1085628", 
+"@length": 18.223444908381175, 
+"@source": "node1085626", 
+"@target": "node1085628"
+}, 
+{
+"@id": "edge1085629", 
+"@length": 1.6503176521233058, 
+"@source": "node1085623", 
+"@target": "node1085629"
+}, 
+{
+"@id": "edge1085630", 
+"@length": 18.563022851902737, 
+"@source": "node1085629", 
+"@target": "node1085630"
+}, 
+{
+"@id": "edge1085631", 
+"@length": 18.563022851902737, 
+"@source": "node1085629", 
+"@target": "node1085631"
+}, 
+{
+"@id": "edge1085632", 
+"@length": 5.890983978542131, 
+"@source": "node1085610", 
+"@target": "node1085632"
+}, 
+{
+"@id": "edge1085633", 
+"@length": 0.35535263546955065, 
+"@source": "node1085632", 
+"@target": "node1085633"
+}, 
+{
+"@id": "edge1085634", 
+"@length": 0.9954348437510454, 
+"@source": "node1085633", 
+"@target": "node1085634"
+}, 
+{
+"@id": "edge1085635", 
+"@length": 1.1944304645999857, 
+"@source": "node1085634", 
+"@target": "node1085635"
+}, 
+{
+"@id": "edge1085636", 
+"@length": 20.216943997637117, 
+"@source": "node1085635", 
+"@target": "node1085636"
+}, 
+{
+"@id": "edge1085637", 
+"@length": 1.262545461064363, 
+"@source": "node1085635", 
+"@target": "node1085637"
+}, 
+{
+"@id": "edge1085638", 
+"@length": 18.954398536572754, 
+"@source": "node1085637", 
+"@target": "node1085638"
+}, 
+{
+"@id": "edge1085639", 
+"@length": 3.128550531251733, 
+"@source": "node1085637", 
+"@target": "node1085639"
+}, 
+{
+"@id": "edge1085640", 
+"@length": 15.82584800532102, 
+"@source": "node1085639", 
+"@target": "node1085640"
+}, 
+{
+"@id": "edge1085641", 
+"@length": 15.825848005321028, 
+"@source": "node1085639", 
+"@target": "node1085641"
+}, 
+{
+"@id": "edge1085642", 
+"@length": 1.4911078559383562, 
+"@source": "node1085634", 
+"@target": "node1085642"
+}, 
+{
+"@id": "edge1085643", 
+"@length": 0.6597262748639636, 
+"@source": "node1085642", 
+"@target": "node1085643"
+}, 
+{
+"@id": "edge1085644", 
+"@length": 19.260540331434783, 
+"@source": "node1085643", 
+"@target": "node1085644"
+}, 
+{
+"@id": "edge1085645", 
+"@length": 0.36914214478987617, 
+"@source": "node1085643", 
+"@target": "node1085645"
+}, 
+{
+"@id": "edge1085646", 
+"@length": 18.891398186644906, 
+"@source": "node1085645", 
+"@target": "node1085646"
+}, 
+{
+"@id": "edge1085647", 
+"@length": 18.891398186644906, 
+"@source": "node1085645", 
+"@target": "node1085647"
+}, 
+{
+"@id": "edge1085648", 
+"@length": 19.920266606298746, 
+"@source": "node1085642", 
+"@target": "node1085648"
+}, 
+{
+"@id": "edge1085649", 
+"@length": 22.406809305988148, 
+"@source": "node1085633", 
+"@target": "node1085649"
+}, 
+{
+"@id": "edge1085650", 
+"@length": 22.7621619414577, 
+"@source": "node1085632", 
+"@target": "node1085650"
+}, 
+{
+"@id": "edge1085651", 
+"@length": 2.2110583036285263, 
+"@source": "node1085587", 
+"@target": "node1085651"
+}, 
+{
+"@id": "edge1085652", 
+"@length": 34.83651276020825, 
+"@source": "node1085651", 
+"@target": "node1085652"
+}, 
+{
+"@id": "edge1085653", 
+"@length": 0.5754070774176157, 
+"@source": "node1085651", 
+"@target": "node1085653"
+}, 
+{
+"@id": "edge1085654", 
+"@length": 0.8847920777581635, 
+"@source": "node1085653", 
+"@target": "node1085654"
+}, 
+{
+"@id": "edge1085655", 
+"@length": 1.3985109919532945, 
+"@source": "node1085654", 
+"@target": "node1085655"
+}, 
+{
+"@id": "edge1085656", 
+"@length": 31.977802613079177, 
+"@source": "node1085655", 
+"@target": "node1085656"
+}, 
+{
+"@id": "edge1085657", 
+"@length": 1.6960891404063432, 
+"@source": "node1085655", 
+"@target": "node1085657"
+}, 
+{
+"@id": "edge1085658", 
+"@length": 30.281713472672834, 
+"@source": "node1085657", 
+"@target": "node1085658"
+}, 
+{
+"@id": "edge1085659", 
+"@length": 30.281713472672834, 
+"@source": "node1085657", 
+"@target": "node1085659"
+}, 
+{
+"@id": "edge1085660", 
+"@length": 33.37631360503247, 
+"@source": "node1085654", 
+"@target": "node1085660"
+}, 
+{
+"@id": "edge1085661", 
+"@length": 34.261105682790635, 
+"@source": "node1085653", 
+"@target": "node1085661"
+}, 
+{
+"@id": "edge1085662", 
+"@length": 2.5259293366906377, 
+"@source": "node1085586", 
+"@target": "node1085662"
+}, 
+{
+"@id": "edge1085663", 
+"@length": 36.99190965527175, 
+"@source": "node1085662", 
+"@target": "node1085663"
+}, 
+{
+"@id": "edge1085664", 
+"@length": 36.99190965527175, 
+"@source": "node1085662", 
+"@target": "node1085664"
+}, 
+{
+"@id": "edge1085665", 
+"@length": 44.74461054081196, 
+"@source": "node1085585", 
+"@target": "node1085665"
+}, 
+{
+"@id": "edge1085666", 
+"@length": 53.31798826230186, 
+"@source": "node1085584", 
+"@target": "node1085666"
+}, 
+{
+"@id": "edge1085667", 
+"@length": 70.42115108596883, 
+"@source": "node1085581", 
+"@target": "node1085667"
+}, 
+{
+"@id": "edge1085668", 
+"@length": 74.2691754374013, 
+"@source": "node1085580", 
+"@target": "node1085668"
+}
+], 
+"meta": [
+{
+"$": "ot:time", 
+"@property": "ot:branchLengthMode", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Myr", 
+"@property": "ot:branchLengthTimeUnit", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "node1085588", 
+"@property": "ot:inGroupClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Choose me", 
+"@property": "ot:tag", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "BEAST MCC tree", 
+"@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"node": [
+{
+"@id": "node1085580", 
+"@root": true
+}, 
+{
+"@id": "node1085581"
+}, 
+{
+"@id": "node1085582"
+}, 
+{
+"@about": "#node1085583", 
+"@id": "node1085583", 
+"@otu": "otu405177", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085584"
+}, 
+{
+"@id": "node1085585"
+}, 
+{
+"@id": "node1085586"
+}, 
+{
+"@id": "node1085587"
+}, 
+{
+"@id": "node1085588"
+}, 
+{
+"@about": "#node1085589", 
+"@id": "node1085589", 
+"@otu": "otu405188", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085590"
+}, 
+{
+"@id": "node1085591"
+}, 
+{
+"@id": "node1085592"
+}, 
+{
+"@id": "node1085593"
+}, 
+{
+"@about": "#node1085594", 
+"@id": "node1085594", 
+"@otu": "otu405195", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085595"
+}, 
+{
+"@id": "node1085596"
+}, 
+{
+"@about": "#node1085597", 
+"@id": "node1085597", 
+"@otu": "otu405198", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085598", 
+"@id": "node1085598", 
+"@otu": "otu405197", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085599", 
+"@id": "node1085599", 
+"@otu": "otu405196", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085600"
+}, 
+{
+"@about": "#node1085601", 
+"@id": "node1085601", 
+"@otu": "otu405194", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085602", 
+"@id": "node1085602", 
+"@otu": "otu405193", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085603"
+}, 
+{
+"@about": "#node1085604", 
+"@id": "node1085604", 
+"@otu": "otu405189", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085605"
+}, 
+{
+"@id": "node1085606"
+}, 
+{
+"@about": "#node1085607", 
+"@id": "node1085607", 
+"@otu": "otu405192", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085608", 
+"@id": "node1085608", 
+"@otu": "otu405191", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085609", 
+"@id": "node1085609", 
+"@otu": "otu405190", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085610"
+}, 
+{
+"@id": "node1085611"
+}, 
+{
+"@about": "#node1085612", 
+"@id": "node1085612", 
+"@otu": "otu405209", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085613"
+}, 
+{
+"@id": "node1085614"
+}, 
+{
+"@about": "#node1085615", 
+"@id": "node1085615", 
+"@otu": "otu405210", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085616"
+}, 
+{
+"@about": "#node1085617", 
+"@id": "node1085617", 
+"@otu": "otu405211", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085618"
+}, 
+{
+"@about": "#node1085619", 
+"@id": "node1085619", 
+"@otu": "otu405212", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085620", 
+"@id": "node1085620", 
+"@otu": "otu405213", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085621"
+}, 
+{
+"@about": "#node1085622", 
+"@id": "node1085622", 
+"@otu": "otu405214", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085623"
+}, 
+{
+"@id": "node1085624"
+}, 
+{
+"@about": "#node1085625", 
+"@id": "node1085625", 
+"@otu": "otu405217", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085626"
+}, 
+{
+"@about": "#node1085627", 
+"@id": "node1085627", 
+"@otu": "otu405219", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085628", 
+"@id": "node1085628", 
+"@otu": "otu405218", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085629"
+}, 
+{
+"@about": "#node1085630", 
+"@id": "node1085630", 
+"@otu": "otu405216", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085631", 
+"@id": "node1085631", 
+"@otu": "otu405215", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085632"
+}, 
+{
+"@id": "node1085633"
+}, 
+{
+"@id": "node1085634"
+}, 
+{
+"@id": "node1085635"
+}, 
+{
+"@about": "#node1085636", 
+"@id": "node1085636", 
+"@otu": "otu405201", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085637"
+}, 
+{
+"@about": "#node1085638", 
+"@id": "node1085638", 
+"@otu": "otu405202", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085639"
+}, 
+{
+"@about": "#node1085640", 
+"@id": "node1085640", 
+"@otu": "otu405204", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085641", 
+"@id": "node1085641", 
+"@otu": "otu405203", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085642"
+}, 
+{
+"@id": "node1085643"
+}, 
+{
+"@about": "#node1085644", 
+"@id": "node1085644", 
+"@otu": "otu405206", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085645"
+}, 
+{
+"@about": "#node1085646", 
+"@id": "node1085646", 
+"@otu": "otu405207", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085647", 
+"@id": "node1085647", 
+"@otu": "otu405208", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085648", 
+"@id": "node1085648", 
+"@otu": "otu405205", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085649", 
+"@id": "node1085649", 
+"@otu": "otu405200", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085650", 
+"@id": "node1085650", 
+"@otu": "otu405199", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085651"
+}, 
+{
+"@about": "#node1085652", 
+"@id": "node1085652", 
+"@otu": "otu405182", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085653"
+}, 
+{
+"@id": "node1085654"
+}, 
+{
+"@id": "node1085655"
+}, 
+{
+"@about": "#node1085656", 
+"@id": "node1085656", 
+"@otu": "otu405185", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085657"
+}, 
+{
+"@about": "#node1085658", 
+"@id": "node1085658", 
+"@otu": "otu405186", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085659", 
+"@id": "node1085659", 
+"@otu": "otu405187", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085660", 
+"@id": "node1085660", 
+"@otu": "otu405184", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085661", 
+"@id": "node1085661", 
+"@otu": "otu405183", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1085662"
+}, 
+{
+"@about": "#node1085663", 
+"@id": "node1085663", 
+"@otu": "otu405180", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085664", 
+"@id": "node1085664", 
+"@otu": "otu405181", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085665", 
+"@id": "node1085665", 
+"@otu": "otu405179", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085666", 
+"@id": "node1085666", 
+"@otu": "otu405178", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085667", 
+"@id": "node1085667", 
+"@otu": "otu405176", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1085668", 
+"@id": "node1085668", 
+"@otu": "otu405175", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}
+]
+}
+}
+}

@@ -1,0 +1,628 @@
+{
+"nexml": {
+"@about": "#study", 
+"@generator": "Phylografter nexml-json exporter", 
+"@id": "study", 
+"@nexmljson": "http://purl.org/opentree/nexson", 
+"@version": "0.9", 
+"@xmlns": {
+"$": "http://www.nexml.org/2009", 
+"nex": "http://www.nexml.org/2009", 
+"ot": "http://purl.org/opentree-terms#", 
+"xsd": "http://www.w3.org/2001/XMLSchema#", 
+"xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}, 
+"meta": [
+{
+"$": "Freudenstein J. 1994. Character transformation and relationships in Corallorhiza (Orchidaceae: Epidendroideae). II. Morphological variation and phylogenetic analysis. American Journal of Botany, 81: 1458-1467.", 
+"@property": "ot:studyPublicationReference", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://dx.doi.org/10.2307/2445319", 
+"@rel": "ot:studyPublication", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": "Jiabin Deng", 
+"@property": "ot:curatorName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S204", 
+"@rel": "ot:dataDeposit", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": "1402", 
+"@property": "ot:studyId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 2004, 
+"@property": "ot:studyYear", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 714629, 
+"@property": "ot:focalClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Epidendroideae", 
+"@property": "ot:focalCladeOTTTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"otus": {
+"@id": "otus1402", 
+"otu": [
+{
+"@about": "#otu248490", 
+"@id": "otu248490", 
+"@label": "Corallorhiza mertensiana", 
+"meta": [
+{
+"$": 738198, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl108752", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza mertensiana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza mertensiana", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248491", 
+"@id": "otu248491", 
+"@label": "Corallorhiza trifida", 
+"meta": [
+{
+"$": 826234, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl108754", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza trifida", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza trifida", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248492", 
+"@id": "otu248492", 
+"@label": "Oreorchis patens", 
+"meta": [
+{
+"$": 214455, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl108755", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Oreorchis patens", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Oreorchis patens", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248493", 
+"@id": "otu248493", 
+"@label": "Corallorhiza wisteriana", 
+"meta": [
+{
+"$": 214430, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl108756", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza wisteriana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza wisteriana", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248494", 
+"@id": "otu248494", 
+"@label": "Corallorhiza maculata", 
+"meta": [
+{
+"$": 300565, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl108758", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza maculata", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza maculata", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248495", 
+"@id": "otu248495", 
+"@label": "Corallorhiza bulbosa", 
+"meta": [
+{
+"$": 26095, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl108759", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza bulbosa", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza bulbosa", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248496", 
+"@id": "otu248496", 
+"@label": "Aplectrum hyemale", 
+"meta": [
+{
+"$": 300576, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl108761", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Aplectrum hyemale", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Aplectrum hyemale", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248497", 
+"@id": "otu248497", 
+"@label": "Corallorhiza striata", 
+"meta": [
+{
+"$": 214437, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl12568", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza striata", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza striata", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248498", 
+"@id": "otu248498", 
+"@label": "Corallorhiza williamsii", 
+"meta": [
+{
+"$": 3980878, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl12570", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza williamsii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza williamsii", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248499", 
+"@id": "otu248499", 
+"@label": "Corallorhiza odontorhiza", 
+"meta": [
+{
+"$": 944374, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl12571", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza odontorhiza", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza odontorhiza", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248500", 
+"@id": "otu248500", 
+"@label": "Corallorhiza macrantha", 
+"meta": [
+{
+"$": 3980879, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl12573", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza macrantha", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corallorhiza macrantha", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}, 
+"trees": {
+"@id": "trees1402", 
+"@otus": "otus1402", 
+"tree": [
+{
+"@about": "#tree2813", 
+"@id": "tree2813", 
+"edge": [
+{
+"@id": "edge607622", 
+"@source": "node607621", 
+"@target": "node607622"
+}, 
+{
+"@id": "edge607623", 
+"@source": "node607621", 
+"@target": "node607623"
+}, 
+{
+"@id": "edge607624", 
+"@source": "node607621", 
+"@target": "node607624"
+}, 
+{
+"@id": "edge607625", 
+"@source": "node607624", 
+"@target": "node607625"
+}, 
+{
+"@id": "edge607626", 
+"@source": "node607624", 
+"@target": "node607626"
+}, 
+{
+"@id": "edge607627", 
+"@source": "node607626", 
+"@target": "node607627"
+}, 
+{
+"@id": "edge607628", 
+"@source": "node607626", 
+"@target": "node607628"
+}, 
+{
+"@id": "edge607629", 
+"@source": "node607628", 
+"@target": "node607629"
+}, 
+{
+"@id": "edge607630", 
+"@source": "node607629", 
+"@target": "node607630"
+}, 
+{
+"@id": "edge607631", 
+"@source": "node607629", 
+"@target": "node607631"
+}, 
+{
+"@id": "edge607632", 
+"@source": "node607631", 
+"@target": "node607632"
+}, 
+{
+"@id": "edge607633", 
+"@source": "node607631", 
+"@target": "node607633"
+}, 
+{
+"@id": "edge607634", 
+"@source": "node607628", 
+"@target": "node607634"
+}, 
+{
+"@id": "edge607635", 
+"@source": "node607628", 
+"@target": "node607635"
+}, 
+{
+"@id": "edge607636", 
+"@source": "node607628", 
+"@target": "node607636"
+}, 
+{
+"@id": "edge607637", 
+"@source": "node607628", 
+"@target": "node607637"
+}
+], 
+"meta": [
+{
+"$": "node607624", 
+"@property": "ot:inGroupClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Fig. 10", 
+"@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"node": [
+{
+"@id": "node607621", 
+"@root": true
+}, 
+{
+"@about": "#node607622", 
+"@id": "node607622", 
+"@otu": "otu248496", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node607623", 
+"@id": "node607623", 
+"@otu": "otu248492", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node607624"
+}, 
+{
+"@about": "#node607625", 
+"@id": "node607625", 
+"@otu": "otu248497", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node607626"
+}, 
+{
+"@about": "#node607627", 
+"@id": "node607627", 
+"@otu": "otu248491", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node607628"
+}, 
+{
+"@id": "node607629"
+}, 
+{
+"@about": "#node607630", 
+"@id": "node607630", 
+"@otu": "otu248493", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node607631"
+}, 
+{
+"@about": "#node607632", 
+"@id": "node607632", 
+"@otu": "otu248499", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node607633", 
+"@id": "node607633", 
+"@otu": "otu248498", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node607634", 
+"@id": "node607634", 
+"@otu": "otu248500", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node607635", 
+"@id": "node607635", 
+"@otu": "otu248494", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node607636", 
+"@id": "node607636", 
+"@otu": "otu248490", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node607637", 
+"@id": "node607637", 
+"@otu": "otu248495", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}
+]
+}
+}
+}

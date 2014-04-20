@@ -1,0 +1,730 @@
+{
+"nexml": {
+"@about": "#study", 
+"@generator": "Phylografter nexml-json exporter", 
+"@id": "study", 
+"@nexmljson": "http://purl.org/opentree/nexson", 
+"@version": "0.9", 
+"@xmlns": {
+"$": "http://www.nexml.org/2009", 
+"nex": "http://www.nexml.org/2009", 
+"ot": "http://purl.org/opentree-terms#", 
+"xsd": "http://www.w3.org/2001/XMLSchema#", 
+"xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}, 
+"meta": [
+{
+"$": "Delsuc, Fr\u00e9d\u00e9ric, Michael J Stanhopeb, Emmanuel J.P Douzery. 2003. Molecular systematics of armadillos (Xenarthra, Dasypodidae): contribution of maximum likelihood and Bayesian analyses of mitochondrial and nuclear genes. Molecular Phylogenetics and Evolution 28 (2): 261-275.", 
+"@property": "ot:studyPublicationReference", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://dx.doi.org/10.1016/S1055-7903(03)00111-8", 
+"@rel": "ot:studyPublication", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": "Joseph Brown", 
+"@property": "ot:curatorName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S11551", 
+"@rel": "ot:dataDeposit", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": "2824", 
+"@property": "ot:studyId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 2003, 
+"@property": "ot:studyYear", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 273244, 
+"@property": "ot:focalClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Dasypodidae", 
+"@property": "ot:focalCladeOTTTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"otus": {
+"@id": "otus2824", 
+"otu": [
+{
+"@about": "#otu419945", 
+"@id": "otu419945", 
+"@label": "Bradypus tridactylus", 
+"meta": [
+{
+"$": 527342, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Bradypus tridactylus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Bradypus tridactylus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu419946", 
+"@id": "otu419946", 
+"@label": "Choloepus didactylus", 
+"meta": [
+{
+"$": 977390, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Choloepus didactylus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Choloepus didactylus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu419947", 
+"@id": "otu419947", 
+"@label": "Cyclopes didactylus", 
+"meta": [
+{
+"$": 675099, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cyclopes didactylus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cyclopes didactylus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu419948", 
+"@id": "otu419948", 
+"@label": "Tamandua tetradactyla", 
+"meta": [
+{
+"$": 1014324, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tamandua tetradactyla", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tamandua tetradactyla", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu419949", 
+"@id": "otu419949", 
+"@label": "Myrmecophaga tridactyla", 
+"meta": [
+{
+"$": 490538, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Myrmecophaga tridactyla", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Myrmecophaga tridactyla", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu419950", 
+"@id": "otu419950", 
+"@label": "Dasypus kappleri", 
+"meta": [
+{
+"$": 905104, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Dasypus kappleri", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Dasypus kappleri", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu419951", 
+"@id": "otu419951", 
+"@label": "Dasypus novemcinctus", 
+"meta": [
+{
+"$": 796672, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Dasypus novemcinctus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Dasypus novemcinctus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu419952", 
+"@id": "otu419952", 
+"@label": "Cabassous unicinctus", 
+"meta": [
+{
+"$": 1014321, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cabassous unicinctus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cabassous unicinctus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu419953", 
+"@id": "otu419953", 
+"@label": "Priodontes maximus", 
+"meta": [
+{
+"$": 476113, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Priodontes maximus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Priodontes maximus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu419954", 
+"@id": "otu419954", 
+"@label": "Tolypeutes matacus", 
+"meta": [
+{
+"$": 515354, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tolypeutes matacus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tolypeutes matacus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu419955", 
+"@id": "otu419955", 
+"@label": "Chaetophractus villosus", 
+"meta": [
+{
+"$": 180375, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Chaetophractus villosus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Chaetophractus villosus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu419956", 
+"@id": "otu419956", 
+"@label": "Euphractus sexcinctus", 
+"meta": [
+{
+"$": 292508, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Euphractus sexcinctus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Euphractus sexcinctus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu419957", 
+"@id": "otu419957", 
+"@label": "Zaedyus pichiy", 
+"meta": [
+{
+"$": 1002419, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Zaedyus pichiy", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Zaedyus pichiy", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}, 
+"trees": {
+"@id": "trees2824", 
+"@otus": "otus2824", 
+"tree": [
+{
+"@about": "#tree6571", 
+"@id": "tree6571", 
+"edge": [
+{
+"@id": "edge1142805", 
+"@length": 0.0286635, 
+"@source": "node1142804", 
+"@target": "node1142805"
+}, 
+{
+"@id": "edge1142806", 
+"@length": 0.051798, 
+"@source": "node1142805", 
+"@target": "node1142806"
+}, 
+{
+"@id": "edge1142807", 
+"@length": 0.05039400000000001, 
+"@source": "node1142806", 
+"@target": "node1142807"
+}, 
+{
+"@id": "edge1142808", 
+"@length": 0.03519599999999999, 
+"@source": "node1142806", 
+"@target": "node1142808"
+}, 
+{
+"@id": "edge1142809", 
+"@length": 0.031149999999999997, 
+"@source": "node1142805", 
+"@target": "node1142809"
+}, 
+{
+"@id": "edge1142810", 
+"@length": 0.070094, 
+"@source": "node1142809", 
+"@target": "node1142810"
+}, 
+{
+"@id": "edge1142811", 
+"@length": 0.063441, 
+"@source": "node1142809", 
+"@target": "node1142811"
+}, 
+{
+"@id": "edge1142812", 
+"@length": 0.03057900000000001, 
+"@source": "node1142811", 
+"@target": "node1142812"
+}, 
+{
+"@id": "edge1142813", 
+"@length": 0.029274999999999995, 
+"@source": "node1142811", 
+"@target": "node1142813"
+}, 
+{
+"@id": "edge1142814", 
+"@length": 0.057327, 
+"@source": "node1142804", 
+"@target": "node1142814"
+}, 
+{
+"@id": "edge1142815", 
+"@length": 0.05206999999999999, 
+"@source": "node1142814", 
+"@target": "node1142815"
+}, 
+{
+"@id": "edge1142816", 
+"@length": 0.016987000000000002, 
+"@source": "node1142815", 
+"@target": "node1142816"
+}, 
+{
+"@id": "edge1142817", 
+"@length": 0.019890999999999992, 
+"@source": "node1142815", 
+"@target": "node1142817"
+}, 
+{
+"@id": "edge1142818", 
+"@length": 0.012197, 
+"@source": "node1142814", 
+"@target": "node1142818"
+}, 
+{
+"@id": "edge1142819", 
+"@length": 0.012337, 
+"@source": "node1142818", 
+"@target": "node1142819"
+}, 
+{
+"@id": "edge1142820", 
+"@length": 0.0035170000000000062, 
+"@source": "node1142819", 
+"@target": "node1142820"
+}, 
+{
+"@id": "edge1142821", 
+"@length": 0.023875000000000007, 
+"@source": "node1142820", 
+"@target": "node1142821"
+}, 
+{
+"@id": "edge1142822", 
+"@length": 0.030917, 
+"@source": "node1142820", 
+"@target": "node1142822"
+}, 
+{
+"@id": "edge1142823", 
+"@length": 0.033292, 
+"@source": "node1142819", 
+"@target": "node1142823"
+}, 
+{
+"@id": "edge1142824", 
+"@length": 0.031244999999999995, 
+"@source": "node1142818", 
+"@target": "node1142824"
+}, 
+{
+"@id": "edge1142825", 
+"@length": 0.0028419999999999973, 
+"@source": "node1142824", 
+"@target": "node1142825"
+}, 
+{
+"@id": "edge1142826", 
+"@length": 0.012160000000000004, 
+"@source": "node1142825", 
+"@target": "node1142826"
+}, 
+{
+"@id": "edge1142827", 
+"@length": 0.013105000000000006, 
+"@source": "node1142825", 
+"@target": "node1142827"
+}, 
+{
+"@id": "edge1142828", 
+"@length": 0.017601000000000006, 
+"@source": "node1142824", 
+"@target": "node1142828"
+}
+], 
+"meta": [
+{
+"$": "ot:substitutionCount", 
+"@property": "ot:branchLengthMode", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "node1142814", 
+"@property": "ot:inGroupClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Fig. 4 ML (combined data)", 
+"@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"node": [
+{
+"@id": "node1142804", 
+"@root": true
+}, 
+{
+"@id": "node1142805"
+}, 
+{
+"@id": "node1142806"
+}, 
+{
+"@about": "#node1142807", 
+"@id": "node1142807", 
+"@otu": "otu419945", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1142808", 
+"@id": "node1142808", 
+"@otu": "otu419946", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1142809"
+}, 
+{
+"@about": "#node1142810", 
+"@id": "node1142810", 
+"@otu": "otu419947", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1142811"
+}, 
+{
+"@about": "#node1142812", 
+"@id": "node1142812", 
+"@otu": "otu419948", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1142813", 
+"@id": "node1142813", 
+"@otu": "otu419949", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1142814"
+}, 
+{
+"@id": "node1142815"
+}, 
+{
+"@about": "#node1142816", 
+"@id": "node1142816", 
+"@otu": "otu419950", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1142817", 
+"@id": "node1142817", 
+"@otu": "otu419951", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1142818"
+}, 
+{
+"@id": "node1142819"
+}, 
+{
+"@id": "node1142820"
+}, 
+{
+"@about": "#node1142821", 
+"@id": "node1142821", 
+"@otu": "otu419952", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1142822", 
+"@id": "node1142822", 
+"@otu": "otu419953", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1142823", 
+"@id": "node1142823", 
+"@otu": "otu419954", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1142824"
+}, 
+{
+"@id": "node1142825"
+}, 
+{
+"@about": "#node1142826", 
+"@id": "node1142826", 
+"@otu": "otu419955", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1142827", 
+"@id": "node1142827", 
+"@otu": "otu419956", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1142828", 
+"@id": "node1142828", 
+"@otu": "otu419957", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}
+]
+}
+}
+}

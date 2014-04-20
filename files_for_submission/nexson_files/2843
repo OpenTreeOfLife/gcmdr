@@ -1,0 +1,761 @@
+{
+"nexml": {
+"@about": "#study", 
+"@generator": "Phylografter nexml-json exporter", 
+"@id": "study", 
+"@nexmljson": "http://purl.org/opentree/nexson", 
+"@version": "0.9", 
+"@xmlns": {
+"$": "http://www.nexml.org/2009", 
+"nex": "http://www.nexml.org/2009", 
+"ot": "http://purl.org/opentree-terms#", 
+"xsd": "http://www.w3.org/2001/XMLSchema#", 
+"xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}, 
+"meta": [
+{
+"$": "Kai He, Akio Shinohara, Xue-Long Jiang, Kevin L. Campbell. 2014. Multilocus phylogeny of talpine moles (Talpini, Talpidae, Eulipotyphla) and its implications for systematics. Molecular Phylogenetics and Evolution 70: 513-521.", 
+"@property": "ot:studyPublicationReference", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://dx.doi.org/10.1016/j.ympev.2013.10.002", 
+"@rel": "ot:studyPublication", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": "Joseph Brown", 
+"@property": "ot:curatorName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "2843", 
+"@property": "ot:studyId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 2014, 
+"@property": "ot:studyYear", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 222358, 
+"@property": "ot:focalClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Talpidae", 
+"@property": "ot:focalCladeOTTTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "ingroup added;", 
+"@property": "ot:tag", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"otus": {
+"@id": "otus2843", 
+"otu": [
+{
+"@about": "#otu423441", 
+"@id": "otu423441", 
+"@label": "Condylura cristata", 
+"meta": [
+{
+"$": 292504, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Condylura cristata", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Condylura cristata", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu423442", 
+"@id": "otu423442", 
+"@label": "Talpa altaica", 
+"meta": [
+{
+"$": 243622, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Talpa altaica", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Talpa altaica", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu423443", 
+"@id": "otu423443", 
+"@label": "Talpa europaea", 
+"meta": [
+{
+"$": 222362, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Talpa europaea", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Talpa europaea", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu423444", 
+"@id": "otu423444", 
+"@label": "Euroscaptor mizura", 
+"meta": [
+{
+"$": 201752, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Euroscaptor mizura", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Euroscaptor mizura", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu423445", 
+"@id": "otu423445", 
+"@label": "Mogera insularis", 
+"meta": [
+{
+"$": 201749, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mogera insularis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mogera insularis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu423446", 
+"@id": "otu423446", 
+"@label": "Mogera imaizumii", 
+"meta": [
+{
+"$": 201757, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mogera imaizumii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mogera imaizumii", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu423447", 
+"@id": "otu423447", 
+"@label": "Mogera wogura", 
+"meta": [
+{
+"$": 634080, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mogera wogura", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mogera wogura", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu423448", 
+"@id": "otu423448", 
+"@label": "Scaptochirus moschatus", 
+"meta": [
+{
+"$": 872314, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Scaptochirus moschatus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Scaptochirus moschatus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu423449", 
+"@id": "otu423449", 
+"@label": "Parascaptor leucura", 
+"meta": [
+{
+"$": 3614309, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Parascaptor leucura", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Parascaptor leucura", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu423450", 
+"@id": "otu423450", 
+"@label": "Parascaptor sp.", 
+"meta": {
+"$": "Parascaptor sp.", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+}, 
+{
+"@about": "#otu423451", 
+"@id": "otu423451", 
+"@label": "Euroscaptor parvidens", 
+"meta": [
+{
+"$": 3614252, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Euroscaptor parvidens", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Euroscaptor parvidens", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu423452", 
+"@id": "otu423452", 
+"@label": "Euroscaptor malayana", 
+"meta": [
+{
+"$": 911109, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Euroscaptor malayana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Euroscaptor malayana", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu423453", 
+"@id": "otu423453", 
+"@label": "Euroscaptor sp.", 
+"meta": {
+"$": "Euroscaptor sp.", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+}, 
+{
+"@about": "#otu423454", 
+"@id": "otu423454", 
+"@label": "Euroscaptor longirostris", 
+"meta": [
+{
+"$": 293562, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Euroscaptor longirostris", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Euroscaptor longirostris", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}, 
+"trees": {
+"@id": "trees2843", 
+"@otus": "otus2843", 
+"tree": [
+{
+"@about": "#tree6604", 
+"@id": "tree6604", 
+"edge": [
+{
+"@id": "edge1153010", 
+"@length": 33.75107105732171, 
+"@source": "node1153009", 
+"@target": "node1153010"
+}, 
+{
+"@id": "edge1153011", 
+"@length": 16.876007864556016, 
+"@source": "node1153009", 
+"@target": "node1153011"
+}, 
+{
+"@id": "edge1153012", 
+"@length": 10.157216619502435, 
+"@source": "node1153011", 
+"@target": "node1153012"
+}, 
+{
+"@id": "edge1153013", 
+"@length": 6.717846573263259, 
+"@source": "node1153012", 
+"@target": "node1153013"
+}, 
+{
+"@id": "edge1153014", 
+"@length": 6.717846573263259, 
+"@source": "node1153012", 
+"@target": "node1153014"
+}, 
+{
+"@id": "edge1153015", 
+"@length": 4.5532695917984185, 
+"@source": "node1153011", 
+"@target": "node1153015"
+}, 
+{
+"@id": "edge1153016", 
+"@length": 12.321793600967275, 
+"@source": "node1153015", 
+"@target": "node1153016"
+}, 
+{
+"@id": "edge1153017", 
+"@length": 0.9071482966952615, 
+"@source": "node1153015", 
+"@target": "node1153017"
+}, 
+{
+"@id": "edge1153018", 
+"@length": 4.45725650560761, 
+"@source": "node1153017", 
+"@target": "node1153018"
+}, 
+{
+"@id": "edge1153019", 
+"@length": 6.957388798664404, 
+"@source": "node1153018", 
+"@target": "node1153019"
+}, 
+{
+"@id": "edge1153020", 
+"@length": 3.5273937253599037, 
+"@source": "node1153018", 
+"@target": "node1153020"
+}, 
+{
+"@id": "edge1153021", 
+"@length": 3.4299950733045, 
+"@source": "node1153020", 
+"@target": "node1153021"
+}, 
+{
+"@id": "edge1153022", 
+"@length": 3.4299950733045, 
+"@source": "node1153020", 
+"@target": "node1153022"
+}, 
+{
+"@id": "edge1153023", 
+"@length": 1.56335852383177, 
+"@source": "node1153017", 
+"@target": "node1153023"
+}, 
+{
+"@id": "edge1153024", 
+"@length": 0.7928775003276023, 
+"@source": "node1153023", 
+"@target": "node1153024"
+}, 
+{
+"@id": "edge1153025", 
+"@length": 9.058409280112642, 
+"@source": "node1153024", 
+"@target": "node1153025"
+}, 
+{
+"@id": "edge1153026", 
+"@length": 2.5887069905525983, 
+"@source": "node1153024", 
+"@target": "node1153026"
+}, 
+{
+"@id": "edge1153027", 
+"@length": 6.469702289560043, 
+"@source": "node1153026", 
+"@target": "node1153027"
+}, 
+{
+"@id": "edge1153028", 
+"@length": 6.469702289560043, 
+"@source": "node1153026", 
+"@target": "node1153028"
+}, 
+{
+"@id": "edge1153029", 
+"@length": 0.6340161772736899, 
+"@source": "node1153023", 
+"@target": "node1153029"
+}, 
+{
+"@id": "edge1153030", 
+"@length": 9.217270603166554, 
+"@source": "node1153029", 
+"@target": "node1153030"
+}, 
+{
+"@id": "edge1153031", 
+"@length": 6.316162399050473, 
+"@source": "node1153029", 
+"@target": "node1153031"
+}, 
+{
+"@id": "edge1153032", 
+"@length": 2.901108204116081, 
+"@source": "node1153031", 
+"@target": "node1153032"
+}, 
+{
+"@id": "edge1153033", 
+"@length": 0.7590442034453098, 
+"@source": "node1153031", 
+"@target": "node1153033"
+}, 
+{
+"@id": "edge1153034", 
+"@length": 2.1420640006707714, 
+"@source": "node1153033", 
+"@target": "node1153034"
+}, 
+{
+"@id": "edge1153035", 
+"@length": 2.1420640006707714, 
+"@source": "node1153033", 
+"@target": "node1153035"
+}
+], 
+"meta": [
+{
+"$": "ot:time", 
+"@property": "ot:branchLengthMode", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Myr", 
+"@property": "ot:branchLengthTimeUnit", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "node1153011", 
+"@property": "ot:inGroupClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Fig. 2b *BEAST", 
+"@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"node": [
+{
+"@id": "node1153009", 
+"@root": true
+}, 
+{
+"@about": "#node1153010", 
+"@id": "node1153010", 
+"@otu": "otu423441", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1153011"
+}, 
+{
+"@id": "node1153012"
+}, 
+{
+"@about": "#node1153013", 
+"@id": "node1153013", 
+"@otu": "otu423442", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1153014", 
+"@id": "node1153014", 
+"@otu": "otu423443", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1153015"
+}, 
+{
+"@about": "#node1153016", 
+"@id": "node1153016", 
+"@otu": "otu423444", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1153017"
+}, 
+{
+"@id": "node1153018"
+}, 
+{
+"@about": "#node1153019", 
+"@id": "node1153019", 
+"@otu": "otu423445", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1153020"
+}, 
+{
+"@about": "#node1153021", 
+"@id": "node1153021", 
+"@otu": "otu423446", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1153022", 
+"@id": "node1153022", 
+"@otu": "otu423447", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1153023"
+}, 
+{
+"@id": "node1153024"
+}, 
+{
+"@about": "#node1153025", 
+"@id": "node1153025", 
+"@otu": "otu423448", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1153026"
+}, 
+{
+"@about": "#node1153027", 
+"@id": "node1153027", 
+"@otu": "otu423449", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1153028", 
+"@id": "node1153028", 
+"@otu": "otu423450", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1153029"
+}, 
+{
+"@about": "#node1153030", 
+"@id": "node1153030", 
+"@otu": "otu423451", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1153031"
+}, 
+{
+"@about": "#node1153032", 
+"@id": "node1153032", 
+"@otu": "otu423452", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1153033"
+}, 
+{
+"@about": "#node1153034", 
+"@id": "node1153034", 
+"@otu": "otu423453", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1153035", 
+"@id": "node1153035", 
+"@otu": "otu423454", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}
+]
+}
+}
+}

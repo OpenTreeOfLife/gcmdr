@@ -1,0 +1,1664 @@
+{
+"nexml": {
+"@about": "#study", 
+"@generator": "Phylografter nexml-json exporter", 
+"@id": "study", 
+"@nexmljson": "http://purl.org/opentree/nexson", 
+"@version": "0.9", 
+"@xmlns": {
+"$": "http://www.nexml.org/2009", 
+"nex": "http://www.nexml.org/2009", 
+"ot": "http://purl.org/opentree-terms#", 
+"xsd": "http://www.w3.org/2001/XMLSchema#", 
+"xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}, 
+"meta": [
+{
+"$": "Jiao, Z., & Li, J. (2007). Phylogeny of intercontinental disjunct Gelsemiaceae inferred from chloroplast and nuclear DNA sequences. Systematic Botany, 32(3), 617-627.", 
+"@property": "ot:studyPublicationReference", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://dx.doi.org/10.1600/036364407782250634", 
+"@rel": "ot:studyPublication", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": "William Wysocki", 
+"@property": "ot:curatorName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S1703", 
+"@rel": "ot:dataDeposit", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": "109", 
+"@property": "ot:studyId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 2007, 
+"@property": "ot:studyYear", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 522456, 
+"@property": "ot:focalClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemiaceae", 
+"@property": "ot:focalCladeOTTTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "cpDNA & nrDNA", 
+"@property": "ot:tag", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "ingroup added;", 
+"@property": "ot:tag", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"otus": {
+"@id": "otus109", 
+"otu": [
+{
+"@about": "#otu221166", 
+"@id": "otu221166", 
+"@label": "Periploca graeca", 
+"meta": [
+{
+"$": 334796, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl17381", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Periploca graeca", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Periploca graeca", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221167", 
+"@id": "otu221167", 
+"@label": "Nerium oleander", 
+"meta": [
+{
+"$": 65881, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl181805", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Nerium oleander", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Nerium oleander", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221168", 
+"@id": "otu221168", 
+"@label": "Strychnos spinosa", 
+"meta": [
+{
+"$": 164458, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl181819", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Strychnos spinosa", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Strychnos spinosa", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221169", 
+"@id": "otu221169", 
+"@label": "Gentiana procera", 
+"meta": [
+{
+"$": 22362, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl181822", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gentiana procera", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gentiana procera", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221170", 
+"@id": "otu221170", 
+"@label": "Anthocleista grandiflora", 
+"meta": [
+{
+"$": 543369, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl181823", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Anthocleista grandiflora", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Anthocleista grandiflora", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221171", 
+"@id": "otu221171", 
+"@label": "Mostuea brunonis", 
+"meta": [
+{
+"$": 125852, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23154", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mostuea brunonis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mostuea brunonis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221172", 
+"@id": "otu221172", 
+"@label": "Antonia ovata", 
+"meta": [
+{
+"$": 142093, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23155", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Antonia ovata", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Antonia ovata", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221173", 
+"@id": "otu221173", 
+"@label": "Ophiorrhiza mungos", 
+"meta": [
+{
+"$": 1086227, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23156", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Ophiorrhiza mungos", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Ophiorrhiza mungos", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221174", 
+"@id": "otu221174", 
+"@label": "Strychnos nux-vomica", 
+"meta": [
+{
+"$": 125847, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23157", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Strychnos nux-vomica", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Strychnos nux-vomica", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221175", 
+"@id": "otu221175", 
+"@label": "Gelsemium sempervirens", 
+"meta": [
+{
+"$": 125850, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23158", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium sempervirens", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium sempervirens", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221176", 
+"@id": "otu221176", 
+"@label": "Gardenia thunbergia", 
+"meta": [
+{
+"$": 840078, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23159", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gardenia thunbergia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gardenia thunbergia", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221177", 
+"@id": "otu221177", 
+"@label": "Cinchona pubescens", 
+"meta": [
+{
+"$": 30634, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23160", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cinchona pubescens", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cinchona pubescens", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221178", 
+"@id": "otu221178", 
+"@label": "Kopsia fruticosa", 
+"meta": [
+{
+"$": 22369, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23161", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Kopsia fruticosa", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Kopsia fruticosa", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221179", 
+"@id": "otu221179", 
+"@label": "Gelsemium rankinii", 
+"meta": [
+{
+"$": 257883, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23162", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium rankinii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium rankinii", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221180", 
+"@id": "otu221180", 
+"@label": "Spigelia anthelmia", 
+"meta": [
+{
+"$": 412629, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23163", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Spigelia anthelmia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Spigelia anthelmia", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221181", 
+"@id": "otu221181", 
+"@label": "Gelsemium elegans", 
+"meta": [
+{
+"$": 257885, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23164", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium elegans", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium elegans", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221182", 
+"@id": "otu221182", 
+"@label": "Exacum affine", 
+"meta": [
+{
+"$": 971340, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23165", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Exacum affine", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Exacum affine", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221183", 
+"@id": "otu221183", 
+"@label": "Periploca sepium", 
+"meta": [
+{
+"$": 780215, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23166", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Periploca sepium", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Periploca sepium", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221184", 
+"@id": "otu221184", 
+"@label": "Gelsemium sempervirens", 
+"meta": [
+{
+"$": 125850, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23167", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium sempervirens", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium sempervirens 4188", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221185", 
+"@id": "otu221185", 
+"@label": "Gelsemium rankinii", 
+"meta": [
+{
+"$": 257883, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23168", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium rankinii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium rankinii 4338", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221186", 
+"@id": "otu221186", 
+"@label": "Mostuea batesii", 
+"meta": [
+{
+"$": 257889, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23169", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mostuea batesii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mostuea batsii", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221187", 
+"@id": "otu221187", 
+"@label": "Gelsemium sempervirens", 
+"meta": [
+{
+"$": 125850, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23170", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium sempervirens", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium sempervirens 4186", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221188", 
+"@id": "otu221188", 
+"@label": "Gelsemium rankinii", 
+"meta": [
+{
+"$": 257883, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23171", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium rankinii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium rankinii 4340", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221189", 
+"@id": "otu221189", 
+"@label": "Gelsemium elegans", 
+"meta": [
+{
+"$": 257885, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23172", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium elegans", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium elegans 4173", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221190", 
+"@id": "otu221190", 
+"@label": "Gelsemium rankinii", 
+"meta": [
+{
+"$": 257883, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23174", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium rankinii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium rankinii 4341", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221191", 
+"@id": "otu221191", 
+"@label": "Gelsemium rankinii", 
+"meta": [
+{
+"$": 257883, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23175", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium rankinii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium rankinii 4370", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221192", 
+"@id": "otu221192", 
+"@label": "Mostuea hirsuta", 
+"meta": [
+{
+"$": 257887, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23176", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mostuea hirsuta", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mostuea hirsuta", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221193", 
+"@id": "otu221193", 
+"@label": "Gelsemium elegans", 
+"meta": [
+{
+"$": 257885, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23177", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium elegans", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium elegans 4162", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221194", 
+"@id": "otu221194", 
+"@label": "Mostuea surinamensis", 
+"meta": [
+{
+"$": 257892, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23178", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mostuea surinamensis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mostuea surinamensis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu221195", 
+"@id": "otu221195", 
+"@label": "Gelsemium rankinii", 
+"meta": [
+{
+"$": 257883, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl23179", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium rankinii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gelsemium rankinii 4374", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}, 
+"trees": {
+"@id": "trees109", 
+"@otus": "otus109", 
+"tree": [
+{
+"@about": "#tree2117", 
+"@id": "tree2117", 
+"edge": [
+{
+"@id": "edge524869", 
+"@source": "node524868", 
+"@target": "node524869"
+}, 
+{
+"@id": "edge524871", 
+"@source": "node524870", 
+"@target": "node524871"
+}, 
+{
+"@id": "edge524872", 
+"@source": "node524870", 
+"@target": "node524872"
+}, 
+{
+"@id": "edge524870", 
+"@source": "node524868", 
+"@target": "node524870"
+}, 
+{
+"@id": "edge524868", 
+"@source": "node524867", 
+"@target": "node524868"
+}, 
+{
+"@id": "edge524878", 
+"@source": "node524877", 
+"@target": "node524878"
+}, 
+{
+"@id": "edge524879", 
+"@source": "node524877", 
+"@target": "node524879"
+}, 
+{
+"@id": "edge524877", 
+"@source": "node524876", 
+"@target": "node524877"
+}, 
+{
+"@id": "edge524880", 
+"@source": "node524876", 
+"@target": "node524880"
+}, 
+{
+"@id": "edge524876", 
+"@source": "node524875", 
+"@target": "node524876"
+}, 
+{
+"@id": "edge524881", 
+"@source": "node524875", 
+"@target": "node524881"
+}, 
+{
+"@id": "edge524875", 
+"@source": "node524874", 
+"@target": "node524875"
+}, 
+{
+"@id": "edge524884", 
+"@source": "node524883", 
+"@target": "node524884"
+}, 
+{
+"@id": "edge524886", 
+"@source": "node524885", 
+"@target": "node524886"
+}, 
+{
+"@id": "edge524887", 
+"@source": "node524885", 
+"@target": "node524887"
+}, 
+{
+"@id": "edge524885", 
+"@source": "node524883", 
+"@target": "node524885"
+}, 
+{
+"@id": "edge524883", 
+"@source": "node524882", 
+"@target": "node524883"
+}, 
+{
+"@id": "edge524890", 
+"@source": "node524889", 
+"@target": "node524890"
+}, 
+{
+"@id": "edge524891", 
+"@source": "node524889", 
+"@target": "node524891"
+}, 
+{
+"@id": "edge524889", 
+"@source": "node524888", 
+"@target": "node524889"
+}, 
+{
+"@id": "edge524892", 
+"@source": "node524888", 
+"@target": "node524892"
+}, 
+{
+"@id": "edge524888", 
+"@source": "node524882", 
+"@target": "node524888"
+}, 
+{
+"@id": "edge524882", 
+"@source": "node524874", 
+"@target": "node524882"
+}, 
+{
+"@id": "edge524874", 
+"@source": "node524873", 
+"@target": "node524874"
+}, 
+{
+"@id": "edge524894", 
+"@source": "node524893", 
+"@target": "node524894"
+}, 
+{
+"@id": "edge524896", 
+"@source": "node524895", 
+"@target": "node524896"
+}, 
+{
+"@id": "edge524897", 
+"@source": "node524895", 
+"@target": "node524897"
+}, 
+{
+"@id": "edge524895", 
+"@source": "node524893", 
+"@target": "node524895"
+}, 
+{
+"@id": "edge524893", 
+"@source": "node524873", 
+"@target": "node524893"
+}, 
+{
+"@id": "edge524873", 
+"@source": "node524867", 
+"@target": "node524873"
+}
+], 
+"meta": [
+{
+"$": "cp combined tree", 
+"@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"node": [
+{
+"@about": "#node524869", 
+"@id": "node524869", 
+"@otu": "otu221173", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524871", 
+"@id": "node524871", 
+"@otu": "otu221177", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524872", 
+"@id": "node524872", 
+"@otu": "otu221176", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node524870"
+}, 
+{
+"@id": "node524868"
+}, 
+{
+"@about": "#node524878", 
+"@id": "node524878", 
+"@otu": "otu221175", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524879", 
+"@id": "node524879", 
+"@otu": "otu221179", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node524877"
+}, 
+{
+"@about": "#node524880", 
+"@id": "node524880", 
+"@otu": "otu221181", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node524876"
+}, 
+{
+"@about": "#node524881", 
+"@id": "node524881", 
+"@otu": "otu221171", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node524875"
+}, 
+{
+"@about": "#node524884", 
+"@id": "node524884", 
+"@otu": "otu221178", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524886", 
+"@id": "node524886", 
+"@otu": "otu221167", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524887", 
+"@id": "node524887", 
+"@otu": "otu221166", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node524885"
+}, 
+{
+"@id": "node524883"
+}, 
+{
+"@about": "#node524890", 
+"@id": "node524890", 
+"@otu": "otu221180", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524891", 
+"@id": "node524891", 
+"@otu": "otu221174", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node524889"
+}, 
+{
+"@about": "#node524892", 
+"@id": "node524892", 
+"@otu": "otu221172", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node524888"
+}, 
+{
+"@id": "node524882"
+}, 
+{
+"@id": "node524874"
+}, 
+{
+"@about": "#node524894", 
+"@id": "node524894", 
+"@otu": "otu221182", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524896", 
+"@id": "node524896", 
+"@otu": "otu221170", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524897", 
+"@id": "node524897", 
+"@otu": "otu221169", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node524895"
+}, 
+{
+"@id": "node524893"
+}, 
+{
+"@id": "node524873"
+}, 
+{
+"@id": "node524867", 
+"@root": true
+}
+]
+}, 
+{
+"@about": "#tree2118", 
+"@id": "tree2118", 
+"edge": [
+{
+"@id": "edge524899", 
+"@source": "node524898", 
+"@target": "node524899"
+}, 
+{
+"@id": "edge524900", 
+"@source": "node524898", 
+"@target": "node524900"
+}, 
+{
+"@id": "edge524901", 
+"@source": "node524900", 
+"@target": "node524901"
+}, 
+{
+"@id": "edge524902", 
+"@source": "node524900", 
+"@target": "node524902"
+}, 
+{
+"@id": "edge524903", 
+"@source": "node524902", 
+"@target": "node524903"
+}, 
+{
+"@id": "edge524904", 
+"@source": "node524903", 
+"@target": "node524904"
+}, 
+{
+"@id": "edge524905", 
+"@source": "node524904", 
+"@target": "node524905"
+}, 
+{
+"@id": "edge524906", 
+"@source": "node524904", 
+"@target": "node524906"
+}, 
+{
+"@id": "edge524907", 
+"@source": "node524903", 
+"@target": "node524907"
+}, 
+{
+"@id": "edge524908", 
+"@source": "node524902", 
+"@target": "node524908"
+}, 
+{
+"@id": "edge524909", 
+"@source": "node524908", 
+"@target": "node524909"
+}, 
+{
+"@id": "edge524910", 
+"@source": "node524909", 
+"@target": "node524910"
+}, 
+{
+"@id": "edge524911", 
+"@source": "node524910", 
+"@target": "node524911"
+}, 
+{
+"@id": "edge524912", 
+"@source": "node524910", 
+"@target": "node524912"
+}, 
+{
+"@id": "edge524913", 
+"@source": "node524909", 
+"@target": "node524913"
+}, 
+{
+"@id": "edge524914", 
+"@source": "node524913", 
+"@target": "node524914"
+}, 
+{
+"@id": "edge524915", 
+"@source": "node524914", 
+"@target": "node524915"
+}, 
+{
+"@id": "edge524916", 
+"@source": "node524914", 
+"@target": "node524916"
+}, 
+{
+"@id": "edge524917", 
+"@source": "node524913", 
+"@target": "node524917"
+}, 
+{
+"@id": "edge524918", 
+"@source": "node524913", 
+"@target": "node524918"
+}, 
+{
+"@id": "edge524919", 
+"@source": "node524913", 
+"@target": "node524919"
+}, 
+{
+"@id": "edge524920", 
+"@source": "node524908", 
+"@target": "node524920"
+}, 
+{
+"@id": "edge524921", 
+"@source": "node524920", 
+"@target": "node524921"
+}, 
+{
+"@id": "edge524922", 
+"@source": "node524920", 
+"@target": "node524922"
+}
+], 
+"meta": [
+{
+"$": "node524902", 
+"@property": "ot:inGroupClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "ETS tree", 
+"@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"node": [
+{
+"@id": "node524898", 
+"@root": true
+}, 
+{
+"@about": "#node524899", 
+"@id": "node524899", 
+"@otu": "otu221183", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node524900"
+}, 
+{
+"@about": "#node524901", 
+"@id": "node524901", 
+"@otu": "otu221168", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node524902"
+}, 
+{
+"@id": "node524903"
+}, 
+{
+"@id": "node524904"
+}, 
+{
+"@about": "#node524905", 
+"@id": "node524905", 
+"@otu": "otu221186", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524906", 
+"@id": "node524906", 
+"@otu": "otu221192", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524907", 
+"@id": "node524907", 
+"@otu": "otu221194", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node524908"
+}, 
+{
+"@id": "node524909"
+}, 
+{
+"@id": "node524910"
+}, 
+{
+"@about": "#node524911", 
+"@id": "node524911", 
+"@otu": "otu221187", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524912", 
+"@id": "node524912", 
+"@otu": "otu221184", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node524913"
+}, 
+{
+"@id": "node524914"
+}, 
+{
+"@about": "#node524915", 
+"@id": "node524915", 
+"@otu": "otu221191", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524916", 
+"@id": "node524916", 
+"@otu": "otu221195", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524917", 
+"@id": "node524917", 
+"@otu": "otu221185", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524918", 
+"@id": "node524918", 
+"@otu": "otu221188", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524919", 
+"@id": "node524919", 
+"@otu": "otu221190", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node524920"
+}, 
+{
+"@about": "#node524921", 
+"@id": "node524921", 
+"@otu": "otu221193", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node524922", 
+"@id": "node524922", 
+"@otu": "otu221189", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}
+]
+}
+}
+}

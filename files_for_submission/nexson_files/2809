@@ -1,0 +1,1272 @@
+{
+"nexml": {
+"@about": "#study", 
+"@generator": "Phylografter nexml-json exporter", 
+"@id": "study", 
+"@nexmljson": "http://purl.org/opentree/nexson", 
+"@version": "0.9", 
+"@xmlns": {
+"$": "http://www.nexml.org/2009", 
+"nex": "http://www.nexml.org/2009", 
+"ot": "http://purl.org/opentree-terms#", 
+"xsd": "http://www.w3.org/2001/XMLSchema#", 
+"xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}, 
+"meta": [
+{
+"$": "Scott J. Steppan, Mikhail R. Akhverdyan. 1999. Molecular Phylogeny of the marmots (Rodentia: Sciuridae): tests of evolutionary and biogeographic hypotheses. Systematic Biology 48 (4): 715-734.", 
+"@property": "ot:studyPublicationReference", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://dx.doi.org/10.1080/106351599259988", 
+"@rel": "ot:studyPublication", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": "Joseph Brown", 
+"@property": "ot:curatorName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "2809", 
+"@property": "ot:studyId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 1999, 
+"@property": "ot:studyYear", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 454483, 
+"@property": "ot:focalClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota", 
+"@property": "ot:focalCladeOTTTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"otus": {
+"@id": "otus2809", 
+"otu": [
+{
+"@about": "#otu415398", 
+"@id": "otu415398", 
+"@label": "Marmota caligata", 
+"meta": [
+{
+"$": 10477, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota caligata", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota caligata", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415399", 
+"@id": "otu415399", 
+"@label": "Marmota vancouverensis", 
+"meta": [
+{
+"$": 10484, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota vancouverensis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota vancouverensis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415400", 
+"@id": "otu415400", 
+"@label": "Marmota olympus", 
+"meta": [
+{
+"$": 10488, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota olympus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota olympus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415401", 
+"@id": "otu415401", 
+"@label": "Marmota flaviventris", 
+"meta": [
+{
+"$": 63459, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota flaviventris", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota flaviventris", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415402", 
+"@id": "otu415402", 
+"@label": "Marmota flaviventris", 
+"meta": [
+{
+"$": 63459, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota flaviventris", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota flaviventris", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415403", 
+"@id": "otu415403", 
+"@label": "Marmota sibirica", 
+"meta": [
+{
+"$": 63467, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota sibirica", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota sibirica", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415404", 
+"@id": "otu415404", 
+"@label": "Marmota sibirica", 
+"meta": [
+{
+"$": 63467, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota sibirica", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota sibirica", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415405", 
+"@id": "otu415405", 
+"@label": "Marmota himalayana", 
+"meta": [
+{
+"$": 10475, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota himalayana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota himalayana", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415406", 
+"@id": "otu415406", 
+"@label": "Marmota camtschatica", 
+"meta": [
+{
+"$": 10479, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota camtschatica", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota camtschatica", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415407", 
+"@id": "otu415407", 
+"@label": "Marmota camtschatica", 
+"meta": [
+{
+"$": 10479, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota camtschatica", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota camtschatica", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415408", 
+"@id": "otu415408", 
+"@label": "Marmota bobak", 
+"meta": [
+{
+"$": 531857, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota bobak", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota bobak", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415409", 
+"@id": "otu415409", 
+"@label": "Marmota bobak", 
+"meta": [
+{
+"$": 531857, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota bobak", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota bobak", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415410", 
+"@id": "otu415410", 
+"@label": "Marmota baibacina", 
+"meta": [
+{
+"$": 491812, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota baibacina", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota baibacina", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415411", 
+"@id": "otu415411", 
+"@label": "Marmota baibacina", 
+"meta": [
+{
+"$": 491812, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota baibacina", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota baibacina", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415412", 
+"@id": "otu415412", 
+"@label": "Marmota caudata", 
+"meta": [
+{
+"$": 957478, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota caudata", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota caudata", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415413", 
+"@id": "otu415413", 
+"@label": "Marmota caudata", 
+"meta": [
+{
+"$": 957478, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota caudata", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota caudata", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415414", 
+"@id": "otu415414", 
+"@label": "Marmota caudata", 
+"meta": [
+{
+"$": 957478, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota caudata", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota caudata", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415415", 
+"@id": "otu415415", 
+"@label": "Marmota menzbieri", 
+"meta": [
+{
+"$": 10486, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota menzbieri", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota menzbieri", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415416", 
+"@id": "otu415416", 
+"@label": "Marmota broweri", 
+"meta": [
+{
+"$": 531855, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota broweri", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota broweri", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415417", 
+"@id": "otu415417", 
+"@label": "Marmota broweri", 
+"meta": [
+{
+"$": 531855, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota broweri", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota broweri", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415418", 
+"@id": "otu415418", 
+"@label": "Marmota marmota", 
+"meta": [
+{
+"$": 630991, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota marmota", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota marmota", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415419", 
+"@id": "otu415419", 
+"@label": "Marmota marmota", 
+"meta": [
+{
+"$": 630991, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota marmota", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota marmota", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415420", 
+"@id": "otu415420", 
+"@label": "Marmota monax", 
+"meta": [
+{
+"$": 630994, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota monax", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota monax", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415421", 
+"@id": "otu415421", 
+"@label": "Marmota monax", 
+"meta": [
+{
+"$": 630994, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota monax", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota monax", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu415422", 
+"@id": "otu415422", 
+"@label": "Marmota monax", 
+"meta": [
+{
+"$": 630994, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota monax", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Marmota monax", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}, 
+"trees": {
+"@id": "trees2809", 
+"@otus": "otus2809", 
+"tree": [
+{
+"@about": "#tree6521", 
+"@id": "tree6521", 
+"edge": [
+{
+"@id": "edge1124277", 
+"@source": "node1124276", 
+"@target": "node1124277"
+}, 
+{
+"@id": "edge1124278", 
+"@source": "node1124277", 
+"@target": "node1124278"
+}, 
+{
+"@id": "edge1124279", 
+"@source": "node1124278", 
+"@target": "node1124279"
+}, 
+{
+"@id": "edge1124280", 
+"@source": "node1124279", 
+"@target": "node1124280"
+}, 
+{
+"@id": "edge1124281", 
+"@source": "node1124279", 
+"@target": "node1124281"
+}, 
+{
+"@id": "edge1124282", 
+"@source": "node1124278", 
+"@target": "node1124282"
+}, 
+{
+"@id": "edge1124283", 
+"@source": "node1124277", 
+"@target": "node1124283"
+}, 
+{
+"@id": "edge1124284", 
+"@source": "node1124283", 
+"@target": "node1124284"
+}, 
+{
+"@id": "edge1124285", 
+"@source": "node1124283", 
+"@target": "node1124285"
+}, 
+{
+"@id": "edge1124286", 
+"@source": "node1124276", 
+"@target": "node1124286"
+}, 
+{
+"@id": "edge1124287", 
+"@source": "node1124286", 
+"@target": "node1124287"
+}, 
+{
+"@id": "edge1124288", 
+"@source": "node1124287", 
+"@target": "node1124288"
+}, 
+{
+"@id": "edge1124289", 
+"@source": "node1124288", 
+"@target": "node1124289"
+}, 
+{
+"@id": "edge1124290", 
+"@source": "node1124289", 
+"@target": "node1124290"
+}, 
+{
+"@id": "edge1124291", 
+"@source": "node1124290", 
+"@target": "node1124291"
+}, 
+{
+"@id": "edge1124292", 
+"@source": "node1124291", 
+"@target": "node1124292"
+}, 
+{
+"@id": "edge1124293", 
+"@source": "node1124291", 
+"@target": "node1124293"
+}, 
+{
+"@id": "edge1124294", 
+"@source": "node1124290", 
+"@target": "node1124294"
+}, 
+{
+"@id": "edge1124295", 
+"@source": "node1124289", 
+"@target": "node1124295"
+}, 
+{
+"@id": "edge1124296", 
+"@source": "node1124295", 
+"@target": "node1124296"
+}, 
+{
+"@id": "edge1124297", 
+"@source": "node1124295", 
+"@target": "node1124297"
+}, 
+{
+"@id": "edge1124298", 
+"@source": "node1124288", 
+"@target": "node1124298"
+}, 
+{
+"@id": "edge1124299", 
+"@source": "node1124298", 
+"@target": "node1124299"
+}, 
+{
+"@id": "edge1124300", 
+"@source": "node1124299", 
+"@target": "node1124300"
+}, 
+{
+"@id": "edge1124301", 
+"@source": "node1124299", 
+"@target": "node1124301"
+}, 
+{
+"@id": "edge1124302", 
+"@source": "node1124298", 
+"@target": "node1124302"
+}, 
+{
+"@id": "edge1124303", 
+"@source": "node1124302", 
+"@target": "node1124303"
+}, 
+{
+"@id": "edge1124304", 
+"@source": "node1124302", 
+"@target": "node1124304"
+}, 
+{
+"@id": "edge1124305", 
+"@source": "node1124287", 
+"@target": "node1124305"
+}, 
+{
+"@id": "edge1124306", 
+"@source": "node1124305", 
+"@target": "node1124306"
+}, 
+{
+"@id": "edge1124307", 
+"@source": "node1124306", 
+"@target": "node1124307"
+}, 
+{
+"@id": "edge1124308", 
+"@source": "node1124307", 
+"@target": "node1124308"
+}, 
+{
+"@id": "edge1124309", 
+"@source": "node1124308", 
+"@target": "node1124309"
+}, 
+{
+"@id": "edge1124310", 
+"@source": "node1124309", 
+"@target": "node1124310"
+}, 
+{
+"@id": "edge1124311", 
+"@source": "node1124309", 
+"@target": "node1124311"
+}, 
+{
+"@id": "edge1124312", 
+"@source": "node1124308", 
+"@target": "node1124312"
+}, 
+{
+"@id": "edge1124313", 
+"@source": "node1124307", 
+"@target": "node1124313"
+}, 
+{
+"@id": "edge1124314", 
+"@source": "node1124306", 
+"@target": "node1124314"
+}, 
+{
+"@id": "edge1124315", 
+"@source": "node1124314", 
+"@target": "node1124315"
+}, 
+{
+"@id": "edge1124316", 
+"@source": "node1124314", 
+"@target": "node1124316"
+}, 
+{
+"@id": "edge1124317", 
+"@source": "node1124305", 
+"@target": "node1124317"
+}, 
+{
+"@id": "edge1124318", 
+"@source": "node1124317", 
+"@target": "node1124318"
+}, 
+{
+"@id": "edge1124319", 
+"@source": "node1124317", 
+"@target": "node1124319"
+}, 
+{
+"@id": "edge1124320", 
+"@source": "node1124286", 
+"@target": "node1124320"
+}, 
+{
+"@id": "edge1124321", 
+"@source": "node1124320", 
+"@target": "node1124321"
+}, 
+{
+"@id": "edge1124322", 
+"@source": "node1124321", 
+"@target": "node1124322"
+}, 
+{
+"@id": "edge1124323", 
+"@source": "node1124321", 
+"@target": "node1124323"
+}, 
+{
+"@id": "edge1124324", 
+"@source": "node1124320", 
+"@target": "node1124324"
+}
+], 
+"meta": [
+{
+"$": "node1124276", 
+"@property": "ot:inGroupClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "ML", 
+"@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"node": [
+{
+"@id": "node1124276", 
+"@root": true
+}, 
+{
+"@id": "node1124277"
+}, 
+{
+"@id": "node1124278"
+}, 
+{
+"@id": "node1124279"
+}, 
+{
+"@about": "#node1124280", 
+"@id": "node1124280", 
+"@otu": "otu415398", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124281", 
+"@id": "node1124281", 
+"@otu": "otu415399", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124282", 
+"@id": "node1124282", 
+"@otu": "otu415400", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1124283"
+}, 
+{
+"@about": "#node1124284", 
+"@id": "node1124284", 
+"@otu": "otu415401", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124285", 
+"@id": "node1124285", 
+"@otu": "otu415402", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1124286"
+}, 
+{
+"@id": "node1124287"
+}, 
+{
+"@id": "node1124288"
+}, 
+{
+"@id": "node1124289"
+}, 
+{
+"@id": "node1124290"
+}, 
+{
+"@id": "node1124291"
+}, 
+{
+"@about": "#node1124292", 
+"@id": "node1124292", 
+"@otu": "otu415403", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124293", 
+"@id": "node1124293", 
+"@otu": "otu415404", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124294", 
+"@id": "node1124294", 
+"@otu": "otu415405", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1124295"
+}, 
+{
+"@about": "#node1124296", 
+"@id": "node1124296", 
+"@otu": "otu415406", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124297", 
+"@id": "node1124297", 
+"@otu": "otu415407", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1124298"
+}, 
+{
+"@id": "node1124299"
+}, 
+{
+"@about": "#node1124300", 
+"@id": "node1124300", 
+"@otu": "otu415408", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124301", 
+"@id": "node1124301", 
+"@otu": "otu415409", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1124302"
+}, 
+{
+"@about": "#node1124303", 
+"@id": "node1124303", 
+"@otu": "otu415410", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124304", 
+"@id": "node1124304", 
+"@otu": "otu415411", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1124305"
+}, 
+{
+"@id": "node1124306"
+}, 
+{
+"@id": "node1124307"
+}, 
+{
+"@id": "node1124308"
+}, 
+{
+"@id": "node1124309"
+}, 
+{
+"@about": "#node1124310", 
+"@id": "node1124310", 
+"@otu": "otu415412", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124311", 
+"@id": "node1124311", 
+"@otu": "otu415413", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124312", 
+"@id": "node1124312", 
+"@otu": "otu415414", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124313", 
+"@id": "node1124313", 
+"@otu": "otu415415", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1124314"
+}, 
+{
+"@about": "#node1124315", 
+"@id": "node1124315", 
+"@otu": "otu415416", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124316", 
+"@id": "node1124316", 
+"@otu": "otu415417", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1124317"
+}, 
+{
+"@about": "#node1124318", 
+"@id": "node1124318", 
+"@otu": "otu415418", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124319", 
+"@id": "node1124319", 
+"@otu": "otu415419", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1124320"
+}, 
+{
+"@id": "node1124321"
+}, 
+{
+"@about": "#node1124322", 
+"@id": "node1124322", 
+"@otu": "otu415420", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124323", 
+"@id": "node1124323", 
+"@otu": "otu415421", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1124324", 
+"@id": "node1124324", 
+"@otu": "otu415422", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}
+]
+}
+}
+}

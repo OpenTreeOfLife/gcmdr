@@ -1,0 +1,3705 @@
+{
+"nexml": {
+"@about": "#study", 
+"@generator": "Phylografter nexml-json exporter", 
+"@id": "study", 
+"@nexmljson": "http://purl.org/opentree/nexson", 
+"@version": "0.9", 
+"@xmlns": {
+"$": "http://www.nexml.org/2009", 
+"nex": "http://www.nexml.org/2009", 
+"ot": "http://purl.org/opentree-terms#", 
+"xsd": "http://www.w3.org/2001/XMLSchema#", 
+"xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}, 
+"meta": [
+{
+"$": "Gontcharov A., & Melkonian M. 2010. Molecular phylogeny and revision of the genus Netrium (Zygnematophyceae, Streptophyta): Planotaenium stat. nov. and Nucleotaenium gen. nov. Journal of Phycology, 46(2): 346-362.", 
+"@property": "ot:studyPublicationReference", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://dx.doi.org/10.1111/j.1529-8817.2010.00814.x", 
+"@rel": "ot:studyPublication", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": "bryan drew", 
+"@property": "ot:curatorName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S10056", 
+"@rel": "ot:dataDeposit", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": "1222", 
+"@property": "ot:studyId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 2010, 
+"@property": "ot:studyYear", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 322824, 
+"@property": "ot:focalClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Zygnemophyceae", 
+"@property": "ot:focalCladeOTTTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"otus": {
+"@id": "otus1222", 
+"otu": [
+{
+"@about": "#otu233449", 
+"@id": "otu233449", 
+"@label": "Xanthidium subhastiferum", 
+"meta": [
+{
+"$": 8178, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267004", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Xanthidium subhastiferum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Xanthidium subhastiferum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233450", 
+"@id": "otu233450", 
+"@label": "Zygnema sp. M-1156", 
+"meta": [
+{
+"$": 826514, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267005", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Zygnema sp. M-1156", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Zygnema M1156", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233451", 
+"@id": "otu233451", 
+"@label": "Planotaenium interruptum", 
+"meta": [
+{
+"$": 689131, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267006", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Planotaenium interruptum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Planotaenium interruptum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233452", 
+"@id": "otu233452", 
+"@label": "Mesotaenium chlamydosporum", 
+"meta": [
+{
+"$": 1016627, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267007", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium chlamydosporum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium chlamydosporum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233453", 
+"@id": "otu233453", 
+"@label": "Mesotaenium sp. AG-2009-1", 
+"meta": [
+{
+"$": 332535, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267008", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium sp. AG-2009-1", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium sp", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233454", 
+"@id": "otu233454", 
+"@label": "Cylindrocystis crassa", 
+"meta": [
+{
+"$": 689127, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267009", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis crassa", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis crassa ACOI788", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233455", 
+"@id": "otu233455", 
+"@label": "Euastrum affine", 
+"meta": [
+{
+"$": 405065, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267010", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Euastrum affine", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Euastrum affine", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233456", 
+"@id": "otu233456", 
+"@label": "Mesotaenium endlicherianum", 
+"meta": [
+{
+"$": 689128, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267011", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium endlicherianum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium endlicherianum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233457", 
+"@id": "otu233457", 
+"@label": "Spinoclosterium", 
+"meta": [
+{
+"$": 840483, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267012", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Spinoclosterium", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Spinoclosterium", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233458", 
+"@id": "otu233458", 
+"@label": "Cylindrocystis sp. M3019", 
+"meta": [
+{
+"$": 332534, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267013", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis sp. M3019", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis M3019", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233459", 
+"@id": "otu233459", 
+"@label": "Cylindrocystis brebissonii", 
+"meta": [
+{
+"$": 1026064, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267014", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis brebissonii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis brebissonii M2213", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233460", 
+"@id": "otu233460", 
+"@label": "Staurastrum lunatum", 
+"meta": [
+{
+"$": 69312, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267015", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Staurastrum lunatum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Staurastrum lunatum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233461", 
+"@id": "otu233461", 
+"@label": "Spirogyra sp. M-1810", 
+"meta": [
+{
+"$": 302338, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267016", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Spirogyra sp. M-1810", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Spyrogyra M1810", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233462", 
+"@id": "otu233462", 
+"@label": "Spirogyra sp. M-2157", 
+"meta": [
+{
+"$": 454600, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267017", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Spirogyra sp. M-2157", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Spirogyra M2157", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233463", 
+"@id": "otu233463", 
+"@label": "Spirogyra sp. M1843", 
+"meta": [
+{
+"$": 332523, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267018", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Spirogyra sp. M1843", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Spirogyra M1843", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233464", 
+"@id": "otu233464", 
+"@label": "Closterium navicula", 
+"meta": [
+{
+"$": 797773, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267019", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Closterium navicula", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Closterium navicula", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233465", 
+"@id": "otu233465", 
+"@label": "Cosmarium reniforme", 
+"meta": [
+{
+"$": 727431, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267020", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cosmarium reniforme", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cosmarium reniforme", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233466", 
+"@id": "otu233466", 
+"@label": "Mesotaenium caldariorum", 
+"meta": [
+{
+"$": 914453, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267021", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium caldariorum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium caldariorum ACOI127", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233467", 
+"@id": "otu233467", 
+"@label": "Roya obtusa", 
+"meta": [
+{
+"$": 401406, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267022", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Roya obtusa", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Roya obtusa", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233468", 
+"@id": "otu233468", 
+"@label": "Cosmarium punctulatum", 
+"meta": [
+{
+"$": 355307, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267023", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cosmarium punctulatum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cosmarium punctulatum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233469", 
+"@id": "otu233469", 
+"@label": "Closterium lunula", 
+"meta": [
+{
+"$": 840480, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267024", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Closterium lunula", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Closterium lunula", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233470", 
+"@id": "otu233470", 
+"@label": "Netrium oblongum", 
+"meta": [
+{
+"$": 302344, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267025", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Netrium oblongum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Netrium oblongum SVCK255", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233471", 
+"@id": "otu233471", 
+"@label": "Cylindrocystis crassa", 
+"meta": [
+{
+"$": 689127, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267026", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis crassa", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis crassa SAG2997", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233472", 
+"@id": "otu233472", 
+"@label": "Mesotaenium kramstae", 
+"meta": [
+{
+"$": 689135, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267027", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium kramstae", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium kramstai", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233473", 
+"@id": "otu233473", 
+"@label": "Actinotaenium cruciferum", 
+"meta": [
+{
+"$": 880127, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267028", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Actinotaenium cruciferum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Actinotaenium cruciferum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233474", 
+"@id": "otu233474", 
+"@label": "Penium polymorphum", 
+"meta": [
+{
+"$": 623644, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267029", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Penium polymorphum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Penium polymorphum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233475", 
+"@id": "otu233475", 
+"@label": "Cylindrocystis brebissonii", 
+"meta": [
+{
+"$": 1026064, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267030", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis brebissonii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis brebissonii M3015", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233476", 
+"@id": "otu233476", 
+"@label": "Cosmarium granatum", 
+"meta": [
+{
+"$": 791984, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267031", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cosmarium granatum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cosmarium granatum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233477", 
+"@id": "otu233477", 
+"@label": "Mougeotia sp. SVCK 240", 
+"meta": [
+{
+"$": 302339, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267032", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mougeotia sp. SVCK 240", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mougeotia SVCK240", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233478", 
+"@id": "otu233478", 
+"@label": "Mesotaenium caldariorum", 
+"meta": [
+{
+"$": 914453, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267033", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium caldariorum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium caldariorum ACOI898", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233479", 
+"@id": "otu233479", 
+"@label": "Staurodesmus convergens", 
+"meta": [
+{
+"$": 69317, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267034", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Staurodesmus convergens", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Staurodesmus convergens", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233480", 
+"@id": "otu233480", 
+"@label": "Nucleotaenium cylindricum", 
+"meta": [
+{
+"$": 907042, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267035", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Nucleotaenium cylindricum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Nucleotaenium cylindricum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233481", 
+"@id": "otu233481", 
+"@label": "Penium margaritaceum", 
+"meta": [
+{
+"$": 195796, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267036", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Penium margaritaceum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Penium margaritaceum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233482", 
+"@id": "otu233482", 
+"@label": "Staurastrum orbiculare", 
+"meta": [
+{
+"$": 176671, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267037", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Staurastrum orbiculare", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Staurastrum orbiculare", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233483", 
+"@id": "otu233483", 
+"@label": "Cylindrocystis sp. UTEX 1925", 
+"meta": [
+{
+"$": 208150, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267038", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis sp. UTEX 1925", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis UTEX1926", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233484", 
+"@id": "otu233484", 
+"@label": "Nucleotaenium eifelense", 
+"meta": [
+{
+"$": 907040, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267039", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Nucleotaenium eifelense", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Nucleotaenium eifelense", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233485", 
+"@id": "otu233485", 
+"@label": "Cylindrocystis brebissonii", 
+"meta": [
+{
+"$": 1026064, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267040", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis brebissonii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis brebissonii M2853", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233486", 
+"@id": "otu233486", 
+"@label": "Gonatozygon kinahani", 
+"meta": [
+{
+"$": 840477, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267041", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gonatozygon kinahani", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gonatozygon kinahanii", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233487", 
+"@id": "otu233487", 
+"@label": "Micrasterias thomasiana", 
+"meta": [
+{
+"$": 767741, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267042", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Micrasterias thomasiana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Micrasterias thomasiana", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233488", 
+"@id": "otu233488", 
+"@label": "Zygnema sp. M-1384", 
+"meta": [
+{
+"$": 342564, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267043", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Zygnema sp. M-1384", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Zygnema M1384", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233489", 
+"@id": "otu233489", 
+"@label": "Zygnemopsis sp. CCAP 699/1", 
+"meta": [
+{
+"$": 363984, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267044", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Zygnemopsis sp. CCAP 699/1", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Zygnemopsis sp.", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233490", 
+"@id": "otu233490", 
+"@label": "Zygogonium tunetanum", 
+"meta": [
+{
+"$": 580918, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267045", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Zygogonium tunetanum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Zygogonium tunetanum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233491", 
+"@id": "otu233491", 
+"@label": "Mesotaenium caldariorum", 
+"meta": [
+{
+"$": 914453, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267046", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium caldariorum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium caldariorum SAG648 1", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233492", 
+"@id": "otu233492", 
+"@label": "Gonatozygon monotaenium", 
+"meta": [
+{
+"$": 684003, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267047", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gonatozygon monotaenium", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gonatozygon monataenium", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233493", 
+"@id": "otu233493", 
+"@label": "Cylindrocystis sp. M3009", 
+"meta": [
+{
+"$": 332527, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267048", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis sp. M3009", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis M3009", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233494", 
+"@id": "otu233494", 
+"@label": "Cosmarium tinctum", 
+"meta": [
+{
+"$": 981232, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267049", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cosmarium tinctum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cosmarium tinctum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233495", 
+"@id": "otu233495", 
+"@label": "Mesotaenium braunii", 
+"meta": [
+{
+"$": 332531, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267050", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium braunii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mesotaenium braunii", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233496", 
+"@id": "otu233496", 
+"@label": "Euastrum substellatum", 
+"meta": [
+{
+"$": 623649, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267051", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Euastrum substellatum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Euastrum substellatum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233497", 
+"@id": "otu233497", 
+"@label": "Mougeotia sp. M2055", 
+"meta": [
+{
+"$": 332522, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267052", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mougeotia sp. M2055", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mougeotia M2055", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233498", 
+"@id": "otu233498", 
+"@label": "Cylindrocystis brebissonii", 
+"meta": [
+{
+"$": 1026064, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267053", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis brebissonii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis brebissonii ACOI55", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233499", 
+"@id": "otu233499", 
+"@label": "Gonatozygon brebissonii", 
+"meta": [
+{
+"$": 689141, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267054", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gonatozygon brebissonii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gonatozygon brebissonii", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233500", 
+"@id": "otu233500", 
+"@label": "Haplotaenium minutum", 
+"meta": [
+{
+"$": 17523, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267055", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Haplotaenium minutum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Haplotaenium minutum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233501", 
+"@id": "otu233501", 
+"@label": "Netrium oblongum", 
+"meta": [
+{
+"$": 302344, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267056", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Netrium oblongum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Netrium oblongum ASW07201", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233502", 
+"@id": "otu233502", 
+"@label": "Planotaenium ohtanii", 
+"meta": [
+{
+"$": 907038, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267057", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Planotaenium ohtanii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Planotaenium ohtanii", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233503", 
+"@id": "otu233503", 
+"@label": "Penium cylindrus", 
+"meta": [
+{
+"$": 302336, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267058", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Penium cylindrus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Penium cylindrus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233504", 
+"@id": "otu233504", 
+"@label": "Fottea pyrenoidosa", 
+"meta": [
+{
+"$": 332528, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267059", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Fottea pyrenoidosa", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Fottea pyrenoidosa", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233505", 
+"@id": "otu233505", 
+"@label": "Cosmarium undulatum", 
+"meta": [
+{
+"$": 791982, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267060", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cosmarium undulatum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cosmarium undulatum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233506", 
+"@id": "otu233506", 
+"@label": "Mougeotia sp. SVCK 417", 
+"meta": [
+{
+"$": 689130, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267061", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mougeotia sp. SVCK 417", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mougeotia SVCK417", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233507", 
+"@id": "otu233507", 
+"@label": "Staurodesmus triangularis", 
+"meta": [
+{
+"$": 460603, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267062", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Staurodesmus triangularis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Staurodesmus triangularis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233508", 
+"@id": "otu233508", 
+"@label": "Actinotaenium phymatosporum", 
+"meta": [
+{
+"$": 1088911, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267063", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Actinotaenium phymatosporum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Actinotaenium phymatosporum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233509", 
+"@id": "otu233509", 
+"@label": "Netrium digitus", 
+"meta": [
+{
+"$": 916139, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267064", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Netrium digitus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Netrium digitus", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233510", 
+"@id": "otu233510", 
+"@label": "Cylindrocystis sp. M3004", 
+"meta": [
+{
+"$": 332526, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267065", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis sp. M3004", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis M3004", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233511", 
+"@id": "otu233511", 
+"@label": "Cylindrocystis cushleckae", 
+"meta": [
+{
+"$": 516390, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267066", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis cushleckae", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis cushleckae", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233512", 
+"@id": "otu233512", 
+"@label": "Cylindrocystis brebissonii", 
+"meta": [
+{
+"$": 1026064, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267067", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis brebissonii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis brebissonii UTEX2684", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233513", 
+"@id": "otu233513", 
+"@label": "Cylindrocystis sp. M3014", 
+"meta": [
+{
+"$": 332536, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267068", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis sp. M3014", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cylindrocystis M3014", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu233514", 
+"@id": "otu233514", 
+"@label": "Spondylosium planum", 
+"meta": [
+{
+"$": 538554, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl267069", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Spondylosium planum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Spondylosium planum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}, 
+"trees": {
+"@id": "trees1222", 
+"@otus": "otus1222", 
+"tree": [
+{
+"@about": "#tree6339", 
+"@id": "tree6339", 
+"edge": [
+{
+"@id": "edge1104639", 
+"@length": 0.5, 
+"@source": "node1104638", 
+"@target": "node1104639"
+}, 
+{
+"@id": "edge1104640", 
+"@length": 1.0, 
+"@source": "node1104639", 
+"@target": "node1104640"
+}, 
+{
+"@id": "edge1104641", 
+"@length": 1.0, 
+"@source": "node1104640", 
+"@target": "node1104641"
+}, 
+{
+"@id": "edge1104642", 
+"@length": 1.0, 
+"@source": "node1104641", 
+"@target": "node1104642"
+}, 
+{
+"@id": "edge1104643", 
+"@length": 1.0, 
+"@source": "node1104642", 
+"@target": "node1104643"
+}, 
+{
+"@id": "edge1104644", 
+"@length": 1.0, 
+"@source": "node1104642", 
+"@target": "node1104644"
+}, 
+{
+"@id": "edge1104645", 
+"@length": 1.0, 
+"@source": "node1104641", 
+"@target": "node1104645"
+}, 
+{
+"@id": "edge1104646", 
+"@length": 1.0, 
+"@source": "node1104640", 
+"@target": "node1104646"
+}, 
+{
+"@id": "edge1104647", 
+"@length": 1.0, 
+"@source": "node1104646", 
+"@target": "node1104647"
+}, 
+{
+"@id": "edge1104648", 
+"@length": 1.0, 
+"@source": "node1104646", 
+"@target": "node1104648"
+}, 
+{
+"@id": "edge1104649", 
+"@length": 2.0, 
+"@source": "node1104639", 
+"@target": "node1104649"
+}, 
+{
+"@id": "edge1104650", 
+"@length": 1.0, 
+"@source": "node1104649", 
+"@target": "node1104650"
+}, 
+{
+"@id": "edge1104651", 
+"@length": 1.0, 
+"@source": "node1104650", 
+"@target": "node1104651"
+}, 
+{
+"@id": "edge1104652", 
+"@length": 1.0, 
+"@source": "node1104651", 
+"@target": "node1104652"
+}, 
+{
+"@id": "edge1104653", 
+"@length": 1.0, 
+"@source": "node1104652", 
+"@target": "node1104653"
+}, 
+{
+"@id": "edge1104654", 
+"@length": 1.0, 
+"@source": "node1104653", 
+"@target": "node1104654"
+}, 
+{
+"@id": "edge1104655", 
+"@length": 1.0, 
+"@source": "node1104654", 
+"@target": "node1104655"
+}, 
+{
+"@id": "edge1104656", 
+"@length": 1.0, 
+"@source": "node1104655", 
+"@target": "node1104656"
+}, 
+{
+"@id": "edge1104657", 
+"@length": 1.0, 
+"@source": "node1104656", 
+"@target": "node1104657"
+}, 
+{
+"@id": "edge1104658", 
+"@length": 1.0, 
+"@source": "node1104657", 
+"@target": "node1104658"
+}, 
+{
+"@id": "edge1104659", 
+"@length": 1.0, 
+"@source": "node1104658", 
+"@target": "node1104659"
+}, 
+{
+"@id": "edge1104660", 
+"@length": 1.0, 
+"@source": "node1104659", 
+"@target": "node1104660"
+}, 
+{
+"@id": "edge1104661", 
+"@length": 1.0, 
+"@source": "node1104660", 
+"@target": "node1104661"
+}, 
+{
+"@id": "edge1104662", 
+"@length": 1.0, 
+"@source": "node1104661", 
+"@target": "node1104662"
+}, 
+{
+"@id": "edge1104663", 
+"@length": 1.0, 
+"@source": "node1104661", 
+"@target": "node1104663"
+}, 
+{
+"@id": "edge1104664", 
+"@length": 1.0, 
+"@source": "node1104660", 
+"@target": "node1104664"
+}, 
+{
+"@id": "edge1104665", 
+"@length": 1.0, 
+"@source": "node1104664", 
+"@target": "node1104665"
+}, 
+{
+"@id": "edge1104666", 
+"@length": 1.0, 
+"@source": "node1104664", 
+"@target": "node1104666"
+}, 
+{
+"@id": "edge1104667", 
+"@length": 1.0, 
+"@source": "node1104659", 
+"@target": "node1104667"
+}, 
+{
+"@id": "edge1104668", 
+"@length": 1.0, 
+"@source": "node1104667", 
+"@target": "node1104668"
+}, 
+{
+"@id": "edge1104669", 
+"@length": 1.0, 
+"@source": "node1104667", 
+"@target": "node1104669"
+}, 
+{
+"@id": "edge1104670", 
+"@length": 1.0, 
+"@source": "node1104658", 
+"@target": "node1104670"
+}, 
+{
+"@id": "edge1104671", 
+"@length": 1.0, 
+"@source": "node1104670", 
+"@target": "node1104671"
+}, 
+{
+"@id": "edge1104672", 
+"@length": 1.0, 
+"@source": "node1104671", 
+"@target": "node1104672"
+}, 
+{
+"@id": "edge1104673", 
+"@length": 1.0, 
+"@source": "node1104671", 
+"@target": "node1104673"
+}, 
+{
+"@id": "edge1104674", 
+"@length": 1.0, 
+"@source": "node1104670", 
+"@target": "node1104674"
+}, 
+{
+"@id": "edge1104675", 
+"@length": 1.0, 
+"@source": "node1104657", 
+"@target": "node1104675"
+}, 
+{
+"@id": "edge1104676", 
+"@length": 1.0, 
+"@source": "node1104675", 
+"@target": "node1104676"
+}, 
+{
+"@id": "edge1104677", 
+"@length": 1.0, 
+"@source": "node1104676", 
+"@target": "node1104677"
+}, 
+{
+"@id": "edge1104678", 
+"@length": 1.0, 
+"@source": "node1104676", 
+"@target": "node1104678"
+}, 
+{
+"@id": "edge1104679", 
+"@length": 1.0, 
+"@source": "node1104675", 
+"@target": "node1104679"
+}, 
+{
+"@id": "edge1104680", 
+"@length": 1.0, 
+"@source": "node1104679", 
+"@target": "node1104680"
+}, 
+{
+"@id": "edge1104681", 
+"@length": 1.0, 
+"@source": "node1104679", 
+"@target": "node1104681"
+}, 
+{
+"@id": "edge1104682", 
+"@length": 1.0, 
+"@source": "node1104656", 
+"@target": "node1104682"
+}, 
+{
+"@id": "edge1104683", 
+"@length": 1.0, 
+"@source": "node1104655", 
+"@target": "node1104683"
+}, 
+{
+"@id": "edge1104684", 
+"@length": 1.0, 
+"@source": "node1104683", 
+"@target": "node1104684"
+}, 
+{
+"@id": "edge1104685", 
+"@length": 1.0, 
+"@source": "node1104683", 
+"@target": "node1104685"
+}, 
+{
+"@id": "edge1104686", 
+"@length": 1.0, 
+"@source": "node1104654", 
+"@target": "node1104686"
+}, 
+{
+"@id": "edge1104687", 
+"@length": 1.0, 
+"@source": "node1104686", 
+"@target": "node1104687"
+}, 
+{
+"@id": "edge1104688", 
+"@length": 1.0, 
+"@source": "node1104686", 
+"@target": "node1104688"
+}, 
+{
+"@id": "edge1104689", 
+"@length": 1.0, 
+"@source": "node1104688", 
+"@target": "node1104689"
+}, 
+{
+"@id": "edge1104690", 
+"@length": 1.0, 
+"@source": "node1104688", 
+"@target": "node1104690"
+}, 
+{
+"@id": "edge1104691", 
+"@length": 1.0, 
+"@source": "node1104653", 
+"@target": "node1104691"
+}, 
+{
+"@id": "edge1104692", 
+"@length": 1.0, 
+"@source": "node1104652", 
+"@target": "node1104692"
+}, 
+{
+"@id": "edge1104693", 
+"@length": 1.0, 
+"@source": "node1104692", 
+"@target": "node1104693"
+}, 
+{
+"@id": "edge1104694", 
+"@length": 1.0, 
+"@source": "node1104693", 
+"@target": "node1104694"
+}, 
+{
+"@id": "edge1104695", 
+"@length": 1.0, 
+"@source": "node1104693", 
+"@target": "node1104695"
+}, 
+{
+"@id": "edge1104696", 
+"@length": 1.0, 
+"@source": "node1104692", 
+"@target": "node1104696"
+}, 
+{
+"@id": "edge1104697", 
+"@length": 1.0, 
+"@source": "node1104651", 
+"@target": "node1104697"
+}, 
+{
+"@id": "edge1104698", 
+"@length": 1.0, 
+"@source": "node1104697", 
+"@target": "node1104698"
+}, 
+{
+"@id": "edge1104699", 
+"@length": 1.0, 
+"@source": "node1104697", 
+"@target": "node1104699"
+}, 
+{
+"@id": "edge1104700", 
+"@length": 1.0, 
+"@source": "node1104699", 
+"@target": "node1104700"
+}, 
+{
+"@id": "edge1104701", 
+"@length": 1.0, 
+"@source": "node1104699", 
+"@target": "node1104701"
+}, 
+{
+"@id": "edge1104702", 
+"@length": 1.0, 
+"@source": "node1104650", 
+"@target": "node1104702"
+}, 
+{
+"@id": "edge1104703", 
+"@length": 1.0, 
+"@source": "node1104649", 
+"@target": "node1104703"
+}, 
+{
+"@id": "edge1104704", 
+"@length": 1.0, 
+"@source": "node1104703", 
+"@target": "node1104704"
+}, 
+{
+"@id": "edge1104705", 
+"@length": 1.0, 
+"@source": "node1104703", 
+"@target": "node1104705"
+}, 
+{
+"@id": "edge1104706", 
+"@length": 1.0, 
+"@source": "node1104638", 
+"@target": "node1104706"
+}, 
+{
+"@id": "edge1104707", 
+"@length": 1.0, 
+"@source": "node1104706", 
+"@target": "node1104707"
+}, 
+{
+"@id": "edge1104708", 
+"@length": 1.0, 
+"@source": "node1104707", 
+"@target": "node1104708"
+}, 
+{
+"@id": "edge1104709", 
+"@length": 1.0, 
+"@source": "node1104707", 
+"@target": "node1104709"
+}, 
+{
+"@id": "edge1104710", 
+"@length": 1.0, 
+"@source": "node1104706", 
+"@target": "node1104710"
+}, 
+{
+"@id": "edge1104711", 
+"@length": 1.0, 
+"@source": "node1104710", 
+"@target": "node1104711"
+}, 
+{
+"@id": "edge1104712", 
+"@length": 1.0, 
+"@source": "node1104711", 
+"@target": "node1104712"
+}, 
+{
+"@id": "edge1104713", 
+"@length": 1.0, 
+"@source": "node1104711", 
+"@target": "node1104713"
+}, 
+{
+"@id": "edge1104714", 
+"@length": 1.0, 
+"@source": "node1104713", 
+"@target": "node1104714"
+}, 
+{
+"@id": "edge1104715", 
+"@length": 1.0, 
+"@source": "node1104713", 
+"@target": "node1104715"
+}, 
+{
+"@id": "edge1104716", 
+"@length": 1.0, 
+"@source": "node1104710", 
+"@target": "node1104716"
+}, 
+{
+"@id": "edge1104717", 
+"@length": 1.0, 
+"@source": "node1104716", 
+"@target": "node1104717"
+}, 
+{
+"@id": "edge1104718", 
+"@length": 1.0, 
+"@source": "node1104717", 
+"@target": "node1104718"
+}, 
+{
+"@id": "edge1104719", 
+"@length": 1.0, 
+"@source": "node1104718", 
+"@target": "node1104719"
+}, 
+{
+"@id": "edge1104720", 
+"@length": 1.0, 
+"@source": "node1104718", 
+"@target": "node1104720"
+}, 
+{
+"@id": "edge1104721", 
+"@length": 1.0, 
+"@source": "node1104717", 
+"@target": "node1104721"
+}, 
+{
+"@id": "edge1104722", 
+"@length": 1.0, 
+"@source": "node1104716", 
+"@target": "node1104722"
+}, 
+{
+"@id": "edge1104723", 
+"@length": 1.0, 
+"@source": "node1104722", 
+"@target": "node1104723"
+}, 
+{
+"@id": "edge1104724", 
+"@length": 1.0, 
+"@source": "node1104723", 
+"@target": "node1104724"
+}, 
+{
+"@id": "edge1104725", 
+"@length": 1.0, 
+"@source": "node1104724", 
+"@target": "node1104725"
+}, 
+{
+"@id": "edge1104726", 
+"@length": 1.0, 
+"@source": "node1104725", 
+"@target": "node1104726"
+}, 
+{
+"@id": "edge1104727", 
+"@length": 1.0, 
+"@source": "node1104726", 
+"@target": "node1104727"
+}, 
+{
+"@id": "edge1104728", 
+"@length": 1.0, 
+"@source": "node1104727", 
+"@target": "node1104728"
+}, 
+{
+"@id": "edge1104729", 
+"@length": 1.0, 
+"@source": "node1104728", 
+"@target": "node1104729"
+}, 
+{
+"@id": "edge1104730", 
+"@length": 1.0, 
+"@source": "node1104728", 
+"@target": "node1104730"
+}, 
+{
+"@id": "edge1104731", 
+"@length": 1.0, 
+"@source": "node1104727", 
+"@target": "node1104731"
+}, 
+{
+"@id": "edge1104732", 
+"@length": 1.0, 
+"@source": "node1104726", 
+"@target": "node1104732"
+}, 
+{
+"@id": "edge1104733", 
+"@length": 1.0, 
+"@source": "node1104732", 
+"@target": "node1104733"
+}, 
+{
+"@id": "edge1104734", 
+"@length": 1.0, 
+"@source": "node1104732", 
+"@target": "node1104734"
+}, 
+{
+"@id": "edge1104735", 
+"@length": 1.0, 
+"@source": "node1104734", 
+"@target": "node1104735"
+}, 
+{
+"@id": "edge1104736", 
+"@length": 1.0, 
+"@source": "node1104734", 
+"@target": "node1104736"
+}, 
+{
+"@id": "edge1104737", 
+"@length": 1.0, 
+"@source": "node1104725", 
+"@target": "node1104737"
+}, 
+{
+"@id": "edge1104738", 
+"@length": 1.0, 
+"@source": "node1104724", 
+"@target": "node1104738"
+}, 
+{
+"@id": "edge1104739", 
+"@length": 1.0, 
+"@source": "node1104738", 
+"@target": "node1104739"
+}, 
+{
+"@id": "edge1104740", 
+"@length": 1.0, 
+"@source": "node1104739", 
+"@target": "node1104740"
+}, 
+{
+"@id": "edge1104741", 
+"@length": 1.0, 
+"@source": "node1104740", 
+"@target": "node1104741"
+}, 
+{
+"@id": "edge1104742", 
+"@length": 1.0, 
+"@source": "node1104741", 
+"@target": "node1104742"
+}, 
+{
+"@id": "edge1104743", 
+"@length": 1.0, 
+"@source": "node1104741", 
+"@target": "node1104743"
+}, 
+{
+"@id": "edge1104744", 
+"@length": 1.0, 
+"@source": "node1104740", 
+"@target": "node1104744"
+}, 
+{
+"@id": "edge1104745", 
+"@length": 1.0, 
+"@source": "node1104739", 
+"@target": "node1104745"
+}, 
+{
+"@id": "edge1104746", 
+"@length": 1.0, 
+"@source": "node1104745", 
+"@target": "node1104746"
+}, 
+{
+"@id": "edge1104747", 
+"@length": 1.0, 
+"@source": "node1104745", 
+"@target": "node1104747"
+}, 
+{
+"@id": "edge1104748", 
+"@length": 1.0, 
+"@source": "node1104747", 
+"@target": "node1104748"
+}, 
+{
+"@id": "edge1104749", 
+"@length": 1.0, 
+"@source": "node1104747", 
+"@target": "node1104749"
+}, 
+{
+"@id": "edge1104750", 
+"@length": 1.0, 
+"@source": "node1104749", 
+"@target": "node1104750"
+}, 
+{
+"@id": "edge1104751", 
+"@length": 1.0, 
+"@source": "node1104749", 
+"@target": "node1104751"
+}, 
+{
+"@id": "edge1104752", 
+"@length": 1.0, 
+"@source": "node1104738", 
+"@target": "node1104752"
+}, 
+{
+"@id": "edge1104753", 
+"@length": 1.0, 
+"@source": "node1104752", 
+"@target": "node1104753"
+}, 
+{
+"@id": "edge1104754", 
+"@length": 1.0, 
+"@source": "node1104753", 
+"@target": "node1104754"
+}, 
+{
+"@id": "edge1104755", 
+"@length": 1.0, 
+"@source": "node1104753", 
+"@target": "node1104755"
+}, 
+{
+"@id": "edge1104756", 
+"@length": 1.0, 
+"@source": "node1104752", 
+"@target": "node1104756"
+}, 
+{
+"@id": "edge1104757", 
+"@length": 1.0, 
+"@source": "node1104723", 
+"@target": "node1104757"
+}, 
+{
+"@id": "edge1104758", 
+"@length": 1.0, 
+"@source": "node1104757", 
+"@target": "node1104758"
+}, 
+{
+"@id": "edge1104759", 
+"@length": 1.0, 
+"@source": "node1104758", 
+"@target": "node1104759"
+}, 
+{
+"@id": "edge1104760", 
+"@length": 1.0, 
+"@source": "node1104758", 
+"@target": "node1104760"
+}, 
+{
+"@id": "edge1104761", 
+"@length": 1.0, 
+"@source": "node1104757", 
+"@target": "node1104761"
+}, 
+{
+"@id": "edge1104762", 
+"@length": 1.0, 
+"@source": "node1104722", 
+"@target": "node1104762"
+}, 
+{
+"@id": "edge1104763", 
+"@length": 1.0, 
+"@source": "node1104762", 
+"@target": "node1104763"
+}, 
+{
+"@id": "edge1104764", 
+"@length": 1.0, 
+"@source": "node1104763", 
+"@target": "node1104764"
+}, 
+{
+"@id": "edge1104765", 
+"@length": 1.0, 
+"@source": "node1104764", 
+"@target": "node1104765"
+}, 
+{
+"@id": "edge1104766", 
+"@length": 1.0, 
+"@source": "node1104764", 
+"@target": "node1104766"
+}, 
+{
+"@id": "edge1104767", 
+"@length": 1.0, 
+"@source": "node1104763", 
+"@target": "node1104767"
+}, 
+{
+"@id": "edge1104768", 
+"@length": 1.0, 
+"@source": "node1104762", 
+"@target": "node1104768"
+}
+], 
+"meta": [
+{
+"$": "node1104638", 
+"@property": "ot:inGroupClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "figure 2", 
+"@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"node": [
+{
+"@id": "node1104638", 
+"@root": true
+}, 
+{
+"@id": "node1104639"
+}, 
+{
+"@id": "node1104640"
+}, 
+{
+"@id": "node1104641"
+}, 
+{
+"@id": "node1104642"
+}, 
+{
+"@about": "#node1104643", 
+"@id": "node1104643", 
+"@otu": "otu233470", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104644", 
+"@id": "node1104644", 
+"@otu": "otu233480", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104645", 
+"@id": "node1104645", 
+"@otu": "otu233484", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104646"
+}, 
+{
+"@about": "#node1104647", 
+"@id": "node1104647", 
+"@otu": "otu233509", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104648", 
+"@id": "node1104648", 
+"@otu": "otu233501", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104649"
+}, 
+{
+"@id": "node1104650"
+}, 
+{
+"@id": "node1104651"
+}, 
+{
+"@id": "node1104652"
+}, 
+{
+"@id": "node1104653"
+}, 
+{
+"@id": "node1104654"
+}, 
+{
+"@id": "node1104655"
+}, 
+{
+"@id": "node1104656"
+}, 
+{
+"@id": "node1104657"
+}, 
+{
+"@id": "node1104658"
+}, 
+{
+"@id": "node1104659"
+}, 
+{
+"@id": "node1104660"
+}, 
+{
+"@id": "node1104661"
+}, 
+{
+"@about": "#node1104662", 
+"@id": "node1104662", 
+"@otu": "otu233487", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104663", 
+"@id": "node1104663", 
+"@otu": "otu233460", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104664"
+}, 
+{
+"@about": "#node1104665", 
+"@id": "node1104665", 
+"@otu": "otu233455", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104666", 
+"@id": "node1104666", 
+"@otu": "otu233500", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104667"
+}, 
+{
+"@about": "#node1104668", 
+"@id": "node1104668", 
+"@otu": "otu233479", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104669", 
+"@id": "node1104669", 
+"@otu": "otu233449", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104670"
+}, 
+{
+"@id": "node1104671"
+}, 
+{
+"@about": "#node1104672", 
+"@id": "node1104672", 
+"@otu": "otu233505", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104673", 
+"@id": "node1104673", 
+"@otu": "otu233496", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104674", 
+"@id": "node1104674", 
+"@otu": "otu233468", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104675"
+}, 
+{
+"@id": "node1104676"
+}, 
+{
+"@about": "#node1104677", 
+"@id": "node1104677", 
+"@otu": "otu233514", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104678", 
+"@id": "node1104678", 
+"@otu": "otu233507", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104679"
+}, 
+{
+"@about": "#node1104680", 
+"@id": "node1104680", 
+"@otu": "otu233482", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104681", 
+"@id": "node1104681", 
+"@otu": "otu233476", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104682", 
+"@id": "node1104682", 
+"@otu": "otu233494", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104683"
+}, 
+{
+"@about": "#node1104684", 
+"@id": "node1104684", 
+"@otu": "otu233465", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104685", 
+"@id": "node1104685", 
+"@otu": "otu233508", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104686"
+}, 
+{
+"@about": "#node1104687", 
+"@id": "node1104687", 
+"@otu": "otu233473", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104688"
+}, 
+{
+"@about": "#node1104689", 
+"@id": "node1104689", 
+"@otu": "otu233503", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104690", 
+"@id": "node1104690", 
+"@otu": "otu233474", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104691", 
+"@id": "node1104691", 
+"@otu": "otu233481", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104692"
+}, 
+{
+"@id": "node1104693"
+}, 
+{
+"@about": "#node1104694", 
+"@id": "node1104694", 
+"@otu": "otu233464", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104695", 
+"@id": "node1104695", 
+"@otu": "otu233457", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104696", 
+"@id": "node1104696", 
+"@otu": "otu233469", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104697"
+}, 
+{
+"@about": "#node1104698", 
+"@id": "node1104698", 
+"@otu": "otu233486", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104699"
+}, 
+{
+"@about": "#node1104700", 
+"@id": "node1104700", 
+"@otu": "otu233499", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104701", 
+"@id": "node1104701", 
+"@otu": "otu233492", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104702", 
+"@id": "node1104702", 
+"@otu": "otu233467", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104703"
+}, 
+{
+"@about": "#node1104704", 
+"@id": "node1104704", 
+"@otu": "otu233502", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104705", 
+"@id": "node1104705", 
+"@otu": "otu233451", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104706"
+}, 
+{
+"@id": "node1104707"
+}, 
+{
+"@about": "#node1104708", 
+"@id": "node1104708", 
+"@otu": "otu233456", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104709", 
+"@id": "node1104709", 
+"@otu": "otu233495", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104710"
+}, 
+{
+"@id": "node1104711"
+}, 
+{
+"@about": "#node1104712", 
+"@id": "node1104712", 
+"@otu": "otu233461", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104713"
+}, 
+{
+"@about": "#node1104714", 
+"@id": "node1104714", 
+"@otu": "otu233462", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104715", 
+"@id": "node1104715", 
+"@otu": "otu233463", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104716"
+}, 
+{
+"@id": "node1104717"
+}, 
+{
+"@id": "node1104718"
+}, 
+{
+"@about": "#node1104719", 
+"@id": "node1104719", 
+"@otu": "otu233453", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104720", 
+"@id": "node1104720", 
+"@otu": "otu233504", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104721", 
+"@id": "node1104721", 
+"@otu": "otu233452", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104722"
+}, 
+{
+"@id": "node1104723"
+}, 
+{
+"@id": "node1104724"
+}, 
+{
+"@id": "node1104725"
+}, 
+{
+"@id": "node1104726"
+}, 
+{
+"@id": "node1104727"
+}, 
+{
+"@id": "node1104728"
+}, 
+{
+"@about": "#node1104729", 
+"@id": "node1104729", 
+"@otu": "otu233466", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104730", 
+"@id": "node1104730", 
+"@otu": "otu233478", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104731", 
+"@id": "node1104731", 
+"@otu": "otu233491", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104732"
+}, 
+{
+"@about": "#node1104733", 
+"@id": "node1104733", 
+"@otu": "otu233477", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104734"
+}, 
+{
+"@about": "#node1104735", 
+"@id": "node1104735", 
+"@otu": "otu233506", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104736", 
+"@id": "node1104736", 
+"@otu": "otu233497", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104737", 
+"@id": "node1104737", 
+"@otu": "otu233493", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104738"
+}, 
+{
+"@id": "node1104739"
+}, 
+{
+"@id": "node1104740"
+}, 
+{
+"@id": "node1104741"
+}, 
+{
+"@about": "#node1104742", 
+"@id": "node1104742", 
+"@otu": "otu233510", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104743", 
+"@id": "node1104743", 
+"@otu": "otu233458", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104744", 
+"@id": "node1104744", 
+"@otu": "otu233512", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104745"
+}, 
+{
+"@about": "#node1104746", 
+"@id": "node1104746", 
+"@otu": "otu233511", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104747"
+}, 
+{
+"@about": "#node1104748", 
+"@id": "node1104748", 
+"@otu": "otu233513", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104749"
+}, 
+{
+"@about": "#node1104750", 
+"@id": "node1104750", 
+"@otu": "otu233454", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104751", 
+"@id": "node1104751", 
+"@otu": "otu233471", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104752"
+}, 
+{
+"@id": "node1104753"
+}, 
+{
+"@about": "#node1104754", 
+"@id": "node1104754", 
+"@otu": "otu233489", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104755", 
+"@id": "node1104755", 
+"@otu": "otu233483", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104756", 
+"@id": "node1104756", 
+"@otu": "otu233472", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104757"
+}, 
+{
+"@id": "node1104758"
+}, 
+{
+"@about": "#node1104759", 
+"@id": "node1104759", 
+"@otu": "otu233450", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104760", 
+"@id": "node1104760", 
+"@otu": "otu233488", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104761", 
+"@id": "node1104761", 
+"@otu": "otu233490", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1104762"
+}, 
+{
+"@id": "node1104763"
+}, 
+{
+"@id": "node1104764"
+}, 
+{
+"@about": "#node1104765", 
+"@id": "node1104765", 
+"@otu": "otu233485", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104766", 
+"@id": "node1104766", 
+"@otu": "otu233475", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104767", 
+"@id": "node1104767", 
+"@otu": "otu233498", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1104768", 
+"@id": "node1104768", 
+"@otu": "otu233459", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}
+]
+}
+}
+}

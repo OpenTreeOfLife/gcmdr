@@ -1,0 +1,1331 @@
+{
+"nexml": {
+"@about": "#study", 
+"@generator": "Phylografter nexml-json exporter", 
+"@id": "study", 
+"@nexmljson": "http://purl.org/opentree/nexson", 
+"@version": "0.9", 
+"@xmlns": {
+"$": "http://www.nexml.org/2009", 
+"nex": "http://www.nexml.org/2009", 
+"ot": "http://purl.org/opentree-terms#", 
+"xsd": "http://www.w3.org/2001/XMLSchema#", 
+"xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}, 
+"meta": [
+{
+"$": "Monteiro S., Selbach-schnadelbach A., De oliveira R., & Van den berg C. 2010. Molecular phylogenetics of Galeandra (Orchidaceae: Catasetinae) based on plastid and nuclear DNA sequences. Systematic Botany, 35(3): 476-486.", 
+"@property": "ot:studyPublicationReference", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://dx.doi.org/10.1600/036364410792495944", 
+"@rel": "ot:studyPublication", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": "Jiabin Deng", 
+"@property": "ot:curatorName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S2166", 
+"@rel": "ot:dataDeposit", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": "1411", 
+"@property": "ot:studyId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 2010, 
+"@property": "ot:studyYear", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 406696, 
+"@property": "ot:focalClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Catasetinae", 
+"@property": "ot:focalCladeOTTTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"otus": {
+"@id": "otus1411", 
+"otu": [
+{
+"@about": "#otu248746", 
+"@id": "otu248746", 
+"@label": "Galeandra santarena", 
+"meta": [
+{
+"$": 741803, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101904", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra santarena", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra santarenensis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248747", 
+"@id": "otu248747", 
+"@label": "Galeandra beyrichii", 
+"meta": [
+{
+"$": 167354, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101905", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra beyrichii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra beyrichii", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248748", 
+"@id": "otu248748", 
+"@label": "Galeandra greenwoodiana", 
+"meta": [
+{
+"$": 167350, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101906", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra greenwoodiana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra greenwoodiana", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248749", 
+"@id": "otu248749", 
+"@label": "Eulophia guineensis", 
+"meta": [
+{
+"$": 934125, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101907", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Eulophia guineensis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Eulophia guineesis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248750", 
+"@id": "otu248750", 
+"@label": "Galeandra magnicolumna", 
+"meta": [
+{
+"$": 167345, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101908", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra magnicolumna", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra magnicolumna Para", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248751", 
+"@id": "otu248751", 
+"@label": "Galeandra stangeana", 
+"meta": [
+{
+"$": 48094, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101909", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra stangeana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra stangeana LJ", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248752", 
+"@id": "otu248752", 
+"@label": "Galeandra magnicolumna", 
+"meta": [
+{
+"$": 167345, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101910", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra magnicolumna", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra magnicolumna", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248753", 
+"@id": "otu248753", 
+"@label": "Galeandra montana", 
+"meta": [
+{
+"$": 48083, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101911", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra montana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra montana", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248754", 
+"@id": "otu248754", 
+"@label": "Catasetum luridum", 
+"meta": [
+{
+"$": 690438, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101912", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Catasetum luridum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Catasetum luridum", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248755", 
+"@id": "otu248755", 
+"@label": "Galeandra styllomisantha", 
+"meta": [
+{
+"$": 48097, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101913", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra styllomisantha", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra styllomisantha", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248756", 
+"@id": "otu248756", 
+"@label": "Galeandra cristata", 
+"meta": [
+{
+"$": 167352, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101914", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra cristata", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra cristata", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248757", 
+"@id": "otu248757", 
+"@label": "Galeandra junceaoides", 
+"meta": [
+{
+"$": 167347, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101915", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra junceaoides", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra junceaoides", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248758", 
+"@id": "otu248758", 
+"@label": "Galeandra stangeana", 
+"meta": [
+{
+"$": 48094, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101916", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra stangeana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra stangeana LP", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248759", 
+"@id": "otu248759", 
+"@label": "Eulophia alta", 
+"meta": [
+{
+"$": 167360, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101917", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Eulophia alta", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Eulophia alta", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248760", 
+"@id": "otu248760", 
+"@label": "Galeandra minax", 
+"meta": [
+{
+"$": 48081, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101918", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra minax", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra minax", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248761", 
+"@id": "otu248761", 
+"@label": "Pteroglossaspis ruwenzoriensis", 
+"meta": [
+{
+"$": 1300, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101919", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pteroglossaspis ruwenzoriensis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pteroglossaspis ruwenzoriensis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248762", 
+"@id": "otu248762", 
+"@label": "Galeandra baueri", 
+"meta": [
+{
+"$": 167356, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101920", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra baueri", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra baueri", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248763", 
+"@id": "otu248763", 
+"@label": "Grobya amherstiae", 
+"meta": [
+{
+"$": 48099, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101921", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Grobya amherstiae", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Grobya amherstiae", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248764", 
+"@id": "otu248764", 
+"@label": "Cyrtopodium aliciae", 
+"meta": [
+{
+"$": 167362, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101922", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cyrtopodium aliciae", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cyrtopodium aliciae", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248765", 
+"@id": "otu248765", 
+"@label": "Galeandra blanchetii", 
+"meta": [
+{
+"$": 994328, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101923", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra blanchetii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra blanchetii", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248766", 
+"@id": "otu248766", 
+"@label": "Galeandra devoniana", 
+"meta": [
+{
+"$": 762988, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101924", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra devoniana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra devoniana", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248767", 
+"@id": "otu248767", 
+"@label": "Galeandra paraguayensis", 
+"meta": [
+{
+"$": 48090, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101925", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra paraguayensis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra paraguayensis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu248768", 
+"@id": "otu248768", 
+"@label": "Galeandra batemanii", 
+"meta": [
+{
+"$": 167358, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tl101926", 
+"@property": "ot:treebaseOTUId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra batemanii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Galeandra batemanii", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}, 
+"trees": {
+"@id": "trees1411", 
+"@otus": "otus1411", 
+"tree": [
+{
+"@about": "#tree5110", 
+"@id": "tree5110", 
+"edge": [
+{
+"@id": "edge887780", 
+"@length": 0.5, 
+"@source": "node887779", 
+"@target": "node887780"
+}, 
+{
+"@id": "edge887781", 
+"@length": 1.0, 
+"@source": "node887780", 
+"@target": "node887781"
+}, 
+{
+"@id": "edge887782", 
+"@length": 1.0, 
+"@source": "node887780", 
+"@target": "node887782"
+}, 
+{
+"@id": "edge887783", 
+"@length": 1.0, 
+"@source": "node887782", 
+"@target": "node887783"
+}, 
+{
+"@id": "edge887784", 
+"@length": 1.0, 
+"@source": "node887783", 
+"@target": "node887784"
+}, 
+{
+"@id": "edge887785", 
+"@length": 1.0, 
+"@source": "node887784", 
+"@target": "node887785"
+}, 
+{
+"@id": "edge887786", 
+"@length": 1.0, 
+"@source": "node887785", 
+"@target": "node887786"
+}, 
+{
+"@id": "edge887787", 
+"@length": 1.0, 
+"@source": "node887786", 
+"@target": "node887787"
+}, 
+{
+"@id": "edge887788", 
+"@length": 1.0, 
+"@source": "node887786", 
+"@target": "node887788"
+}, 
+{
+"@id": "edge887789", 
+"@length": 1.0, 
+"@source": "node887785", 
+"@target": "node887789"
+}, 
+{
+"@id": "edge887790", 
+"@length": 1.0, 
+"@source": "node887784", 
+"@target": "node887790"
+}, 
+{
+"@id": "edge887791", 
+"@length": 1.0, 
+"@source": "node887783", 
+"@target": "node887791"
+}, 
+{
+"@id": "edge887792", 
+"@length": 1.0, 
+"@source": "node887782", 
+"@target": "node887792"
+}, 
+{
+"@id": "edge887793", 
+"@length": 1.0, 
+"@source": "node887792", 
+"@target": "node887793"
+}, 
+{
+"@id": "edge887794", 
+"@length": 1.0, 
+"@source": "node887793", 
+"@target": "node887794"
+}, 
+{
+"@id": "edge887795", 
+"@length": 1.0, 
+"@source": "node887793", 
+"@target": "node887795"
+}, 
+{
+"@id": "edge887796", 
+"@length": 1.0, 
+"@source": "node887792", 
+"@target": "node887796"
+}, 
+{
+"@id": "edge887797", 
+"@length": 1.0, 
+"@source": "node887796", 
+"@target": "node887797"
+}, 
+{
+"@id": "edge887798", 
+"@length": 1.0, 
+"@source": "node887797", 
+"@target": "node887798"
+}, 
+{
+"@id": "edge887799", 
+"@length": 1.0, 
+"@source": "node887798", 
+"@target": "node887799"
+}, 
+{
+"@id": "edge887800", 
+"@length": 1.0, 
+"@source": "node887799", 
+"@target": "node887800"
+}, 
+{
+"@id": "edge887801", 
+"@length": 1.0, 
+"@source": "node887800", 
+"@target": "node887801"
+}, 
+{
+"@id": "edge887802", 
+"@length": 1.0, 
+"@source": "node887800", 
+"@target": "node887802"
+}, 
+{
+"@id": "edge887803", 
+"@length": 1.0, 
+"@source": "node887799", 
+"@target": "node887803"
+}, 
+{
+"@id": "edge887804", 
+"@length": 1.0, 
+"@source": "node887803", 
+"@target": "node887804"
+}, 
+{
+"@id": "edge887805", 
+"@length": 1.0, 
+"@source": "node887803", 
+"@target": "node887805"
+}, 
+{
+"@id": "edge887806", 
+"@length": 1.0, 
+"@source": "node887799", 
+"@target": "node887806"
+}, 
+{
+"@id": "edge887807", 
+"@length": 1.0, 
+"@source": "node887798", 
+"@target": "node887807"
+}, 
+{
+"@id": "edge887808", 
+"@length": 1.0, 
+"@source": "node887797", 
+"@target": "node887808"
+}, 
+{
+"@id": "edge887809", 
+"@length": 1.0, 
+"@source": "node887808", 
+"@target": "node887809"
+}, 
+{
+"@id": "edge887810", 
+"@length": 1.0, 
+"@source": "node887808", 
+"@target": "node887810"
+}, 
+{
+"@id": "edge887811", 
+"@length": 2.0, 
+"@source": "node887796", 
+"@target": "node887811"
+}, 
+{
+"@id": "edge887812", 
+"@length": 1.0, 
+"@source": "node887779", 
+"@target": "node887812"
+}, 
+{
+"@id": "edge887813", 
+"@length": 1.0, 
+"@source": "node887812", 
+"@target": "node887813"
+}, 
+{
+"@id": "edge887814", 
+"@length": 1.0, 
+"@source": "node887813", 
+"@target": "node887814"
+}, 
+{
+"@id": "edge887815", 
+"@length": 1.0, 
+"@source": "node887813", 
+"@target": "node887815"
+}, 
+{
+"@id": "edge887816", 
+"@length": 1.0, 
+"@source": "node887812", 
+"@target": "node887816"
+}, 
+{
+"@id": "edge887817", 
+"@length": 1.0, 
+"@source": "node887816", 
+"@target": "node887817"
+}, 
+{
+"@id": "edge887818", 
+"@length": 1.0, 
+"@source": "node887816", 
+"@target": "node887818"
+}, 
+{
+"@id": "edge887819", 
+"@length": 1.0, 
+"@source": "node887818", 
+"@target": "node887819"
+}, 
+{
+"@id": "edge887820", 
+"@length": 1.0, 
+"@source": "node887819", 
+"@target": "node887820"
+}, 
+{
+"@id": "edge887821", 
+"@length": 1.0, 
+"@source": "node887819", 
+"@target": "node887821"
+}, 
+{
+"@id": "edge887822", 
+"@length": 1.0, 
+"@source": "node887818", 
+"@target": "node887822"
+}
+], 
+"meta": [
+{
+"$": "node887780", 
+"@property": "ot:inGroupClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Fig.3-rerooted", 
+"@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"node": [
+{
+"@id": "node887779", 
+"@root": true
+}, 
+{
+"@id": "node887780"
+}, 
+{
+"@about": "#node887781", 
+"@id": "node887781", 
+"@otu": "otu248766", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node887782"
+}, 
+{
+"@id": "node887783"
+}, 
+{
+"@id": "node887784"
+}, 
+{
+"@id": "node887785"
+}, 
+{
+"@id": "node887786"
+}, 
+{
+"@about": "#node887787", 
+"@id": "node887787", 
+"@otu": "otu248757", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node887788", 
+"@id": "node887788", 
+"@otu": "otu248755", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node887789", 
+"@id": "node887789", 
+"@otu": "otu248767", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node887790", 
+"@id": "node887790", 
+"@otu": "otu248747", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node887791", 
+"@id": "node887791", 
+"@otu": "otu248753", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node887792"
+}, 
+{
+"@id": "node887793"
+}, 
+{
+"@about": "#node887794", 
+"@id": "node887794", 
+"@otu": "otu248768", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node887795", 
+"@id": "node887795", 
+"@otu": "otu248748", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node887796"
+}, 
+{
+"@id": "node887797"
+}, 
+{
+"@id": "node887798"
+}, 
+{
+"@id": "node887799"
+}, 
+{
+"@id": "node887800"
+}, 
+{
+"@about": "#node887801", 
+"@id": "node887801", 
+"@otu": "otu248765", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node887802", 
+"@id": "node887802", 
+"@otu": "otu248760", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node887803"
+}, 
+{
+"@about": "#node887804", 
+"@id": "node887804", 
+"@otu": "otu248756", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node887805", 
+"@id": "node887805", 
+"@otu": "otu248758", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node887806", 
+"@id": "node887806", 
+"@otu": "otu248746", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node887807", 
+"@id": "node887807", 
+"@otu": "otu248751", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node887808"
+}, 
+{
+"@about": "#node887809", 
+"@id": "node887809", 
+"@otu": "otu248752", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node887810", 
+"@id": "node887810", 
+"@otu": "otu248750", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node887811", 
+"@id": "node887811", 
+"@otu": "otu248762", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node887812"
+}, 
+{
+"@id": "node887813"
+}, 
+{
+"@about": "#node887814", 
+"@id": "node887814", 
+"@otu": "otu248754", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node887815", 
+"@id": "node887815", 
+"@otu": "otu248763", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node887816"
+}, 
+{
+"@about": "#node887817", 
+"@id": "node887817", 
+"@otu": "otu248764", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node887818"
+}, 
+{
+"@id": "node887819"
+}, 
+{
+"@about": "#node887820", 
+"@id": "node887820", 
+"@otu": "otu248749", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node887821", 
+"@id": "node887821", 
+"@otu": "otu248759", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node887822", 
+"@id": "node887822", 
+"@otu": "otu248761", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}
+]
+}
+}
+}
