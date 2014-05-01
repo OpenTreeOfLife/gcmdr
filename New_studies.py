@@ -4,7 +4,7 @@ these are the studies that may go into the next round of synthesis
 
 studytreelist=[
 
-## Studies suggested by Chris Owen
+## Studies suggested by Chris Owen. Need to vet these.
 "2405_5070",
 "2406_6389",
 "2407_6390",
