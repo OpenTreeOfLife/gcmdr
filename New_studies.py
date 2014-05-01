@@ -50,8 +50,8 @@ studytreelist=[
 
 
 ## New from Bryan
-"2877_6671", # Campanulaceae; Lots of non-monopylly
-"1898_3874", # Delphinium; Lots of non-monopylly
+"2877_6671", # Campanulaceae; Lots of non-monophyly
+"1898_3874", # Delphinium; Lots of non-monophyly
 
 
 
@@ -59,8 +59,14 @@ studytreelist=[
 ## For synthesis
 "2544_6482", # Hexactinellida. Dohrmann et al. 2008. Syst. Biol.
 "2696_6249", # Demospongiae. Hill et al. 2013. PLoS ONE *** put ahead of 2709_6290
+"2913_6742", # Himilayan songbirds. Price et al. 2014. Nature
+
+## Bruyns trees
+"2894_6703", # Aizoaceae. Klak et al. 2013. MPE
+"2893_6702", # Apocynaceae. Bruyns et al. 2014. MPE
 
 ## Decent, but not necessarily for synthesis
 "2880_6676", # Stramenopiles. Brown and Sorhannus. 2010. PLoS ONE
-
+"2890_6701", # Formicariidae. Rice. 2005. Auk
+"2913_6741", # Aves. Price et al. 2014. Nature
 ]
