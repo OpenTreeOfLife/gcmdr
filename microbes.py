@@ -62,7 +62,7 @@ studytreelist=["425_5976", # Eukaryota. Katz et al. 2012. Syst Biol.
 """
 if __name__ == "__main__":
 	import load_synth_extract
-	from stephen_desktop_conf_TEMP import *
+	from stephen_laptop_conf import *
 
 	synthottolid="93302"
 

@@ -6,7 +6,7 @@ This includes functions like
  - running sourceexplorer
 """
 
-from subprocess import Popen
+from subprocess import Popen,PIPE
 from tree_reader import read_tree_string
 
 """
@@ -15,21 +15,30 @@ all our loading in opentree
 
 the study_treeid format is studyid_treeid
 logfile should be a logfilename
+
+UPDATE: this will get the current SHA of the git repo. if 
+        want something else then you need to do something
+        else
 """
 def load_nexson(studyloc,study_treeid,javapre,treemloc,dload,logfilename,append,test=False):
     studyid = study_treeid.split("_")[0]
     treeid = study_treeid.split("_")[1]
+    #is there a cleaner way to get the git SHA
+    shacmd = "git log -n 1 | grep commit | awk ' { print $2 } '| tr -s \" \""
+    prt = Popen(shacmd,stdout=PIPE,shell=True,stdin=PIPE,close_fds=True)
+    sha  = prt.stdout.read().strip()
     cmd = javapre.split(" ")
     cmd.append(treemloc)
     cmd.append("pgloadind")
     cmd.append(dload)
     cmd.append(studyloc+"/"+studyid)
     cmd.append(treeid)
+    cmd.append(sha)
     if test==True:
         cmd.append("f")
-        print "testing nexson "+study_treeid+ " and saving log to "+logfilename
+        print "testing nexson "+study_treeid+ " ("+sha+") and saving log to "+logfilename
     else:
-        print "loading nexson "+study_treeid+ " and saving log to "+logfilename
+        print "loading nexson "+study_treeid+ " ("+sha+") and saving log to "+logfilename
     filemode = "w" #default is write
     if append == True:
         filemode = "a"
