@@ -9,6 +9,13 @@ This includes functions like
 from subprocess import Popen,PIPE
 from tree_reader import read_tree_string
 
+def get_git_SHA(studyloc):
+    #is there a cleaner way to get the git SHA
+    shacmd = "cat "+studyloc+"/.git/refs/heads/master"
+    prt = Popen(shacmd,stdout=PIPE,shell=True,stdin=PIPE,close_fds=True)
+    sha  = prt.stdout.read().strip()
+    return sha
+
 """
 this loads using the pgloadind function, the standard for 
 all our loading in opentree
@@ -23,10 +30,7 @@ UPDATE: this will get the current SHA of the git repo. if
 def load_nexson(studyloc,study_treeid,javapre,treemloc,dload,logfilename,append,test=False):
     studyid = study_treeid.split("_")[0]
     treeid = study_treeid.split("_")[1]
-    #is there a cleaner way to get the git SHA
-    shacmd = "git log -n 1 | grep commit | awk ' { print $2 } '| tr -s \" \""
-    prt = Popen(shacmd,stdout=PIPE,shell=True,stdin=PIPE,close_fds=True)
-    sha  = prt.stdout.read().strip()
+    sha = get_git_SHA(studyloc)
     cmd = javapre.split(" ")
     cmd.append(treemloc)
     cmd.append("pgloadind")
@@ -90,7 +94,8 @@ where it is mapped
 """
 def load_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutfile,append):
     load_nexson(studyloc,study_treeid,javapre,treemloc,dload,outfile,append)
-    source_explorer(study_treeid,javapre,treemloc,dload,treeoutfile,append)
+    sha = get_git_SHA(studyloc)
+    source_explorer(study_treeid+"_"+sha,javapre,treemloc,dload,treeoutfile,append)
     #attempt to read the tree
     tf = open(treeoutfile,"r")
     tree = read_tree_string(tf.readline())
