@@ -60,6 +60,8 @@ studytreelist=[
 "2544_6482", # Hexactinellida. Dohrmann et al. 2008. Syst. Biol.
 "2696_6249", # Demospongiae. Hill et al. 2013. PLoS ONE *** put ahead of 2709_6290
 "2913_6742", # Himilayan songbirds. Price et al. 2014. Nature
+"2924_6755", # Emberizinae. Klicka et al. 2014. MPE
+"2926_6757", # Palaeognaths. Mitchell et al. 2014. Science
 
 ## Bruyns trees
 "2894_6703", # Aizoaceae. Klak et al. 2013. MPE
