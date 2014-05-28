@@ -6,8 +6,15 @@ This includes functions like
  - running sourceexplorer
 """
 
-from subprocess import Popen
+from subprocess import Popen,PIPE
 from tree_reader import read_tree_string
+
+def get_git_SHA(studyloc):
+    #is there a cleaner way to get the git SHA
+    shacmd = "cat "+studyloc+"/.git/refs/heads/master"
+    prt = Popen(shacmd,stdout=PIPE,shell=True,stdin=PIPE,close_fds=True)
+    sha  = prt.stdout.read().strip()
+    return sha
 
 """
 this loads using the pgloadind function, the standard for 
@@ -15,21 +22,27 @@ all our loading in opentree
 
 the study_treeid format is studyid_treeid
 logfile should be a logfilename
+
+UPDATE: this will get the current SHA of the git repo. if 
+        want something else then you need to do something
+        else
 """
 def load_nexson(studyloc,study_treeid,javapre,treemloc,dload,logfilename,append,test=False):
     studyid = study_treeid.split("_")[0]
     treeid = study_treeid.split("_")[1]
+    sha = get_git_SHA(studyloc)
     cmd = javapre.split(" ")
     cmd.append(treemloc)
     cmd.append("pgloadind")
     cmd.append(dload)
     cmd.append(studyloc+"/"+studyid)
     cmd.append(treeid)
+    cmd.append(sha)
     if test==True:
         cmd.append("f")
-        print "testing nexson "+study_treeid+ " and saving log to "+logfilename
+        print "testing nexson "+study_treeid+ " ("+sha+") and saving log to "+logfilename
     else:
-        print "loading nexson "+study_treeid+ " and saving log to "+logfilename
+        print "loading nexson "+study_treeid+ " ("+sha+") and saving log to "+logfilename
     filemode = "w" #default is write
     if append == True:
         filemode = "a"
@@ -81,7 +94,8 @@ where it is mapped
 """
 def load_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutfile,append):
     load_nexson(studyloc,study_treeid,javapre,treemloc,dload,outfile,append)
-    source_explorer(study_treeid,javapre,treemloc,dload,treeoutfile,append)
+    sha = get_git_SHA(studyloc)
+    source_explorer(study_treeid+"_"+sha,javapre,treemloc,dload,treeoutfile,append)
     #attempt to read the tree
     tf = open(treeoutfile,"r")
     tree = read_tree_string(tf.readline())
