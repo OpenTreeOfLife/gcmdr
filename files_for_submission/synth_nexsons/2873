@@ -1,0 +1,592 @@
+{
+"nexml": {
+"@about": "#study", 
+"@generator": "Phylografter nexml-json exporter", 
+"@id": "study", 
+"@nexmljson": "http://purl.org/opentree/nexson", 
+"@version": "0.9", 
+"@xmlns": {
+"$": "http://www.nexml.org/2009", 
+"nex": "http://www.nexml.org/2009", 
+"ot": "http://purl.org/opentree-terms#", 
+"xsd": "http://www.w3.org/2001/XMLSchema#", 
+"xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}, 
+"meta": [
+{
+"$": "Tietze, Dieter Thomas, Jochen Martens, Yue-Hua Sun. 2006. Molecular phylogeny of treecreepers (Certhia) detects hidden diversity\u2020. Ibis 148 (3): 477-488.", 
+"@property": "ot:studyPublicationReference", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://dx.doi.org/10.1111/j.1474-919X.2006.00547.x", 
+"@rel": "ot:studyPublication", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": "Joseph Brown", 
+"@property": "ot:curatorName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "2873", 
+"@property": "ot:studyId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 2006, 
+"@property": "ot:studyYear", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": 467879, 
+"@property": "ot:focalClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia", 
+"@property": "ot:focalCladeOTTTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"otus": {
+"@id": "otus2873", 
+"otu": [
+{
+"@about": "#otu427115", 
+"@id": "otu427115", 
+"@label": "Certhia americana", 
+"meta": [
+{
+"$": 697024, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia americana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia americana", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu427116", 
+"@id": "otu427116", 
+"@label": "Certhia brachydactyla", 
+"meta": [
+{
+"$": 1007172, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia brachydactyla", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia brachydactyla", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu427117", 
+"@id": "otu427117", 
+"@label": "Certhia familiaris", 
+"meta": [
+{
+"$": 1007196, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia familiaris", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia familiaris", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu427118", 
+"@id": "otu427118", 
+"@label": "Certhia hodgsoni", 
+"meta": [
+{
+"$": 856525, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia hodgsoni", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia hodgsoni", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu427119", 
+"@id": "otu427119", 
+"@label": "Certhia himalayana", 
+"meta": [
+{
+"$": 856520, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia himalayana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia himalayana", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu427120", 
+"@id": "otu427120", 
+"@label": "Certhia nipalensis", 
+"meta": [
+{
+"$": 737469, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia nipalensis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia nipalensis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu427121", 
+"@id": "otu427121", 
+"@label": "Certhia tianquanensis", 
+"meta": [
+{
+"$": 856513, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia tianquanensis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia tianquanensis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu427122", 
+"@id": "otu427122", 
+"@label": "Certhia discolor", 
+"meta": [
+{
+"$": 856514, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia discolor", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia discolor", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu427123", 
+"@id": "otu427123", 
+"@label": "Certhia manipurensis", 
+"meta": [
+{
+"$": 856515, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia manipurensis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Certhia manipurensis", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu427124", 
+"@id": "otu427124", 
+"@label": "Troglodytes troglodytes", 
+"meta": [
+{
+"$": 259813, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Troglodytes troglodytes", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Troglodytes troglodytes", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#otu427125", 
+"@id": "otu427125", 
+"@label": "Sitta europaea", 
+"meta": [
+{
+"$": 82242, 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Sitta europaea", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Sitta europaea", 
+"@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}
+]
+}, 
+"trees": {
+"@id": "trees2873", 
+"@otus": "otus2873", 
+"tree": [
+{
+"@about": "#tree6666", 
+"@id": "tree6666", 
+"edge": [
+{
+"@id": "edge1162119", 
+"@source": "node1162118", 
+"@target": "node1162119"
+}, 
+{
+"@id": "edge1162120", 
+"@source": "node1162118", 
+"@target": "node1162120"
+}, 
+{
+"@id": "edge1162118", 
+"@source": "node1162117", 
+"@target": "node1162118"
+}, 
+{
+"@id": "edge1162122", 
+"@source": "node1162121", 
+"@target": "node1162122"
+}, 
+{
+"@id": "edge1162123", 
+"@source": "node1162121", 
+"@target": "node1162123"
+}, 
+{
+"@id": "edge1162121", 
+"@source": "node1162117", 
+"@target": "node1162121"
+}, 
+{
+"@id": "edge1162117", 
+"@source": "node1162116", 
+"@target": "node1162117"
+}, 
+{
+"@id": "edge1162124", 
+"@source": "node1162116", 
+"@target": "node1162124"
+}, 
+{
+"@id": "edge1162127", 
+"@source": "node1162126", 
+"@target": "node1162127"
+}, 
+{
+"@id": "edge1162128", 
+"@source": "node1162126", 
+"@target": "node1162128"
+}, 
+{
+"@id": "edge1162126", 
+"@source": "node1162125", 
+"@target": "node1162126"
+}, 
+{
+"@id": "edge1162130", 
+"@source": "node1162129", 
+"@target": "node1162130"
+}, 
+{
+"@id": "edge1162131", 
+"@source": "node1162129", 
+"@target": "node1162131"
+}, 
+{
+"@id": "edge1162129", 
+"@source": "node1162125", 
+"@target": "node1162129"
+}, 
+{
+"@id": "edge1162125", 
+"@source": "node1162116", 
+"@target": "node1162125"
+}, 
+{
+"@id": "edge1162116", 
+"@source": "node1162115", 
+"@target": "node1162116"
+}, 
+{
+"@id": "edge1162133", 
+"@source": "node1162132", 
+"@target": "node1162133"
+}, 
+{
+"@id": "edge1162134", 
+"@source": "node1162132", 
+"@target": "node1162134"
+}, 
+{
+"@id": "edge1162132", 
+"@source": "node1162115", 
+"@target": "node1162132"
+}
+], 
+"meta": [
+{
+"$": "node1162116", 
+"@property": "ot:inGroupClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Fig. 1 ML", 
+"@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}
+], 
+"node": [
+{
+"@about": "#node1162119", 
+"@id": "node1162119", 
+"@otu": "otu427115", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1162120", 
+"@id": "node1162120", 
+"@otu": "otu427116", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1162118"
+}, 
+{
+"@about": "#node1162122", 
+"@id": "node1162122", 
+"@otu": "otu427117", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1162123", 
+"@id": "node1162123", 
+"@otu": "otu427118", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1162121"
+}, 
+{
+"@id": "node1162117"
+}, 
+{
+"@about": "#node1162124", 
+"@id": "node1162124", 
+"@otu": "otu427119", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1162127", 
+"@id": "node1162127", 
+"@otu": "otu427120", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1162128", 
+"@id": "node1162128", 
+"@otu": "otu427121", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1162126"
+}, 
+{
+"@about": "#node1162130", 
+"@id": "node1162130", 
+"@otu": "otu427122", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1162131", 
+"@id": "node1162131", 
+"@otu": "otu427123", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1162129"
+}, 
+{
+"@id": "node1162125"
+}, 
+{
+"@id": "node1162116"
+}, 
+{
+"@about": "#node1162133", 
+"@id": "node1162133", 
+"@otu": "otu427124", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@about": "#node1162134", 
+"@id": "node1162134", 
+"@otu": "otu427125", 
+"meta": [
+{
+"$": true, 
+"@datatype": "xsd:boolean", 
+"@property": "ot:isLeaf", 
+"@xsi:type": "nex:LiteralMeta"
+}
+]
+}, 
+{
+"@id": "node1162132"
+}, 
+{
+"@id": "node1162115", 
+"@root": true
+}
+]
+}
+]
+}
+}
+}
