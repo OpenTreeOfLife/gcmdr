@@ -15,5 +15,5 @@ studytreelist=[
 "2882_6682", # Mycobacterium. Mendum et al. BMC Genomics 2014
 "2770_6417", # Plasmodium. Ollomo et al. PLoS Pathogens. 2009					## currently unrooted
 "2765_6399", # Bosminidae. Taylor et al. Limnology and Oceano. 2002.
-
+"2749_6353", # Chlorophyta. Tartar et al. 2002
 ]
