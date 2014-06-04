@@ -55,7 +55,6 @@ studytreelist=[
 
 
 
-
 ## For synthesis
 "2544_6482", # Hexactinellida. Dohrmann et al. 2008. Syst. Biol.
 "2696_6249", # Demospongiae. Hill et al. 2013. PLoS ONE *** put ahead of 2709_6290
@@ -71,4 +70,6 @@ studytreelist=[
 "2880_6676", # Stramenopiles. Brown and Sorhannus. 2010. PLoS ONE
 "2890_6701", # Formicariidae. Rice. 2005. Auk
 "2913_6741", # Aves. Price et al. 2014. Nature
+"2929_6765", # Synallaxis. Claramunt. 2014. MPE
+
 ]
