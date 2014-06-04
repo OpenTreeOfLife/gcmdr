@@ -15,7 +15,7 @@ import load_synth_extract
 # 229562 = Tetrapoda; Amniota = 229560; Archosauria = 335588; 304358 = Eukaryota; Decapoda = 169205;
 # 93302 = cellular organisms;
 
-synthottolid = "691846"
+synthottolid = "93302"
 #extractottolid = "691846"
 #synthottolid = "691846"
 
@@ -30,7 +30,7 @@ print "loading synthottolid:",synthottolid
 print "loading studytreelist:",studytreelist
 
 # analysis name
-aname="Birds_v2.6_mapcompat_13April_5"
+aname="Birds_v2.6_mapcompat_18April"
 # location of synth database
 dsynth=bdir+aname+".db"
 # location of synth treefile
