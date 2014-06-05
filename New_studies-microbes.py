@@ -20,36 +20,36 @@ studytreelist=[
 "2886_6694", # Holozoa. Scheel and Hausdorf. 2014. MPE						## no ingroup defined
 "2792_6478", # Diatom. Ruck and Theriot. 2011. Protist						## no ingroup defined
 "2790_6476", # Moraxella. Angelos et al. 2007. Syst. Evol. Microbiol.				## no ingroup defined
-"2888_6697", # Rhizobium
-"2885_6690", # Life
-"2885_6692", #	Life
-"2787_6704", #	Bacteria
-"2759_6374", #	Apicomplexa
-"2883_6686", #	Bacillus marcescens
-"2793_6705", #	Cercozoa
-"2748_6351", #	Sphacelariales
-"2889_6698", #	Bacteria
-"2745_6345", #	Dinophysis
-"2775_6432", #	Opisthokonta
-"2750_6355", #	Botryococcus
-"2895_6706", # 	Bacteria
-"2895_6707", #	Bacteria
-"2880_6676",	#Stramenopiles
-"2484_6607",	#Amoebozoa
-"2557_6631", #	Dinoflagellata
-"2557_6639", #	Dinoflagellata
-"2737_6322", #	Nostocales
-"2738_6323", #	Oscillatoriales
-"2738_6324", #	Oscillatoriales
-"310_259", #	Eukaryota
-"2760_6375",	#Dinoflagellates
-"2846_6608",	#Bacteriodetes
-"2847_6609",#	Eukaryota
-"2847_6611", #	Eukaryota
-"2925_2925", #	Eukaryota
-"2618_6130", #	Dinoflagellata
-"2927_6760", #	Pseudokeronopsidae
-"2772_6421", #	Thalassiosirales
-"2928_6761", #Cymbellales
+"2888_6697", # Rhizobium. Althabegoiti et al. 2013. BMC Microbiol.				## no ingroup defined
+"2885_6690", # Life. Gu et al. 2014. BMC Evol. Biol.						## trees need informative names; no ingroup defined
+"2885_6692", # Life. Gu et al. 2014. BMC Evol. Biol.						## trees need informative names; no ingroup defined
+"2787_6704", # Bacteria. Fory et al. 2013. ???							## can't find publication
+"2759_6374", # Apicomplexa
+"2883_6686", # Bacillus marcescens
+"2793_6705", # Cercozoa
+"2748_6351", # Sphacelariales
+"2889_6698", # Bacteria
+"2745_6345", # Dinophysis
+"2775_6432", # Opisthokonta
+"2750_6355", # Botryococcus
+"2895_6706", # Bacteria
+"2895_6707", # Bacteria
+"2880_6676", # Stramenopiles
+"2484_6607", # Amoebozoa
+"2557_6631", # Dinoflagellata
+"2557_6639", # Dinoflagellata
+"2737_6322", # Nostocales
+"2738_6323", # Oscillatoriales
+"2738_6324", # Oscillatoriales
+"310_259",   # Eukaryota
+"2760_6375", # Dinoflagellates
+"2846_6608", # Bacteriodetes
+"2847_6609", # Eukaryota
+"2847_6611", # Eukaryota
+"2925_2925", # Eukaryota
+"2618_6130", # Dinoflagellata
+"2927_6760", # Pseudokeronopsidae
+"2772_6421", # Thalassiosirales
+"2928_6761", # Cymbellales
 
 ]
