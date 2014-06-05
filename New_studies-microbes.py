@@ -29,11 +29,11 @@ studytreelist=[
 "2793_6705", # Cercozoa. Ota et al. 2012. Protist
 "2748_6351", # Sphacelariales. Heesch et al. 2008. Eur. J. Phycol.				## tree needs better name
 "2889_6698", # Bacteria. Lei and Olival. 2014. PLoS Negl. Trop. Dis.				## tree needs better name
-"2745_6345", # Dinophysis
-"2775_6432", # Opisthokonta
-"2750_6355", # Botryococcus
-"2895_6706", # Bacteria
-"2895_6707", # Bacteria
+"2745_6345", # Dinophysis. Hackett et al. 2003. J. Phycol.
+"2775_6432", # Opisthokonta. Marshall et al. 2008. Protist					## no ingroup defined
+"2750_6355", # Botryococcus. Weiss et al. 2010. J. Phycol.
+"2895_6706", # Bacteria. Whitesonet al. 2014. BMC Genomics
+"2895_6707", # Bacteria. Whitesonet al. 2014. BMC Genomics
 "2880_6676", # Stramenopiles
 "2484_6607", # Amoebozoa
 "2557_6631", # Dinoflagellata
