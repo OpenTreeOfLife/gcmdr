@@ -5,7 +5,7 @@ these are the studies that may go into the next round of synthesis
 studytreelist=[
 
 
-"2862_6649", # Scuticociliatia (Ciliates). Gao et al. 2014. MPE					## unrooted
+"2862_6766", # Scuticociliatia (Ciliates). Gao et al. 2014. MPE					## unrooted. ### FIXED! HDL
 "2863_6650", # Oligohymenophorea (Ciliates). Gao et al. 2013. MPE				## unrooted; no ingroup defined
 "2739_6601", # blue-green algae (Cyanobacteria). Schirrmeister et al. BMC Evol. Biol. 2011.
 "2892_6700", # blue-green algae (Cyanobacteria). Rigonato et al. Env. Microbio. 2013.		## unrooted; no ingroup defined
