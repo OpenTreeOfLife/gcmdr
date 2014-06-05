@@ -6,7 +6,7 @@ studytreelist=[
 
 
 "2862_6766", # Scuticociliatia (Ciliates). Gao et al. 2014. MPE					## unrooted. ### FIXED! HDL
-"2863_6650", # Oligohymenophorea (Ciliates). Gao et al. 2013. MPE				## unrooted; no ingroup defined
+"2863_6767", # Oligohymenophorea (Ciliates). Gao et al. 2013. MPE				## unrooted; no ingroup defined  ### FIXED! HDL
 "2739_6601", # blue-green algae (Cyanobacteria). Schirrmeister et al. BMC Evol. Biol. 2011.
 "2892_6700", # blue-green algae (Cyanobacteria). Rigonato et al. Env. Microbio. 2013.		## unrooted; no ingroup defined
 "2891_6699", # blue-green algae (Cyanobacteria). Rigonato et al. FEMS Microbiol Eco 2012.	## unrooted; no ingroup defined
