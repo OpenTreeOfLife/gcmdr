@@ -34,13 +34,13 @@ studytreelist=[
 "2750_6355", # Botryococcus. Weiss et al. 2010. J. Phycol.
 "2895_6706", # Bacteria. Whitesonet al. 2014. BMC Genomics
 "2895_6707", # Bacteria. Whitesonet al. 2014. BMC Genomics
-"2880_6676", # Stramenopiles
-"2484_6607", # Amoebozoa
-"2557_6631", # Dinoflagellata
-"2557_6639", # Dinoflagellata
-"2737_6322", # Nostocales
-"2738_6323", # Oscillatoriales
-"2738_6324", # Oscillatoriales
+"2880_6676", # Stramenopiles. Brown and Sorhannus. 2010. PLoS ONE				## perfection ;)
+"2484_6607", # Amoebozoa. Lahr et al. 2011. PLoS ONE
+"2557_6631", # Dinoflagellata. Orr et al. 2012. PLoS ONE
+"2557_6639", # Dinoflagellata. Orr et al. 2012. PLoS ONE
+"2737_6322", # Nostocales. Werner et al. 2012. Phycologia
+"2738_6323", # Oscillatoriales. Kling et al. 2012. Fottea, Olomouc
+"2738_6324", # Oscillatoriales. Kling et al. 2012. Fottea, Olomouc				## unrooted
 "310_259",   # Eukaryota
 "2760_6375", # Dinoflagellates
 "2846_6608", # Bacteriodetes
