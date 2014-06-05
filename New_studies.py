@@ -4,7 +4,7 @@ these are the studies that may go into the next round of synthesis
 
 studytreelist=[
 
-## Studies suggested by Chris Owen. Need to vet these.
+## Studies suggested by Chris Owen. Need to figure where/if these factor into synthesis
 "2406_6389", # Squamata. Townsend et al. 2004. Syst. Biol.
 "2408_6391", # Agaonidae. Weiblen. 2001. Syst. Biol.
 "2409_6401", # Allohistium. Bossu and Near. 2009. Syst. Biol.
@@ -33,16 +33,16 @@ studytreelist=[
 "2524_6441", # Abas. Cruz et al. 2005. J. Evol. Biol.
 "2528_5446", # Procellariiformes. Kennedy and Page. 2002. Auk
 "2535_5460", # Phthiraptera. Cruickshank et al. 2001. MPE
-"2543_5481", # Amniota						<- *** Can't get the publication ***
 "2545_5489", # Alcyonaria. Sanchez and Taylor. 2003. MPE
 "2547_6483", # Pleuronectiformes. Betancur-R et al. 2013. Syst. Biol.
+"2550_5513", # Mammalia. O'Leary et al. 2004.  Assembling the Tree of Life book
+"2578_5982", # Euryechinus. Kober and Bernardi. 2013. BMC Evol. Biol.
+"2579_5983", # Amniota. Faircloth et al. 2012. Syst. Biol.
+"2580_5986", # Palaeognathae. Smith et al. 2013. Syst. Biol.
+"2586_5996", # Vertebrata. Lemmon et al. 2012. Syst. Biol.
+"2588_6484", # Stauromedusae. Collins and Daly. 2005. Biol. Bull.
 
-"2550_5513", # 
-"2578_5982", # 
-"2579_5983", # 
-"2580_5986", # 
-"2586_5996", # 
-"2588_6484", # 
+"2543_5481", # Amniota	<- *** Can't get the publication ***
 
 
 ## New from Bryan
