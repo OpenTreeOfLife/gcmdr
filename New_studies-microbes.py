@@ -23,12 +23,12 @@ studytreelist=[
 "2888_6697", # Rhizobium. Althabegoiti et al. 2013. BMC Microbiol.				## no ingroup defined
 "2885_6690", # Life. Gu et al. 2014. BMC Evol. Biol.						## trees need informative names; no ingroup defined
 "2885_6692", # Life. Gu et al. 2014. BMC Evol. Biol.						## trees need informative names; no ingroup defined
-"2787_6704", # Bacteria. Fory et al. 2013. ???							## can't find publication
-"2759_6374", # Apicomplexa
-"2883_6686", # Bacillus marcescens
-"2793_6705", # Cercozoa
-"2748_6351", # Sphacelariales
-"2889_6698", # Bacteria
+"2787_6704", # Bacteria. Fory et al. 2013. ???							## *** can't find publication ***
+"2759_6374", # Apicomplexa. Morrison. 2006. Adv. Parasit.					## unrooted
+"2883_6686", # Bacillus marcescens. Gillis et al. 2014. Eur. J. Plant Pathol.
+"2793_6705", # Cercozoa. Ota et al. 2012. Protist
+"2748_6351", # Sphacelariales. Heesch et al. 2008. Eur. J. Phycol.				## tree needs better name
+"2889_6698", # Bacteria. Lei and Olival. 2014. PLoS Negl. Trop. Dis.				## tree needs better name
 "2745_6345", # Dinophysis
 "2775_6432", # Opisthokonta
 "2750_6355", # Botryococcus
