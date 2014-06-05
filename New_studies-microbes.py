@@ -43,13 +43,13 @@ studytreelist=[
 "2738_6324", # Oscillatoriales. Kling et al. 2012. Fottea, Olomouc				## unrooted
 "310_259",   # Eukaryota. Katz et al. 2011. Protist						## tree needs better name; no ingroup defined
 "2760_6375", # Dinoflagellates. Bachvaroff et al. 2013 MPE					## tree needs better name
-"2846_6608", # Bacteriodetes
-"2847_6609", # Eukaryota
-"2847_6611", # Eukaryota
-"2925_2925", # Eukaryota
-"2618_6130", # Dinoflagellata
-"2927_6760", # Pseudokeronopsidae
-"2772_6421", # Thalassiosirales
-"2928_6761", # Cymbellales
+"2846_6608", # Bacteriodetes. Becker et al. 2014. BMC Microbiol.
+"2847_6609", # Eukaryota. He et al. 2014. Curr. Biol.						## tree needs better name
+"2847_6611", # Eukaryota. He et al. 2014. Curr. Biol.						## tree needs better name
+"2925_2925", # Eukaryota. Grant and Katz. 2014. PLoS Curr. ToL					## tree needs better name; no ingroup defined
+"2618_6130", # Dinoflagellata. Craveiro et al. 2011. Protist					## no ingroup defined
+"2927_6760", # Pseudokeronopsidae. da Silva Paiva et al. 2014. PLoS ONE
+"2772_6421", # Thalassiosirales. Alverson et al. 2011. BMC Evol. Biol.				## tree needs better name; no ingroup defined
+"2928_6761", # Cymbellales. Nakov et al. 2014. Phycologia					## unrooted; tree needs better name; can't find publication
 
 ]
