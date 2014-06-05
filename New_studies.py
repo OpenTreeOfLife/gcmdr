@@ -23,26 +23,26 @@ studytreelist=[
 "2447_6406", # anapsid reptiles. Barley et al. 2010. MPE
 "2451_6407", # Cynipidae. Cook et al. 2009. Evolution
 "2453_5240", # Brookesia. Townsend et al. 2009. Syst. Biol.
-"2454_5247", # 
-"2455_6408", # 
-"2457_6416", # 
-"2458_6436", # 
-"2459_6437", # 
+"2454_5247", # Thamnophilus. Brumfield and Edwards. 2007. Evolution
+"2455_6408", # Lophotrochozoa. Cohen et al. 1998. Proc. Roy. Soc.
+"2457_6416", # Iguanidae. Schulte et al. 2003. Herpetologica
+"2458_6436", # Psylloidea. Percy. 2003. Evolution
+"2459_6437", # Anas. Peters et al. 2005. MPE
+"2506_5398", # Vertebrata. Boussau et al. 2011. Evolution
+"2514_6439", # Doryctinae. Zaldivar-Riveron et al. 2007. MPE
+"2524_6441", # Abas. Cruz et al. 2005. J. Evol. Biol.
+"2528_5446", # Procellariiformes. Kennedy and Page. 2002. Auk
+"2535_5460", # Phthiraptera. Cruickshank et al. 2001. MPE
+"2543_5481", # Amniota						<- *** Can't get the publication ***
+"2545_5489", # Alcyonaria. Sanchez and Taylor. 2003. MPE
+"2547_6483", # Pleuronectiformes. Betancur-R et al. 2013. Syst. Biol.
 
-"2506_5398",
-"2514_6439",
-"2524_6441",
-"2528_5446",
-"2535_5460",
-"2543_5481",
-"2545_5489",
-"2547_6483",
-"2550_5513",
-"2578_5982",
-"2579_5983",
-"2580_5986",
-"2586_5996",
-"2588_6484",
+"2550_5513", # 
+"2578_5982", # 
+"2579_5983", # 
+"2580_5986", # 
+"2586_5996", # 
+"2588_6484", # 
 
 
 ## New from Bryan
