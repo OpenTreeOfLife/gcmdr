@@ -43,7 +43,7 @@ studytreelist=[
 "2737_6322", # Nostocales. Werner et al. 2012. Phycologia
 "2738_6323", # Oscillatoriales. Kling et al. 2012. Fottea, Olomouc
 "2738_6324", # Oscillatoriales. Kling et al. 2012. Fottea, Olomouc				## unrooted
-"310_259",   # Eukaryota. Katz et al. 2011. Protist						## tree needs better name; no ingroup defined
+"310_259",   # Eukaryota. Katz et al. 2011. Protist						
 "2760_6375", # Dinoflagellates. Bachvaroff et al. 2013 MPE					## tree needs better name
 "2846_6608", # Bacteriodetes. Becker et al. 2014. BMC Microbiol.
 "2847_6609", # Eukaryota. He et al. 2014. Curr. Biol.						## tree needs better name
