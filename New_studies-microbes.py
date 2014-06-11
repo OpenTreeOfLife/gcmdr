@@ -49,7 +49,7 @@ studytreelist=[
 "2847_6609", # Eukaryota. He et al. 2014. Curr. Biol.						## tree needs better name
 "2847_6611", # Eukaryota. He et al. 2014. Curr. Biol.						## tree needs better name
 "2925_2925", # Eukaryota. Grant and Katz. 2014. PLoS Curr. ToL					## tree needs better name; no ingroup defined
-"2618_6130", # Dinoflagellata. Craveiro et al. 2011. Protist					## no ingroup defined
+"2618_6130", # Dinoflagellata. Craveiro et al. 2011. Protist				
 "2927_6760", # Pseudokeronopsidae. da Silva Paiva et al. 2014. PLoS ONE
 "2772_6421", # Thalassiosirales. Alverson et al. 2011. BMC Evol. Biol.				## tree needs better name; no ingroup defined
 "2928_6761", # Cymbellales. Nakov et al. 2014. Phycologia					## unrooted; tree needs better name; can't find publication
