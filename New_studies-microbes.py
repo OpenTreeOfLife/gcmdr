@@ -14,7 +14,7 @@ studytreelist=[
 "2891_6699", # blue-green algae (Cyanobacteria). Rigonato et al. FEMS Microbiol Eco 2012.	## unrooted; no ingroup defined
 "2884_6688", # Mycobacterium. Sassi and Drancourt. BMC Genomics 2014.				## no ingroup defined
 "2744_6343", # Dinophyceae. Haywood et al. J Phycol. 2003.
-"2882_6682", # Mycobacterium. Mendum et al. BMC Genomics 2014					## no ingroup defined
+"2882_6682", # Mycobacterium. Mendum et al. BMC Genomics 2014					
 "2770_6417", # Plasmodium. Ollomo et al. PLoS Pathogens. 2009					## unrooted; no ingroup defined
 "2765_6399", # Bosminidae. Taylor et al. Limnology and Oceano. 2002.				## no ingroup defined
 "2749_6353", # Chlorophyta. Tartar et al. 2002
