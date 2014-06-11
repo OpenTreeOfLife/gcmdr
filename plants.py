@@ -68,7 +68,7 @@ studytreelist=[
                "597_906", #Machaerium (Leguminosae) FABALES!
                "2001_4100", #Astragalus FABALES!
                "606_5290", #Trifolieae and Vicieae FABALES!
-               "54_949", #Indigofereae FABALES!
+               "270_159", #Indigofereae FABALES!
                "596_901", #Genisteae (Leguminosae) FABALES!
                "294_202", #Detarieae (Caesalpinioideae) FABALES!
                "292_199", #(Diocleinae: Papilionoideae) FABALES!
@@ -80,8 +80,8 @@ studytreelist=[
                "594_890", #robinioid legumes FABALES!
                "261_145", #Caesalpinieae FABALES!
                "57_777", #Podalyrieae (Fabaceae) FABALES!
-               "78_6237", #phaseoloid FABALES!
-               "78_5858", #phaseoloid FABALES!
+               "1087_2114", #phaseoloid FABALES!
+               "1087_2115", #phaseoloid FABALES!
                "2690_6243", #Fabaceae FABALES!
                "2045_4213", #Acacia FABALES!
                "605_947", #Strophostyles (Fabaceae) FABALES!
@@ -159,7 +159,7 @@ studytreelist=[
                "723_1300",#Triticum
                #"724_3212",#Pleurothallidinae (Orchidaceae) upload problems
                "921_4103",#Oryzeae (Poaceae)
-               "1300_2613",#Hymenophyllum (Hymenophyllaceae)
+               "1446_2921",#Hymenophyllum (Hymenophyllaceae)
                #"1302_2616", make for weird euphyllophyta
                "1962_6580",#Viburnum Clement and Donoghue 2011
                "915_1802",#Viburnum
@@ -183,7 +183,6 @@ studytreelist=[
                #"535_768",#Eriogonoideae
                "61_816",#Bromeliaceae
 ##               "284_185",#Cucurbitaceae
-               "2546_5493",#Sapindaceae
                #"1086_2111",#Cactaceae
                "41_1396",#Feddea
                "283_184",#Celastrales
