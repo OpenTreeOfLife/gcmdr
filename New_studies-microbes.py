@@ -7,8 +7,8 @@ studytreelist=[
 
 # Hi Dail!
 
-"2862_6766", # Scuticociliatia (Ciliates). Gao et al. 2014. MPE					## unrooted. ### FIXED! HDL
-"2863_6767", # Oligohymenophorea (Ciliates). Gao et al. 2013. MPE				## unrooted; no ingroup defined  ### FIXED! HDL
+"2862_6766", # Scuticociliatia (Ciliates). Gao et al. 2014. MPE					
+"2863_6767", # Oligohymenophorea (Ciliates). Gao et al. 2013. MPE			
 "2739_6601", # blue-green algae (Cyanobacteria). Schirrmeister et al. BMC Evol. Biol. 2011.
 "2892_6700", # blue-green algae (Cyanobacteria). Rigonato et al. Env. Microbio. 2013.		## unrooted; no ingroup defined
 "2891_6699", # blue-green algae (Cyanobacteria). Rigonato et al. FEMS Microbiol Eco 2012.	## unrooted; no ingroup defined
@@ -32,7 +32,7 @@ studytreelist=[
 "2748_6351", # Sphacelariales. Heesch et al. 2008. Eur. J. Phycol.				## tree needs better name
 "2889_6698", # Bacteria. Lei and Olival. 2014. PLoS Negl. Trop. Dis.				## tree needs better name
 "2745_6345", # Dinophysis. Hackett et al. 2003. J. Phycol.
-"2775_6432", # Opisthokonta. Marshall et al. 2008. Protist					## no ingroup defined
+"2775_6770", # Mesomycetozoa. Marshall et al. 2008. Protist					
 "2750_6355", # Botryococcus. Weiss et al. 2010. J. Phycol.
 "2895_6706", # Bacteria. Whitesonet al. 2014. BMC Genomics
 "2895_6707", # Bacteria. Whitesonet al. 2014. BMC Genomics
