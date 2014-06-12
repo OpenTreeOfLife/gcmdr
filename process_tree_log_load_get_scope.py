@@ -9,13 +9,13 @@ import os
 import tree_reader
 import node
 
-directory = "fungallog"
+directory = "files_for_submission/microbes_all_log/"
 tend = ".tre"
 lend = ".log"
 
-outfilen = "fungi.scope.results"
+outfilen = "microbes.scope.results"
 
-taxonomy_file = "/media/data/temp/taxonomy/OTT/ott/fungi.tsv"
+taxonomy_file = "/home/smitty/TEMP/ott26/ott/cell.tsv"
 
 def get_number_of_tips(tid,cid):
     tipn = 0
