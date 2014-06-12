@@ -9,11 +9,11 @@ import os
 import tree_reader
 import node
 
-directory = "fungallog"
+directory = "files_for_submission/microbes_all_log/"
 tend = ".tre"
 lend = ".log"
 
-outfilen = "fungi.numtips.results"
+outfilen = "microbes.numtips.results"
 
 if __name__ == "__main__":
     studies = []

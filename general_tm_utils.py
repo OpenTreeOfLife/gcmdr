@@ -70,7 +70,7 @@ def source_explorer(study_treeid,javapre,treemloc,dload,outfile,append):
     if append == True:
         filemode = "a"
     logfile = open(outfile,filemode)
-    pr = Popen(cmd,stdout=logfile).wait()
+    pr = Popen(cmd,stdout=logfile,stderr=PIPE).wait()
     logfile.close()
 
 def source_explorer_inf_mono(study_treeid,javapre,treemloc,dload,outfile,append):
@@ -98,7 +98,9 @@ def load_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutf
     source_explorer(study_treeid+"_"+sha,javapre,treemloc,dload,treeoutfile,append)
     #attempt to read the tree
     tf = open(treeoutfile,"r")
-    tree = read_tree_string(tf.readline())
+    for i in tf:
+        ts = i
+    tree = read_tree_string(ts)
     print "root name:"+tree.label
     tf.close()
 
@@ -109,7 +111,8 @@ where it is mapped
 """
 def load_one_study_inf_mono(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutfile,infmonofile,append):
     load_nexson(studyloc,study_treeid,javapre,treemloc,dload,outfile,append)
-    source_explorer(study_treeid,javapre,treemloc,dload,treeoutfile,append)
+    sha = get_git_SHA(studyloc)
+    source_explorer(study_treeid+"_"+sha,javapre,treemloc,dload,treeoutfile,append)
     tf = open(treeoutfile,"r")
     tree = read_tree_string(tf.readline())
     print "root name:"+tree.label
@@ -125,7 +128,8 @@ def mapcompat_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,tre
     cmd.append(treemloc)
     cmd.append("mapcompat")
     cmd.append(dload)
-    cmd.append(study_treeid)
+    sha = get_git_SHA(studyloc)
+    cmd.append(study_treeid+"_"+sha)
     print "mapping compatible nodes for " +study_treeid+" as loaded into "+dload
     filemode = "w" #default is write
     if append == True:
@@ -142,7 +146,8 @@ def mapcompat_one_study_test(studyloc,study_treeid,javapre,treemloc,dload,outfil
     cmd.append(treemloc)
     cmd.append("mapcompat")
     cmd.append(dload)
-    cmd.append(study_treeid)
+    sha = get_git_SHA(studyloc)
+    cmd.append(study_treeid+"_"+sha)
     cmd.append("test")
     print "mapping compatible nodes for " +study_treeid+" as loaded into "+dload
     filemode = "w" #default is write
