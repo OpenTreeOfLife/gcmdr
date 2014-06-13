@@ -1,7 +1,6 @@
 import load_synth_extract
 
 from metazoa_all import studytreelist
-#studytreelist = ["2374_6380"]
 
 if __name__ == "__main__":
     from wopr_conf_TEMP import *
