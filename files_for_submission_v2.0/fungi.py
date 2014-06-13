@@ -4,15 +4,15 @@ This includes the studies and the ottolid
 import load_synth_extract
 
 
-studytreelist=["2818_6563", # Fungi. Hibbett 2007
-               "240_123",   # Pezizomycotina
-               "827_1585",  # Blastocladiomycota
-               "1144_5800", # Entomophthoromycota
-               "439_5514",  # Glomeromycota
+studytreelist=["pg_2818_6563", # Fungi. Hibbett 2007
+               "pg_240_123",   # Pezizomycotina
+               "pg_827_1585",  # Blastocladiomycota
+               "pg_1144_5800", # Entomophthoromycota
+               "pg_439_5514",  # Glomeromycota
                #"238_110",  # Ascomycota	<- mapped back to Eukaryota
-               "1197_5822", # Fungi
-               "2701_6271", # Dikarya	<- mapped back to Basidiomycota
-               "1162_5805"  #Fungi
+               "pg_1197_5822", # Fungi
+               "pg_2701_6271", # Dikarya	<- mapped back to Basidiomycota
+               "pg_1162_5805"  #Fungi
                ]
  
 """
@@ -43,13 +43,20 @@ studytreelist=["1162_5805",
 studytreelistTF = [True] * len(studytreelist)
 
 if __name__ == "__main__":
-	from stephen_desktop_conf import *
-
+        from stephen_laptop_conf import *
+        import general_tm_utils
 	
 	synthottolid="352914"
 
 	print "loading synthottolid:",synthottolid
 	print "loading studytreelist:",studytreelist
 
-	load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
-				 treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
+        download = False
+        if download == True:
+                for i in studytreelist:
+                        a = i.split("_")
+                        studyid = "_".join(a[:-1])
+                        print "downloading studyid "+studyid+" to "+studyloc
+                        general_tm_utils.get_study_opentreeapi(studyid,studyloc)
+
+	load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
