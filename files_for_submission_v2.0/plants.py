@@ -197,13 +197,13 @@ studytreelist=[
                ]
 studytreelistTF = [True] * len(studytreelist)
 
-if __name__ == "pg___main__":
+if __name__ == "___main__":
 	from stephen_desktop_conf import *
 
 	synthottolid="10218"
 
-	print "pg_loading synthottolid:",synthottolid
-	print "pg_loading studytreelist:",studytreelist
+	print "loading synthottolid:",synthottolid
+	print "loading studytreelist:",studytreelist
 
 	load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
 				 treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
