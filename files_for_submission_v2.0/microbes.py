@@ -17,26 +17,26 @@ UPDATE THE INGROUP 2425	5121	Fewer D., Friedl T., & Budel B. 2002. Chroococcidio
 
 """
 ## A possible alternative to Katz et al. 2012:
-studytreelist=["263_149",
-               "2713_6309",
+studytreelist=["pg_263_149",
+               "pg_2713_6309",
                #"2413_5093",
-               "2715_6308",
-               "2739_6601",
+               "pg_2715_6308",
+               "pg_2739_6601",
                #"2737_6322",
                #"2738_6323",
-               "2753_6360",
-               "2742_6342",
-               "2757_6369",
-               #"2760_6375",#Exception in thread "main" java.lang.IllegalStateException: this child is mapped the same graph node (Node[3114879]) as its parent [Alexandrium tamarense]
-               "2553_5579",
-               "2556_5586",
+               "pg_2753_6360",
+               "pg_2742_6342",
+               "pg_2757_6369",
+               #"2760_6375",#Exception in thread "pg_main" java.lang.IllegalStateException: this child is mapped the same graph node (Node[3114879]) as its parent [Alexandrium tamarense]
+               "pg_2553_5579",
+               "pg_2556_5586",
                #"2484_5346",
-               "312_264",
+               "pg_312_264",
                #"313_6019",
-               "313_6681", # fixed Grant et al. tree (topology)
-               "2554_5580",
-               "2484_6607",
-               "2849_6615"
+               "pg_313_6681", # fixed Grant et al. tree (topology)
+               "pg_2554_5580",
+               "pg_2484_6607",
+               "pg_2849_6615"
                ]#"2822_6569"] # Parfrey et al. 2011. PNAS <- why not this one? it is good.
 studytreelistTF = [True] * len(studytreelist)
 """
@@ -60,7 +60,7 @@ studytreelist=["425_5976", # Eukaryota. Katz et al. 2012. Syst Biol.
 "2542_5588",
 "2542_5590"]
 """
-if __name__ == "__main__":
+if __name__ == "___main__":
 	import load_synth_extract
 	from stephen_laptop_conf import *
 
