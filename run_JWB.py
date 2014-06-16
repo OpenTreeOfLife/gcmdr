@@ -49,7 +49,7 @@ studytreelistTF = [True] * len(studytreelist)
 print "loading synthottolid:",synthottolid
 print "loading studytreelist:",studytreelist
 
-# analysis name
+# analysis name. this is used to prefix result files/directories. the base directory 'bdir' come in from wopr_conf.py.
 #aname="Metazoa_test_2.5draft1_mapcompat"
 #aname="Life_taxonomy-only_2.5draft1"
 #aname="Decapoda_OTT2.5draft1_taxonomy-only"
