@@ -138,7 +138,7 @@ where it is mapped
 """
 def load_one_study_inf_mono(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutfile,infmonofile,append):
     load_nexson(studyloc,study_treeid,javapre,treemloc,dload,outfile,append)
-    sha = get_git_SHA(studyloc)
+    sha = get_git_SHA_from_json(studyloc+"/"+studyid)
     source_explorer(study_treeid+"_"+sha,javapre,treemloc,dload,treeoutfile,append)
     tf = open(treeoutfile,"r")
     tree = read_tree_string(tf.readline())
@@ -155,7 +155,7 @@ def mapcompat_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,tre
     cmd.append(treemloc)
     cmd.append("mapcompat")
     cmd.append(dload)
-    sha = get_git_SHA(studyloc)
+    sha = get_git_SHA_from_json(studyloc+"/"+studyid)
     cmd.append(study_treeid+"_"+sha)
     print "mapping compatible nodes for " +study_treeid+" as loaded into "+dload
     filemode = "w" #default is write
@@ -173,7 +173,7 @@ def mapcompat_one_study_test(studyloc,study_treeid,javapre,treemloc,dload,outfil
     cmd.append(treemloc)
     cmd.append("mapcompat")
     cmd.append(dload)
-    sha = get_git_SHA(studyloc)
+    sha = get_git_SHA_from_json(studyloc+"/"+studyid)
     cmd.append(study_treeid+"_"+sha)
     cmd.append("test")
     print "mapping compatible nodes for " +study_treeid+" as loaded into "+dload
