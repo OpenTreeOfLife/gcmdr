@@ -43,20 +43,15 @@ studytreelist=["1162_5805",
 studytreelistTF = [True] * len(studytreelist)
 
 if __name__ == "__main__":
-        from stephen_laptop_conf import *
-        import general_tm_utils
-	
-	synthottolid="352914"
+    from stephen_laptop_conf import *
+    import general_tm_utils
+    
+    synthottolid="352914"
 
-	print "loading synthottolid:",synthottolid
-	print "loading studytreelist:",studytreelist
+    print "loading synthottolid:",synthottolid
+    print "loading studytreelist:",studytreelist
+    download = True
+    if download:
+        general_tm_utils.get_all_studies_opentreeapi(studytreelist,studyloc)    
 
-        download = False
-        if download == True:
-                for i in studytreelist:
-                        a = i.split("_")
-                        studyid = "_".join(a[:-1])
-                        print "downloading studyid "+studyid+" to "+studyloc
-                        general_tm_utils.get_study_opentreeapi(studyid,studyloc)
-
-	load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
+    load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
