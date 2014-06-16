@@ -6,12 +6,12 @@ import load_synth_extract
 
 studytreelist=["pg_2818_6563", # Fungi. Hibbett 2007
                "pg_240_123",   # Pezizomycotina
-               "pg_827_1585",  # Blastocladiomycota
+               "pg_827_1585",  # Blastocladiales
                "pg_1144_5800", # Entomophthoromycota
                "pg_439_5514",  # Glomeromycota
                #"238_110",  # Ascomycota	<- mapped back to Eukaryota
                "pg_1197_5822", # Fungi
-               "pg_2701_6271", # Dikarya	<- mapped back to Basidiomycota
+               #"pg_2701_6271", # Dikarya	<- mapped back to Basidiomycota -- keep out until Melampsora is fixed
                "pg_1162_5805"  #Fungi
                ]
  
@@ -39,7 +39,6 @@ studytreelist=["1162_5805",
                #"238_109"
                ]
 """
-
 studytreelistTF = [True] * len(studytreelist)
 
 if __name__ == "__main__":
