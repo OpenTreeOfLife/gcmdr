@@ -17,6 +17,13 @@ def get_study_opentreeapi(studyid, studyloc):
     fl.write(res.read())
     fl.close()
 
+def get_all_studies_opentreeapi(studytreelist,studyloc):
+    for i in studytreelist:
+        a = i.split("_")
+        studyid = "_".join(a[:-1])
+        print "downloading studyid "+studyid+" to "+studyloc
+        get_study_opentreeapi(studyid,studyloc)
+
 def get_git_SHA(studyloc):
     #is there a cleaner way to get the git SHA
     shacmd = "cat "+studyloc+"/.git/refs/heads/master"
