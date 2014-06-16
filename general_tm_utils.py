@@ -5,15 +5,29 @@ This includes functions like
  - running pgdelind
  - running sourceexplorer
 """
-
+import urllib2,json
 from subprocess import Popen,PIPE
 from tree_reader import read_tree_string
+
+def get_study_opentreeapi(studyid, studyloc):
+    call = "http://ot10.opentreeoflife.org/api/v1/study/"+studyid
+    req = urllib2.Request(call)
+    res = urllib2.urlopen(req)
+    fl = open(studyloc+"/"+studyid,"w")
+    fl.write(res.read())
+    fl.close()
 
 def get_git_SHA(studyloc):
     #is there a cleaner way to get the git SHA
     shacmd = "cat "+studyloc+"/.git/refs/heads/master"
     prt = Popen(shacmd,stdout=PIPE,shell=True,stdin=PIPE,close_fds=True)
     sha  = prt.stdout.read().strip()
+    return sha
+
+def get_git_SHA_from_json(studylocfile):
+    fl = open(studylocfile,"r").read()
+    data = json.loads(fl)
+    sha = str(data['sha'])
     return sha
 
 """
@@ -28,9 +42,10 @@ UPDATE: this will get the current SHA of the git repo. if
         else
 """
 def load_nexson(studyloc,study_treeid,javapre,treemloc,dload,logfilename,append,test=False):
-    studyid = study_treeid.split("_")[0]
-    treeid = study_treeid.split("_")[1]
-    sha = get_git_SHA(studyloc)
+    spls = study_treeid.split("_")
+    studyid = "_".join(spls[:-1])
+    treeid = spls[-1]
+    sha = get_git_SHA_from_json(studyloc+"/"+studyid)
     cmd = javapre.split(" ")
     cmd.append(treemloc)
     cmd.append("pgloadind")
@@ -47,6 +62,7 @@ def load_nexson(studyloc,study_treeid,javapre,treemloc,dload,logfilename,append,
     if append == True:
         filemode = "a"
     logfile = open(logfilename,filemode)
+    print " ".join(cmd)
     pr = Popen(cmd,stdout=logfile).wait()
     logfile.close()
 
@@ -70,6 +86,7 @@ def source_explorer(study_treeid,javapre,treemloc,dload,outfile,append):
     if append == True:
         filemode = "a"
     logfile = open(outfile,filemode)
+    print " ".join(cmd)
     pr = Popen(cmd,stdout=logfile,stderr=PIPE).wait()
     logfile.close()
 
@@ -94,10 +111,13 @@ where it is mapped
 """
 def load_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutfile,append):
     load_nexson(studyloc,study_treeid,javapre,treemloc,dload,outfile,append)
-    sha = get_git_SHA(studyloc)
+    studyid = "_".join(study_treeid.split("_")[:-1])
+    print studyid
+    sha = get_git_SHA_from_json(studyloc+"/"+studyid)
     source_explorer(study_treeid+"_"+sha,javapre,treemloc,dload,treeoutfile,append)
     #attempt to read the tree
     tf = open(treeoutfile,"r")
+    ts = None
     for i in tf:
         ts = i
     tree = read_tree_string(ts)

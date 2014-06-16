@@ -5,12 +5,12 @@ You don't have to keep these names. This is just to demonstrate that the configu
 PREFIX="life"
 
 #location of studies
-studyloc="/home/smitty/TEMP/avatol_nexsons"
+studyloc="/home/smitty/TEMP/phylesystem/"
 #location of just ott database
-dott="/home/smitty/apps/neo4j-community-1.9.7/data/gol.ott_2_7.db_just_ott"
+dott="/home/smitty/apps/neo4j-community-1.9.7/data/gol.ott_2_8_5.db_just_ott"
 #taxonomy file
-taxfile = "/home/smitty/TEMP/ott/taxonomy.tsv"
-synfile = "/home/smitty/TEMP/ott/synonyms.tsv"
+taxfile = "/home/smitty/TEMP/ott28_5/ott/taxonomy.tsv"
+synfile = "/home/smitty/TEMP/ott28_5/ott/synonyms.tsv"
 #location of loading database
 dload="/home/smitty/apps/neo4j-community-1.9.7/data/"+PREFIX+"_loading.db"
 #location of test output
