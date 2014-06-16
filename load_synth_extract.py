@@ -41,8 +41,11 @@ def run(dott,dload,studyloc,studytreelist,javapre,treemloc,
 
     print "loading trees"
     count = 0
+    #get the hash as well and update the list
+    studytreelist2 = [] #studytreelist with the hash
     for i in studytreelist:
-        load_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
+        h = load_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
+        studytreelist2.append(i+"_"+h)
         if mapcompat[count] == True: 
             mapcompat_one_study(studyloc,i,javapre,treemloc,dload,generallogfileloc,"TEST",False)
         count += 1
@@ -53,7 +56,7 @@ def run(dott,dload,studyloc,studytreelist,javapre,treemloc,
     copy_database(dload,dsynth)
 
     print "synthesizing"
-    run_synth(javapre,treemloc,dsynth,synthottolid,studytreelist,generallogfileloc,append)
+    run_synth(javapre,treemloc,dsynth,synthottolid,studytreelist2,generallogfileloc,append)
 
     print "extracting"
     extract_synth(javapre,treemloc,dsynth,synthottolid,treefn,append)

@@ -4,15 +4,18 @@ This includes the studies and the ottolid
 import load_synth_extract
 
 
-studytreelist=["pg_2818_6563", # Fungi. Hibbett 2007
-               "pg_240_123",   # Pezizomycotina
-               "pg_827_1585",  # Blastocladiales
+studytreelist=[#"pg_2818_6563", # Fungi. Hibbett 2007
+               #"pg_240_123",   # Pezizomycotina
+               #"pg_827_1585",  # Blastocladiales
                "pg_1144_5800", # Entomophthoromycota
-               "pg_439_5514",  # Glomeromycota
+               "pg_439_5514"  # Glomeromycota, completely fine
+               #"pg_1197_5822", # Fungi
+               #"pg_1162_5805"  #Fungi
                #"238_110",  # Ascomycota	<- mapped back to Eukaryota
-               "pg_1197_5822", # Fungi
+
                #"pg_2701_6271", # Dikarya	<- mapped back to Basidiomycota -- keep out until Melampsora is fixed
-               "pg_1162_5805"  #Fungi
+
+
                ]
  
 """

@@ -130,6 +130,7 @@ def load_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutf
     tree = read_tree_string(ts)
     print "root name:"+tree.label
     tf.close()
+    return sha
 
 """
 this will load the study and then export the source

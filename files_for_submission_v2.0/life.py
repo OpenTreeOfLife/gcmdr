@@ -12,10 +12,10 @@ from fungi import studytreelist as fungilist
 
 
 studytreelist = []
-studytreelist.extend(plantslist)
-studytreelist.extend(metalist)
-studytreelist.extend(fungilist)
-studytreelist.extend(microbelist)
+#studytreelist.extend(plantslist)
+#studytreelist.extend(metalist)
+#studytreelist.extend(fungilist)
+#studytreelist.extend(microbelist)
 
 mapcompat = [True] * len(studytreelist)
 #mapcompat = [] * len(studytreelist)
