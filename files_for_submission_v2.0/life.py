@@ -26,5 +26,14 @@ synthottolid="93302"
 print "loading synthottolid:",synthottolid
 print "loading studytreelist:",studytreelist
 
+download = True
+if download == True:
+    for i in studytreelist:
+        a = i.split("_")
+        studyid = "_".join(a[:-1])
+        print "downloading studyid "+studyid+" to "+studyloc
+        general_tm_utils.get_study_opentreeapi(studyid,studyloc)
+        
+
 load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
 			 treemloc,generallogfileloc,dsynth,synthottolid,treefn,mapcompat)
