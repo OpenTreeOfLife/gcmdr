@@ -52,6 +52,6 @@ if __name__ == "__main__":
     print "loading studytreelist:",studytreelist
     download = True
     if download:
-        get_all_studies_opentreeapi(studytreelist,studyloc)    
+        general_tm_utils.get_all_studies_opentreeapi(studytreelist,studyloc)    
 
     load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
