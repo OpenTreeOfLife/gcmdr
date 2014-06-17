@@ -1,7 +1,7 @@
 """
 this is the stuff specific to the plant studies that are loaded. It can include comments and all that. The studytreelist will be read from the load_synth_extract file. Other variables in the conf could be overridden here. 
 """
-
+import general_tm_utils
 import load_synth_extract
 
 
@@ -197,14 +197,17 @@ studytreelist=[
                ]
 studytreelistTF = [True] * len(studytreelist)
 
-if __name__ == "___main__":
-	from stephen_desktop_conf import *
+if __name__ == "__main__":
+    from stephen_desktop_conf import *
+    synthottolid="10218"
 
-	synthottolid="10218"
+    print "loading synthottolid:",synthottolid
+    print "loading studytreelist:",studytreelist
+    
+    download = True
+    if download:
+        general_tm_utils.get_all_studies_opentreeapi(studytreelist,studyloc)    
 
-	print "loading synthottolid:",synthottolid
-	print "loading studytreelist:",studytreelist
-
-	load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
+    load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
 				 treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
 
