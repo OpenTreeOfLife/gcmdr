@@ -171,7 +171,7 @@ studytreelist=[
                "pg_139_5860",#Nierembergia
                "pg_126_2233",#Solanum
                "pg_136_5857",#cestrum               
-               "pg_9_1",#Campanulidae
+               "pg_09_1",#Campanulidae
                "pg_2828_6578",#caprifolieae Smith 2009 NEW
                "pg_142_38",#Asclepias
                "pg_2638_6157",#Santalales
@@ -198,7 +198,7 @@ studytreelist=[
 studytreelistTF = [True] * len(studytreelist)
 
 if __name__ == "__main__":
-    from stephen_desktop_conf import *
+    from stephen_laptop_conf import *
     synthottolid="10218"
 
     print "loading synthottolid:",synthottolid
@@ -208,6 +208,6 @@ if __name__ == "__main__":
     if download:
         general_tm_utils.get_all_studies_opentreeapi(studytreelist,studyloc)    
 
-    load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
-				 treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
+    #load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
+	#			 treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
 
