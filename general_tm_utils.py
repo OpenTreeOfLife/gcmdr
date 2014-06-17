@@ -73,12 +73,13 @@ def load_nexson(studyloc,study_treeid,javapre,treemloc,dload,logfilename,append,
     pr = Popen(cmd,stdout=logfile).wait()
     logfile.close()
 
-def load_taxonomy(treemloc,javapre,dott,taxonomy_filename,synonym_filename):
+def load_taxonomy(treemloc,javapre,dott,taxonomy_filename,synonym_filename,version):
     cmd = javapre.split(" ")
     cmd.append(treemloc)
     cmd.append("inittax")
     cmd.append(taxonomy_filename)
     cmd.append(synonym_filename)
+    cmd.append(version)
     cmd.append(dott)
     pr = Popen(cmd).wait()
 
