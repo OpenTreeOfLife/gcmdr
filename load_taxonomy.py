@@ -5,7 +5,7 @@ into treemachine
 from general_tm_utils import *
 from general_utils import *
 
-def load(treemloc, javapre, dott,taxonomy_filename, synonyms_filename):
+def load(treemloc, javapre, dott,taxonomy_filename, synonyms_filename, version):
     delete_database(dott)
     print "loading taxonomy"
     load_taxonomy(treemloc,javapre,dott,taxonomy_filename,synonyms_filename,version)
