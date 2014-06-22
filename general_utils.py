@@ -104,3 +104,4 @@ def delete_database(dbname):
     print "deleting "+dbname
     cmd = ["rm","-r",dbname]
     pr = Popen(cmd).wait()
+
