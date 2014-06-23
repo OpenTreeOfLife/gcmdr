@@ -2,10 +2,10 @@ import general_tm_utils
 
 """
 commands
-java -jar /home/smitty/Dropbox/programming/eclipse/opentree-treemachine/target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar mrpdump Aves Aves.mrp ~/apps/neo4j-community-1.9.7/data/gol.ott_2_8_5.db_just_ott
+java -jar target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar taxtree UID OUTFILE ~/apps/neo4j-community-1.9.7/data/gol.ott_2_8_5.db_just_ott
 this file
-tnt
-java -jar /home/smitty/Dropbox/programming/eclipse/opentree-treemachine/target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar labeltipsottol aves.tre ~/apps/neo4j-community-1.9.7/data/gol.ott_2_8_5.db_just_ott > aves.names.tre
+ANALYSIS
+java -jar /home/smitty/Dropbox/programming/eclipse/opentree-treemachine/target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar labeltipsottol TREEFILE ~/apps/neo4j-community-1.9.7/data/gol.ott_2_8_5.db_just_ott > TREEFILEOUT
 """
 
 if __name__ == "__main__":
@@ -58,7 +58,7 @@ if __name__ == "__main__":
     download = True
     if download:
         general_tm_utils.get_all_studies_opentreeapi(studytreelist,studyloc)
-    cpcmd = "python test_concat.py "
+    cpcmd = "cat "
     for i in studytreelist:
         tstudy_list = [i]
         generallogfileloc = "/home/smitty/TEMP/"+i+".log"
@@ -71,9 +71,11 @@ if __name__ == "__main__":
         for i in fl:
             if start:
                 fl2.write(i)
+            if i.strip() == "TREEUID":
+				start = True
             if i.strip() == "MRP":
-                start =True
+                break
         fl2.close()
         fl.close()
-    print cpcmd +" mrp.concat"
+    print cpcmd +" > mls.trees"
     
