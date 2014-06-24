@@ -260,3 +260,14 @@ def extract_graphml(javapre,treemloc,dload,ottolid,outfile,depth):
     print "extracting graphml tree with "+" ".join(cmd)
     filemode = "w" #default is write
     pr = Popen(cmd).wait()
+
+
+def extract_taxonomy_from_ids(javapre,treemloc,dload,ottlist,outfile):
+    cmd = javapre.split(" ")
+    cmd.append(treemloc)
+    cmd.append("extracttaxonomysubtreeforottids")
+    cmd.append(ottlist)
+    cmd.append(outfile)
+    cmd.append(dload)
+    filemode = "a"
+    pr = Popen(cmd).wait()
