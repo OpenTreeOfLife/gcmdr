@@ -53,11 +53,16 @@ print "loading studytreelist:",studytreelist
 #aname="Metazoa_test_2.5draft1_mapcompat"
 #aname="Life_taxonomy-only_2.5draft1"
 #aname="Decapoda_OTT2.5draft1_taxonomy-only"
-aname="Life_v2.6_mapcompat_19April"
+aname="Life_v2.8draft5_mapcompat_20June2014"
 # location of synth database
 dsynth=bdir+aname+".db"
 # location of synth treefile
 treefn=bdir+aname+"-synth.tre"
+
+download = True
+if download:
+    import general_tm_utils
+    general_tm_utils.get_all_studies_opentreeapi(studytreelist,studyloc)  
 
 #load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,extractottolid)
 load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
