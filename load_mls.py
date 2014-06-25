@@ -14,7 +14,7 @@ java -jar /home/smitty/Dropbox/programming/eclipse/opentree-treemachine/target/t
 this is how you load from another folder
 """
 sys.path.insert(0, 'files_for_submission_v2.0/MLS_MPR_files')
-from rosids import studytreelist
+from asterids import studytreelist
 
 taxtreefile = "tax.tree"
 mlsout = "mls.test"
