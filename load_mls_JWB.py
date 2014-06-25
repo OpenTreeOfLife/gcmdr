@@ -1,6 +1,5 @@
 import general_tm_utils
 import tree_reader
-from subprocess import call
 
 """
 commands
@@ -9,11 +8,7 @@ this file
 ANALYSIS
 java -jar /home/josephwb/Work/OToL/treemachine/target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar labeltipsottol TREEFILE /home/josephwb/Work/OToL/treemachine/Synthesis/Life.2.8draft5.db > TREEFILEOUT
 """
-
-if __name__ == "__main__":
-    from wopr_conf import *
-    
-    studytreelist = [
+studytreelist = [
                ## Birds
                "pg_2876_6670", # Tinamidae. Bertelli, Sara, Ana Luz Porzecanski
                "pg_2875_6668", # Oriolidae. Jonsson et al. 2010. Ecography
@@ -58,19 +53,25 @@ if __name__ == "__main__":
                "pg_2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
                "pg_420_522",   # Aves. Hackett et al. 2008. Science
 
-               ]
+]
+
+taxtreefile = "tax.tree"
+mlsout = "mls.test"
+generallogfileloc = "/home/josephwb/TEMP/"
+
+if __name__ == "__main__":
+    from wopr_conf import *
     download = True
     if download:
         general_tm_utils.get_all_studies_opentreeapi(studytreelist,studyloc)
-    cpcmd = "cat "
     taxalist = set()
+    treestrings = []
     for i in studytreelist:
+        glog = tgenerallogfileloc+i+".log"
+        ttfntreefn = tgenerallogfileloc+i+".tre"
         tstudy_list = [i]
-        generallogfileloc = "/home/josephwb/TEMP/"+i+".log"
-        ttfntreefn = "/home/josephwb/TEMP/"+i+".tre"
-        cpcmd += ttfntreefn+" "
-        general_tm_utils.load_nexson(studyloc,i,javapre,treemloc,dload,generallogfileloc,False,True)
-        fl = open(generallogfileloc,"r")
+        general_tm_utils.load_nexson(studyloc,i,javapre,treemloc,dload,glog,False,True)
+        fl = open(glog,"r")
         fl2 = open(ttfntreefn,"w")
         treestring = ""
         start = False
@@ -85,10 +86,27 @@ if __name__ == "__main__":
                 start = True
         fl2.close()
         fl.close()
+        treestrings.append(treestring)
         tree = tree_reader.read_tree_string(treestring)
         for i in tree.leaves():
             taxalist.add(i.label)
-    general_tm_utils.extract_taxonomy_from_ids(javapre,treemloc,dload,",".join(taxalist),"t")
-    cpcmd = cpcmd + " > mls.trees"
-    print cpcmd
-    call(cpcmd, shell=True)
+    general_tm_utils.extract_taxonomy_from_ids(javapre,treemloc,dload,",".join(taxalist),taxtreefile)
+    outfile = open(mlsout,"w")
+    outfile.write("#NEXUS\n")
+    outfile.write("BEGIN TAXA;\n\tDIMENSIONS NTAX=");
+    ttf = open(taxtreefile,"r")
+    taxstring = ttf.readline()
+    tree = tree_reader.read_tree_string(taxstring);
+    taxs = []
+    for i in tree.iternodes():
+        taxs.append(i.label)
+    ttf.close()
+    outfile.write(str(len(taxs))+";\n\ttaxlabels\n")
+    for i in taxs:
+        outfile.write(i+"\n")
+    outfile.write(";\nend;\n\nBEGIN TREES;\n\tproperties partialtrees=yes;\n")
+    count = 0
+    for i in treestrings:
+        outfile.write("\ttree "+studytreelist[count]+" = [&R] "+i+"\n")
+    outfile.write("\ttree taxonomy = [&R] "+taxstring+"\nend;\n")
+    outfile.close()
