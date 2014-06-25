@@ -2,11 +2,10 @@ import general_tm_utils
 import tree_reader
 
 """
-commands
-java -jar /home/josephwb/Work/OToL/treemachine/target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar taxtree UID OUTFILE /home/josephwb/Work/OToL/treemachine/Synthesis/Life.2.8draft5.db
-this file
-ANALYSIS
-java -jar /home/josephwb/Work/OToL/treemachine/target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar labeltipsottol TREEFILE /home/josephwb/Work/OToL/treemachine/Synthesis/Life.2.8draft5.db > TREEFILEOUT
+sequence of commands:
+1) run this file: python load_mls_JWB.py
+2) perform MLS ANALYSIS: run.sh <aname>_mls.NEX
+3) convert OTTIDs back to names: java -jar /home/josephwb/Work/OToL/treemachine/target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar labeltipsottol TREEFILE /home/josephwb/Work/OToL/treemachine/Synthesis/Life.2.8draft5.db > TREEFILEOUT
 """
 
 #from goo import studytreelist as goolist
