@@ -8,6 +8,8 @@ sequence of commands:
 3) convert OTTIDs back to names: java -jar /home/josephwb/Work/OToL/treemachine/target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar labeltipsottol TREEFILE /home/josephwb/Work/OToL/treemachine/Synthesis/Life.2.8draft5.db > TREEFILEOUT
 """
 
+sys.path.insert(0, 'files_for_submission_v2.0')
+
 #from goo import studytreelist as goolist
 #from mammals import studytreelist as mammalslist
 #from birds import studytreelist as birdslist
