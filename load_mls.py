@@ -1,5 +1,6 @@
 import general_tm_utils
 import tree_reader
+import sys
 
 """
 commands
@@ -8,13 +9,12 @@ this file
 ANALYSIS
 java -jar /home/smitty/Dropbox/programming/eclipse/opentree-treemachine/target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar labeltipsottol TREEFILE ~/apps/neo4j-community-1.9.7/data/gol.ott_2_8_5.db_just_ott > TREEFILEOUT
 """
-    
-studytreelist = [
-               "pg_259_142", #Cercis FABALES!
-               "pg_264_150" #Coursetia FABALES!
-         
-]
 
+"""
+this is how you load from another folder
+"""
+sys.path.insert(0, 'files_for_submission_v2.0/MLS_MPR_files')
+from rosids import studytreelist
 
 taxtreefile = "tax.tree"
 mlsout = "mls.test"
