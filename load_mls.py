@@ -69,5 +69,6 @@ if __name__ == "__main__":
     count = 0
     for i in treestrings:
         outfile.write("\ttree "+studytreelist[count]+" = [&R] "+i+"\n")
+        count += 1
     outfile.write("\ttree taxonomy = [&R] "+taxstring+"\nend;\n")
     outfile.close()
