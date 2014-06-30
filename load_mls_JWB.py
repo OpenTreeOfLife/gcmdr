@@ -40,7 +40,8 @@ tgenerallogfileloc = "/home/josephwb/TEMP/"
 
 if __name__ == "__main__":
     from wopr_conf import *
-    download = True
+    print "Processing studies: ", studytreelist
+    download = False
     if download:
         general_tm_utils.get_all_studies_opentreeapi(studytreelist,studyloc)
     taxalist = set()
@@ -87,5 +88,6 @@ if __name__ == "__main__":
     count = 0
     for i in treestrings:
         outfile.write("\ttree "+studytreelist[count]+" = [&R] "+i+"\n")
+        count += 1
     outfile.write("\ttree taxonomy = [&R] "+taxstring+"\nend;\n")
     outfile.close()

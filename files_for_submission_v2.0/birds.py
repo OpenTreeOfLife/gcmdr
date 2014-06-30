@@ -6,6 +6,7 @@ Note: studies are (for the most part) ordered from shallow to deep clades.
 
 studytreelist=[
      ## Birds
+               "pg_2924_6755", # Emberizinae. Klicka et al. 2014. MPE
                "pg_2876_6670", # Tinamidae. Bertelli, Sara, Ana Luz Porzecanski
                "pg_2875_6668", # Oriolidae. Jonsson et al. 2010. Ecography
                "pg_2874_6667", # Carpodacus. Tietze et al. 2013. Zool. J. Linn. Soc.

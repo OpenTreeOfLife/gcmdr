@@ -4,6 +4,8 @@ this is the stuff specific to the studies that are loaded. It can include commen
 
 from wopr_conf import *
 
+sys.path.insert(0, 'files_for_submission_v2.0')
+
 ## for testing synthesis:
 #from goo import studytreelist as goolist
 #from mammals import studytreelist as mammalslist
