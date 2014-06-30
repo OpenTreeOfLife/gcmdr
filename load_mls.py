@@ -13,8 +13,9 @@ java -jar /home/smitty/Dropbox/programming/eclipse/opentree-treemachine/target/t
 """
 this is how you load from another folder
 """
-sys.path.insert(0, 'files_for_submission_v2.0/MLS_MPR_files')
-from asterids import studytreelist
+sys.path.insert(0, 'files_for_submission_v2.0')
+#from asterids import studytreelist
+from mammals import studytreelist
 
 taxtreefile = "tax.tree"
 mlsout = "mls.test"
@@ -47,6 +48,7 @@ if __name__ == "__main__":
                 start = True
         fl2.close()
         fl.close()
+        print treestring
         treestrings.append(treestring)
         tree = tree_reader.read_tree_string(treestring)
         for i in tree.leaves():
@@ -69,5 +71,6 @@ if __name__ == "__main__":
     count = 0
     for i in treestrings:
         outfile.write("\ttree "+studytreelist[count]+" = [&R] "+i+"\n")
+        count += 1
     outfile.write("\ttree taxonomy = [&R] "+taxstring+"\nend;\n")
     outfile.close()
