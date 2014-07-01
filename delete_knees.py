@@ -16,6 +16,7 @@ if __name__ == "__main__":
             parent = i
             while parent != tree:
                 if len(parent.children) == 1:
+                    found = True
                     pp = parent.parent
                     ch = parent.children[0]
                     pp.remove_child(parent)
