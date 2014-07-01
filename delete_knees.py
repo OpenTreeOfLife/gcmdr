@@ -1,14 +1,7 @@
 import sys
 import tree_reader
 
-if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print "python "+sys.argv[0]+" infile.tre outfile.tre"
-        sys.exit()
-    infile = open(sys.argv[1],"r")
-    outfile = open(sys.argv[2],"w")
-    tree = tree_reader.read_tree_string(infile.readline())
-    
+def del_knees(tree):
     going = True
     while going == True:
         found = False
@@ -29,7 +22,17 @@ if __name__ == "__main__":
         if found == False:
             going = False
             break
+    return tree
 
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print "python "+sys.argv[0]+" infile.tre outfile.tre"
+        sys.exit()
+    infile = open(sys.argv[1],"r")
+    outfile = open(sys.argv[2],"w")
+    tree = tree_reader.read_tree_string(infile.readline())
     infile.close()
+
+    tree = del_knees(tree)
     outfile.write(tree.get_newick_repr()+";")
     outfile.close()
