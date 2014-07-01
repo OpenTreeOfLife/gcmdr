@@ -3,7 +3,7 @@ These shouldn't really ever change, except possibly the taxonomy.
 """
 
 #location of studies
-studyloc="/home/josephwb/Work/OToL/phylesystem"
+studyloc="/home/josephwb/Work/OToL/OT-nexsons"
 
 #base directory
 bdir="/home/josephwb/Work/OToL/treemachine/Synthesis/"
