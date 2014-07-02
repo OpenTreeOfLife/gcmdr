@@ -6,7 +6,8 @@ import sys
 sequence of commands:
 1) run this file: python load_mls_JWB.py
 2) perform MLS ANALYSIS: run.sh <aname>_mls.NEX
-3) convert OTTIDs back to names: java -jar /home/josephwb/Work/OToL/treemachine/target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar labeltipsottol TREEFILE /home/josephwb/Work/OToL/treemachine/Synthesis/Life.2.8draft5.db > TREEFILEOUT
+3) run this file: python mls_posttree_fix.py <in treename> <out treename>
+4) convert OTTIDs back to names: java -jar /home/josephwb/Work/OToL/treemachine/target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar labeltipsottol TREEFILE /home/josephwb/Work/OToL/treemachine/Synthesis/Life.2.8draft5.db > TREEFILEOUT
 """
 
 sys.path.insert(0, 'files_for_submission_v2.0')
@@ -66,6 +67,7 @@ if __name__ == "__main__":
                 start = True
         fl2.close()
         fl.close()
+        print treestring
         treestrings.append(treestring)
         tree = tree_reader.read_tree_string(treestring)
         for i in tree.leaves():
