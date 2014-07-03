@@ -148,7 +148,7 @@ def load_one_study_inf_mono(studyloc,study_treeid,javapre,treemloc,dload,outfile
     print "root name:"+tree.label
     tf.close()
     mapcompat_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,outfile,True)
-    source_explorer_inf_mono(study_treeid,javapre,treemloc,dload,infmonofile,append)
+    source_explorer_inf_mono(study_treeid+"_"+sha,javapre,treemloc,dload,infmonofile,append)
     
 """
 this will map the compatible nodes to a study loaded
