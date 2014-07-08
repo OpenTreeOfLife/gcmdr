@@ -55,5 +55,11 @@ studytreelist=[
 "pg_2928_6761", # Cymbellales. Nakov et al. 2014. Phycologia					## unrooted; tree needs better name; can't find publication
 "pg_2930_6768", # Bacillariophyta. Theriot et al. 2010. Plant Ecology and Evolution
 "pg_2931_6769", # Souffreau et al. 2011 Molecular phylogenetics and Evolution
+"ot_12", # Ciliophora. Fernandes et al. 2014 Journal of Eukaryotic Microbiology
+"pg_2927_6760", # Ciliophora. da Paiva et al. 2014. PLoS One.
+"ot_20", # Ciliophora. Zhao et al. 2014. Zoologica Scripta.
+"ot_26", # Oomycota. Cooke et al. 2000. Fungal Genetics and Biology.
+"ot_27", # Ooomycta. Mirabolfathy 2001.  Mycological Research
+"ot_32", # Oomycota. Voglmayr 2003. Molecular Ecology
 
 ]
