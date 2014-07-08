@@ -4,7 +4,7 @@ these are the studies that may go into the next round of synthesis
 
 studytreelist=[
 
-## Studies suggested by Chris Owen. Need to figure where/if these factor into synthesis
+## Studies from Chris Owen.
 "pg_2406_6389", # Squamata. Townsend et al. 2004. Syst. Biol.
 "pg_2408_6391", # Agaonidae. Weiblen. 2001. Syst. Biol.
 "pg_2409_6401", # Allohistium. Bossu and Near. 2009. Syst. Biol.
