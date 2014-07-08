@@ -58,7 +58,7 @@ studytreelist=[
 "pg_2924_6755", # Emberizinae. Klicka et al. 2014. MPE
 "pg_2926_6757", # Palaeognaths. Mitchell et al. 2014. Science
 "pg_2880_6676", # Stramenopiles. Brown and Sorhannus. 2010. PLoS ONE
-"ot_40_????", # Lepidoptera. Kawahara and Breinholt. 2014. Proc. Roy. Soc.
+"ot_41_1", # Lepidoptera. Kawahara and Breinholt. 2014. Proc. Roy. Soc.
 
 
 ## Bruyns trees
