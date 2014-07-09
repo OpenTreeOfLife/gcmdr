@@ -61,5 +61,14 @@ studytreelist=[
 "ot_26", # Oomycota. Cooke et al. 2000. Fungal Genetics and Biology.
 "ot_27", # Ooomycta. Mirabolfathy 2001.  Mycological Research
 "ot_32", # Oomycota. Voglmayr 2003. Molecular Ecology
+"ot_15", # Bacillariophyceae. Ashworth et al. 2013. J Phycol. 
+"ot_38", # Dinophyceae. Kremp et al. 2014 J Phycol.
+"ot_29", # Peronosporales. Riethmuuler et al. 2002. Mycologia.
+"ot_44", # Phytophthora. Yang et al. Fungal Biology.
+"ot_45", # Phytophthora. Nagel et al. Mycologia.
+"ot_61", # Apusozoa. Yabuki et al. Protist.
+"ot_65", # Ciliophora. Bourland et al.
+"ot_79", # Salinivibrio. Gorriti et al. 2014
+
 
 ]
