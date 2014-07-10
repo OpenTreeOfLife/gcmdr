@@ -44,6 +44,25 @@ studytreelist=[
 
 "pg_2543_5481", # Amniota	<- *** Can't get the publication ***
 
+##Barnacles
+"pg_2923_6751", # Perez-Losada et al. submitted
+"pg_2917_6745", # Perez-Losada et al. 2008. MPE
+"pg_2842_6603", # Perez-Losada et al. 2009. BMC Biology
+"pg_2916_6744", # Perez-Losada et al. 2012. Int. Comp. Biol.
+"pg_2918_6747", # Yusa et al. 2012. Proc. R. Soc. B.
+"pg_2922_6752", # Linse et al. 2013. Deep Sea R.
+"pg_2919_6748", # Wares et al. 2009 PLoS One
+"pg_2921_6749", # Hayashi et al. 2013. MPE.
+"ot_75_1", # Glenner et al. 2008. Israel Journal of Ecology and Evolution
+"ot_71_1", # Glenner et al. 2010. Experimental Parasitology
+"ot_74_1", # Glenner and Hebsgaard. 2006. MPE
+"ot_58_1", # Glenner et al. 2003. J. Crustacean Biol.
+
+##Crayfish
+"ot_76_1", # Shultz et al. 2008. MPE
+"ot_83_3", # Breinholdt et al. 2009. Chapter in Decapod Crustacean Phylogenetics 
+"ot_84_3", # Shull et al. 2005. MPE.
+
 
 ## New from Bryan
 "pg_2877_6671", # Campanulaceae; Lots of non-monophyly
