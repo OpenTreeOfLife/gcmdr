@@ -69,6 +69,7 @@ studytreelist=[
 "ot_61", # Apusozoa. Yabuki et al. Protist.
 "ot_65", # Ciliophora. Bourland et al.
 "ot_79", # Salinivibrio. Gorriti et al. 2014
-
+"pg_2776_6433", # Euglenida. Linton et al. 2010. Protist.
+"pg_2746_6348", # Desmarestiales. Yang et al. 2012. J Phycol.
 
 ]
