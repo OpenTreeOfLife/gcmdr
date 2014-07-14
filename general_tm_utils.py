@@ -10,7 +10,8 @@ from subprocess import Popen,PIPE
 from tree_reader import read_tree_string
 
 def get_study_opentreeapi(studyid, studyloc):
-    call = "http://ot10.opentreeoflife.org/api/v1/study/"+studyid
+    #call = "http://ot10.opentreeoflife.org/api/v1/study/"+studyid
+    call = "http://api.opentreeoflife.org/phylesystem/v1/study/" + studyid
     req = urllib2.Request(call)
     res = urllib2.urlopen(req)
     fl = open(studyloc+"/"+studyid,"w")
