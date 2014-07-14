@@ -51,7 +51,7 @@ studytreelist=[
 "pg_2916_6744", # Perez-Losada et al. 2012. Int. Comp. Biol.
 "pg_2918_6747", # Yusa et al. 2012. Proc. R. Soc. B.
 "pg_2922_6752", # Linse et al. 2013. Deep Sea R.
-"pg_2919_6748", # Wares et al. 2009 PLoS One
+"pg_2919_6749", # Wares et al. 2009 PLoS One
 "pg_2921_6749", # Hayashi et al. 2013. MPE.
 "ot_75_1", # Glenner et al. 2008. Israel Journal of Ecology and Evolution
 "ot_71_1", # Glenner et al. 2010. Experimental Parasitology
