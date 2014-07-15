@@ -71,5 +71,12 @@ studytreelist=[
 "ot_79", # Salinivibrio. Gorriti et al. 2014
 "pg_2776_6433", # Euglenida. Linton et al. 2010. Protist.
 "pg_2746_6348", # Desmarestiales. Yang et al. 2012. J Phycol.
+"ot_52", # Dinophyceae. Mertens et al. 2013. Journal of Eukaryotic Microbiology
+"ot_73", # Rhizaria. Sierra et al. 2013. MBE
+"ot_62", # Dinophyceae. Hoppenrath et al. Harmful Algae.
+"ot_64", # Dinphyceae. Murray et al. Harmful Algae.
+
+
+
 
 ]
