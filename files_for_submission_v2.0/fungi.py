@@ -66,7 +66,24 @@ studytreelist=["pg_335_360", #Magnaporthe
                "pg_447_5576",#Cryphonectriaceae
                "pg_448_5577",#Boletus
                "pg_449_570",#Sparassis
-               "pg_450_574"#Physalacriaceae
+               "pg_450_574",#Physalacriaceae
+               "pg_443_562",#Hypocreaceae
+               "pg_463_604",#Clavicipitaceae
+               "pg_470_615",#Lecania
+               "pg_471_617",#Alternaria
+               "pg_473_623",#Tilletia
+               "pg_474_627",#Laetiporus
+               "pg_475_5594",#Marasmiaceae
+               "pg_477_633",#Agaricus
+               "pg_479_636",#Flammulina
+               "pg_480_637",#Vibrisseaceae
+               "pg_481_644",#Neurospora
+               "pg_482_5595",#Talaromyces
+               "pg_483_647",#Neofusicoccum
+               "pg_485_651",#Clavicipitaceae
+               "pg_494_666"#Aspicilia
+
+
 
                #"pg_2818_6563", # Fungi. Hibbett 2007
                #"pg_240_123",   # Pezizomycotina

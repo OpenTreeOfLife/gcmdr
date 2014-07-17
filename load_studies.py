@@ -6,7 +6,7 @@ if __name__ == "__main__":
     
     synthottolid="93302"
     studytreelist = [
-#"pg_1989_4077", # Lilium ; might be non-monophyletic (Nomocharis aperta=Lilium apertum)
+"pg_1583_3194"
 ]
     print "loading synthottolid:",synthottolid
     print "loading studytreelist:",studytreelist

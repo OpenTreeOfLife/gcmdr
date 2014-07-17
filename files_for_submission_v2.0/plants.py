@@ -70,10 +70,9 @@ studytreelist=[
                "pg_721_1298",#Commelinaceae
                "pg_723_1300",#Triticum
                "pg_921_4103",#Oryzeae (Poaceae)
-               "pg_61_816"#Bromeliaceae
-               "pg_576_849", # Alocasia
+               "pg_61_816",#Bromeliaceae
                "pg_573_839", # Aponogeton
-               "pg_566_832" # Orchidantha
+               "pg_566_832", # Orchidantha
 
                
                ### asterids
@@ -149,7 +148,6 @@ studytreelist=[
                "pg_719_1296",#Nymphoides
                "pg_1975_4041",#Tragopogon
                "pg_1821_3678",#Helichrysum
-               "pg_1583_3194",#Gaillardia
                "pg_1581_3188",#Dubautia
                "pg_1575_3164",#Tolpis
                "pg_1573_3144",#Onoseris
@@ -238,7 +236,6 @@ studytreelist=[
                "pg_1867_3766", #cycads
                "pg_1278_2572",#Liverworts
                "pg_1268_2560",#hornworts
-               "pg_412_2166",#conifers
                "pg_787_1489", #   Ephedra
                "pg_2046_5928" #Trebouxiophyceae, Chlorophyta
                ]
@@ -254,10 +251,12 @@ if __name__ == "__main__":
     download = True
     if download:
         general_tm_utils.get_all_studies_opentreeapi(studytreelist,studyloc)
+    """
     for i in studytreelist:
         tstudy_list = [i]
         generallogfileloc = "/home/smitty/TEMP/"+i+".log"
         ttfntreefn = "/home/smitty/TEMP/"+i+".tre"
         load_synth_extract.run_load_single_ttfn(dott,dload,studyloc,tstudy_list,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,ttfntreefn)
-    #load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
+    """
+    load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
 
