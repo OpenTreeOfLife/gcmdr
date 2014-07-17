@@ -79,8 +79,15 @@ studytreelist=[
 "pg_2718_6315", #bacteria. Collins& Higgs 2012. MBE.
 "pg_2721_6305", #Lactobacillus. Quinn et al 2012. Molec Ecol.
 "pg_2681_6258", # Amoebozoa. Glockner et al. 2013. Bio. Rev.
-
-
+"pg_2558_5611", #Alexandrium. Orr et al. 2011. Harful Algae.
+"pg_2747_6349", # Undaria pinnatifida. Uwai et al. 2006.
+"pg_2743_6347", # Oxyrrhis marina. Lowe et al. 2010.
+"pg_2777_6434", # Dinoflagellata. Annenkova et al. 2011.
+"pg_2731_6428", # Archaea. Barns et al. 1996. PNAS
+"ot_78", # Alveolata. Tikhonenkov. 2014.
+"ot_85", # Volvocales. Li et al. 2014.
+"pg_2791_6477", # Bacteria. Kellner et al. 2008 Soil Bio & Biochem.
+"ot_42", # Bacillariophyta. Rampen et al. 2009. Geochimica et Cosmochimica Acta
 
 
 ]
