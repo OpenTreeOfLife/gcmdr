@@ -75,6 +75,10 @@ studytreelist=[
 "ot_73", # Rhizaria. Sierra et al. 2013. MBE
 "ot_62", # Dinophyceae. Hoppenrath et al. Harmful Algae.
 "ot_64", # Dinphyceae. Murray et al. Harmful Algae.
+"pg_2449_5224", #Rhizobiales. Zhang et al. PLoS One.
+"pg_2718_6315", #bacteria. Collins& Higgs 2012. MBE.
+"pg_2721_6305", #Lactobacillus. Quinn et al 2012. Molec Ecol.
+"pg_2681_6258", # Amoebozoa. Glockner et al. 2013. Bio. Rev.
 
 
 
