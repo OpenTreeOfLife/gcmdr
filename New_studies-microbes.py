@@ -55,14 +55,14 @@ studytreelist=[
 "pg_2928_6761", # Cymbellales. Nakov et al. 2014. Phycologia					## unrooted; tree needs better name; can't find publication
 "pg_2930_6768", # Bacillariophyta. Theriot et al. 2010. Plant Ecology and Evolution
 "pg_2931_6769", # Souffreau et al. 2011 Molecular phylogenetics and Evolution
-"ot_12", # Ciliophora. Fernandes et al. 2014 Journal of Eukaryotic Microbiology
+"ot_12_1", # Ciliophora. Fernandes et al. 2014 Journal of Eukaryotic Microbiology
 "pg_2927_6760", # Ciliophora. da Paiva et al. 2014. PLoS One.
-"ot_20", # Ciliophora. Zhao et al. 2014. Zoologica Scripta.
+"ot_20_1", # Ciliophora. Zhao et al. 2014. Zoologica Scripta.
 "ot_26", # Oomycota. Cooke et al. 2000. Fungal Genetics and Biology.
 "ot_27", # Ooomycta. Mirabolfathy 2001.  Mycological Research
 "ot_32", # Oomycota. Voglmayr 2003. Molecular Ecology
 "ot_15", # Bacillariophyceae. Ashworth et al. 2013. J Phycol. 
-"ot_38", # Dinophyceae. Kremp et al. 2014 J Phycol.
+"ot_38_1", # Dinophyceae. Kremp et al. 2014 J Phycol.
 "ot_29", # Peronosporales. Riethmuuler et al. 2002. Mycologia.
 "ot_44", # Phytophthora. Yang et al. Fungal Biology.
 "ot_45", # Phytophthora. Nagel et al. Mycologia.
@@ -72,7 +72,7 @@ studytreelist=[
 "pg_2776_6433", # Euglenida. Linton et al. 2010. Protist.
 "pg_2746_6348", # Desmarestiales. Yang et al. 2012. J Phycol.
 "ot_52", # Dinophyceae. Mertens et al. 2013. Journal of Eukaryotic Microbiology
-"ot_73", # Rhizaria. Sierra et al. 2013. MBE
+"ot_73_1", # Rhizaria. Sierra et al. 2013. MBE
 "ot_62", # Dinophyceae. Hoppenrath et al. Harmful Algae.
 "ot_64", # Dinphyceae. Murray et al. Harmful Algae.
 "pg_2449_5224", #Rhizobiales. Zhang et al. PLoS One.
@@ -89,5 +89,6 @@ studytreelist=[
 "pg_2791_6477", # Bacteria. Kellner et al. 2008 Soil Bio & Biochem.
 "ot_42", # Bacillariophyta. Rampen et al. 2009. Geochimica et Cosmochimica Acta
 "pg_308_258", #	Bacteria. Brochier and Philippe. 2002. Nature
+"pg_1385_2771", #Stramenopiles. Goertzen & Theriot. 2003. J. Phycol.
 
 ]
