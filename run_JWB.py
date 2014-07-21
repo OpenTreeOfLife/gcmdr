@@ -1,3 +1,5 @@
+import sys
+
 """
 this is the stuff specific to the studies that are loaded. It can include comments and all that. The studytreelist will be read from the load_synth_extract file. Other variables in the conf could be overridden here. 
 """
@@ -64,7 +66,9 @@ treefn=bdir+aname+"-synth.tre"
 download = True
 if download:
     import general_tm_utils
-    general_tm_utils.get_all_studies_opentreeapi(studytreelist,studyloc)  
+    general_tm_utils.get_all_studies_opentreeapi(studytreelist,studyloc)
+else:
+    print "Assuming all studies have already been downloaded to:", studyloc
 
 #load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,extractottolid)
 load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)

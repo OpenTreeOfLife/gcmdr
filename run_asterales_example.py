@@ -42,6 +42,8 @@ if __name__ == "__main__":
     download = True
     if download:
         get_all_studies_opentreeapi(studytreelist,studyloc)
+    else:
+        print "Assuming all studies have already been downloaded to:", studyloc
 
     load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
                  treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)

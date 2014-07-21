@@ -14,7 +14,7 @@ sys.path.insert(0, 'files_for_submission_v2.0')
 
 #from goo import studytreelist as goolist
 #from mammals import studytreelist as mammalslist
-#from birds import studytreelist as birdslist
+from birds import studytreelist as birdslist
 #from tetrapoda import studytreelist as tetrapodalist
 #from decapods import studytreelist as decapodlist
 #from plants import studytreelist as plantslist
@@ -22,11 +22,12 @@ sys.path.insert(0, 'files_for_submission_v2.0')
 #from fungi import studytreelist as fungilist
 #from microbes import studytreelist as microbelist
 
-studytreelist = ["pg_420_522", "pg_2015_4152"]
+#studytreelist = ["pg_420_522", "pg_2015_4152"]
+studytreelist = []
 
 #studytreelist.extend(goolist)
 #studytreelist.extend(mammalslist)
-#studytreelist.extend(birdslist)
+studytreelist.extend(birdslist)
 #studytreelist.extend(tetrapodalist)
 #studytreelist.extend(decapodlist)
 #studytreelist.extend(plantslist)
@@ -35,7 +36,7 @@ studytreelist = ["pg_420_522", "pg_2015_4152"]
 #studytreelist.extend(microbelist)
 
 taxtreefile = "tax.tree"
-aname = "Aves_contrived"
+aname = "Aves_7July2014"
 mlsout = aname + "_mls.NEX"
 tgenerallogfileloc = "/home/josephwb/TEMP/"
 

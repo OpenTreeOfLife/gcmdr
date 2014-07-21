@@ -6,6 +6,8 @@ Note: studies are (for the most part) ordered from shallow to deep clades.
 
 studytreelist=[
      ## Birds
+               "pg_1764_6299", # Pelicanidae. Kennedy et al. 2013. MPE
+               "pg_2924_6755", # Emberizinae. Klicka et al. 2014. MPE
                "pg_2876_6670", # Tinamidae. Bertelli, Sara, Ana Luz Porzecanski
                "pg_2875_6668", # Oriolidae. Jonsson et al. 2010. Ecography
                "pg_2874_6667", # Carpodacus. Tietze et al. 2013. Zool. J. Linn. Soc.
@@ -165,13 +167,19 @@ studytreelist=[
 studytreelistTF = [True] * len(studytreelist)
 
 if __name__ == "___main__":
-	import load_synth_extract
-	from stephen_desktop_conf import *
+    import load_synth_extract
+    from wopr_conf import *
+    #from stephen_desktop_conf import *
 
-	synthottolid="691846"
+    synthottolid="691846"
 
 	print "loading synthottolid:",synthottolid
 	print "loading studytreelist:",studytreelist
+	download = True
+    if download:
+        general_tm_utils.get_all_studies_opentreeapi(studytreelist,studyloc)
+    else:
+        print "Assuming all studies have already been downloaded to:", studyloc
 
 	load_synth_extract.run(dott,dload,studyloc,studytreelist,javapre,
 				 treemloc,generallogfileloc,dsynth,synthottolid,treefn,studytreelistTF)
