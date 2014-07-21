@@ -16,7 +16,6 @@ studytreelist=[
                "pg_1131_2265", #Saxifragaceae
                "pg_2608_6288", #saxifrigales
                "pg_2539_6294",#Soltis et al. 2011 ML tree
-               "pg_2820_6566",#Streptophyta
                "pg_2645_6165",#Menispermaceae
                "pg_2644_6164",#Ranunculales
                "pg_2642_6161",#Cayophyllales; not sure if you have a better study here)
@@ -171,7 +170,7 @@ studytreelist=[
                "pg_139_5860",#Nierembergia
                "pg_126_2233",#Solanum
                "pg_136_5857",#cestrum               
-               "pg_09_1",#Campanulidae
+               "pg_1944_3959",#Campanulidae
                "pg_2828_6578",#caprifolieae Smith 2009 NEW
                "pg_142_38",#Asclepias
                "pg_21_37",#Solanaceae
@@ -202,6 +201,7 @@ studytreelist=[
                "pg_283_184",#Celastrales
                
                ##deep plants
+               "pg_2820_6566",#Streptophyta
                "pg_1483_2983", # Dioon
                "pg_1478_2974", # 3 genera from Polypodiaceae
                "pg_1474_2969", # Brown Algae; "dark" part of tree
