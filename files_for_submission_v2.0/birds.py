@@ -6,6 +6,7 @@ Note: studies are (for the most part) ordered from shallow to deep clades.
 
 studytreelist=[
      ## Birds
+               "pg_1764_6299", # Pelicanidae. Kennedy et al. 2013. MPE
                "pg_2924_6755", # Emberizinae. Klicka et al. 2014. MPE
                "pg_2876_6670", # Tinamidae. Bertelli, Sara, Ana Luz Porzecanski
                "pg_2875_6668", # Oriolidae. Jonsson et al. 2010. Ecography
@@ -46,7 +47,7 @@ studytreelist=[
                "pg_2454_5247", # Thamnophilus. Brumfield and Edwards. 2007. Evolution
                "pg_2692_6245", # Fringillidae. Zuccon et al. 2012. MPE
                "pg_2702_6274", # core Corvoidea. Aggerbeck et al. 2014. MPE *** mapping back to Passeroidea
-               "pg_2575_5974", # Passeriformes. Barker et al. 2013. Syst. Biol.
+#               "pg_2575_5974", # Passeriformes. Barker et al. 2013. Syst. Biol.
                "pg_2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
                "pg_420_522",   # Aves. Hackett et al. 2008. Science
             ]

@@ -78,6 +78,7 @@ studytreelist=[
 "pg_2926_6757", # Palaeognaths. Mitchell et al. 2014. Science
 "pg_2880_6676", # Stramenopiles. Brown and Sorhannus. 2010. PLoS ONE
 "ot_41_1", # Lepidoptera. Kawahara and Breinholt. 2014. Proc. Roy. Soc.
+"pg_1764_6299", # Pelicanidae. Kennedy et al. 2013. MPE
 
 
 ## Bruyns trees
