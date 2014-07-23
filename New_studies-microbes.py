@@ -7,6 +7,9 @@ studytreelist=[
 
 # Hi Dail!
 
+"pg_2398_5040", # Bacteria. Wu et al. 2009. Nature
+"pg_2397_5038"  # Life. Williams et al. 2012. Proc. Roy. Soc.
+
 "pg_2862_6766", # Scuticociliatia (Ciliates). Gao et al. 2014. MPE					
 "pg_2863_6767", # Oligohymenophorea (Ciliates). Gao et al. 2013. MPE			
 "pg_2739_6601", # blue-green algae (Cyanobacteria). Schirrmeister et al. BMC Evol. Biol. 2011.
