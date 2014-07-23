@@ -6,6 +6,7 @@ Note: studies are (for the most part) ordered from shallow to deep clades.
 
 studytreelist=[
      ## Birds
+               "pg_2926_6757", # Palaeognaths. Mitchell et al. 2014. Science
                "pg_1764_6299", # Pelicanidae. Kennedy et al. 2013. MPE
                "pg_2924_6755", # Emberizinae. Klicka et al. 2014. MPE
                "pg_2876_6670", # Tinamidae. Bertelli, Sara, Ana Luz Porzecanski
@@ -49,6 +50,7 @@ studytreelist=[
                "pg_2702_6274", # core Corvoidea. Aggerbeck et al. 2014. MPE *** mapping back to Passeroidea
                "pg_2575_5974", # Passeriformes. Barker et al. 2013. Syst. Biol.
                "pg_2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
+               "pg_2913_6742", # Himilayan songbirds. Price et al. 2014. Nature
                "pg_420_522",   # Aves. Hackett et al. 2008. Science
 
      ## Mammals
@@ -79,6 +81,7 @@ studytreelist=[
                "pg_2741_6645", # Catarrhini. Tarver et al. 2011. Proc. Roy. Soc. *** Lots of extinct taxa ***
 
      ## Fish - need to figure out best ordering with mapcompat
+               "ot_96_1",      # Cottoidea. Smith and Busby. 2014. MPE
                "pg_2589_6001", # Gobioidei. Agorreta et al. 2013. MPE
                "pg_2655_6181", # Cichlidae. Friedman et al. 2013. Proc. Roy. Soc.
                "pg_1997_6183", # Percidae. Near et al. 2011. Syst. Biol. *** not working for some reason...
@@ -148,8 +151,11 @@ studytreelist=[
                "pg_2068_6488", # Siboglinidae. Rouse et al. 2004. Science
                "pg_2092_4335", # Alopiinae. de Weerd and Gittenberger. 2005. Zool. J. Linn. Soc.
                "pg_2156_5953", # Dorvilleidae. Wiklund et al. 2009. Zootaxa
+               "ot_41_1",      # Lepidoptera. Kawahara and Breinholt. 2014. Proc. Roy. Soc.
 
      ## Other
+               "pg_2544_6482", # Hexactinellida. Dohrmann et al. 2008. Syst. Biol.
+               "pg_2696_6249", # Demospongiae. Hill et al. 2013. PLoS ONE
                "pg_2709_6290", # Demospongiae. Redmond et al. 2013. Int. Comp. Biol.
                "pg_2842_6603", # Thecostraca. Perez-Losada et al. 2009. BMC Biol.
                "pg_2708_6289", # Cnidaria. Kayal et al. 2013. BMC Evol. Biol.

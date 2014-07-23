@@ -6,6 +6,7 @@ Note: studies are (for the most part) ordered from shallow to deep clades.
 
 studytreelist=[
      ## Birds
+               "pg_2926_6757", # Palaeognaths. Mitchell et al. 2014. Science
                "pg_1764_6299", # Pelicanidae. Kennedy et al. 2013. MPE
                "pg_2924_6755", # Emberizinae. Klicka et al. 2014. MPE
                "pg_2876_6670", # Tinamidae. Bertelli, Sara, Ana Luz Porzecanski
@@ -49,6 +50,7 @@ studytreelist=[
                "pg_2702_6274", # core Corvoidea. Aggerbeck et al. 2014. MPE *** mapping back to Passeroidea
                "pg_2575_5974", # Passeriformes. Barker et al. 2013. Syst. Biol.
                "pg_2015_4152", # Passeriformes. Odeen et al. 2011. Evolution
+               "pg_2913_6742", # Himilayan songbirds. Price et al. 2014. Nature
                "pg_420_522",   # Aves. Hackett et al. 2008. Science
             ]
 
