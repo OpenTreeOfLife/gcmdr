@@ -6,6 +6,9 @@ Note: studies are (for the most part) ordered from shallow to deep clades.
 
 studytreelist=[
      ## Birds
+               "ot_102_1",     # Pheucticus. Pulgarin-R et al. 2013. MPE
+               "ot_101_1",     # Saltator. Chaves et al. 2013. J. Biogeo. *** Includes Saltatricula (Thraupini), while Saltator is Cardinalini
+               
                "pg_2926_6757", # Palaeognaths. Mitchell et al. 2014. Science
                "pg_1764_6299", # Pelicanidae. Kennedy et al. 2013. MPE
                "pg_2924_6755", # Emberizinae. Klicka et al. 2014. MPE
@@ -13,7 +16,7 @@ studytreelist=[
                "pg_2875_6668", # Oriolidae. Jonsson et al. 2010. Ecography
                "pg_2874_6667", # Carpodacus. Tietze et al. 2013. Zool. J. Linn. Soc.
                "pg_2873_6666", # Certhia. Tietze et al. 2006. Ibis
-               "pg_2332_4912", # Sylviidae. Voelker and Light. 2011. BMC Evol. Biol. *** Pseudoalcippe should be in the family Silviidae rather than Timaliidae
+               "pg_2332_4912", # Sylviidae. Voelker and Light. 2011. BMC Evol. Biol. *** Pseudoalcippe should be in Silviidae rather than Timaliidae
                "pg_1854_3743", # Troglodytinae. Mann et al. 2006. MPE
                "pg_1586_3208", # Timaliidae. Moyle et al. 2012. Syst. Biol.
                "pg_2858_6642", # Turdidae. Nylander et al. 2008. Syst. Biol.
