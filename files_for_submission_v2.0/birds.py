@@ -6,6 +6,7 @@ Note: studies are (for the most part) ordered from shallow to deep clades.
 
 studytreelist=[
      ## Birds
+               "ot_104_1",     # Gavia. Boertmann. 1990. Steenstrupia
                "ot_103_4",     # Acrocephalinae. Arbabi et al. 2014. MPE
                "ot_102_1",     # Pheucticus. Pulgarin-R et al. 2013. MPE
                "ot_101_1",     # Saltator. Chaves et al. 2013. J. Biogeo. *** Includes Saltatricula (Thraupini), while Saltator is Cardinalini
