@@ -80,7 +80,6 @@ studytreelist=[
 
 
 ## Decent, but not necessarily for synthesis
-"pg_2890_6701", # Formicariidae. Rice. 2005. Auk
 "pg_2913_6741", # Aves. Price et al. 2014. Nature
 "pg_2929_6765", # Synallaxis. Claramunt. 2014. MPE
 "pg_2419_6023", # Aves. Thuiller et al. 2011. Nature
