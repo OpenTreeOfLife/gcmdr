@@ -91,15 +91,11 @@ studytreelist=[
 ## For synthesis
 "pg_2544_6482", # Hexactinellida. Dohrmann et al. 2008. Syst. Biol.
 "pg_2696_6249", # Demospongiae. Hill et al. 2013. PLoS ONE *** put ahead of 2709_6290
-"pg_2913_6742", # Himilayan songbirds. Price et al. 2014. Nature
-"pg_2924_6755", # Emberizinae. Klicka et al. 2014. MPE
 "pg_2926_6757", # Palaeognaths. Mitchell et al. 2014. Science
 "pg_2880_6676", # Stramenopiles. Brown and Sorhannus. 2010. PLoS ONE
 "ot_41_1",      # Lepidoptera. Kawahara and Breinholt. 2014. Proc. Roy. Soc.
-"pg_1764_6299", # Pelicanidae. Kennedy et al. 2013. MPE
 "ot_96_1",      # Cottoidea. Smith and Busby. 2014. MPE
-"ot_102_1",     # Pheucticus. Pulgarin-R et al. 2013. MPE
-"ot_101_1",     # Saltator. Chaves et al. 2013. J. Biogeo. *** Includes Saltatricula (Thraupini), while Saltator is Cardinalini
+
 
 
 
