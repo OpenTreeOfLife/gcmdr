@@ -60,6 +60,10 @@ studytreelist=[
 "ot_74_1",      # Rhizocephala. Glenner and Hebsgaard. 2006. MPE
 "ot_98_1",      # Sacculinidae. Glenner et al. 2003. J. Crustacean Biol. # replacement of ot_58, which was corrupted
 
+## From CO
+"ot_99_1",      # Brachyura (freshwater crabs). Tsang et al. 2014 MBE
+"ot_100_2",     # Palinuridae (Spiny lobster). Tsang et al. 2009 MPE
+
 ## Crayfish
 "ot_76_1",      # Shultz et al. 2008. MPE
 "ot_83_3",      # Breinholdt et al. 2009. Chapter in Decapod Crustacean Phylogenetics 
