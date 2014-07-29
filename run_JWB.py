@@ -37,7 +37,7 @@ import load_synth_extract
 
 # 805080 = life; 691846 = Metazoa; 81461 = Aves; 244265 = Mammalia;
 # 229562 = Tetrapoda; Amniota = 229560; Archosauria = 335588; 304358 = Eukaryota; Decapoda = 169205;
-# 93302 = cellular organisms;
+# 93302 = cellular organisms; 996421 = Archaea; 225495 = cyanobacteria
 
 synthottolid = "93302"
 #extractottolid = "691846"

@@ -80,23 +80,23 @@ studytreelist=[
 
 
 ## Decent, but not necessarily for synthesis
-"pg_2913_6741", # Aves. Price et al. 2014. Nature
 "pg_2929_6765", # Synallaxis. Claramunt. 2014. MPE
 "pg_2419_6023", # Aves. Thuiller et al. 2011. Nature
 "pg_2814_6551", # Pancrustacea. Rota-Stabelli et al. 2013. Syst. Biol.
 "pg_2813_6550", # Panarthropoda. Rota-Stabelli et al. 2011. Proc. Roy. Soc.
+"ot_109_1",     # Mammalia. Boussau et al. 2013. Genome Res.
 
 
 ## For synthesis
-"pg_2544_6482", # Hexactinellida. Dohrmann et al. 2008. Syst. Biol.
-"pg_2696_6249", # Demospongiae. Hill et al. 2013. PLoS ONE *** put ahead of 2709_6290
-"pg_2926_6757", # Palaeognaths. Mitchell et al. 2014. Science
+"pg_2544_6482", # Hexactinellida. Dohrmann et al. 2008. Syst. Biol.			<- added
+"pg_2696_6249", # Demospongiae. Hill et al. 2013. PLoS ONE *** put ahead of 2709_6290	<- added
+"pg_2926_6757", # Palaeognaths. Mitchell et al. 2014. Science				<- added
 "pg_2880_6676", # Stramenopiles. Brown and Sorhannus. 2010. PLoS ONE
-"ot_41_1",      # Lepidoptera. Kawahara and Breinholt. 2014. Proc. Roy. Soc.
-"ot_96_1",      # Cottoidea. Smith and Busby. 2014. MPE
-
-
-
+"ot_41_1",      # Lepidoptera. Kawahara and Breinholt. 2014. Proc. Roy. Soc.		<- added
+"ot_96_1",      # Cottoidea. Smith and Busby. 2014. MPE					<- added
+"pg_2913_6741", # Aves. Price et al. 2014. Nature					<- added
+"ot_110_1",     # Oenanthe. Schweizer and Shirihai. 2013. MPE
+"ot_111_1",     # Passeriformes. Alstrom et al. 2014. Biol. Lett.
 
 
 
