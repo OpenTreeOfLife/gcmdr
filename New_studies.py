@@ -103,5 +103,6 @@ studytreelist=[
 "ot_116_1",     # Strigiformes. Hugall and Stuart-Fox. 2012. Nature
 "pg_2913_6741", # Himilayan non-passerines. Price et al. 2014. Nature
 "ot_116_2",     # Caprimulgiformes. Hugall and Stuart-Fox. 2012. Nature
+"ot_118_1",     # Megapodidae. Harris et al. 2014. J. Biogeo.				<- added
 
 ]
