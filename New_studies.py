@@ -85,6 +85,7 @@ studytreelist=[
 "pg_2814_6551", # Pancrustacea. Rota-Stabelli et al. 2013. Syst. Biol.
 "pg_2813_6550", # Panarthropoda. Rota-Stabelli et al. 2011. Proc. Roy. Soc.
 "ot_109_1",     # Mammalia. Boussau et al. 2013. Genome Res.
+"ot_117_1",     # Neoaves. Brown et al. 2007. Biol. Lett.
 
 
 ## For synthesis
@@ -97,7 +98,10 @@ studytreelist=[
 "pg_2913_6741", # Aves. Price et al. 2014. Nature					<- added
 "ot_110_1",     # Oenanthe. Schweizer and Shirihai. 2013. MPE
 "ot_111_1",     # Passeriformes. Alstrom et al. 2014. Biol. Lett.
-
-
+"ot_112_1",     # Apodidae. Packert et al. 2012. MPE
+"ot_113_1",     # Hawaiian honeycreepers (Drepanidinae). Lerner et al. 2011. Curr. Biol.
+"ot_116_1",     # Strigiformes. Hugall and Stuart-Fox. 2012. Nature
+"pg_2913_6741", # Himilayan non-passerines. Price et al. 2014. Nature
+"ot_116_2",     # Caprimulgiformes. Hugall and Stuart-Fox. 2012. Nature
 
 ]
