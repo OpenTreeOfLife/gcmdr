@@ -104,5 +104,10 @@ studytreelist=[
 "pg_2913_6741", # Himilayan non-passerines. Price et al. 2014. Nature
 "ot_116_2",     # Caprimulgiformes. Hugall and Stuart-Fox. 2012. Nature
 "ot_118_1",     # Megapodidae. Harris et al. 2014. J. Biogeo.				<- added
+"ot_119_1",     # Cracidae. Pereira et al. 2002. Syst. Biol.				<- added
+"ot_120_1",     # Curassows. Pereira and Baker. 2004. Auk
+"ot_121_1",     # Cuculiformes. Payne. 2005. Book					<- added
+"ot_121_2",     # Couinae. Payne. 2005. Book						<- added
+
 
 ]
