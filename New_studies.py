@@ -86,7 +86,7 @@ studytreelist=[
 "pg_2813_6550", # Panarthropoda. Rota-Stabelli et al. 2011. Proc. Roy. Soc.
 "ot_109_1",     # Mammalia. Boussau et al. 2013. Genome Res.
 "ot_117_1",     # Neoaves. Brown et al. 2007. Biol. Lett.
-
+"ot_116_2",     # Caprimulgiformes. Hugall and Stuart-Fox. 2012. Nature *** not good
 
 ## For synthesis
 "pg_2544_6482", # Hexactinellida. Dohrmann et al. 2008. Syst. Biol.			<- added
@@ -102,12 +102,17 @@ studytreelist=[
 "ot_113_1",     # Hawaiian honeycreepers (Drepanidinae). Lerner et al. 2011. Curr. Biol.
 "ot_116_1",     # Strigiformes. Hugall and Stuart-Fox. 2012. Nature
 "pg_2913_6741", # Himilayan non-passerines. Price et al. 2014. Nature
-"ot_116_2",     # Caprimulgiformes. Hugall and Stuart-Fox. 2012. Nature
 "ot_118_1",     # Megapodidae. Harris et al. 2014. J. Biogeo.				<- added
 "ot_119_1",     # Cracidae. Pereira et al. 2002. Syst. Biol.				<- added
 "ot_120_1",     # Curassows. Pereira and Baker. 2004. Auk
 "ot_121_1",     # Cuculiformes. Payne. 2005. Book					<- added
 "ot_121_2",     # Couinae. Payne. 2005. Book						<- added
+"ot_122_1",     # Phoenicopteriformes. Torres et al. 2014. BMC Evol. Biol.		<- added
+"ot_123_1",     # Aegotheles. Dumbacher. 2003. MPE					<- added
+"ot_124_1",     # Otididae. Pitra et al. 2002. MPE					<- added
+"ot_125_1",     # Psophia. Ribas et al. 2011. Proc. Roy. Soc.				<- added
+"ot_126_1",     # Gruidae. Krajewski et al. 2010. Auk
+"ot_129_1",     # Musophagidae. Njabo and Sorenson. 2009. Ostrich			<- added
 
 
 ]
