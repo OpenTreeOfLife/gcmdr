@@ -203,69 +203,6 @@ studytreelist=[
                "pg_2711_6295", # Henophidia. Reynolds et al. 2014. MPE *** check this doesn't break the Pyron study
                "pg_2460_5285", # Squamata. Pyron et al. 2013. BMC Evol. Biol. -- Anolis nonmonophyly
 
-     ## Decapoda
-               "pg_1252_2661", # maps to: Anomura
-               "pg_1336_2660", # maps to: Brachyura
-               "pg_1948_6513", # maps to: Anomura
-               "pg_1796_6514", # maps to: Typhlatya
-               "pg_2243_6515", # maps to: Paramunida
-               "pg_2670_6214", # maps to: Atyidae
-               "pg_2671_6216", # maps to: Caridina
-               "pg_2673_6219", # maps to: Astacidea
-               "pg_2674_6220", # maps to: Cambaridae
-               "pg_2675_6221", # maps to: Cambaridae
-               "pg_2676_6222", # maps to: Scyllaridae
-               "pg_2677_6223", # maps to: Anomura
-               "pg_2682_6227", # maps to: Decapoda
-               "pg_2683_6228", # maps to: Dendrobranchiata
-               "pg_2807_6519", # maps to: Alpheidae
-               "pg_2808_6522", # maps to: Alpheoidea
-               "pg_2667_6211", # maps to: Galatheoidea
-
-     ## Insects and other crawley stuff
-               "pg_251_134",   # Formicidae. Moreau et al. 2006. Science
-               "pg_2405_6669", # Phyllodocidae. Eklof et al. 2007. MPE
-               "pg_2614_6121", # Nicrophorus. Sikes and Venables. 2013.
-               "pg_2628_6143", # Sarcophaga. Whitmore et al. 2013. Zool. J. Linn. Soc.
-               "pg_2838_6594", # Pleocyemata. Bracken-Grissom et al. 2014. Syst. Biol.
-               "pg_2357_6538", # Evaniscus. Mullins et al. 2012. ZooKeys <- 2 new species are not in OTT
-               "pg_2323_6537", # Bombyliidae. Lambkin and Bartlett. 2011. ZooKeys <- check sampling
-               "pg_1940_3943", # Drosophilidae. Van der Linde et al. 2010. Genet. Res.
-               "pg_2581_5987", # Membracidae. Cryan et al. 2004. Syst. Ent.
-               "pg_2087_4323", # Austrogoniodes. Banks and Paterson. 2004. Invert. Syst.
-               "pg_2811_6533", # Vespinae. Lopez-Osorio et al. 2014. MPE
-               "pg_1988_4074", # Mantodea. Svenson et al. 2009. CLadistics
-               "pg_2593_6247", # Dermaptera. Kocarek et al. 2013. PLoS ONE
-               "pg_1563_6170", # Hymenoptera. Sharkey et al. 2011. Cladistics
-               "pg_1849_3731", # Formicidae. Brady et al. 2006. PNAS
-               "pg_2664_6201", # Ditrysia. Regier et al. 2013. PLoS ONE *** prefer this over Cho et al. 2011
-               "pg_1776_3581", # Ditrysia. Cho et al. 2011. Syst. Biol.
-               "pg_1337_6167", # Holometabola (insect). Wiegmann et al. 2009. BMC Evol. Biol. *** mapping to Endopterygota
-               "pg_2629_6162", # Hexapoda. Letsch and Simon. 2013. Syst. Ent.
-               "pg_2604_6043", # Apoidea. Hedtke et al. 2013. BMC Evol. Biol.
-               "pg_437_6242",  # Diptera. Wiegmann et al. 2011. PNAS
-               "pg_2594_6014", # Diptera. Lambkin et al. 2013. Syst. Ent.
-               "pg_1338_2666", # Pterygota. Simon et al. 2009. MBE
-               "pg_2068_6488", # Siboglinidae. Rouse et al. 2004. Science
-               "pg_2092_4335", # Alopiinae. de Weerd and Gittenberger. 2005. Zool. J. Linn. Soc.
-               "pg_2156_5953", # Dorvilleidae. Wiklund et al. 2009. Zootaxa
-               "ot_41_1",      # Lepidoptera. Kawahara and Breinholt. 2014. Proc. Roy. Soc.
-
-     ## Other
-               "pg_2544_6482", # Hexactinellida. Dohrmann et al. 2008. Syst. Biol.
-               "pg_2696_6249", # Demospongiae. Hill et al. 2013. PLoS ONE
-               "pg_2709_6290", # Demospongiae. Redmond et al. 2013. Int. Comp. Biol.
-               "pg_2842_6603", # Thecostraca. Perez-Losada et al. 2009. BMC Biol.
-               "pg_2708_6289", # Cnidaria. Kayal et al. 2013. BMC Evol. Biol.
-               "pg_1343_6255", # Hexactinella. Dohrmann et al. 2009. MPE
-               "pg_1788_6534", # Siphonophora. Dunn et al. 2005. Syst. Biol.
-               "pg_1786_6257", # Hydrozoa. Cartwright et al. 2008. J. Marine Biol. Assoc. UK
-               "pg_2678_6224", # Echinodermata. Janies et al. 2011. Syst. Biol.
-               "pg_421_523",   # Mollusca. Smith et al. 2011. Nature
-               "pg_1366_6166", # Annelida. Struck et al. 2011. Nature *** mapping to Lophotrochozoa
-               "pg_1761_6151", # Scleractinia (corals). Huang nad Roy. 2013. Ecology and Evolution
-               "pg_2710_6291", # Metazoa. Ryan et al. 2013. Science *** need to choose best Metazoa tree(s) 
-
             ]
 
 studytreelistTF = [True] * len(studytreelist)
@@ -277,9 +214,9 @@ if __name__ == "___main__":
 
     synthottolid="691846"
 
-	print "loading synthottolid:",synthottolid
-	print "loading studytreelist:",studytreelist
-	download = True
+    print "loading synthottolid:",synthottolid
+    print "loading studytreelist:",studytreelist
+    download = True
     if download:
         general_tm_utils.get_all_studies_opentreeapi(studytreelist,studyloc)
     else:

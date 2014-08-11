@@ -113,6 +113,54 @@ studytreelist=[
 "ot_125_1",     # Psophia. Ribas et al. 2011. Proc. Roy. Soc.				<- added
 "ot_126_1",     # Gruidae. Krajewski et al. 2010. Auk
 "ot_129_1",     # Musophagidae. Njabo and Sorenson. 2009. Ostrich			<- added
+"ot_136_1",     # Jacanidae. Whittingham et al. 2000. Auk				<- added
+"ot_137_1",     # Sulidae. Patterson et al. 2011. MPE					<- added
+"ot_138_1",     # Ciconiidae. Slikas. 1997. MPE						<- added
+"ot_139_1",     # Threskiornithidae. Ramirez et al. 2013. Gen. Mol. Res.		<- added
+"ot_140_1",     # Phalacrocoracidae. Kenedy and Spencer. 2014. MPE			<- added
+"ot_142_1",     # Diomedeidae. Chambers et al. 2009. Notornis				<- added
+"ot_144_1",     # Alcidae. Pereira and Baker. 2008. MPE					<- added
+"ot_147_1",     # Trogonidae. Ornelas et al. 2009. J. Evol. Biol.			<- added
+"ot_148_1",     # Meropidae. Marks et al. 2007. MPE                                     <- added
+"ot_149_4",     # Todidae. Overton et al. 2004. MPE					<- added
+"ot_150_3",     # Megalaimidae. den Tex and Leonard. 2013. MPE				<- added
+"ot_151_1",     # Capito. Armenta et al. 2005. Condor					<- added
+"ot_152_1",     # Ramphastos. Patane et al. 2009. MPE					<- added
+"ot_153_1",     # Pteroglossus. Patel et al. 2011. MPE					<- added
+"ot_154_1",     # Andigena+Selenidera. Lutz et al. 2013. MPE				<- added
+"ot_155_1",     # Aulacorhynchus. Bonaccorso et al. 2011. Zool. Scripta			<- added
+"ot_156_1",     # barbets. Moyle. 2004. MPE
+"ot_157_1",     # Celeus. Benz and Robbins. 2011. MPE					<- added
+"ot_158_1",     # Colaptes. Moore et al. 2011. MPE					<- added
+"ot_159_1",     # Picidae. Benz et al. 2006. MPE					<- added
+"ot_160_1",     # Cacatuidae. White et al. 2011. MPE					<- added
+"ot_161_1",     # Amazona. Russello and Amato. 2004. MPE				<- added
+"ot_162_1",     # Prioniturus. Schweizer et al. 2012. J. Zool. Syst. Evol. Res.		<- added
+"ot_164_1",     # Brotogeris. Ribas et al. 2009. J. Biogeo.				<- added
+"ot_165_1",     # Forpus. Smith et al. 2012. Mol. Ecol.					<- added
+"ot_166_1",     # Androglossini. Quintero et al. 2012. Zool. Scripta			<- added
+"ot_167_1",     # Pyrrhura. Ribas et al. 2006. Auk					<- added
+"ot_170_1",     # Regulus. Packert et al. 2009. J. Ornith.				<- added
+"ot_171_1",     # Bombycillidae. Spellman et al. 2008. MPE				<- added
+"ot_172_1",     # Certhia. Packert et al. 2011. J. Biogeo.				<- added
+"ot_172_2",     # Pinicola+Pyrrhula. Packert et al. 2011. J. Biogeo.			<- added
+"ot_172_3",     # Aegithalos+Psaltriparus+Leptopoecile. Packert et al. 2011. J. Biogeo. <- added
+"ot_173_1",     # chickadees. Harris et al. 2014. Evolution				<- added
+"ot_174_1",     # Rhipidura. Nyari et al. 2009. Zool. Scripta				<- added
+"ot_175_1",     # Stenostiridae. Nguembock et al. 2008. Zool. Scripta			<- added
+"ot_176_1",     # Tachycineta. Cerasale et al. 2012. MPE				<- added
+"ot_177_1",     # Hirundo. Dor et al. 2010. MPE						<- added
+"ot_178_1",     # Hirundinidae. Sheldon et al. 2005. MPE				<- added
+
+
+"ot_169_1",     # Blue cardinalids. Bryson et al. 2014. J. Biogeo.
+
+"ot_168_1",     # Pteropus. Almeida et al. 2014. MPE					<- added
+
+
+"ot_146_1",     # Charadriiformes. Baker et al. 2007. Biol. Lett.
+
+
 
 
 ]
