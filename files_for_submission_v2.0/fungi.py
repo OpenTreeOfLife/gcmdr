@@ -28,7 +28,7 @@ studytreelist=["pg_335_360", #Magnaporthe
                "pg_348_381",#rhizopogon
                "pg_349_5539",#retiboletus
                "pg_353_5542",#aspergillus
-               "pg_355_400",#Leotiomyceta
+               #"pg_355_400",#Leotiomyceta
                "pg_358_406",#ceratocystis
                "pg_361_5551",#fusarium
                "pg_366_5552",#hypochnicium

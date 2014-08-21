@@ -10,7 +10,7 @@ studytreelist=[
                "pg_1858_3754", #  Euphorbia
                "pg_394_483", #   Cucumis
                "pg_2539_6294",#Soltis et al. 2011 ML tree
- 	       "pg_2820_6566",#Streptophyta
+               #"pg_2820_6566",#Streptophyta
                "pg_2712_6296", #Rosids
                "pg_2610_6117", #malpighiales tree, the best one we have right now, we think6
                "pg_650_1147",#Meliaceae, Sapindales

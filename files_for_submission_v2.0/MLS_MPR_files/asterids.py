@@ -11,8 +11,8 @@ studytreelist=[
                "pg_2032_5922",#Ruella
                "pg_1901_3877",#Lentibulariaceae
                "pg_713_1287", #Lamiales
-               "pg_2539_6294",#Soltis et al. 2011 ML tree
- 	       "pg_2820_6566",#Streptophyta
+               #"pg_2539_6294",#Soltis et al. 2011 ML tree
+               #"pg_2820_6566",#Streptophyta
                "pg_259_142", #Cercis FABALES!
                "pg_264_150", #Coursetia FABALES!
                "pg_267_161", #Ateleia (Swartzieae-Leguminosae) FABALES!
@@ -29,20 +29,20 @@ studytreelist=[
                "pg_596_901", #Genisteae (Leguminosae) FABALES!
                "pg_294_202", #Detarieae (Caesalpinioideae) FABALES!
                "pg_292_199", #(Diocleinae: Papilionoideae) FABALES!
-	       "pg_58_775", #Crotalarieae (Fabaceae) FABALES!
+               "pg_58_775", #Crotalarieae (Fabaceae) FABALES!
                "pg_548_798", #Vigna FABALES!
                "pg_2055_4234",  #Genistoid legumes FABALES!
-               "pg_2057_4240", #papilionoid FABALES!
-               "pg_2127_4426", #Papilionoideae; Vataireoid Clade FABALES!
-               "pg_594_890", #robinioid legumes FABALES!
-               "pg_261_145", #Caesalpinieae FABALES!
-               "pg_57_777", #Podalyrieae (Fabaceae) FABALES!
-               "pg_1087_2114", #phaseoloid FABALES!
-               "pg_1087_2115", #phaseoloid FABALES!
-               "pg_2690_6243", #Fabaceae FABALES!
-               "pg_2045_4213", #Acacia FABALES!
-               "pg_605_947", #Strophostyles (Fabaceae) FABALES!
-               "pg_271_5017", #Polygalaceae FABALES!
+               #"pg_2057_4240", #papilionoid FABALES!
+               #"pg_2127_4426", #Papilionoideae; Vataireoid Clade FABALES!
+               #"pg_594_890", #robinioid legumes FABALES!
+               #"pg_261_145", #Caesalpinieae FABALES!
+               #"pg_57_777", #Podalyrieae (Fabaceae) FABALES!
+               #"pg_1087_2114", #phaseoloid FABALES!
+               #"pg_1087_2115", #phaseoloid FABALES!
+               #"pg_2690_6243", #Fabaceae FABALES!
+               #"pg_2045_4213", #Acacia FABALES!
+               #"pg_605_947", #Strophostyles (Fabaceae) FABALES!
+               #"pg_271_5017", #Polygalaceae FABALES!
                "pg_2661_6198", #Ericales
                "pg_2052_4228",#Lundia
                "pg_1103_2178",#Bignonieae

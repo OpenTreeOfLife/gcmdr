@@ -34,5 +34,8 @@ if __name__ == "__main__":
     infile.close()
 
     tree = del_knees(tree)
+    if len(tree.children) == 1:
+        print "one child at root"
+        tree = tree.children[0]
     outfile.write(tree.get_newick_repr()+";")
     outfile.close()

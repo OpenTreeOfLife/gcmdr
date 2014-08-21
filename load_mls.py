@@ -4,10 +4,15 @@ import sys
 
 """
 commands
-java -jar target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar taxtree UID OUTFILE ~/apps/neo4j-community-1.9.7/data/gol.ott_2_8_5.db_just_ott
+#java -jar target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar taxtree UID OUTFILE ~/apps/neo4j-community-1.9.7/data/gol.ott_2_8_5.db_just_ott
 this file
 ANALYSIS
 java -jar /home/smitty/Dropbox/programming/eclipse/opentree-treemachine/target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar labeltipsottol TREEFILE ~/apps/neo4j-community-1.9.7/data/gol.ott_2_8_5.db_just_ott > TREEFILEOUT
+
+THEN for synthesis you do delete_knees.py infile outfile
+java -jar target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar pgloadindnew ~/apps/neo4j-community-1.9.7/data/life_loading.db ~/Downloads/MLS-1.0/mls_noknees.tre > test.out
+java -jar target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar synthesizedrafttreelist_ottid 1058517 /home/smitty/Downloads/MLS-1.0/mls_noknees.tre,taxonomy ~/apps/neo4j-community-1.9.7/data/life_synth.db > temp
+java -jar target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar extractdrafttree_ottid 1058517 test.tre ~/apps/neo4j-community-1.9.7/data/life_synth.db
 """
 
 """
@@ -15,7 +20,10 @@ this is how you load from another folder
 """
 sys.path.insert(0, 'files_for_submission_v2.0/MLS_MPR_files')
 #from asterids import studytreelist
-from ascomycota import studytreelist
+#from rosids import studytreelist
+#from fungi import studytreelist
+#from monocots import studytreelist
+from core_eudicots import studytreelist
 
 taxtreefile = "tax.tree"
 mlsout = "mls.test"
