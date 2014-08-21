@@ -39,39 +39,38 @@ studytreelist=[
 
 
                ### monocots
-               "pg_1414_2837", # Satyrium
-               "pg_1411_5110", # Galeandra
-               "pg_1409_2822", # 2 monophyletic orchid genera
-               "pg_1408_2821", # Hexalectris
-               "pg_1407_2818", # Pleione
-               "pg_1401_2812", # Dactylorhiza
-               "pg_1391_2795", # Dioscorea
-
-               "pg_1434_2876", # Puya
-               "pg_2633_6153", # Narcissus
-               "pg_1539_3088", # Carex
-               "pg_2634_6154",#galanthus
-               "pg_1022_1967",#Pontederiaceae
-               "pg_562_817", #Poales
-               "pg_588_878", #Asparagales
-               "pg_2048_4220", #  allium
-               "pg_1137_2295", #  Erythronium
-               "pg_62_2878", #  Lymania
-               "pg_2841_6597", #    Sparganium
-               "pg_2085_4317",#Araceae
-               "pg_180_794",#Araceae
-               "pg_576_849",#Alocasia (Araceae)
-               "pg_581_859",#Crocus (Iridaceae)
-               "pg_582_862",#Mermuellera (Poaceae)
-               "pg_598_926",#Poeae (Poaceae)
-               "pg_599_927",#Costaceae
-               "pg_603_940",#Maxillaria (orchidaceae)
-               "pg_721_1298",#Commelinaceae
-               "pg_723_1300",#Triticum
-               "pg_921_4103",#Oryzeae (Poaceae)
-               "pg_61_816",#Bromeliaceae
-               "pg_573_839", # Aponogeton
-               "pg_566_832", # Orchidantha
+               #"pg_1414_2837", # Satyrium
+               #"pg_1411_5110", # Galeandra
+               #"pg_1409_2822", # 2 monophyletic orchid genera
+               #"pg_1408_2821", # Hexalectris
+               #"pg_1407_2818", # Pleione
+               #"pg_1401_2812", # Dactylorhiza
+               #"pg_1391_2795", # Dioscorea
+               #"pg_1434_2876", # Puya
+               #"pg_2633_6153", # Narcissus
+               #"pg_1539_3088", # Carex
+               #"pg_2634_6154",#galanthus
+               #"pg_1022_1967",#Pontederiaceae
+               #"pg_562_817", #Poales
+               #"pg_588_878", #Asparagales
+               #"pg_2048_4220", #  allium
+               #"pg_1137_2295", #  Erythronium
+               #"pg_62_2878", #  Lymania
+               #"pg_2841_6597", #    Sparganium
+               #"pg_2085_4317",#Araceae
+               #"pg_180_794",#Araceae
+               #"pg_576_849",#Alocasia (Araceae)
+               #"pg_581_859",#Crocus (Iridaceae)
+               #"pg_582_862",#Mermuellera (Poaceae)
+               #"pg_598_926",#Poeae (Poaceae)
+               #"pg_599_927",#Costaceae
+               #"pg_603_940",#Maxillaria (orchidaceae)
+               #"pg_721_1298",#Commelinaceae
+               #"pg_723_1300",#Triticum
+               #"pg_921_4103",#Oryzeae (Poaceae)
+               #"pg_61_816",#Bromeliaceae
+               #"pg_573_839", # Aponogeton
+               #"pg_566_832", # Orchidantha
 
                
                ### asterids
@@ -96,36 +95,37 @@ studytreelist=[
                "pg_1901_3877",#Lentibulariaceae
                "pg_713_1287", #Lamiales
                "pg_2912_6740",	# Calliandra
-               "pg_259_142", #Cercis FABALES!
-               "pg_264_150", #Coursetia FABALES!
-               "pg_267_161", #Ateleia (Swartzieae-Leguminosae) FABALES!
-               "pg_2077_4291", #Podalyria (Fabaceae, Podalyrieae) FABALES!
-               "pg_293_201", #Mimosa FABALES!
-               "pg_197_784", #Phaseolus FABALES!
-               "pg_595_896", #Senna FABALES!
-               "pg_131_6236", #Trifolium FABALES!
-               "pg_2689_6241", #Lupinus FABALES!
-               "pg_597_906", #Machaerium (Leguminosae) FABALES!
-               "pg_2001_4100", #Astragalus FABALES!
-               "pg_606_5290", #Trifolieae and Vicieae FABALES!
-               "pg_270_159", #Indigofereae FABALES!
-               "pg_596_901", #Genisteae (Leguminosae) FABALES!
-               "pg_294_202", #Detarieae (Caesalpinioideae) FABALES!
-               "pg_292_199", #(Diocleinae: Papilionoideae) FABALES!
-               "pg_58_775", #Crotalarieae (Fabaceae) FABALES!
-               "pg_548_798", #Vigna FABALES!
-               "pg_2055_4234",  #Genistoid legumes FABALES!
-               "pg_2057_4240", #papilionoid FABALES!
-               "pg_2127_4426", #Papilionoideae; Vataireoid Clade FABALES!
-               "pg_594_890", #robinioid legumes FABALES!
-               "pg_261_145", #Caesalpinieae FABALES!
-               "pg_57_777", #Podalyrieae (Fabaceae) FABALES!
-               "pg_1087_2114", #phaseoloid FABALES!
-               "pg_1087_2115", #phaseoloid FABALES!
-               "pg_2690_6243", #Fabaceae FABALES!
-               "pg_2045_4213", #Acacia FABALES!
-               "pg_605_947", #Strophostyles (Fabaceae) FABALES!
-               "pg_271_5017", #Polygalaceae FABALES!
+               ##fabales MLS
+               #"pg_259_142", #Cercis FABALES!
+               #"pg_264_150", #Coursetia FABALES!
+               #"pg_267_161", #Ateleia (Swartzieae-Leguminosae) FABALES!
+               #"pg_2077_4291", #Podalyria (Fabaceae, Podalyrieae) FABALES!
+               #"pg_293_201", #Mimosa FABALES!
+               #"pg_197_784", #Phaseolus FABALES!
+               #"pg_595_896", #Senna FABALES!
+               #"pg_131_6236", #Trifolium FABALES!
+               #"pg_2689_6241", #Lupinus FABALES!
+               #"pg_597_906", #Machaerium (Leguminosae) FABALES!
+               #"pg_2001_4100", #Astragalus FABALES!
+               #"pg_606_5290", #Trifolieae and Vicieae FABALES!
+               #"pg_270_159", #Indigofereae FABALES!
+               #"pg_596_901", #Genisteae (Leguminosae) FABALES!
+               #"pg_294_202", #Detarieae (Caesalpinioideae) FABALES!
+               #"pg_292_199", #(Diocleinae: Papilionoideae) FABALES!
+               #"pg_58_775", #Crotalarieae (Fabaceae) FABALES!
+               #"pg_548_798", #Vigna FABALES!
+               #"pg_2055_4234",  #Genistoid legumes FABALES!
+               #"pg_2057_4240", #papilionoid FABALES!
+               #"pg_2127_4426", #Papilionoideae; Vataireoid Clade FABALES!
+               #"pg_594_890", #robinioid legumes FABALES!
+               #"pg_261_145", #Caesalpinieae FABALES!
+               #"pg_57_777", #Podalyrieae (Fabaceae) FABALES!
+               #"pg_1087_2114", #phaseoloid FABALES!
+               #"pg_1087_2115", #phaseoloid FABALES!
+               #"pg_2690_6243", #Fabaceae FABALES!
+               #"pg_2045_4213", #Acacia FABALES!
+               #"pg_605_947", #Strophostyles (Fabaceae) FABALES!
+               #"pg_271_5017", #Polygalaceae FABALES!
                "pg_2661_6198", #Ericales
                "pg_2052_4228",#Lundia
                "pg_1103_2178",#Bignonieae
