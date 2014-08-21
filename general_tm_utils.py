@@ -74,6 +74,26 @@ def load_nexson(studyloc,study_treeid,javapre,treemloc,dload,logfilename,append,
     pr = Popen(cmd,stdout=logfile).wait()
     logfile.close()
 
+"""
+this loads using the pgloadindnew function, the standard for 
+all our loading in opentree when you just have a newick file
+
+"""
+def load_newick(treeid,javapre,treemloc,dload,logfilename,append,test=False):
+    cmd = javapre.split(" ")
+    cmd.append(treemloc)
+    cmd.append("pgloadindnew")
+    cmd.append(dload)
+    cmd.append(treeid)
+    print "loading newick "+treeid+ " and saving log to "+logfilename
+    filemode = "w" #default is write
+    if append == True:
+        filemode = "a"
+    logfile = open(logfilename,filemode)
+    print " ".join(cmd)
+    pr = Popen(cmd,stdout=logfile).wait()
+    logfile.close()
+
 def load_taxonomy(treemloc,javapre,dott,taxonomy_filename,synonym_filename,version):
     cmd = javapre.split(" ")
     cmd.append(treemloc)
@@ -138,6 +158,27 @@ def load_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutf
 this will load the study and then export the source
 and then will process the tree and print out the information about 
 where it is mapped
+this will specifically do it when there is just a newick
+"""
+def load_one_study_newick(treeid,javapre,treemloc,dload,outfile,treeoutfile,append):
+    load_newick(treeid,javapre,treemloc,dload,outfile,append)
+    studyid = treeid
+    print studyid
+    source_explorer(treeid,javapre,treemloc,dload,treeoutfile,append)
+    #attempt to read the tree
+    tf = open(treeoutfile,"r")
+    ts = None
+    for i in tf:
+        ts = i
+    tree = read_tree_string(ts)
+    print "root name:"+tree.label
+    tf.close()
+    return treeid
+
+"""
+this will load the study and then export the source
+and then will process the tree and print out the information about 
+where it is mapped
 """
 def load_one_study_inf_mono(studyloc,study_treeid,javapre,treemloc,dload,outfile,treeoutfile,infmonofile,append):
     load_nexson(studyloc,study_treeid,javapre,treemloc,dload,outfile,append)
@@ -169,6 +210,25 @@ def mapcompat_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,tre
     logfile = open(outfile,filemode)
     pr = Popen(cmd,stdout=logfile).wait()
     logfile.close()
+
+"""
+this will map the compatible nodes to a study loaded
+this is specific for when the file is not a nexson but a newick
+"""
+def mapcompat_one_study_newick(treeid,javapre,treemloc,dload,outfile,treeoutfile,append):
+    cmd = javapre.split(" ")
+    cmd.append(treemloc)
+    cmd.append("mapcompat")
+    cmd.append(dload)
+    cmd.append(treeid)
+    print "mapping compatible nodes for " +treeid+" as loaded into "+dload
+    filemode = "w" #default is write
+    if append == True:
+        filemode = "a"
+    logfile = open(outfile,filemode)
+    pr = Popen(cmd,stdout=logfile).wait()
+    logfile.close()
+
 
 """
 this will map the compatible nodes to a study loaded

@@ -20,9 +20,8 @@ studytreelist=[
                "pg_2644_6164",#Ranunculales
                "pg_2642_6161",#Cayophyllales; not sure if you have a better study here)
                #"pg_84_1014",#Pereskia,Cactaceae
-               "pg_2140_4483",#Annonaceae
                "pg_2626_6142",#Amaranthaceae
-               "pg_30_2281",#Illicium
+               
                "pg_332_333", #    Polygonaceae
                "pg_2832_6586",#Sedum    
                "pg_1866_3765",#Thesium (Santalaceae)
@@ -33,9 +32,7 @@ studytreelist=[
                "pg_1974_4039",#Rheum
                "pg_2901_6721",#Thalictrum
                "pg_2906_6730",#Aquilegia                                
-               "pg_2165_4564", # Dryopteris
                "pg_1524_3046", # Rhipsalideae; 4 Cactus genera, all monophyletic...
-               "pg_1443_2917", # Peperomia
 
 
                ### monocots
@@ -201,6 +198,10 @@ studytreelist=[
                "pg_283_184",#Celastrales
                
                ##deep plants
+               "pg_30_2281",#Illicium
+               "pg_1443_2917", # Peperomia
+               "pg_2140_4483",#Annonaceae
+
                "pg_2820_6566",#Streptophyta
                "pg_1483_2983", # Dioon
                "pg_1478_2974", # 3 genera from Polypodiaceae
@@ -212,6 +213,7 @@ studytreelist=[
                "pg_1382_2763", # Antithamnion
                "pg_1318_2634", # Polypodiaceae (family)
                "pg_1312_2628", # Asplenium
+               "pg_2165_4564", # Dryopteris
 
                "pg_1518_6333", # Parmelina
                "pg_2898_6713",#Osmolindsaea

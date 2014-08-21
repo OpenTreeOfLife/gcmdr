@@ -4,13 +4,11 @@ this is the stuff specific to the plant studies that are loaded. It can include 
 import general_tm_utils
 import load_synth_extract
 
-
 studytreelist=[
                
                ### core eudicots
                "pg_2827_6577",#Ilex NEW
                "pg_761_1415", #   Drosera
-               "pg_77_5878", #  Anaxagorea
                "pg_754_1392", #   Ribes               
                "pg_330_325", #    Santalum
                "pg_1131_2265", #Saxifragaceae
@@ -20,23 +18,17 @@ studytreelist=[
                "pg_2644_6164",#Ranunculales
                "pg_2642_6161",#Cayophyllales; not sure if you have a better study here)
                #"pg_84_1014",#Pereskia,Cactaceae
-               "pg_2140_4483",#Annonaceae
                "pg_2626_6142",#Amaranthaceae
-               "pg_30_2281",#Illicium
                "pg_332_333", #    Polygonaceae
                "pg_2832_6586",#Sedum    
                "pg_1866_3765",#Thesium (Santalaceae)
-               "pg_59_5731",#Aristolochiaceae
                "pg_704_1266",#Molluginaceae
                "pg_2638_6157",#Santalales
                "pg_1974_4038",#PolygonaceaeS
                "pg_1974_4039",#Rheum
                "pg_2901_6721",#Thalictrum
                "pg_2906_6730",#Aquilegia                                
-               "pg_2165_4564", # Dryopteris
                "pg_1524_3046", # Rhipsalideae; 4 Cactus genera, all monophyletic...
-               "pg_1443_2917", # Peperomia
-
 
                ### monocots
                #"pg_1414_2837", # Satyrium
@@ -176,68 +168,76 @@ studytreelist=[
                "pg_21_37",#Solanaceae
                "pg_75_1743",#Apioideae
                "pg_41_1396",#Feddea
-               "pg_2044_4212",#Orobanchaceae
+               "pg_2044_4212"#Orobanchaceae
 
                ### rosids
-               "pg_1916_3902", #Brassicaceae
-               "pg_926_1825",#rosaceae
-               "pg_1133_5647", #Rosales
-               "pg_625_1016", #   Hoheria
-               "pg_1842_3724", #  Oxalis
-               "pg_288_5028", #   Croton
-               "pg_385_458", #    Begonia
-               "pg_1843_3725", #  Euphorbia
-               "pg_1858_3754", #  Euphorbia
-               "pg_394_483", #   Cucumis
-               "pg_52_463",# Cucumis
-               "pg_2712_6296", #Rosids
-               "pg_2610_6117", #malpighiales tree, the best one we have right now, we think6
-               "pg_650_1147",#Meliaceae, Sapindales
-               "pg_275_167",#Celastraceae
-               "pg_37_5871",#Rhus 
-               "pg_73_5787",#Passiflora
-               "pg_88_5848",#Erodium
-               "pg_72_801",#Malpighiaceae
-               "pg_283_184",#Celastrales
+               #"pg_1916_3902", #Brassicaceae
+               #"pg_926_1825",#rosaceae
+               #"pg_1133_5647", #Rosales
+               #"pg_625_1016", #   Hoheria
+               #"pg_1842_3724", #  Oxalis
+               #"pg_288_5028", #   Croton
+               #"pg_385_458", #    Begonia
+               #"pg_1843_3725", #  Euphorbia
+               #"pg_1858_3754", #  Euphorbia
+               #"pg_394_483", #   Cucumis
+               #"pg_52_463",# Cucumis
+               #"pg_2712_6296", #Rosids
+               #"pg_2610_6117", #malpighiales tree, the best one we have right now, we think6
+               #"pg_650_1147",#Meliaceae, Sapindales
+               #"pg_275_167",#Celastraceae
+               #"pg_37_5871",#Rhus 
+               #"pg_73_5787",#Passiflora
+               #"pg_88_5848",#Erodium
+               #"pg_72_801",#Malpighiaceae
+               #"pg_283_184",#Celastrales
                
                ##deep plants
-               "pg_2820_6566",#Streptophyta
-               "pg_1483_2983", # Dioon
-               "pg_1478_2974", # 3 genera from Polypodiaceae
-               "pg_1474_2969", # Brown Algae; "dark" part of tree
-               "pg_1473_2967", # Elaphoglossum
-               "pg_1453_2932", #Isoetes
-               "pg_1450_2926", # Huperzia
-               "pg_1384_2766", # Gracilaria
-               "pg_1382_2763", # Antithamnion
-               "pg_1318_2634", # Polypodiaceae (family)
-               "pg_1312_2628", # Asplenium
+               #"pg_30_2281",#Illicium
+               #"pg_2140_4483",#Annonaceae
+               #"pg_59_5731",#Aristolochiaceae
+               #"pg_1443_2917", # Peperomia
+               #"pg_77_5878", #  Anaxagorea
 
-               "pg_1518_6333", # Parmelina
-               "pg_2898_6713",#Osmolindsaea
-               "pg_2896_6709", # Selaginellaceae
-               "pg_1264_2544",#isoetes
-               "pg_56_5821", #  Tsuga
-               "pg_2648_6171",#Marchantiales
-               "pg_2564_5699",#Polystichum
-               "pg_81_5863",#Pinus
-               "pg_1996_4089", # Lomariopsis
-               "pg_1446_2921",#Hymenophyllum (Hymenophyllaceae)
-               "pg_2039_4198", # Hymenophyllum
-               "pg_2042_4202",#Bartramiaceae
-               "pg_1942_3962", # Azolla
-               "pg_1868_3767", # Marsilea
-               "pg_1567_3137", # Equisetum
-               "pg_244_3855",  # Gnetum, generic level. Won and Renner. 2006. Syst. Biol.
-               "pg_2879_6674", # Almost all Bryophyta genera. Cox et al. 2010. Phytotaxa
-               "pg_412_2166",  # Coniferophyta; 492 taxa; almost all genera monophyletic. Leslie et al. 2012. PNAS
+               #"pg_2820_6566",#Streptophyta
+               #"pg_1483_2983", # Dioon
+               #"pg_1478_2974", # 3 genera from Polypodiaceae
+               #"pg_1474_2969", # Brown Algae; #"dark" part of tree
+               #"pg_1473_2967", # Elaphoglossum
+               #"pg_1453_2932", #Isoetes
+               #"pg_1450_2926", # Huperzia
+               #"pg_1384_2766", # Gracilaria
+               #"pg_1382_2763", # Antithamnion
+               #"pg_1318_2634", # Polypodiaceae (family)
+               #"pg_1312_2628", # Asplenium
+               #"pg_2165_4564", # Dryopteris
 
-               "pg_225_5991",#deep plants
-               "pg_1867_3766", #cycads
-               "pg_1278_2572",#Liverworts
-               "pg_1268_2560",#hornworts
-               "pg_787_1489", #   Ephedra
-               "pg_2046_5928" #Trebouxiophyceae, Chlorophyta
+
+               #"pg_1518_6333", # Parmelina
+               #"pg_2898_6713",#Osmolindsaea
+               #"pg_2896_6709", # Selaginellaceae
+               #"pg_1264_2544",#isoetes
+               #"pg_56_5821", #  Tsuga
+               #"pg_2648_6171",#Marchantiales
+               #"pg_2564_5699",#Polystichum
+               #"pg_81_5863",#Pinus
+               #"pg_1996_4089", # Lomariopsis
+               #"pg_1446_2921",#Hymenophyllum (Hymenophyllaceae)
+               #"pg_2039_4198", # Hymenophyllum
+               #"pg_2042_4202",#Bartramiaceae
+               #"pg_1942_3962", # Azolla
+               #"pg_1868_3767", # Marsilea
+               #"pg_1567_3137", # Equisetum
+               #"pg_244_3855",  # Gnetum, generic level. Won and Renner. 2006. Syst. Biol.
+               #"pg_2879_6674", # Almost all Bryophyta genera. Cox et al. 2010. Phytotaxa
+               #"pg_412_2166",  # Coniferophyta; 492 taxa; almost all genera monophyletic. Leslie et al. 2012. PNAS
+
+               #"pg_225_5991",#deep plants
+               #"pg_1867_3766", #cycads
+               #"pg_1278_2572",#Liverworts
+               #"pg_1268_2560",#hornworts
+               #"pg_787_1489", #   Ephedra
+               #"pg_2046_5928" #Trebouxiophyceae, Chlorophyta
                ]
 studytreelistTF = [True] * len(studytreelist)
 

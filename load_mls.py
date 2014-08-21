@@ -19,11 +19,8 @@ java -jar target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar extractdra
 this is how you load from another folder
 """
 sys.path.insert(0, 'files_for_submission_v2.0/MLS_MPR_files')
-#from asterids import studytreelist
-#from rosids import studytreelist
 #from fungi import studytreelist
-from monocots import studytreelist
-#from core_eudicots import studytreelist
+from plants_mls_groups import deepplants_studytreelist as studytreelist
 
 taxtreefile = "tax.tree"
 mlsout = "mls.test"
