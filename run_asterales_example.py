@@ -1,3 +1,5 @@
+import os
+
 """
 this is the stuff specific to the plant studies that are loaded. It can include comments and all that. The studytreelist will be read from the load_synth_extract file. Other variables in the conf could be overridden here. 
 """
@@ -19,7 +21,13 @@ studytreelist=["pg_2539_6294", # Soltis et al. 2011
 studytreelistTF = [True] * len(studytreelist)
 
 if __name__ == "__main__":
-    treemloc = "/home/josephwb/Work/OToL/treemachine/target/treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar" #treemachine location, machine-specific
+
+    # treemachine location, machine-specific
+    treemloc = os.environ['TREEMACHINE_JAR'] if "TREEMACHINE_JAR" in os.environ else "treemachine-0.0.1-SNAPSHOT-jar-with-dependencies.jar" 
+
+#    print os.environ
+#    exit()
+
     javapre = "java -Xmx8g -jar" #java running information
     dott = "example/asterales_taxonomy.db" #database location for taxonomy
     taxfile = "example/aster/taxonomy.tsv" #location of taxonomy loading file
