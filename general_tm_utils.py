@@ -53,6 +53,7 @@ def load_nexson(studyloc,study_treeid,javapre,treemloc,dload,logfilename,append,
     spls = study_treeid.split("_")
     studyid = "_".join(spls[:-1])
     treeid = spls[-1]
+    print "working with: " + study_treeid
     sha = get_git_SHA_from_json(studyloc+"/"+studyid)
     cmd = javapre.split(" ")
     cmd.append(treemloc)
@@ -186,7 +187,11 @@ def load_one_study_inf_mono(studyloc,study_treeid,javapre,treemloc,dload,outfile
     sha = get_git_SHA_from_json(studyloc+"/"+studyid)
     source_explorer(study_treeid+"_"+sha,javapre,treemloc,dload,treeoutfile,append)
     tf = open(treeoutfile,"r")
-    tree = read_tree_string(tf.readline())
+    ts = tf.readline()
+    # ignore output that isn't a tree
+    while ts[0] != '(':
+        ts = tf.readline()
+    tree = read_tree_string(ts)
     print "root name:"+tree.label
     tf.close()
     mapcompat_one_study(studyloc,study_treeid,javapre,treemloc,dload,outfile,outfile,True)
