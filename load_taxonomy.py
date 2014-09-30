@@ -11,5 +11,5 @@ def load(treemloc, javapre, dott,taxonomy_filename, synonyms_filename, version):
     load_taxonomy(treemloc,javapre,dott,taxonomy_filename,synonyms_filename,version)
     
 if __name__ == "__main__":
-	from stephen_laptop_conf import *
+	from stephen_desktop_conf import *
 	load(treemloc,javapre,dott,taxfile,synfile,taxversion)

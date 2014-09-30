@@ -4,18 +4,17 @@ this is the stuff specific to the plant studies that are loaded. It can include 
 
 from stephen_desktop_conf import *
 
-
-from microbes import studytreelist as microbelist
 from plants import studytreelist as plantslist
-from sas_metazoa import studytreelist as metalist
+from metazoa import studytreelist as metalist
 from fungi import studytreelist as fungilist
-
+from safe_microbes import studytreelist as microbelist
 
 studytreelist = []
-#studytreelist.extend(plantslist)
-#studytreelist.extend(metalist)
+
+studytreelist.extend(plantslist)
+studytreelist.extend(metalist)
 studytreelist.extend(fungilist)
-#studytreelist.extend(microbelist)
+studytreelist.extend(microbelist)
 
 mapcompat = [True] * len(studytreelist)
 #mapcompat = [] * len(studytreelist)

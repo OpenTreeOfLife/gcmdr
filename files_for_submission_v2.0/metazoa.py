@@ -296,6 +296,7 @@ studytreelist=[
                "pg_1786_6257", # Hydrozoa. Cartwright et al. 2008. J. Marine Biol. Assoc. UK
                "pg_2678_6224", # Echinodermata. Janies et al. 2011. Syst. Biol.
                "pg_421_523",   # Mollusca. Smith et al. 2011. Nature
+               "pg_1366_6166", # Annelida. Struck et al. 2011. Nature *** mapping to Lophotrochozoa
                "pg_1761_6151", # Scleractinia (corals). Huang nad Roy. 2013. Ecology and Evolution
                "pg_2710_6291", # Metazoa. Ryan et al. 2013. Science *** need to choose best Metazoa tree(s) 
 
