@@ -1,0 +1,165 @@
+15:37:48.829 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 31
+pgloadind Processing tree @id "1"
+pgloadind   tree info number nodes 58
+pgloadind   tree info number edges 57
+pgloadind   tree info ingroup "node2"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 26
+pgloadind   property added ot:studyPublicationReference "Schweizer, Manuel, Marcel Güntert, Stefan T. Hertwig. 2012. Phylogeny and biogeography of the parrot genus Prioniturus (Aves: Psittaciformes). Journal of Zoological Systematics and Evolutionary Research 50 (2): 145-156."
+pgloadind   property added ot:candidateTreeForSynthesis "tree1"
+pgloadind   property added ot:focalCladeOTTTaxonName "Prioniturus"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1111/j.1439-0469.2012.00654.x"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:studyYear "2012"
+pgloadind   property added ot:studyId "ot_162"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "108566"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Bayesian inference "
+pgloadind   property added ot:nearestTaxonMRCAOttId "108566"
+pgloadind   property added ot:inGroupClade "node2"
+pgloadind   property added ot:nearestTaxonMRCAName "Prioniturus"
+pgloadind   property added ot:specifiedRoot "node1"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+loading a specific tree: 1
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "1"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Prioniturus waterstradti" nexsonid "node31"
+pgloadind       duplicate OTT ID 18325
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Prioniturus waterstradti" nexsonid "node32"
+pgloadind       duplicate OTT ID 18325
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Prioniturus waterstradti" nexsonid "node33"
+pgloadind       duplicate OTT ID 18325
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Prioniturus mindorensis" nexsonid "node38"
+pgloadind       duplicate OTT ID 591223
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Prioniturus verticalis" nexsonid "node8"
+pgloadind       duplicate OTT ID 18323
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Prioniturus verticalis" nexsonid "node9"
+pgloadind       duplicate OTT ID 18323
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Prioniturus discurus whiteheadi" nexsonid "node15"
+pgloadind       duplicate OTT ID 70127
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Prioniturus discurus whiteheadi" nexsonid "node16"
+pgloadind       duplicate OTT ID 70127
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Prioniturus discurus whiteheadi" nexsonid "node17"
+pgloadind       duplicate OTT ID 70127
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Prioniturus discurus discurus" nexsonid "node22"
+pgloadind       duplicate OTT ID 70125
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Prioniturus discurus discurus" nexsonid "node23"
+pgloadind       duplicate OTT ID 70125
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Prioniturus discurus discurus" nexsonid "node24"
+pgloadind       duplicate OTT ID 70125
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Prioniturus platurus talautensis" nexsonid "node45"
+pgloadind       duplicate OTT ID 18320
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Prioniturus platurus platurus" nexsonid "node48"
+pgloadind       duplicate OTT ID 18318
+pgloadind     pruning dups and overlapping name "Prioniturus mindorensis" nexsonid "node38"
+pgloadind     pruning dups and overlapping name "Prioniturus discurus discurus" nexsonid "node24"
+pgloadind     pruning dups and overlapping name "Prioniturus discurus whiteheadi" nexsonid "node17"
+pgloadind     pruning dups and overlapping name "Prioniturus platurus talautensis" nexsonid "node45"
+pgloadind     pruning dups and overlapping name "Prioniturus discurus whiteheadi" nexsonid "node16"
+pgloadind     pruning dups and overlapping name "Prioniturus waterstradti" nexsonid "node33"
+pgloadind     pruning dups and overlapping name "Prioniturus platurus platurus" nexsonid "node48"
+pgloadind     pruning dups and overlapping name "Prioniturus waterstradti" nexsonid "node32"
+pgloadind     pruning dups and overlapping name "Prioniturus discurus discurus" nexsonid "node22"
+pgloadind     pruning dups and overlapping name "Prioniturus discurus discurus" nexsonid "node23"
+pgloadind     pruning dups and overlapping name "Prioniturus waterstradti" nexsonid "node31"
+pgloadind     pruning dups and overlapping name "Prioniturus discurus whiteheadi" nexsonid "node15"
+pgloadind     pruning dups and overlapping name "Prioniturus verticalis" nexsonid "node8"
+pgloadind     pruning dups and overlapping name "Prioniturus verticalis" nexsonid "node9"
+pgloadind   postpruning newick tree "(((((Prioniturus_platenae,Prioniturus_mindorensis),Prioniturus_montanus),Prioniturus_waterstradti),((((Prioniturus_discurus_discurus,Prioniturus_discurus_whiteheadi),Prioniturus_luconensis),Prioniturus_flavicans),Prioniturus_verticalis)),((Prioniturus_platurus_talautensis,Prioniturus_platurus_platurus),Prioniturus_mada))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 1015530 taxonomy "Prioniturus platenae->Prioniturus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node39"
+pgloadind     taxon mapping OTT ID 591223 taxonomy "Prioniturus mindorensis->Prioniturus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node37"
+pgloadind     taxon mapping OTT ID 681045 taxonomy "Prioniturus montanus->Prioniturus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node40"
+pgloadind     taxon mapping OTT ID 18325 taxonomy "Prioniturus waterstradti->Prioniturus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node30"
+pgloadind     taxon mapping OTT ID 70125 taxonomy "Prioniturus discurus discurus->Prioniturus discurus->Prioniturus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node21"
+pgloadind     taxon mapping OTT ID 70127 taxonomy "Prioniturus discurus whiteheadi->Prioniturus discurus->Prioniturus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node14"
+pgloadind     taxon mapping OTT ID 771954 taxonomy "Prioniturus luconensis->Prioniturus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node25"
+pgloadind     taxon mapping OTT ID 591214 taxonomy "Prioniturus flavicans->Prioniturus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node26"
+pgloadind     taxon mapping OTT ID 18323 taxonomy "Prioniturus verticalis->Prioniturus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node7"
+pgloadind     taxon mapping OTT ID 18320 taxonomy "Prioniturus platurus talautensis->Prioniturus platurus->Prioniturus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node44"
+pgloadind     taxon mapping OTT ID 18318 taxonomy "Prioniturus platurus platurus->Prioniturus platurus->Prioniturus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node47"
+pgloadind     taxon mapping OTT ID 591212 taxonomy "Prioniturus mada->Prioniturus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node49"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "1"
+pgloadind   Adding tree to graph tree id "1"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Schweizer, Manuel, Marcel Güntert, Stefan T. Hertwig. 2012. Phylogeny and biogeography of the parrot genus Prioniturus (Aves: Psittaciformes). Journal of Zoological Systematics and Evolutionary Research 50 (2): 145-156.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Prioniturus
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree1
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:nearestTaxonMRCAName
+Adding property 'ot:nearestTaxonMRCAName': Prioniturus
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:nearestTaxonMRCAOttId
+Adding property 'ot:nearestTaxonMRCAOttId': 108566
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': ot_162
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2012
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node2
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1111/j.1439-0469.2012.00654.x
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 108566
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Bayesian inference 
+adding relationships to licas for children
+Committing nodes: 23
+15:38:42.615 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

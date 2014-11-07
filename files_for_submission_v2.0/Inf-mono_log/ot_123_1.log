@@ -1,0 +1,116 @@
+15:05:10.648 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 16
+pgloadind Processing tree @id "1"
+pgloadind   tree info number nodes 31
+pgloadind   tree info number edges 30
+pgloadind   tree info ingroup "node1"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 16
+pgloadind   property added ot:studyPublicationReference "Dumbacher, J. 2003. Phylogeny of the owlet-nightjars (Aves: Aegothelidae) based on mitochondrial DNA sequence. Molecular Phylogenetics and Evolution 29 (3): 540-549."
+pgloadind   property added ot:candidateTreeForSynthesis "tree1"
+pgloadind   property added ot:focalCladeOTTTaxonName "Aegotheles"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/s1055-7903(03)00135-0"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:studyYear "2003"
+pgloadind   property added ot:studyId "ot_123"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "540029"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Maximum likelihood "
+pgloadind   property added ot:nearestTaxonMRCAOttId "540029"
+pgloadind   property added ot:inGroupClade "node1"
+pgloadind   property added ot:nearestTaxonMRCAName "Aegotheles"
+pgloadind   property added ot:specifiedRoot "node1"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+loading a specific tree: 1
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "1"
+pgloadind     OTT ID missing name "Aegotheles crinifrons" nexsonid "node25"
+pgloadind     OTT ID missing name "Aegotheles insignis" nexsonid "node27"
+pgloadind     OTT ID missing name "Aegotheles tatei" nexsonid "node28"
+pgloadind     pruning unmapped name "Aegotheles insignis" nexsonid "node27"
+pgloadind     pruning unmapped name "Aegotheles crinifrons" nexsonid "node25"
+pgloadind     pruning unmapped name "Aegotheles tatei" nexsonid "node28"
+pgloadind   postpruning newick tree "((Aegotheles_novaezealandiae,Aegotheles_savesi),(((((Aegotheles_bennettii_bennettii,Aegotheles_bennettii_wiedenfeldi),Aegotheles_bennettii_plumiferus),(Aegotheles_bennettii_affinis,Aegotheles_bennettii_terborghi)),Aegotheles_cristatus),(Aegotheles_albertisi_salvadori,((Aegotheles_archboldi,Aegotheles_albertisi_albertisi),(Aegotheles_wallacii_gigas,Aegotheles_wallacii_wallacii)))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 705942 taxonomy "Aegotheles novaezealandiae->Aegotheles->Aegothelidae->Caprimulgiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node30"
+pgloadind     taxon mapping OTT ID 705947 taxonomy "Aegotheles savesi->Aegotheles->Aegothelidae->Caprimulgiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node31"
+pgloadind     taxon mapping OTT ID 563571 taxonomy "Aegotheles bennettii bennettii->Aegotheles bennettii->Aegotheles->Aegothelidae->Caprimulgiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node18"
+pgloadind     taxon mapping OTT ID 563568 taxonomy "Aegotheles bennettii wiedenfeldi->Aegotheles bennettii->Aegotheles->Aegothelidae->Caprimulgiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node19"
+pgloadind     taxon mapping OTT ID 563570 taxonomy "Aegotheles bennettii plumiferus->Aegotheles bennettii->Aegotheles->Aegothelidae->Caprimulgiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node20"
+pgloadind     taxon mapping OTT ID 68112 taxonomy "Aegotheles bennettii affinis->Aegotheles bennettii->Aegotheles->Aegothelidae->Caprimulgiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node22"
+pgloadind     taxon mapping OTT ID 563569 taxonomy "Aegotheles bennettii terborghi->Aegotheles bennettii->Aegotheles->Aegothelidae->Caprimulgiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node23"
+pgloadind     taxon mapping OTT ID 540033 taxonomy "Aegotheles cristatus->Aegotheles->Aegothelidae->Caprimulgiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node24"
+pgloadind     taxon mapping OTT ID 563580 taxonomy "Aegotheles albertisi salvadori->Aegotheles albertisi->Aegotheles->Aegothelidae->Caprimulgiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node13"
+pgloadind     taxon mapping OTT ID 705938 taxonomy "Aegotheles archboldi->Aegotheles->Aegothelidae->Caprimulgiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node8"
+pgloadind     taxon mapping OTT ID 563584 taxonomy "Aegotheles albertisi albertisi->Aegotheles albertisi->Aegotheles->Aegothelidae->Caprimulgiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node9"
+pgloadind     taxon mapping OTT ID 259045 taxonomy "Aegotheles wallacii gigas->Aegotheles wallacii->Aegotheles->Aegothelidae->Caprimulgiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node11"
+pgloadind     taxon mapping OTT ID 590139 taxonomy "Aegotheles wallacii wallacii->Aegotheles wallacii->Aegotheles->Aegothelidae->Caprimulgiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node12"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "1"
+pgloadind   Adding tree to graph tree id "1"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Dumbacher, J. 2003. Phylogeny of the owlet-nightjars (Aves: Aegothelidae) based on mitochondrial DNA sequence. Molecular Phylogenetics and Evolution 29 (3): 540-549.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Aegotheles
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree1
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:nearestTaxonMRCAName
+Adding property 'ot:nearestTaxonMRCAName': Aegotheles
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:nearestTaxonMRCAOttId
+Adding property 'ot:nearestTaxonMRCAOttId': 540029
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': ot_123
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2003
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/s1055-7903(03)00135-0
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 540029
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Maximum likelihood 
+adding relationships to licas for children
+Committing nodes: 25
+15:06:06.192 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

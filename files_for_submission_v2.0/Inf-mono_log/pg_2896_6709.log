@@ -1,0 +1,166 @@
+14:12:11.084 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 64
+pgloadind Processing tree @id "6709"
+pgloadind   tree info number nodes 111
+pgloadind   tree info number edges 110
+pgloadind   tree info ingroup "node1167439"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 62
+pgloadind   property added ot:studyPublicationReference "P. Korall, P. Kenrick. 2002. Phylogenetic relationships in Selaginellaceae based on RBCL sequences. American Journal of Botany 89(3):506-517."
+pgloadind   property added ot:focalCladeOTTTaxonName "Selaginellaceae"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:studyYear "2002"
+pgloadind   property added ot:studyId "pg_2896"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.3732/ajb.89.3.506"
+pgloadind   property added ot:focalClade "144818"
+pgloadind   property added ot:curatedType "mP strict consensus tree"
+pgloadind   property added ot:inGroupClade "node1167439"
+loading a specific tree: 6709
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6709"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Selaginella pallescens" nexsonid "node1167450"
+pgloadind       duplicate OTT ID 532022
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Selaginella novae-hollandiae" nexsonid "node1167467"
+pgloadind       duplicate OTT ID 532020
+pgloadind     pruning dups and overlapping name "Selaginella novae-hollandiae" nexsonid "node1167467"
+pgloadind     pruning dups and overlapping name "Selaginella pallescens" nexsonid "node1167450"
+pgloadind   postpruning newick tree "(((((((((Selaginella_pallescens,Selaginella_pulcherrima),Selaginella_moellendorffii),Selaginella_acanthostachys),(Selaginella_novae-hollandiae,Selaginella_martensii),(Selaginella_flagellata,(Selaginella_radiata,Selaginella_bombycina),Selaginella_umbrosa,Selaginella_flabellata,Selaginella_simplex,Selaginella_moritziana,Selaginella_erythropus,Selaginella_haematodes)),(((Selaginella_longipinna,Selaginella_kerstingii),Selaginella_firmuloides),((Selaginella_longiaristata,Selaginella_brooksii),Selaginella_frondosa),Selaginella_alopecuroides),((Selaginella_plana,Selaginella_willdenowii,Selaginella_pervillei),(Selaginella_helvetica,Selaginella_denticulata))),Selaginella_apoda),((Selaginella_tamariscina,Selaginella_stauntoniana),(Selaginella_pilifera,(Selaginella_digitata,Selaginella_helioclada,Selaginella_imbricata)))),(((Selaginella_myosurus,(((Selaginella_remotifolia,Selaginella_kraussiana),(((Selaginella_sericea,Selaginella_articulata),(Selaginella_lingulata,Selaginella_diffusa),Selaginella_suavis,Selaginella_sulcata),Selaginella_fragilis)),Selaginella_exaltata)),(((Selaginella_sellowii,(Selaginella_rupincola,Selaginella_arizonica)),Selaginella_rupestris),Selaginella_lepidophylla)),((Selaginella_sinensis,Selaginella_australiensis),(Selaginella_pygmaea,((Selaginella_lyallii,Selaginella_moratii,Selaginella_polymorpha),(Selaginella_uliginosa,Selaginella_gracillima)))))),(Selaginella_deflexa,Selaginella_selaginoides))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 532022 taxonomy "Selaginella pallescens->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167448"
+pgloadind     taxon mapping OTT ID 726811 taxonomy "Selaginella pulcherrima->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167449"
+pgloadind     taxon mapping OTT ID 799880 taxonomy "Selaginella moellendorffii->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167451"
+pgloadind     taxon mapping OTT ID 583202 taxonomy "Selaginella acanthostachys->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167452"
+pgloadind     taxon mapping OTT ID 532020 taxonomy "Selaginella novae-hollandiae->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167454"
+pgloadind     taxon mapping OTT ID 144813 taxonomy "Selaginella martensii->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167455"
+pgloadind     taxon mapping OTT ID 583188 taxonomy "Selaginella flagellata->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167457"
+pgloadind     taxon mapping OTT ID 532011 taxonomy "Selaginella radiata->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167459"
+pgloadind     taxon mapping OTT ID 101177 taxonomy "Selaginella bombycina->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167460"
+pgloadind     taxon mapping OTT ID 1035478 taxonomy "Selaginella umbrosa->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167461"
+pgloadind     taxon mapping OTT ID 583186 taxonomy "Selaginella flabellata->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167462"
+pgloadind     taxon mapping OTT ID 1058265 taxonomy "Selaginella simplex->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167463"
+pgloadind     taxon mapping OTT ID 726805 taxonomy "Selaginella moritziana->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167464"
+pgloadind     taxon mapping OTT ID 583190 taxonomy "Selaginella erythropus->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167465"
+pgloadind     taxon mapping OTT ID 726817 taxonomy "Selaginella haematodes->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167466"
+pgloadind     taxon mapping OTT ID 10604 taxonomy "Selaginella longipinna->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167471"
+pgloadind     taxon mapping OTT ID 10606 taxonomy "Selaginella kerstingii->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167472"
+pgloadind     taxon mapping OTT ID 583192 taxonomy "Selaginella firmuloides->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167473"
+pgloadind     taxon mapping OTT ID 10610 taxonomy "Selaginella longiaristata->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167476"
+pgloadind     taxon mapping OTT ID 583194 taxonomy "Selaginella brooksii->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167477"
+pgloadind     taxon mapping OTT ID 10614 taxonomy "Selaginella frondosa->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167478"
+pgloadind     taxon mapping OTT ID 583204 taxonomy "Selaginella alopecuroides->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167479"
+pgloadind     taxon mapping OTT ID 532028 taxonomy "Selaginella plana->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167482"
+pgloadind     taxon mapping OTT ID 1058273 taxonomy "Selaginella willdenowii->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167483"
+pgloadind     taxon mapping OTT ID 532024 taxonomy "Selaginella pervillei->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167484"
+pgloadind     taxon mapping OTT ID 10618 taxonomy "Selaginella helvetica->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167486"
+pgloadind     taxon mapping OTT ID 639697 taxonomy "Selaginella denticulata->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167487"
+pgloadind     taxon mapping OTT ID 78166 taxonomy "Selaginella apoda->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167488"
+pgloadind     taxon mapping OTT ID 1058277 taxonomy "Selaginella tamariscina->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167491"
+pgloadind     taxon mapping OTT ID 1058261 taxonomy "Selaginella stauntoniana->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167492"
+pgloadind     taxon mapping OTT ID 532026 taxonomy "Selaginella pilifera->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167494"
+pgloadind     taxon mapping OTT ID 583196 taxonomy "Selaginella digitata->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167496"
+pgloadind     taxon mapping OTT ID 10620 taxonomy "Selaginella helioclada->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167497"
+pgloadind     taxon mapping OTT ID 10608 taxonomy "Selaginella imbricata->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167498"
+pgloadind     taxon mapping OTT ID 532018 taxonomy "Selaginella myosurus->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167502"
+pgloadind     taxon mapping OTT ID 1058271 taxonomy "Selaginella remotifolia->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167506"
+pgloadind     taxon mapping OTT ID 726807 taxonomy "Selaginella kraussiana->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167507"
+pgloadind     taxon mapping OTT ID 1058267 taxonomy "Selaginella sericea->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167511"
+pgloadind     taxon mapping OTT ID 583198 taxonomy "Selaginella articulata->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167512"
+pgloadind     taxon mapping OTT ID 10612 taxonomy "Selaginella lingulata->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167514"
+pgloadind     taxon mapping OTT ID 726815 taxonomy "Selaginella diffusa->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167515"
+pgloadind     taxon mapping OTT ID 1058259 taxonomy "Selaginella suavis->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167516"
+pgloadind     taxon mapping OTT ID 1058257 taxonomy "Selaginella sulcata->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167517"
+pgloadind     taxon mapping OTT ID 10616 taxonomy "Selaginella fragilis->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167518"
+pgloadind     taxon mapping OTT ID 726813 taxonomy "Selaginella exaltata->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167519"
+pgloadind     taxon mapping OTT ID 1058269 taxonomy "Selaginella sellowii->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167523"
+pgloadind     taxon mapping OTT ID 726809 taxonomy "Selaginella rupincola->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167525"
+pgloadind     taxon mapping OTT ID 101175 taxonomy "Selaginella arizonica->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167526"
+pgloadind     taxon mapping OTT ID 799883 taxonomy "Selaginella rupestris->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167527"
+pgloadind     taxon mapping OTT ID 286369 taxonomy "Selaginella lepidophylla->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167528"
+pgloadind     taxon mapping OTT ID 1058263 taxonomy "Selaginella sinensis->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167531"
+pgloadind     taxon mapping OTT ID 583200 taxonomy "Selaginella australiensis->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167532"
+pgloadind     taxon mapping OTT ID 532009 taxonomy "Selaginella pygmaea->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167534"
+pgloadind     taxon mapping OTT ID 10602 taxonomy "Selaginella lyallii->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167537"
+pgloadind     taxon mapping OTT ID 532016 taxonomy "Selaginella moratii->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167538"
+pgloadind     taxon mapping OTT ID 532030 taxonomy "Selaginella polymorpha->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167539"
+pgloadind     taxon mapping OTT ID 726823 taxonomy "Selaginella uliginosa->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167541"
+pgloadind     taxon mapping OTT ID 726819 taxonomy "Selaginella gracillima->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167542"
+pgloadind     taxon mapping OTT ID 396299 taxonomy "Selaginella deflexa->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167544"
+pgloadind     taxon mapping OTT ID 174281 taxonomy "Selaginella selaginoides->Selaginella->Selaginellaceae->Selaginellales->Isoetopsida->Lycopodiophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1167545"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6709"
+pgloadind   Adding tree to graph tree id "6709"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': P. Korall, P. Kenrick. 2002. Phylogenetic relationships in Selaginellaceae based on RBCL sequences. American Journal of Botany 89(3):506-517.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Selaginellaceae
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2002
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1167439
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.3732/ajb.89.3.506
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 144818
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': mP strict consensus tree
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2896
+adding relationships to licas for children
+Committing nodes: 105
+14:13:03.458 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

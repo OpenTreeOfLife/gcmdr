@@ -1,0 +1,167 @@
+20:23:08.163 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 59
+pgloadind Processing tree @id "365"
+pgloadind   tree info number nodes 107
+pgloadind   tree info number edges 106
+pgloadind   tree info ingroup "node197359"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 53
+pgloadind   property added ot:studyPublicationReference "Camara M., Palm M., Van berkum P., & O'neill N. 2002. Molecular phylogeny of Leptosphaeria and Phaeosphaeria. Mycologia, 94(4): 630-640."
+pgloadind   property added ot:focalCladeOTTTaxonName "Leptosphaeria"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S822"
+pgloadind   property added ot:studyYear "2002"
+pgloadind   property added ot:studyId "pg_339"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/3761714"
+pgloadind   property added ot:tag "ITS"
+pgloadind   property added ot:tag "MP"
+pgloadind   property added ot:focalClade "646175"
+pgloadind   property added ot:curatedType "MP, ITS"
+pgloadind   property added ot:inGroupClade "node197359"
+loading a specific tree: 365
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "365"
+pgloadind     OTT ID missing name "Leptosphaeria sp. fm. Bouganvillea" nexsonid "node197373"
+pgloadind     OTT ID missing name "Phaeoseptoria sp." nexsonid "node197385"
+pgloadind     OTT ID missing name "Phaeosphaeria sp. fm. Iolium" nexsonid "node197424"
+pgloadind     OTT ID missing name "Phaeosphaeria bellynckii" nexsonid "node197452"
+pgloadind     OTT ID missing name "Phaeosphaeria sp. fm. Phlox" nexsonid "node197456"
+pgloadind     pruning unmapped name "Phaeosphaeria sp. fm. Iolium" nexsonid "node197424"
+pgloadind     pruning unmapped name "Leptosphaeria sp. fm. Bouganvillea" nexsonid "node197373"
+pgloadind     pruning unmapped name "Phaeosphaeria bellynckii" nexsonid "node197452"
+pgloadind     pruning unmapped name "Phaeoseptoria sp." nexsonid "node197385"
+pgloadind     pruning unmapped name "Phaeosphaeria sp. fm. Phlox" nexsonid "node197456"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Phaeosphaeria spartinae" nexsonid "node197399"
+pgloadind       duplicate OTT ID 115747
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Phaeosphaeria herpotrichoides" nexsonid "node197407"
+pgloadind       duplicate OTT ID 883662
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Phaeosphaeria eustoma" nexsonid "node197434"
+pgloadind       duplicate OTT ID 184420
+pgloadind     pruning dups and overlapping name "Phaeosphaeria spartinae" nexsonid "node197399"
+pgloadind     pruning dups and overlapping name "Phaeosphaeria eustoma" nexsonid "node197434"
+pgloadind     pruning dups and overlapping name "Phaeosphaeria herpotrichoides" nexsonid "node197407"
+pgloadind   postpruning newick tree "(((((((Plenodomus_confertus,Leptosphaeria_maculans),Plenodomus_congestus),(Leptosphaeria_dryadis,Leptosphaeria_weimeri)),Leptosphaeria_doliolum),Phaeosphaeria_typharum),Phaeosphaeria_setosa),((((Phaeoseptoria_musae,Phaeosphaeria_oryzae),Phaeosphaeria_juncina),(((((Phaeosphaeria_oreochloae,Phaeosphaeria_alpina),Phaeosphaeria_padellana),Phaeosphaeria_dennisiana),((((((Phaeosphaeria_herpotrichoides,Phaeosphaeria_volkartiana),Phaeosphaeria_microscopica),((Phaeosphaeria_culmorum,Phaeosphaeria_insignis),Phaeosphaeria_lycopodina,(Phaeosphaeria_berlesei,Phaeosphaeria_phragmitis),(Phaeosphaeria_silvatica,Phaeosphaeria_phragmiticola),(Phaeosphaeria_caricis,Phaeosphaeria_luctuosa,Phaeosphaeria_vagans,Phaeosphaeria_lindii))),Phaeosphaeria_caricinella),Phaeosphaeria_fuckelii),Phaeosphaeria_spartinae)),((((Leptosphaeria_avenaria,Parastagonospora_nodorum,Phaeosphaeria_nigrans),Phaeosphaeria_eustoma),Stagonospora_foliicola),Phaeosphaeria_pontiformis))),(((Phaeosphaeria_halima,(((Phaeosphaeria_silenes-acaulis,Phaeosphaeria_triglochinicola),Phaeosphaeria_juncophila),Phaeosphaeria_caricicola)),Phaeosphaeria_pleurospora),Phaeosphaeria_juncicola)))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 833457 taxonomy "Plenodomus confertus->Phoma->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197366"
+pgloadind     taxon mapping OTT ID 581438 taxonomy "Leptosphaeria maculans->Leptosphaeria->Leptosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197367"
+pgloadind     taxon mapping OTT ID 309136 taxonomy "Plenodomus congestus->Phoma->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197368"
+pgloadind     taxon mapping OTT ID 5319112 taxonomy "Leptosphaeria dryadis->Leptosphaeria->Leptosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197370"
+pgloadind     taxon mapping OTT ID 309128 taxonomy "Leptosphaeria weimeri->Leptosphaeria->Leptosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197371"
+pgloadind     taxon mapping OTT ID 538157 taxonomy "Leptosphaeria doliolum->Leptosphaeria->Leptosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197374"
+pgloadind     taxon mapping OTT ID 115745 taxonomy "Phaeosphaeria typharum->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197375"
+pgloadind     taxon mapping OTT ID 358923 taxonomy "Phaeosphaeria setosa->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197376"
+pgloadind     taxon mapping OTT ID 309127 taxonomy "Phaeoseptoria musae->Phaeoseptoria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197382"
+pgloadind     taxon mapping OTT ID 593504 taxonomy "Phaeosphaeria oryzae->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197384"
+pgloadind     taxon mapping OTT ID 902258 taxonomy "Phaeosphaeria juncina->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197386"
+pgloadind     taxon mapping OTT ID 358920 taxonomy "Phaeosphaeria oreochloae->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197392"
+pgloadind     taxon mapping OTT ID 309126 taxonomy "Phaeosphaeria alpina->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197393"
+pgloadind     taxon mapping OTT ID 358915 taxonomy "Phaeosphaeria padellana->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197394"
+pgloadind     taxon mapping OTT ID 883660 taxonomy "Phaeosphaeria dennisiana->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197395"
+pgloadind     taxon mapping OTT ID 883662 taxonomy "Phaeosphaeria herpotrichoides->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197405"
+pgloadind     taxon mapping OTT ID 934546 taxonomy "Phaeosphaeria volkartiana->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197408"
+pgloadind     taxon mapping OTT ID 538158 taxonomy "Phaeosphaeria microscopica->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197409"
+pgloadind     taxon mapping OTT ID 902222 taxonomy "Phaeosphaeria culmorum->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197412"
+pgloadind     taxon mapping OTT ID 883663 taxonomy "Phaeosphaeria insignis->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197413"
+pgloadind     taxon mapping OTT ID 358918 taxonomy "Phaeosphaeria lycopodina->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197414"
+pgloadind     taxon mapping OTT ID 309125 taxonomy "Phaeosphaeria berlesei->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197416"
+pgloadind     taxon mapping OTT ID 358914 taxonomy "Phaeosphaeria phragmitis->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197417"
+pgloadind     taxon mapping OTT ID 934547 taxonomy "Phaeosphaeria silvatica->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197419"
+pgloadind     taxon mapping OTT ID 711612 taxonomy "Phaeosphaeria phragmiticola->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197420"
+pgloadind     taxon mapping OTT ID 883657 taxonomy "Phaeosphaeria caricis->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197422"
+pgloadind     taxon mapping OTT ID 358919 taxonomy "Phaeosphaeria luctuosa->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197423"
+pgloadind     taxon mapping OTT ID 934545 taxonomy "Phaeosphaeria vagans->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197425"
+pgloadind     taxon mapping OTT ID 883666 taxonomy "Phaeosphaeria lindii->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197426"
+pgloadind     taxon mapping OTT ID 309123 taxonomy "Phaeosphaeria caricinella->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197427"
+pgloadind     taxon mapping OTT ID 883661 taxonomy "Phaeosphaeria fuckelii->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197428"
+pgloadind     taxon mapping OTT ID 115747 taxonomy "Phaeosphaeria spartinae->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197398"
+pgloadind     taxon mapping OTT ID 736914 taxonomy "Leptosphaeria avenaria->Leptosphaeria->Leptosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197436"
+pgloadind     taxon mapping OTT ID 562295 taxonomy "Parastagonospora nodorum->Parastagonospora->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197437"
+pgloadind     taxon mapping OTT ID 358921 taxonomy "Phaeosphaeria nigrans->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197438"
+pgloadind     taxon mapping OTT ID 184420 taxonomy "Phaeosphaeria eustoma->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197433"
+pgloadind     taxon mapping OTT ID 258930 taxonomy "Stagonospora foliicola->Stagonospora->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197439"
+pgloadind     taxon mapping OTT ID 358916 taxonomy "Phaeosphaeria pontiformis->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197440"
+pgloadind     taxon mapping OTT ID 115748 taxonomy "Phaeosphaeria halima->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197453"
+pgloadind     taxon mapping OTT ID 358922 taxonomy "Phaeosphaeria silenes-acaulis->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197448"
+pgloadind     taxon mapping OTT ID 934548 taxonomy "Phaeosphaeria triglochinicola->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197449"
+pgloadind     taxon mapping OTT ID 883665 taxonomy "Phaeosphaeria juncophila->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197450"
+pgloadind     taxon mapping OTT ID 309124 taxonomy "Phaeosphaeria caricicola->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197451"
+pgloadind     taxon mapping OTT ID 358917 taxonomy "Phaeosphaeria pleurospora->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197454"
+pgloadind     taxon mapping OTT ID 883664 taxonomy "Phaeosphaeria juncicola->Phaeosphaeria->Phaeosphaeriaceae->Pleosporineae->Pleosporales->Pleosporomycetidae->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node197455"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "365"
+pgloadind   Adding tree to graph tree id "365"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Stagonospora foliicola was remapped to 'Stagonospora' (id=539498)
+	Parastagonospora nodorum was remapped to 'Parastagonospora' (id=539337)
+	Phaeoseptoria musae was remapped to 'Phaeoseptoria' (id=541009)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Camara M., Palm M., Van berkum P., & O'neill N. 2002. Molecular phylogeny of Leptosphaeria and Phaeosphaeria. Mycologia, 94(4): 630-640.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Leptosphaeria
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2002
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node197359
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': MP
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.2307/3761714
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 646175
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP, ITS
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_339
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S822
+adding relationships to licas for children
+Committing nodes: 83
+20:24:22.844 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

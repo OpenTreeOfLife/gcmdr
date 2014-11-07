@@ -1,0 +1,143 @@
+11:36:28.185 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 32
+pgloadind Processing tree @id "831"
+pgloadind   tree info number nodes 32
+pgloadind   tree info number edges 31
+pgloadind   tree info ingroup "node344543"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 11
+pgloadind   property added ot:studyPublicationReference "Johansen, L. B. (2005). Phylogeny of Orchidantha (Lowiaceae) and the Zingiberales based on six DNA regions. Systematic botany, 30(1), 106-117."
+pgloadind   property added ot:focalCladeOTTTaxonName "Lowiaceae"
+pgloadind   property added ot:curatorName "Jiabin Deng"
+pgloadind   property added ot:curatorName "Stephen Smith"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1197"
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:studyYear "2005"
+pgloadind   property added ot:studyId "pg_566"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1600/0363644053661931"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "730911"
+pgloadind   property added ot:unrootedTree "true"
+pgloadind   property added ot:curatedType "Fig. 1"
+pgloadind   property added ot:inGroupClade "node344543"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode ""
+pgloadind Processing tree @id "832"
+pgloadind   tree info number nodes 43
+pgloadind   tree info number edges 42
+pgloadind   tree info ingroup "node344568"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 17
+pgloadind   property added ot:studyPublicationReference "Johansen, L. B. (2005). Phylogeny of Orchidantha (Lowiaceae) and the Zingiberales based on six DNA regions. Systematic botany, 30(1), 106-117."
+pgloadind   property added ot:focalCladeOTTTaxonName "Lowiaceae"
+pgloadind   property added ot:curatorName "Jiabin Deng"
+pgloadind   property added ot:curatorName "Stephen Smith"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1197"
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:studyYear "2005"
+pgloadind   property added ot:studyId "pg_566"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1600/0363644053661931"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "730911"
+pgloadind   property added ot:unrootedTree "true"
+pgloadind   property added ot:curatedType "Fig. 2"
+pgloadind   property added ot:inGroupClade "node344568"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+loading a specific tree: 832
+skipping tree: 831
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "832"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Orchidantha borneensis" nexsonid "node344572"
+pgloadind       duplicate OTT ID 572854
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Orchidantha" nexsonid "node344580"
+pgloadind       duplicate OTT ID 730910
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Orchidantha suratii" nexsonid "node344584"
+pgloadind       duplicate OTT ID 572844
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Orchidantha suratii" nexsonid "node344585"
+pgloadind       duplicate OTT ID 572844
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Orchidantha borneensis" nexsonid "node344571"
+pgloadind       overlapping pruned name "Orchidantha" nexsonid "node344579"
+pgloadind     pruning dups and overlapping name "Orchidantha" nexsonid "node344579"
+pgloadind     pruning dups and overlapping name "Orchidantha borneensis" nexsonid "node344572"
+pgloadind     pruning dups and overlapping name "Orchidantha suratii" nexsonid "node344585"
+pgloadind     pruning dups and overlapping name "Orchidantha suratii" nexsonid "node344584"
+pgloadind     pruning dups and overlapping name "Orchidantha" nexsonid "node344580"
+pgloadind   postpruning newick tree "((((Orchidantha_grandiflora,Orchidantha_holttumii,Orchidantha_sabahensis,Orchidantha_suratii,Orchidantha_quadricolor),Orchidantha_inouei),Orchidantha_borneensis),(Orchidantha_chinensis,((Orchidantha_fimbriata,Orchidantha_siamensis),Orchidantha_longiflora,Orchidantha_maxillarioides)))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 572856 taxonomy "Orchidantha grandiflora->Orchidantha->Lowiaceae->Zingiberales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node344575"
+pgloadind     taxon mapping OTT ID 572859 taxonomy "Orchidantha holttumii->Orchidantha->Lowiaceae->Zingiberales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node344576"
+pgloadind     taxon mapping OTT ID 572845 taxonomy "Orchidantha sabahensis->Orchidantha->Lowiaceae->Zingiberales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node344581"
+pgloadind     taxon mapping OTT ID 572844 taxonomy "Orchidantha suratii->Orchidantha->Lowiaceae->Zingiberales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node344583"
+pgloadind     taxon mapping OTT ID 572860 taxonomy "Orchidantha quadricolor->Orchidantha->Lowiaceae->Zingiberales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node344578"
+pgloadind     taxon mapping OTT ID 572858 taxonomy "Orchidantha inouei->Orchidantha->Lowiaceae->Zingiberales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node344586"
+pgloadind     taxon mapping OTT ID 572854 taxonomy "Orchidantha borneensis->Orchidantha->Lowiaceae->Zingiberales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node344571"
+pgloadind     taxon mapping OTT ID 572857 taxonomy "Orchidantha chinensis->Orchidantha->Lowiaceae->Zingiberales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node344588"
+pgloadind     taxon mapping OTT ID 730921 taxonomy "Orchidantha fimbriata->Orchidantha->Lowiaceae->Zingiberales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node344591"
+pgloadind     taxon mapping OTT ID 848246 taxonomy "Orchidantha siamensis->Orchidantha->Lowiaceae->Zingiberales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node344592"
+pgloadind     taxon mapping OTT ID 572861 taxonomy "Orchidantha longiflora->Orchidantha->Lowiaceae->Zingiberales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node344593"
+pgloadind     taxon mapping OTT ID 1063878 taxonomy "Orchidantha maxillarioides->Orchidantha->Lowiaceae->Zingiberales->commelinids->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node344594"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "832"
+pgloadind   Adding tree to graph tree id "832"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Johansen, L. B. (2005). Phylogeny of Orchidantha (Lowiaceae) and the Zingiberales based on six DNA regions. Systematic botany, 30(1), 106-117.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Lowiaceae
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1197
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_566
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2005
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node344568
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Stephen Smith
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1600/0363644053661931
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': 
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': true
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 730911
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig. 2
+adding relationships to licas for children
+Committing nodes: 19
+11:37:17.976 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

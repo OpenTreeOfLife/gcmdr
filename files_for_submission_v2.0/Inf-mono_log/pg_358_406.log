@@ -1,0 +1,121 @@
+20:31:37.399 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 18
+pgloadind Processing tree @id "406"
+pgloadind   tree info number nodes 35
+pgloadind   tree info number edges 34
+pgloadind   tree info ingroup "node200098"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 17
+pgloadind   property added ot:studyPublicationReference "Barnes I., Roux J., Wingfield B., Dudzinski M., Old K., & Wingfield M.J. 2003. Ceratocystis pirilliformis, a new species from Eucalyptus nitens in Australia. Mycologia 95, no. 5 (2003): 865-871."
+pgloadind   property added ot:focalCladeOTTTaxonName "Ceratocystis pirilliformis"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S983"
+pgloadind   property added ot:studyYear "2003"
+pgloadind   property added ot:studyId "pg_358"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/3762015"
+pgloadind   property added ot:focalClade "941287"
+pgloadind   property added ot:curatedType "MP, ITS"
+pgloadind   property added ot:inGroupClade "node200098"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:tag "ITS"
+pgloadind   property added ot:branchLengthMode ""
+loading a specific tree: 406
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "406"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Ceratocystis albofundus" nexsonid "node200115"
+pgloadind       duplicate OTT ID 553579
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Ceratocystis pirilliformis" nexsonid "node200120"
+pgloadind       duplicate OTT ID 941287
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Ceratocystis pirilliformis" nexsonid "node200121"
+pgloadind       duplicate OTT ID 941287
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Ceratocystis fimbriata" nexsonid "node200125"
+pgloadind       duplicate OTT ID 1097914
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Ceratocystis fimbriata" nexsonid "node200127"
+pgloadind       duplicate OTT ID 1097914
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Ceratocystis fimbriata" nexsonid "node200129"
+pgloadind       duplicate OTT ID 1097914
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Ceratocystis fimbriata" nexsonid "node200130"
+pgloadind       duplicate OTT ID 1097914
+pgloadind     pruning dups and overlapping name "Ceratocystis fimbriata" nexsonid "node200127"
+pgloadind     pruning dups and overlapping name "Ceratocystis fimbriata" nexsonid "node200130"
+pgloadind     pruning dups and overlapping name "Ceratocystis pirilliformis" nexsonid "node200120"
+pgloadind     pruning dups and overlapping name "Ceratocystis fimbriata" nexsonid "node200125"
+pgloadind     pruning dups and overlapping name "Ceratocystis pirilliformis" nexsonid "node200121"
+pgloadind     pruning dups and overlapping name "Ceratocystis fimbriata" nexsonid "node200129"
+pgloadind     pruning dups and overlapping name "Ceratocystis albofundus" nexsonid "node200115"
+pgloadind   postpruning newick tree "(((((((Ceratocystis_coerulescens,Ceratocystis_douglasii),Ceratocystis_laricicola),Ceratocystis_resinifera),Ceratocystis_paradoxa),Ceratocystis_eucalypti),Ceratocystis_virescens),((Ceratocystis_pirilliformis,Ceratocystis_fimbriata),Ceratocystis_albofundus))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 280857 taxonomy "Ceratocystis coerulescens->Ceratocystis->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node200105"
+pgloadind     taxon mapping OTT ID 43794 taxonomy "Ceratocystis douglasii->Ceratocystis->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node200106"
+pgloadind     taxon mapping OTT ID 43795 taxonomy "Ceratocystis laricicola->Ceratocystis->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node200107"
+pgloadind     taxon mapping OTT ID 363783 taxonomy "Ceratocystis resinifera->Ceratocystis->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node200108"
+pgloadind     taxon mapping OTT ID 815639 taxonomy "Ceratocystis paradoxa->Ceratocystis->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node200109"
+pgloadind     taxon mapping OTT ID 43796 taxonomy "Ceratocystis eucalypti->Ceratocystis->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node200110"
+pgloadind     taxon mapping OTT ID 148772 taxonomy "Ceratocystis virescens->Ceratocystis->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node200111"
+pgloadind     taxon mapping OTT ID 941287 taxonomy "Ceratocystis pirilliformis->Ceratocystis->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node200118"
+pgloadind     taxon mapping OTT ID 1097914 taxonomy "Ceratocystis fimbriata->Ceratocystis->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node200124"
+pgloadind     taxon mapping OTT ID 553579 taxonomy "Ceratocystis albofundus->Ceratocystis->Microascales->Hypocreomycetidae->Sordariomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node200114"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "406"
+pgloadind   Adding tree to graph tree id "406"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Barnes I., Roux J., Wingfield B., Dudzinski M., Old K., & Wingfield M.J. 2003. Ceratocystis pirilliformis, a new species from Eucalyptus nitens in Australia. Mycologia 95, no. 5 (2003): 865-871.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Ceratocystis pirilliformis
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': 
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S983
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_358
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2003
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node200098
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ITS
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.2307/3762015
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': 
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 941287
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP, ITS
+adding relationships to licas for children
+Committing nodes: 19
+20:32:54.681 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

@@ -1,0 +1,288 @@
+15:36:42.975 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 77
+pgloadind Processing tree @id "6512"
+pgloadind   tree info number nodes 149
+pgloadind   tree info number edges 148
+pgloadind   tree info ingroup "node1123577"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 69
+pgloadind   property added ot:studyPublicationReference "Wright, T. F., E. E. Schirtzinger, T. Matsumoto, J. R. Eberhard, G. R. Graves, J. J. Sanchez, S. Capelli, H. Muller, J. Scharpegge, G. K. Chambers, R. C. Fleischer. 2008. A multilocus molecular phylogeny of the parrots (Psittaciformes): support for a Gondwanan origin during the Cretaceous. Molecular Biology and Evolution 25 (10): 2141-2156."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6512"
+pgloadind   property added ot:focalCladeOTTTaxonName "Psittaciformes"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:studyYear "2008"
+pgloadind   property added ot:studyId "pg_2805"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1093/molbev/msn160"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "1020133"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Bayesian inference "
+pgloadind   property added ot:inGroupClade "node1123577"
+pgloadind   property added ot:specifiedRoot "node1123563"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 6512
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6512"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "((Nestor_notabilis,Strigops_habroptilus),((Calyptorhynchus_funereus,(Nymphicus_hollandicus,(Probosciger_aterrimus,(Cacatua_sulphurea,Eolophus_roseicapillus)))),(Coracopsis_vasa,(Psittrichas_fulgidus,((Poicephalus_robustus,Psittacus_erithacus),((((Brotogeris_jugularis,Myiopsitta_monachus),(Nannopsittaca_panychlora,Touit_batavicus)),(Forpus_passerinus,((Amazona_viridigenalis,Pionus_menstruus),(Hapalopsittaca_amazonina,Pionopsitta_caica)))),(Nandayus_nenday,((Cyanoliseus_patagonus,(Enicognathus_leptorhynchus,(Rhynchopsitta_pachyrhyncha,(Pyrrhura_picta,(Deroptyus_accipitrinus,Pionites_melanocephalus))))),(Aratinga_pertinax,(Cyanopsitta_spixii,(Ara_macao,Orthopsittaca_manilata)),(Leptosittaca_branickii,(Diopsittaca_nobilis,Guaruba_guarouba)))))))),((Micropsitta_finschii,((Alisterus_amboinensis,(Aprosmictus_erythropterus,Polytelis_alexandrae)),(Prioniturus_luconensis,(Eclectus_roratus,(Geoffroyus_heteroclitus,(Psittacula_columboides,Tanygnathus_lucionensis)))))),(((Cyclopsitta_diophthalma,Psittaculirostris_edwardsii),(Melopsittacus_undulatus,((Charmosyna_papou,(Phigys_solitarius,Vini_australis)),(Neopsittacus_musschenbroekii,((Glossopsitta_porphyrocephala,Lorius_albidinucha),(Chalcopsitta_duivenbodei,(Pseudeos_fuscata,(Eos_reticulata,Trichoglossus_haematodus)))))))),(((Neophema_elegans,Neopsephotus_bourkii),(Bolbopsittacus_lunulatus,(Agapornis_roseicollis,Loriculus_galgulus))),((Prosopeia_tabuensis,(Cyanoramphus_auriceps,Eunymphicus_uvaeensis)),(Northiella_haematogaster,((Barnardius_zonarius,Platycercus_adscitus),(Psephotus_varius,Purpureicephalus_spurius))))))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 749203 taxonomy "Nestor notabilis->Nestor->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123579"
+pgloadind     taxon mapping OTT ID 809432 taxonomy "Strigops habroptilus->Strigops->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123580"
+pgloadind     taxon mapping OTT ID 817586 taxonomy "Calyptorhynchus funereus->Calyptorhynchus->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123583"
+pgloadind     taxon mapping OTT ID 630645 taxonomy "Nymphicus hollandicus->Nymphicus->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123585"
+pgloadind     taxon mapping OTT ID 645854 taxonomy "Probosciger aterrimus->Probosciger->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123587"
+pgloadind     taxon mapping OTT ID 290348 taxonomy "Cacatua sulphurea->Cacatua->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123589"
+pgloadind     taxon mapping OTT ID 900913 taxonomy "Eolophus roseicapillus->Eolophus->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123590"
+pgloadind     taxon mapping OTT ID 48860 taxonomy "Coracopsis vasa->Coracopsis->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123592"
+pgloadind     taxon mapping OTT ID 412123 taxonomy "Psittrichas fulgidus->Psittrichas->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123594"
+pgloadind     taxon mapping OTT ID 634388 taxonomy "Poicephalus robustus->Poicephalus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123597"
+pgloadind     taxon mapping OTT ID 285641 taxonomy "Psittacus erithacus->Psittacus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123598"
+pgloadind     taxon mapping OTT ID 717634 taxonomy "Brotogeris jugularis->Brotogeris->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123603"
+pgloadind     taxon mapping OTT ID 276609 taxonomy "Myiopsitta monachus->Myiopsitta->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123604"
+pgloadind     taxon mapping OTT ID 706776 taxonomy "Nannopsittaca panychlora->Nannopsittaca->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123606"
+pgloadind     taxon mapping OTT ID 721567 taxonomy "Touit batavicus->Touit->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123607"
+pgloadind     taxon mapping OTT ID 301843 taxonomy "Forpus passerinus->Forpus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123609"
+pgloadind     taxon mapping OTT ID 919810 taxonomy "Amazona viridigenalis->Amazona->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123612"
+pgloadind     taxon mapping OTT ID 283087 taxonomy "Pionus menstruus->Pionus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123613"
+pgloadind     taxon mapping OTT ID 250888 taxonomy "Hapalopsittaca amazonina->Hapalopsittaca->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123615"
+pgloadind     taxon mapping OTT ID 238149 taxonomy "Pionopsitta caica->Pionopsitta->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123616"
+pgloadind     taxon mapping OTT ID 240289 taxonomy "Nandayus nenday->Nandayus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123618"
+pgloadind     taxon mapping OTT ID 682871 taxonomy "Cyanoliseus patagonus->Cyanoliseus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123621"
+pgloadind     taxon mapping OTT ID 648765 taxonomy "Enicognathus leptorhynchus->Enicognathus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123623"
+pgloadind     taxon mapping OTT ID 630227 taxonomy "Rhynchopsitta pachyrhyncha->Rhynchopsitta->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123625"
+pgloadind     taxon mapping OTT ID 993108 taxonomy "Pyrrhura picta->Pyrrhura->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123627"
+pgloadind     taxon mapping OTT ID 416108 taxonomy "Deroptyus accipitrinus->Deroptyus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123629"
+pgloadind     taxon mapping OTT ID 682876 taxonomy "Pionites melanocephalus->Pionites->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123630"
+pgloadind     taxon mapping OTT ID 435940 taxonomy "Aratinga pertinax->Aratinga->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123632"
+pgloadind     taxon mapping OTT ID 416113 taxonomy "Cyanopsitta spixii->Cyanopsitta->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123634"
+pgloadind     taxon mapping OTT ID 851014 taxonomy "Ara macao->Ara->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123636"
+pgloadind     taxon mapping OTT ID 215177 taxonomy "Orthopsittaca manilata->Orthopsittaca->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123637"
+pgloadind     taxon mapping OTT ID 194310 taxonomy "Leptosittaca branickii->Leptosittaca->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123639"
+pgloadind     taxon mapping OTT ID 789639 taxonomy "Diopsittaca nobilis->Diopsittaca->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123641"
+pgloadind     taxon mapping OTT ID 416104 taxonomy "Guaruba guarouba->Guaruba->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123642"
+pgloadind     taxon mapping OTT ID 989085 taxonomy "Micropsitta finschii->Micropsitta->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123645"
+pgloadind     taxon mapping OTT ID 108562 taxonomy "Alisterus amboinensis->Alisterus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123648"
+pgloadind     taxon mapping OTT ID 417916 taxonomy "Aprosmictus erythropterus->Aprosmictus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123650"
+pgloadind     taxon mapping OTT ID 435948 taxonomy "Polytelis alexandrae->Polytelis->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123651"
+pgloadind     taxon mapping OTT ID 771954 taxonomy "Prioniturus luconensis->Prioniturus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123653"
+pgloadind     taxon mapping OTT ID 375776 taxonomy "Eclectus roratus->Eclectus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123655"
+pgloadind     taxon mapping OTT ID 717631 taxonomy "Geoffroyus heteroclitus->Geoffroyus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123657"
+pgloadind     taxon mapping OTT ID 864236 taxonomy "Psittacula columboides->Psittacula->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123659"
+pgloadind     taxon mapping OTT ID 57354 taxonomy "Tanygnathus lucionensis->Tanygnathus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123660"
+pgloadind     taxon mapping OTT ID 717629 taxonomy "Cyclopsitta diophthalma->Cyclopsitta->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123664"
+pgloadind     taxon mapping OTT ID 995021 taxonomy "Psittaculirostris edwardsii->Psittaculirostris->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123665"
+pgloadind     taxon mapping OTT ID 734818 taxonomy "Melopsittacus undulatus->Melopsittacus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123667"
+pgloadind     taxon mapping OTT ID 375780 taxonomy "Charmosyna papou->Charmosyna->Loriidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123670"
+pgloadind     taxon mapping OTT ID 771947 taxonomy "Phigys solitarius->Phigys->Loriidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123672"
+pgloadind     taxon mapping OTT ID 749201 taxonomy "Vini australis->Vini->Loriidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123673"
+pgloadind     taxon mapping OTT ID 771941 taxonomy "Neopsittacus musschenbroekii->Neopsittacus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123675"
+pgloadind     taxon mapping OTT ID 717638 taxonomy "Glossopsitta porphyrocephala->Glossopsitta->Loriidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123678"
+pgloadind     taxon mapping OTT ID 771942 taxonomy "Lorius albidinucha->Lorius->Loriidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123679"
+pgloadind     taxon mapping OTT ID 417923 taxonomy "Chalcopsitta duivenbodei->Chalcopsitta->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123681"
+pgloadind     taxon mapping OTT ID 396440 taxonomy "Pseudeos fuscata->Pseudeos->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123683"
+pgloadind     taxon mapping OTT ID 799912 taxonomy "Eos reticulata->Eos->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123685"
+pgloadind     taxon mapping OTT ID 225737 taxonomy "Trichoglossus haematodus->Trichoglossus->Loriidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123686"
+pgloadind     taxon mapping OTT ID 651479 taxonomy "Neophema elegans->Neophema->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123690"
+pgloadind     taxon mapping OTT ID 108574 taxonomy "Neopsephotus bourkii->Neopsephotus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123691"
+pgloadind     taxon mapping OTT ID 717636 taxonomy "Bolbopsittacus lunulatus->Bolbopsittacus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123693"
+pgloadind     taxon mapping OTT ID 174401 taxonomy "Agapornis roseicollis->Agapornis->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123695"
+pgloadind     taxon mapping OTT ID 697455 taxonomy "Loriculus galgulus->Loriculus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123696"
+pgloadind     taxon mapping OTT ID 231512 taxonomy "Prosopeia tabuensis->Prosopeia->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123699"
+pgloadind     taxon mapping OTT ID 818314 taxonomy "Cyanoramphus auriceps->Cyanoramphus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123701"
+pgloadind     taxon mapping OTT ID 198675 taxonomy "Eunymphicus uvaeensis->Eunymphicus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123702"
+pgloadind     taxon mapping OTT ID 233194 taxonomy "Northiella haematogaster->Northiella->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123704"
+pgloadind     taxon mapping OTT ID 57350 taxonomy "Barnardius zonarius->Barnardius->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123707"
+pgloadind     taxon mapping OTT ID 771955 taxonomy "Platycercus adscitus->Platycercus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123708"
+pgloadind     taxon mapping OTT ID 14155 taxonomy "Psephotus varius->Psephotus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123710"
+pgloadind     taxon mapping OTT ID 393109 taxonomy "Purpureicephalus spurius->Purpureicephalus->Psittacidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1123711"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6512"
+pgloadind   Adding tree to graph tree id "6512"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Psittacula columboides was remapped to 'Psittacula' (id=3020706)
+	Nandayus nenday was remapped to 'Nandayus' (id=3019911)
+	Eolophus roseicapillus was remapped to 'Eolophus' (id=3020933)
+	Ara macao was remapped to 'Ara' (id=3020193)
+	Eunymphicus uvaeensis was remapped to 'Eunymphicus' (id=3020164)
+	Guaruba guarouba was remapped to 'Guaruba' (id=3020039)
+	Psephotus varius was remapped to 'Psephotus' (id=3020175)
+	Loriculus galgulus was remapped to 'Loriculus' (id=3019884)
+	Platycercus adscitus was remapped to 'Platycercus' (id=3020812)
+	Micropsitta finschii was remapped to 'Micropsitta' (id=3019973)
+	Vini australis was remapped to 'Vini' (id=3019742)
+	Psittrichas fulgidus was remapped to 'Psittrichas' (id=3019866)
+	Neopsephotus bourkii was remapped to 'Neopsephotus' (id=3020658)
+	Eos reticulata was remapped to 'Eos' (id=3020331)
+	Probosciger aterrimus was remapped to 'Probosciger' (id=3020957)
+	Pseudeos fuscata was remapped to 'Pseudeos' (id=3020080)
+	Neopsittacus musschenbroekii was remapped to 'Neopsittacus' (id=3020313)
+	Cyanoramphus auriceps was remapped to 'Cyanoramphus' (id=3020132)
+	Northiella haematogaster was remapped to 'Northiella' (id=3019927)
+	Orthopsittaca manilata was remapped to 'Orthopsittaca' (id=3020190)
+	Deroptyus accipitrinus was remapped to 'Deroptyus' (id=3019827)
+	Aprosmictus erythropterus was remapped to 'Aprosmictus' (id=3020768)
+	Touit batavicus was remapped to 'Touit' (id=3020790)
+	Aratinga pertinax was remapped to 'Aratinga' (id=3020544)
+	Eclectus roratus was remapped to 'Eclectus' (id=3020691)
+	Trichoglossus haematodus was remapped to 'Trichoglossus' (id=3019713)
+	Prosopeia tabuensis was remapped to 'Prosopeia' (id=3020033)
+	Brotogeris jugularis was remapped to 'Brotogeris' (id=3020018)
+	Cyclopsitta diophthalma was remapped to 'Cyclopsitta' (id=3020263)
+	Chalcopsitta duivenbodei was remapped to 'Chalcopsitta' (id=3020847)
+	Barnardius zonarius was remapped to 'Barnardius' (id=3019839)
+	Charmosyna papou was remapped to 'Charmosyna' (id=3019751)
+	Phigys solitarius was remapped to 'Phigys' (id=3019679)
+	Agapornis roseicollis was remapped to 'Agapornis' (id=3020274)
+	Cyanoliseus patagonus was remapped to 'Cyanoliseus' (id=3020292)
+	Psittaculirostris edwardsii was remapped to 'Psittaculirostris' (id=3020458)
+	Neophema elegans was remapped to 'Neophema' (id=3020599)
+	Psittacus erithacus was remapped to 'Psittacus' (id=3019815)
+	Hapalopsittaca amazonina was remapped to 'Hapalopsittaca' (id=3019800)
+	Alisterus amboinensis was remapped to 'Alisterus' (id=3020701)
+	Tanygnathus lucionensis was remapped to 'Tanygnathus' (id=3020668)
+	Amazona viridigenalis was remapped to 'Amazona' (id=3020358)
+	Cyanopsitta spixii was remapped to 'Cyanopsitta' (id=3020302)
+	Pionus menstruus was remapped to 'Pionus' (id=3020085)
+	Polytelis alexandrae was remapped to 'Polytelis' (id=3020063)
+	Cacatua sulphurea was remapped to 'Cacatua' (id=3020877)
+	Nymphicus hollandicus was remapped to 'Nymphicus' (id=3020973)
+	Geoffroyus heteroclitus was remapped to 'Geoffroyus' (id=3020322)
+	Nestor notabilis was remapped to 'Nestor' (id=3020683)
+	Pionopsitta caica was remapped to 'Pionopsitta' (id=3020480)
+	Poicephalus robustus was remapped to 'Poicephalus' (id=3019989)
+	Lorius albidinucha was remapped to 'Lorius' (id=3019681)
+	Coracopsis vasa was remapped to 'Coracopsis' (id=3020636)
+	Diopsittaca nobilis was remapped to 'Diopsittaca' (id=3020258)
+	Calyptorhynchus funereus was remapped to 'Calyptorhynchus' (id=3020941)
+	Purpureicephalus spurius was remapped to 'Purpureicephalus' (id=3020648)
+	Melopsittacus undulatus was remapped to 'Melopsittacus' (id=3019913)
+	Enicognathus leptorhynchus was remapped to 'Enicognathus' (id=3019919)
+	Bolbopsittacus lunulatus was remapped to 'Bolbopsittacus' (id=3020699)
+	Prioniturus luconensis was remapped to 'Prioniturus' (id=3020619)
+	Nannopsittaca panychlora was remapped to 'Nannopsittaca' (id=3020305)
+	Rhynchopsitta pachyrhyncha was remapped to 'Rhynchopsitta' (id=3020251)
+	Leptosittaca branickii was remapped to 'Leptosittaca' (id=3019881)
+	Myiopsitta monachus was remapped to 'Myiopsitta' (id=3019903)
+	Glossopsitta porphyrocephala was remapped to 'Glossopsitta' (id=3019698)
+	Pyrrhura picta was remapped to 'Pyrrhura' (id=3019932)
+	Forpus passerinus was remapped to 'Forpus' (id=3020505)
+	Strigops habroptilus was remapped to 'Strigops' (id=3019870)
+	Pionites melanocephalus was remapped to 'Pionites' (id=3020317)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Wright, T. F., E. E. Schirtzinger, T. Matsumoto, J. R. Eberhard, G. R. Graves, J. J. Sanchez, S. Capelli, H. Muller, J. Scharpegge, G. K. Chambers, R. C. Fleischer. 2008. A multilocus molecular phylogeny of the parrots (Psittaciformes): support for a Gondwanan origin during the Cretaceous. Molecular Biology and Evolution 25 (10): 2141-2156.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Psittaciformes
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6512
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2805
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2008
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1123577
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1093/molbev/msn160
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1123563
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 1020133
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Bayesian inference 
+adding relationships to licas for children
+Committing nodes: 135
+15:37:36.837 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

@@ -1,0 +1,123 @@
+15:15:41.304 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 26
+pgloadind Processing tree @id "1"
+pgloadind   tree info number nodes 51
+pgloadind   tree info number edges 50
+pgloadind   tree info ingroup "node4"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 19
+pgloadind   property added ot:studyPublicationReference "Patel, Swati, Jason D. Weckstein, José S.L. Patané, John M. Bates, Alexandre Aleixo. 2011. Temporal and spatial diversification of Pteroglossus araçaris (Aves: Ramphastidae) in the neotropics: constant rate of diversification does not support an increase in radiation during the Pleistocene. Molecular Phylogenetics and Evolution 58 (1): 105-115."
+pgloadind   property added ot:candidateTreeForSynthesis "tree1"
+pgloadind   property added ot:focalCladeOTTTaxonName "Pteroglossus"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.ympev.2010.10.016"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:studyYear "2011"
+pgloadind   property added ot:studyId "ot_153"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "291645"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Bayesian inference "
+pgloadind   property added ot:nearestTaxonMRCAOttId "291645"
+pgloadind   property added ot:inGroupClade "node4"
+pgloadind   property added ot:nearestTaxonMRCAName "Pteroglossus"
+pgloadind   property added ot:specifiedRoot "node1"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+loading a specific tree: 1
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "1"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "((((Pteroglossus_inscriptus_inscriptus,Pteroglossus_inscriptus_humboldti),Pteroglossus_viridis),Pteroglossus_bailloni),((((Pteroglossus_sanguineus,Pteroglossus_erythropygius),Pteroglossus_frantzii),Pteroglossus_torquatus),((((Pteroglossus_castanotis_castanotis,Pteroglossus_castanotis_australis),Pteroglossus_pluricinctus),(Pteroglossus_aracari_atricollis,Pteroglossus_aracari_aracari)),(((Pteroglossus_azara_flavirostris,Pteroglossus_mariae),Pteroglossus_azara_azara),(Pteroglossus_beauharnaesii,(Pteroglossus_bitorquatus_reichenowi,Pteroglossus_bitorquatus_sturmii))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 829342 taxonomy "Pteroglossus inscriptus inscriptus->Pteroglossus inscriptus->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node37"
+pgloadind     taxon mapping OTT ID 305170 taxonomy "Pteroglossus inscriptus humboldti->Pteroglossus inscriptus->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node38"
+pgloadind     taxon mapping OTT ID 246963 taxonomy "Pteroglossus viridis->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node39"
+pgloadind     taxon mapping OTT ID 130076 taxonomy "Pteroglossus bailloni->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node40"
+pgloadind     taxon mapping OTT ID 246960 taxonomy "Pteroglossus sanguineus->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node30"
+pgloadind     taxon mapping OTT ID 769988 taxonomy "Pteroglossus erythropygius->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node31"
+pgloadind     taxon mapping OTT ID 355169 taxonomy "Pteroglossus frantzii->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node32"
+pgloadind     taxon mapping OTT ID 450968 taxonomy "Pteroglossus torquatus->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node33"
+pgloadind     taxon mapping OTT ID 829343 taxonomy "Pteroglossus castanotis castanotis->Pteroglossus castanotis->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node21"
+pgloadind     taxon mapping OTT ID 829345 taxonomy "Pteroglossus castanotis australis->Pteroglossus castanotis->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node22"
+pgloadind     taxon mapping OTT ID 769998 taxonomy "Pteroglossus pluricinctus->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node23"
+pgloadind     taxon mapping OTT ID 1031356 taxonomy "Pteroglossus aracari atricollis->Pteroglossus aracari->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node25"
+pgloadind     taxon mapping OTT ID 1031362 taxonomy "Pteroglossus aracari aracari->Pteroglossus aracari->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node26"
+pgloadind     taxon mapping OTT ID 355349 taxonomy "Pteroglossus azara flavirostris->Pteroglossus azara->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node15"
+pgloadind     taxon mapping OTT ID 770000 taxonomy "Pteroglossus mariae->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node16"
+pgloadind     taxon mapping OTT ID 263560 taxonomy "Pteroglossus azara azara->Pteroglossus azara->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node17"
+pgloadind     taxon mapping OTT ID 640525 taxonomy "Pteroglossus beauharnaesii->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node12"
+pgloadind     taxon mapping OTT ID 829347 taxonomy "Pteroglossus bitorquatus reichenowi->Pteroglossus bitorquatus->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node11"
+pgloadind     taxon mapping OTT ID 829349 taxonomy "Pteroglossus bitorquatus sturmii->Pteroglossus bitorquatus->Pteroglossus->Ramphastidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node10"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "1"
+pgloadind   Adding tree to graph tree id "1"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Patel, Swati, Jason D. Weckstein, José S.L. Patané, John M. Bates, Alexandre Aleixo. 2011. Temporal and spatial diversification of Pteroglossus araçaris (Aves: Ramphastidae) in the neotropics: constant rate of diversification does not support an increase in radiation during the Pleistocene. Molecular Phylogenetics and Evolution 58 (1): 105-115.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Pteroglossus
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree1
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:nearestTaxonMRCAName
+Adding property 'ot:nearestTaxonMRCAName': Pteroglossus
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:nearestTaxonMRCAOttId
+Adding property 'ot:nearestTaxonMRCAOttId': 291645
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': ot_153
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2011
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node4
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.ympev.2010.10.016
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 291645
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Bayesian inference 
+adding relationships to licas for children
+Committing nodes: 37
+15:16:33.397 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

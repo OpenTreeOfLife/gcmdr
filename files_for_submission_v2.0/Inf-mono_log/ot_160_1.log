@@ -1,0 +1,119 @@
+15:34:35.017 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 17
+pgloadind Processing tree @id "1"
+pgloadind   tree info number nodes 33
+pgloadind   tree info number edges 32
+pgloadind   tree info ingroup "node2"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 16
+pgloadind   property added ot:studyPublicationReference "White, Nicole E., Matthew J. Phillips, M. Thomas P. Gilbert, Alonzo Alfaro-Núñez, Eske Willerslev, Peter R. Mawson, Peter B.S. Spencer, Michael Bunce. 2011. The evolutionary history of cockatoos (Aves: Psittaciformes: Cacatuidae). Molecular Phylogenetics and Evolution 59 (3): 615-622."
+pgloadind   property added ot:candidateTreeForSynthesis "tree1"
+pgloadind   property added ot:focalCladeOTTTaxonName "Cacatuidae"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.ympev.2011.03.011"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:studyYear "2011"
+pgloadind   property added ot:studyId "ot_160"
+pgloadind   property added ot:comment "Callocephalon fimbriatum not currently in Cacatuidae in taxonomy. Left unmapped here. (JWB)"
+pgloadind   property added ot:focalClade "512919"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Bayesian inference "
+pgloadind   property added ot:nearestTaxonMRCAOttId "512919"
+pgloadind   property added ot:inGroupClade "node2"
+pgloadind   property added ot:nearestTaxonMRCAName "Cacatuidae"
+pgloadind   property added ot:specifiedRoot "node1"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+loading a specific tree: 1
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "1"
+pgloadind     OTT ID missing name "Callocephalon fimbriatum" nexsonid "node20"
+pgloadind     pruning unmapped name "Callocephalon fimbriatum" nexsonid "node20"
+pgloadind   postpruning newick tree "(((((Calyptorhynchus_latirostris,Calyptorhynchus_baudinii),Calyptorhynchus_funereus),(Calyptorhynchus_banksii,Calyptorhynchus_lathami)),(Probosciger_aterrimus,((Cacatua_leadbeateri,(((Cacatua_galerita,Cacatua_sulphurea),Cacatua_alba),(Cacatua_goffini,(Cacatua_pastinator,Cacatua_sanguinea)))),Eolophus_roseicapillus))),Nymphicus_hollandicus)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 119421 taxonomy "Calyptorhynchus latirostris->Calyptorhynchus->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node26"
+pgloadind     taxon mapping OTT ID 716374 taxonomy "Calyptorhynchus baudinii->Calyptorhynchus->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node27"
+pgloadind     taxon mapping OTT ID 817586 taxonomy "Calyptorhynchus funereus->Calyptorhynchus->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node28"
+pgloadind     taxon mapping OTT ID 1089846 taxonomy "Calyptorhynchus banksii->Calyptorhynchus->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node30"
+pgloadind     taxon mapping OTT ID 716372 taxonomy "Calyptorhynchus lathami->Calyptorhynchus->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node31"
+pgloadind     taxon mapping OTT ID 645854 taxonomy "Probosciger aterrimus->Probosciger->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node22"
+pgloadind     taxon mapping OTT ID 209184 taxonomy "Cacatua leadbeateri->Cacatua->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node18"
+pgloadind     taxon mapping OTT ID 290349 taxonomy "Cacatua galerita->Cacatua->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node15"
+pgloadind     taxon mapping OTT ID 290348 taxonomy "Cacatua sulphurea->Cacatua->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node16"
+pgloadind     taxon mapping OTT ID 579824 taxonomy "Cacatua alba->Cacatua->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node17"
+pgloadind     taxon mapping OTT ID 619331 taxonomy "Cacatua goffini->Cacatua->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node12"
+pgloadind     taxon mapping OTT ID 716377 taxonomy "Cacatua pastinator->Cacatua->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node11"
+pgloadind     taxon mapping OTT ID 995013 taxonomy "Cacatua sanguinea->Cacatua->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node10"
+pgloadind     taxon mapping OTT ID 900913 taxonomy "Eolophus roseicapillus->Eolophus->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node21"
+pgloadind     taxon mapping OTT ID 630645 taxonomy "Nymphicus hollandicus->Nymphicus->Cacatuidae->Psittaciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node32"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "1"
+pgloadind   Adding tree to graph tree id "1"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Nymphicus hollandicus was remapped to 'Nymphicus' (id=3020973)
+	Eolophus roseicapillus was remapped to 'Eolophus' (id=3020933)
+	Probosciger aterrimus was remapped to 'Probosciger' (id=3020957)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': White, Nicole E., Matthew J. Phillips, M. Thomas P. Gilbert, Alonzo Alfaro-Núñez, Eske Willerslev, Peter R. Mawson, Peter B.S. Spencer, Michael Bunce. 2011. The evolutionary history of cockatoos (Aves: Psittaciformes: Cacatuidae). Molecular Phylogenetics and Evolution 59 (3): 615-622.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Cacatuidae
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree1
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': Callocephalon fimbriatum not currently in Cacatuidae in taxonomy. Left unmapped here. (JWB)
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:nearestTaxonMRCAName
+Adding property 'ot:nearestTaxonMRCAName': Cacatuidae
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:nearestTaxonMRCAOttId
+Adding property 'ot:nearestTaxonMRCAOttId': 512919
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': ot_160
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2011
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node2
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.ympev.2011.03.011
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 512919
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Bayesian inference 
+adding relationships to licas for children
+Committing nodes: 29
+15:35:27.827 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

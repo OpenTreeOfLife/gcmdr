@@ -1,0 +1,154 @@
+15:11:31.025 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 33
+pgloadind Processing tree @id "1"
+pgloadind   tree info number nodes 65
+pgloadind   tree info number edges 64
+pgloadind   tree info ingroup "node7"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 30
+pgloadind   property added ot:studyPublicationReference "Marks, Ben D., Jason D. Weckstein, Robert G. Moyle. 2007. Molecular phylogenetics of the bee-eaters (Aves: Meropidae) based on nuclear and mitochondrial DNA sequence data. Molecular Phylogenetics and Evolution 45 (1): 23-32."
+pgloadind   property added ot:candidateTreeForSynthesis "tree1"
+pgloadind   property added ot:focalCladeOTTTaxonName "Meropidae"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.ympev.2007.07.004"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:studyYear "2007"
+pgloadind   property added ot:studyId "ot_148"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "815968"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Bayesian inference "
+pgloadind   property added ot:nearestTaxonMRCAOttId "815968"
+pgloadind   property added ot:inGroupClade "node7"
+pgloadind   property added ot:nearestTaxonMRCAName "Meropidae"
+pgloadind   property added ot:specifiedRoot "node1"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+loading a specific tree: 1
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "1"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Meropogon forsteni" nexsonid "node64"
+pgloadind       duplicate OTT ID 1050191
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Merops apiaster" nexsonid "node39"
+pgloadind       duplicate OTT ID 755107
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Merops leschenaulti" nexsonid "node53"
+pgloadind       duplicate OTT ID 372778
+pgloadind     pruning dups and overlapping name "Merops leschenaulti" nexsonid "node53"
+pgloadind     pruning dups and overlapping name "Merops apiaster" nexsonid "node39"
+pgloadind     pruning dups and overlapping name "Meropogon forsteni" nexsonid "node64"
+pgloadind   postpruning newick tree "(Nyctyornis_amictus,(((Merops_bulocki,Merops_bullockoides),(((((((Merops_pusillus_pusillus,Merops_pusillus_meridionalis),Merops_variegatus_loringi),(Merops_hirundineus,Merops_oreobates)),((Merops_gularis_australis,Merops_gularis_gularis),(Merops_muelleri_mentalis,Merops_muelleri_muelleri))),Merops_boehmi),((((((Merops_ornatus,Merops_apiaster),((Merops_persicus,Merops_superciliosus),Merops_philippinus)),(((Merops_viridis_viridis,Merops_viridis_americanus),Merops_leschenaulti),Merops_orientalis)),Merops_nubicus),Merops_malimbicus),Merops_albicollis)),Merops_breweri)),Meropogon_forsteni))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 524018 taxonomy "Nyctyornis amictus->Nyctyornis->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node65"
+pgloadind     taxon mapping OTT ID 704136 taxonomy "Merops bulocki->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node60"
+pgloadind     taxon mapping OTT ID 423281 taxonomy "Merops bullockoides->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node61"
+pgloadind     taxon mapping OTT ID 948869 taxonomy "Merops pusillus pusillus->Merops pusillus->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node17"
+pgloadind     taxon mapping OTT ID 948865 taxonomy "Merops pusillus meridionalis->Merops pusillus->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node18"
+pgloadind     taxon mapping OTT ID 948874 taxonomy "Merops variegatus loringi->Merops variegatus->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node19"
+pgloadind     taxon mapping OTT ID 150514 taxonomy "Merops hirundineus->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node21"
+pgloadind     taxon mapping OTT ID 948862 taxonomy "Merops oreobates->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node22"
+pgloadind     taxon mapping OTT ID 150516 taxonomy "Merops gularis australis->Merops gularis->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node25"
+pgloadind     taxon mapping OTT ID 150515 taxonomy "Merops gularis gularis->Merops gularis->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node26"
+pgloadind     taxon mapping OTT ID 724983 taxonomy "Merops muelleri mentalis->Merops muelleri->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node28"
+pgloadind     taxon mapping OTT ID 150518 taxonomy "Merops muelleri muelleri->Merops muelleri->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node29"
+pgloadind     taxon mapping OTT ID 423285 taxonomy "Merops boehmi->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node30"
+pgloadind     taxon mapping OTT ID 614658 taxonomy "Merops ornatus->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node40"
+pgloadind     taxon mapping OTT ID 755107 taxonomy "Merops apiaster->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node38"
+pgloadind     taxon mapping OTT ID 898071 taxonomy "Merops persicus->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node43"
+pgloadind     taxon mapping OTT ID 898073 taxonomy "Merops superciliosus->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node44"
+pgloadind     taxon mapping OTT ID 372777 taxonomy "Merops philippinus->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node45"
+pgloadind     taxon mapping OTT ID 372775 taxonomy "Merops viridis viridis->Merops viridis->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node49"
+pgloadind     taxon mapping OTT ID 372774 taxonomy "Merops viridis americanus->Merops viridis->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node50"
+pgloadind     taxon mapping OTT ID 372778 taxonomy "Merops leschenaulti->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node52"
+pgloadind     taxon mapping OTT ID 423282 taxonomy "Merops orientalis->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node54"
+pgloadind     taxon mapping OTT ID 989087 taxonomy "Merops nubicus->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node55"
+pgloadind     taxon mapping OTT ID 1050190 taxonomy "Merops malimbicus->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node56"
+pgloadind     taxon mapping OTT ID 423284 taxonomy "Merops albicollis->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node57"
+pgloadind     taxon mapping OTT ID 724987 taxonomy "Merops breweri->Merops->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node58"
+pgloadind     taxon mapping OTT ID 1050191 taxonomy "Meropogon forsteni->Meropogon->Meropidae->Coraciiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node63"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "1"
+pgloadind   Adding tree to graph tree id "1"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Meropogon forsteni was remapped to 'Meropogon' (id=3046386)
+	Merops variegatus loringi was remapped to 'Merops variegatus' (id=3046347)
+	Nyctyornis amictus was remapped to 'Nyctyornis' (id=3046389)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Marks, Ben D., Jason D. Weckstein, Robert G. Moyle. 2007. Molecular phylogenetics of the bee-eaters (Aves: Meropidae) based on nuclear and mitochondrial DNA sequence data. Molecular Phylogenetics and Evolution 45 (1): 23-32.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Meropidae
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree1
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:nearestTaxonMRCAName
+Adding property 'ot:nearestTaxonMRCAName': Meropidae
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:nearestTaxonMRCAOttId
+Adding property 'ot:nearestTaxonMRCAOttId': 815968
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': ot_148
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2007
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node7
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.ympev.2007.07.004
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 815968
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Bayesian inference 
+adding relationships to licas for children
+Committing nodes: 53
+15:12:22.769 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

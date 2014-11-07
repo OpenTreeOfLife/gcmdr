@@ -1,0 +1,89 @@
+16:07:52.389 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 10
+pgloadind Processing tree @id "6605"
+pgloadind   tree info number nodes 19
+pgloadind   tree info number edges 18
+pgloadind   tree info ingroup "node1153037"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 8
+pgloadind   property added ot:studyPublicationReference "Colangelo, P., A.A. Bannikova, B. Kryštufek, V.S. Lebedev, F. Annesi, E. Capanna, A. Loy. 2010. Molecular systematics and evolutionary biogeography of the genus Talpa (Soricomorpha: Talpidae). Molecular Phylogenetics and Evolution 55 (2): 372-380."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6605"
+pgloadind   property added ot:focalCladeOTTTaxonName "Talpa"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:studyYear "2010"
+pgloadind   property added ot:studyId "pg_2844"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.ympev.2010.01.038"
+pgloadind   property added ot:focalClade "222367"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Fig. 2 (topology)"
+pgloadind   property added ot:inGroupClade "node1153037"
+pgloadind   property added ot:specifiedRoot "node1153036"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode ""
+loading a specific tree: 6605
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6605"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "((((Talpa_stankovici,Talpa_levantis),((Talpa_occidentalis,Talpa_europaea),(Talpa_caeca,Talpa_romana))),Talpa_caucasica),Talpa_altaica)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 850321 taxonomy "Talpa stankovici->Talpa->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153041"
+pgloadind     taxon mapping OTT ID 626278 taxonomy "Talpa levantis->Talpa->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153042"
+pgloadind     taxon mapping OTT ID 366965 taxonomy "Talpa occidentalis->Talpa->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153045"
+pgloadind     taxon mapping OTT ID 222362 taxonomy "Talpa europaea->Talpa->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153046"
+pgloadind     taxon mapping OTT ID 353440 taxonomy "Talpa caeca->Talpa->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153048"
+pgloadind     taxon mapping OTT ID 1003027 taxonomy "Talpa romana->Talpa->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153049"
+pgloadind     taxon mapping OTT ID 626275 taxonomy "Talpa caucasica->Talpa->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153050"
+pgloadind     taxon mapping OTT ID 243622 taxonomy "Talpa altaica->Talpa->Talpidae->Insectivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1153051"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6605"
+pgloadind   Adding tree to graph tree id "6605"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Colangelo, P., A.A. Bannikova, B. Kryštufek, V.S. Lebedev, F. Annesi, E. Capanna, A. Loy. 2010. Molecular systematics and evolutionary biogeography of the genus Talpa (Soricomorpha: Talpidae). Molecular Phylogenetics and Evolution 55 (2): 372-380.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Talpa
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6605
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': 
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2844
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2010
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1153037
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph Brown
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.ympev.2010.01.038
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1153036
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 222367
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig. 2 (topology)
+adding relationships to licas for children
+Committing nodes: 15
+16:08:45.644 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

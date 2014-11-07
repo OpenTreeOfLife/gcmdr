@@ -1,0 +1,156 @@
+20:43:17.195 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 51
+pgloadind Processing tree @id "432"
+pgloadind   tree info number nodes 88
+pgloadind   tree info number edges 87
+pgloadind   tree info ingroup "node201616"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 49
+pgloadind   property added ot:studyPublicationReference "Peterson S., Perez J., Vega F., & Infante F. 2003. Penicillium brocae, a new species associated with the coffee berry borer in Chiapas, Mexico. Mycologia, 95(1): 141-147."
+pgloadind   property added ot:focalCladeOTTTaxonName "Penicillium brocae"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S933"
+pgloadind   property added ot:studyYear "2003"
+pgloadind   property added ot:studyId "pg_373"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/3761973"
+pgloadind   property added ot:focalClade "1084807"
+pgloadind   property added ot:curatedType "MP, ITS + LSU"
+pgloadind   property added ot:inGroupClade "node201616"
+pgloadind   property added ot:tag "ITS"
+pgloadind   property added ot:tag "LSU"
+loading a specific tree: 432
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "432"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Penicillium miczynskii" nexsonid "node201669"
+pgloadind       duplicate OTT ID 486252
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Penicillium miczynskii" nexsonid "node201672"
+pgloadind       duplicate OTT ID 486252
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Penicillium dierckxii" nexsonid "node201678"
+pgloadind       duplicate OTT ID 424442
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Penicillium citreonigrum" nexsonid "node201692"
+pgloadind       duplicate OTT ID 927515
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Penicillium velutinum" nexsonid "node201697"
+pgloadind       duplicate OTT ID 937354
+pgloadind     pruning dups and overlapping name "Penicillium miczynskii" nexsonid "node201669"
+pgloadind     pruning dups and overlapping name "Penicillium miczynskii" nexsonid "node201672"
+pgloadind     pruning dups and overlapping name "Penicillium citreonigrum" nexsonid "node201692"
+pgloadind     pruning dups and overlapping name "Penicillium velutinum" nexsonid "node201697"
+pgloadind     pruning dups and overlapping name "Penicillium dierckxii" nexsonid "node201678"
+pgloadind   postpruning newick tree "(((((Penicillium_stolkiae,Penicillium_donkii),Penicillium_levitum,Penicillium_dodgei,(Penicillium_simplicissimum,Penicillium_rolfsii),Penicillium_vitale),Penicillium_oxalicum),((((((Penicillium_adametzii,((Penicillium_citreonigrum,Penicillium_herquei),(Penicillium_bilaiae,Penicillium_adametzioides))),Penicillium_brocae),(Penicillium_lividum,(Penicillium_velutinum,(Penicillium_spinulosum,Penicillium_glabrum,Penicillium_lapidosum)))),(Penicillium_atramentosum,Penicillium_madriti,Penicillium_chrysogenum,Penicillium_griseofulvum,(Penicillium_olsonii,Penicillium_miczynskii,Penicillium_lanosum),Penicillium_solitum,(Penicillium_canescens,Penicillium_atrovenetum))),(((Penicillium_citrinum,Penicillium_westlingii),Penicillium_waksmanii),Penicillium_dierckxii),(Penicillium_cinnamopurpureum,Penicillium_chermesinum)),((Penicillium_parvum,Penicillium_vinaceum),Penicillium_dimorphosporum,((Penicillium_decumbens,Penicillium_restrictum),(Penicillium_corylophilum,Penicillium_melinii))))),(Penicillium_cyaneum,Penicillium_implicatum))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 562104 taxonomy "Penicillium stolkiae->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201621"
+pgloadind     taxon mapping OTT ID 181160 taxonomy "Penicillium donkii->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201622"
+pgloadind     taxon mapping OTT ID 135145 taxonomy "Penicillium levitum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201623"
+pgloadind     taxon mapping OTT ID 5310733 taxonomy "Penicillium dodgei->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201624"
+pgloadind     taxon mapping OTT ID 968742 taxonomy "Penicillium simplicissimum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201626"
+pgloadind     taxon mapping OTT ID 298802 taxonomy "Penicillium rolfsii->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201627"
+pgloadind     taxon mapping OTT ID 226477 taxonomy "Penicillium vitale->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201628"
+pgloadind     taxon mapping OTT ID 298795 taxonomy "Penicillium oxalicum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201629"
+pgloadind     taxon mapping OTT ID 503140 taxonomy "Penicillium adametzii->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201636"
+pgloadind     taxon mapping OTT ID 927515 taxonomy "Penicillium citreonigrum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201639"
+pgloadind     taxon mapping OTT ID 357940 taxonomy "Penicillium herquei->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201640"
+pgloadind     taxon mapping OTT ID 448566 taxonomy "Penicillium bilaiae->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201642"
+pgloadind     taxon mapping OTT ID 526139 taxonomy "Penicillium adametzioides->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201643"
+pgloadind     taxon mapping OTT ID 1084807 taxonomy "Penicillium brocae->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201644"
+pgloadind     taxon mapping OTT ID 636779 taxonomy "Penicillium lividum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201646"
+pgloadind     taxon mapping OTT ID 937354 taxonomy "Penicillium velutinum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201648"
+pgloadind     taxon mapping OTT ID 288458 taxonomy "Penicillium spinulosum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201650"
+pgloadind     taxon mapping OTT ID 600253 taxonomy "Penicillium glabrum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201651"
+pgloadind     taxon mapping OTT ID 3755570 taxonomy "Penicillium lapidosum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201652"
+pgloadind     taxon mapping OTT ID 840879 taxonomy "Penicillium atramentosum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201654"
+pgloadind     taxon mapping OTT ID 352843 taxonomy "Penicillium madriti->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201655"
+pgloadind     taxon mapping OTT ID 226485 taxonomy "Penicillium chrysogenum->Penicillium chrysogenum complex->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201656"
+pgloadind     taxon mapping OTT ID 226475 taxonomy "Penicillium griseofulvum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201657"
+pgloadind     taxon mapping OTT ID 493807 taxonomy "Penicillium olsonii->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201659"
+pgloadind     taxon mapping OTT ID 486252 taxonomy "Penicillium miczynskii->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201660"
+pgloadind     taxon mapping OTT ID 504245 taxonomy "Penicillium lanosum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201661"
+pgloadind     taxon mapping OTT ID 465230 taxonomy "Penicillium solitum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201662"
+pgloadind     taxon mapping OTT ID 901426 taxonomy "Penicillium canescens->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201664"
+pgloadind     taxon mapping OTT ID 448567 taxonomy "Penicillium atrovenetum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201665"
+pgloadind     taxon mapping OTT ID 226488 taxonomy "Penicillium citrinum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201674"
+pgloadind     taxon mapping OTT ID 823311 taxonomy "Penicillium westlingii->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201675"
+pgloadind     taxon mapping OTT ID 823308 taxonomy "Penicillium waksmanii->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201671"
+pgloadind     taxon mapping OTT ID 424442 taxonomy "Penicillium dierckxii->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201677"
+pgloadind     taxon mapping OTT ID 891238 taxonomy "Penicillium cinnamopurpureum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201680"
+pgloadind     taxon mapping OTT ID 288454 taxonomy "Penicillium chermesinum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201681"
+pgloadind     taxon mapping OTT ID 361813 taxonomy "Penicillium parvum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201684"
+pgloadind     taxon mapping OTT ID 823307 taxonomy "Penicillium vinaceum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201685"
+pgloadind     taxon mapping OTT ID 980458 taxonomy "Penicillium dimorphosporum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201686"
+pgloadind     taxon mapping OTT ID 181234 taxonomy "Penicillium decumbens->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201689"
+pgloadind     taxon mapping OTT ID 298803 taxonomy "Penicillium restrictum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201690"
+pgloadind     taxon mapping OTT ID 724251 taxonomy "Penicillium corylophilum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201694"
+pgloadind     taxon mapping OTT ID 974822 taxonomy "Penicillium melinii->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201696"
+pgloadind     taxon mapping OTT ID 181194 taxonomy "Penicillium cyaneum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201699"
+pgloadind     taxon mapping OTT ID 181336 taxonomy "Penicillium implicatum->Penicillium->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201700"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "432"
+pgloadind   Adding tree to graph tree id "432"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Penicillium chrysogenum was remapped to 'Penicillium chrysogenum complex' (id=497785)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Peterson S., Perez J., Vega F., & Infante F. 2003. Penicillium brocae, a new species associated with the coffee berry borer in Chiapas, Mexico. Mycologia, 95(1): 141-147.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Penicillium brocae
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2003
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node201616
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': LSU
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.2307/3761973
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 1084807
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP, ITS + LSU
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_373
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S933
+adding relationships to licas for children
+Committing nodes: 75
+20:44:25.302 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

@@ -1,0 +1,81 @@
+20:25:57.639 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 11
+pgloadind Processing tree @id "5534"
+pgloadind   tree info number nodes 21
+pgloadind   tree info number edges 20
+pgloadind   tree info ingroup "node952935"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 9
+pgloadind   property added ot:studyPublicationReference "Weir A., & Hughes M. 2002. The taxonomic status of Corethromyces bicolor from New Zealand, as inferred from morphological, developmental, and molecular studies. Mycologia, 94(3): 483-493."
+pgloadind   property added ot:focalCladeOTTTaxonName "Corethromyces bicolor"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S825"
+pgloadind   property added ot:studyYear "2002"
+pgloadind   property added ot:studyId "pg_343"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/3761782"
+pgloadind   property added ot:focalClade "236816"
+pgloadind   property added ot:curatedType "MP, SSU"
+pgloadind   property added ot:inGroupClade "node952935"
+pgloadind   property added ot:tag "MP"
+pgloadind   property added ot:tag "SSU"
+pgloadind   property added ot:tag "Choose me"
+loading a specific tree: 5534
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "5534"
+pgloadind     OTT ID missing name "Corethromyces sp. 1" nexsonid "node952947"
+pgloadind     OTT ID missing name "Rhadinomyces sp. 1" nexsonid "node952949"
+pgloadind     pruning unmapped name "Corethromyces sp. 1" nexsonid "node952947"
+pgloadind     pruning unmapped name "Rhadinomyces sp. 1" nexsonid "node952949"
+pgloadind   postpruning newick tree "(((Rhachomyces_philonthinus,((Stigmatomyces_hydreliae,(Stigmatomyces_scaptomyzae,Stigmatomyces_rugosus)),Corethromyces_bicolor)),Botryandromyces_ornatus),Rickia_passalina)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 586512 taxonomy "Rhachomyces philonthinus->Rhachomyces->Laboulbeniaceae->Laboulbeniales->Laboulbeniomycetidae->Laboulbeniomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node952938"
+pgloadind     taxon mapping OTT ID 586505 taxonomy "Stigmatomyces hydreliae->Stigmatomyces->Laboulbeniaceae->Laboulbeniales->Laboulbeniomycetidae->Laboulbeniomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node952941"
+pgloadind     taxon mapping OTT ID 586517 taxonomy "Stigmatomyces scaptomyzae->Stigmatomyces->Laboulbeniaceae->Laboulbeniales->Laboulbeniomycetidae->Laboulbeniomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node952943"
+pgloadind     taxon mapping OTT ID 586506 taxonomy "Stigmatomyces rugosus->Stigmatomyces->Laboulbeniaceae->Laboulbeniales->Laboulbeniomycetidae->Laboulbeniomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node952944"
+pgloadind     taxon mapping OTT ID 236816 taxonomy "Corethromyces bicolor->Corethromyces->Laboulbeniaceae->Laboulbeniales->Laboulbeniomycetidae->Laboulbeniomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node952948"
+pgloadind     taxon mapping OTT ID 757379 taxonomy "Botryandromyces ornatus->Botryandromyces->Laboulbeniaceae->Laboulbeniales->Laboulbeniomycetidae->Laboulbeniomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node952950"
+pgloadind     taxon mapping OTT ID 757376 taxonomy "Rickia passalina->Rickia->Laboulbeniaceae->Laboulbeniales->Laboulbeniomycetidae->Laboulbeniomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node952951"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "5534"
+pgloadind   Adding tree to graph tree id "5534"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Corethromyces bicolor was remapped to 'Corethromyces' (id=482267)
+	Rhachomyces philonthinus was remapped to 'Rhachomyces' (id=481735)
+	Rickia passalina was remapped to 'Rickia' (id=482629)
+	Botryandromyces ornatus was remapped to 'Botryandromyces' (id=481851)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Weir A., & Hughes M. 2002. The taxonomic status of Corethromyces bicolor from New Zealand, as inferred from morphological, developmental, and molecular studies. Mycologia, 94(3): 483-493.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Corethromyces bicolor
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2002
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node952935
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': Choose me
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.2307/3761782
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 236816
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP, SSU
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_343
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S825
+adding relationships to licas for children
+Committing nodes: 13
+20:27:10.713 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

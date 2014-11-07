@@ -1,0 +1,187 @@
+21:46:03.312 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 54
+pgloadind Processing tree @id "6322"
+pgloadind   tree info number nodes 90
+pgloadind   tree info number edges 89
+pgloadind   tree info ingroup "node1098404"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 53
+pgloadind   property added ot:studyPublicationReference "Vera Regina Werner, Haywood Dail Laughinghouse IV, Marli Fátima Fiore, Célia Leite Sant'Anna, Caroline Hoff, Kleber Renan de Souza Santos, Emanuel Bruno Neuhaus, Renato José Reis Molica, Ricardo Yukio Honda, Ricardo Omar Echenique, 2012, 'Morphological and molecular studies of Sphaerospermopsis torques-reginae (Cyanobacteria, Nostocales) from South American water blooms', Phycologia, vol. 51, no. 2, pp. 228-238"
+pgloadind   property added ot:candidateTreeForSynthesis "tree6322"
+pgloadind   property added ot:focalCladeOTTTaxonName "Nostocales"
+pgloadind   property added ot:curatorName "Dail Laughinghouse"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:studyYear "2012"
+pgloadind   property added ot:studyId "pg_2737"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2216/11-32.1"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "368777"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Bayesian inference "
+pgloadind   property added ot:inGroupClade "node1098404"
+pgloadind   property added ot:specifiedRoot "node1098403"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 6322
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6322"
+pgloadind   all nodes have ottIds
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Aphanizomenon issatschenkoi 0tu37s7" nexsonid "node1098412"
+pgloadind       overlapping pruned name "Cuspidothrix issatschenkoi" nexsonid "node1098415"
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Anabaena planctonica 23-10" nexsonid "node1098430"
+pgloadind       overlapping pruned name "Dolichospermum planctonicum" nexsonid "node1098417"
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Anabaena cf. crassa 1tu27s7" nexsonid "node1098438"
+pgloadind       overlapping pruned name "Dolichospermum crassum" nexsonid "node1098439"
+pgloadind     pruning dups and overlapping name "Dolichospermum crassum" nexsonid "node1098439"
+pgloadind     pruning dups and overlapping name "Cuspidothrix issatschenkoi" nexsonid "node1098415"
+pgloadind     pruning dups and overlapping name "Dolichospermum planctonicum" nexsonid "node1098417"
+pgloadind   postpruning newick tree "((((Anabaena_sp_A277,(((Aphanizomenon_issatschenkoi_0tu37s7,Aphanizomenon_issatschenkoi_1319),Aphanizomenon_issatschenkoi_TAC419),Aphanizomenon_issatschenkoi_LMECYA_31)),Aphanizomenon_issatschenkoi_16-1),((((((((((Anabaena_planctonica_23-10,Anabaena_planctonica_1-9,Anabaena_planctonica_19-1),Anabaena_planctonica_TAC421),((Anabaena_spiroides_PMC9403,Dolichospermum_circinale_04-28,Anabaena_cf_crassa_1tu27s7),Dolichospermum_planctonicum_00-05)),Anabaena_spiroides_PMC9702),Anabaena_spiroides_1tu39s17),Aphanizomenon_flos-aquae_Z4),Aphanizomenon_flos-aquae_PMC9707,Aphanizomenon_gracile_PMC9402,Aphanizomenon_flos-aquae_1tu29s19,Aphanizomenon_flos-aquae_1tu26s2),Aphanizomenon_flos-aquae_GG),Aphanizomenon_flos-aquae_var_klebahnii_218),(Anabaena_sp_BECID20,Anabaena_oscillarioides_BECID22,Anabaena_sp_BECID23,Anabaena_oscillarioides_BECID32,Anabaena_sp_XP6A,Anabaena_sp_XPORK27C))),(((Raphidiopsis_curvata_HB1,Raphidiopsis_mediterranea_HB2),Cylindrospermopsis_raciborskii_QHSS_NR_CYL_03,((Cylindrospermopsis_raciborskii_T3,Cylindrospermopsis_raciborskii_FAS-C1),Cylindrospermopsis_raciborskii_PMC98_14),Cylindrospermopsis_raciborskii_CS-505),(((((((Sphaerospermopsis_reniformis_06-01,(Anabaena_kisseleviana_TAC34,Anabaena_kisseleviana_TAC33),Anabaena_oumiana_TAC464,Anabaena_oumiana_TAC568,Anabaena_reniformis_TAC478),Sphaerospermopsis_reniformis_07-01,Anabaena_reniformis_TAC543),Anabaena_reniformis_TAC484),Aphanizomenon_aphanizomenoides_22C4_9),Anabaena_reniformis_TAC481),Aphanizomenon_aphanizomenoides_04-43),(Sphaerospermopsis_torques-reginae_ITEP-024,Sphaerospermopsis_torques-reginae_ITEP-026))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 518120 taxonomy "Anabaena sp. A277->Anabaena->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098418"
+pgloadind     taxon mapping OTT ID 1041478 taxonomy "Aphanizomenon issatschenkoi 0tu37s7->Cuspidothrix issatschenkoi->Aphanizomenon->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098412"
+pgloadind     taxon mapping OTT ID 411240 taxonomy "Aphanizomenon issatschenkoi 1319->Cuspidothrix issatschenkoi->Aphanizomenon->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098413"
+pgloadind     taxon mapping OTT ID 612538 taxonomy "Aphanizomenon issatschenkoi TAC419->Cuspidothrix issatschenkoi->Aphanizomenon->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098414"
+pgloadind     taxon mapping OTT ID 612535 taxonomy "Aphanizomenon issatschenkoi LMECYA 31->Cuspidothrix issatschenkoi->Aphanizomenon->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098416"
+pgloadind     taxon mapping OTT ID 541734 taxonomy "Aphanizomenon issatschenkoi 16-1->Cuspidothrix issatschenkoi->Aphanizomenon->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098419"
+pgloadind     taxon mapping OTT ID 1017785 taxonomy "Anabaena planctonica 23-10->Dolichospermum planctonicum->Aphanizomenon->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098430"
+pgloadind     taxon mapping OTT ID 649263 taxonomy "Anabaena planctonica 1-9->Dolichospermum planctonicum->Aphanizomenon->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098431"
+pgloadind     taxon mapping OTT ID 1017780 taxonomy "Anabaena planctonica 19-1->Dolichospermum planctonicum->Aphanizomenon->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098432"
+pgloadind     taxon mapping OTT ID 514003 taxonomy "Anabaena planctonica TAC421->Anabaena->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098433"
+pgloadind     taxon mapping OTT ID 17123 taxonomy "Anabaena spiroides PMC9403->Dolichospermum spiroides->Dolichospermum->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098436"
+pgloadind     taxon mapping OTT ID 537895 taxonomy "Dolichospermum circinale 04-28->Dolichospermum circinale->Dolichospermum->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098437"
+pgloadind     taxon mapping OTT ID 652261 taxonomy "Anabaena cf. crassa 1tu27s7->Dolichospermum crassum->Dolichospermum->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098438"
+pgloadind     taxon mapping OTT ID 1034864 taxonomy "Dolichospermum planctonicum 00-05->Dolichospermum planctonicum->Aphanizomenon->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098440"
+pgloadind     taxon mapping OTT ID 408243 taxonomy "Anabaena spiroides PMC9702->Dolichospermum spiroides->Dolichospermum->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098441"
+pgloadind     taxon mapping OTT ID 496847 taxonomy "Anabaena spiroides 1tu39s17->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098442"
+pgloadind     taxon mapping OTT ID 133565 taxonomy "Aphanizomenon flos-aquae Z4->Aphanizomenon flos-aquae->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098443"
+pgloadind     taxon mapping OTT ID 408251 taxonomy "Aphanizomenon flos-aquae PMC9707->Aphanizomenon flos-aquae->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098444"
+pgloadind     taxon mapping OTT ID 521084 taxonomy "Aphanizomenon gracile PMC9402->Aphanizomenon gracile->Aphanizomenon->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098445"
+pgloadind     taxon mapping OTT ID 96171 taxonomy "Aphanizomenon flos-aquae 1tu29s19->Aphanizomenon flos-aquae->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098446"
+pgloadind     taxon mapping OTT ID 175444 taxonomy "Aphanizomenon flos-aquae 1tu26s2->Aphanizomenon flos-aquae->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098447"
+pgloadind     taxon mapping OTT ID 697271 taxonomy "Aphanizomenon flos-aquae GG->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098448"
+pgloadind     taxon mapping OTT ID 521083 taxonomy "Aphanizomenon flos-aquae var. klebahnii 218->Aphanizomenon flos-aquae var. klebahnii->Aphanizomenon flos-aquae->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098449"
+pgloadind     taxon mapping OTT ID 782865 taxonomy "Anabaena sp. BECID20->Anabaena->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098451"
+pgloadind     taxon mapping OTT ID 749791 taxonomy "Anabaena oscillarioides BECID22->Anabaena oscillarioides->Anabaena->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098452"
+pgloadind     taxon mapping OTT ID 782866 taxonomy "Anabaena sp. BECID23->Anabaena->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098453"
+pgloadind     taxon mapping OTT ID 749792 taxonomy "Anabaena oscillarioides BECID32->Anabaena oscillarioides->Anabaena->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098454"
+pgloadind     taxon mapping OTT ID 863556 taxonomy "Anabaena sp. XP6A->Anabaena->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098455"
+pgloadind     taxon mapping OTT ID 388332 taxonomy "Anabaena sp. XPORK27C->Anabaena->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098456"
+pgloadind     taxon mapping OTT ID 743374 taxonomy "Raphidiopsis curvata HB1->Raphidiopsis curvata->Raphidiopsis->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098460"
+pgloadind     taxon mapping OTT ID 743377 taxonomy "Raphidiopsis mediterranea HB2->Raphidiopsis mediterranea->Raphidiopsis->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098461"
+pgloadind     taxon mapping OTT ID 702663 taxonomy "Cylindrospermopsis raciborskii QHSS/NR/CYL/03->Cylindrospermopsis raciborskii->Cylindrospermosis->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098462"
+pgloadind     taxon mapping OTT ID 713479 taxonomy "Cylindrospermopsis raciborskii T3->Cylindrospermopsis raciborskii->Cylindrospermosis->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098465"
+pgloadind     taxon mapping OTT ID 702665 taxonomy "Cylindrospermopsis raciborskii FAS-C1->Cylindrospermopsis raciborskii->Cylindrospermosis->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098466"
+pgloadind     taxon mapping OTT ID 976996 taxonomy "Cylindrospermopsis raciborskii PMC98.14->Cylindrospermopsis raciborskii->Cylindrospermosis->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098467"
+pgloadind     taxon mapping OTT ID 625979 taxonomy "Cylindrospermopsis raciborskii CS-505->Cylindrospermopsis raciborskii->Cylindrospermosis->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098468"
+pgloadind     taxon mapping OTT ID 166851 taxonomy "Sphaerospermopsis reniformis 06-01->Sphaerospermopsis reniformis->Sphaerospermopsis->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098476"
+pgloadind     taxon mapping OTT ID 861255 taxonomy "Anabaena kisseleviana TAC34->Sphaerospermopsis kisseleviana->Sphaerospermopsis->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098478"
+pgloadind     taxon mapping OTT ID 708475 taxonomy "Anabaena kisseleviana TAC33->Anabaena->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098479"
+pgloadind     taxon mapping OTT ID 3336 taxonomy "Anabaena oumiana TAC464->Anabaena oumiana->Anabaena->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098480"
+pgloadind     taxon mapping OTT ID 3353 taxonomy "Anabaena oumiana TAC568->Anabaena oumiana->Anabaena->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098481"
+pgloadind     taxon mapping OTT ID 336571 taxonomy "Anabaena reniformis TAC478->Sphaerospermopsis reniformis->Sphaerospermopsis->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098482"
+pgloadind     taxon mapping OTT ID 166842 taxonomy "Sphaerospermopsis reniformis 07-01->Sphaerospermopsis reniformis->Sphaerospermopsis->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098483"
+pgloadind     taxon mapping OTT ID 336586 taxonomy "Anabaena reniformis TAC543->Anabaena->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098484"
+pgloadind     taxon mapping OTT ID 336568 taxonomy "Anabaena reniformis TAC484->Sphaerospermopsis reniformis->Sphaerospermopsis->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098485"
+pgloadind     taxon mapping OTT ID 842510 taxonomy "Aphanizomenon aphanizomenoides 22C4.9->Sphaerospermopsis aphanizomenoides->Sphaerospermopsis->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098486"
+pgloadind     taxon mapping OTT ID 336567 taxonomy "Anabaena reniformis TAC481->Sphaerospermopsis reniformis->Sphaerospermopsis->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098487"
+pgloadind     taxon mapping OTT ID 166845 taxonomy "Aphanizomenon aphanizomenoides 04-43->Sphaerospermopsis aphanizomenoides->Sphaerospermopsis->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098488"
+pgloadind     taxon mapping OTT ID 1000484 taxonomy "Sphaerospermopsis torques-reginae ITEP-024->Sphaerospermopsis torques-reginae->Sphaerospermopsis->Nostocaceae->Nostocales->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098490"
+pgloadind     taxon mapping OTT ID 1000483 taxonomy "Sphaerospermopsis torques-reginae ITEP-026->FamilyI->SubsectionIV->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098491"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6322"
+pgloadind   Adding tree to graph tree id "6322"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Raphidiopsis mediterranea HB2 was remapped to 'Raphidiopsis mediterranea' (id=163897)
+	Sphaerospermopsis torques-reginae ITEP-024 was remapped to 'Sphaerospermopsis torques-reginae' (id=163426)
+	Aphanizomenon flos-aquae var. klebahnii 218 was remapped to 'Aphanizomenon flos-aquae var. klebahnii' (id=160498)
+	Aphanizomenon gracile PMC9402 was remapped to 'Aphanizomenon gracile' (id=162188)
+	Dolichospermum circinale 04-28 was remapped to 'Dolichospermum circinale' (id=163519)
+	Anabaena cf. crassa 1tu27s7 was remapped to 'Dolichospermum crassum' (id=163784)
+	Raphidiopsis curvata HB1 was remapped to 'Raphidiopsis curvata' (id=163880)
+	Anabaena kisseleviana TAC34 was remapped to 'Sphaerospermopsis kisseleviana' (id=163431)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Vera Regina Werner, Haywood Dail Laughinghouse IV, Marli Fátima Fiore, Célia Leite Sant'Anna, Caroline Hoff, Kleber Renan de Souza Santos, Emanuel Bruno Neuhaus, Renato José Reis Molica, Ricardo Yukio Honda, Ricardo Omar Echenique, 2012, 'Morphological and molecular studies of Sphaerospermopsis torques-reginae (Cyanobacteria, Nostocales) from South American water blooms', Phycologia, vol. 51, no. 2, pp. 228-238
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Nostocales
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6322
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2737
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2012
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1098404
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Dail Laughinghouse
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.2216/11-32.1
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1098403
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 368777
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Bayesian inference 
+adding relationships to licas for children
+Committing nodes: 84
+21:46:55.293 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

@@ -1,0 +1,92 @@
+11:41:40.079 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 21
+pgloadind Processing tree @id "6735"
+pgloadind   tree info number nodes 40
+pgloadind   tree info number edges 39
+pgloadind   tree info ingroup "node1170735"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 17
+pgloadind   property added ot:studyPublicationReference "Kissling, J., & Barrett, S. C. (2013). Variation and evolution of herkogamy in Exochaenium (Gentianaceae): implications for the evolution of distyly. Annals of botany, 112(1), 95-102."
+pgloadind   property added ot:focalCladeOTTTaxonName "Exochaenium"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S13986"
+pgloadind   property added ot:studyYear "2013"
+pgloadind   property added ot:studyId "pg_2909"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1093/aob/mct097"
+pgloadind   property added ot:focalClade "398217"
+pgloadind   property added ot:curatedType "consensus"
+pgloadind   property added ot:inGroupClade "node1170735"
+loading a specific tree: 6735
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6735"
+pgloadind     OTT ID missing name "Exochaenium alatum" nexsonid "node1170749"
+pgloadind     pruning unmapped name "Exochaenium alatum" nexsonid "node1170749"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Exochaenium grande" nexsonid "node1170739"
+pgloadind       duplicate OTT ID 398203
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Exochaenium grande" nexsonid "node1170740"
+pgloadind       duplicate OTT ID 398203
+pgloadind     pruning dups and overlapping name "Exochaenium grande" nexsonid "node1170739"
+pgloadind     pruning dups and overlapping name "Exochaenium grande" nexsonid "node1170740"
+pgloadind   postpruning newick tree "(((Exochaenium_platypterum,(Exochaenium_perparvum,Exochaenium_oliganthum)),((Exochaenium_teucszii,(Exochaenium_lineariforme,((Exochaenium_sp_A_JK-2009,Exochaenium_clavatum),(Exochaenium_macropterum,((Exochaenium_sp_D_JK-2009,Exochaenium_primuliflorum),(Exochaenium_fernandesianum,Exochaenium_baumianum)))))),Exochaenium_debile)),Exochaenium_grande)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 398209 taxonomy "Exochaenium platypterum->Exochaenium->Exaceae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1170743"
+pgloadind     taxon mapping OTT ID 974455 taxonomy "Exochaenium perparvum->Exochaenium->Exaceae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1170745"
+pgloadind     taxon mapping OTT ID 974436 taxonomy "Exochaenium oliganthum->Exochaenium->Exaceae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1170746"
+pgloadind     taxon mapping OTT ID 398211 taxonomy "Exochaenium teucszii->Exochaenium->Exaceae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1170752"
+pgloadind     taxon mapping OTT ID 974441 taxonomy "Exochaenium lineariforme->Exochaenium->Exaceae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1170754"
+pgloadind     taxon mapping OTT ID 398221 taxonomy "Exochaenium sp. A JK-2009->Exochaenium->Exaceae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1170757"
+pgloadind     taxon mapping OTT ID 974449 taxonomy "Exochaenium clavatum->Exochaenium->Exaceae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1170758"
+pgloadind     taxon mapping OTT ID 974432 taxonomy "Exochaenium macropterum->Exochaenium->Exaceae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1170760"
+pgloadind     taxon mapping OTT ID 974454 taxonomy "Exochaenium sp. D JK-2009->Exochaenium->Exaceae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1170763"
+pgloadind     taxon mapping OTT ID 5145445 taxonomy "Exochaenium primuliflorum->Exochaenium->Exaceae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1170764"
+pgloadind     taxon mapping OTT ID 351158 taxonomy "Exochaenium fernandesianum->Exochaenium->Exaceae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1170766"
+pgloadind     taxon mapping OTT ID 398207 taxonomy "Exochaenium baumianum->Exochaenium->Exaceae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1170767"
+pgloadind     taxon mapping OTT ID 974445 taxonomy "Exochaenium debile->Exochaenium->Exaceae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1170750"
+pgloadind     taxon mapping OTT ID 398203 taxonomy "Exochaenium grande->Exochaenium->Exaceae->Gentianaceae->Gentianales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1170737"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6735"
+pgloadind   Adding tree to graph tree id "6735"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Kissling, J., & Barrett, S. C. (2013). Variation and evolution of herkogamy in Exochaenium (Gentianaceae): implications for the evolution of distyly. Annals of botany, 112(1), 95-102.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Exochaenium
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2013
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1170735
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1093/aob/mct097
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 398217
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': consensus
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2909
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S13986
+adding relationships to licas for children
+Committing nodes: 27
+11:42:31.301 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

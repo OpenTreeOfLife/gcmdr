@@ -1,0 +1,125 @@
+14:49:53.468 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 19
+pgloadind Processing tree @id "6299"
+pgloadind   tree info number nodes 37
+pgloadind   tree info number edges 36
+pgloadind   tree info ingroup "node1096135"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 15
+pgloadind   property added ot:studyPublicationReference "Kennedy, M.,  S.A. Taylor, P. Nádvorník, H. Spencer. 2013. The phylogenetic relationships of the extant pelicans inferred from DNA sequence data. Molecular Phylogenetics and Evolution 66 (1): 215-222."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6299"
+pgloadind   property added ot:focalCladeOTTTaxonName "Pelecanidae"
+pgloadind   property added ot:curatorName "Chris Owen"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S13616"
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:studyYear "2013"
+pgloadind   property added ot:studyId "pg_1764"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.ympev.2012.09.034"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "452465"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Bayesian inference "
+pgloadind   property added ot:inGroupClade "node1096135"
+pgloadind   property added ot:specifiedRoot "node1096127"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 6299
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6299"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Pelecanus crispus" nexsonid "node1096143"
+pgloadind       duplicate OTT ID 427900
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Pelecanus philippensis" nexsonid "node1096146"
+pgloadind       duplicate OTT ID 438402
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Pelecanus rufescens" nexsonid "node1096149"
+pgloadind       duplicate OTT ID 901986
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Pelecanus onocrotalus" nexsonid "node1096152"
+pgloadind       duplicate OTT ID 427899
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Pelecanus occidentalis californicus" nexsonid "node1096160"
+pgloadind       duplicate OTT ID 901990
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Pelecanus thagus" nexsonid "node1096163"
+pgloadind       duplicate OTT ID 613206
+pgloadind     pruning dups and overlapping name "Pelecanus rufescens" nexsonid "node1096149"
+pgloadind     pruning dups and overlapping name "Pelecanus philippensis" nexsonid "node1096146"
+pgloadind     pruning dups and overlapping name "Pelecanus onocrotalus" nexsonid "node1096152"
+pgloadind     pruning dups and overlapping name "Pelecanus occidentalis californicus" nexsonid "node1096160"
+pgloadind     pruning dups and overlapping name "Pelecanus thagus" nexsonid "node1096163"
+pgloadind     pruning dups and overlapping name "Pelecanus crispus" nexsonid "node1096143"
+pgloadind   postpruning newick tree "(((Pelecanus_conspicillatus,((Pelecanus_philippensis,Pelecanus_crispus),Pelecanus_rufescens)),Pelecanus_onocrotalus),(Pelecanus_erythrorhynchos,((Pelecanus_occidentalis_carolinensis,Pelecanus_occidentalis_californicus),Pelecanus_thagus)))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 986358 taxonomy "Pelecanus conspicillatus->Pelecanus->Pelecanidae->Pelecaniformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1096138"
+pgloadind     taxon mapping OTT ID 438402 taxonomy "Pelecanus philippensis->Pelecanus->Pelecanidae->Pelecaniformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1096145"
+pgloadind     taxon mapping OTT ID 427900 taxonomy "Pelecanus crispus->Pelecanus->Pelecanidae->Pelecaniformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1096142"
+pgloadind     taxon mapping OTT ID 901986 taxonomy "Pelecanus rufescens->Pelecanus->Pelecanidae->Pelecaniformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1096148"
+pgloadind     taxon mapping OTT ID 427899 taxonomy "Pelecanus onocrotalus->Pelecanus->Pelecanidae->Pelecaniformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1096151"
+pgloadind     taxon mapping OTT ID 316989 taxonomy "Pelecanus erythrorhynchos->Pelecanus->Pelecanidae->Pelecaniformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1096154"
+pgloadind     taxon mapping OTT ID 901992 taxonomy "Pelecanus occidentalis carolinensis->Pelecanus occidentalis->Pelecanus->Pelecanidae->Pelecaniformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1096157"
+pgloadind     taxon mapping OTT ID 901990 taxonomy "Pelecanus occidentalis californicus->Pelecanus occidentalis->Pelecanus->Pelecanidae->Pelecaniformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1096159"
+pgloadind     taxon mapping OTT ID 613206 taxonomy "Pelecanus thagus->Pelecanus->Pelecanidae->Pelecaniformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1096162"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6299"
+pgloadind   Adding tree to graph tree id "6299"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Kennedy, M.,  S.A. Taylor, P. Nádvorník, H. Spencer. 2013. The phylogenetic relationships of the extant pelicans inferred from DNA sequence data. Molecular Phylogenetics and Evolution 66 (1): 215-222.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Pelecanidae
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6299
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S13616
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_1764
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2013
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1096135
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.ympev.2012.09.034
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1096127
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 452465
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Bayesian inference 
+adding relationships to licas for children
+Committing nodes: 17
+14:50:45.208 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

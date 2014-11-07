@@ -1,0 +1,104 @@
+15:25:10.380 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 8
+pgloadind Processing tree @id "1"
+pgloadind   tree info number nodes 15
+pgloadind   tree info number edges 14
+pgloadind   tree info ingroup "node2"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 7
+pgloadind   property added ot:studyPublicationReference "Whittingham, Linda A., Frederick H. Sheldon, Stephen T. Emlen. 2000. Molecular phylogeny of jacanas and its implications for morphologic and biogeographic evolution. The Auk 117 (1): 22-32."
+pgloadind   property added ot:candidateTreeForSynthesis "tree1"
+pgloadind   property added ot:focalCladeOTTTaxonName "Jacanidae"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1642/0004-8038(2000)117[0022:mpojai]2.0.co;2"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:studyYear "2000"
+pgloadind   property added ot:studyId "ot_136"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "331999"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Maximum likelihood "
+pgloadind   property added ot:nearestTaxonMRCAOttId "331999"
+pgloadind   property added ot:inGroupClade "node2"
+pgloadind   property added ot:nearestTaxonMRCAName "Jacanidae"
+pgloadind   property added ot:specifiedRoot "node1"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+loading a specific tree: 1
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "1"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "((((Microparra_capensis,Irediparra_gallinacea),Metopidius_indicus),Actophilornis_africanus),((Jacana_jacana,Jacana_spinosa),Hydrophasianus_chirurgus))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 5272 taxonomy "Microparra capensis->Microparra->Jacanidae->Charadriiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node6"
+pgloadind     taxon mapping OTT ID 332002 taxonomy "Irediparra gallinacea->Irediparra->Jacanidae->Charadriiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node7"
+pgloadind     taxon mapping OTT ID 526689 taxonomy "Metopidius indicus->Metopidius->Jacanidae->Charadriiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node8"
+pgloadind     taxon mapping OTT ID 977428 taxonomy "Actophilornis africanus->Actophilornis->Jacanidae->Charadriiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node9"
+pgloadind     taxon mapping OTT ID 332005 taxonomy "Jacana jacana->Jacana->Jacanidae->Charadriiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node12"
+pgloadind     taxon mapping OTT ID 526708 taxonomy "Jacana spinosa->Jacana->Jacanidae->Charadriiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node13"
+pgloadind     taxon mapping OTT ID 977453 taxonomy "Hydrophasianus chirurgus->Hydrophasianus->Jacanidae->Charadriiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node14"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "1"
+pgloadind   Adding tree to graph tree id "1"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Actophilornis africanus was remapped to 'Actophilornis' (id=3023678)
+	Metopidius indicus was remapped to 'Metopidius' (id=3023658)
+	Microparra capensis was remapped to 'Microparra' (id=3023684)
+	Irediparra gallinacea was remapped to 'Irediparra' (id=3023673)
+	Hydrophasianus chirurgus was remapped to 'Hydrophasianus' (id=3023668)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Whittingham, Linda A., Frederick H. Sheldon, Stephen T. Emlen. 2000. Molecular phylogeny of jacanas and its implications for morphologic and biogeographic evolution. The Auk 117 (1): 22-32.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Jacanidae
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree1
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:nearestTaxonMRCAName
+Adding property 'ot:nearestTaxonMRCAName': Jacanidae
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:nearestTaxonMRCAOttId
+Adding property 'ot:nearestTaxonMRCAOttId': 331999
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': ot_136
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2000
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node2
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1642/0004-8038(2000)117[0022:mpojai]2.0.co;2
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 331999
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Maximum likelihood 
+adding relationships to licas for children
+Committing nodes: 13
+15:26:03.645 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

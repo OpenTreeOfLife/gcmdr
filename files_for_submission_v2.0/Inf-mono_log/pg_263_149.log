@@ -1,0 +1,100 @@
+21:58:28.216 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 15
+pgloadind Processing tree @id "149"
+pgloadind   tree info number nodes 27
+pgloadind   tree info number edges 26
+pgloadind   tree info ingroup "node168270"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 14
+pgloadind   property added ot:studyPublicationReference "Swithers KS, Petrus AK, Secinaro MA, Nesbø CL, Gogarten JP, Noll KM, Butzin NC. 2012. Vitamin B12 synthesis and salvage pathways were acquired by horizontal gene transfer to the thermotogales. Genome Biology and Evolution 4 (8): 842-851."
+pgloadind   property added ot:candidateTreeForSynthesis "tree149"
+pgloadind   property added ot:curatorName "Kristen Swithers"
+pgloadind   property added ot:studyYear "2012"
+pgloadind   property added ot:studyId "pg_263"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1093/gbe/evs057"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "23S-16S rRNA Maximum Likelihood"
+pgloadind   property added ot:inGroupClade "node168270"
+pgloadind   property added ot:specifiedRoot "node168270"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 149
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "149"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "((((((Thermotoga_maritima_MSB8,Thermotoga_sp_RQ2),Thermotoga_neapolitana),(Thermotoga_petrophila,Thermotoga_naphthophila)),(Thermotoga_thermarum,Thermotoga_lettingae)),(((Thermosipho_africanus_TCF52B,Thermosipho_africanus_H17ap60334),Thermosipho_melanesiensis),Fervidobacterium_nodosum)),((Kosmotoga_olearia,Mesotoga_prima),Petrotoga_mobilis))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 205396 taxonomy "Thermotoga maritima MSB8->Thermotoga->Thermotogaceae->Thermotogales->Thermotogae->Bacteria->cellular organisms->life" nexsonid "node168276"
+pgloadind     taxon mapping OTT ID 891047 taxonomy "Thermotoga sp. RQ2->Thermotoga->Thermotogaceae->Thermotogales->Thermotogae->Bacteria->cellular organisms->life" nexsonid "node168277"
+pgloadind     taxon mapping OTT ID 537298 taxonomy "Thermotoga neapolitana->Thermotoga->Thermotogaceae->Thermotogales->Thermotogae->Bacteria->cellular organisms->life" nexsonid "node168278"
+pgloadind     taxon mapping OTT ID 229670 taxonomy "Thermotoga petrophila->Thermotoga->Thermotogaceae->Thermotogales->Thermotogae->Bacteria->cellular organisms->life" nexsonid "node168280"
+pgloadind     taxon mapping OTT ID 803629 taxonomy "Thermotoga naphthophila->Thermotoga->Thermotogaceae->Thermotogales->Thermotogae->Bacteria->cellular organisms->life" nexsonid "node168281"
+pgloadind     taxon mapping OTT ID 785640 taxonomy "Thermotoga thermarum->Thermotoga->Thermotogaceae->Thermotogales->Thermotogae->Bacteria->cellular organisms->life" nexsonid "node168283"
+pgloadind     taxon mapping OTT ID 641954 taxonomy "Thermotoga lettingae->Thermotoga->Thermotogaceae->Thermotogales->Thermotogae->Bacteria->cellular organisms->life" nexsonid "node168284"
+pgloadind     taxon mapping OTT ID 794201 taxonomy "Thermosipho africanus TCF52B->Thermosipho->Thermotogaceae->Thermotogales->Thermotogae->Bacteria->cellular organisms->life" nexsonid "node168288"
+pgloadind     taxon mapping OTT ID 566449 taxonomy "Thermosipho africanus H17ap60334->Thermosipho africanus->Thermosipho->Thermotogaceae->Thermotogales->Thermotogae->Bacteria->cellular organisms->life" nexsonid "node168289"
+pgloadind     taxon mapping OTT ID 592664 taxonomy "Thermosipho melanesiensis->Thermosipho->Thermotogaceae->Thermotogales->Thermotogae->Bacteria->cellular organisms->life" nexsonid "node168290"
+pgloadind     taxon mapping OTT ID 1001339 taxonomy "Fervidobacterium nodosum->Fervidobacterium->Thermotogaceae->Thermotogales->Thermotogae->Bacteria->cellular organisms->life" nexsonid "node168291"
+pgloadind     taxon mapping OTT ID 37334 taxonomy "Kosmotoga olearia->Kosmotoga->Thermotogaceae->Thermotogales->Thermotogae->Bacteria->cellular organisms->life" nexsonid "node168294"
+pgloadind     taxon mapping OTT ID 225020 taxonomy "Mesotoga prima->Mesotoga->Thermotogaceae->Thermotogales->Thermotogae->Bacteria->cellular organisms->life" nexsonid "node168295"
+pgloadind     taxon mapping OTT ID 442795 taxonomy "Petrotoga mobilis->Petrotoga->Thermotogaceae->Thermotogales->Thermotogae->Bacteria->cellular organisms->life" nexsonid "node168296"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "149"
+pgloadind   Adding tree to graph tree id "149"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Kosmotoga olearia was remapped to 'Kosmotoga' (id=171273)
+	Petrotoga mobilis was remapped to 'Petrotoga' (id=171180)
+	Fervidobacterium nodosum was remapped to 'Fervidobacterium' (id=171301)
+	Thermosipho africanus H17ap60334 was remapped to 'Thermosipho africanus' (id=171391)
+	Mesotoga prima was remapped to 'Mesotoga' (id=171147)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Swithers KS, Petrus AK, Secinaro MA, Nesbø CL, Gogarten JP, Noll KM, Butzin NC. 2012. Vitamin B12 synthesis and salvage pathways were acquired by horizontal gene transfer to the thermotogales. Genome Biology and Evolution 4 (8): 842-851.
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree149
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_263
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2012
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node168270
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Kristen Swithers
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1093/gbe/evs057
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node168270
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': 23S-16S rRNA Maximum Likelihood
+adding relationships to licas for children
+Committing nodes: 27
+21:59:21.138 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

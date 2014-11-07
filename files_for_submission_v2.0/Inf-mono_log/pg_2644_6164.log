@@ -1,0 +1,308 @@
+10:48:25.857 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 137
+pgloadind Processing tree @id "6164"
+pgloadind   tree info number nodes 271
+pgloadind   tree info number edges 270
+pgloadind   tree info ingroup "node1052903"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 105
+pgloadind   property added ot:studyPublicationReference "Wang, W. [et al. 2009], Lu, A.-M., Ren, Y., Endress, M. E., & Chen, Z.-D. 2009. Phylogeny and classification of Ranunculales: Evidence from four molecular loci and morphological data. Persp. Plant Ecol. Evol. Syst. 11: 81-110."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6164"
+pgloadind   property added ot:focalCladeOTTTaxonName "Ranunculales"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:studyYear "2009"
+pgloadind   property added ot:studyId "pg_2644"
+pgloadind   property added ot:tag "ingroup added;"
+pgloadind   property added ot:focalClade "872975"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "parsimony strict consensus tree"
+pgloadind   property added ot:inGroupClade "node1052903"
+pgloadind   property added ot:specifiedRoot "node1052840"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode ""
+loading a specific tree: 6164
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6164"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Batrachium" nexsonid "node1053036"
+pgloadind       dubious OTT ID 388460
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Actaea simplex" nexsonid "node1053009"
+pgloadind       overlapping pruned name "Actaea" nexsonid "node1053008"
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Caltha palustris var. membranacea" nexsonid "node1053017"
+pgloadind       overlapping pruned name "Caltha palustris" nexsonid "node1053018"
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Jeffersonia dubia" nexsonid "node1053093"
+pgloadind       overlapping pruned name "Jeffersonia" nexsonid "node1053092"
+pgloadind     pruning dups and overlapping name "Actaea" nexsonid "node1053008"
+pgloadind     pruning dups and overlapping name "Jeffersonia" nexsonid "node1053092"
+pgloadind     pruning dups and overlapping name "Batrachium" nexsonid "node1053036"
+pgloadind     pruning dups and overlapping name "Caltha palustris" nexsonid "node1053018"
+pgloadind   postpruning newick tree "((Euptelea_pleiosperma,Euptelea_polyandra),((((Corydalis,Dicentra),(Hypecoum,Pteridophyllum)),(((Eomecon,Sanguinaria),(Hylomecon,Macleaya)),(Meconopsis,Papaver))),((((((((Akebia,Archakebia),(Holboellia,Parvatia,Stauntonia)),(Boquila,Lardizabala)),Sinofranchetia),Decaisnea),Sargentodoxa),(Circaeaster,Kingdonia)),((((((Albertisia,Pycnarrhena),(((Cissampelos,Cyclea),Stephania),Cocculus)),(Diploclisia,(Hypserpa,Pericampylus))),((Anamirta,Arcangelisia),((Aspidocarya,Parabaena),(Tinomiscium,Tinospora)))),(Menispermum,Sinomenium)),(((((((Aconitum,(Consolida,Delphinium)),(Adonis,(Megaleranthis,Trollius))),(((((((Actaea_vaginata,Actaea_simplex),Eranthis),(Anemonopsis,Beesia)),Asteropyrum),Caltha_palustris_var_membranacea),(((((Anemoclema,(Clematis,Naravelia)),(Anemone,Pulsatilla)),Hepatica),(((Halerpestes,Ranunculus),Myosurus),(Oxygraphis,Trautvetteria))),(Callianthemum,(Helleborus_foetidus,Helleborus_thibetanus)))),(((((Aquilegia_ecalcarata,Aquilegia_oxysepala),Semiaquilegia),Urophysa),((Dichocarpum,(Enemion,Isopyrum)),((Leptopyrum,(Paraquilegia,Paropyrum)),Thalictrum))),Nigella))),(Coptis,Xanthorhiza)),Hydrastis),Glaucidium),((((Berberis,Mahonia),Ranzania_japonica),(((Caulophyllum_robustum,Caulophyllum_thalictroides),Gymnospermium),Nandina)),(((Epimedium,Vancouveria),(Bongardia,(Achlys,((Diphylleia_cymosa,Diphylleia_sinensis),Dysosma,(Podophyllum,Sinopodophyllum))))),Jeffersonia_dubia)))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 413137 taxonomy "Euptelea pleiosperma->Euptelea->Eupteleaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052905"
+pgloadind     taxon mapping OTT ID 971328 taxonomy "Euptelea polyandra->Euptelea->Eupteleaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052906"
+pgloadind     taxon mapping OTT ID 438103 taxonomy "Corydalis->Fumarioideae->Papaveraceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052911"
+pgloadind     taxon mapping OTT ID 418801 taxonomy "Dicentra->Fumarioideae->Papaveraceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052912"
+pgloadind     taxon mapping OTT ID 23590 taxonomy "Hypecoum->Fumarioideae->Papaveraceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052914"
+pgloadind     taxon mapping OTT ID 384491 taxonomy "Pteridophyllum->Fumarioideae->Papaveraceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052915"
+pgloadind     taxon mapping OTT ID 1030289 taxonomy "Eomecon->Papaveroideae->Papaveraceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052919"
+pgloadind     taxon mapping OTT ID 591992 taxonomy "Sanguinaria->Papaveroideae->Papaveraceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052920"
+pgloadind     taxon mapping OTT ID 1030299 taxonomy "Hylomecon->Papaveroideae->Papaveraceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052922"
+pgloadind     taxon mapping OTT ID 96187 taxonomy "Macleaya->Papaveroideae->Papaveraceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052923"
+pgloadind     taxon mapping OTT ID 878927 taxonomy "Meconopsis->Papaveroideae->Papaveraceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052925"
+pgloadind     taxon mapping OTT ID 438123 taxonomy "Papaver->Papaveroideae->Papaveraceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052926"
+pgloadind     taxon mapping OTT ID 303956 taxonomy "Akebia->Lardizabaleae->Lardizabaloideae->Lardizabalaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052935"
+pgloadind     taxon mapping OTT ID 97322 taxonomy "Archakebia->Lardizabaleae->Lardizabaloideae->Lardizabalaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052936"
+pgloadind     taxon mapping OTT ID 822373 taxonomy "Holboellia->Lardizabaleae->Lardizabaloideae->Lardizabalaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052938"
+pgloadind     taxon mapping OTT ID 932420 taxonomy "Parvatia->Lardizabaleae->Lardizabaloideae->Lardizabalaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052939"
+pgloadind     taxon mapping OTT ID 822371 taxonomy "Stauntonia->Lardizabaleae->Lardizabaloideae->Lardizabalaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052940"
+pgloadind     taxon mapping OTT ID 297872 taxonomy "Boquila->Lardizabaleae->Lardizabaloideae->Lardizabalaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052942"
+pgloadind     taxon mapping OTT ID 822376 taxonomy "Lardizabala->Lardizabaleae->Lardizabaloideae->Lardizabalaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052943"
+pgloadind     taxon mapping OTT ID 822369 taxonomy "Sinofranchetia->Sinofranchetieae->Lardizabaloideae->Lardizabalaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052944"
+pgloadind     taxon mapping OTT ID 297875 taxonomy "Decaisnea->Decaisneeae->Lardizabaloideae->Lardizabalaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052945"
+pgloadind     taxon mapping OTT ID 639702 taxonomy "Sargentodoxa->Sargentodoxoideae->Lardizabalaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052946"
+pgloadind     taxon mapping OTT ID 839068 taxonomy "Circaeaster->Circaeasteraceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052948"
+pgloadind     taxon mapping OTT ID 839069 taxonomy "Kingdonia->Circaeasteraceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052949"
+pgloadind     taxon mapping OTT ID 505653 taxonomy "Albertisia->Menispermoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052956"
+pgloadind     taxon mapping OTT ID 660683 taxonomy "Pycnarrhena->Menispermoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052957"
+pgloadind     taxon mapping OTT ID 1057450 taxonomy "Cissampelos->Menispermoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052961"
+pgloadind     taxon mapping OTT ID 867901 taxonomy "Cyclea->Menispermoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052962"
+pgloadind     taxon mapping OTT ID 567686 taxonomy "Stephania->Menispermoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052963"
+pgloadind     taxon mapping OTT ID 1001048 taxonomy "Cocculus->Menispermoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052964"
+pgloadind     taxon mapping OTT ID 918339 taxonomy "Diploclisia->Menispermoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052966"
+pgloadind     taxon mapping OTT ID 918333 taxonomy "Hypserpa->Menispermoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052968"
+pgloadind     taxon mapping OTT ID 918343 taxonomy "Pericampylus->Menispermoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052969"
+pgloadind     taxon mapping OTT ID 338335 taxonomy "Anamirta->Tinosporoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052972"
+pgloadind     taxon mapping OTT ID 1000805 taxonomy "Arcangelisia->Tinosporoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052973"
+pgloadind     taxon mapping OTT ID 660665 taxonomy "Aspidocarya->Tinosporoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052976"
+pgloadind     taxon mapping OTT ID 918337 taxonomy "Parabaena->Tinosporoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052977"
+pgloadind     taxon mapping OTT ID 93637 taxonomy "Tinomiscium->Tinosporoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052979"
+pgloadind     taxon mapping OTT ID 822366 taxonomy "Tinospora->Tinosporoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052980"
+pgloadind     taxon mapping OTT ID 855362 taxonomy "Menispermum->Menispermoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052982"
+pgloadind     taxon mapping OTT ID 292974 taxonomy "Sinomenium->Menispermoideae->Menispermaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052983"
+pgloadind     taxon mapping OTT ID 756111 taxonomy "Aconitum->Delphinieae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052991"
+pgloadind     taxon mapping OTT ID 756504 taxonomy "Consolida->Delphinieae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052993"
+pgloadind     taxon mapping OTT ID 518366 taxonomy "Delphinium->Delphinieae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052994"
+pgloadind     taxon mapping OTT ID 693553 taxonomy "Adonis->Adonideae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052996"
+pgloadind     taxon mapping OTT ID 604764 taxonomy "Megaleranthis->Adonideae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052998"
+pgloadind     taxon mapping OTT ID 1011767 taxonomy "Trollius->Adonideae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1052999"
+pgloadind     taxon mapping OTT ID 512706 taxonomy "Actaea vaginata->Actaea->Cimicifugeae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053010"
+pgloadind     taxon mapping OTT ID 512693 taxonomy "Actaea simplex->Actaea->Cimicifugeae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053009"
+pgloadind     taxon mapping OTT ID 756501 taxonomy "Eranthis->Cimicifugeae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053011"
+pgloadind     taxon mapping OTT ID 512711 taxonomy "Anemonopsis->Cimicifugeae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053013"
+pgloadind     taxon mapping OTT ID 877311 taxonomy "Beesia->Cimicifugeae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053014"
+pgloadind     taxon mapping OTT ID 981676 taxonomy "Asteropyrum->Asteropyreae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053015"
+pgloadind     taxon mapping OTT ID 449889 taxonomy "Caltha palustris var. membranacea->Caltha palustris->Caltha->Caltheae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053017"
+pgloadind     taxon mapping OTT ID 274598 taxonomy "Anemoclema->Anemoneae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053024"
+pgloadind     taxon mapping OTT ID 964052 taxonomy "Clematis->Anemoneae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053026"
+pgloadind     taxon mapping OTT ID 542359 taxonomy "Naravelia->Anemoneae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053027"
+pgloadind     taxon mapping OTT ID 385038 taxonomy "Anemone->Anemoneae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053029"
+pgloadind     taxon mapping OTT ID 421851 taxonomy "Pulsatilla->Anemoneae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053030"
+pgloadind     taxon mapping OTT ID 421859 taxonomy "Hepatica->Anemoneae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053031"
+pgloadind     taxon mapping OTT ID 15437 taxonomy "Halerpestes->Ranunculeae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053038"
+pgloadind     taxon mapping OTT ID 387812 taxonomy "Ranunculus->Ranunculeae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053037"
+pgloadind     taxon mapping OTT ID 583310 taxonomy "Myosurus->Ranunculeae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053039"
+pgloadind     taxon mapping OTT ID 744181 taxonomy "Oxygraphis->Ranunculeae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053041"
+pgloadind     taxon mapping OTT ID 170549 taxonomy "Trautvetteria->Ranunculeae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053042"
+pgloadind     taxon mapping OTT ID 898698 taxonomy "Callianthemum->Callianthemeae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053044"
+pgloadind     taxon mapping OTT ID 1012867 taxonomy "Helleborus foetidus->Helleborus->Helleboreae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053046"
+pgloadind     taxon mapping OTT ID 948050 taxonomy "Helleborus thibetanus->Helleborus->Helleboreae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053047"
+pgloadind     taxon mapping OTT ID 947694 taxonomy "Aquilegia ecalcarata->Aquilegia->Thalictroideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053053"
+pgloadind     taxon mapping OTT ID 949638 taxonomy "Aquilegia oxysepala->Aquilegia->Thalictroideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053054"
+pgloadind     taxon mapping OTT ID 781963 taxonomy "Semiaquilegia->Thalictroideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053055"
+pgloadind     taxon mapping OTT ID 949665 taxonomy "Urophysa->Thalictroideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053056"
+pgloadind     taxon mapping OTT ID 646388 taxonomy "Dichocarpum->Thalictroideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053059"
+pgloadind     taxon mapping OTT ID 947697 taxonomy "Enemion->Thalictroideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053061"
+pgloadind     taxon mapping OTT ID 948059 taxonomy "Isopyrum->Thalictroideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053062"
+pgloadind     taxon mapping OTT ID 898868 taxonomy "Leptopyrum->Thalictroideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053065"
+pgloadind     taxon mapping OTT ID 949663 taxonomy "Paraquilegia->Thalictroideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053067"
+pgloadind     taxon mapping OTT ID 678287 taxonomy "Paropyrum->Thalictroideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053068"
+pgloadind     taxon mapping OTT ID 190621 taxonomy "Thalictrum->Thalictroideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053069"
+pgloadind     taxon mapping OTT ID 387828 taxonomy "Nigella->Nigelleae->Ranunculoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053070"
+pgloadind     taxon mapping OTT ID 387823 taxonomy "Coptis->Coptidoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053072"
+pgloadind     taxon mapping OTT ID 768464 taxonomy "Xanthorhiza->Coptidoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053073"
+pgloadind     taxon mapping OTT ID 1072049 taxonomy "Hydrastis->Hydrastidoideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053074"
+pgloadind     taxon mapping OTT ID 889042 taxonomy "Glaucidium->Glaucidioideae->Ranunculaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053075"
+pgloadind     taxon mapping OTT ID 880484 taxonomy "Berberis->Berberidoideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053080"
+pgloadind     taxon mapping OTT ID 3944869 taxonomy "Mahonia->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053081"
+pgloadind     taxon mapping OTT ID 1096857 taxonomy "Ranzania japonica->Ranzania->Berberidoideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053082"
+pgloadind     taxon mapping OTT ID 229365 taxonomy "Caulophyllum robustum->Caulophyllum->Berberidoideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053086"
+pgloadind     taxon mapping OTT ID 190644 taxonomy "Caulophyllum thalictroides->Caulophyllum->Berberidoideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053087"
+pgloadind     taxon mapping OTT ID 137435 taxonomy "Gymnospermium->Berberidoideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053088"
+pgloadind     taxon mapping OTT ID 681927 taxonomy "Nandina->Nandinoideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053089"
+pgloadind     taxon mapping OTT ID 1096858 taxonomy "Epimedium->Berberidoideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053096"
+pgloadind     taxon mapping OTT ID 472406 taxonomy "Vancouveria->Berberidoideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053097"
+pgloadind     taxon mapping OTT ID 264455 taxonomy "Bongardia->Berberidoideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053099"
+pgloadind     taxon mapping OTT ID 570404 taxonomy "Achlys->Berberidoideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053101"
+pgloadind     taxon mapping OTT ID 570405 taxonomy "Diphylleia cymosa->Diphylleia->Berberidoideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053104"
+pgloadind     taxon mapping OTT ID 93625 taxonomy "Diphylleia sinensis->Diphylleia->Berberidoideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053105"
+pgloadind     taxon mapping OTT ID 570390 taxonomy "Dysosma->Berberidoideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053106"
+pgloadind     taxon mapping OTT ID 928423 taxonomy "Podophyllum->Podophylloideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053108"
+pgloadind     taxon mapping OTT ID 981673 taxonomy "Sinopodophyllum->Podophylloideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053109"
+pgloadind     taxon mapping OTT ID 22675 taxonomy "Jeffersonia dubia->Jeffersonia->Berberidoideae->Berberidaceae->Ranunculales->stem eudicotyledons->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1053093"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6164"
+pgloadind   Adding tree to graph tree id "6164"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Nandina was remapped to 'Nandinoideae' (id=3574219)
+	Jeffersonia dubia was remapped to 'Jeffersonia' (id=3574586)
+	Sargentodoxa was remapped to 'Sargentodoxoideae' (id=3577198)
+	Decaisnea was remapped to 'Decaisneeae' (id=3577209)
+	Nigella was remapped to 'Nigelleae' (id=3575904)
+	Ranzania japonica was remapped to 'Ranzania' (id=3574233)
+	Sinofranchetia was remapped to 'Sinofranchetieae' (id=3577206)
+	Hydrastis was remapped to 'Hydrastidoideae' (id=3577188)
+	Callianthemum was remapped to 'Callianthemeae' (id=3575952)
+	Asteropyrum was remapped to 'Asteropyreae' (id=3576140)
+	Caltha palustris var. membranacea was remapped to 'Caltheae' (id=3576143)
+	Glaucidium was remapped to 'Glaucidioideae' (id=3577184)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Wang, W. [et al. 2009], Lu, A.-M., Ren, Y., Endress, M. E., & Chen, Z.-D. 2009. Phylogeny and classification of Ranunculales: Evidence from four molecular loci and morphological data. Persp. Plant Ecol. Evol. Syst. 11: 81-110.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Ranunculales
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6164
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': 
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2644
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2009
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1052903
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1052840
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 872975
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': parsimony strict consensus tree
+adding relationships to licas for children
+Committing nodes: 199
+10:49:15.591 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+	adding Node[3576103] Helleboreae 5494512 as compatible with Node[3576104]
+		adding Relationship[8923113]
+		adding to root Relationship[8923114]
+	adding Node[3577268] Eupteleaceae 438206 as compatible with Node[3577269]
+		adding Relationship[8923115]
+		adding to root Relationship[8923116]
+		adding Relationship[8923117] from Node[3577268] to Node[3573043]

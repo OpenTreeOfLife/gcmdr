@@ -1,0 +1,314 @@
+12:36:37.046 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 114
+pgloadind Processing tree @id "12"
+pgloadind   tree info number nodes 226
+pgloadind   tree info number edges 225
+pgloadind   tree info ingroup "node3330"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 96
+pgloadind   property added ot:studyPublicationReference "Olmstead, Richard G., Michelle L. Zjhra, Lucia G. Lohmann, Susan O. Grose, and Andrew J. Eckert. 2009. A molecular phylogeny and classification of Bignoniaceae. Am. J. Bot. 96, no. 9 (September 1): 1731-1743. doi:10.3732/ajb.0900004."
+pgloadind   property added ot:candidateTreeForSynthesis "tree12"
+pgloadind   property added ot:focalCladeOTTTaxonName "Bignoniaceae"
+pgloadind   property added ot:curatorName "Rick Ree"
+pgloadind   property added ot:studyYear "2009"
+pgloadind   property added ot:studyId "pg_14"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.3732/ajb.0900004"
+pgloadind   property added ot:focalClade "900321"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "ML bootstrap consensus"
+pgloadind   property added ot:inGroupClade "node3330"
+pgloadind   property added ot:specifiedRoot "node3295"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 12
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "12"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "((Jacaranda_arborea,(Jacaranda_sparrei,(Jacaranda_mimosifolia,Jacaranda_rufa))),((Eccremocarpus_scaber,Tourrettia_lappacea),(((Argylia_bustillosii,Argylia_robusta),(Campsis_radicans,(Tecoma_stans,(Podranea_ricasoliana,((Incarvillea_arguta,(Incarvillea_mairei,Incarvillea_zhongdianensis)),(Tecomaria_capensis,((Deplanchea_tetraphylla,Lamiodendron_magnificum),((Campsidium,Pandorea_jasminoides),(Pandorea_pandorana,(Tecomanthe_hillii,Tecomanthe_volubilis)))))))))),((Delostoma_integrifolium,Delostoma_lobbii),(((Millingtonia_hortensis,Oroxylum_indicum),((Chilopsis_linearis,(Catalpa_aff_speciosa_Olmstead_88-003,Macrocatalpa_punctata)),(Perianthomega_vellozoi,((Adenocalymma_cymbalum,Adenocalymma_moringifolium),(((Bignonia_capreolata,(Bignonia_aequinoctialis,(Bignonia_binata,Bignonia_callistegioides))),((Amphilophium_bauhinioides,Amphilophium_elongatum),(Anemopaegma_parkeri,(Mansoa_difficilis,Mansoa_verrucifera)))),(((Dolichandra_quadrivalvis,Dolichandra_unguis-cati),(Martinella_obovata,Pleonotoma_jasminifolia)),((Manaosella_cordifolia,Stizophyllum_perforatum),((Leucocalantha_aromatica,Mansoa_kerere),((Fridericia_corallina,Tanaecium_pyramidatum),(Lundia_cordata,((Xylophragma_myrianthum,(Fridericia_pubescens,Fridericia_sp_Folli_1658)),(Fridericia_mollissima,(Cuspidaria_convoluta,Tynanthus_panurensis))))))))))))),((((Radermachera_frondosa,Tecomella_undulata),(Rhigozum_madagascariense,(Rhigozum_obovatum,(Catophractes_alexandri,Spathodea_campanulata)))),(((Phyllarthron_articulatum,Rhodocolea_racemosa),(Ophiocolea_floribunda,(Colea_sytsmae,Ophiocolea_sp_Zjhra_939))),((Dolichandrone_spathacea,Markhamia_platycalyx),((Kigelia_africana,(Stereospermum_euphorioides,Stereospermum_nematocarpum)),(Newbouldia_laevis,(Fernandoa_madagascariensis,Heterophragma_adenophyllum)))))),(Sparattosperma_leucanthum,((Cybistax_antisyphilitica,(Godmania_aesculifolia,Zeyheria_tuberculosa)),((Ekmanianthe_actinophylla,(Tabebuia_rosea,(Tabebuia_heterophylla,(Tabebuia_lepidota,Tabebuia_sauvallei)))),(Roseodendron_donnell-smithii,((Tabebuia_chrysotricha,Handroanthus_serratifolius),((Parmentiera_cereifera,Parmentiera_macrophylla),(Crescentia_alata,(Crescentia_portoricensis,(Amphitecna_montana,(Amphitecna_apiculata,Amphitecna_latifolia))))))))))))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 1022227 taxonomy "Jacaranda arborea->Jacaranda->Jacarandeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3332"
+pgloadind     taxon mapping OTT ID 493322 taxonomy "Jacaranda sparrei->Jacaranda->Jacarandeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3334"
+pgloadind     taxon mapping OTT ID 912471 taxonomy "Jacaranda mimosifolia->Jacaranda->Jacarandeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3336"
+pgloadind     taxon mapping OTT ID 761242 taxonomy "Jacaranda rufa->Jacaranda->Jacarandeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3337"
+pgloadind     taxon mapping OTT ID 493318 taxonomy "Eccremocarpus scaber->Eccremocarpus->Tourrettieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3340"
+pgloadind     taxon mapping OTT ID 1072478 taxonomy "Tourrettia lappacea->Tourrettia->Tourrettieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3341"
+pgloadind     taxon mapping OTT ID 25226 taxonomy "Argylia bustillosii->Argylia->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3345"
+pgloadind     taxon mapping OTT ID 496263 taxonomy "Argylia robusta->Argylia->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3346"
+pgloadind     taxon mapping OTT ID 1069511 taxonomy "Campsis radicans->Campsis->Tecomeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3348"
+pgloadind     taxon mapping OTT ID 540914 taxonomy "Tecoma stans->Tecoma->Tecomeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3350"
+pgloadind     taxon mapping OTT ID 1019071 taxonomy "Podranea ricasoliana->Podranea->Tecomeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3352"
+pgloadind     taxon mapping OTT ID 591883 taxonomy "Incarvillea arguta->Incarvillea->Tecomeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3355"
+pgloadind     taxon mapping OTT ID 591877 taxonomy "Incarvillea mairei->Incarvillea->Tecomeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3357"
+pgloadind     taxon mapping OTT ID 1066470 taxonomy "Incarvillea zhongdianensis->Incarvillea->Tecomeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3358"
+pgloadind     taxon mapping OTT ID 763804 taxonomy "Tecomaria capensis->Tecomaria->Tecomeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3360"
+pgloadind     taxon mapping OTT ID 605805 taxonomy "Deplanchea tetraphylla->Deplanchea->Tecomeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3363"
+pgloadind     taxon mapping OTT ID 84095 taxonomy "Lamiodendron magnificum->Lamiodendron->Tecomeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3364"
+pgloadind     taxon mapping OTT ID 1066477 taxonomy "Campsidium->Tecomeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3367"
+pgloadind     taxon mapping OTT ID 1019054 taxonomy "Pandorea jasminoides->Pandorea->Tecomeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3368"
+pgloadind     taxon mapping OTT ID 167661 taxonomy "Pandorea pandorana->Pandorea->Tecomeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3370"
+pgloadind     taxon mapping OTT ID 1059148 taxonomy "Tecomanthe hillii->Tecomanthe->Tecomeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3372"
+pgloadind     taxon mapping OTT ID 540063 taxonomy "Tecomanthe volubilis->Tecomanthe->Tecomeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3373"
+pgloadind     taxon mapping OTT ID 605807 taxonomy "Delostoma integrifolium->Delostoma->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3376"
+pgloadind     taxon mapping OTT ID 761250 taxonomy "Delostoma lobbii->Delostoma->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3377"
+pgloadind     taxon mapping OTT ID 1072482 taxonomy "Millingtonia hortensis->Millingtonia->Oroxyleae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3381"
+pgloadind     taxon mapping OTT ID 1019059 taxonomy "Oroxylum indicum->Oroxylum->Oroxyleae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3382"
+pgloadind     taxon mapping OTT ID 540922 taxonomy "Chilopsis linearis->Chilopsis->Catalpeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3385"
+pgloadind     taxon mapping OTT ID 496258 taxonomy "Catalpa aff. speciosa Olmstead 88-003->Catalpa->Catalpeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3387"
+pgloadind     taxon mapping OTT ID 1002653 taxonomy "Macrocatalpa punctata->Macrocatalpa->Catalpeae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3388"
+pgloadind     taxon mapping OTT ID 549233 taxonomy "Perianthomega vellozoi->Perianthomega->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3390"
+pgloadind     taxon mapping OTT ID 270959 taxonomy "Adenocalymma cymbalum->Adenocalymma->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3393"
+pgloadind     taxon mapping OTT ID 171640 taxonomy "Adenocalymma moringifolium->Adenocalymma->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3394"
+pgloadind     taxon mapping OTT ID 946258 taxonomy "Bignonia capreolata->Bignonia->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3398"
+pgloadind     taxon mapping OTT ID 493311 taxonomy "Bignonia aequinoctialis->Bignonia->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3400"
+pgloadind     taxon mapping OTT ID 496259 taxonomy "Bignonia binata->Bignonia->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3402"
+pgloadind     taxon mapping OTT ID 370350 taxonomy "Bignonia callistegioides->Bignonia->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3403"
+pgloadind     taxon mapping OTT ID 117840 taxonomy "Amphilophium bauhinioides->Amphilophium->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3406"
+pgloadind     taxon mapping OTT ID 895509 taxonomy "Amphilophium elongatum->Amphilophium->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3407"
+pgloadind     taxon mapping OTT ID 496265 taxonomy "Anemopaegma parkeri->Anemopaegma->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3409"
+pgloadind     taxon mapping OTT ID 639519 taxonomy "Mansoa difficilis->Mansoa->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3411"
+pgloadind     taxon mapping OTT ID 601213 taxonomy "Mansoa verrucifera->Mansoa->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3412"
+pgloadind     taxon mapping OTT ID 601201 taxonomy "Dolichandra quadrivalvis->Dolichandra->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3416"
+pgloadind     taxon mapping OTT ID 1001573 taxonomy "Dolichandra unguis-cati->Dolichandra->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3417"
+pgloadind     taxon mapping OTT ID 355955 taxonomy "Martinella obovata->Martinella->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3419"
+pgloadind     taxon mapping OTT ID 963208 taxonomy "Pleonotoma jasminifolia->Pleonotoma->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3420"
+pgloadind     taxon mapping OTT ID 639517 taxonomy "Manaosella cordifolia->Manaosella->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3423"
+pgloadind     taxon mapping OTT ID 1025057 taxonomy "Stizophyllum perforatum->Stizophyllum->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3424"
+pgloadind     taxon mapping OTT ID 117845 taxonomy "Leucocalantha aromatica->Leucocalantha->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3427"
+pgloadind     taxon mapping OTT ID 639525 taxonomy "Mansoa kerere->Mansoa->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3428"
+pgloadind     taxon mapping OTT ID 445584 taxonomy "Fridericia corallina->Fridericia->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3431"
+pgloadind     taxon mapping OTT ID 1022243 taxonomy "Tanaecium pyramidatum->Tanaecium->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3432"
+pgloadind     taxon mapping OTT ID 117853 taxonomy "Lundia cordata->Lundia->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3434"
+pgloadind     taxon mapping OTT ID 343461 taxonomy "Xylophragma myrianthum->Xylophragma->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3437"
+pgloadind     taxon mapping OTT ID 1069505 taxonomy "Fridericia pubescens->Fridericia->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3439"
+pgloadind     taxon mapping OTT ID 1022234 taxonomy "Fridericia sp. Folli 1658->Fridericia->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3440"
+pgloadind     taxon mapping OTT ID 1022230 taxonomy "Fridericia mollissima->Fridericia->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3442"
+pgloadind     taxon mapping OTT ID 695330 taxonomy "Cuspidaria convoluta->Cuspidaria->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3444"
+pgloadind     taxon mapping OTT ID 343332 taxonomy "Tynanthus panurensis->Tynanthus->Bignonieae->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3445"
+pgloadind     taxon mapping OTT ID 1019067 taxonomy "Radermachera frondosa->Radermachera->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3450"
+pgloadind     taxon mapping OTT ID 1072474 taxonomy "Tecomella undulata->Tecomella->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3451"
+pgloadind     taxon mapping OTT ID 1016 taxonomy "Rhigozum madagascariense->Rhigozum->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3453"
+pgloadind     taxon mapping OTT ID 805847 taxonomy "Rhigozum obovatum->Rhigozum->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3455"
+pgloadind     taxon mapping OTT ID 605810 taxonomy "Catophractes alexandri->Catophractes->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3457"
+pgloadind     taxon mapping OTT ID 809161 taxonomy "Spathodea campanulata->Spathodea->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3458"
+pgloadind     taxon mapping OTT ID 1028 taxonomy "Phyllarthron articulatum->Phyllarthron->Coleeae->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3462"
+pgloadind     taxon mapping OTT ID 708432 taxonomy "Rhodocolea racemosa->Rhodocolea->Coleeae->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3463"
+pgloadind     taxon mapping OTT ID 493326 taxonomy "Ophiocolea floribunda->Ophiocolea->Coleeae->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3465"
+pgloadind     taxon mapping OTT ID 761245 taxonomy "Colea sytsmae->Colea->Coleeae->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3467"
+pgloadind     taxon mapping OTT ID 1022229 taxonomy "Ophiocolea sp. Zjhra 939->Ophiocolea->Coleeae->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3468"
+pgloadind     taxon mapping OTT ID 268258 taxonomy "Dolichandrone spathacea->Dolichandrone->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3471"
+pgloadind     taxon mapping OTT ID 1025 taxonomy "Markhamia platycalyx->Markhamia->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3472"
+pgloadind     taxon mapping OTT ID 482933 taxonomy "Kigelia africana->Kigelia->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3475"
+pgloadind     taxon mapping OTT ID 646216 taxonomy "Stereospermum euphorioides->Stereospermum->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3477"
+pgloadind     taxon mapping OTT ID 646202 taxonomy "Stereospermum nematocarpum->Stereospermum->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3478"
+pgloadind     taxon mapping OTT ID 809159 taxonomy "Newbouldia laevis->Newbouldia->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3480"
+pgloadind     taxon mapping OTT ID 1033 taxonomy "Fernandoa madagascariensis->Fernandoa->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3482"
+pgloadind     taxon mapping OTT ID 84093 taxonomy "Heterophragma adenophyllum->Heterophragma->paleotropical clade->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3483"
+pgloadind     taxon mapping OTT ID 84089 taxonomy "Sparattosperma leucanthum->Sparattosperma->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3485"
+pgloadind     taxon mapping OTT ID 761247 taxonomy "Cybistax antisyphilitica->Cybistax->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3488"
+pgloadind     taxon mapping OTT ID 605811 taxonomy "Godmania aesculifolia->Godmania->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3490"
+pgloadind     taxon mapping OTT ID 1059147 taxonomy "Zeyheria tuberculosa->Zeyheria->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3491"
+pgloadind     taxon mapping OTT ID 605803 taxonomy "Ekmanianthe actinophylla->Ekmanianthe->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3494"
+pgloadind     taxon mapping OTT ID 1014957 taxonomy "Tabebuia rosea->Tabebuia->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3496"
+pgloadind     taxon mapping OTT ID 35617 taxonomy "Tabebuia heterophylla->Tabebuia->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3498"
+pgloadind     taxon mapping OTT ID 532902 taxonomy "Tabebuia lepidota->Tabebuia->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3500"
+pgloadind     taxon mapping OTT ID 1059159 taxonomy "Tabebuia sauvallei->Tabebuia->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3501"
+pgloadind     taxon mapping OTT ID 773397 taxonomy "Roseodendron donnell-smithii->Roseodendron->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3503"
+pgloadind     taxon mapping OTT ID 540930 taxonomy "Tabebuia chrysotricha->Tabebuia->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3506"
+pgloadind     taxon mapping OTT ID 3885600 taxonomy "Handroanthus serratifolius->Handroanthus->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3507"
+pgloadind     taxon mapping OTT ID 85465 taxonomy "Parmentiera cereifera->Parmentiera->Crescentieae->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3510"
+pgloadind     taxon mapping OTT ID 237900 taxonomy "Parmentiera macrophylla->Parmentiera->Crescentieae->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3511"
+pgloadind     taxon mapping OTT ID 496256 taxonomy "Crescentia alata->Crescentia->Crescentieae->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3513"
+pgloadind     taxon mapping OTT ID 1069521 taxonomy "Crescentia portoricensis->Crescentia->Crescentieae->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3515"
+pgloadind     taxon mapping OTT ID 496267 taxonomy "Amphitecna montana->Amphitecna->Crescentieae->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3517"
+pgloadind     taxon mapping OTT ID 1069517 taxonomy "Amphitecna apiculata->Amphitecna->Crescentieae->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3519"
+pgloadind     taxon mapping OTT ID 167685 taxonomy "Amphitecna latifolia->Amphitecna->Crescentieae->Tabebuia alliance->Crescentiina->Bignoniaceae->higher_core_Lamiales->Core_Lamiales->Lamiales->lamiids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node3520"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "12"
+pgloadind   Adding tree to graph tree id "12"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Campsis radicans was remapped to 'Campsis' (id=3286217)
+	Heterophragma adenophyllum was remapped to 'Heterophragma' (id=3286039)
+	Catalpa aff. speciosa Olmstead 88-003 was remapped to 'Catalpa' (id=3286277)
+	Fernandoa madagascariensis was remapped to 'Fernandoa' (id=3286081)
+	Godmania aesculifolia was remapped to 'Godmania' (id=3286002)
+	Tanaecium pyramidatum was remapped to 'Tanaecium' (id=3286745)
+	Podranea ricasoliana was remapped to 'Podranea' (id=3286136)
+	Lundia cordata was remapped to 'Lundia' (id=3286670)
+	Martinella obovata was remapped to 'Martinella' (id=3286714)
+	Phyllarthron articulatum was remapped to 'Phyllarthron' (id=3286026)
+	Tourrettia lappacea was remapped to 'Tourrettia' (id=3286258)
+	Chilopsis linearis was remapped to 'Chilopsis' (id=3286307)
+	Deplanchea tetraphylla was remapped to 'Deplanchea' (id=3286145)
+	Pleonotoma jasminifolia was remapped to 'Pleonotoma' (id=3286479)
+	Kigelia africana was remapped to 'Kigelia' (id=3286117)
+	Handroanthus serratifolius was remapped to 'Handroanthus' (id=3285895)
+	Rhodocolea racemosa was remapped to 'Rhodocolea' (id=3286014)
+	Stizophyllum perforatum was remapped to 'Stizophyllum' (id=3286641)
+	Anemopaegma parkeri was remapped to 'Anemopaegma' (id=3286620)
+	Radermachera frondosa was remapped to 'Radermachera' (id=3286095)
+	Newbouldia laevis was remapped to 'Newbouldia' (id=3286043)
+	Markhamia platycalyx was remapped to 'Markhamia' (id=3286056)
+	Dolichandrone spathacea was remapped to 'Dolichandrone' (id=3286067)
+	Ekmanianthe actinophylla was remapped to 'Ekmanianthe' (id=3286008)
+	Spathodea campanulata was remapped to 'Spathodea' (id=3286075)
+	Manaosella cordifolia was remapped to 'Manaosella' (id=3286703)
+	Cuspidaria convoluta was remapped to 'Cuspidaria' (id=3286753)
+	Sparattosperma leucanthum was remapped to 'Sparattosperma' (id=3285893)
+	Tecoma stans was remapped to 'Tecoma' (id=3286126)
+	Macrocatalpa punctata was remapped to 'Macrocatalpa' (id=3286314)
+	Oroxylum indicum was remapped to 'Oroxylum' (id=3286247)
+	Eccremocarpus scaber was remapped to 'Eccremocarpus' (id=3286264)
+	Perianthomega vellozoi was remapped to 'Perianthomega' (id=3286509)
+	Tecomella undulata was remapped to 'Tecomella' (id=3286041)
+	Cybistax antisyphilitica was remapped to 'Cybistax' (id=3285924)
+	Colea sytsmae was remapped to 'Colea' (id=3286036)
+	Xylophragma myrianthum was remapped to 'Xylophragma' (id=3286319)
+	Tynanthus panurensis was remapped to 'Tynanthus' (id=3286519)
+	Tecomaria capensis was remapped to 'Tecomaria' (id=3286149)
+	Lamiodendron magnificum was remapped to 'Lamiodendron' (id=3286143)
+	Millingtonia hortensis was remapped to 'Millingtonia' (id=3286244)
+	Roseodendron donnell-smithii was remapped to 'Roseodendron' (id=3285996)
+	Leucocalantha aromatica was remapped to 'Leucocalantha' (id=3286557)
+	Zeyheria tuberculosa was remapped to 'Zeyheria' (id=3286004)
+	Catophractes alexandri was remapped to 'Catophractes' (id=3286054)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Olmstead, Richard G., Michelle L. Zjhra, Lucia G. Lohmann, Susan O. Grose, and Andrew J. Eckert. 2009. A molecular phylogeny and classification of Bignoniaceae. Am. J. Bot. 96, no. 9 (September 1): 1731-1743. doi:10.3732/ajb.0900004.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Bignoniaceae
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree12
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_14
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2009
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node3330
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Rick Ree
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.3732/ajb.0900004
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node3295
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 900321
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': ML bootstrap consensus
+adding relationships to licas for children
+Committing nodes: 191
+12:37:27.632 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+	adding Node[3286323] Jacarandeae 758319 as compatible with Node[3286324]
+		adding Relationship[8923138]
+		adding to root Relationship[8923139]
+		adding Relationship[8923140] from Node[3286323] to Node[3285838]

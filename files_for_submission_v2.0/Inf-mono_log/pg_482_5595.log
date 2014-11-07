@@ -1,0 +1,134 @@
+21:25:20.261 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 40
+pgloadind Processing tree @id "645"
+pgloadind   tree info number nodes 61
+pgloadind   tree info number edges 60
+pgloadind   Ingested tree number of external nodes 31
+pgloadind   property added ot:studyPublicationReference "Visagie C., Roets F., & Jacobs K. 2009. A new species of Penicillium, P. ramulosum sp. nov., from the natural environment. Mycologia, 101(6): 888-895."
+pgloadind   property added ot:focalCladeOTTTaxonName "Penicillium"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S10243"
+pgloadind   property added ot:studyYear "2009"
+pgloadind   property added ot:studyId "pg_482"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.3852/08-149"
+pgloadind   property added ot:focalClade "250591"
+pgloadind   property added ot:curatedType "NJ, ITS"
+pgloadind   property added ot:tag "ITS"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode ""
+pgloadind Processing tree @id "646"
+pgloadind   tree info number nodes 17
+pgloadind   tree info number edges 16
+pgloadind   Ingested tree number of external nodes 9
+pgloadind   property added ot:studyPublicationReference "Visagie C., Roets F., & Jacobs K. 2009. A new species of Penicillium, P. ramulosum sp. nov., from the natural environment. Mycologia, 101(6): 888-895."
+pgloadind   property added ot:focalCladeOTTTaxonName "Penicillium"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S10243"
+pgloadind   property added ot:studyYear "2009"
+pgloadind   property added ot:studyId "pg_482"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.3852/08-149"
+pgloadind   property added ot:focalClade "250591"
+pgloadind   property added ot:curatedType "Beta Tubulin"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode ""
+pgloadind Processing tree @id "5595"
+pgloadind   tree info number nodes 17
+pgloadind   tree info number edges 16
+pgloadind   tree info ingroup "node966734"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 8
+pgloadind   property added ot:studyPublicationReference "Visagie C., Roets F., & Jacobs K. 2009. A new species of Penicillium, P. ramulosum sp. nov., from the natural environment. Mycologia, 101(6): 888-895."
+pgloadind   property added ot:focalCladeOTTTaxonName "Penicillium"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S10243"
+pgloadind   property added ot:studyYear "2009"
+pgloadind   property added ot:studyId "pg_482"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.3852/08-149"
+pgloadind   property added ot:focalClade "250591"
+pgloadind   property added ot:curatedType "NJ, b-tubulin (rooted)"
+pgloadind   property added ot:inGroupClade "node966734"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode ""
+loading a specific tree: 5595
+skipping tree: 645
+skipping tree: 646
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "5595"
+pgloadind     OTT ID missing name "Penicillium cecidicola KAS504 FJ753295" nexsonid "node966739"
+pgloadind     pruning unmapped name "Penicillium cecidicola KAS504 FJ753295" nexsonid "node966739"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Talaromyces dendriticus" nexsonid "node966737"
+pgloadind       duplicate OTT ID 647521
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Talaromyces ramulosus" nexsonid "node966743"
+pgloadind       duplicate OTT ID 219073
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Talaromyces ramulosus" nexsonid "node966745"
+pgloadind       duplicate OTT ID 219073
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Talaromyces ramulosus" nexsonid "node966747"
+pgloadind       duplicate OTT ID 219073
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Talaromyces ramulosus" nexsonid "node966748"
+pgloadind       duplicate OTT ID 219073
+pgloadind     pruning dups and overlapping name "Talaromyces ramulosus" nexsonid "node966747"
+pgloadind     pruning dups and overlapping name "Talaromyces ramulosus" nexsonid "node966745"
+pgloadind     pruning dups and overlapping name "Talaromyces dendriticus" nexsonid "node966737"
+pgloadind     pruning dups and overlapping name "Talaromyces ramulosus" nexsonid "node966748"
+pgloadind     pruning dups and overlapping name "Talaromyces ramulosus" nexsonid "node966743"
+pgloadind   postpruning newick tree "(Talaromyces_dendriticus,Talaromyces_ramulosus)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 647521 taxonomy "Talaromyces dendriticus->Talaromyces->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node966736"
+pgloadind     taxon mapping OTT ID 219073 taxonomy "Talaromyces ramulosus->Talaromyces->Trichocomaceae->Eurotiales->Eurotiomycetidae->Eurotiomycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node966742"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "5595"
+pgloadind   Adding tree to graph tree id "5595"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Visagie C., Roets F., & Jacobs K. 2009. A new species of Penicillium, P. ramulosum sp. nov., from the natural environment. Mycologia, 101(6): 888-895.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Penicillium
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': 
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S10243
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_482
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2009
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node966734
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.3852/08-149
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': 
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 250591
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': NJ, b-tubulin (rooted)
+adding relationships to licas for children
+Committing nodes: 3
+21:26:09.728 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

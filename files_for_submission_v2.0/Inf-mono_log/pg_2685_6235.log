@@ -1,0 +1,180 @@
+16:32:25.248 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 44
+pgloadind Processing tree @id "6235"
+pgloadind   tree info number nodes 87
+pgloadind   tree info number edges 86
+pgloadind   tree info ingroup "node1077007"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 44
+pgloadind   property added ot:studyPublicationReference "Koepfli, Klaus-Peter, Kerry A Deere, Graham J Slater, Colleen Begg, Keith Begg, Lon Grassman, Mauro Lucherini, Geraldine Veron, Robert K Wayne. 2008. Multigene phylogeny of the Mustelidae: Resolving relationships, tempo and biogeographic history of a mammalian adaptive radiation. BMC Biology 6 (1): 10."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6235"
+pgloadind   property added ot:focalCladeOTTTaxonName "Mustelidae"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:studyYear "2008"
+pgloadind   property added ot:studyId "pg_2685"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1186/1741-7007-6-10"
+pgloadind   property added ot:tag "ingroup added"
+pgloadind   property added ot:focalClade "348043"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "BEAST MCC tree"
+pgloadind   property added ot:inGroupClade "node1077007"
+pgloadind   property added ot:specifiedRoot "node1077007"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit "Myr"
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:time"
+loading a specific tree: 6235
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6235"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "(((((((((((Martes_melampus,Martes_americana),(Martes_martes,Martes_zibellina)),Martes_foina),Martes_flavigula),Gulo_gulo),Martes_pennanti),Eira_barbara),(Arctonyx_collaris,Meles_meles)),((Melogale_moschata,Melogale_personata),(((((((Mustela_altaica,Mustela_nivalis),((((Mustela_eversmannii,Mustela_putorius),Mustela_nigripes),Mustela_lutreola),Mustela_sibirica)),Mustela_erminea),(Mustela_nudipes,Mustela_strigidorsa)),(Mustela_frenata,Neovison_vison)),((((Hydrictis_maculicollis,Enhydra_lutris),((Aonyx_capensis,(Aonyx_cinerea,Lutrogale_perspicillata)),(Lutra_lutra,Lutra_sumatrana))),(Lontra_canadensis,(Lontra_felina,Lontra_longicaudis))),Pteronura_brasiliensis)),((Galictis_vittata,Galictis_cuja),(((Poecilogale_albinucha,Ictonyx_striatus),Ictonyx_libyca),Vormela_peregusna))))),Mellivora_capensis),Taxidea_taxus)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 681181 taxonomy "Martes melampus->Martes->Martinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077018"
+pgloadind     taxon mapping OTT ID 923116 taxonomy "Martes americana->Martes->Martinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077019"
+pgloadind     taxon mapping OTT ID 532122 taxonomy "Martes martes->Martes->Martinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077021"
+pgloadind     taxon mapping OTT ID 681187 taxonomy "Martes zibellina->Martes->Martinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077022"
+pgloadind     taxon mapping OTT ID 348047 taxonomy "Martes foina->Martes->Martinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077023"
+pgloadind     taxon mapping OTT ID 213517 taxonomy "Martes flavigula->Martes->Martinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077024"
+pgloadind     taxon mapping OTT ID 178247 taxonomy "Gulo gulo->Gulo->Martinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077025"
+pgloadind     taxon mapping OTT ID 4697 taxonomy "Martes pennanti->Martes->Martinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077026"
+pgloadind     taxon mapping OTT ID 381140 taxonomy "Eira barbara->Eira->Martinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077027"
+pgloadind     taxon mapping OTT ID 1086986 taxonomy "Arctonyx collaris->Arctonyx->Melinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077029"
+pgloadind     taxon mapping OTT ID 923113 taxonomy "Meles meles->Meles->Melinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077030"
+pgloadind     taxon mapping OTT ID 381134 taxonomy "Melogale moschata->Melogale->Helictidinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077033"
+pgloadind     taxon mapping OTT ID 486046 taxonomy "Melogale personata->Melogale->Helictidinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077034"
+pgloadind     taxon mapping OTT ID 69264 taxonomy "Mustela altaica->Mustela->Mustelinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077042"
+pgloadind     taxon mapping OTT ID 354525 taxonomy "Mustela nivalis->Mustela->Mustelinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077043"
+pgloadind     taxon mapping OTT ID 915607 taxonomy "Mustela eversmannii->Mustela->Mustelinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077048"
+pgloadind     taxon mapping OTT ID 923126 taxonomy "Mustela putorius->Mustela->Mustelinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077049"
+pgloadind     taxon mapping OTT ID 541439 taxonomy "Mustela nigripes->Mustela->Mustelinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077050"
+pgloadind     taxon mapping OTT ID 923105 taxonomy "Mustela lutreola->Mustela->Mustelinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077051"
+pgloadind     taxon mapping OTT ID 549525 taxonomy "Mustela sibirica->Mustela->Mustelinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077052"
+pgloadind     taxon mapping OTT ID 681184 taxonomy "Mustela erminea->Mustela->Mustelinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077053"
+pgloadind     taxon mapping OTT ID 378004 taxonomy "Mustela nudipes->Mustela->Mustelinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077055"
+pgloadind     taxon mapping OTT ID 273796 taxonomy "Mustela strigidorsa->Mustela->Mustelinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077056"
+pgloadind     taxon mapping OTT ID 685101 taxonomy "Mustela frenata->Mustela->Mustelinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077058"
+pgloadind     taxon mapping OTT ID 310482 taxonomy "Neovison vison->Neovison->Mustelinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077059"
+pgloadind     taxon mapping OTT ID 310493 taxonomy "Hydrictis maculicollis->Hydrictis->Lutrinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077064"
+pgloadind     taxon mapping OTT ID 949676 taxonomy "Enhydra lutris->Enhydra->Lutrinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077065"
+pgloadind     taxon mapping OTT ID 4709 taxonomy "Aonyx capensis->Aonyx->Lutrinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077068"
+pgloadind     taxon mapping OTT ID 956747 taxonomy "Aonyx cinerea->Aonyx->Lutrinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077070"
+pgloadind     taxon mapping OTT ID 310488 taxonomy "Lutrogale perspicillata->Lutrogale->Lutrinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077071"
+pgloadind     taxon mapping OTT ID 348036 taxonomy "Lutra lutra->Lutra->Lutrinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077073"
+pgloadind     taxon mapping OTT ID 310491 taxonomy "Lutra sumatrana->Lutra->Lutrinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077074"
+pgloadind     taxon mapping OTT ID 656961 taxonomy "Lontra canadensis->Lontra->Lutrinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077076"
+pgloadind     taxon mapping OTT ID 656972 taxonomy "Lontra felina->Lontra->Lutrinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077078"
+pgloadind     taxon mapping OTT ID 1088406 taxonomy "Lontra longicaudis->Lontra->Lutrinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077079"
+pgloadind     taxon mapping OTT ID 397142 taxonomy "Pteronura brasiliensis->Pteronura->Lutrinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077080"
+pgloadind     taxon mapping OTT ID 381130 taxonomy "Galictis vittata->Galictis->Galictinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077083"
+pgloadind     taxon mapping OTT ID 1061040 taxonomy "Galictis cuja->Galictis->Galictinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077084"
+pgloadind     taxon mapping OTT ID 415263 taxonomy "Poecilogale albinucha->Poecilogale->Galictinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077088"
+pgloadind     taxon mapping OTT ID 111024 taxonomy "Ictonyx striatus->Ictonyx->Galictinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077089"
+pgloadind     taxon mapping OTT ID 1061038 taxonomy "Ictonyx libyca->Ictonyx->Galictinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077090"
+pgloadind     taxon mapping OTT ID 1031807 taxonomy "Vormela peregusna->Vormela->Galictinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077091"
+pgloadind     taxon mapping OTT ID 923109 taxonomy "Mellivora capensis->Mellivora->Mellivoriane->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077092"
+pgloadind     taxon mapping OTT ID 754612 taxonomy "Taxidea taxus->Taxidea->Taxidiinae->Mustelidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1077093"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6235"
+pgloadind   Adding tree to graph tree id "6235"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Hydrictis maculicollis was remapped to 'Hydrictis' (id=3072722)
+	Meles meles was remapped to 'Meles' (id=3072489)
+	Neovison vison was remapped to 'Neovison' (id=3072556)
+	Pteronura brasiliensis was remapped to 'Pteronura' (id=3072667)
+	Gulo gulo was remapped to 'Gulo' (id=3072435)
+	Enhydra lutris was remapped to 'Enhydra' (id=3072699)
+	Poecilogale albinucha was remapped to 'Poecilogale' (id=3072509)
+	Arctonyx collaris was remapped to 'Arctonyx' (id=3072483)
+	Taxidea taxus was remapped to 'Taxidiinae' (id=3072549)
+	Lutrogale perspicillata was remapped to 'Lutrogale' (id=3072717)
+	Mellivora capensis was remapped to 'Mellivoriane' (id=3072396)
+	Vormela peregusna was remapped to 'Vormela' (id=3072529)
+	Eira barbara was remapped to 'Eira' (id=3072425)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Koepfli, Klaus-Peter, Kerry A Deere, Graham J Slater, Colleen Begg, Keith Begg, Lon Grassman, Mauro Lucherini, Geraldine Veron, Robert K Wayne. 2008. Multigene phylogeny of the Mustelidae: Resolving relationships, tempo and biogeographic history of a mammalian adaptive radiation. BMC Biology 6 (1): 10.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Mustelidae
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6235
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:time
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': Myr
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2685
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2008
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1077007
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph Brown
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1186/1741-7007-6-10
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1077007
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 348043
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': BEAST MCC tree
+adding relationships to licas for children
+Committing nodes: 87
+16:33:19.385 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+	adding Node[3072410] Helictidinae 67324 as compatible with Node[3072411]
+		adding Relationship[8922882]
+		adding to root Relationship[8922883]

@@ -1,0 +1,197 @@
+15:13:37.858 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 51
+pgloadind Processing tree @id "3"
+pgloadind   tree info number nodes 101
+pgloadind   tree info number edges 100
+pgloadind   tree info ingroup "node3"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 51
+pgloadind   property added ot:studyPublicationReference "den Tex, Robert-Jan, Jennifer A. Leonard. 2013. A molecular phylogeny of Asian barbets: speciation and extinction in the tropics. Molecular Phylogenetics and Evolution 68 (1): 1-13."
+pgloadind   property added ot:candidateTreeForSynthesis "tree3"
+pgloadind   property added ot:focalCladeOTTTaxonName "Megalaimidae"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.ympev.2013.03.004"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:studyYear "2013"
+pgloadind   property added ot:studyId "ot_150"
+pgloadind   property added ot:comment "Many subspecies missing from taxonomy. If taxonomy if updated, this study will need to be remapped (i.e. so taxa are not mapped to species and descendant subspecies). For now, type subspecies are mapped to species, other left unmapped. (JWB)"
+pgloadind   property added ot:focalClade "291635"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType ""
+pgloadind   property added ot:nearestTaxonMRCAOttId "291635"
+pgloadind   property added ot:inGroupClade "node3"
+pgloadind   property added ot:nearestTaxonMRCAName "Megalaimidae"
+pgloadind   property added ot:specifiedRoot "node3"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+loading a specific tree: 3
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "3"
+pgloadind     OTT ID missing name "Calorhamphus fuliginosus tertius" nexsonid "node7"
+pgloadind     OTT ID missing name "Calorhamphus fuliginosus hayii" nexsonid "node8"
+pgloadind     OTT ID missing name "Megalaima australis duvaucelli Sumatra" nexsonid "node27"
+pgloadind     OTT ID missing name "Megalaima australis duvaucelli Borneo" nexsonid "node28"
+pgloadind     OTT ID missing name "Megalaima armillaris baliensis Bali" nexsonid "node52"
+pgloadind     OTT ID missing name "Megalaima henricii brachyrhyncha" nexsonid "node56"
+pgloadind     OTT ID missing name "Megalaima asiatica chersonesus" nexsonid "node73"
+pgloadind     OTT ID missing name "Megalaima faber sini" nexsonid "node78"
+pgloadind     OTT ID missing name "Megalaima chrysopogon chrysopsis" nexsonid "node86"
+pgloadind     OTT ID missing name "Megalaima franklinii ramsayi" nexsonid "node92"
+pgloadind     OTT ID missing name "Megalaima franklinii auricularis" nexsonid "node93"
+pgloadind     OTT ID missing name "Megalaima lineata hodgsoni" nexsonid "node101"
+pgloadind     pruning unmapped name "Calorhamphus fuliginosus tertius" nexsonid "node7"
+pgloadind     pruning unmapped name "Megalaima lineata hodgsoni" nexsonid "node101"
+pgloadind     pruning unmapped name "Megalaima australis duvaucelli Borneo" nexsonid "node28"
+pgloadind     pruning unmapped name "Megalaima chrysopogon chrysopsis" nexsonid "node86"
+pgloadind     pruning unmapped name "Megalaima australis duvaucelli Sumatra" nexsonid "node27"
+pgloadind     pruning unmapped name "Megalaima franklinii ramsayi" nexsonid "node92"
+pgloadind     pruning unmapped name "Megalaima franklinii auricularis" nexsonid "node93"
+pgloadind     pruning unmapped name "Megalaima asiatica chersonesus" nexsonid "node73"
+pgloadind     pruning unmapped name "Megalaima henricii brachyrhyncha" nexsonid "node56"
+pgloadind     pruning unmapped name "Calorhamphus fuliginosus hayii" nexsonid "node8"
+pgloadind     pruning unmapped name "Megalaima armillaris baliensis Bali" nexsonid "node52"
+pgloadind     pruning unmapped name "Megalaima faber sini" nexsonid "node78"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Megalaima mystacophanos" nexsonid "node42"
+pgloadind       duplicate OTT ID 291637
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Megalaima rafflesii" nexsonid "node46"
+pgloadind       duplicate OTT ID 3600166
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Megalaima armillaris" nexsonid "node53"
+pgloadind       duplicate OTT ID 3600162
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Megalaima asiatica davisoni" nexsonid "node71"
+pgloadind       duplicate OTT ID 960892
+pgloadind     pruning dups and overlapping name "Megalaima rafflesii" nexsonid "node46"
+pgloadind     pruning dups and overlapping name "Megalaima armillaris" nexsonid "node53"
+pgloadind     pruning dups and overlapping name "Megalaima mystacophanos" nexsonid "node42"
+pgloadind     pruning dups and overlapping name "Megalaima asiatica davisoni" nexsonid "node71"
+pgloadind   postpruning newick tree "((((Megalaima_eximia,Megalaima_australis),(((Megalaima_virens,Megalaima_lagrandieri),Psilopogon_pyrolophus),(((Megalaima_javensis,Megalaima_mystacophanos),Megalaima_rafflesii),(((Megalaima_henricii,Megalaima_armillaris),Megalaima_pulcherrima),(Megalaima_faiostricta,(((((Megalaima_oorti,((Megalaima_asiatica_davisoni,Megalaima_asiatica_asiatica),Megalaima_annamensis)),((Megalaima_nuchalis,Megalaima_faber),Megalaima_incognita)),((Megalaima_corvina,Megalaima_chrysopogon),Megalaima_monticola)),Megalaima_franklinii_franklinii),(((Megalaima_viridis,Megalaima_flavifrons),Megalaima_zeylanica),Megalaima_lineata))))))),((((Megalaima_haemacephala_intermedia,Megalaima_haemacephala_celestinoi),(Megalaima_haemacephala_rosea,Megalaima_haemacephala_delica)),Megalaima_haemacephala_indica),(Megalaima_rubricapillus,Megalaima_malabarica))),Calorhamphus_fuliginosus)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 3600159 taxonomy "Megalaima eximia->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node30"
+pgloadind     taxon mapping OTT ID 3600167 taxonomy "Megalaima australis->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node29"
+pgloadind     taxon mapping OTT ID 1019972 taxonomy "Megalaima virens->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node34"
+pgloadind     taxon mapping OTT ID 3600164 taxonomy "Megalaima lagrandieri->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node35"
+pgloadind     taxon mapping OTT ID 291641 taxonomy "Psilopogon pyrolophus->Psilopogon->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node36"
+pgloadind     taxon mapping OTT ID 3600152 taxonomy "Megalaima javensis->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node43"
+pgloadind     taxon mapping OTT ID 291637 taxonomy "Megalaima mystacophanos->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node41"
+pgloadind     taxon mapping OTT ID 3600166 taxonomy "Megalaima rafflesii->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node45"
+pgloadind     taxon mapping OTT ID 3600154 taxonomy "Megalaima henricii->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node57"
+pgloadind     taxon mapping OTT ID 3600162 taxonomy "Megalaima armillaris->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node54"
+pgloadind     taxon mapping OTT ID 3600160 taxonomy "Megalaima pulcherrima->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node58"
+pgloadind     taxon mapping OTT ID 3600161 taxonomy "Megalaima faiostricta->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node103"
+pgloadind     taxon mapping OTT ID 738735 taxonomy "Megalaima oorti->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node74"
+pgloadind     taxon mapping OTT ID 960892 taxonomy "Megalaima asiatica davisoni->Megalaima asiatica->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node68"
+pgloadind     taxon mapping OTT ID 960894 taxonomy "Megalaima asiatica asiatica->Megalaima asiatica->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node69"
+pgloadind     taxon mapping OTT ID 3600158 taxonomy "Megalaima annamensis->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node70"
+pgloadind     taxon mapping OTT ID 3600163 taxonomy "Megalaima nuchalis->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node80"
+pgloadind     taxon mapping OTT ID 3600157 taxonomy "Megalaima faber->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node79"
+pgloadind     taxon mapping OTT ID 3600155 taxonomy "Megalaima incognita->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node81"
+pgloadind     taxon mapping OTT ID 3600153 taxonomy "Megalaima corvina->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node87"
+pgloadind     taxon mapping OTT ID 909900 taxonomy "Megalaima chrysopogon->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node85"
+pgloadind     taxon mapping OTT ID 738742 taxonomy "Megalaima monticola->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node88"
+pgloadind     taxon mapping OTT ID 351693 taxonomy "Megalaima franklinii franklinii->Megalaima franklinii->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node91"
+pgloadind     taxon mapping OTT ID 876386 taxonomy "Megalaima viridis->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node97"
+pgloadind     taxon mapping OTT ID 3600156 taxonomy "Megalaima flavifrons->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node98"
+pgloadind     taxon mapping OTT ID 3600165 taxonomy "Megalaima zeylanica->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node99"
+pgloadind     taxon mapping OTT ID 738737 taxonomy "Megalaima lineata->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node102"
+pgloadind     taxon mapping OTT ID 856985 taxonomy "Megalaima haemacephala intermedia->Megalaima haemacephala->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node14"
+pgloadind     taxon mapping OTT ID 857009 taxonomy "Megalaima haemacephala celestinoi->Megalaima haemacephala->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node15"
+pgloadind     taxon mapping OTT ID 856999 taxonomy "Megalaima haemacephala rosea->Megalaima haemacephala->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node17"
+pgloadind     taxon mapping OTT ID 857004 taxonomy "Megalaima haemacephala delica->Megalaima haemacephala->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node18"
+pgloadind     taxon mapping OTT ID 1059115 taxonomy "Megalaima haemacephala indica->Megalaima haemacephala->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node19"
+pgloadind     taxon mapping OTT ID 876388 taxonomy "Megalaima rubricapillus->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node21"
+pgloadind     taxon mapping OTT ID 876373 taxonomy "Megalaima malabarica->Megalaima->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node22"
+pgloadind     taxon mapping OTT ID 738747 taxonomy "Calorhamphus fuliginosus->Calorhamphus->Megalaimidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node6"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "3"
+pgloadind   Adding tree to graph tree id "3"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Megalaima franklinii franklinii was remapped to 'Megalaima franklinii' (id=3022827)
+	Psilopogon pyrolophus was remapped to 'Psilopogon' (id=3022869)
+	Calorhamphus fuliginosus was remapped to 'Calorhamphus' (id=3022810)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': den Tex, Robert-Jan, Jennifer A. Leonard. 2013. A molecular phylogeny of Asian barbets: speciation and extinction in the tropics. Molecular Phylogenetics and Evolution 68 (1): 1-13.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Megalaimidae
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree3
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': Many subspecies missing from taxonomy. If taxonomy if updated, this study will need to be remapped (i.e. so taxa are not mapped to species and descendant subspecies). For now, type subspecies are mapped to species, other left unmapped. (JWB)
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:nearestTaxonMRCAName
+Adding property 'ot:nearestTaxonMRCAName': Megalaimidae
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:nearestTaxonMRCAOttId
+Adding property 'ot:nearestTaxonMRCAOttId': 291635
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': ot_150
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2013
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node3
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.ympev.2013.03.004
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node3
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 291635
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': 
+adding relationships to licas for children
+Committing nodes: 69
+15:14:28.867 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

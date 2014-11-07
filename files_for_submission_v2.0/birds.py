@@ -18,8 +18,7 @@ studytreelist=[
 
                "ot_116_1",     # Strigiformes. Hugall and Stuart-Fox. 2012. Nature # can fill this out more
 
-               "ot_121_2",     # Couinae. Payne. 2005. Book
-               "ot_121_1",     # Cuculiformes. Payne. 2005. Book
+               "ot_121_7",     # Cuculiformes. Payne. 2005. Book
 
                "pg_2876_6670", # Tinamidae. Bertelli et al. 2004. Orn. Neotrop.
                "pg_2926_6757", # Palaeognaths. Mitchell et al. 2014. Science

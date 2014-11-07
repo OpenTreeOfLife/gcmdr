@@ -36,8 +36,9 @@ studytreelist=["pg_263_149",
                "pg_313_6681", # fixed Grant et al. tree (topology)
                "pg_2554_5580",
                "pg_2484_6607",
-               "pg_2849_6615"
-               ]#"2822_6569"] # Parfrey et al. 2011. PNAS <- why not this one? it is good.
+               "pg_2849_6615",
+               #"2822_6569"] # Parfrey et al. 2011. PNAS <- why not this one? it is good.
+               ]
 studytreelistTF = [True] * len(studytreelist)
 """
 studytreelist=["425_5976", # Eukaryota. Katz et al. 2012. Syst Biol.

@@ -1,0 +1,153 @@
+20:54:47.600 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 30
+pgloadind Processing tree @id "496"
+pgloadind   tree info number nodes 54
+pgloadind   tree info number edges 53
+pgloadind   Ingested tree number of external nodes 30
+pgloadind   property added ot:studyPublicationReference "Blanco, Oscar, Ana Crespo, Pradeep K. Divakar, John A. Elix, and H. Thorsten Lumbsch. "Molecular phylogeny of parmotremoid lichens (Ascomycota, Parmeliaceae)." Mycologia 97, no. 1 (2005): 150-159."
+pgloadind   property added ot:focalCladeOTTTaxonName "Parmeliaceae"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1170"
+pgloadind   property added ot:studyYear "2004"
+pgloadind   property added ot:studyId "pg_399"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.3852/mycologia.97.1.150"
+pgloadind   property added ot:focalClade "305904"
+pgloadind   property added ot:curatedType "BI, mtSSU+ITS+LSU"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode ""
+pgloadind Processing tree @id "5565"
+pgloadind   tree info number nodes 55
+pgloadind   tree info number edges 54
+pgloadind   tree info ingroup "node955262"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 28
+pgloadind   property added ot:studyPublicationReference "Blanco, Oscar, Ana Crespo, Pradeep K. Divakar, John A. Elix, and H. Thorsten Lumbsch. "Molecular phylogeny of parmotremoid lichens (Ascomycota, Parmeliaceae)." Mycologia 97, no. 1 (2005): 150-159."
+pgloadind   property added ot:focalCladeOTTTaxonName "Parmeliaceae"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1170"
+pgloadind   property added ot:studyYear "2004"
+pgloadind   property added ot:studyId "pg_399"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.3852/mycologia.97.1.150"
+pgloadind   property added ot:focalClade "305904"
+pgloadind   property added ot:curatedType "BI, ITS + mtSSU + LSU (rooted)"
+pgloadind   property added ot:inGroupClade "node955262"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode ""
+loading a specific tree: 5565
+skipping tree: 496
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "5565"
+pgloadind     OTT ID missing name "Rimelia pseudoreticulata" nexsonid "node955306"
+pgloadind     pruning unmapped name "Rimelia pseudoreticulata" nexsonid "node955306"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Punctelia subflava" nexsonid "node955272"
+pgloadind       duplicate OTT ID 311283
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Punctelia subflava" nexsonid "node955273"
+pgloadind       duplicate OTT ID 311283
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Flavoparmelia caperata" nexsonid "node955280"
+pgloadind       duplicate OTT ID 733706
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Flavoparmelia baltimorensis" nexsonid "node955283"
+pgloadind       duplicate OTT ID 297000
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Canoparmelia crozalsiana" nexsonid "node955285"
+pgloadind       overlapping pruned name "Canoparmelia" nexsonid "node955311"
+pgloadind     pruning dups and overlapping name "Punctelia subflava" nexsonid "node955273"
+pgloadind     pruning dups and overlapping name "Punctelia subflava" nexsonid "node955272"
+pgloadind     pruning dups and overlapping name "Flavoparmelia baltimorensis" nexsonid "node955283"
+pgloadind     pruning dups and overlapping name "Flavoparmelia caperata" nexsonid "node955280"
+pgloadind     pruning dups and overlapping name "Canoparmelia" nexsonid "node955311"
+pgloadind   postpruning newick tree "(((Punctelia_pseudocoralloidea,Punctelia_subflava),(Punctelia_subrudecta,Punctelia_borreri)),((Flavoparmelia_soredians,(Flavoparmelia_baltimorensis,Flavoparmelia_caperata)),(Canoparmelia_crozalsiana,((Parmelaria_subthomsonii,Parmotrema_tinctorum),(Canomaculina_subcaperata,Parmotrema_fistulatum,Parmotrema_robustum,(Parmotrema_hypoleucinum,Parmotrema_perforatum),((Parmotrema_crinitum,Parmotrema_perlatum),(Parmotrema_cetratum,(Rimelia_clavulifera,Parmotrema_reticulatum))),(Canomaculina_pilosa,Canomaculina_subtinctoria))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 872117 taxonomy "Punctelia pseudocoralloidea->Punctelia->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955265"
+pgloadind     taxon mapping OTT ID 311283 taxonomy "Punctelia subflava->Punctelia->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955266"
+pgloadind     taxon mapping OTT ID 872116 taxonomy "Punctelia subrudecta->Punctelia->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955268"
+pgloadind     taxon mapping OTT ID 682353 taxonomy "Punctelia borreri->Punctelia->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955270"
+pgloadind     taxon mapping OTT ID 769766 taxonomy "Flavoparmelia soredians->Flavoparmelia->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955276"
+pgloadind     taxon mapping OTT ID 297000 taxonomy "Flavoparmelia baltimorensis->Flavoparmelia->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955282"
+pgloadind     taxon mapping OTT ID 733706 taxonomy "Flavoparmelia caperata->Flavoparmelia->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955279"
+pgloadind     taxon mapping OTT ID 297008 taxonomy "Canoparmelia crozalsiana->Canoparmelia->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955285"
+pgloadind     taxon mapping OTT ID 922705 taxonomy "Parmelaria subthomsonii->Parmelaria->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955288"
+pgloadind     taxon mapping OTT ID 153036 taxonomy "Parmotrema tinctorum->Parmotrema->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955289"
+pgloadind     taxon mapping OTT ID 297010 taxonomy "Canomaculina subcaperata->Canomaculina->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955291"
+pgloadind     taxon mapping OTT ID 153041 taxonomy "Parmotrema fistulatum->Parmotrema->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955292"
+pgloadind     taxon mapping OTT ID 872119 taxonomy "Parmotrema robustum->Parmotrema->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955293"
+pgloadind     taxon mapping OTT ID 190304 taxonomy "Parmotrema hypoleucinum->Parmotrema->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955295"
+pgloadind     taxon mapping OTT ID 872122 taxonomy "Parmotrema perforatum->Parmotrema->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955296"
+pgloadind     taxon mapping OTT ID 436654 taxonomy "Parmotrema crinitum->Parmotrema->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955299"
+pgloadind     taxon mapping OTT ID 682349 taxonomy "Parmotrema perlatum->Parmotrema->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955300"
+pgloadind     taxon mapping OTT ID 153039 taxonomy "Parmotrema cetratum->Parmotrema->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955302"
+pgloadind     taxon mapping OTT ID 872114 taxonomy "Rimelia clavulifera->Rimelia->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955304"
+pgloadind     taxon mapping OTT ID 311280 taxonomy "Parmotrema reticulatum->Parmotrema->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955307"
+pgloadind     taxon mapping OTT ID 297005 taxonomy "Canomaculina pilosa->Canomaculina->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955309"
+pgloadind     taxon mapping OTT ID 297012 taxonomy "Canomaculina subtinctoria->Canomaculina->Parmeliaceae->Lecanorales->Lecanoromycetidae->Lecanoromycetes->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node955312"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "5565"
+pgloadind   Adding tree to graph tree id "5565"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Canoparmelia crozalsiana was remapped to 'Canoparmelia' (id=609774)
+	Rimelia clavulifera was remapped to 'Rimelia' (id=612550)
+	Parmelaria subthomsonii was remapped to 'Parmelaria' (id=612163)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Blanco, Oscar, Ana Crespo, Pradeep K. Divakar, John A. Elix, and H. Thorsten Lumbsch. "Molecular phylogeny of parmotremoid lichens (Ascomycota, Parmeliaceae)." Mycologia 97, no. 1 (2005): 150-159.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Parmeliaceae
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': 
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1170
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_399
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2004
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node955262
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.3852/mycologia.97.1.150
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': 
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 305904
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': BI, ITS + mtSSU + LSU (rooted)
+adding relationships to licas for children
+Committing nodes: 39
+20:55:38.830 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

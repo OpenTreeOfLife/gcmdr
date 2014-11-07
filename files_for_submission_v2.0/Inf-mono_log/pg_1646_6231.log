@@ -1,0 +1,195 @@
+16:43:26.253 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 36
+pgloadind Processing tree @id "6231"
+pgloadind   tree info number nodes 71
+pgloadind   tree info number edges 70
+pgloadind   tree info ingroup "node1076520"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 34
+pgloadind   property added ot:studyPublicationReference "Higdon J. W., Bininda-Emonds O. R. P., Beck R. M. D., Ferguson S. H. 2007. Phylogeny and divergence of the pinnipeds (Carnivora: Mammalia) assessed using a multigene dataset. BMC Evolutionary Biology 8: 216."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6231"
+pgloadind   property added ot:curatorName "Chris Owen"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S2376"
+pgloadind   property added ot:studyYear "2007"
+pgloadind   property added ot:studyId "pg_1646"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1186/1471-2148-7-216"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "supertree - best dates"
+pgloadind   property added ot:inGroupClade "node1076520"
+pgloadind   property added ot:specifiedRoot "node1076518"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit "Myr"
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:time"
+pgloadind Processing tree @id "6232"
+pgloadind   tree info number nodes 71
+pgloadind   tree info number edges 70
+pgloadind   tree info ingroup "node1076591"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 34
+pgloadind   property added ot:studyPublicationReference "Higdon J. W., Bininda-Emonds O. R. P., Beck R. M. D., Ferguson S. H. 2007. Phylogeny and divergence of the pinnipeds (Carnivora: Mammalia) assessed using a multigene dataset. BMC Evolutionary Biology 8: 216."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6231"
+pgloadind   property added ot:curatorName "Chris Owen"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S2376"
+pgloadind   property added ot:studyYear "2007"
+pgloadind   property added ot:studyId "pg_1646"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1186/1471-2148-7-216"
+pgloadind   property added ot:curatedType "supertree - lower dates"
+pgloadind   property added ot:inGroupClade "node1076591"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit "Myr"
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:time"
+pgloadind Processing tree @id "6233"
+pgloadind   tree info number nodes 71
+pgloadind   tree info number edges 70
+pgloadind   tree info ingroup "node1076662"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 34
+pgloadind   property added ot:studyPublicationReference "Higdon J. W., Bininda-Emonds O. R. P., Beck R. M. D., Ferguson S. H. 2007. Phylogeny and divergence of the pinnipeds (Carnivora: Mammalia) assessed using a multigene dataset. BMC Evolutionary Biology 8: 216."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6231"
+pgloadind   property added ot:curatorName "Chris Owen"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S2376"
+pgloadind   property added ot:studyYear "2007"
+pgloadind   property added ot:studyId "pg_1646"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1186/1471-2148-7-216"
+pgloadind   property added ot:curatedType "supertree - upper dates"
+pgloadind   property added ot:inGroupClade "node1076662"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit "Myr"
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:time"
+loading a specific tree: 6231
+skipping tree: 6232
+skipping tree: 6233
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6231"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Otaria byronia" nexsonid "node1076543"
+pgloadind       dubious OTT ID 273182
+pgloadind     pruning dups and overlapping name "Otaria byronia" nexsonid "node1076543"
+pgloadind   postpruning newick tree "((((((Eumetopias_jubatus,Zalophus_californianus),((((((Arctocephalus_australis,Arctocephalus_galapagoensis),Arctocephalus_forsteri),(Arctocephalus_gazella,Arctocephalus_tropicalis)),(Arctocephalus_philippii,Arctocephalus_townsendi)),Phocarctos_hookeri),Arctocephalus_pusillus)),Neophoca_cinerea),Callorhinus_ursinus),Odobenus_rosmarus),(((Cystophora_cristata,(((((Halichoerus_grypus,Pusa_caspica),Pusa_sibirica),(Phoca_largha,Phoca_vitulina)),Pusa_hispida),(Phoca_fasciata,Phoca_groenlandica))),Erignathus_barbatus),(((((Hydrurga_leptonyx,Leptonychotes_weddellii),Ommatophoca_rossii),Lobodon_carcinophaga),(Mirounga_angustirostris,Mirounga_leonina)),(Monachus_monachus,(Monachus_schauinslandi,Monachus_tropicalis)))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 949686 taxonomy "Eumetopias jubatus->Eumetopias->Otariidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076545"
+pgloadind     taxon mapping OTT ID 95364 taxonomy "Zalophus californianus->Zalophus->Otariidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076546"
+pgloadind     taxon mapping OTT ID 796568 taxonomy "Arctocephalus australis->Arctocephalus->Otariidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076532"
+pgloadind     taxon mapping OTT ID 590445 taxonomy "Arctocephalus galapagoensis->Arctocephalus->Otariidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076533"
+pgloadind     taxon mapping OTT ID 180381 taxonomy "Arctocephalus forsteri->Arctocephalus->Otariidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076534"
+pgloadind     taxon mapping OTT ID 336157 taxonomy "Arctocephalus gazella->Arctocephalus->Otariidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076536"
+pgloadind     taxon mapping OTT ID 336151 taxonomy "Arctocephalus tropicalis->Arctocephalus->Otariidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076537"
+pgloadind     taxon mapping OTT ID 796545 taxonomy "Arctocephalus philippii->Arctocephalus->Otariidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076539"
+pgloadind     taxon mapping OTT ID 796557 taxonomy "Arctocephalus townsendi->Arctocephalus->Otariidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076540"
+pgloadind     taxon mapping OTT ID 949672 taxonomy "Phocarctos hookeri->Phocarctos->Otariidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076541"
+pgloadind     taxon mapping OTT ID 336156 taxonomy "Arctocephalus pusillus->Arctocephalus->Otariidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076542"
+pgloadind     taxon mapping OTT ID 273179 taxonomy "Neophoca cinerea->Neophoca->Otariidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076547"
+pgloadind     taxon mapping OTT ID 949693 taxonomy "Callorhinus ursinus->Callorhinus->Otariidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076548"
+pgloadind     taxon mapping OTT ID 749644 taxonomy "Odobenus rosmarus->Odobenus->Odobenidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076549"
+pgloadind     taxon mapping OTT ID 132779 taxonomy "Cystophora cristata->Cystophora->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076553"
+pgloadind     taxon mapping OTT ID 1040694 taxonomy "Halichoerus grypus->Halichoerus->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076559"
+pgloadind     taxon mapping OTT ID 22064 taxonomy "Pusa caspica->Pusa->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076560"
+pgloadind     taxon mapping OTT ID 1040678 taxonomy "Pusa sibirica->Pusa->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076561"
+pgloadind     taxon mapping OTT ID 89833 taxonomy "Phoca largha->Phoca->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076563"
+pgloadind     taxon mapping OTT ID 698422 taxonomy "Phoca vitulina->Phoca->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076564"
+pgloadind     taxon mapping OTT ID 175251 taxonomy "Pusa hispida->Pusa->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076565"
+pgloadind     taxon mapping OTT ID 664065 taxonomy "Phoca fasciata->Phoca->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076567"
+pgloadind     taxon mapping OTT ID 664062 taxonomy "Phoca groenlandica->Phoca->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076568"
+pgloadind     taxon mapping OTT ID 931413 taxonomy "Erignathus barbatus->Erignathus->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076569"
+pgloadind     taxon mapping OTT ID 180388 taxonomy "Hydrurga leptonyx->Hydrurga->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076575"
+pgloadind     taxon mapping OTT ID 175259 taxonomy "Leptonychotes weddellii->Leptonychotes->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076576"
+pgloadind     taxon mapping OTT ID 539106 taxonomy "Ommatophoca rossii->Ommatophoca->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076577"
+pgloadind     taxon mapping OTT ID 492021 taxonomy "Lobodon carcinophaga->Lobodon->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076578"
+pgloadind     taxon mapping OTT ID 175268 taxonomy "Mirounga angustirostris->Mirounga->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076580"
+pgloadind     taxon mapping OTT ID 175270 taxonomy "Mirounga leonina->Mirounga->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076581"
+pgloadind     taxon mapping OTT ID 759722 taxonomy "Monachus monachus->Monachus->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076583"
+pgloadind     taxon mapping OTT ID 180367 taxonomy "Monachus schauinslandi->Monachus->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076585"
+pgloadind     taxon mapping OTT ID 3612943 taxonomy "Monachus tropicalis->Monachus->Phocidae->Caniformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1076586"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6231"
+pgloadind   Adding tree to graph tree id "6231"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Leptonychotes weddellii was remapped to 'Leptonychotes' (id=3071983)
+	Hydrurga leptonyx was remapped to 'Hydrurga' (id=3071969)
+	Halichoerus grypus was remapped to 'Halichoerus' (id=3072061)
+	Callorhinus ursinus was remapped to 'Callorhinus' (id=3071882)
+	Phocarctos hookeri was remapped to 'Phocarctos' (id=3071864)
+	Neophoca cinerea was remapped to 'Neophoca' (id=3071856)
+	Ommatophoca rossii was remapped to 'Ommatophoca' (id=3072029)
+	Odobenus rosmarus was remapped to 'Odobenidae' (id=3071630)
+	Erignathus barbatus was remapped to 'Erignathus' (id=3072033)
+	Lobodon carcinophaga was remapped to 'Lobodon' (id=3072053)
+	Zalophus californianus was remapped to 'Zalophus' (id=3071870)
+	Cystophora cristata was remapped to 'Cystophora' (id=3071960)
+	Eumetopias jubatus was remapped to 'Eumetopias' (id=3071892)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Higdon J. W., Bininda-Emonds O. R. P., Beck R. M. D., Ferguson S. H. 2007. Phylogeny and divergence of the pinnipeds (Carnivora: Mammalia) assessed using a multigene dataset. BMC Evolutionary Biology 8: 216.
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6231
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:time
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': Myr
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S2376
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_1646
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2007
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1076520
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Chris Owen
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1186/1471-2148-7-216
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1076518
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': supertree - best dates
+adding relationships to licas for children
+Committing nodes: 65
+16:44:20.002 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

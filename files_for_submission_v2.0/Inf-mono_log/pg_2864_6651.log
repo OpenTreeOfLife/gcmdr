@@ -1,0 +1,116 @@
+14:57:18.885 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 16
+pgloadind Processing tree @id "6651"
+pgloadind   tree info number nodes 30
+pgloadind   tree info number edges 29
+pgloadind   tree info ingroup "node1160787"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 11
+pgloadind   property added ot:studyPublicationReference "Chesser, R. Terry, Carol K. L. Yeung, Cheng-Te Yao, Xiu-Hua Tian, Shou-Hsien Li. 2010. Molecular phylogeny of the spoonbills (Aves: Threskiornithidae) based on mitochondrial DNA. Zootaxa 2603: 53-60."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6651"
+pgloadind   property added ot:focalCladeOTTTaxonName "Platalea"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:curatorName "Jonathan A Rees"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:studyYear "2010"
+pgloadind   property added ot:studyId "pg_2864"
+pgloadind   property added ot:studyPublication "http://www.mapress.com/zootaxa/2010/f/z02603p060f.pdf"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "480119"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Bayesian inference "
+pgloadind   property added ot:inGroupClade "node1160787"
+pgloadind   property added ot:specifiedRoot "node1160783"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:tag "ingroup added;"
+loading a specific tree: 6651
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6651"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Platalea leucorodia" nexsonid "node1160792"
+pgloadind       duplicate OTT ID 317305
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Platalea minor" nexsonid "node1160797"
+pgloadind       duplicate OTT ID 738327
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Platalea regia" nexsonid "node1160800"
+pgloadind       duplicate OTT ID 453066
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Platalea flavipes" nexsonid "node1160805"
+pgloadind       duplicate OTT ID 453063
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Platalea leucorodia" nexsonid "node1160791"
+pgloadind       overlapping pruned name "Platalea leucorodia archeri" nexsonid "node1160793"
+pgloadind     pruning dups and overlapping name "Platalea minor" nexsonid "node1160797"
+pgloadind     pruning dups and overlapping name "Platalea leucorodia archeri" nexsonid "node1160793"
+pgloadind     pruning dups and overlapping name "Platalea flavipes" nexsonid "node1160805"
+pgloadind     pruning dups and overlapping name "Platalea regia" nexsonid "node1160800"
+pgloadind     pruning dups and overlapping name "Platalea leucorodia" nexsonid "node1160792"
+pgloadind   postpruning newick tree "((((Platalea_minor,Platalea_regia),Platalea_leucorodia),Platalea_alba),(Platalea_ajaja,Platalea_flavipes))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 738327 taxonomy "Platalea minor->Platalea->Threskiornithidae->Ciconiiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1160796"
+pgloadind     taxon mapping OTT ID 453066 taxonomy "Platalea regia->Platalea->Threskiornithidae->Ciconiiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1160799"
+pgloadind     taxon mapping OTT ID 317305 taxonomy "Platalea leucorodia->Platalea->Threskiornithidae->Ciconiiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1160791"
+pgloadind     taxon mapping OTT ID 1057477 taxonomy "Platalea alba->Platalea->Threskiornithidae->Ciconiiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1160801"
+pgloadind     taxon mapping OTT ID 951123 taxonomy "Platalea ajaja->Platalea->Threskiornithidae->Ciconiiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1160806"
+pgloadind     taxon mapping OTT ID 453063 taxonomy "Platalea flavipes->Platalea->Threskiornithidae->Ciconiiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1160804"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6651"
+pgloadind   Adding tree to graph tree id "6651"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Chesser, R. Terry, Carol K. L. Yeung, Cheng-Te Yao, Xiu-Hua Tian, Shou-Hsien Li. 2010. Molecular phylogeny of the spoonbills (Aves: Threskiornithidae) based on mitochondrial DNA. Zootaxa 2603: 53-60.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Platalea
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6651
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2864
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2010
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1160787
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://www.mapress.com/zootaxa/2010/f/z02603p060f.pdf
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1160783
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 480119
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Bayesian inference 
+adding relationships to licas for children
+Committing nodes: 11
+14:58:11.673 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

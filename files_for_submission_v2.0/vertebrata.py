@@ -179,7 +179,7 @@ studytreelist=[
                "pg_2741_6645", # Catarrhini. Tarver et al. 2011. Proc. Roy. Soc. *** Lots of extinct taxa ***
 
      ## Fish - need to figure out best ordering with mapcompat
-               "ot_96_1",      # Cottoidea. Smith and Busby. 2014. MPE
+           #    "ot_96_1",      # Cottoidea. Smith and Busby. 2014. MPE *** weird. Batrachocottus & Cottocomephorus stated as Cottidae, but are Cottocomephoridae
                "pg_2589_6001", # Gobioidei. Agorreta et al. 2013. MPE
                "pg_2655_6181", # Cichlidae. Friedman et al. 2013. Proc. Roy. Soc.
                "pg_1997_6183", # Percidae. Near et al. 2011. Syst. Biol. *** not working for some reason...

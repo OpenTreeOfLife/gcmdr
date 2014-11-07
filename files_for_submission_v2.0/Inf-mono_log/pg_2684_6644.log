@@ -1,0 +1,85 @@
+16:41:11.012 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 14
+pgloadind Processing tree @id "6644"
+pgloadind   tree info number nodes 27
+pgloadind   tree info number edges 26
+pgloadind   tree info ingroup "node1159641"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 4
+pgloadind   property added ot:studyPublicationReference "Koepfli, Klaus-Peter, Susan M. Jenks, Eduardo Eizirik, Tannaz Zahirpour, Blaire Van Valkenburgh, Robert K. Wayne. 2006. Molecular systematics of the Hyaenidae: Relationships of a relictual lineage resolved by a molecular supermatrix. Molecular Phylogenetics and Evolution 38 (3): 603-620."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6644"
+pgloadind   property added ot:focalCladeOTTTaxonName "Hyaenidae"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:studyYear "2006"
+pgloadind   property added ot:studyId "pg_2684"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.ympev.2005.10.017"
+pgloadind   property added ot:focalClade "397138"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Fig. 2 ML"
+pgloadind   property added ot:inGroupClade "node1159641"
+pgloadind   property added ot:specifiedRoot "node1159622"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 6644
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6644"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "((Crocuta_crocuta,(Parahyaena_brunnea,Hyaena_hyaena)),Proteles_cristatus)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 397157 taxonomy "Crocuta crocuta->Crocuta->Hyaenidae->Feliformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1159643"
+pgloadind     taxon mapping OTT ID 742313 taxonomy "Parahyaena brunnea->Parahyaena->Hyaenidae->Feliformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1159645"
+pgloadind     taxon mapping OTT ID 383901 taxonomy "Hyaena hyaena->Hyaena->Hyaenidae->Feliformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1159646"
+pgloadind     taxon mapping OTT ID 563161 taxonomy "Proteles cristatus->Proteles->Hyaenidae->Feliformia->Carnivora->Laurasiatheria->Boreoeutheria->Eutheria->Theria->Mammalia->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1159647"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6644"
+pgloadind   Adding tree to graph tree id "6644"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Hyaena hyaena was remapped to 'Hyaena' (id=3073327)
+	Crocuta crocuta was remapped to 'Crocuta' (id=3073346)
+	Proteles cristatus was remapped to 'Proteles' (id=3073340)
+	Parahyaena brunnea was remapped to 'Parahyaena' (id=3073351)
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Koepfli, Klaus-Peter, Susan M. Jenks, Eduardo Eizirik, Tannaz Zahirpour, Blaire Van Valkenburgh, Robert K. Wayne. 2006. Molecular systematics of the Hyaenidae: Relationships of a relictual lineage resolved by a molecular supermatrix. Molecular Phylogenetics and Evolution 38 (3): 603-620.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Hyaenidae
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6644
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2684
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2006
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1159641
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph Brown
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.ympev.2005.10.017
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1159622
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 397138
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig. 2 ML
+adding relationships to licas for children
+Committing nodes: 7
+16:42:05.189 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

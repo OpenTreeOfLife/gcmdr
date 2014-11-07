@@ -1,0 +1,241 @@
+22:01:39.736 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 88
+pgloadind Processing tree @id "6341"
+pgloadind   tree info number nodes 77
+pgloadind   tree info number edges 76
+pgloadind   tree info ingroup "node1104848"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 35
+pgloadind   property added ot:studyPublicationReference "Gómez F., Moreira D., & López-garcía P. 2009. Neoceratium gen. nov., a New Genus for All Marine Species Currently Assigned to Ceratium (Dinophyceae). Protist, 161(1): 35-54."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6342"
+pgloadind   property added ot:focalCladeOTTTaxonName "Dinophyceae"
+pgloadind   property added ot:curatorName "Dail Laughinghouse"
+pgloadind   property added ot:curatorName "kfoney"
+pgloadind   property added ot:curatorName "Jonathan A Rees"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S10082"
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:studyYear "2009"
+pgloadind   property added ot:studyId "pg_2742"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.protis.2009.06.004"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "621380"
+pgloadind   property added ot:unrootedTree "true"
+pgloadind   property added ot:curatedType "Tree 1"
+pgloadind   property added ot:inGroupClade "node1104848"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+pgloadind Processing tree @id "6342"
+pgloadind   tree info number nodes 128
+pgloadind   tree info number edges 127
+pgloadind   tree info ingroup "node1104920"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 56
+pgloadind   property added ot:studyPublicationReference "Gómez F., Moreira D., & López-garcía P. 2009. Neoceratium gen. nov., a New Genus for All Marine Species Currently Assigned to Ceratium (Dinophyceae). Protist, 161(1): 35-54."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6342"
+pgloadind   property added ot:focalCladeOTTTaxonName "Dinophyceae"
+pgloadind   property added ot:curatorName "Dail Laughinghouse"
+pgloadind   property added ot:curatorName "kfoney"
+pgloadind   property added ot:curatorName "Jonathan A Rees"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S10082"
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:studyYear "2009"
+pgloadind   property added ot:studyId "pg_2742"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.protis.2009.06.004"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "621380"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Tree 2"
+pgloadind   property added ot:inGroupClade "node1104920"
+pgloadind   property added ot:specifiedRoot "node1104917"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 6342
+skipping tree: 6341
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6342"
+pgloadind     OTT ID missing name "Gotoius excentricus" nexsonid "node1104938"
+pgloadind     OTT ID missing name "Ceratium like HZ 2004" nexsonid "node1105007"
+pgloadind     pruning unmapped name "Gotoius excentricus" nexsonid "node1104938"
+pgloadind     pruning unmapped name "Ceratium like HZ 2004" nexsonid "node1105007"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Protoceratium reticulatum" nexsonid "node1105001"
+pgloadind       duplicate OTT ID 862593
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Protoceratium reticulatum" nexsonid "node1105002"
+pgloadind       duplicate OTT ID 862593
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Ceratium hirundinella" nexsonid "node1105009"
+pgloadind       duplicate OTT ID 813519
+pgloadind     pruning dups and overlapping name "Protoceratium reticulatum" nexsonid "node1105002"
+pgloadind     pruning dups and overlapping name "Protoceratium reticulatum" nexsonid "node1105001"
+pgloadind     pruning dups and overlapping name "Ceratium hirundinella" nexsonid "node1105009"
+pgloadind   postpruning newick tree "(((Endodinium_nutricula,(Symbiodinium_microadriaticum,Polarella_glacialis)),((Blastodinium_navicula,(((Protoperidinium_claudicans,Protoperidinium_depressum),((Diplopsalis_lebourae,(Oblea_torta,Oblea_sp_acanthocysta)),Diplopsalopsis_bomba)),((Peridinium_willei,Peridinium_cinctum),((Protoperidinium_excentricum,Protoperidinium_conicum),(Protoperidinium_pentagonum,((Protoperidinium_crassipes,Protoperidinium_elegans),(Protoperidinium_bipes,Protoperidinium_pellucidum))))))),((Pyrophacus_steinii,((Gambierdiscus_yasumotoi,(Gambierdiscus_toxicus,Gambierdiscus_sp_OSSG8)),(Pyrodinium_bahamense,(Alexandrium_tamarense,((Alexandrium_monilatum,Coolia_monotis),Alexandrium_minutum))))),(Thecadinium_kofoidii,(((Lingulodinium_polyedrum,Gonyaulax_verior),(Gonyaulax_spinifera,(Gonyaulax_cochlea,(Gonyaulax_polygramma,Gonyaulax_fragilis)))),(Thecadinium_mucosum,((Ceratocorys_horrida,Protoceratium_reticulatum),((Ceratium_hirundinella,Ceratium_sp_HCB-2005),(Neoceratium_gravidum,(Neoceratium_fusus,(Neoceratium_furca,(Neoceratium_candelabrum,(Neoceratium_pentagonum,(Neoceratium_horridum,(Neoceratium_petersii,(Neoceratium_symmetricum,Neoceratium_limulus)))))))))))))))),(Gymnodinium_fuscum,Polykrikos_kofoidii))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 4038171 taxonomy "Brandtodinium nutricula->Brandtodinium->Endodiniaceae->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104923"
+pgloadind     taxon mapping OTT ID 274336 taxonomy "Symbiodinium microadriaticum->Symbiodinium->Suessiaceae->Gymnodiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104925"
+pgloadind     taxon mapping OTT ID 1088460 taxonomy "Polarella glacialis->Polarella->Suessiaceae->Gymnodiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104926"
+pgloadind     taxon mapping OTT ID 378611 taxonomy "Blastodinium navicula->Blastodinium->Incertae Sedis->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104929"
+pgloadind     taxon mapping OTT ID 688623 taxonomy "Protoperidinium claudicans->Protoperidinium->Protoperidiniaceae->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104933"
+pgloadind     taxon mapping OTT ID 269933 taxonomy "Protoperidinium depressum->Protoperidinium->Protoperidiniaceae->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104934"
+pgloadind     taxon mapping OTT ID 621027 taxonomy "Diplopsalis lebourae->Diplosalis->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104940"
+pgloadind     taxon mapping OTT ID 534248 taxonomy "Oblea torta->Oblea->Protoperidiniaceae->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104942"
+pgloadind     taxon mapping OTT ID 534244 taxonomy "Oblea sp. acanthocysta->Oblea->Protoperidiniaceae->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104943"
+pgloadind     taxon mapping OTT ID 435818 taxonomy "Diplopsalopsis bomba->Diplosalis->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104937"
+pgloadind     taxon mapping OTT ID 183301 taxonomy "Peridinium willei->Peridinium->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104946"
+pgloadind     taxon mapping OTT ID 183299 taxonomy "Peridinium cinctum->Peridinium->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104947"
+pgloadind     taxon mapping OTT ID 423801 taxonomy "Protoperidinium excentricum->Protoperidinium->Protoperidiniaceae->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104950"
+pgloadind     taxon mapping OTT ID 423798 taxonomy "Protoperidinium conicum->Protoperidinium->Protoperidiniaceae->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104951"
+pgloadind     taxon mapping OTT ID 688621 taxonomy "Protoperidinium pentagonum->Protoperidinium->Protoperidiniaceae->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104953"
+pgloadind     taxon mapping OTT ID 416696 taxonomy "Protoperidinium crassipes->Protoperidinium->Protoperidiniaceae->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104956"
+pgloadind     taxon mapping OTT ID 688622 taxonomy "Protoperidinium elegans->Protoperidinium->Protoperidiniaceae->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104957"
+pgloadind     taxon mapping OTT ID 647630 taxonomy "Protoperidinium bipes->Protoperidinium->Protoperidiniaceae->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104959"
+pgloadind     taxon mapping OTT ID 423800 taxonomy "Protoperidinium pellucidum->Protoperidinium->Protoperidiniaceae->Peridiniales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104960"
+pgloadind     taxon mapping OTT ID 423799 taxonomy "Pyrophacus steinii->Pyrophacus->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104963"
+pgloadind     taxon mapping OTT ID 733607 taxonomy "Gambierdiscus yasumotoi->Gambierdiscus->Goniodomataceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104966"
+pgloadind     taxon mapping OTT ID 971301 taxonomy "Gambierdiscus toxicus->Gambierdiscus->Goniodomataceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104968"
+pgloadind     taxon mapping OTT ID 733605 taxonomy "Gambierdiscus sp. OSSG8->Gambierdiscus->Goniodomataceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104969"
+pgloadind     taxon mapping OTT ID 634951 taxonomy "Pyrodinium bahamense->Pyrodinium->Goniodomataceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104971"
+pgloadind     taxon mapping OTT ID 643105 taxonomy "Alexandrium tamarense->Alexandrium->Gonyaulacaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104973"
+pgloadind     taxon mapping OTT ID 169805 taxonomy "Alexandrium monilatum->Alexandrium->Gonyaulacaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104976"
+pgloadind     taxon mapping OTT ID 560910 taxonomy "Coolia monotis->Coolia->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104977"
+pgloadind     taxon mapping OTT ID 476860 taxonomy "Alexandrium minutum->Alexandrium->Gonyaulacaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104978"
+pgloadind     taxon mapping OTT ID 26865 taxonomy "Thecadinium kofoidii->Thecadinium->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104980"
+pgloadind     taxon mapping OTT ID 837665 taxonomy "Lingulodinium polyedrum->Lingulodinium->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104984"
+pgloadind     taxon mapping OTT ID 474334 taxonomy "Gonyaulax verior->Gonyaulax->Gonyaulacaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104985"
+pgloadind     taxon mapping OTT ID 817794 taxonomy "Gonyaulax spinifera->Gonyaulax->Gonyaulacaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104987"
+pgloadind     taxon mapping OTT ID 887798 taxonomy "Gonyaulax cochlea->Gonyaulax->Gonyaulacaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104989"
+pgloadind     taxon mapping OTT ID 747177 taxonomy "Gonyaulax polygramma->Gonyaulax->Gonyaulacaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104991"
+pgloadind     taxon mapping OTT ID 1018829 taxonomy "Gonyaulax fragilis->Gonyaulax->Gonyaulacaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104992"
+pgloadind     taxon mapping OTT ID 548265 taxonomy "Thecadinium mucosum->Thecadinium->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104994"
+pgloadind     taxon mapping OTT ID 867121 taxonomy "Ceratocorys horrida->Ceratocorys->Ceratocoryaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104997"
+pgloadind     taxon mapping OTT ID 862593 taxonomy "Protoceratium reticulatum->Protoceratium->Gonyaulacaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1104999"
+pgloadind     taxon mapping OTT ID 813519 taxonomy "Ceratium hirundinella->Ceratium->Ceratiaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1105005"
+pgloadind     taxon mapping OTT ID 409157 taxonomy "Ceratium sp. HCB-2005->Ceratium->Ceratiaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1105010"
+pgloadind     taxon mapping OTT ID 100751 taxonomy "Neoceratium gravidum->Neoceratium->Ceratiaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1105012"
+pgloadind     taxon mapping OTT ID 172871 taxonomy "Neoceratium fusus->Neoceratium->Ceratiaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1105014"
+pgloadind     taxon mapping OTT ID 405863 taxonomy "Neoceratium furca->Neoceratium->Ceratiaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1105016"
+pgloadind     taxon mapping OTT ID 622406 taxonomy "Neoceratium candelabrum->Neoceratium->Ceratiaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1105018"
+pgloadind     taxon mapping OTT ID 595316 taxonomy "Neoceratium pentagonum->Neoceratium->Ceratiaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1105020"
+pgloadind     taxon mapping OTT ID 607706 taxonomy "Neoceratium horridum->Neoceratium->Ceratiaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1105022"
+pgloadind     taxon mapping OTT ID 980116 taxonomy "Neoceratium petersii->Neoceratium->Ceratiaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1105024"
+pgloadind     taxon mapping OTT ID 980114 taxonomy "Neoceratium symmetricum->Neoceratium->Ceratiaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1105026"
+pgloadind     taxon mapping OTT ID 100740 taxonomy "Neoceratium limulus->Neoceratium->Ceratiaceae->Gonyaulacales->Peridiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1105027"
+pgloadind     taxon mapping OTT ID 510781 taxonomy "Gymnodinium fuscum->Gymnodinium->Gymnodinium clade->Gymnodiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1105029"
+pgloadind     taxon mapping OTT ID 837191 taxonomy "Polykrikos kofoidii->Polykrikos->Gymnodinium clade->Gymnodiniphycidae->Dinophyceae->Dinoflagellata->Alveolata->SAR->Eukaryota->cellular organisms->life" nexsonid "node1105030"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6342"
+pgloadind   Adding tree to graph tree id "6342"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Coolia monotis was remapped to 'Coolia' (id=3169787)
+	Ceratocorys horrida was remapped to 'Ceratocoryaceae' (id=3169870)
+	Symbiodinium microadriaticum was remapped to 'Symbiodinium' (id=3170804)
+	Pyrophacus steinii was remapped to 'Pyrophacus' (id=3169832)
+	Lingulodinium polyedrum was remapped to 'Lingulodinium' (id=3169855)
+	Gymnodinium fuscum was remapped to 'Gymnodinium' (id=3170580)
+	Polykrikos kofoidii was remapped to 'Polykrikos' (id=3170666)
+	Endodinium nutricula was remapped to 'Endodiniaceae' (id=3169742)
+	Polarella glacialis was remapped to 'Polarella' (id=3170800)
+	Blastodinium navicula was remapped to 'Incertae Sedis' (id=3168481)
+	Protoceratium reticulatum was remapped to 'Protoceratium' (id=3170001)
+	Pyrodinium bahamense was remapped to 'Pyrodinium' (id=3169962)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Gómez F., Moreira D., & López-garcía P. 2009. Neoceratium gen. nov., a New Genus for All Marine Species Currently Assigned to Ceratium (Dinophyceae). Protist, 161(1): 35-54.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Dinophyceae
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6342
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S10082
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2742
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2009
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1104920
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Jonathan A Rees
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.protis.2009.06.004
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1104917
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 621380
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Tree 2
+adding relationships to licas for children
+Committing nodes: 101
+22:02:32.866 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

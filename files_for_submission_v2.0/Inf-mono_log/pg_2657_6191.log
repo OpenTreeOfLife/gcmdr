@@ -1,0 +1,310 @@
+16:56:01.141 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 68
+pgloadind Processing tree @id "6191"
+pgloadind   tree info number nodes 135
+pgloadind   tree info number edges 134
+pgloadind   tree info ingroup "node1064772"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 66
+pgloadind   property added ot:studyPublicationReference "Near, Thomas J., Michael Sandel, Kristen L. Kuhn, Peter J. Unmack, Peter C. Wainwright, Wm. Leo Smith. 2012. Nuclear gene-inferred phylogenies resolve the relationships of the enigmatic Pygmy Sunfishes, Elassoma (Teleostei: Percomorpha). Molecular Phylogenetics and Evolution 63 (2): 388-395."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6191"
+pgloadind   property added ot:focalCladeOTTTaxonName "Percomorpha"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:studyYear "2012"
+pgloadind   property added ot:studyId "pg_2657"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.ympev.2012.01.011"
+pgloadind   property added ot:tag "ingroup added;"
+pgloadind   property added ot:focalClade "500768"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "ML Fig. 1"
+pgloadind   property added ot:inGroupClade "node1064772"
+pgloadind   property added ot:specifiedRoot "node1064768"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 6191
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6191"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Coreoperca whiteheadi" nexsonid "node1064872"
+pgloadind       dubious OTT ID 114862
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Siniperca scherzeri" nexsonid "node1064874"
+pgloadind       dubious OTT ID 114857
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Siniperca roulei" nexsonid "node1064876"
+pgloadind       dubious OTT ID 59926
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Siniperca obscura" nexsonid "node1064879"
+pgloadind       dubious OTT ID 59929
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Siniperca undulata" nexsonid "node1064880"
+pgloadind       dubious OTT ID 580974
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Siniperca knerii" nexsonid "node1064882"
+pgloadind       dubious OTT ID 784282
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Siniperca chuatsi" nexsonid "node1064884"
+pgloadind       dubious OTT ID 399519
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Siniperca chuatsi" nexsonid "node1064885"
+pgloadind       dubious OTT ID 399519
+pgloadind     pruning dups and overlapping name "Siniperca undulata" nexsonid "node1064880"
+pgloadind     pruning dups and overlapping name "Siniperca chuatsi" nexsonid "node1064884"
+pgloadind     pruning dups and overlapping name "Siniperca scherzeri" nexsonid "node1064874"
+pgloadind     pruning dups and overlapping name "Coreoperca whiteheadi" nexsonid "node1064872"
+pgloadind     pruning dups and overlapping name "Siniperca chuatsi" nexsonid "node1064885"
+pgloadind     pruning dups and overlapping name "Siniperca knerii" nexsonid "node1064882"
+pgloadind     pruning dups and overlapping name "Siniperca roulei" nexsonid "node1064876"
+pgloadind     pruning dups and overlapping name "Siniperca obscura" nexsonid "node1064879"
+pgloadind   postpruning newick tree "(((Mugil_cephalus,(Oryzias_latipes,(Heros_efasciatus,Cichla_temensis))),((Lates_calcarifer,Centropomus_undecimalis),(Monopterus_albus,(Channa_melasoma,Nandus_nandus)))),((Holanthias_chrysostictus,(Perca_flavescens,(Lycodes_diapterus,Gasterosteus_aculeatus))),(((Sciaenops_ocellatus,(Pristigenys_alta,(Morone_chrysops,Dicentrarchus_labrax))),((Bodianus_rufus,(Tetraodon_nigroviridis,Takifugu_rubripes)),(Acropoma_japonicum,(Lateolabrax_japonicus,(Howella_zina,Howella_brodiei))))),((Macquaria_colonorum,Macquaria_novemaculeata),((Girella_mezina,(Oplegnathus_punctatus,((Terapon_jarbua,(Scortum_barcoo,Hephaestus_fuliginosus)),((Kyphosus_cinerascens,Kyphosus_elegans),(Kuhlia_marginata,Kuhlia_rupestris))))),(((Enoplosus_armatus,(Cheilodactylus_pixi,(Chirodactylus_brachydactylus,Cheilodactylus_variegatus))),(Maccullochella_peelii,(Gadopsis_marmoratus,((Nannoperca_australis,Macquaria_ambigua),(Percilia_irwini,Percichthys_trucha))))),(((Neocirrhites_armatus,Cirrhitichthys_falco),(Amblycirrhitus_pinos,Paracirrhites_arcatus)),((Elassoma_okefenokee,Elassoma_zonatum),((Acantharchus_pomotis,(Archoplites_interruptus,Ambloplites_rupestris)),((Lepomis_cyanellus,Chaenobryttus_gulosus),(Micropterus_dolomieu,Micropterus_salmoides)))))))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 418648 taxonomy "Mugil cephalus->Mugil->Mugilidae->Mugiliformes->Mugilomorphae->Ovalentaria->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064775"
+pgloadind     taxon mapping OTT ID 942673 taxonomy "Oryzias latipes->Oryzias->Oryziinae->Adrianichthyidae->Adrianichthyoidei->Beloniformes->Atherinomorphae->Ovalentaria->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064777"
+pgloadind     taxon mapping OTT ID 207341 taxonomy "Heros efasciatus->Heros->Heroini->Cichlasomatinae->New World cichlids->Cichlidae->Cichliformes->Cichlomorphae->Ovalentaria->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064779"
+pgloadind     taxon mapping OTT ID 936817 taxonomy "Cichla temensis->Cichla->Cichlini->Cichlinae->New World cichlids->Cichlidae->Cichliformes->Cichlomorphae->Ovalentaria->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064780"
+pgloadind     taxon mapping OTT ID 437601 taxonomy "Lates calcarifer->Lates->Centropomidae->Carangimorphariae->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064783"
+pgloadind     taxon mapping OTT ID 317368 taxonomy "Centropomus undecimalis->Centropomus->Centropomidae->Carangimorphariae->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064784"
+pgloadind     taxon mapping OTT ID 655999 taxonomy "Monopterus albus->Monopterus->Synbranchidae->Synbranchoidei->Synbranchiformes->Anabantomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064786"
+pgloadind     taxon mapping OTT ID 332859 taxonomy "Channa melasoma->Channa->Channidae->Channoidei->Anabantiformes->Anabantomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064788"
+pgloadind     taxon mapping OTT ID 196682 taxonomy "Nandus nandus->Nandus->Nandidae->Channoidei->Anabantiformes->Anabantomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064789"
+pgloadind     taxon mapping OTT ID 685736 taxonomy "Holanthias chrysostictus->Holanthias->Anthiinae->Serranidae->Serranoidei->Perciformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064792"
+pgloadind     taxon mapping OTT ID 186474 taxonomy "Perca flavescens->Perca->Percinae->Percidae->Percoidei->Perciformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064794"
+pgloadind     taxon mapping OTT ID 178071 taxonomy "Lycodes diapterus->Lycodes->Lycodinae->Zoarcidae->Zoarcales->Cottioidei->Perciformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064796"
+pgloadind     taxon mapping OTT ID 401066 taxonomy "Gasterosteus aculeatus->Gasterosteus->Gasterosteidae->Gasterosteales->Cottioidei->Perciformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064797"
+pgloadind     taxon mapping OTT ID 433079 taxonomy "Sciaenops ocellatus->Sciaenops->Sciaenidae->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064801"
+pgloadind     taxon mapping OTT ID 919007 taxonomy "Pristigenys alta->Pristigenys->Priacanthidae->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064803"
+pgloadind     taxon mapping OTT ID 246133 taxonomy "Morone chrysops->Morone->Moronidae->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064805"
+pgloadind     taxon mapping OTT ID 3549 taxonomy "Dicentrarchus labrax->Dicentrarchus->Moronidae->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064806"
+pgloadind     taxon mapping OTT ID 372258 taxonomy "Bodianus rufus->Bodianus->Labridae->Labriformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064809"
+pgloadind     taxon mapping OTT ID 1085993 taxonomy "Tetraodon nigroviridis->Tetraodon->Tetraodontidae->Tetradontoidea->Tetraodontoidei->Tetraodontiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064811"
+pgloadind     taxon mapping OTT ID 65341 taxonomy "Takifugu rubripes->Takifugu->Tetraodontidae->Tetradontoidea->Tetraodontoidei->Tetraodontiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064812"
+pgloadind     taxon mapping OTT ID 1005364 taxonomy "Acropoma japonicum->Acropoma->Acropomatidae->Pempheriformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064814"
+pgloadind     taxon mapping OTT ID 186480 taxonomy "Lateolabrax japonicus->Lateolabrax->Lateolabracidae->Pempheriformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064816"
+pgloadind     taxon mapping OTT ID 434926 taxonomy "Howella zina->Howella->Howellidae->Pempheriformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064818"
+pgloadind     taxon mapping OTT ID 986335 taxonomy "Howella brodiei->Howella->Howellidae->Pempheriformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064819"
+pgloadind     taxon mapping OTT ID 538644 taxonomy "Macquaria colonorum->Macquaria->Percichthyidae->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064822"
+pgloadind     taxon mapping OTT ID 113385 taxonomy "Macquaria novemaculeata->Macquaria->Percichthyidae->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064823"
+pgloadind     taxon mapping OTT ID 188328 taxonomy "Girella mezina->Girella->Girellinae->Kyphosidae->Terapontiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064826"
+pgloadind     taxon mapping OTT ID 711805 taxonomy "Oplegnathus punctatus->Oplegnathus->Oplegnathidae->Terapontiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064828"
+pgloadind     taxon mapping OTT ID 711787 taxonomy "Terapon jarbua->Terapon->Terapontidae->Terapontiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064831"
+pgloadind     taxon mapping OTT ID 932849 taxonomy "Scortum barcoo->Scortum->Terapontidae->Terapontiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064833"
+pgloadind     taxon mapping OTT ID 165484 taxonomy "Hephaestus fuliginosus->Hephaestus->Terapontidae->Terapontiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064834"
+pgloadind     taxon mapping OTT ID 188298 taxonomy "Kyphosus cinerascens->Kyphosus->Kyphosinae->Kyphosidae->Terapontiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064837"
+pgloadind     taxon mapping OTT ID 434911 taxonomy "Kyphosus elegans->Kyphosus->Kyphosinae->Kyphosidae->Terapontiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064838"
+pgloadind     taxon mapping OTT ID 551283 taxonomy "Kuhlia marginata->Kuhlia->Kuhliidae->Terapontiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064840"
+pgloadind     taxon mapping OTT ID 300528 taxonomy "Kuhlia rupestris->Kuhlia->Kuhliidae->Terapontiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064841"
+pgloadind     taxon mapping OTT ID 54499 taxonomy "Enoplosus armatus->Enoplosus->Enoplosidae->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064845"
+pgloadind     taxon mapping OTT ID 825731 taxonomy "Cheilodactylus pixi->Cheilodactylus->Cheilodactylidae->Cirrhitiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064847"
+pgloadind     taxon mapping OTT ID 355180 taxonomy "Chirodactylus brachydactylus->Chirodactylus->Cheilodactylidae->Cirrhitiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064849"
+pgloadind     taxon mapping OTT ID 557241 taxonomy "Cheilodactylus variegatus->Cheilodactylus->Cheilodactylidae->Cirrhitiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064850"
+pgloadind     taxon mapping OTT ID 538656 taxonomy "Maccullochella peelii->Maccullochella->Percichthyidae->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064852"
+pgloadind     taxon mapping OTT ID 17629 taxonomy "Gadopsis marmoratus->Gadopsis->Percichthyidae->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064854"
+pgloadind     taxon mapping OTT ID 1065076 taxonomy "Nannoperca australis->Nannoperca->Percichthyidae->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064857"
+pgloadind     taxon mapping OTT ID 538635 taxonomy "Macquaria ambigua->Macquaria->Percichthyidae->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064858"
+pgloadind     taxon mapping OTT ID 348287 taxonomy "Percilia irwini->Percilia->Perciliidae->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064860"
+pgloadind     taxon mapping OTT ID 599903 taxonomy "Percichthys trucha->Percichthys->Percichthyidae->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064861"
+pgloadind     taxon mapping OTT ID 702696 taxonomy "Neocirrhites armatus->Neocirrhites->Cirrhitidae->Cirrhitiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064865"
+pgloadind     taxon mapping OTT ID 861025 taxonomy "Cirrhitichthys falco->Cirrhitichthys->Cirrhitidae->Cirrhitiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064866"
+pgloadind     taxon mapping OTT ID 1087028 taxonomy "Amblycirrhitus pinos->Amblycirrhitus->Cirrhitidae->Cirrhitiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064868"
+pgloadind     taxon mapping OTT ID 627338 taxonomy "Paracirrhites arcatus->Paracirrhites->Cirrhitidae->Cirrhitiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064869"
+pgloadind     taxon mapping OTT ID 777466 taxonomy "Elassoma okefenokee->Elassoma->Elassomatidae->Centrarchiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064888"
+pgloadind     taxon mapping OTT ID 777473 taxonomy "Elassoma zonatum->Elassoma->Elassomatidae->Centrarchiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064889"
+pgloadind     taxon mapping OTT ID 476356 taxonomy "Acantharchus pomotis->Acantharchus->Centrarchidae->Centrarchiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064892"
+pgloadind     taxon mapping OTT ID 778317 taxonomy "Archoplites interruptus->Archoplites->Centrarchidae->Centrarchiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064894"
+pgloadind     taxon mapping OTT ID 280003 taxonomy "Ambloplites rupestris->Ambloplites->Centrarchidae->Centrarchiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064895"
+pgloadind     taxon mapping OTT ID 476361 taxonomy "Lepomis cyanellus->Lepomis->Centrarchidae->Centrarchiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064898"
+pgloadind     taxon mapping OTT ID 476359 taxonomy "Chaenobryttus gulosus->Chaenobryttus->Centrarchidae->Centrarchiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064899"
+pgloadind     taxon mapping OTT ID 235372 taxonomy "Micropterus dolomieu->Micropterus->Centrarchidae->Centrarchiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064901"
+pgloadind     taxon mapping OTT ID 230493 taxonomy "Micropterus salmoides->Micropterus->Centrarchidae->Centrarchiformes->Percomorpharia->Percomorphaceae->Euacanthomorphacea->Acanthomorphata->Ctenosquamata->Eurypterygia->Neoteleostei->Euteleosteomorpha->Clupeocephala->Osteoglossocephalai->Teleostei->Neopterygii->Actinopteri->Actinopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1064902"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6191"
+pgloadind   Adding tree to graph tree id "6191"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Heros efasciatus was remapped to 'Cichlasomatinae' (id=2871850)
+	Channa melasoma was remapped to 'Channidae' (id=2929390)
+	Oplegnathus punctatus was remapped to 'Oplegnathidae' (id=2922590)
+	Neocirrhites armatus was remapped to 'Neocirrhites' (id=2921980)
+	Morone chrysops was remapped to 'Morone' (id=2926292)
+	Cichla temensis was remapped to 'Cichlinae' (id=2873237)
+	Archoplites interruptus was remapped to 'Archoplites' (id=2921650)
+	Percilia irwini was remapped to 'Perciliidae' (id=2929014)
+	Bodianus rufus was remapped to 'Labriformes' (id=2916542)
+	Maccullochella peelii was remapped to 'Maccullochella' (id=2927509)
+	Nandus nandus was remapped to 'Nandidae' (id=2929369)
+	Terapon jarbua was remapped to 'Terapon' (id=2922692)
+	Takifugu rubripes was remapped to 'Takifugu' (id=2914874)
+	Tetraodon nigroviridis was remapped to 'Tetraodon' (id=2915032)
+	Amblycirrhitus pinos was remapped to 'Amblycirrhitus' (id=2922085)
+	Acantharchus pomotis was remapped to 'Acantharchus' (id=2921761)
+	Gadopsis marmoratus was remapped to 'Gadopsis' (id=2927475)
+	Acropoma japonicum was remapped to 'Acropomatidae' (id=2913164)
+	Sciaenops ocellatus was remapped to 'Sciaenidae' (id=2923480)
+	Nannoperca australis was remapped to 'Nannoperca' (id=2927447)
+	Pristigenys alta was remapped to 'Priacanthidae' (id=2926184)
+	Chaenobryttus gulosus was remapped to 'Chaenobryttus' (id=2921547)
+	Holanthias chrysostictus was remapped to 'Serranoidei' (id=2904496)
+	Scortum barcoo was remapped to 'Scortum' (id=2922900)
+	Chirodactylus brachydactylus was remapped to 'Chirodactylus' (id=2921902)
+	Lateolabrax japonicus was remapped to 'Lateolabracidae' (id=2912814)
+	Enoplosus armatus was remapped to 'Enoplosidae' (id=2923382)
+	Centropomus undecimalis was remapped to 'Centropomus' (id=2897749)
+	Monopterus albus was remapped to 'Synbranchiformes' (id=2930210)
+	Ambloplites rupestris was remapped to 'Ambloplites' (id=2921751)
+	Cirrhitichthys falco was remapped to 'Cirrhitichthys' (id=2922044)
+	Dicentrarchus labrax was remapped to 'Dicentrarchus' (id=2926330)
+	Hephaestus fuliginosus was remapped to 'Hephaestus' (id=2922856)
+	Perca flavescens was remapped to 'Percoidei' (id=2902752)
+	Paracirrhites arcatus was remapped to 'Paracirrhites' (id=2922017)
+	Lycodes diapterus was remapped to 'Zoarcales' (id=2909193)
+	Percichthys trucha was remapped to 'Percichthys' (id=2927491)
+	Lepomis cyanellus was remapped to 'Lepomis' (id=2921576)
+	Oryzias latipes was remapped to 'Atherinomorphae' (id=2882913)
+	Girella mezina was remapped to 'Girellinae' (id=2923202)
+	Gasterosteus aculeatus was remapped to 'Gasterosteales' (id=2910496)
+	Lates calcarifer was remapped to 'Lates' (id=2897772)
+	Mugil cephalus was remapped to 'Mugilomorphae' (id=2878697)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Near, Thomas J., Michael Sandel, Kristen L. Kuhn, Peter J. Unmack, Peter C. Wainwright, Wm. Leo Smith. 2012. Nuclear gene-inferred phylogenies resolve the relationships of the enigmatic Pygmy Sunfishes, Elassoma (Teleostei: Percomorpha). Molecular Phylogenetics and Evolution 63 (2): 388-395.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Percomorpha
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6191
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2657
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2012
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1064772
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph Brown
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.ympev.2012.01.011
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1064768
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 500768
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': ML Fig. 1
+adding relationships to licas for children
+Committing nodes: 115
+16:56:55.306 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+	adding Node[2912932] Howellidae 879946 as compatible with Node[2912933]
+		adding Relationship[8922946]
+		adding to root Relationship[8922947]
+	adding Node[2921511] Elassomatidae 313438 as compatible with Node[2921512]
+		adding Relationship[8922948]
+		adding to root Relationship[8922949]
+	adding Node[2922921] Kuhliidae 99937 as compatible with Node[2922923]
+		adding Relationship[8922950]
+		adding to root Relationship[8922951]
+	adding Node[2923013] Kyphosinae 370788 as compatible with Node[2923018]
+		adding Relationship[8922952]
+		adding to root Relationship[8922953]
+	adding Node[2871833] Cichlidae 811925 as compatible with Node[2871835]
+		adding Relationship[8922954]
+		adding to root Relationship[8922955]
+	adding Node[2871832] Cichliformes 5557278 as compatible with Node[2871835]
+		adding Relationship[8922956]
+		adding to root Relationship[8922957]
+	adding Node[2871831] Cichlomorphae 5554902 as compatible with Node[2871835]
+		adding Relationship[8922958]
+		adding to root Relationship[8922959]
+	adding Node[2893179] Carangimorphariae 5553751 as compatible with Node[2897739]
+		adding Relationship[8922960]
+		adding to root Relationship[8922961]
+	adding Node[2914427] Tetradontoidea 803540 as compatible with Node[2914428]
+		adding Relationship[8922962]
+		adding to root Relationship[8922963]
+	adding Node[2914426] Tetraodontoidei 36204 as compatible with Node[2914428]
+		adding Relationship[8922964]
+		adding to root Relationship[8922965]
+	adding Node[2914008] Tetraodontiformes 36216 as compatible with Node[2914428]
+		adding Relationship[8922966]
+		adding to root Relationship[8922967]
+	adding Node[2929366] Anabantiformes 5554917 as compatible with Node[2929367]
+		adding Relationship[8922968]
+		adding to root Relationship[8922969]
+		adding Relationship[8922970] from Node[2914427] to Node[2914426]
+		adding Relationship[8922971] from Node[2914426] to Node[2914008]
+		adding Relationship[8922972] from Node[2871832] to Node[2871831]
+		adding Relationship[8922973] from Node[2871833] to Node[2871832]
+		adding Relationship[8922974] from Node[2921511] to Node[2921510]
+		adding Relationship[8922975] from Node[2929365] to Node[3838855]
+		adding Relationship[8922976] from Node[2929366] to Node[2929365]

@@ -1,0 +1,96 @@
+20:57:50.195 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 14
+pgloadind Processing tree @id "503"
+pgloadind   tree info number nodes 19
+pgloadind   tree info number edges 18
+pgloadind   tree info ingroup "node207300"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 9
+pgloadind   property added ot:studyPublicationReference "Meyer, Susan LF, Lynn K. Carta, and Stephen A. Rehner. "Morphological variability and molecular phylogeny of the nematophagous fungus Monacrosporium drechsleri." Mycologia 97.2 (2005): 405-415."
+pgloadind   property added ot:focalCladeOTTTaxonName "Monacrosporium drechsleri"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1237"
+pgloadind   property added ot:studyYear "2004"
+pgloadind   property added ot:studyId "pg_403"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.3852/mycologia.97.2.405"
+pgloadind   property added ot:focalClade "535927"
+pgloadind   property added ot:curatedType "MP, ITS"
+pgloadind   property added ot:inGroupClade "node207300"
+pgloadind   property added ot:tag "MP"
+pgloadind   property added ot:tag "ITS"
+pgloadind Processing tree @id "504"
+pgloadind   tree info number nodes 10
+pgloadind   tree info number edges 9
+pgloadind   tree info ingroup "node207320"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 4
+pgloadind   property added ot:studyPublicationReference "Meyer, Susan LF, Lynn K. Carta, and Stephen A. Rehner. "Morphological variability and molecular phylogeny of the nematophagous fungus Monacrosporium drechsleri." Mycologia 97.2 (2005): 405-415."
+pgloadind   property added ot:focalCladeOTTTaxonName "Monacrosporium drechsleri"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1237"
+pgloadind   property added ot:studyYear "2004"
+pgloadind   property added ot:studyId "pg_403"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.3852/mycologia.97.2.405"
+pgloadind   property added ot:focalClade "535927"
+pgloadind   property added ot:curatedType "MP, EF-1"
+pgloadind   property added ot:inGroupClade "node207320"
+pgloadind   property added ot:tag "MP"
+loading a specific tree: 503
+skipping tree: 504
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "503"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Dactylellina ellipsospora" nexsonid "node207314"
+pgloadind       duplicate OTT ID 342904
+pgloadind     pruning dups and overlapping name "Dactylellina ellipsospora" nexsonid "node207314"
+pgloadind   postpruning newick tree "(((Dactylella_lysipaga,(Dactylellina_ellipsospora,Monacrosporium_drechsleri)),Dactylellina_parvicolle),((Dactylellina_formosana,Dactylella_leptospora),Monacrosporium_tentaculatum),Dactylella_mammillata)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 293793 taxonomy "Dactylella lysipaga->Dactylella->Orbiliaceae->Orbiliales->Orbiliomycetidae->Orbiliomycetes->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node207303"
+pgloadind     taxon mapping OTT ID 342904 taxonomy "Dactylellina ellipsospora->Dactylellina->Orbiliaceae->Orbiliales->Orbiliomycetidae->Orbiliomycetes->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node207305"
+pgloadind     taxon mapping OTT ID 535927 taxonomy "Monacrosporium drechsleri->Arthrobotrys->Orbiliaceae->Orbiliales->Orbiliomycetidae->Orbiliomycetes->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node207306"
+pgloadind     taxon mapping OTT ID 863508 taxonomy "Dactylellina parvicolle->Dactylellina->Orbiliaceae->Orbiliales->Orbiliomycetidae->Orbiliomycetes->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node207307"
+pgloadind     taxon mapping OTT ID 3789325 taxonomy "Dactylellina formosana->Dactylellina->Orbiliaceae->Orbiliales->Orbiliomycetidae->Orbiliomycetes->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node207310"
+pgloadind     taxon mapping OTT ID 427683 taxonomy "Dactylella leptospora->Dactylella->Orbiliaceae->Orbiliales->Orbiliomycetidae->Orbiliomycetes->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node207311"
+pgloadind     taxon mapping OTT ID 427692 taxonomy "Monacrosporium tentaculatum->Arthrobotrys->Orbiliaceae->Orbiliales->Orbiliomycetidae->Orbiliomycetes->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node207312"
+pgloadind     taxon mapping OTT ID 1077087 taxonomy "Dactylella mammillata->Dactylella->Orbiliaceae->Orbiliales->Orbiliomycetidae->Orbiliomycetes->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node207315"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "503"
+pgloadind   Adding tree to graph tree id "503"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Meyer, Susan LF, Lynn K. Carta, and Stephen A. Rehner. "Morphological variability and molecular phylogeny of the nematophagous fungus Monacrosporium drechsleri." Mycologia 97.2 (2005): 405-415.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Monacrosporium drechsleri
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2004
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node207300
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ITS
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.3852/mycologia.97.2.405
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 535927
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP, ITS
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_403
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1237
+adding relationships to licas for children
+Committing nodes: 14
+20:58:39.750 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

@@ -1,0 +1,129 @@
+20:46:42.940 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 19
+pgloadind Processing tree @id "438"
+pgloadind   tree info number nodes 33
+pgloadind   tree info number edges 32
+pgloadind   tree info ingroup "node202133"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 14
+pgloadind   property added ot:studyPublicationReference "Slippers, Bernard, Gerda Fourie, Pedro W. Crous, Teresa A. Coutinho, Brenda D. Wingfield, and Michael J. Wingfield. "Multiple gene sequences delimit Botryosphaeria australis sp. nov. from B. lutea." Mycologia 96, no. 5 (2004): 1030-1041."
+pgloadind   property added ot:candidateTreeForSynthesis "tree438"
+pgloadind   property added ot:focalCladeOTTTaxonName "Botryosphaeria"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:curatorName "Stephen Smith"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1103"
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:studyYear "2004"
+pgloadind   property added ot:studyId "pg_376"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/3762087"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "33893"
+pgloadind   property added ot:unrootedTree "true"
+pgloadind   property added ot:curatedType "MP, ITS + b-tubulin + EF-1"
+pgloadind   property added ot:inGroupClade "node202133"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:tag "ITS"
+loading a specific tree: 438
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "438"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Neofusicoccum ribis" nexsonid "node202138"
+pgloadind       duplicate OTT ID 33907
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Neofusicoccum parvum" nexsonid "node202141"
+pgloadind       duplicate OTT ID 648285
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Neofusicoccum eucalyptorum" nexsonid "node202144"
+pgloadind       duplicate OTT ID 435694
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Neofusicoccum luteum" nexsonid "node202148"
+pgloadind       duplicate OTT ID 958340
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Neofusicoccum luteum" nexsonid "node202150"
+pgloadind       duplicate OTT ID 958340
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Neofusicoccum luteum" nexsonid "node202151"
+pgloadind       duplicate OTT ID 958340
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Neofusicoccum australe" nexsonid "node202154"
+pgloadind       duplicate OTT ID 26868
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Neofusicoccum australe" nexsonid "node202155"
+pgloadind       duplicate OTT ID 26868
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Neofusicoccum australe" nexsonid "node202156"
+pgloadind       duplicate OTT ID 26868
+pgloadind     pruning dups and overlapping name "Neofusicoccum eucalyptorum" nexsonid "node202144"
+pgloadind     pruning dups and overlapping name "Neofusicoccum australe" nexsonid "node202155"
+pgloadind     pruning dups and overlapping name "Neofusicoccum ribis" nexsonid "node202138"
+pgloadind     pruning dups and overlapping name "Neofusicoccum luteum" nexsonid "node202151"
+pgloadind     pruning dups and overlapping name "Neofusicoccum australe" nexsonid "node202156"
+pgloadind     pruning dups and overlapping name "Neofusicoccum australe" nexsonid "node202154"
+pgloadind     pruning dups and overlapping name "Neofusicoccum luteum" nexsonid "node202148"
+pgloadind     pruning dups and overlapping name "Neofusicoccum luteum" nexsonid "node202150"
+pgloadind     pruning dups and overlapping name "Neofusicoccum parvum" nexsonid "node202141"
+pgloadind   postpruning newick tree "(((Neofusicoccum_ribis,Neofusicoccum_parvum),Neofusicoccum_eucalyptorum),(Neofusicoccum_australe,Neofusicoccum_luteum))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 33907 taxonomy "Neofusicoccum ribis->Neofusicoccum->Botryosphaeriaceae->Botryosphaeriales->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node202137"
+pgloadind     taxon mapping OTT ID 648285 taxonomy "Neofusicoccum parvum->Neofusicoccum->Botryosphaeriaceae->Botryosphaeriales->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node202140"
+pgloadind     taxon mapping OTT ID 435694 taxonomy "Neofusicoccum eucalyptorum->Neofusicoccum->Botryosphaeriaceae->Botryosphaeriales->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node202143"
+pgloadind     taxon mapping OTT ID 26868 taxonomy "Neofusicoccum australe->Neofusicoccum->Botryosphaeriaceae->Botryosphaeriales->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node202153"
+pgloadind     taxon mapping OTT ID 958340 taxonomy "Neofusicoccum luteum->Neofusicoccum->Botryosphaeriaceae->Botryosphaeriales->Dothideomycetes->Dothideomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node202147"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "438"
+pgloadind   Adding tree to graph tree id "438"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Slippers, Bernard, Gerda Fourie, Pedro W. Crous, Teresa A. Coutinho, Brenda D. Wingfield, and Michael J. Wingfield. "Multiple gene sequences delimit Botryosphaeria australis sp. nov. from B. lutea." Mycologia 96, no. 5 (2004): 1030-1041.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Botryosphaeria
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree438
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1103
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_376
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2004
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node202133
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ITS
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Stephen Smith
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.2307/3762087
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': 
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': true
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 33893
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP, ITS + b-tubulin + EF-1
+adding relationships to licas for children
+Committing nodes: 9
+20:47:32.418 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

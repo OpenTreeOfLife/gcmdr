@@ -1,0 +1,269 @@
+14:34:57.557 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 88
+pgloadind Processing tree @id "2560"
+pgloadind   tree info number nodes 175
+pgloadind   tree info number edges 174
+pgloadind   tree info ingroup "node579100"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 77
+pgloadind   property added ot:studyPublicationReference "Villarreal, J. C., & Renner, S. S. (2012). Hornwort pyrenoids, carbon-concentrating structures, evolved and were lost at least five times during the last 100 million years. Proceedings of the National Academy of Sciences, 109(46), 18873-18878."
+pgloadind   property added ot:candidateTreeForSynthesis "tree2560"
+pgloadind   property added ot:focalCladeOTTTaxonName "Anthocerotophyta"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S13448"
+pgloadind   property added ot:studyYear "2013"
+pgloadind   property added ot:studyId "pg_1268"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1073/pnas.1213498109"
+pgloadind   property added ot:focalClade "738980"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "tree 1"
+pgloadind   property added ot:inGroupClade "node579100"
+pgloadind   property added ot:specifiedRoot "node579079"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode ""
+loading a specific tree: 2560
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "2560"
+pgloadind     OTT ID missing name "Dendroceros breutelii" nexsonid "node579134"
+pgloadind     pruning unmapped name "Dendroceros breutelii" nexsonid "node579134"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Nothoceros canaliculatus" nexsonid "node579160"
+pgloadind       duplicate OTT ID 639759
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Phaeoceros inflatus" nexsonid "node579196"
+pgloadind       duplicate OTT ID 342088
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Phaeomegaceros squamuliger subsp. hasselii" nexsonid "node579121"
+pgloadind       overlapping pruned name "Phaeomegaceros squamuliger" nexsonid "node579122"
+pgloadind     pruning dups and overlapping name "Phaeoceros inflatus" nexsonid "node579196"
+pgloadind     pruning dups and overlapping name "Phaeomegaceros squamuliger" nexsonid "node579122"
+pgloadind     pruning dups and overlapping name "Nothoceros canaliculatus" nexsonid "node579160"
+pgloadind   postpruning newick tree "(Leiosporoceros_dussii,((((Phymatoceros_phymatodes,Phymatoceros_bulbiculosus),((Phaeomegaceros_hirticalyx,Phaeomegaceros_coriaceus),(((Phaeomegaceros_fimbriatus,(Phaeomegaceros_skottsbergii,Phaeomegaceros_sp_Villarreal_871)),((Phaeomegaceros_chiloensis,Phaeomegaceros_plicatus),Phaeomegaceros_squamuliger_subsp_hasselii)),(((Dendroceros_cichoraceus,(((Dendroceros_paivae,Dendroceros_javanicus),Dendroceros_crispus),(Dendroceros_difficilis,Dendroceros_crispatus))),(Megaceros_flagellaris,(Megaceros_denticulatus,(Megaceros_gracilis,Megaceros_pellucidus)))),((Nothoceros_endiviifolius,Nothoceros_giganteus),(Nothoceros_fuegiensis,(Nothoceros_renzagliensis,((Nothoceros_superbus,Nothoceros_canaliculatus),(Nothoceros_aenigmaticus,(Nothoceros_vincentianus,Megaceros_minarum)))))))))),((Phaeoceros_himalayensis,((((Phaeoceros_oreganus,(((Phaeoceros_flexivalvis,Phaeoceros_dendroceroides),((Phaeoceros_evanidus,(Phaeoceros_brevicapsulus,Phaeoceros_tenuis)),(Phaeoceros_microsporus,Phaeoceros_carolinianus))),Phaeoceros_laevis)),Phaeoceros_mohrii),(Phaeoceros_inflatus,Phaeoceros_engelii)),Phaeoceros_cf_bolusii_Hedderson_16894)),((Notothylas_dissecta,((Notothylas_levieri,Notothylas_breutelii),((Notothylas_vitalii,Notothylas_javanica),Notothylas_orbicularis))),(Paraphymatoceros_diadematus,((Phaeoceros_proskaueri,Paraphymatoceros_hallii),Phaeoceros_pearsoni))))),(((Sphaerosporoceros_adscendens,Anthoceros_caucasicus),((Anthoceros_orizabensis,(Anthoceros_macounii,Anthoceros_sp_Villarreal_1032)),Anthoceros_tuberculatus)),((Folioceros_fuciformis,Folioceros_glandulosus),(Anthoceros_fusiformis,(Anthoceros_angustus,(Anthoceros_neesii,(Anthoceros_agrestis,(Anthoceros_punctatus,(Anthoceros_venosus,((Anthoceros_sp_Gremmer_T07-1097,(Anthoceros_sambesianus,Anthoceros_lamellatus)),(Anthoceros_laminiferus,Anthoceros_scariosus))))))))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 118110 taxonomy "Leiosporoceros dussii->Leiosporoceros->Leiosporocerotaceae->Leiosporocerotales->Leiosporocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579101"
+pgloadind     taxon mapping OTT ID 282918 taxonomy "Phymatoceros phymatodes->Phymatoceros->Phymatocerotaceae->Phymatocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579106"
+pgloadind     taxon mapping OTT ID 491883 taxonomy "Phymatoceros bulbiculosus->Phymatoceros->Phymatocerotaceae->Phymatocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579107"
+pgloadind     taxon mapping OTT ID 639740 taxonomy "Phaeomegaceros hirticalyx->Phaeomegaceros->Phaeomegacerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579110"
+pgloadind     taxon mapping OTT ID 857679 taxonomy "Phaeomegaceros coriaceus->Phaeomegaceros->Phaeomegacerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579111"
+pgloadind     taxon mapping OTT ID 491878 taxonomy "Phaeomegaceros fimbriatus->Phaeomegaceros->Phaeomegacerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579115"
+pgloadind     taxon mapping OTT ID 282921 taxonomy "Phaeomegaceros skottsbergii->Phaeomegaceros->Phaeomegacerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579117"
+pgloadind     taxon mapping OTT ID 341988 taxonomy "Phaeomegaceros sp. Villarreal 871->Phaeomegaceros->Phaeomegacerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579118"
+pgloadind     taxon mapping OTT ID 688217 taxonomy "Phaeomegaceros chiloensis->Phaeomegaceros->Phaeomegacerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579124"
+pgloadind     taxon mapping OTT ID 250155 taxonomy "Phaeomegaceros plicatus->Phaeomegaceros->Phaeomegacerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579125"
+pgloadind     taxon mapping OTT ID 915121 taxonomy "Phaeomegaceros squamuliger subsp. hasselii->Phaeomegaceros squamuliger->Phaeomegaceros->Phaeomegacerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579121"
+pgloadind     taxon mapping OTT ID 875147 taxonomy "Dendroceros cichoraceus->Dendroceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579129"
+pgloadind     taxon mapping OTT ID 442008 taxonomy "Dendroceros paivae->Dendroceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579136"
+pgloadind     taxon mapping OTT ID 442006 taxonomy "Dendroceros javanicus->Dendroceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579135"
+pgloadind     taxon mapping OTT ID 378618 taxonomy "Dendroceros crispus->Dendroceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579137"
+pgloadind     taxon mapping OTT ID 434430 taxonomy "Dendroceros difficilis->Dendroceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579139"
+pgloadind     taxon mapping OTT ID 118123 taxonomy "Dendroceros crispatus->Dendroceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579140"
+pgloadind     taxon mapping OTT ID 639745 taxonomy "Megaceros flagellaris->Megaceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579142"
+pgloadind     taxon mapping OTT ID 639752 taxonomy "Megaceros denticulatus->Megaceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579144"
+pgloadind     taxon mapping OTT ID 639754 taxonomy "Megaceros gracilis->Megaceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579146"
+pgloadind     taxon mapping OTT ID 639736 taxonomy "Megaceros pellucidus->Megaceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579147"
+pgloadind     taxon mapping OTT ID 863901 taxonomy "Nothoceros endiviifolius->Nothoceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579150"
+pgloadind     taxon mapping OTT ID 639766 taxonomy "Nothoceros giganteus->Nothoceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579151"
+pgloadind     taxon mapping OTT ID 688221 taxonomy "Nothoceros fuegiensis->Nothoceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579153"
+pgloadind     taxon mapping OTT ID 694051 taxonomy "Nothoceros renzagliensis->Nothoceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579155"
+pgloadind     taxon mapping OTT ID 434426 taxonomy "Nothoceros superbus->Nothoceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579161"
+pgloadind     taxon mapping OTT ID 639759 taxonomy "Nothoceros canaliculatus->Nothoceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579159"
+pgloadind     taxon mapping OTT ID 164377 taxonomy "Nothoceros aenigmaticus->Nothoceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579163"
+pgloadind     taxon mapping OTT ID 177584 taxonomy "Nothoceros vincentianus->Nothoceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579165"
+pgloadind     taxon mapping OTT ID 875145 taxonomy "Nothoceros minarum->Nothoceros->Dendrocerotoideae->Dendrocerotaceae->Dendrocerotales->Dendrocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579166"
+pgloadind     taxon mapping OTT ID 342110 taxonomy "Phaeoceros himalayensis->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579169"
+pgloadind     taxon mapping OTT ID 954838 taxonomy "Phaeoceros oreganus->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579174"
+pgloadind     taxon mapping OTT ID 342132 taxonomy "Phaeoceros flexivalvis->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579178"
+pgloadind     taxon mapping OTT ID 4734047 taxonomy "Phaeoceros dendroceroides->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579179"
+pgloadind     taxon mapping OTT ID 146084 taxonomy "Phaeoceros evanidus->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579182"
+pgloadind     taxon mapping OTT ID 263355 taxonomy "Phaeoceros brevicapsulus->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579184"
+pgloadind     taxon mapping OTT ID 342039 taxonomy "Phaeoceros tenuis->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579185"
+pgloadind     taxon mapping OTT ID 853437 taxonomy "Phaeoceros microsporus->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579187"
+pgloadind     taxon mapping OTT ID 868455 taxonomy "Phaeoceros carolinianus->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579188"
+pgloadind     taxon mapping OTT ID 208157 taxonomy "Phaeoceros laevis->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579189"
+pgloadind     taxon mapping OTT ID 954850 taxonomy "Phaeoceros mohrii->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579190"
+pgloadind     taxon mapping OTT ID 342088 taxonomy "Phaeoceros inflatus->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579192"
+pgloadind     taxon mapping OTT ID 146082 taxonomy "Phaeoceros engelii->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579193"
+pgloadind     taxon mapping OTT ID 659403 taxonomy "Phaeoceros cf. bolusii Hedderson 16894->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579195"
+pgloadind     taxon mapping OTT ID 250153 taxonomy "Notothylas dissecta->Notothylas->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579199"
+pgloadind     taxon mapping OTT ID 263628 taxonomy "Notothylas levieri->Notothylas->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579202"
+pgloadind     taxon mapping OTT ID 71201 taxonomy "Notothylas breutelii->Notothylas->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579203"
+pgloadind     taxon mapping OTT ID 263699 taxonomy "Notothylas vitalii->Notothylas->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579206"
+pgloadind     taxon mapping OTT ID 568038 taxonomy "Notothylas javanica->Notothylas->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579207"
+pgloadind     taxon mapping OTT ID 243238 taxonomy "Notothylas orbicularis->Notothylas->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579208"
+pgloadind     taxon mapping OTT ID 694110 taxonomy "Paraphymatoceros diadematus->Paraphymatoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579210"
+pgloadind     taxon mapping OTT ID 201034 taxonomy "Phaeoceros proskaueri->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579213"
+pgloadind     taxon mapping OTT ID 693997 taxonomy "Paraphymatoceros hallii->Paraphymatoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579214"
+pgloadind     taxon mapping OTT ID 3865630 taxonomy "Phaeoceros pearsoni->Phaeoceros->Notothyladaceae->Notothyladales->Notothylidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579215"
+pgloadind     taxon mapping OTT ID 428820 taxonomy "Sphaerosporoceros adscendens->Sphaerosporoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579219"
+pgloadind     taxon mapping OTT ID 1018532 taxonomy "Anthoceros caucasicus->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579220"
+pgloadind     taxon mapping OTT ID 442020 taxonomy "Anthoceros orizabensis->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579223"
+pgloadind     taxon mapping OTT ID 442011 taxonomy "Anthoceros macounii->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579225"
+pgloadind     taxon mapping OTT ID 250152 taxonomy "Anthoceros sp. Villarreal 1032->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579226"
+pgloadind     taxon mapping OTT ID 442014 taxonomy "Anthoceros tuberculatus->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579227"
+pgloadind     taxon mapping OTT ID 118114 taxonomy "Folioceros fuciformis->Folioceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579230"
+pgloadind     taxon mapping OTT ID 539798 taxonomy "Folioceros glandulosus->Folioceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579231"
+pgloadind     taxon mapping OTT ID 378633 taxonomy "Anthoceros fusiformis->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579233"
+pgloadind     taxon mapping OTT ID 539796 taxonomy "Anthoceros angustus->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579235"
+pgloadind     taxon mapping OTT ID 442018 taxonomy "Anthoceros neesii->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579237"
+pgloadind     taxon mapping OTT ID 199300 taxonomy "Anthoceros agrestis->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579239"
+pgloadind     taxon mapping OTT ID 769687 taxonomy "Anthoceros punctatus->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579241"
+pgloadind     taxon mapping OTT ID 442016 taxonomy "Anthoceros venosus->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579243"
+pgloadind     taxon mapping OTT ID 250151 taxonomy "Anthoceros sp. Gremmer T07-1097->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579246"
+pgloadind     taxon mapping OTT ID 4734046 taxonomy "Anthoceros sambesianus->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579248"
+pgloadind     taxon mapping OTT ID 80951 taxonomy "Anthoceros lamellatus->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579249"
+pgloadind     taxon mapping OTT ID 118112 taxonomy "Anthoceros laminiferus->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579251"
+pgloadind     taxon mapping OTT ID 3865640 taxonomy "Anthoceros scariosus->Anthoceros->Anthocerotaceae->Anthocerotales->Anthocerotidae->Anthocerotopsida->Anthocerotophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node579252"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "2560"
+pgloadind   Adding tree to graph tree id "2560"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Sphaerosporoceros adscendens was remapped to 'Sphaerosporoceros' (id=3179113)
+	Leiosporoceros dussii was remapped to 'Leiosporocerotopsida' (id=3178770)
+	Phaeomegaceros squamuliger subsp. hasselii was remapped to 'Phaeomegaceros squamuliger' (id=3178808)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Villarreal, J. C., & Renner, S. S. (2012). Hornwort pyrenoids, carbon-concentrating structures, evolved and were lost at least five times during the last 100 million years. Proceedings of the National Academy of Sciences, 109(46), 18873-18878.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Anthocerotophyta
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree2560
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': 
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S13448
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_1268
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2013
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node579100
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': bryan drew
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1073/pnas.1213498109
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node579079
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 738980
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': tree 1
+adding relationships to licas for children
+Committing nodes: 145
+14:35:58.998 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+	adding Node[3178784] Dendrocerotales 707509 as compatible with Node[3178786]
+		adding Relationship[8923012]
+		adding to root Relationship[8923013]
+	adding Node[3178934] Phymatocerotaceae 133090 as compatible with Node[3178935]
+		adding Relationship[8923014]
+		adding to root Relationship[8923015]
+	adding Node[3178933] Phymatocerotales 133081 as compatible with Node[3178935]
+		adding Relationship[8923016]
+		adding to root Relationship[8923017]
+	adding Node[3178947] Notothyladales 133084 as compatible with Node[3178949]
+		adding Relationship[8923018]
+		adding to root Relationship[8923019]
+	adding Node[3178945] Notothylidae 108841 as compatible with Node[3178949]
+		adding Relationship[8923020]
+		adding to root Relationship[8923021]
+	adding Node[3179111] Anthocerotales 164381 as compatible with Node[3179112]
+		adding Relationship[8923022]
+		adding to root Relationship[8923023]
+	adding Node[3179109] Anthocerotidae 108839 as compatible with Node[3179112]
+		adding Relationship[8923024]
+		adding to root Relationship[8923025]
+		adding Relationship[8923026] from Node[3178933] to Node[3178782]
+		adding Relationship[8923027] from Node[3178782] to Node[3838896]
+		adding Relationship[8923028] from Node[3178782] to Node[3178780]
+		adding Relationship[8923029] from Node[3178947] to Node[3178945]
+		adding Relationship[8923030] from Node[3178945] to Node[3178780]
+		adding Relationship[8923031] from Node[3178934] to Node[3178933]
+		adding Relationship[8923032] from Node[3179111] to Node[3179109]
+		adding Relationship[8923033] from Node[3179109] to Node[3178780]
+		adding Relationship[8923034] from Node[3838896] to Node[3178780]
+		adding Relationship[8923035] from Node[3178784] to Node[3178782]

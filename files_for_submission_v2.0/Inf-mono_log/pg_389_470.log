@@ -1,0 +1,138 @@
+20:51:41.680 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 30
+pgloadind Processing tree @id "470"
+pgloadind   tree info number nodes 56
+pgloadind   tree info number edges 55
+pgloadind   tree info ingroup "node205267"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 29
+pgloadind   property added ot:studyPublicationReference "Holst-jensen A., Vralstad T., & Schumacher T. 2004. Kohninia linnaeicola - a new genus and species of the Sclerotiniaceae pathogenic to Linnaea borealis. Mycologia, 96: 136-143."
+pgloadind   property added ot:focalCladeOTTTaxonName "Kohninia"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1107"
+pgloadind   property added ot:studyYear "2004"
+pgloadind   property added ot:studyId "pg_389"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/3761994"
+pgloadind   property added ot:focalClade "437372"
+pgloadind   property added ot:curatedType "MP, ITS"
+pgloadind   property added ot:inGroupClade "node205267"
+pgloadind   property added ot:tag "MP"
+pgloadind   property added ot:tag "ITS"
+loading a specific tree: 470
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "470"
+pgloadind     OTT ID missing name "Ciborinia whetzelii" nexsonid "node205319"
+pgloadind     pruning unmapped name "Ciborinia whetzelii" nexsonid "node205319"
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Botrytis cinerea" nexsonid "node205301"
+pgloadind       dubious OTT ID 5309768
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Botrytis cinerea" nexsonid "node205302"
+pgloadind       dubious OTT ID 5309768
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Sclerotinia" nexsonid "node205306"
+pgloadind       duplicate OTT ID 51651
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Kohninia linnaeicola" nexsonid "node205312"
+pgloadind       duplicate OTT ID 435698
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Kohninia linnaeicola" nexsonid "node205313"
+pgloadind       duplicate OTT ID 435698
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Sclerotinia tetraspora" nexsonid "node205285"
+pgloadind       overlapping pruned name "Sclerotinia" nexsonid "node205294"
+pgloadind     pruning dups and overlapping name "Kohninia linnaeicola" nexsonid "node205312"
+pgloadind     pruning dups and overlapping name "Botrytis cinerea" nexsonid "node205302"
+pgloadind     pruning dups and overlapping name "Botrytis cinerea" nexsonid "node205301"
+pgloadind     pruning dups and overlapping name "Sclerotinia" nexsonid "node205294"
+pgloadind     pruning dups and overlapping name "Sclerotinia" nexsonid "node205306"
+pgloadind     pruning dups and overlapping name "Kohninia linnaeicola" nexsonid "node205313"
+pgloadind   postpruning newick tree "(((((((((((((((Ciboria_caucus,Monilinia_fructicola),Ovulinia_azaleae),Sclerotinia_tetraspora),((Dumontinia_tuberosa,Stromatinia_cepivora),((Sclerotinia_glacialis,Sclerotinia_trifoliorum),Sclerotinia_minor,Sclerotinia_sclerotiorum))),Myriosclerotinia_scirpicola),Coprotinia_minutula),Botryotinia_convoluta),Sclerotinia_borealis),Grovesinia_pyramidalis),Stromatinia_rapulum),Pycnopeziza_sympodialis),Kohninia_linnaeicola),Valdensinia_heterodoxa),Encoelia_fascicularis),(Monilinia_padi,Monilinia_oxycocci))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 125488 taxonomy "Ciboria caucus->Ciboria->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205282"
+pgloadind     taxon mapping OTT ID 176417 taxonomy "Monilinia fructicola->Monilinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205283"
+pgloadind     taxon mapping OTT ID 485226 taxonomy "Ovulinia azaleae->Ovulinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205284"
+pgloadind     taxon mapping OTT ID 399466 taxonomy "Sclerotinia tetraspora->Sclerotinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205285"
+pgloadind     taxon mapping OTT ID 22625 taxonomy "Dumontinia tuberosa->Dumontinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205288"
+pgloadind     taxon mapping OTT ID 5309754 taxonomy "Stromatinia cepivora->Stromatinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205289"
+pgloadind     taxon mapping OTT ID 3913 taxonomy "Sclerotinia glacialis->Sclerotinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205292"
+pgloadind     taxon mapping OTT ID 125835 taxonomy "Sclerotinia trifoliorum->Sclerotinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205293"
+pgloadind     taxon mapping OTT ID 392302 taxonomy "Sclerotinia minor->Sclerotinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205295"
+pgloadind     taxon mapping OTT ID 880963 taxonomy "Sclerotinia sclerotiorum->Sclerotinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205296"
+pgloadind     taxon mapping OTT ID 176412 taxonomy "Myriosclerotinia scirpicola->Myriosclerotinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205297"
+pgloadind     taxon mapping OTT ID 737691 taxonomy "Coprotinia minutula->Lambertella->Rutstroemiaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205298"
+pgloadind     taxon mapping OTT ID 737684 taxonomy "Botryotinia convoluta->Botryotinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205303"
+pgloadind     taxon mapping OTT ID 966729 taxonomy "Sclerotinia borealis->Sclerotinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205305"
+pgloadind     taxon mapping OTT ID 1005969 taxonomy "Grovesinia pyramidalis->Grovesinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205307"
+pgloadind     taxon mapping OTT ID 485228 taxonomy "Stromatinia rapulum->Stromatinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205308"
+pgloadind     taxon mapping OTT ID 1005982 taxonomy "Pycnopeziza sympodialis->Pycnopeziza->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205309"
+pgloadind     taxon mapping OTT ID 435698 taxonomy "Kohninia linnaeicola->Kohninia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205311"
+pgloadind     taxon mapping OTT ID 694197 taxonomy "Valdensinia heterodoxa->Valdensinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205314"
+pgloadind     taxon mapping OTT ID 1005971 taxonomy "Encoelia fascicularis->Encoelia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205315"
+pgloadind     taxon mapping OTT ID 616388 taxonomy "Monilinia padi->Monilinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205317"
+pgloadind     taxon mapping OTT ID 968421 taxonomy "Monilinia oxycocci->Monilinia->Sclerotiniaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node205320"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "470"
+pgloadind   Adding tree to graph tree id "470"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Grovesinia pyramidalis was remapped to 'Grovesinia' (id=455501)
+	Dumontinia tuberosa was remapped to 'Dumontinia' (id=454620)
+	Ciboria caucus was remapped to 'Ciboria' (id=456005)
+	Encoelia fascicularis was remapped to 'Encoelia' (id=456252)
+	Coprotinia minutula was remapped to 'Rutstroemiaceae' (id=472712)
+	Kohninia linnaeicola was remapped to 'Kohninia' (id=455078)
+	Valdensinia heterodoxa was remapped to 'Valdensinia' (id=454883)
+	Botryotinia convoluta was remapped to 'Botryotinia' (id=456403)
+	Myriosclerotinia scirpicola was remapped to 'Myriosclerotinia' (id=455045)
+	Pycnopeziza sympodialis was remapped to 'Pycnopeziza' (id=456534)
+	Ovulinia azaleae was remapped to 'Ovulinia' (id=455080)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Holst-jensen A., Vralstad T., & Schumacher T. 2004. Kohninia linnaeicola - a new genus and species of the Sclerotiniaceae pathogenic to Linnaea borealis. Mycologia, 96: 136-143.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Kohninia
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2004
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node205267
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ITS
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.2307/3761994
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 437372
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP, ITS
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_389
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1107
+adding relationships to licas for children
+Committing nodes: 42
+20:52:34.346 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

@@ -1,0 +1,150 @@
+15:20:55.470 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 25
+pgloadind Processing tree @id "1"
+pgloadind   tree info number nodes 49
+pgloadind   tree info number edges 48
+pgloadind   tree info ingroup "node2"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 23
+pgloadind   property added ot:studyPublicationReference "Benz, Brett W., Mark B. Robbins. 2011. Molecular phylogenetics, vocalizations, and species limits in Celeus woodpeckers (Aves: Picidae). Molecular Phylogenetics and Evolution 61 (1): 29-44."
+pgloadind   property added ot:candidateTreeForSynthesis "tree1"
+pgloadind   property added ot:focalCladeOTTTaxonName "Celeus"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1016/j.ympev.2011.05.001"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:studyYear "2011"
+pgloadind   property added ot:studyId "ot_157"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "724182"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Bayesian inference "
+pgloadind   property added ot:nearestTaxonMRCAOttId "724182"
+pgloadind   property added ot:inGroupClade "node2"
+pgloadind   property added ot:nearestTaxonMRCAName "Celeus"
+pgloadind   property added ot:specifiedRoot "node1"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+loading a specific tree: 1
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "1"
+pgloadind     OTT ID missing name "Celeus ochraceus 1" nexsonid "node17"
+pgloadind     OTT ID missing name "Celeus ochraceus 2" nexsonid "node18"
+pgloadind     pruning unmapped name "Celeus ochraceus 1" nexsonid "node17"
+pgloadind     pruning unmapped name "Celeus ochraceus 2" nexsonid "node18"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Celeus undatus" nexsonid "node24"
+pgloadind       duplicate OTT ID 724966
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Celeus grammicus" nexsonid "node27"
+pgloadind       duplicate OTT ID 499964
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Celeus castaneus" nexsonid "node30"
+pgloadind       duplicate OTT ID 724960
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Celeus flavus" nexsonid "node34"
+pgloadind       duplicate OTT ID 524497
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Celeus spectabilis" nexsonid "node38"
+pgloadind       duplicate OTT ID 983476
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Celeus flavescens" nexsonid "node15"
+pgloadind       duplicate OTT ID 704537
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Celeus lugubris" nexsonid "node9"
+pgloadind       duplicate OTT ID 499951
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Celeus elegans" nexsonid "node12"
+pgloadind       duplicate OTT ID 724183
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Celeus loricatus" nexsonid "node43"
+pgloadind       duplicate OTT ID 704541
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Celeus torquatus" nexsonid "node46"
+pgloadind       duplicate OTT ID 724968
+pgloadind     pruning dups and overlapping name "Celeus loricatus" nexsonid "node43"
+pgloadind     pruning dups and overlapping name "Celeus castaneus" nexsonid "node30"
+pgloadind     pruning dups and overlapping name "Celeus lugubris" nexsonid "node9"
+pgloadind     pruning dups and overlapping name "Celeus torquatus" nexsonid "node46"
+pgloadind     pruning dups and overlapping name "Celeus elegans" nexsonid "node12"
+pgloadind     pruning dups and overlapping name "Celeus flavescens" nexsonid "node15"
+pgloadind     pruning dups and overlapping name "Celeus undatus" nexsonid "node24"
+pgloadind     pruning dups and overlapping name "Celeus spectabilis" nexsonid "node38"
+pgloadind     pruning dups and overlapping name "Celeus flavus" nexsonid "node34"
+pgloadind     pruning dups and overlapping name "Celeus grammicus" nexsonid "node27"
+pgloadind   postpruning newick tree "(((((Celeus_undatus,Celeus_grammicus),Celeus_castaneus),((Celeus_obrieni,Celeus_spectabilis),Celeus_flavus)),((Celeus_lugubris,Celeus_elegans),Celeus_flavescens)),(Celeus_loricatus,Celeus_torquatus))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 724966 taxonomy "Celeus undatus->Celeus->Picidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node23"
+pgloadind     taxon mapping OTT ID 499964 taxonomy "Celeus grammicus->Celeus->Picidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node26"
+pgloadind     taxon mapping OTT ID 724960 taxonomy "Celeus castaneus->Celeus->Picidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node29"
+pgloadind     taxon mapping OTT ID 724964 taxonomy "Celeus obrieni->Celeus->Picidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node39"
+pgloadind     taxon mapping OTT ID 983476 taxonomy "Celeus spectabilis->Celeus->Picidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node37"
+pgloadind     taxon mapping OTT ID 524497 taxonomy "Celeus flavus->Celeus->Picidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node33"
+pgloadind     taxon mapping OTT ID 499951 taxonomy "Celeus lugubris->Celeus->Picidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node8"
+pgloadind     taxon mapping OTT ID 724183 taxonomy "Celeus elegans->Celeus->Picidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node11"
+pgloadind     taxon mapping OTT ID 704537 taxonomy "Celeus flavescens->Celeus->Picidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node14"
+pgloadind     taxon mapping OTT ID 704541 taxonomy "Celeus loricatus->Celeus->Picidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node42"
+pgloadind     taxon mapping OTT ID 724968 taxonomy "Celeus torquatus->Celeus->Picidae->Piciformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node45"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "1"
+pgloadind   Adding tree to graph tree id "1"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Benz, Brett W., Mark B. Robbins. 2011. Molecular phylogenetics, vocalizations, and species limits in Celeus woodpeckers (Aves: Picidae). Molecular Phylogenetics and Evolution 61 (1): 29-44.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Celeus
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree1
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:nearestTaxonMRCAName
+Adding property 'ot:nearestTaxonMRCAName': Celeus
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:nearestTaxonMRCAOttId
+Adding property 'ot:nearestTaxonMRCAOttId': 724182
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': ot_157
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2011
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node2
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1016/j.ympev.2011.05.001
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 724182
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Bayesian inference 
+adding relationships to licas for children
+Committing nodes: 21
+15:21:47.964 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

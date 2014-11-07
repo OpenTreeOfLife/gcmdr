@@ -1,0 +1,298 @@
+20:01:13.810 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 72
+pgloadind Processing tree @id "6249"
+pgloadind   tree info number nodes 143
+pgloadind   tree info number edges 142
+pgloadind   tree info ingroup "node1083470"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 68
+pgloadind   property added ot:studyPublicationReference "Hill, Malcolm S., April L. Hill, Jose Lopez, Kevin J. Peterson, Shirley Pomponi, Maria C. Diaz, Robert W. Thacker, Maja Adamska, Nicole Boury-Esnault, Paco Cárdenas, Andia Chaves-Fonnegra, Elizabeth Danka, Bre-Onna De Laine, Dawn Formica, Eduardo Hajdu, Gisele Lobo-Hajdu, Sarah Klontz, Christine C. Morrow, Jignasa Patel, Bernard Picton, Davide Pisani, Deborah Pohlmann, Niamh E. Redmond, John Reed, Stacy Richey, Ana Riesgo, Ewelina Rubin, Zach Russell, Klaus Rützler, Erik A. Sperling, Michael di Stefano, James E. Tarver, Allen G. Collins. 2013. Reconstruction of family-level phylogenetic relationships within Demospongiae (Porifera) using nuclear encoded housekeeping genes. PLoS ONE 8 (1): e50437."
+pgloadind   property added ot:focalCladeOTTTaxonName "Demospongiae"
+pgloadind   property added ot:curatorName "Chris Owen"
+pgloadind   property added ot:studyYear "2013"
+pgloadind   property added ot:studyId "pg_2696"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1371/journal.pone.0050437"
+pgloadind   property added ot:focalClade "67816"
+pgloadind   property added ot:curatedType "Fig. 1 ML"
+pgloadind   property added ot:inGroupClade "node1083470"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:tag "rooted;"
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 6249
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6249"
+pgloadind     OTT ID missing name "Chocarib" nexsonid "node1083572"
+pgloadind     OTT ID missing name "Leucossp" nexsonid "node1083583"
+pgloadind     pruning unmapped name "Leucossp" nexsonid "node1083583"
+pgloadind     pruning unmapped name "Chocarib" nexsonid "node1083572"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Monanchora arbuscula" nexsonid "node1083502"
+pgloadind       duplicate OTT ID 644857
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Haliclona" nexsonid "node1083536"
+pgloadind       duplicate OTT ID 588763
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Ircinia strobilina" nexsonid "node1083554"
+pgloadind       duplicate OTT ID 1059122
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Igernella notabilis" nexsonid "node1083560"
+pgloadind       duplicate OTT ID 928151
+pgloadind     OTT ID not in database (probably dubious)
+pgloadind       dubious name "Borojevia cerebrum" nexsonid "node1083588"
+pgloadind       dubious OTT ID 606954
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Haliclona manglaris" nexsonid "node1083534"
+pgloadind       overlapping pruned name "Haliclona" nexsonid "node1083482"
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Halichondria melanadocia" nexsonid "node1083483"
+pgloadind       overlapping pruned name "Halichondria" nexsonid "node1083535"
+pgloadind     pruning dups and overlapping name "Monanchora arbuscula" nexsonid "node1083502"
+pgloadind     pruning dups and overlapping name "Igernella notabilis" nexsonid "node1083560"
+pgloadind     pruning dups and overlapping name "Haliclona" nexsonid "node1083536"
+pgloadind     pruning dups and overlapping name "Halichondria" nexsonid "node1083535"
+pgloadind     pruning dups and overlapping name "Borojevia cerebrum" nexsonid "node1083588"
+pgloadind     pruning dups and overlapping name "Haliclona" nexsonid "node1083482"
+pgloadind     pruning dups and overlapping name "Ircinia strobilina" nexsonid "node1083554"
+pgloadind   postpruning newick tree "(((((((((((Suberites,Halichondria_melanadocia),((Cliona_varians,Placospongia_intermedia),Spirastrella)),Tethya_californiana),((((Tedania_ignis,Clathria_prolifera),Lissodendoryx_colombiensis),Phorbas),(Mycale_laevis,Monanchora_arbuscula))),(Polymastia_tenax,Biemna_caribea)),(((Agelas_conifera,Axinella_corrugata),Ectyoplasia_ferox),(Dictyonellidae,Desmacella_pumilio))),((((Geodia_gibberosa,Stelletta_fibrosa),Characella_aff_connectens_SB-2012),Cinachyrella_apion),(Dercitus_luteus,Microscleroderma))),(((((Petrosia_ficiformis,Haliclona_manglaris),((Callyspongia_vaginalis,Amphimedon_queenslandica),Xestospongia_muta)),Aka_coralliphaga),Amphimedon_compressa),(Trochospongilla_pennsylvanica,Ephydatia_fluviatilis))),((((Hyrtios_proteus,Ircinia_strobilina),Hippospongia_lachne),(Dysidea_etheria,Igernella_notabilis)),((((Aplysina_fistularis,Aplysina_fulva),Verongula_rigida),Aiolochroia_crassa),Halisarca))),((((((Sycon_lingua,Sycon_ciliatum),Sycon_coactum),Leucosolenia_complicata),Leucilla_nuttingi),Leucetta_chagosensis),((((Nodastrella_asconemaoida,Bathydorus),Acanthascus_dawsoni),Hertwigia_falcifera),(Aphrocallistes_vastus,Heterochone_calyx)))),((Corticium_candelabrum,Plakortis_angulospiculatus),Oscarella_carmela))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 127352 taxonomy "Suberites->Suberitidae->Hadromerida->Tetractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083484"
+pgloadind     taxon mapping OTT ID 903036 taxonomy "Halichondria melanadocia->Halichondria->Halichondriidae->Halichondrida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083483"
+pgloadind     taxon mapping OTT ID 282310 taxonomy "Cliona varians->Cliona->Clionaidae->Hadromerida->Tetractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083487"
+pgloadind     taxon mapping OTT ID 370261 taxonomy "Placospongia intermedia->Placospongia->Placospongiidae->Hadromerida->Tetractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083488"
+pgloadind     taxon mapping OTT ID 101287 taxonomy "Spirastrella->Spirastrellidae->Hadromerida->Tetractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083489"
+pgloadind     taxon mapping OTT ID 623039 taxonomy "Tethya californiana->Tethya->Tethyidae->Hadromerida->Tetractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083490"
+pgloadind     taxon mapping OTT ID 304274 taxonomy "Tedania ignis->Tedania->Tedaniidae->Myxillina->Poecilosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083495"
+pgloadind     taxon mapping OTT ID 2836842 taxonomy "Clathria prolifera->Clathria->Microcionidae->Microcionina->Poecilosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083496"
+pgloadind     taxon mapping OTT ID 370265 taxonomy "Lissodendoryx colombiensis->Lissodendoryx->Coelosphaeridae->Myxillina->Poecilosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083497"
+pgloadind     taxon mapping OTT ID 950041 taxonomy "Phorbas->Hymedesmiidae->Myxillina->Poecilosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083498"
+pgloadind     taxon mapping OTT ID 16787 taxonomy "Mycale laevis->Mycale->Mycalidae->Mycalina->Poecilosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083503"
+pgloadind     taxon mapping OTT ID 644857 taxonomy "Monanchora arbuscula->Monanchora->Crambeidae->Myxillina->Poecilosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083501"
+pgloadind     taxon mapping OTT ID 903040 taxonomy "Polymastia tenax->Polymastia->Polymastiidae->Hadromerida->Tetractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083505"
+pgloadind     taxon mapping OTT ID 328737 taxonomy "Biemna caribea->Biemna->Desmacellidae->Mycalina->Poecilosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083506"
+pgloadind     taxon mapping OTT ID 298914 taxonomy "Agelas conifera->Agelas->Agelasidae->Agelasida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083510"
+pgloadind     taxon mapping OTT ID 812988 taxonomy "Axinella corrugata->Axinella->Axinellidae->Halichondrida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083511"
+pgloadind     taxon mapping OTT ID 949244 taxonomy "Ectyoplasia ferox->Ectyoplasia->Raspailiinae->Raspailiidae->Microcionina->Poecilosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083512"
+pgloadind     taxon mapping OTT ID 738878 taxonomy "Dictyonellidae->Halichondrida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083514"
+pgloadind     taxon mapping OTT ID 328726 taxonomy "Desmacella pumilio->Desmacella->Desmacellidae->Mycalina->Poecilosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083515"
+pgloadind     taxon mapping OTT ID 949233 taxonomy "Geodia gibberosa->Geodia->Geodiidae->Astrophorida->Tetractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083520"
+pgloadind     taxon mapping OTT ID 375220 taxonomy "Stelletta fibrosa->Stelletta->Stellettidae->Astrophorida->Tetractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083521"
+pgloadind     taxon mapping OTT ID 328740 taxonomy "Characella aff. connectens SB-2012->Characella->Pachastrellidae->Astrophorida->Tetractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083522"
+pgloadind     taxon mapping OTT ID 351825 taxonomy "Cinachyrella apion->Cinachyrella->Tetillidae->Spirophorida->Tetractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083523"
+pgloadind     taxon mapping OTT ID 575963 taxonomy "Dercitus luteus->Dercitus->Pachastrellidae->Astrophorida->Tetractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083525"
+pgloadind     taxon mapping OTT ID 4116453 taxonomy "Microscleroderma->Scleritodermidae->Spirophorida->Tetractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083526"
+pgloadind     taxon mapping OTT ID 389380 taxonomy "Petrosia ficiformis->Petrosia->Petrosiidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083537"
+pgloadind     taxon mapping OTT ID 270972 taxonomy "Haliclona manglaris->Haliclona->Chalinidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083534"
+pgloadind     taxon mapping OTT ID 305417 taxonomy "Callyspongia vaginalis->Callyspongia->Callyspongiidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083540"
+pgloadind     taxon mapping OTT ID 707499 taxonomy "Amphimedon queenslandica->Amphimedon->Niphatidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083541"
+pgloadind     taxon mapping OTT ID 880230 taxonomy "Xestospongia muta->Xestospongia->Petrosiidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083542"
+pgloadind     taxon mapping OTT ID 981302 taxonomy "Aka coralliphaga->Aka->Niphatidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083543"
+pgloadind     taxon mapping OTT ID 981298 taxonomy "Amphimedon compressa->Amphimedon->Niphatidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083544"
+pgloadind     taxon mapping OTT ID 166656 taxonomy "Trochospongilla pennsylvanica->Trochospongilla->Spongillidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083546"
+pgloadind     taxon mapping OTT ID 388857 taxonomy "Ephydatia fluviatilis->Ephydatia->Spongillidae->Haplosclerida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083547"
+pgloadind     taxon mapping OTT ID 114792 taxonomy "Hyrtios proteus->Hyrtios->Thorectidae->Dictyoceratida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083555"
+pgloadind     taxon mapping OTT ID 1059122 taxonomy "Ircinia strobilina->Ircinia->Irciniidae->Dictyoceratida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083553"
+pgloadind     taxon mapping OTT ID 502630 taxonomy "Hippospongia lachne->Hippospongia->Spongiidae->Dictyoceratida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083556"
+pgloadind     taxon mapping OTT ID 828977 taxonomy "Dysidea etheria->Dysidea->Dysideidae->Dictyoceratida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083561"
+pgloadind     taxon mapping OTT ID 928151 taxonomy "Igernella notabilis->Igernella->Dictyodendrillidae->Dendroceratida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083559"
+pgloadind     taxon mapping OTT ID 439207 taxonomy "Aplysina fistularis->Aplysina->Aplysinidae->Verongida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083566"
+pgloadind     taxon mapping OTT ID 730432 taxonomy "Aplysina fulva->Aplysina->Aplysinidae->Verongida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083567"
+pgloadind     taxon mapping OTT ID 314621 taxonomy "Verongula rigida->Verongula->Aplysinidae->Verongida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083568"
+pgloadind     taxon mapping OTT ID 595809 taxonomy "Aiolochroia crassa->Aiolochroia->Aplysinidae->Verongida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083569"
+pgloadind     taxon mapping OTT ID 140390 taxonomy "Halisarca->Halisarcidae->Dendroceratida->Ceractinomorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083571"
+pgloadind     taxon mapping OTT ID 689778 taxonomy "Sycon lingua->Sycon->Sycettidae->Leucosolenida->Calcaronea->Calcarea->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083579"
+pgloadind     taxon mapping OTT ID 684951 taxonomy "Sycon ciliatum->Sycon->Sycettidae->Leucosolenida->Calcaronea->Calcarea->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083580"
+pgloadind     taxon mapping OTT ID 712232 taxonomy "Sycon coactum->Sycon->Sycettidae->Leucosolenida->Calcaronea->Calcarea->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083581"
+pgloadind     taxon mapping OTT ID 662065 taxonomy "Leucosolenia complicata->Leucosolenia->Leucosoleniidae->Leucosolenida->Calcaronea->Calcarea->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083584"
+pgloadind     taxon mapping OTT ID 8700 taxonomy "Leucilla nuttingi->Leucilla->Amphoriscidae->Leucosolenida->Calcaronea->Calcarea->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083585"
+pgloadind     taxon mapping OTT ID 918964 taxonomy "Leucetta chagosensis->Leucetta->Leucettidae->Clathrinida->Calcinea->Calcarea->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083587"
+pgloadind     taxon mapping OTT ID 966145 taxonomy "Nodastrella asconemaoida->Nodastrella->Rossellidae->Lyssacinosida->Hexasterophora->Hexactinellida->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083593"
+pgloadind     taxon mapping OTT ID 184201 taxonomy "Bathydorus->Rossellidae->Lyssacinosida->Hexasterophora->Hexactinellida->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083594"
+pgloadind     taxon mapping OTT ID 459545 taxonomy "Acanthascus dawsoni->Rhabdocalyptus->Acanthascus->Rossellidae->Lyssacinosida->Hexasterophora->Hexactinellida->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083595"
+pgloadind     taxon mapping OTT ID 903034 taxonomy "Hertwigia falcifera->Hertwigia->Euplectellidae->Lyssacinosida->Hexasterophora->Hexactinellida->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083596"
+pgloadind     taxon mapping OTT ID 823199 taxonomy "Aphrocallistes vastus->Aphrocallistes->Aphrocallistidae->Hexactinosida->Hexasterophora->Hexactinellida->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083598"
+pgloadind     taxon mapping OTT ID 399206 taxonomy "Heterochone calyx->Heterochone->Aphrocallistidae->Hexactinosida->Hexasterophora->Hexactinellida->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083599"
+pgloadind     taxon mapping OTT ID 266093 taxonomy "Corticium candelabrum->Corticium->Plakinidae->Homosclerophorida->Homoscleromorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083602"
+pgloadind     taxon mapping OTT ID 248925 taxonomy "Plakortis angulospiculatus->Plakortis->Plakinidae->Homosclerophorida->Homoscleromorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083603"
+pgloadind     taxon mapping OTT ID 862117 taxonomy "Oscarella carmela->Oscarella->Plakinidae->Homosclerophorida->Homoscleromorpha->Demospongiae->Porifera->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1083604"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6249"
+pgloadind   Adding tree to graph tree id "6249"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Suberites was remapped to 'Suberitidae' (id=849392)
+	Haliclona manglaris was remapped to 'Chalinidae' (id=860834)
+	Verongula rigida was remapped to 'Verongula' (id=851042)
+	Trochospongilla pennsylvanica was remapped to 'Trochospongilla' (id=862662)
+	Hippospongia lachne was remapped to 'Spongiidae' (id=851839)
+	Corticium candelabrum was remapped to 'Corticium' (id=846881)
+	Desmacella pumilio was remapped to 'Desmacella' (id=858616)
+	Aka coralliphaga was remapped to 'Aka' (id=864203)
+	Axinella corrugata was remapped to 'Axinellidae' (id=859235)
+	Mycale laevis was remapped to 'Mycalidae' (id=857650)
+	Aphrocallistes vastus was remapped to 'Aphrocallistes' (id=865479)
+	Petrosia ficiformis was remapped to 'Petrosia' (id=863637)
+	Dysidea etheria was remapped to 'Dysideidae' (id=851632)
+	Stelletta fibrosa was remapped to 'Stellettidae' (id=847003)
+	Acanthascus dawsoni was remapped to 'Acanthascus' (id=864888)
+	Dercitus luteus was remapped to 'Dercitus' (id=847791)
+	Clathria prolifera was remapped to 'Microcionidae' (id=855475)
+	Leucetta chagosensis was remapped to 'Calcinea' (id=865761)
+	Nodastrella asconemaoida was remapped to 'Nodastrella' (id=865038)
+	Geodia gibberosa was remapped to 'Geodiidae' (id=847979)
+	Lissodendoryx colombiensis was remapped to 'Coelosphaeridae' (id=854303)
+	Plakortis angulospiculatus was remapped to 'Plakortis' (id=846933)
+	Microscleroderma was remapped to 'Scleritodermidae' (id=848830)
+	Monanchora arbuscula was remapped to 'Crambeidae' (id=855130)
+	Aiolochroia crassa was remapped to 'Aiolochroia' (id=851157)
+	Phorbas was remapped to 'Hymedesmiidae' (id=853487)
+	Leucilla nuttingi was remapped to 'Amphoriscidae' (id=866556)
+	Placospongia intermedia was remapped to 'Placospongiidae' (id=850708)
+	Spirastrella was remapped to 'Spirastrellidae' (id=848909)
+	Cinachyrella apion was remapped to 'Tetillidae' (id=848444)
+	Ircinia strobilina was remapped to 'Irciniidae' (id=851279)
+	Tedania ignis was remapped to 'Tedaniidae' (id=852989)
+	Ectyoplasia ferox was remapped to 'Raspailiidae' (id=856705)
+	Biemna caribea was remapped to 'Biemna' (id=858690)
+	Heterochone calyx was remapped to 'Heterochone' (id=865495)
+	Igernella notabilis was remapped to 'Dictyodendrillidae' (id=852908)
+	Polymastia tenax was remapped to 'Polymastiidae' (id=849153)
+	Callyspongia vaginalis was remapped to 'Callyspongiidae' (id=862024)
+	Tethya californiana was remapped to 'Tethyidae' (id=850263)
+	Hyrtios proteus was remapped to 'Thorectidae' (id=852232)
+	Halisarca was remapped to 'Halisarcidae' (id=852759)
+	Oscarella carmela was remapped to 'Oscarella' (id=846894)
+	Hertwigia falcifera was remapped to 'Euplectellidae' (id=865168)
+	Halichondria melanadocia was remapped to 'Halichondriidae' (id=860066)
+	Agelas conifera was remapped to 'Agelasida' (id=864270)
+	Cliona varians was remapped to 'Clionaidae' (id=849898)
+	Xestospongia muta was remapped to 'Xestospongia' (id=863556)
+	Characella aff. connectens SB-2012 was remapped to 'Characella' (id=847672)
+	Ephydatia fluviatilis was remapped to 'Ephydatia' (id=862753)
+	Leucosolenia complicata was remapped to 'Leucosoleniidae' (id=866682)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Hill, Malcolm S., April L. Hill, Jose Lopez, Kevin J. Peterson, Shirley Pomponi, Maria C. Diaz, Robert W. Thacker, Maja Adamska, Nicole Boury-Esnault, Paco Cárdenas, Andia Chaves-Fonnegra, Elizabeth Danka, Bre-Onna De Laine, Dawn Formica, Eduardo Hajdu, Gisele Lobo-Hajdu, Sarah Klontz, Christine C. Morrow, Jignasa Patel, Bernard Picton, Davide Pisani, Deborah Pohlmann, Niamh E. Redmond, John Reed, Stacy Richey, Ana Riesgo, Ewelina Rubin, Zach Russell, Klaus Rützler, Erik A. Sperling, Michael di Stefano, James E. Tarver, Allen G. Collins. 2013. Reconstruction of family-level phylogenetic relationships within Demospongiae (Porifera) using nuclear encoded housekeeping genes. PLoS ONE 8 (1): e50437.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Demospongiae
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2696
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2013
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1083470
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': rooted;
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Chris Owen
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1371/journal.pone.0050437
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': 
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 67816
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig. 1 ML
+adding relationships to licas for children
+Committing nodes: 117
+20:02:22.815 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+	adding Node[851039] Verongida 619374 as compatible with Node[851040]
+		adding Relationship[8922987]
+		adding to root Relationship[8922988]
+	adding Node[864514] Hexactinellida 1007159 as compatible with Node[864814]
+		adding Relationship[8922989]
+		adding to root Relationship[8922990]
+	adding Node[866309] Sycettidae 606949 as compatible with Node[866312]
+		adding Relationship[8922991]
+		adding to root Relationship[8922992]
+	adding Node[866243] Calcaronea 606950 as compatible with Node[866278]
+		adding Relationship[8922993]
+		adding to root Relationship[8922994]
+	adding Node[846828] Homosclerophorida 196337 as compatible with Node[846829]
+		adding Relationship[8922995]
+		adding to root Relationship[8922996]
+	adding Node[846827] Homoscleromorpha 519088 as compatible with Node[846829]
+		adding Relationship[8922997]
+		adding to root Relationship[8922998]
+	adding Node[865344] Hexactinosida 478018 as compatible with Node[865478]
+		adding Relationship[8922999]
+		adding to root Relationship[8923000]
+		adding Relationship[8923001] from Node[865344] to Node[864814]
+		adding Relationship[8923002] from Node[846828] to Node[846827]
+		adding Relationship[8923003] from Node[864814] to Node[3838896]
+		adding Relationship[8923004] from Node[864814] to Node[864514]
+		adding Relationship[8923005] from Node[865760] to Node[3838896]
+		adding Relationship[8923006] from Node[865760] to Node[846823]
+		adding Relationship[8923007] from Node[866243] to Node[865760]
+		adding Relationship[8923008] from Node[864514] to Node[846823]

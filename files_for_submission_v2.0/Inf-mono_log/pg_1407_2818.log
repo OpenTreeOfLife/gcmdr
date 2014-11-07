@@ -1,0 +1,110 @@
+11:07:14.089 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 25
+pgloadind Processing tree @id "2818"
+pgloadind   tree info number nodes 45
+pgloadind   tree info number edges 44
+pgloadind   tree info ingroup "node607787"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 21
+pgloadind   property added ot:studyPublicationReference "Gravendeel B., Eurlings M., Van den berg C., & Cribb P. 2004. Phylogeny of Pleione (Orchidaceae) and parentage analysis of its wild hybrids based on plastid and nrITS sequences and morphological data. Systematic Botany. (14)50-63"
+pgloadind   property added ot:curatorName "Jiabin Deng"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1094"
+pgloadind   property added ot:studyYear "2004"
+pgloadind   property added ot:studyId "pg_1407"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1600/036364404772973988"
+pgloadind   property added ot:curatedType "Fig. 2"
+pgloadind   property added ot:inGroupClade "node607787"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode ""
+loading a specific tree: 2818
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "2818"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Pleione hookeriana" nexsonid "node607812"
+pgloadind       duplicate OTT ID 277720
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Pleione pleionoides" nexsonid "node607821"
+pgloadind       duplicate OTT ID 277730
+pgloadind     pruning dups and overlapping name "Pleione pleionoides" nexsonid "node607821"
+pgloadind     pruning dups and overlapping name "Pleione hookeriana" nexsonid "node607812"
+pgloadind   postpruning newick tree "((Pleione_maculata,(Pleione_praecox,Pleione_lagenaria)),(Pleione_saxicola,(((((Pleione_albiflora,Pleione_humilis),Pleione_coronaria),Pleione_hookeriana),Pleione_scopulorum),(Pleione_forrestii,(((((((Pleione_limprichtii,Pleione_pleionoides),Pleione_formosana),Pleione_bulbocodioides),Pleione_delavayi),Pleione_taliensis),Pleione_yunnanensis),(Pleione_chunii,Pleione_grandiflora))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 277731 taxonomy "Pleione maculata->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607789"
+pgloadind     taxon mapping OTT ID 852270 taxonomy "Pleione praecox->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607791"
+pgloadind     taxon mapping OTT ID 3992151 taxonomy "Pleione lagenaria->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607792"
+pgloadind     taxon mapping OTT ID 852271 taxonomy "Pleione saxicola->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607794"
+pgloadind     taxon mapping OTT ID 277725 taxonomy "Pleione albiflora->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607800"
+pgloadind     taxon mapping OTT ID 277723 taxonomy "Pleione humilis->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607801"
+pgloadind     taxon mapping OTT ID 277724 taxonomy "Pleione coronaria->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607802"
+pgloadind     taxon mapping OTT ID 277720 taxonomy "Pleione hookeriana->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607803"
+pgloadind     taxon mapping OTT ID 852268 taxonomy "Pleione scopulorum->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607804"
+pgloadind     taxon mapping OTT ID 277726 taxonomy "Pleione forrestii->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607806"
+pgloadind     taxon mapping OTT ID 277722 taxonomy "Pleione limprichtii->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607822"
+pgloadind     taxon mapping OTT ID 277730 taxonomy "Pleione pleionoides->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607820"
+pgloadind     taxon mapping OTT ID 227366 taxonomy "Pleione formosana->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607823"
+pgloadind     taxon mapping OTT ID 227365 taxonomy "Pleione bulbocodioides->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607824"
+pgloadind     taxon mapping OTT ID 277727 taxonomy "Pleione delavayi->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607825"
+pgloadind     taxon mapping OTT ID 3992146 taxonomy "Pleione taliensis->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607826"
+pgloadind     taxon mapping OTT ID 852269 taxonomy "Pleione yunnanensis->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607827"
+pgloadind     taxon mapping OTT ID 411399 taxonomy "Pleione chunii->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607810"
+pgloadind     taxon mapping OTT ID 277721 taxonomy "Pleione grandiflora->Pleione->Coelogyninae->Arethuseae->Epidendroideae->Orchidaceae->Asparagales->Petrosaviidae->Liliopsida->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node607811"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "2818"
+pgloadind   Adding tree to graph tree id "2818"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Gravendeel B., Eurlings M., Van den berg C., & Cribb P. 2004. Phylogeny of Pleione (Orchidaceae) and parentage analysis of its wild hybrids based on plastid and nrITS sequences and morphological data. Systematic Botany. (14)50-63
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': 
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1094
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_1407
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2004
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node607787
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Jiabin Deng
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1600/036364404772973988
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': 
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig. 2
+adding relationships to licas for children
+Committing nodes: 37
+11:08:05.698 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

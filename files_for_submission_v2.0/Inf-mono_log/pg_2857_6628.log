@@ -1,0 +1,110 @@
+15:26:14.233 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 20
+pgloadind Processing tree @id "6628"
+pgloadind   tree info number nodes 39
+pgloadind   tree info number edges 38
+pgloadind   tree info ingroup "node1156979"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 11
+pgloadind   property added ot:studyPublicationReference "Arshad, Muhammad, Javier Gonzalez, Abdel Aziz El-Sayed, Tim Osborne, Michael Wink. 2009. Phylogeny and phylogeography of critically endangered Gyps species based on nuclear and mitochondrial markers. Journal of Ornithology 150 (2): 419-430."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6628"
+pgloadind   property added ot:focalCladeOTTTaxonName "Gyps"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:studyYear "2009"
+pgloadind   property added ot:studyId "pg_2857"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1007/s10336-008-0359-x"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "263138"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Bayesian inference "
+pgloadind   property added ot:inGroupClade "node1156979"
+pgloadind   property added ot:specifiedRoot "node1156975"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+loading a specific tree: 6628
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6628"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Gyps fulvus" nexsonid "node1156986"
+pgloadind       duplicate OTT ID 549517
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Gyps rueppellii" nexsonid "node1156989"
+pgloadind       duplicate OTT ID 263132
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Gyps africanus" nexsonid "node1156995"
+pgloadind       duplicate OTT ID 315690
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Gyps bengalensis" nexsonid "node1156999"
+pgloadind       duplicate OTT ID 315688
+pgloadind     pruning dups and overlapping name "Gyps fulvus" nexsonid "node1156986"
+pgloadind     pruning dups and overlapping name "Gyps bengalensis" nexsonid "node1156999"
+pgloadind     pruning dups and overlapping name "Gyps africanus" nexsonid "node1156995"
+pgloadind     pruning dups and overlapping name "Gyps rueppellii" nexsonid "node1156989"
+pgloadind   postpruning newick tree "(((((Gyps_fulvus,Gyps_rueppellii),(Gyps_coprotheres,Gyps_indicus)),Gyps_africanus),Gyps_himalayensis),Gyps_bengalensis)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 549517 taxonomy "Gyps fulvus->Gyps->Accipitrinae->Accipitridae->Falconiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1156985"
+pgloadind     taxon mapping OTT ID 263132 taxonomy "Gyps rueppellii->Gyps->Accipitrinae->Accipitridae->Falconiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1156988"
+pgloadind     taxon mapping OTT ID 263136 taxonomy "Gyps coprotheres->Gyps->Accipitrinae->Accipitridae->Falconiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1156991"
+pgloadind     taxon mapping OTT ID 796905 taxonomy "Gyps indicus->Gyps->Accipitrinae->Accipitridae->Falconiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1156992"
+pgloadind     taxon mapping OTT ID 315690 taxonomy "Gyps africanus->Gyps->Accipitrinae->Accipitridae->Falconiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1156994"
+pgloadind     taxon mapping OTT ID 549509 taxonomy "Gyps himalayensis->Gyps->Accipitrinae->Accipitridae->Falconiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1156996"
+pgloadind     taxon mapping OTT ID 315688 taxonomy "Gyps bengalensis->Gyps->Accipitrinae->Accipitridae->Falconiformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1156998"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6628"
+pgloadind   Adding tree to graph tree id "6628"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Arshad, Muhammad, Javier Gonzalez, Abdel Aziz El-Sayed, Tim Osborne, Michael Wink. 2009. Phylogeny and phylogeography of critically endangered Gyps species based on nuclear and mitochondrial markers. Journal of Ornithology 150 (2): 419-430.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Gyps
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6628
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2857
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2009
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1156979
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1007/s10336-008-0359-x
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1156975
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 263138
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Bayesian inference 
+adding relationships to licas for children
+Committing nodes: 13
+15:27:07.332 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

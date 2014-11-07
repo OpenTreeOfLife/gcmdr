@@ -1,0 +1,206 @@
+21:48:09.492 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 87
+pgloadind Processing tree @id "6323"
+pgloadind   tree info number nodes 86
+pgloadind   tree info number edges 85
+pgloadind   tree info ingroup "node1098494"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 45
+pgloadind   property added ot:studyPublicationReference "Kling, Hedy J., H. Dail Laughinghouse IV, Jan Šmarda, Jiří Komárek, Judy 
+Acreman, Karl Bruun, Sue B. Watson & Feng Chen. 2012.  A new red colonial Pseudanabaena (Cyanoprokaryota, Oscillatoriales) from North American large lakes. Fottea, Olomouc, 12 (2): 327–339."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6324"
+pgloadind   property added ot:candidateTreeForSynthesis "tree6323"
+pgloadind   property added ot:focalCladeOTTTaxonName "Oscillatoriales"
+pgloadind   property added ot:curatorName "Dail Laughinghouse"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:studyYear "2012"
+pgloadind   property added ot:studyId "pg_2738"
+pgloadind   property added ot:studyPublication "http://www.fottea.cz/_contents/F12-2-2012-12.pdf"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "843528"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Bayesian inference "
+pgloadind   property added ot:inGroupClade "node1098494"
+pgloadind   property added ot:specifiedRoot "node1098493"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+pgloadind Processing tree @id "6324"
+pgloadind   tree info number nodes 80
+pgloadind   tree info number edges 79
+pgloadind   tree info ingroup "node1098580"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 38
+pgloadind   property added ot:studyPublicationReference "Kling, Hedy J., H. Dail Laughinghouse IV, Jan Šmarda, Jiří Komárek, Judy 
+Acreman, Karl Bruun, Sue B. Watson & Feng Chen. 2012.  A new red colonial Pseudanabaena (Cyanoprokaryota, Oscillatoriales) from North American large lakes. Fottea, Olomouc, 12 (2): 327–339."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6324"
+pgloadind   property added ot:candidateTreeForSynthesis "tree6323"
+pgloadind   property added ot:focalCladeOTTTaxonName "Oscillatoriales"
+pgloadind   property added ot:curatorName "Dail Laughinghouse"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:studyYear "2012"
+pgloadind   property added ot:studyId "pg_2738"
+pgloadind   property added ot:studyPublication "http://www.fottea.cz/_contents/F12-2-2012-12.pdf"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "843528"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Maximum likelihood "
+pgloadind   property added ot:inGroupClade "node1098580"
+pgloadind   property added ot:specifiedRoot "node1098579"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 6324
+skipping tree: 6323
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6324"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Planktothrix sp. VUW25" nexsonid "node1098637"
+pgloadind       duplicate OTT ID 822130
+pgloadind     pruning dups and overlapping name "Planktothrix sp. VUW25" nexsonid "node1098637"
+pgloadind   postpruning newick tree "((((((((((((((Pseudanabaena_sp_CCY0480,Pseudanabaena_sp_CCY0478),Pseudanabaena_sp_CCY0485),(Pseudanabaena_sp_CCY0486,Pseudanabaena_sp_CCY0482)),(Pseudanabaena_sp_CCY9710,Limnothrix_sp_MR1)),(((Pseudanabaena_sp_CCY9715,Pseudanabaena_sp_CCY9702),Pseudanabaena_sp_CCY9705),(Pseudanabaena_sp_CCY9714,(Pseudanabaena_sp_CCY9712,Pseudanabaena_sp_CCY9701)))),(Pseudanabaena_rutilus-viridis_CPCC_697,Limnothrix_redekei_CCAP_1443_1)),Pseudanabaena_minima_GSE-PSE20-05C),(Pseudanabaena_sp_CCY9704,(Pseudanabaena_sp_CCY9703,(Pseudanabaena_sp_CCY9508,Pseudanabaena_sp_CCY0471)))),Pseudanabaena_sp_CCY9709),(Leptolyngbya_frigida_ANT_L52B_3,Leptolyngbya_sp_'VRUC135_Albertano_1985')),Nodosilinea_bijugata_str_Kovacik_1986_5a),((Geitlerinema_cf_acuminatum_CCALA_141,Katagnymene_spiralis),((Geitlerinema_sp_CCALA_138,(Oscillatoria_sp_PCC_6412,Oscillatoria_sp_PCC_6506)),Planktothrix_sp_VUW25))),((Phormidium_sp_OL_32,Geitlerinema_cf_pseudacutissimum_CCALA_142),(Phormidium_priestleyi_ANT_LPR2_5,(Leptolyngbya_sp_ANT_L52_1,Phormidium_priestleyi_ANT_LACV5_1)))),(Oscillatoria_prolifera_UTEX_'B_1270',Phormidium_autumnale_CB-G))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 697337 taxonomy "Pseudanabaena sp. CCY0480->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098594"
+pgloadind     taxon mapping OTT ID 697328 taxonomy "Pseudanabaena sp. CCY0478->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098595"
+pgloadind     taxon mapping OTT ID 123183 taxonomy "Pseudanabaena sp. CCY0485->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098596"
+pgloadind     taxon mapping OTT ID 123190 taxonomy "Pseudanabaena sp. CCY0486->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098598"
+pgloadind     taxon mapping OTT ID 123185 taxonomy "Pseudanabaena sp. CCY0482->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098599"
+pgloadind     taxon mapping OTT ID 1012487 taxonomy "Pseudanabaena sp. CCY9710->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098601"
+pgloadind     taxon mapping OTT ID 1024677 taxonomy "Limnothrix sp. MR1->Limnothrix->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098602"
+pgloadind     taxon mapping OTT ID 748578 taxonomy "Pseudanabaena sp. CCY9715->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098606"
+pgloadind     taxon mapping OTT ID 123192 taxonomy "Pseudanabaena sp. CCY9702->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098607"
+pgloadind     taxon mapping OTT ID 748577 taxonomy "Pseudanabaena sp. CCY9705->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098608"
+pgloadind     taxon mapping OTT ID 748580 taxonomy "Pseudanabaena sp. CCY9714->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098610"
+pgloadind     taxon mapping OTT ID 748579 taxonomy "Pseudanabaena sp. CCY9712->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098612"
+pgloadind     taxon mapping OTT ID 123187 taxonomy "Pseudanabaena sp. CCY9701->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098613"
+pgloadind     taxon mapping OTT ID 5163517 taxonomy "Pseudanabaena rutilus-viridis CPCC 697->Pseudanabaena rutilus-viridis->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098615"
+pgloadind     taxon mapping OTT ID 204505 taxonomy "Limnothrix redekei CCAP 1443/1->Limnothrix redekei->Limnothrix->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098616"
+pgloadind     taxon mapping OTT ID 536192 taxonomy "Pseudanabaena minima GSE-PSE20-05C->Pseudanabaena minima->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098617"
+pgloadind     taxon mapping OTT ID 748576 taxonomy "Pseudanabaena sp. CCY9704->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098619"
+pgloadind     taxon mapping OTT ID 123191 taxonomy "Pseudanabaena sp. CCY9703->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098621"
+pgloadind     taxon mapping OTT ID 123188 taxonomy "Pseudanabaena sp. CCY9508->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098623"
+pgloadind     taxon mapping OTT ID 697329 taxonomy "Pseudanabaena sp. CCY0471->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098624"
+pgloadind     taxon mapping OTT ID 88718 taxonomy "Pseudanabaena sp. CCY9709->Pseudanabaena->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098625"
+pgloadind     taxon mapping OTT ID 1062842 taxonomy "Leptolyngbya frigida ANT.L52B.3->Leptolyngbya frigida->Leptolyngbya->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098627"
+pgloadind     taxon mapping OTT ID 314403 taxonomy "Leptolyngbya sp. 'VRUC135/Albertano 1985'->Leptolyngbya->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098628"
+pgloadind     taxon mapping OTT ID 1017046 taxonomy "Nodosilinea bijugata str. Kovacik 1986/5a->Nodosilinea bijugata->Nodosilinea->Oscillatoriales->Oscillatoriophycideae->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098629"
+pgloadind     taxon mapping OTT ID 1005846 taxonomy "Geitlerinema cf. acuminatum CCALA 141->Geitlerinema acuminatum->Geitlerinema->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098632"
+pgloadind     taxon mapping OTT ID 58728 taxonomy "Katagnymene spiralis->Katagnymene->Oscillatoriales->Oscillatoriophycideae->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098633"
+pgloadind     taxon mapping OTT ID 1005843 taxonomy "Kamptonema animale CCALA 138->Kamptonema animlae CCAP 1459/6->Kamptonema animale->Kamptonema->Oscillatoriales->Oscillatoriophycideae->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098639"
+pgloadind     taxon mapping OTT ID 521848 taxonomy "Oscillatoria sp. PCC 6412->Oscillatoria->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098641"
+pgloadind     taxon mapping OTT ID 157154 taxonomy "Oscillatoria sp. PCC 6506->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098642"
+pgloadind     taxon mapping OTT ID 822130 taxonomy "Planktothrix sp. VUW25->Planktothrix->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098636"
+pgloadind     taxon mapping OTT ID 1055995 taxonomy "Phormidium sp. OL 32->Phormidium->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098645"
+pgloadind     taxon mapping OTT ID 429015 taxonomy "Geitlerinema cf. pseudacutissimum CCALA 142->Geitlerinema pseudacutissimum->Geitlerinema->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098646"
+pgloadind     taxon mapping OTT ID 643187 taxonomy "[Phormidesmis priestleyi] ANT.LPR2.5->Phormidesmis priestleyi->Phormidesmis->Oscillatoriales->Oscillatoriophycideae->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098648"
+pgloadind     taxon mapping OTT ID 797811 taxonomy "Leptolyngbya sp. ANT.L52.1->Leptolyngbya->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098650"
+pgloadind     taxon mapping OTT ID 69769 taxonomy "Phormidium priestleyi ANT.LACV5.1->Phormidium->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098651"
+pgloadind     taxon mapping OTT ID 477116 taxonomy "Oscillatoria prolifera UTEX 'B 1270'->Oscillatoria prolifera->Oscillatoria->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098653"
+pgloadind     taxon mapping OTT ID 878644 taxonomy "Phormidium autumnale CB-G->Phormidium autumnale->Phormidium->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1098654"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6324"
+pgloadind   Adding tree to graph tree id "6324"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Pseudanabaena minima GSE-PSE20-05C was remapped to 'Pseudanabaena minima' (id=153779)
+	Phormidium autumnale CB-G was remapped to 'Phormidium autumnale' (id=154295)
+	Pseudanabaena rutilus-viridis CPCC 697 was remapped to 'Pseudanabaena rutilus-viridis' (id=153794)
+	Leptolyngbya frigida ANT.L52B.3 was remapped to 'Leptolyngbya frigida' (id=156328)
+	Phormidium priestleyi ANT.LPR2.5 was remapped to 'Phormidesmis' (id=164977)
+	Geitlerinema cf. pseudacutissimum CCALA 142 was remapped to 'Geitlerinema pseudacutissimum' (id=157364)
+	Planktothrix sp. VUW25 was remapped to 'Planktothrix' (id=154974)
+	Nodosilinea bijugata str. Kovacik 1986/5a was remapped to 'Nodosilinea' (id=164518)
+	Limnothrix redekei CCAP 1443/1 was remapped to 'Limnothrix redekei' (id=153367)
+	Geitlerinema cf. acuminatum CCALA 141 was remapped to 'Geitlerinema acuminatum' (id=157322)
+	Geitlerinema sp. CCALA 138 was remapped to 'Kamptonema' (id=165061)
+	Katagnymene spiralis was remapped to 'Katagnymene' (id=164651)
+	Oscillatoria prolifera UTEX 'B 1270' was remapped to 'Oscillatoria prolifera' (id=157590)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Kling, Hedy J., H. Dail Laughinghouse IV, Jan Šmarda, Jiří Komárek, Judy 
+Acreman, Karl Bruun, Sue B. Watson & Feng Chen. 2012.  A new red colonial Pseudanabaena (Cyanoprokaryota, Oscillatoriales) from North American large lakes. Fottea, Olomouc, 12 (2): 327–339.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Oscillatoriales
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6323
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2738
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2012
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1098580
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://www.fottea.cz/_contents/F12-2-2012-12.pdf
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1098579
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 843528
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Maximum likelihood 
+adding relationships to licas for children
+Committing nodes: 73
+21:49:01.796 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

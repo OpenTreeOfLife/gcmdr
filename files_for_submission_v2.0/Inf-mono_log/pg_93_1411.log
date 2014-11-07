@@ -1,0 +1,228 @@
+12:46:23.806 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 109
+pgloadind Processing tree @id "1411"
+pgloadind   tree info number nodes 138
+pgloadind   tree info number edges 137
+pgloadind   tree info ingroup "node450995"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 74
+pgloadind   property added ot:studyPublicationReference "Fritsch, P. W., Cruz, B. C., Almeda, F., Wang, Y., & Shi, S. (2006). Phylogeny of Symplocos based on DNA sequences of the chloroplast trnC-trnD intergenic region. Systematic botany, 31(1), 181-192."
+pgloadind   property added ot:candidateTreeForSynthesis "tree1411"
+pgloadind   property added ot:focalCladeOTTTaxonName "Symplocos"
+pgloadind   property added ot:curatorName "William Wysocki"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1483"
+pgloadind   property added ot:studyYear "2006"
+pgloadind   property added ot:studyId "pg_93"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1600/036364406775971877"
+pgloadind   property added ot:focalClade "168193"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Combined"
+pgloadind   property added ot:inGroupClade "node450995"
+pgloadind   property added ot:specifiedRoot "node450992"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode ""
+loading a specific tree: 1411
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "1411"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Symplocos pentandra" nexsonid "node451014"
+pgloadind       duplicate OTT ID 776998
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Symplocos lanceolata" nexsonid "node451017"
+pgloadind       duplicate OTT ID 661029
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Symplocos austin-smithii" nexsonid "node451031"
+pgloadind       duplicate OTT ID 1017252
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Symplocos serrulata" nexsonid "node451033"
+pgloadind       duplicate OTT ID 150464
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Symplocos falcata" nexsonid "node451082"
+pgloadind       duplicate OTT ID 776989
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Symplocos macrophylla" nexsonid "node451109"
+pgloadind       duplicate OTT ID 661024
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Symplocos sumuntia" nexsonid "node451124"
+pgloadind       duplicate OTT ID 886190
+pgloadind     pruning dups and overlapping name "Symplocos lanceolata" nexsonid "node451017"
+pgloadind     pruning dups and overlapping name "Symplocos austin-smithii" nexsonid "node451031"
+pgloadind     pruning dups and overlapping name "Symplocos serrulata" nexsonid "node451033"
+pgloadind     pruning dups and overlapping name "Symplocos pentandra" nexsonid "node451014"
+pgloadind     pruning dups and overlapping name "Symplocos sumuntia" nexsonid "node451124"
+pgloadind     pruning dups and overlapping name "Symplocos macrophylla" nexsonid "node451109"
+pgloadind     pruning dups and overlapping name "Symplocos falcata" nexsonid "node451082"
+pgloadind   postpruning newick tree "((Symplocos_chinensis,Symplocos_paniculata),((((((Symplocos_bogotensis,(Symplocos_celastrinea,Symplocos_variabilis)),Symplocos_glaberrima),((Symplocos_itatiaiae,Symplocos_pentandra),Symplocos_lanceolata)),(Symplocos_tinctoria,Symplocos_wikstroemiifolia)),((Symplocos_lanata,Symplocos_micrantha),((((Symplocos_austin-smithii,Symplocos_serrulata),(Symplocos_hartwegii,Symplocos_matudae,Symplocos_tacanensis)),((Symplocos_austromexicana,Symplocos_breedlovei,Symplocos_citrea,Symplocos_coccinea,Symplocos_sp_Kelly_et_al_1309,Symplocos_speciosa),Symplocos_pycnantha)),((((Symplocos_berteroi,Symplocos_martinicensis),(Symplocos_nitens,Symplocos_uniflora)),((Symplocos_costaricana,Symplocos_limoncillo),(Symplocos_povedae,Symplocos_striata))),((Symplocos_fuscata,Symplocos_verrucisurcula),(Symplocos_quitensis,Symplocos_reflexa),((Symplocos_sp_Clark_et_al_8246,Symplocos_sp_Clark_et_al_8252),Symplocos_sulcinervia),((Symplocos_candelabra,Symplocos_organensis,Symplocos_microstyla),Symplocos_falcata)))))),((Symplocos_anomala,Symplocos_dryophila,((((Symplocos_lancifolia,Symplocos_mollifolia),(((Symplocos_spectabilis,Symplocos_grandis),Symplocos_stellaris),((Symplocos_adenophylla,Symplocos_euryoides),(Symplocos_glandulifera,Symplocos_glomerata)))),(((Symplocos_arborea,Symplocos_caerulescens,Symplocos_aff_munda_442),Symplocos_laurina),Symplocos_macrophylla)),((Symplocos_ovatilobata,Symplocos_viridissima),(Symplocos_nokoensis,Symplocos_sumuntia)))),(Symplocos_phyllocalyx,(Symplocos_setchuensis,Symplocos_tetragona)))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 411943 taxonomy "Symplocos chinensis->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node450997"
+pgloadind     taxon mapping OTT ID 168187 taxonomy "Symplocos paniculata->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node450998"
+pgloadind     taxon mapping OTT ID 912484 taxonomy "Symplocos bogotensis->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451005"
+pgloadind     taxon mapping OTT ID 1017251 taxonomy "Symplocos celastrinea->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451007"
+pgloadind     taxon mapping OTT ID 776996 taxonomy "Symplocos variabilis->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451008"
+pgloadind     taxon mapping OTT ID 777002 taxonomy "Symplocos glaberrima->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451009"
+pgloadind     taxon mapping OTT ID 777000 taxonomy "Symplocos itatiaiae->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451012"
+pgloadind     taxon mapping OTT ID 776998 taxonomy "Symplocos pentandra->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451013"
+pgloadind     taxon mapping OTT ID 661029 taxonomy "Symplocos lanceolata->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451016"
+pgloadind     taxon mapping OTT ID 910195 taxonomy "Symplocos tinctoria->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451019"
+pgloadind     taxon mapping OTT ID 886183 taxonomy "Symplocos wikstroemiifolia->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451020"
+pgloadind     taxon mapping OTT ID 1046264 taxonomy "Symplocos lanata->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451023"
+pgloadind     taxon mapping OTT ID 661018 taxonomy "Symplocos micrantha->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451024"
+pgloadind     taxon mapping OTT ID 1017252 taxonomy "Symplocos austin-smithii->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451029"
+pgloadind     taxon mapping OTT ID 150464 taxonomy "Symplocos serrulata->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451032"
+pgloadind     taxon mapping OTT ID 812206 taxonomy "Symplocos hartwegii->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451035"
+pgloadind     taxon mapping OTT ID 150459 taxonomy "Symplocos matudae->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451036"
+pgloadind     taxon mapping OTT ID 886191 taxonomy "Symplocos tacanensis->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451037"
+pgloadind     taxon mapping OTT ID 664039 taxonomy "Symplocos austromexicana->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451040"
+pgloadind     taxon mapping OTT ID 1017249 taxonomy "Symplocos breedlovei->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451041"
+pgloadind     taxon mapping OTT ID 1017250 taxonomy "Symplocos citrea->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451042"
+pgloadind     taxon mapping OTT ID 1017261 taxonomy "Symplocos coccinea->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451043"
+pgloadind     taxon mapping OTT ID 202858 taxonomy "Symplocos sp. Kelly et al. 1309->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451044"
+pgloadind     taxon mapping OTT ID 886189 taxonomy "Symplocos speciosa->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451045"
+pgloadind     taxon mapping OTT ID 150463 taxonomy "Symplocos pycnantha->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451046"
+pgloadind     taxon mapping OTT ID 1017254 taxonomy "Symplocos berteroi->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451051"
+pgloadind     taxon mapping OTT ID 150456 taxonomy "Symplocos martinicensis->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451052"
+pgloadind     taxon mapping OTT ID 776994 taxonomy "Symplocos nitens->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451054"
+pgloadind     taxon mapping OTT ID 776992 taxonomy "Symplocos uniflora->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451055"
+pgloadind     taxon mapping OTT ID 202856 taxonomy "Symplocos costaricana->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451058"
+pgloadind     taxon mapping OTT ID 311539 taxonomy "Symplocos limoncillo->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451059"
+pgloadind     taxon mapping OTT ID 150458 taxonomy "Symplocos povedae->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451061"
+pgloadind     taxon mapping OTT ID 202862 taxonomy "Symplocos striata->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451062"
+pgloadind     taxon mapping OTT ID 766244 taxonomy "Symplocos fuscata->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451065"
+pgloadind     taxon mapping OTT ID 150466 taxonomy "Symplocos verrucisurcula->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451066"
+pgloadind     taxon mapping OTT ID 150462 taxonomy "Symplocos quitensis->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451068"
+pgloadind     taxon mapping OTT ID 150465 taxonomy "Symplocos reflexa->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451069"
+pgloadind     taxon mapping OTT ID 202855 taxonomy "Symplocos sp. Clark et al. 8246->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451072"
+pgloadind     taxon mapping OTT ID 202861 taxonomy "Symplocos sp. Clark et al. 8252->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451073"
+pgloadind     taxon mapping OTT ID 150467 taxonomy "Symplocos sulcinervia->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451074"
+pgloadind     taxon mapping OTT ID 776991 taxonomy "Symplocos candelabra->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451077"
+pgloadind     taxon mapping OTT ID 777008 taxonomy "Symplocos organensis->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451078"
+pgloadind     taxon mapping OTT ID 777006 taxonomy "Symplocos microstyla->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451079"
+pgloadind     taxon mapping OTT ID 776989 taxonomy "Symplocos falcata->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451081"
+pgloadind     taxon mapping OTT ID 1017253 taxonomy "Symplocos anomala->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451085"
+pgloadind     taxon mapping OTT ID 491003 taxonomy "Symplocos dryophila->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451086"
+pgloadind     taxon mapping OTT ID 1055656 taxonomy "Symplocos lancifolia->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451091"
+pgloadind     taxon mapping OTT ID 138775 taxonomy "Symplocos mollifolia->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451092"
+pgloadind     taxon mapping OTT ID 201587 taxonomy "Symplocos spectabilis->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451096"
+pgloadind     taxon mapping OTT ID 686546 taxonomy "Symplocos grandis->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451097"
+pgloadind     taxon mapping OTT ID 529519 taxonomy "Symplocos stellaris->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451098"
+pgloadind     taxon mapping OTT ID 440805 taxonomy "Symplocos adenophylla->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451101"
+pgloadind     taxon mapping OTT ID 491000 taxonomy "Symplocos euryoides->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451102"
+pgloadind     taxon mapping OTT ID 491001 taxonomy "Symplocos glandulifera->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451104"
+pgloadind     taxon mapping OTT ID 762432 taxonomy "Symplocos glomerata->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451105"
+pgloadind     taxon mapping OTT ID 775650 taxonomy "Symplocos arborea->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451112"
+pgloadind     taxon mapping OTT ID 775651 taxonomy "Symplocos caerulescens->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451113"
+pgloadind     taxon mapping OTT ID 775649 taxonomy "Symplocos aff. munda 442->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451114"
+pgloadind     taxon mapping OTT ID 661026 taxonomy "Symplocos laurina->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451115"
+pgloadind     taxon mapping OTT ID 661024 taxonomy "Symplocos macrophylla->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451108"
+pgloadind     taxon mapping OTT ID 138778 taxonomy "Symplocos ovatilobata->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451118"
+pgloadind     taxon mapping OTT ID 886182 taxonomy "Symplocos viridissima->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451119"
+pgloadind     taxon mapping OTT ID 138777 taxonomy "Symplocos nokoensis->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451122"
+pgloadind     taxon mapping OTT ID 886190 taxonomy "Symplocos sumuntia->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451123"
+pgloadind     taxon mapping OTT ID 138773 taxonomy "Symplocos phyllocalyx->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451126"
+pgloadind     taxon mapping OTT ID 790017 taxonomy "Symplocos setchuensis->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451128"
+pgloadind     taxon mapping OTT ID 886193 taxonomy "Symplocos tetragona->Symplocos->Symplocaceae->Ericales->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node451129"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "1411"
+pgloadind   Adding tree to graph tree id "1411"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Fritsch, P. W., Cruz, B. C., Almeda, F., Wang, Y., & Shi, S. (2006). Phylogeny of Symplocos based on DNA sequences of the chloroplast trnC-trnD intergenic region. Systematic botany, 31(1), 181-192.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Symplocos
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree1411
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': 
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1483
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_93
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2006
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node450995
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': William Wysocki
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1600/036364406775971877
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node450992
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 168193
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Combined
+adding relationships to licas for children
+Committing nodes: 123
+12:47:15.870 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

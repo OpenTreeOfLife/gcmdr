@@ -1,0 +1,162 @@
+22:03:58.538 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 42
+pgloadind Processing tree @id "5579"
+pgloadind   tree info number nodes 82
+pgloadind   tree info number edges 81
+pgloadind   tree info ingroup "node956210"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 40
+pgloadind   property added ot:studyPublicationReference "Nudelman M., Rossi M., Conforti V., & Triemer R. 2003. Phylogeny of Euglenophyceae based on SSU rDNA sequences: taxonomic implications. Journal of Phycology, 39(1): 226-235."
+pgloadind   property added ot:candidateTreeForSynthesis "tree5579"
+pgloadind   property added ot:focalCladeOTTTaxonName "Euglenophyceae"
+pgloadind   property added ot:curatorName "Laura Katz"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S923"
+pgloadind   property added ot:studyYear "2003"
+pgloadind   property added ot:studyId "pg_2553"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1046/j.1529-8817.2003.02075.x"
+pgloadind   property added ot:focalClade "5251339"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Fig. 2"
+pgloadind   property added ot:inGroupClade "node956210"
+pgloadind   property added ot:specifiedRoot "node956209"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode ""
+loading a specific tree: 5579
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "5579"
+pgloadind     OTT ID missing name "Phacus splendens" nexsonid "node956249"
+pgloadind     OTT ID missing name "Hyalophacus" nexsonid "node956278"
+pgloadind     pruning unmapped name "Hyalophacus" nexsonid "node956278"
+pgloadind     pruning unmapped name "Phacus splendens" nexsonid "node956249"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Strombomonas" nexsonid "node956243"
+pgloadind       duplicate OTT ID 109807
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Strombomonas acuminata" nexsonid "node956241"
+pgloadind       overlapping pruned name "Strombomonas" nexsonid "node956242"
+pgloadind     pruning dups and overlapping name "Strombomonas" nexsonid "node956242"
+pgloadind     pruning dups and overlapping name "Strombomonas" nexsonid "node956243"
+pgloadind   postpruning newick tree "((((((((Euglena_gracilis,Euglena_longa),Euglena_agilis),Euglena_quartana,((Euglena_viridis,Euglena_stellata),Euglena_mutabilis)),((Trachelomonas_intermedia,Trachelomonas_volvocina),(((Trachelomonas_oblonga,Trachelomonas_hispida),Trachelomonas_pertyi),Trachelomonas_echinata))),(Trachelomonas_volvocinopsis_var_spiralis,Strombomonas_acuminata)),(((((Monomorphina_pyrum,Phacus_pseudonordstedtii),Monomorphina_ovata),Monomorphina_aenigmatica),Cryptoglena_skujae),(Colacium_vesiculosum,Colacium_mucronatum))),((Phacus_acuminatus,Phacus_brachykentron),((((Phacus_pusillus,Phacus_parvulus),(Phacus_similis,Phacus_oscillans)),(Phacus_alatus,Phacus_pleuronectes)),Phacus_orbicularis))),(((Lepocinclis_acus,Lepocinclis_spirogyroides),(Lepocinclis_ovum,Lepocinclis_buetschlii)),Lepocinclis_oxyuris))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 1073327 taxonomy "Euglena gracilis->Euglena->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956218"
+pgloadind     taxon mapping OTT ID 1073341 taxonomy "Euglena longa->Euglena->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956219"
+pgloadind     taxon mapping OTT ID 292386 taxonomy "Euglena agilis->Euglena->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956220"
+pgloadind     taxon mapping OTT ID 454817 taxonomy "Euglena quartana->Euglena->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956221"
+pgloadind     taxon mapping OTT ID 347096 taxonomy "Euglena viridis->Euglena->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956224"
+pgloadind     taxon mapping OTT ID 716812 taxonomy "Euglena stellata->Euglena->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956225"
+pgloadind     taxon mapping OTT ID 716820 taxonomy "Euglena mutabilis->Euglena->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956226"
+pgloadind     taxon mapping OTT ID 353277 taxonomy "Trachelomonas intermedia->Trachelomonas->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956229"
+pgloadind     taxon mapping OTT ID 650771 taxonomy "Trachelomonas volvocina->Trachelomonas->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956230"
+pgloadind     taxon mapping OTT ID 879511 taxonomy "Trachelomonas oblonga->Trachelomonas->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956234"
+pgloadind     taxon mapping OTT ID 484042 taxonomy "Trachelomonas hispida->Trachelomonas->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956235"
+pgloadind     taxon mapping OTT ID 928707 taxonomy "Trachelomonas pertyi->Trachelomonas->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956236"
+pgloadind     taxon mapping OTT ID 353278 taxonomy "Trachelomonas echinata->Trachelomonas->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956237"
+pgloadind     taxon mapping OTT ID 353273 taxonomy "Trachelomonas volvocinopsis var. spiralis->Trachelomonas volvocinopsis->Trachelomonas->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956244"
+pgloadind     taxon mapping OTT ID 444296 taxonomy "Strombomonas acuminata->Strombomonas->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956241"
+pgloadind     taxon mapping OTT ID 342791 taxonomy "Monomorphina pyrum->Phacus->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956253"
+pgloadind     taxon mapping OTT ID 898600 taxonomy "Phacus pseudonordstedtii->Phacus->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956254"
+pgloadind     taxon mapping OTT ID 863026 taxonomy "Monomorphina ovata->Phacus->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956255"
+pgloadind     taxon mapping OTT ID 850148 taxonomy "Monomorphina aenigmatica->Monomorphina->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956250"
+pgloadind     taxon mapping OTT ID 402235 taxonomy "Cryptoglena skujae->Cryptoglena->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956256"
+pgloadind     taxon mapping OTT ID 487008 taxonomy "Colacium vesiculosum->Colacium->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956258"
+pgloadind     taxon mapping OTT ID 515456 taxonomy "Colacium mucronatum->Colacium->Euglenaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956259"
+pgloadind     taxon mapping OTT ID 534529 taxonomy "Phacus acuminatus->Phacus->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956262"
+pgloadind     taxon mapping OTT ID 845947 taxonomy "Phacus brachykentron->Phacus->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956263"
+pgloadind     taxon mapping OTT ID 196643 taxonomy "Phacus pusillus->Phacus->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956268"
+pgloadind     taxon mapping OTT ID 898602 taxonomy "Phacus parvulus->Phacus->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956269"
+pgloadind     taxon mapping OTT ID 646171 taxonomy "Phacus similis->Phacus->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956271"
+pgloadind     taxon mapping OTT ID 306641 taxonomy "Phacus oscillans->Phacus->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956272"
+pgloadind     taxon mapping OTT ID 353272 taxonomy "Phacus alatus->Phacus->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956274"
+pgloadind     taxon mapping OTT ID 1063271 taxonomy "Phacus pleuronectes->Phacus->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956275"
+pgloadind     taxon mapping OTT ID 373357 taxonomy "Phacus orbicularis->Phacus->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956277"
+pgloadind     taxon mapping OTT ID 467990 taxonomy "Lepocinclis acus->Lepocinclis->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956282"
+pgloadind     taxon mapping OTT ID 467984 taxonomy "Lepocinclis spirogyroides->Lepocinclis->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956283"
+pgloadind     taxon mapping OTT ID 597929 taxonomy "Lepocinclis ovum->Lepocinclis->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956285"
+pgloadind     taxon mapping OTT ID 312163 taxonomy "Lepocinclis buetschlii->Lepocinclis->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956286"
+pgloadind     taxon mapping OTT ID 150267 taxonomy "Lepocinclis oxyuris->Lepocinclis->Phacaceae->Euglenea->Euglenophyceae->Euglenida->Euglenozoa->Discicristata->Discoba->Excavata->Eukaryota->cellular organisms->life" nexsonid "node956287"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "5579"
+pgloadind   Adding tree to graph tree id "5579"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Strombomonas acuminata was remapped to 'Strombomonas' (id=3837204)
+	Cryptoglena skujae was remapped to 'Cryptoglena' (id=3837490)
+	Monomorphina aenigmatica was remapped to 'Monomorphina' (id=3837460)
+	Trachelomonas volvocinopsis var. spiralis was remapped to 'Trachelomonas volvocinopsis' (id=3837397)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Nudelman M., Rossi M., Conforti V., & Triemer R. 2003. Phylogeny of Euglenophyceae based on SSU rDNA sequences: taxonomic implications. Journal of Phycology, 39(1): 226-235.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Euglenophyceae
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree5579
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': 
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S923
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2553
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2003
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node956210
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Laura Katz
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1046/j.1529-8817.2003.02075.x
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node956209
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 5251339
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig. 2
+adding relationships to licas for children
+Committing nodes: 70
+22:04:52.021 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

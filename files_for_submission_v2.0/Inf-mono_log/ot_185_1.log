@@ -1,0 +1,238 @@
+19:42:09.476 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 46
+pgloadind Processing tree @id "1"
+pgloadind   tree info number nodes 91
+pgloadind   tree info number edges 90
+pgloadind   tree info ingroup "node1"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 46
+pgloadind   property added ot:studyPublicationReference "Kawahara, A. Y., J. W. Breinholt. 2014. Phylogenomics provides strong evidence for relationships of butterflies and moths. Proceedings of the Royal Society B: Biological Sciences 281 (1788): 20140970-20140970."
+pgloadind   property added ot:candidateTreeForSynthesis "tree1"
+pgloadind   property added ot:focalCladeOTTTaxonName "Lepidoptera"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1098/rspb.2014.0970"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:studyYear "2014"
+pgloadind   property added ot:studyId "ot_185"
+pgloadind   property added ot:comment "Previous study was corrupted. Replacing here. (JWB)."
+pgloadind   property added ot:focalClade "965954"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Maximum likelihood "
+pgloadind   property added ot:nearestTaxonMRCAOttId "371732"
+pgloadind   property added ot:inGroupClade "node1"
+pgloadind   property added ot:nearestTaxonMRCAName "Obtectomera"
+pgloadind   property added ot:specifiedRoot "node1"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+loading a specific tree: 1
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "1"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "(Aepytus,(Nemophora,((Phyllocnistis_citrella,Plutella_xylostella),(((Morpheis_mathani,(Megalopyge_tharops,Dalcera_abrasa)),(((Papilio_polytes,Papilio_glaucus),((Macrosoma,(Megathymus_yuccae,Hylephila_phyleus)),((Semomesia_capanea,Hemiargus_ceraunus),(Bicyclus_anynana,(Danaus_plexippus,Heliconius_melpomene))))),(((Thubana,Dichomeris),(Pterodecta_felderi,(Pseudothyris_sepulchralis,Zeuzerodes_maculata))),((Cnaphalocrocis_medinalis,Myelobia),(Lacosoma_ludolpha,(((Notoplusia_menica,(Anigraea,(Manoba_major,Eudocima_salaminia))),(Lyssa_zampa,(Nothus_lunus,(Nemoria_lixaria,Macaria)))),(Artace,(Bombyx_mori,((Therinia_lactucina,(Eacles,Actias_luna)),((Manduca_sexta,Adhemarius_daphne),(Enyo_lugubris,(Hemaris_diffinis,Xylophanes_tersa)))))))))))),(Grapholita_dimorpha,(Lantanophaga_pusillidactyla,Urodus_parvula))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 3244229 taxonomy "Aepytus->Hepialidae->Hepialoidea->Exoporia->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node2"
+pgloadind     taxon mapping OTT ID 801145 taxonomy "Nemophora->Adelidae->Incurvarioidea->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node4"
+pgloadind     taxon mapping OTT ID 622295 taxonomy "Phyllocnistis citrella->Phyllocnistis->Phyllocnistinae->Gracillariidae->Tineoidea->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node7"
+pgloadind     taxon mapping OTT ID 664811 taxonomy "Plutella xylostella->Plutella->Plutellidae->Yponomeutoidea->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node8"
+pgloadind     taxon mapping OTT ID 3047664 taxonomy "Morpheis mathani->Morpheis->Cossidae->Cossoidea->Apoditrysia->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node17"
+pgloadind     taxon mapping OTT ID 628176 taxonomy "Megalopyge tharops->Megalopyge->Megalopygidae->Zygaenoidea->Apoditrysia->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node19"
+pgloadind     taxon mapping OTT ID 3047093 taxonomy "Dalcera abrasa->Dalcera->Dalceridae->Zygaenoidea->Apoditrysia->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node20"
+pgloadind     taxon mapping OTT ID 1018319 taxonomy "Papilio polytes->Papilio->Papilionini->Papilioninae->Papilionidae->Papilionoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node24"
+pgloadind     taxon mapping OTT ID 947948 taxonomy "Papilio glaucus->Papilio->Papilionini->Papilioninae->Papilionidae->Papilionoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node25"
+pgloadind     taxon mapping OTT ID 256666 taxonomy "Macrosoma->Hedylidae->Hedyloidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node28"
+pgloadind     taxon mapping OTT ID 915359 taxonomy "Megathymus yuccae->Megathymus->Megathyminae->Hesperiidae->Hesperioidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node30"
+pgloadind     taxon mapping OTT ID 336142 taxonomy "Hylephila phyleus->Hylephila->Hesperiinae->Hesperiidae->Hesperioidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node31"
+pgloadind     taxon mapping OTT ID 3127103 taxonomy "Semomesia capanea->Semomesia->Riodinidae->Papilionoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node34"
+pgloadind     taxon mapping OTT ID 1054274 taxonomy "Hemiargus ceraunus->Hemiargus->Polyommatinae->Lycaenidae->Papilionoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node35"
+pgloadind     taxon mapping OTT ID 559934 taxonomy "Bicyclus anynana->Bicyclus->Mycalesina->Satyrini->Satyrinae->Nymphalidae->Papilionoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node37"
+pgloadind     taxon mapping OTT ID 190091 taxonomy "Danaus plexippus->Danaus subgenus Danaus->Danaus->Danaina->Danaini->Danainae->Nymphalidae->Papilionoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node39"
+pgloadind     taxon mapping OTT ID 896444 taxonomy "Heliconius melpomene->Heliconius->Heliconiini->Heliconiinae->Nymphalidae->Papilionoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node40"
+pgloadind     taxon mapping OTT ID 3235107 taxonomy "Thubana->Lecithoceridae->Gelechioidea->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node44"
+pgloadind     taxon mapping OTT ID 867732 taxonomy "Dichomeris->Dichomeridinae->Gelechiidae->Gelechioidea->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node45"
+pgloadind     taxon mapping OTT ID 118668 taxonomy "Pterodecta felderi->Pterodecta->Callidulidae->Calliduloidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node47"
+pgloadind     taxon mapping OTT ID 4237105 taxonomy "Pseudothyris sepulchralis->Pseudothyris->Thyrididae->Pyraloidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node49"
+pgloadind     taxon mapping OTT ID 3160616 taxonomy "Zeuzerodes maculata->Zeuzerodes->Thyrididae->Pyraloidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node50"
+pgloadind     taxon mapping OTT ID 132735 taxonomy "Cnaphalocrocis medinalis->Cnaphalocrocis->Spilomelinae->Crambidae->Pyraloidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node53"
+pgloadind     taxon mapping OTT ID 940552 taxonomy "Myelobia->Crambinae->Crambidae->Pyraloidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node54"
+pgloadind     taxon mapping OTT ID 3089199 taxonomy "Lacosoma ludolpha->Lacosoma->Mimallonidae->Mimallonoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node56"
+pgloadind     taxon mapping OTT ID 3213111 taxonomy "Notoplusia menica->Notoplusia->Nystaleinae->Notodontidae->Noctuoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node60"
+pgloadind     taxon mapping OTT ID 592557 taxonomy "Anigraea->Euteliinae->Noctuidae->Noctuoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node62"
+pgloadind     taxon mapping OTT ID 4238856 taxonomy "Manoba major->Manoba->Nolinae->Nolidae->Noctuoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node64"
+pgloadind     taxon mapping OTT ID 12674 taxonomy "Eudocima salaminia->Eudocima->Catocalinae->Noctuidae->Noctuoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node65"
+pgloadind     taxon mapping OTT ID 692846 taxonomy "Lyssa zampa->Lyssa->Uraniinae->Uraniidae->Geometroidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node67"
+pgloadind     taxon mapping OTT ID 141564 taxonomy "Nothus lunus->Nothus->Sematuridae->Geometroidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node69"
+pgloadind     taxon mapping OTT ID 644015 taxonomy "Nemoria lixaria->Nemoria->Geometrinae->Geometridae->Geometroidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node71"
+pgloadind     taxon mapping OTT ID 687346 taxonomy "Macaria->Ennominae->Geometridae->Geometroidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node72"
+pgloadind     taxon mapping OTT ID 520599 taxonomy "Artace->Macromphaliinae->Lasiocampidae->Bombyciformes->Bombycoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node74"
+pgloadind     taxon mapping OTT ID 440274 taxonomy "Bombyx mori->Bombyx->Bombycinae->Bombycidae->Bombyciformes->Bombycoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node76"
+pgloadind     taxon mapping OTT ID 56235 taxonomy "Therinia lactucina->Therinia->Oxyteninae->Saturniidae->Saturniiformes->Bombycoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node79"
+pgloadind     taxon mapping OTT ID 650443 taxonomy "Eacles->Ceratocampinae->Saturniidae->Saturniiformes->Bombycoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node81"
+pgloadind     taxon mapping OTT ID 180968 taxonomy "Actias luna->Actias->Saturniini->Saturniinae->Saturniidae->Saturniiformes->Bombycoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node82"
+pgloadind     taxon mapping OTT ID 116647 taxonomy "Manduca sexta->Manduca->Sphingini->Sphinginae->Sphingidae->Bombycoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node85"
+pgloadind     taxon mapping OTT ID 237363 taxonomy "Adhemarius daphne->Adhemarius->Ambulycini->Smerinthinae->Sphingidae->Bombycoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node86"
+pgloadind     taxon mapping OTT ID 3094155 taxonomy "Enyo lugubris->Enyo->Dilophonotini->Macroglossinae->Sphingidae->Bombycoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node88"
+pgloadind     taxon mapping OTT ID 3094859 taxonomy "Hemaris diffinis->Hemaris->Dilophonotini->Macroglossinae->Sphingidae->Bombycoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node90"
+pgloadind     taxon mapping OTT ID 3095162 taxonomy "Xylophanes tersa->Xylophanes->Macroglossini->Macroglossinae->Sphingidae->Bombycoidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node91"
+pgloadind     taxon mapping OTT ID 745836 taxonomy "Grapholita dimorpha->Grapholita->Grapholitini->Olethreutinae->Tortricidae->Tortricoidea->Apoditrysia->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node11"
+pgloadind     taxon mapping OTT ID 3091749 taxonomy "Lantanophaga pusillidactyla->Lantanophaga->Pterophoridae->Pterophoroidea->Obtectomera->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node13"
+pgloadind     taxon mapping OTT ID 715271 taxonomy "Urodus parvula->Urodus->Urodidae->Urodoidea->Apoditrysia->Ditrysia->Heteroneura->Neolepidoptera->Glossata->Lepidoptera->Amphiesmenoptera->Endopterygota->Neoptera->Pterygota->Dicondylia->Insecta->Hexapoda->Pancrustacea->Mandibulata->Arthropoda->Panarthropoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node14"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "1"
+pgloadind   Adding tree to graph tree id "1"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Nothus lunus was remapped to 'Sematuridae' (id=2260202)
+	Manoba major was remapped to 'Nolidae' (id=2146381)
+	Morpheis mathani was remapped to 'Cossoidea' (id=2030699)
+	Danaus plexippus was remapped to 'Danainae' (id=2072680)
+	Cnaphalocrocis medinalis was remapped to 'Spilomelinae' (id=2280070)
+	Nemophora was remapped to 'Incurvarioidea' (id=2291633)
+	Actias luna was remapped to 'Saturniinae' (id=2125334)
+	Macrosoma was remapped to 'Hedyloidea' (id=2113261)
+	Eacles was remapped to 'Ceratocampinae' (id=2127533)
+	Aepytus was remapped to 'Exoporia' (id=1953755)
+	Zeuzerodes maculata was remapped to 'Zeuzerodes' (id=2273910)
+	Dichomeris was remapped to 'Gelechiidae' (id=1978559)
+	Lyssa zampa was remapped to 'Uraniidae' (id=2214406)
+	Hylephila phyleus was remapped to 'Hesperiinae' (id=2099992)
+	Xylophanes tersa was remapped to 'Macroglossini' (id=2114547)
+	Semomesia capanea was remapped to 'Riodinidae' (id=2047790)
+	Megalopyge tharops was remapped to 'Megalopygidae' (id=2009799)
+	Heliconius melpomene was remapped to 'Heliconiinae' (id=2068383)
+	Eudocima salaminia was remapped to 'Catocalinae' (id=2176770)
+	Artace was remapped to 'Lasiocampidae' (id=2119316)
+	Urodus parvula was remapped to 'Urodoidea' (id=2032165)
+	Bombyx mori was remapped to 'Bombycidae' (id=2118815)
+	Grapholita dimorpha was remapped to 'Tortricoidea' (id=2010333)
+	Hemaris diffinis was remapped to 'Hemaris' (id=2116379)
+	Pseudothyris sepulchralis was remapped to 'Pseudothyris' (id=2274433)
+	Notoplusia menica was remapped to 'Notodontidae' (id=2204864)
+	Hemiargus ceraunus was remapped to 'Lycaenidae' (id=2083816)
+	Enyo lugubris was remapped to 'Enyo' (id=2116810)
+	Adhemarius daphne was remapped to 'Smerinthinae' (id=2113353)
+	Thubana was remapped to 'Lecithoceridae' (id=1958618)
+	Therinia lactucina was remapped to 'Oxyteninae' (id=2127172)
+	Plutella xylostella was remapped to 'Yponomeutoidea' (id=1987696)
+	Anigraea was remapped to 'Euteliinae' (id=2164038)
+	Nemoria lixaria was remapped to 'Geometrinae' (id=2240943)
+	Phyllocnistis citrella was remapped to 'Tineoidea' (id=1990570)
+	Macaria was remapped to 'Ennominae' (id=2226172)
+	Bicyclus anynana was remapped to 'Satyrinae' (id=2057784)
+	Megathymus yuccae was remapped to 'Megathyminae' (id=2099920)
+	Lacosoma ludolpha was remapped to 'Mimallonoidea' (id=2112902)
+	Pterodecta felderi was remapped to 'Calliduloidea' (id=2260290)
+	Dalcera abrasa was remapped to 'Dalceridae' (id=2005047)
+	Myelobia was remapped to 'Crambinae' (id=2276639)
+	Lantanophaga pusillidactyla was remapped to 'Pterophoroidea' (id=2212459)
+	Manduca sexta was remapped to 'Sphinginae' (id=2117005)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Kawahara, A. Y., J. W. Breinholt. 2014. Phylogenomics provides strong evidence for relationships of butterflies and moths. Proceedings of the Royal Society B: Biological Sciences 281 (1788): 20140970-20140970.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Lepidoptera
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree1
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': Previous study was corrupted. Replacing here. (JWB).
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:nearestTaxonMRCAName
+Adding property 'ot:nearestTaxonMRCAName': Obtectomera
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:nearestTaxonMRCAOttId
+Adding property 'ot:nearestTaxonMRCAOttId': 371732
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': ot_185
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2014
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1098/rspb.2014.0970
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 965954
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Maximum likelihood 
+adding relationships to licas for children
+Committing nodes: 91
+19:43:14.042 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+	adding Node[2035258] Papilionini 951465 as compatible with Node[2035260]
+		adding Relationship[8922903]
+		adding to root Relationship[8922904]
+	adding Node[2035256] Papilioninae 414401 as compatible with Node[2035260]
+		adding Relationship[8922905]
+		adding to root Relationship[8922906]
+	adding Node[2032779] Papilionidae 661439 as compatible with Node[2035260]
+		adding Relationship[8922907]
+		adding to root Relationship[8922908]
+	adding Node[2099659] Hesperioidea 336117 as compatible with Node[2099660]
+		adding Relationship[8922909]
+		adding to root Relationship[8922910]
+	adding Node[2123571] Saturniiformes 755895 as compatible with Node[2123725]
+		adding Relationship[8922911]
+		adding to root Relationship[8922912]
+		adding Relationship[8922913] from Node[2035258] to Node[2035256]
+		adding Relationship[8922914] from Node[2035256] to Node[2032779]

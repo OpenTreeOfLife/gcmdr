@@ -1,0 +1,139 @@
+17:43:58.776 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 9
+pgloadind Processing tree @id "5959"
+pgloadind   tree info number nodes 17
+pgloadind   tree info number edges 16
+pgloadind   tree info ingroup "node1011364"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 9
+pgloadind   property added ot:studyPublicationReference "Crawford, N. G., B. C. Faircloth, J. E. McCormack, R. T. Brumfield, K. Winker, T. C. Glenn. 2012. More than 1000 ultraconserved elements provide evidence that turtles are the sister group of archosaurs. Biology Letters 8 (5): 783-786."
+pgloadind   property added ot:candidateTreeForSynthesis "tree5959"
+pgloadind   property added ot:focalCladeOTTTaxonName "Archosauria"
+pgloadind   property added ot:curatorName "Joseph Brown"
+pgloadind   property added ot:studyYear "2012"
+pgloadind   property added ot:studyId "pg_2573"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1098/rsbl.2012.0331"
+pgloadind   property added ot:tag "ingroup added;"
+pgloadind   property added ot:focalClade "335588"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "STEAC tree"
+pgloadind   property added ot:inGroupClade "node1011364"
+pgloadind   property added ot:specifiedRoot "node1011364"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 5959
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "5959"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "(((Chrysemys_picta,Pelomedusa_subrufa),((Crocodylus_porosus,Alligator_mississippiensis),(Gallus_gallus,Taeniopygia_guttata))),(Sphenodon_punctatus,(Anolis_carolinensis,Pantherophis_guttatus)))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 587300 taxonomy "Chrysemys picta->Chrysemys->Emydidae->Testudinoidea->Cryptodira->Testudines->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1011367"
+pgloadind     taxon mapping OTT ID 775044 taxonomy "Pelomedusa subrufa->Pelomedusa->Pelomedusidae->Pleurodira->Testudines->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1011368"
+pgloadind     taxon mapping OTT ID 35872 taxonomy "Crocodylus porosus->Crocodylus->Crocodylidae->Longirostres->Crocodylia->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1011371"
+pgloadind     taxon mapping OTT ID 335590 taxonomy "Alligator mississippiensis->Alligator->Alligatorinae->Alligatoridae->Crocodylia->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1011372"
+pgloadind     taxon mapping OTT ID 153563 taxonomy "Gallus gallus->Gallus->Phasianinae->Phasianidae->Galliformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1011374"
+pgloadind     taxon mapping OTT ID 708327 taxonomy "Taeniopygia guttata->Taeniopygia->Estrildinae->Estrildidae->Passeroidea->Passeriformes->Neognathae->Aves->Coelurosauria->Theropoda->Saurischia->Dinosauria->Archosauria->Testudines + Archosauria group->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1011375"
+pgloadind     taxon mapping OTT ID 35890 taxonomy "Sphenodon punctatus->Sphenodon->Sphenodontidae->Sphenodontia->Lepidosauria->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1011377"
+pgloadind     taxon mapping OTT ID 705356 taxonomy "Anolis carolinensis->Anolis->Polychrotinae->Iguanidae->Iguania->Toxicofera->Episquamata->Unidentata->Bifurcata->Squamata->Lepidosauria->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1011379"
+pgloadind     taxon mapping OTT ID 456236 taxonomy "Pantherophis guttatus->Pantherophis->Colubrinae->Colubridae->Colubroidea->Serpentes->Toxicofera->Episquamata->Unidentata->Bifurcata->Squamata->Lepidosauria->Sauria->Sauropsida->Amniota->Tetrapoda->Dipnotetrapodomorpha->Sarcopterygii->Euteleostomi->Teleostomi->Gnathostomata->Vertebrata->Craniata->Chordata->Deuterostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node1011380"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "5959"
+pgloadind   Adding tree to graph tree id "5959"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Taeniopygia guttata was remapped to 'Passeriformes' (id=3028725)
+	Alligator mississippiensis was remapped to 'Alligatoridae' (id=3019180)
+	Pantherophis guttatus was remapped to 'Serpentes' (id=2990984)
+	Crocodylus porosus was remapped to 'Longirostres' (id=3019267)
+	Sphenodon punctatus was remapped to 'Sphenodontia' (id=2983045)
+	Gallus gallus was remapped to 'Galliformes' (id=3048722)
+	Chrysemys picta was remapped to 'Cryptodira' (id=3016159)
+	Anolis carolinensis was remapped to 'Iguania' (id=3005212)
+	Pelomedusa subrufa was remapped to 'Pleurodira' (id=3018684)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Crawford, N. G., B. C. Faircloth, J. E. McCormack, R. T. Brumfield, K. Winker, T. C. Glenn. 2012. More than 1000 ultraconserved elements provide evidence that turtles are the sister group of archosaurs. Biology Letters 8 (5): 783-786.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Archosauria
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree5959
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2573
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2012
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1011364
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': ingroup added;
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph Brown
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1098/rsbl.2012.0331
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1011364
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 335588
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': STEAC tree
+adding relationships to licas for children
+Committing nodes: 17
+17:44:50.291 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+	adding Node[2987537] Episquamata 4945816 as compatible with Node[2990263]
+		adding Relationship[8922710]
+		adding to root Relationship[8922711]
+	adding Node[2987536] Unidentata 4945815 as compatible with Node[2990263]
+		adding Relationship[8922712]
+		adding to root Relationship[8922713]
+	adding Node[2983112] Bifurcata 4945781 as compatible with Node[2990263]
+		adding Relationship[8922714]
+		adding to root Relationship[8922715]
+	adding Node[2983066] Squamata 35888 as compatible with Node[2990263]
+		adding Relationship[8922716]
+		adding to root Relationship[8922717]
+	adding Node[3019459] Aves 81461 as compatible with Node[3019669]
+		adding Relationship[8922718]
+		adding to root Relationship[8922719]
+	adding Node[3019458] Coelurosauria 664351 as compatible with Node[3019669]
+		adding Relationship[8922720]
+		adding to root Relationship[8922721]
+	adding Node[3019457] Theropoda 664350 as compatible with Node[3019669]
+		adding Relationship[8922722]
+		adding to root Relationship[8922723]
+	adding Node[3019456] Saurischia 90223 as compatible with Node[3019669]
+		adding Relationship[8922724]
+		adding to root Relationship[8922725]
+	adding Node[3019455] Dinosauria 90215 as compatible with Node[3019669]
+		adding Relationship[8922726]
+		adding to root Relationship[8922727]
+		adding Relationship[8922728] from Node[3019457] to Node[3019456]
+		adding Relationship[8922729] from Node[3019456] to Node[3019455]
+		adding Relationship[8922730] from Node[3019459] to Node[3019458]
+		adding Relationship[8922731] from Node[3019458] to Node[3019457]
+		adding Relationship[8922732] from Node[2983066] to Node[2983042]
+		adding Relationship[8922733] from Node[3019455] to Node[3019177]
+		adding Relationship[8922734] from Node[2987536] to Node[2983112]
+		adding Relationship[8922735] from Node[2983112] to Node[2983066]
+		adding Relationship[8922736] from Node[2987537] to Node[2987536]

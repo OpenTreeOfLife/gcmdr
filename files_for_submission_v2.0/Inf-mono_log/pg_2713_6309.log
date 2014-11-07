@@ -1,0 +1,235 @@
+21:59:31.127 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 109
+pgloadind Processing tree @id "6309"
+pgloadind   tree info number nodes 133
+pgloadind   tree info number edges 132
+pgloadind   tree info ingroup "node1097120"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 66
+pgloadind   property added ot:studyPublicationReference "Dadheech P., Ballot A., Casper P., Kotut K., Novelo E., Lemma B., Pr?schold T., & Krienitz L. 2010. Phylogenetic relationship and divergence among planktonic strains of Arthrospira (Oscillatoriales, Cyanobacteria) of African, Asian and American origin deduced by 16S?23S ITS and phycocyanin operon sequences. Phycologia, 49(4): 361-372."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6309"
+pgloadind   property added ot:focalCladeOTTTaxonName "Arthrospira"
+pgloadind   property added ot:curatorName "Dail Laughinghouse"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S10238"
+pgloadind   property added ot:studyYear "2010"
+pgloadind   property added ot:studyId "pg_2713"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2216/09-71.1"
+pgloadind   property added ot:focalClade "231664"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Fig. 9"
+pgloadind   property added ot:inGroupClade "node1097120"
+pgloadind   property added ot:specifiedRoot "node1097119"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+pgloadind Processing tree @id "6310"
+pgloadind   tree info number nodes 149
+pgloadind   tree info number edges 148
+pgloadind   Ingested tree number of external nodes 75
+pgloadind   property added ot:studyPublicationReference "Dadheech P., Ballot A., Casper P., Kotut K., Novelo E., Lemma B., Pr?schold T., & Krienitz L. 2010. Phylogenetic relationship and divergence among planktonic strains of Arthrospira (Oscillatoriales, Cyanobacteria) of African, Asian and American origin deduced by 16S?23S ITS and phycocyanin operon sequences. Phycologia, 49(4): 361-372."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6309"
+pgloadind   property added ot:focalCladeOTTTaxonName "Arthrospira"
+pgloadind   property added ot:curatorName "Dail Laughinghouse"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S10238"
+pgloadind   property added ot:studyYear "2010"
+pgloadind   property added ot:studyId "pg_2713"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2216/09-71.1"
+pgloadind   property added ot:focalClade "231664"
+pgloadind   property added ot:curatedType "Fig. 8"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 6309
+skipping tree: 6310
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6309"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Arthrospira sp. PD2002/07" nexsonid "node1097194"
+pgloadind       duplicate OTT ID 43565
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Arthrospira maxima" nexsonid "node1097208"
+pgloadind       duplicate OTT ID 145122
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Arthrospira platensis PCC 7345" nexsonid "node1097210"
+pgloadind       overlapping pruned name "Arthrospira platensis" nexsonid "node1097151"
+pgloadind     pruning dups and overlapping name "Arthrospira platensis" nexsonid "node1097151"
+pgloadind     pruning dups and overlapping name "Arthrospira maxima" nexsonid "node1097208"
+pgloadind     pruning dups and overlapping name "Arthrospira sp. PD2002/07" nexsonid "node1097194"
+pgloadind   postpruning newick tree "((((((Arthrospira_indica_PD2002_ana,((((((((((((((((((((((Arthrospira_sp_Mad,Arthrospira_sp_AB2006_05),Arthrospira_sp_Dihe),Arthrospira_sp_PD2002_06),Arthrospira_fusiformis_AB2002_01),Arthrospira_sp_Titi),Arthrospira_sp_AB2006_04),Arthrospira_sp_AB2006_01),Arthrospira_sp_KR2005_113),Arthrospira_fusiformis_AB2002_11),Arthrospira_sp_Mix),(Arthrospira_sp_AB2002_38,(Arthrospira_sp_KR2005_115,(Arthrospira_sp_ThD,(Arthrospira_fusiformis_AB2002_04,(Arthrospira_indica_PD1998_pus,(Arthrospira_sp_E2,(Arthrospira_sp_PD2002_07,(Arthrospira_sp_KR2005_118,(Arthrospira_sp_PD2002_04,(Arthrospira_sp_PD2002_02,Arthrospira_sp_BU2))))))))))),Arthrospira_sp_AB2006_02),Arthrospira_sp_BU1),Arthrospira_sp_AB2006_06),Arthrospira_indica_PD1997_ram),Arthrospira_sp_M1),Arthrospira_sp_AB2006_03),Arthrospira_fusiformis_AB2002_10),Arthrospira_fusiformis_AB2002_02),Arthrospira_fusiformis_AB2002_05),Arthrospira_sp_Lonar-H7),Arthrospira_fusiformis_AB2002_03)),Arthrospira_sp_Sark),Arthrospira_sp_KR2005_117),Arthrospira_sp_PD2003_03),Arthrospira_maxima),(((((((Arthrospira_platensis_PCC_7345,Arthrospira_sp_AB2006_12),Arthrospira_sp_AB2006_13),Arthrospira_sp_AB2006_09),(Arthrospira_sp_Nord_Geitl,(Arthrospira_sp_AB2006_15,(Arthrospira_sp_KR2004_02,Arthrospira_sp_AB2006_10)))),(Arthrospira_sp_FV-8,(Arthrospira_sp_AB2006_14,(Arthrospira_sp_PK,(Arthrospira_sp_AB2006_16,Arthrospira_sp_AB2006_11))))),(Arthrospira_sp_KR2004_05,(Arthrospira_sp_AB2006_08,(Arthrospira_sp_M2,Arthrospira_sp_KR2004_06)))),(((Arthrospira_sp_Paracas_98,Arthrospira_sp_KR2004_12),Arthrospira_sp_KR2004_10),(Arthrospira_sp_KR2004_09,((Arthrospira_sp_Paracas_P2,Arthrospira_sp_Paracas_P0),(Arthrospira_sp_Paracas_E2,Arthrospira_sp_KR2004_04))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 674323 taxonomy "Arthrospira indica PD2002/ana->Arthrospira indica->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097195"
+pgloadind     taxon mapping OTT ID 196110 taxonomy "Arthrospira sp. Mad->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097152"
+pgloadind     taxon mapping OTT ID 924347 taxonomy "Arthrospira sp. AB2006/05->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097150"
+pgloadind     taxon mapping OTT ID 68037 taxonomy "Arthrospira sp. Dihe->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097153"
+pgloadind     taxon mapping OTT ID 43559 taxonomy "Arthrospira sp. PD2002/06->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097154"
+pgloadind     taxon mapping OTT ID 151314 taxonomy "Arthrospira fusiformis AB2002/01->Arthrospira fusiformis->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097155"
+pgloadind     taxon mapping OTT ID 719444 taxonomy "Arthrospira sp. Titi->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097156"
+pgloadind     taxon mapping OTT ID 924346 taxonomy "Arthrospira sp. AB2006/04->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097157"
+pgloadind     taxon mapping OTT ID 46890 taxonomy "Arthrospira sp. AB2006/01->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097158"
+pgloadind     taxon mapping OTT ID 974657 taxonomy "Arthrospira sp. KR2005/113->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097159"
+pgloadind     taxon mapping OTT ID 151313 taxonomy "Arthrospira fusiformis AB2002/11->Arthrospira fusiformis->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097160"
+pgloadind     taxon mapping OTT ID 196112 taxonomy "Arthrospira sp. Mix->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097161"
+pgloadind     taxon mapping OTT ID 924343 taxonomy "Arthrospira sp. AB2002/38->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097163"
+pgloadind     taxon mapping OTT ID 974672 taxonomy "Arthrospira sp. KR2005/115->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097165"
+pgloadind     taxon mapping OTT ID 719445 taxonomy "Arthrospira sp. ThD->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097167"
+pgloadind     taxon mapping OTT ID 151317 taxonomy "Arthrospira fusiformis AB2002/04->Arthrospira fusiformis->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097169"
+pgloadind     taxon mapping OTT ID 747896 taxonomy "Arthrospira indica PD1998/pus->Arthrospira indica->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097171"
+pgloadind     taxon mapping OTT ID 302443 taxonomy "Arthrospira sp. E2->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097173"
+pgloadind     taxon mapping OTT ID 43565 taxonomy "Arthrospira sp. PD2002/07->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097175"
+pgloadind     taxon mapping OTT ID 43562 taxonomy "Arthrospira sp. KR2005/118->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097177"
+pgloadind     taxon mapping OTT ID 43560 taxonomy "Arthrospira sp. PD2002/04->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097179"
+pgloadind     taxon mapping OTT ID 43561 taxonomy "Arthrospira sp. PD2002/02->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097181"
+pgloadind     taxon mapping OTT ID 196111 taxonomy "Arthrospira sp. BU2->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097182"
+pgloadind     taxon mapping OTT ID 924344 taxonomy "Arthrospira sp. AB2006/02->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097183"
+pgloadind     taxon mapping OTT ID 214314 taxonomy "Arthrospira sp. BU1->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097184"
+pgloadind     taxon mapping OTT ID 398452 taxonomy "Arthrospira sp. AB2006/06->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097185"
+pgloadind     taxon mapping OTT ID 674324 taxonomy "Arthrospira indica PD1997/ram->Arthrospira indica->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097186"
+pgloadind     taxon mapping OTT ID 719447 taxonomy "Arthrospira sp. M1->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097187"
+pgloadind     taxon mapping OTT ID 924345 taxonomy "Arthrospira sp. AB2006/03->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097188"
+pgloadind     taxon mapping OTT ID 151319 taxonomy "Arthrospira fusiformis AB2002/10->Arthrospira fusiformis->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097189"
+pgloadind     taxon mapping OTT ID 151315 taxonomy "Arthrospira fusiformis AB2002/02->Arthrospira fusiformis->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097190"
+pgloadind     taxon mapping OTT ID 151318 taxonomy "Arthrospira fusiformis AB2002/05->Arthrospira fusiformis->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097191"
+pgloadind     taxon mapping OTT ID 196100 taxonomy "Arthrospira sp. Lonar-H7->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097192"
+pgloadind     taxon mapping OTT ID 151316 taxonomy "Arthrospira fusiformis AB2002/03->Arthrospira fusiformis->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097193"
+pgloadind     taxon mapping OTT ID 928017 taxonomy "Arthrospira sp. Sark->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097196"
+pgloadind     taxon mapping OTT ID 974673 taxonomy "Arthrospira sp. KR2005/117->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097197"
+pgloadind     taxon mapping OTT ID 43563 taxonomy "Arthrospira sp. PD2003/03->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097198"
+pgloadind     taxon mapping OTT ID 145122 taxonomy "Arthrospira maxima->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097199"
+pgloadind     taxon mapping OTT ID 196101 taxonomy "Arthrospira platensis PCC 7345->Arthrospira platensis->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097210"
+pgloadind     taxon mapping OTT ID 398449 taxonomy "Arthrospira sp. AB2006/12->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097209"
+pgloadind     taxon mapping OTT ID 398450 taxonomy "Arthrospira sp. AB2006/13->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097211"
+pgloadind     taxon mapping OTT ID 398456 taxonomy "Arthrospira sp. AB2006/09->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097212"
+pgloadind     taxon mapping OTT ID 462084 taxonomy "Arthrospira sp. Nord Geitl->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097214"
+pgloadind     taxon mapping OTT ID 398458 taxonomy "Arthrospira sp. AB2006/15->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097216"
+pgloadind     taxon mapping OTT ID 974660 taxonomy "Arthrospira sp. KR2004/02->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097218"
+pgloadind     taxon mapping OTT ID 490490 taxonomy "Arthrospira sp. AB2006/10->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097219"
+pgloadind     taxon mapping OTT ID 196097 taxonomy "Arthrospira sp. FV-8->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097221"
+pgloadind     taxon mapping OTT ID 490443 taxonomy "Arthrospira sp. AB2006/14->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097223"
+pgloadind     taxon mapping OTT ID 196109 taxonomy "Arthrospira sp. PK->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097225"
+pgloadind     taxon mapping OTT ID 398457 taxonomy "Arthrospira sp. AB2006/16->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097227"
+pgloadind     taxon mapping OTT ID 200769 taxonomy "Arthrospira sp. AB2006/11->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097228"
+pgloadind     taxon mapping OTT ID 974659 taxonomy "Arthrospira sp. KR2004/05->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097230"
+pgloadind     taxon mapping OTT ID 398451 taxonomy "Arthrospira sp. AB2006/08->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097232"
+pgloadind     taxon mapping OTT ID 196096 taxonomy "Arthrospira sp. M2->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097234"
+pgloadind     taxon mapping OTT ID 352116 taxonomy "Arthrospira sp. KR2004/06->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097235"
+pgloadind     taxon mapping OTT ID 960142 taxonomy "Arthrospira sp. Paracas 98->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097239"
+pgloadind     taxon mapping OTT ID 974656 taxonomy "Arthrospira sp. KR2004/12->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097240"
+pgloadind     taxon mapping OTT ID 974658 taxonomy "Arthrospira sp. KR2004/10->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097241"
+pgloadind     taxon mapping OTT ID 142610 taxonomy "Arthrospira sp. KR2004/09->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097243"
+pgloadind     taxon mapping OTT ID 1013480 taxonomy "Arthrospira sp. Paracas P2->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097246"
+pgloadind     taxon mapping OTT ID 214279 taxonomy "Arthrospira sp. Paracas P0->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097247"
+pgloadind     taxon mapping OTT ID 302444 taxonomy "Arthrospira sp. Paracas E2->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097249"
+pgloadind     taxon mapping OTT ID 974661 taxonomy "Arthrospira sp. KR2004/04->Arthrospira->FamilyI->SubsectionIII->Cyanobacteria->Cyanobacteria sup.->Bacteria->cellular organisms->life" nexsonid "node1097250"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6309"
+pgloadind   Adding tree to graph tree id "6309"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Arthrospira platensis PCC 7345 was remapped to 'Arthrospira platensis' (id=153165)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Dadheech P., Ballot A., Casper P., Kotut K., Novelo E., Lemma B., Pr?schold T., & Krienitz L. 2010. Phylogenetic relationship and divergence among planktonic strains of Arthrospira (Oscillatoriales, Cyanobacteria) of African, Asian and American origin deduced by 16S?23S ITS and phycocyanin operon sequences. Phycologia, 49(4): 361-372.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Arthrospira
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6309
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S10238
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2713
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2010
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1097120
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Dail Laughinghouse
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.2216/09-71.1
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1097119
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 231664
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig. 9
+adding relationships to licas for children
+Committing nodes: 125
+22:00:24.177 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

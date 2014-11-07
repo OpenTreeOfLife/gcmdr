@@ -1,0 +1,150 @@
+20:40:18.243 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 45
+pgloadind Processing tree @id "426"
+pgloadind   tree info number nodes 88
+pgloadind   tree info number edges 87
+pgloadind   tree info ingroup "node201207"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 42
+pgloadind   property added ot:studyPublicationReference "Peintner U., Moser M., Agretious thomas K., & Manimohan P. 2003. First records of ectomycorrhizal Cortinarius species (Agaricales, Basidiomycetes) from tropical India and their phylogenetic position based on rDNA ITS sequences. Mycological Research, 107(4): 485-494."
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S922"
+pgloadind   property added ot:studyYear "2003"
+pgloadind   property added ot:studyId "pg_370"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1017/S0953756203007585"
+pgloadind   property added ot:focalClade "412999"
+pgloadind   property added ot:curatedType "MP, ITS"
+pgloadind   property added ot:inGroupClade "node201207"
+loading a specific tree: 426
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "426"
+pgloadind     OTT ID missing name "Cortinarius atrocoeruleus" nexsonid "node201281"
+pgloadind     pruning unmapped name "Cortinarius atrocoeruleus" nexsonid "node201281"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Cortinarius collinitus" nexsonid "node201216"
+pgloadind       duplicate OTT ID 351450
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Cortinarius porphyroideus" nexsonid "node201231"
+pgloadind       duplicate OTT ID 364062
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Cortinarius acutovelatus" nexsonid "node201239"
+pgloadind       duplicate OTT ID 979676
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Cortinarius laniger" nexsonid "node201254"
+pgloadind       duplicate OTT ID 350619
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Cortinarius hinnuleus" nexsonid "node201267"
+pgloadind       duplicate OTT ID 870838
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Cortinarius paleaceus" nexsonid "node201271"
+pgloadind       duplicate OTT ID 949868
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Cortinarius alnetorum" nexsonid "node201275"
+pgloadind       duplicate OTT ID 979677
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Cortinarius bibulus" nexsonid "node201278"
+pgloadind       duplicate OTT ID 51992
+pgloadind     pruning dups and overlapping name "Cortinarius hinnuleus" nexsonid "node201267"
+pgloadind     pruning dups and overlapping name "Cortinarius paleaceus" nexsonid "node201271"
+pgloadind     pruning dups and overlapping name "Cortinarius acutovelatus" nexsonid "node201239"
+pgloadind     pruning dups and overlapping name "Cortinarius laniger" nexsonid "node201254"
+pgloadind     pruning dups and overlapping name "Cortinarius porphyroideus" nexsonid "node201231"
+pgloadind     pruning dups and overlapping name "Cortinarius alnetorum" nexsonid "node201275"
+pgloadind     pruning dups and overlapping name "Cortinarius bibulus" nexsonid "node201278"
+pgloadind     pruning dups and overlapping name "Cortinarius collinitus" nexsonid "node201216"
+pgloadind   postpruning newick tree "(((((Cortinarius_trivialis,(Cortinarius_mucosus,Cortinarius_collinitus)),((Cortinarius_phlegmophorus,((Cortinarius_pavelekii,(Cortinarius_mucifluus,Cortinarius_pseudosalor,Cortinarius_vanduzerensis)),Cortinarius_livido-ochraceus)),Cortinarius_porphyroideus)),((Cortinarius_conopileus,(Cortinarius_acutus,Cortinarius_acutovelatus)),Cortinarius_obtusus)),(Cortinarius_sarcinochrous,Cortinarius_cinereobrunneus)),((Cortinarius_keralensis,(((Cortinarius_saturninus,((Cortinarius_evernius,Cortinarius_leucopus),Cortinarius_laniger)),(Cortinarius_urbicus,Cortinarius_lucorum)),(((Cortinarius_parvannulatus,Cortinarius_hinnuleus),((Cortinarius_alnetorum,Cortinarius_bibulus),Cortinarius_paleaceus)),(Cortinarius_umbilicatus,Cortinarius_decipiens)))),((Cortinarius_heterosporus,Cortinarius_helvelloides),Cortinarius_miniatopus)))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 324704 taxonomy "Cortinarius trivialis->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201212"
+pgloadind     taxon mapping OTT ID 653454 taxonomy "Cortinarius mucosus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201217"
+pgloadind     taxon mapping OTT ID 351450 taxonomy "Cortinarius collinitus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201215"
+pgloadind     taxon mapping OTT ID 979681 taxonomy "Cortinarius phlegmophorus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201220"
+pgloadind     taxon mapping OTT ID 3812447 taxonomy "Cortinarius pavelekii->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201223"
+pgloadind     taxon mapping OTT ID 426802 taxonomy "Cortinarius mucifluus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201225"
+pgloadind     taxon mapping OTT ID 718454 taxonomy "Cortinarius pseudosalor->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201226"
+pgloadind     taxon mapping OTT ID 1083465 taxonomy "Cortinarius vanduzerensis->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201227"
+pgloadind     taxon mapping OTT ID 98833 taxonomy "Cortinarius livido-ochraceus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201228"
+pgloadind     taxon mapping OTT ID 364062 taxonomy "Cortinarius porphyroideus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201230"
+pgloadind     taxon mapping OTT ID 3811676 taxonomy "Cortinarius conopileus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201234"
+pgloadind     taxon mapping OTT ID 764684 taxonomy "Cortinarius acutus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201236"
+pgloadind     taxon mapping OTT ID 979676 taxonomy "Cortinarius acutovelatus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201238"
+pgloadind     taxon mapping OTT ID 893281 taxonomy "Cortinarius obtusus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201240"
+pgloadind     taxon mapping OTT ID 5305521 taxonomy "Cortinarius sarcinochrous->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201242"
+pgloadind     taxon mapping OTT ID 974140 taxonomy "Cortinarius cinereobrunneus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201243"
+pgloadind     taxon mapping OTT ID 979669 taxonomy "Cortinarius keralensis->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201246"
+pgloadind     taxon mapping OTT ID 453653 taxonomy "Cortinarius saturninus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201250"
+pgloadind     taxon mapping OTT ID 949869 taxonomy "Cortinarius evernius->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201256"
+pgloadind     taxon mapping OTT ID 350622 taxonomy "Cortinarius leucopus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201257"
+pgloadind     taxon mapping OTT ID 350619 taxonomy "Cortinarius laniger->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201253"
+pgloadind     taxon mapping OTT ID 825108 taxonomy "Cortinarius urbicus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201259"
+pgloadind     taxon mapping OTT ID 604476 taxonomy "Cortinarius lucorum->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201260"
+pgloadind     taxon mapping OTT ID 174131 taxonomy "Cortinarius parvannulatus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201264"
+pgloadind     taxon mapping OTT ID 870838 taxonomy "Cortinarius hinnuleus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201266"
+pgloadind     taxon mapping OTT ID 979677 taxonomy "Cortinarius alnetorum->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201274"
+pgloadind     taxon mapping OTT ID 51992 taxonomy "Cortinarius bibulus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201277"
+pgloadind     taxon mapping OTT ID 949868 taxonomy "Cortinarius paleaceus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201270"
+pgloadind     taxon mapping OTT ID 839003 taxonomy "Cortinarius umbilicatus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201283"
+pgloadind     taxon mapping OTT ID 979680 taxonomy "Cortinarius decipiens->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201282"
+pgloadind     taxon mapping OTT ID 328809 taxonomy "Cortinarius heterosporus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201286"
+pgloadind     taxon mapping OTT ID 475379 taxonomy "Cortinarius helvelloides->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201287"
+pgloadind     taxon mapping OTT ID 314630 taxonomy "Cortinarius miniatopus->Cortinarius->Cortinariaceae->Agaricales->Agaricomycetidae->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node201288"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "426"
+pgloadind   Adding tree to graph tree id "426"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Peintner U., Moser M., Agretious thomas K., & Manimohan P. 2003. First records of ectomycorrhizal Cortinarius species (Agaricales, Basidiomycetes) from tropical India and their phylogenetic position based on rDNA ITS sequences. Mycological Research, 107(4): 485-494.
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2003
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node201207
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1017/S0953756203007585
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 412999
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP, ITS
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_370
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S922
+adding relationships to licas for children
+Committing nodes: 64
+20:41:36.615 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

@@ -1,0 +1,125 @@
+21:12:04.485 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 28
+pgloadind Processing tree @id "570"
+pgloadind   tree info number nodes 52
+pgloadind   tree info number edges 51
+pgloadind   tree info ingroup "node314579"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 14
+pgloadind   property added ot:studyPublicationReference "Dai, Yu-Cheng, Zheng Wang, Manfred Binder, and David S. Hibbett. "Phylogeny and a new species of Sparassis (Polyporales, Basidiomycota): evidence from mitochondrial atp6, nuclear rDNA and rpb2 genes." Mycologia 98, no. 4 (2006): 584-592."
+pgloadind   property added ot:focalCladeOTTTaxonName "Sparassis"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:curatorName "Stephen Smith"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1558"
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:studyYear "2006"
+pgloadind   property added ot:studyId "pg_449"
+pgloadind   property added ot:studyPublication ""
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "468069"
+pgloadind   property added ot:unrootedTree "true"
+pgloadind   property added ot:curatedType "MP, ATP6"
+pgloadind   property added ot:inGroupClade "node314579"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:tag "MP"
+loading a specific tree: 570
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "570"
+pgloadind     OTT ID missing name "Sparassis spain 1" nexsonid "node314602"
+pgloadind     pruning unmapped name "Sparassis spain 1" nexsonid "node314602"
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Sparassis crispa" nexsonid "node314587"
+pgloadind       duplicate OTT ID 118235
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Sparassis crispa" nexsonid "node314588"
+pgloadind       duplicate OTT ID 118235
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Sparassis crispa" nexsonid "node314589"
+pgloadind       duplicate OTT ID 118235
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Sparassis crispa" nexsonid "node314590"
+pgloadind       duplicate OTT ID 118235
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Sparassis crispa" nexsonid "node314591"
+pgloadind       duplicate OTT ID 118235
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Sparassis crispa" nexsonid "node314592"
+pgloadind       duplicate OTT ID 118235
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Sparassis crispa" nexsonid "node314593"
+pgloadind       duplicate OTT ID 118235
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Sparassis crispa" nexsonid "node314594"
+pgloadind       duplicate OTT ID 118235
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Sparassis crispa" nexsonid "node314595"
+pgloadind       duplicate OTT ID 118235
+pgloadind     pruning dups and overlapping name "Sparassis crispa" nexsonid "node314591"
+pgloadind     pruning dups and overlapping name "Sparassis crispa" nexsonid "node314590"
+pgloadind     pruning dups and overlapping name "Sparassis crispa" nexsonid "node314587"
+pgloadind     pruning dups and overlapping name "Sparassis crispa" nexsonid "node314595"
+pgloadind     pruning dups and overlapping name "Sparassis crispa" nexsonid "node314593"
+pgloadind     pruning dups and overlapping name "Sparassis crispa" nexsonid "node314592"
+pgloadind     pruning dups and overlapping name "Sparassis crispa" nexsonid "node314594"
+pgloadind     pruning dups and overlapping name "Sparassis crispa" nexsonid "node314589"
+pgloadind     pruning dups and overlapping name "Sparassis crispa" nexsonid "node314588"
+pgloadind   postpruning newick tree "((Sparassis_cystidiosa,(Sparassis_spathulata,Sparassis_brevipes)),Sparassis_crispa)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 417434 taxonomy "Sparassis cystidiosa->Sparassis->Sparassidaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node314597"
+pgloadind     taxon mapping OTT ID 468068 taxonomy "Sparassis spathulata->Sparassis->Sparassidaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node314599"
+pgloadind     taxon mapping OTT ID 959318 taxonomy "Sparassis brevipes->Sparassis->Sparassidaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node314601"
+pgloadind     taxon mapping OTT ID 118235 taxonomy "Sparassis crispa->Sparassis->Sparassidaceae->Polyporales->Agaricomycetes->Agaricomycotina->Basidiomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node314586"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "570"
+pgloadind   Adding tree to graph tree id "570"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Dai, Yu-Cheng, Zheng Wang, Manfred Binder, and David S. Hibbett. "Phylogeny and a new species of Sparassis (Polyporales, Basidiomycota): evidence from mitochondrial atp6, nuclear rDNA and rpb2 genes." Mycologia 98, no. 4 (2006): 584-592.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Sparassis
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1558
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_449
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2006
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node314579
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': MP
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Stephen Smith
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': 
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': 
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': true
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 468069
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP, ATP6
+adding relationships to licas for children
+Committing nodes: 7
+21:12:55.283 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

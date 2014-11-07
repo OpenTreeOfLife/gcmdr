@@ -1,0 +1,249 @@
+20:13:06.103 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 46
+pgloadind Processing tree @id "523"
+pgloadind   tree info number nodes 91
+pgloadind   tree info number edges 90
+pgloadind   tree info ingroup "node208841"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 35
+pgloadind   property added ot:studyPublicationReference "Smith, Stephen A., Nerida G. Wilson, Freya E. Goetz, Caitlin Feehery, Sónia C. S. Andrade, Greg W. Rouse, Gonzalo Giribet and Casey W. Dunn. 2011. Resolving the evolutionary relationships of molluscs with phylogenomic tools. Nature 480, 364–367."
+pgloadind   property added ot:candidateTreeForSynthesis "tree523"
+pgloadind   property added ot:focalCladeOTTTaxonName "Mollusca"
+pgloadind   property added ot:curatorName "Stephen Smith"
+pgloadind   property added ot:studyYear "2011"
+pgloadind   property added ot:studyId "pg_421"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1038/nature10526"
+pgloadind   property added ot:focalClade "802117"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Bipartition RAxML"
+pgloadind   property added ot:inGroupClade "node208841"
+pgloadind   property added ot:specifiedRoot "node208819"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 523
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "523"
+pgloadind     OTT ID missing name "Greenland neomeniomorph" nexsonid "node208846"
+pgloadind     pruning unmapped name "Greenland neomeniomorph" nexsonid "node208846"
+pgloadind   postpruning newick tree "((Chaetopleura_apiculata,(Chaetoderma_nitidulum,Neomenia_megatrapezata)),((((Hyriopsis_cumingii,(((Mytilus_californianus,Mytilus_galloprovincialis),((Argopecten_irradians,(Azumapecten_farreri,Mizuhopecten_yessoensis)),(Pinctada_martensi,(Crassostrea_gigas,Crassostrea_virginica)))),(Ruditapes_philippinarum,Ruditapes_decussatus))),(Solemya_velum,(Yoldia_limatula,Ennucula_tenuis))),((Antalis_entalis,Gadila_tolmiei),(((Littorina_littorea,Ilyanassa_obsoleta),(Aplysia_californica,(Siphonaria_pectinata,(Biomphalaria_glabrata,Lymnaea_stagnalis)))),(Lottia_gigantea,(Perotrochus_lucaya,(Haliotis_asinina,Haliotis_discus)))))),(Laevipilina_hyalina,(Nautilus_pompilius,(Octopus_vulgaris,(Idiosepius_paradoxus,Euprymna_scolopes))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 217888 taxonomy "Chaetopleura apiculata->Chaetopleura->Chaetopleuridae->Chitonina->Chitonida->Neoloricata->Polyplacophora->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208843"
+pgloadind     taxon mapping OTT ID 251380 taxonomy "Chaetoderma nitidulum->Chaetoderma->Chaetodermatidae->Chaetodermatida->Chaetodermomorpha->Aplacophora->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208848"
+pgloadind     taxon mapping OTT ID 351320 taxonomy "Neomenia megatrapezata->Neomenia->Neomeniidae->Neomeniamorpha->Neomeniomorpha->Aplacophora->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208847"
+pgloadind     taxon mapping OTT ID 351029 taxonomy "Hyriopsis cumingii->Hyriopsis->Unioninae->Unionidae->Unionoidea->Unionoida->Palaeoheterodonta->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208853"
+pgloadind     taxon mapping OTT ID 1025558 taxonomy "Mytilus californianus->Mytilus->Mytilinae->Mytilidae->Mytiloidea->Mytiloida->Pteriomorphia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208857"
+pgloadind     taxon mapping OTT ID 423885 taxonomy "Mytilus galloprovincialis->Mytilus->Mytilinae->Mytilidae->Mytiloidea->Mytiloida->Pteriomorphia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208858"
+pgloadind     taxon mapping OTT ID 887220 taxonomy "Argopecten irradians->Argopecten->Pectinidae->Pectinoidea->Pectinoida->Pteriomorphia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208861"
+pgloadind     taxon mapping OTT ID 56422 taxonomy "Azumapecten farreri->Azumapecten->Pectinidae->Pectinoidea->Pectinoida->Pteriomorphia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208863"
+pgloadind     taxon mapping OTT ID 449027 taxonomy "Mizuhopecten yessoensis->Mizuhopecten->Pectinidae->Pectinoidea->Pectinoida->Pteriomorphia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208864"
+pgloadind     taxon mapping OTT ID 763333 taxonomy "Pinctada martensi->Pinctada->Pteriidae->Pterioidea->Pterioida->Pteriomorphia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208866"
+pgloadind     taxon mapping OTT ID 987409 taxonomy "Crassostrea gigas->Crassostrea->Ostreidae->Ostreoidea->Ostreoida->Pteriomorphia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208868"
+pgloadind     taxon mapping OTT ID 365708 taxonomy "Crassostrea virginica->Crassostrea->Ostreidae->Ostreoidea->Ostreoida->Pteriomorphia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208869"
+pgloadind     taxon mapping OTT ID 913666 taxonomy "Ruditapes philippinarum->Ruditapes->Veneridae->Veneroidea->Veneroida->Heteroconchia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208871"
+pgloadind     taxon mapping OTT ID 73965 taxonomy "Ruditapes decussatus->Ruditapes->Veneridae->Veneroidea->Veneroida->Heteroconchia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208872"
+pgloadind     taxon mapping OTT ID 557893 taxonomy "Solemya velum->Solemya->Solemyidae->Solemyoidea->Solemyoida->Protobranchia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208874"
+pgloadind     taxon mapping OTT ID 881934 taxonomy "Yoldia limatula->Yoldia->Yoldiidae->Nuculanoida->Protobranchia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208876"
+pgloadind     taxon mapping OTT ID 325850 taxonomy "Ennucula tenuis->Ennucula->Nuculidae->Nuculoida->Protobranchia->Bivalvia->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208877"
+pgloadind     taxon mapping OTT ID 111501 taxonomy "Antalis entalis->Antalis->Dentaliidae->Dentaliida->Scaphopoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208880"
+pgloadind     taxon mapping OTT ID 423416 taxonomy "Gadila tolmiei->Gadila->Gadilinidae->Dentaliida->Scaphopoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208881"
+pgloadind     taxon mapping OTT ID 622242 taxonomy "Littorina littorea->Littorina->Littorinidae->Littorinoidea->Littorinimorpha->Hypsogastropoda->Caenogastropoda->Gastropoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208885"
+pgloadind     taxon mapping OTT ID 837692 taxonomy "Ilyanassa obsoleta->Ilyanassa->Nassariidae->Buccinoidea->Neogastropoda->Hypsogastropoda->Caenogastropoda->Gastropoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208886"
+pgloadind     taxon mapping OTT ID 51009 taxonomy "Aplysia californica->Aplysia->Aplysiidae->Aplysioidea->Aplysiomorpha->Euopisthobranchia->Euthyneura->Heterobranchia->Gastropoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208888"
+pgloadind     taxon mapping OTT ID 979933 taxonomy "Siphonaria pectinata->Siphonaria->Siphonariidae->Siphonarioidea->Panpulmonata->Euthyneura->Heterobranchia->Gastropoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208890"
+pgloadind     taxon mapping OTT ID 673791 taxonomy "Biomphalaria glabrata->Biomphalaria->Planorbidae->Planorboidea->Hygrophila->Panpulmonata->Euthyneura->Heterobranchia->Gastropoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208892"
+pgloadind     taxon mapping OTT ID 844828 taxonomy "Lymnaea stagnalis->Lymnaea->Lymnaeidae->Lymnaeoidea->Hygrophila->Panpulmonata->Euthyneura->Heterobranchia->Gastropoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208893"
+pgloadind     taxon mapping OTT ID 840650 taxonomy "Lottia gigantea->Lottia->Lottiidae->Lottioidea->Patellogastropoda->Gastropoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208895"
+pgloadind     taxon mapping OTT ID 930177 taxonomy "Perotrochus lucaya->Perotrochus->Pleurotomariidae->Pleurotomarioidea->Vetigastropoda->Gastropoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208897"
+pgloadind     taxon mapping OTT ID 240411 taxonomy "Haliotis asinina->Haliotis->Haliotidae->Haliotoidea->Vetigastropoda->Gastropoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208899"
+pgloadind     taxon mapping OTT ID 780545 taxonomy "Haliotis discus->Haliotis->Haliotidae->Haliotoidea->Vetigastropoda->Gastropoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208900"
+pgloadind     taxon mapping OTT ID 102410 taxonomy "Laevipilina hyalina->Laevipilina->Neopilinidae->Tryblidiida->Monoplacophora->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208902"
+pgloadind     taxon mapping OTT ID 616359 taxonomy "Nautilus pompilius->Nautilus->Nautilidae->Nautilida->Nautiloidea->Cephalopoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208904"
+pgloadind     taxon mapping OTT ID 110468 taxonomy "Octopus vulgaris->Octopus->Octopodidae->Incirrata->Octopoda->Octopodiformes->Neocoleoidea->Coleoidea->Cephalopoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208906"
+pgloadind     taxon mapping OTT ID 355849 taxonomy "Idiosepius paradoxus->Idiosepius->Idiosepiidae->Sepiolida->Decapodiformes->Neocoleoidea->Coleoidea->Cephalopoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208908"
+pgloadind     taxon mapping OTT ID 528814 taxonomy "Euprymna scolopes->Euprymna->Sepiolidae->Sepiolida->Decapodiformes->Neocoleoidea->Coleoidea->Cephalopoda->Mollusca->Lophotrochozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node208909"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "523"
+pgloadind   Adding tree to graph tree id "523"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Pinctada martensi was remapped to 'Pterioida' (id=2647739)
+	Ennucula tenuis was remapped to 'Nuculoida' (id=2635036)
+	Perotrochus lucaya was remapped to 'Pleurotomarioidea' (id=2718334)
+	Ilyanassa obsoleta was remapped to 'Neogastropoda' (id=2659470)
+	Azumapecten farreri was remapped to 'Azumapecten' (id=2644894)
+	Euprymna scolopes was remapped to 'Sepiolidae' (id=2651649)
+	Lottia gigantea was remapped to 'Patellogastropoda' (id=2725261)
+	Biomphalaria glabrata was remapped to 'Planorboidea' (id=2744790)
+	Octopus vulgaris was remapped to 'Octopodiformes' (id=2648692)
+	Solemya velum was remapped to 'Solemyoida' (id=2634878)
+	Neomenia megatrapezata was remapped to 'Neomeniomorpha' (id=2651934)
+	Chaetopleura apiculata was remapped to 'Polyplacophora' (id=2652675)
+	Laevipilina hyalina was remapped to 'Monoplacophora' (id=2615482)
+	Lymnaea stagnalis was remapped to 'Lymnaeoidea' (id=2743927)
+	Argopecten irradians was remapped to 'Argopecten' (id=2645638)
+	Siphonaria pectinata was remapped to 'Siphonarioidea' (id=2745880)
+	Chaetoderma nitidulum was remapped to 'Chaetodermomorpha' (id=2652428)
+	Nautilus pompilius was remapped to 'Nautiloidea' (id=2651844)
+	Mizuhopecten yessoensis was remapped to 'Mizuhopecten' (id=2645378)
+	Antalis entalis was remapped to 'Dentaliidae' (id=2614769)
+	Hyriopsis cumingii was remapped to 'Palaeoheterodonta' (id=2637716)
+	Yoldia limatula was remapped to 'Nuculanoida' (id=2633423)
+	Littorina littorea was remapped to 'Littorinimorpha' (id=2693162)
+	Aplysia californica was remapped to 'Euopisthobranchia' (id=2751126)
+	Gadila tolmiei was remapped to 'Gadilinidae' (id=2615267)
+	Idiosepius paradoxus was remapped to 'Idiosepiidae' (id=2651629)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Smith, Stephen A., Nerida G. Wilson, Freya E. Goetz, Caitlin Feehery, Sónia C. S. Andrade, Greg W. Rouse, Gonzalo Giribet and Casey W. Dunn. 2011. Resolving the evolutionary relationships of molluscs with phylogenomic tools. Nature 480, 364–367.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Mollusca
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree523
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_421
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2011
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node208841
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Stephen Smith
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1038/nature10526
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node208819
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 802117
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Bipartition RAxML
+adding relationships to licas for children
+Committing nodes: 67
+20:14:17.398 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+	adding Node[2626082] Veneridae 198197 as compatible with Node[2626224]
+		adding Relationship[8922818]
+		adding to root Relationship[8922819]
+	adding Node[2625905] Veneroidea 360877 as compatible with Node[2626224]
+		adding Relationship[8922820]
+		adding to root Relationship[8922821]
+	adding Node[2617386] Veneroida 721798 as compatible with Node[2626224]
+		adding Relationship[8922822]
+		adding to root Relationship[8922823]
+	adding Node[2615562] Heteroconchia 80126 as compatible with Node[2626224]
+		adding Relationship[8922824]
+		adding to root Relationship[8922825]
+	adding Node[2642187] Mytilinae 843902 as compatible with Node[2642503]
+		adding Relationship[8922826]
+		adding to root Relationship[8922827]
+	adding Node[2641644] Mytilidae 1025541 as compatible with Node[2642503]
+		adding Relationship[8922828]
+		adding to root Relationship[8922829]
+	adding Node[2641643] Mytiloidea 325848 as compatible with Node[2642503]
+		adding Relationship[8922830]
+		adding to root Relationship[8922831]
+	adding Node[2641642] Mytiloida 1025542 as compatible with Node[2642503]
+		adding Relationship[8922832]
+		adding to root Relationship[8922833]
+	adding Node[2643720] Ostreidae 975317 as compatible with Node[2644028]
+		adding Relationship[8922834]
+		adding to root Relationship[8922835]
+	adding Node[2643599] Ostreoidea 384891 as compatible with Node[2644028]
+		adding Relationship[8922836]
+		adding to root Relationship[8922837]
+	adding Node[2643598] Ostreoida 975319 as compatible with Node[2644028]
+		adding Relationship[8922838]
+		adding to root Relationship[8922839]
+	adding Node[2719853] Haliotidae 228111 as compatible with Node[2719856]
+		adding Relationship[8922840]
+		adding to root Relationship[8922841]
+	adding Node[2719852] Haliotoidea 522637 as compatible with Node[2719856]
+		adding Relationship[8922842]
+		adding to root Relationship[8922843]
+	adding Node[2614396] Scaphopoda 480061 as compatible with Node[2614768]
+		adding Relationship[8922844]
+		adding to root Relationship[8922845]
+	adding Node[2644425] Pectinoidea 951120 as compatible with Node[2644426]
+		adding Relationship[8922846]
+		adding to root Relationship[8922847]
+	adding Node[2644424] Pectinoida 951119 as compatible with Node[2644426]
+		adding Relationship[8922848]
+		adding to root Relationship[8922849]
+	adding Node[2648689] Coleoidea 7371 as compatible with Node[2648691]
+		adding Relationship[8922850]
+		adding to root Relationship[8922851]
+	adding Node[2649813] Decapodiformes 854107 as compatible with Node[2651626]
+		adding Relationship[8922852]
+		adding to root Relationship[8922853]
+	adding Node[2655677] Caenogastropoda 272321 as compatible with Node[2659469]
+		adding Relationship[8922854]
+		adding to root Relationship[8922855]
+	adding Node[2726322] Heterobranchia 178260 as compatible with Node[2727640]
+		adding Relationship[8922856]
+		adding to root Relationship[8922857]
+		adding Relationship[8922858] from Node[3838856] to Node[3838857]
+		adding Relationship[8922859] from Node[3838857] to Node[2639235]
+		adding Relationship[8922860] from Node[2626082] to Node[2625905]
+		adding Relationship[8922861] from Node[2649813] to Node[2648691]
+		adding Relationship[8922862] from Node[2644425] to Node[2644424]
+		adding Relationship[8922863] from Node[2644424] to Node[2639235]
+		adding Relationship[8922864] from Node[2642187] to Node[2641644]
+		adding Relationship[8922865] from Node[2617386] to Node[2615562]
+		adding Relationship[8922866] from Node[2719852] to Node[2717750]
+		adding Relationship[8922867] from Node[2719853] to Node[2719852]
+		adding Relationship[8922868] from Node[2643599] to Node[2643598]
+		adding Relationship[8922869] from Node[2643598] to Node[2639235]
+		adding Relationship[8922870] from Node[2648691] to Node[2648687]
+		adding Relationship[8922871] from Node[2648691] to Node[2648689]
+		adding Relationship[8922872] from Node[2625905] to Node[2617386]
+		adding Relationship[8922873] from Node[2648689] to Node[2648687]
+		adding Relationship[8922874] from Node[2641642] to Node[2639235]
+		adding Relationship[8922875] from Node[2641643] to Node[2641642]
+		adding Relationship[8922876] from Node[2641644] to Node[2641643]
+		adding Relationship[8922877] from Node[2639235] to Node[3838858]
+		adding Relationship[8922878] from Node[2643720] to Node[2643599]

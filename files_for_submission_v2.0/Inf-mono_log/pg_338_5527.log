@@ -1,0 +1,117 @@
+20:21:47.293 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 23
+pgloadind Processing tree @id "5527"
+pgloadind   tree info number nodes 19
+pgloadind   tree info number edges 18
+pgloadind   tree info ingroup "node952533"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 9
+pgloadind   property added ot:studyPublicationReference "Wang Z., Binder M., & Hibbett D. 2002. A new species of Cudonia based on mophological and molecular data. Mycologia, 94(4): 641-650."
+pgloadind   property added ot:focalCladeOTTTaxonName "Cudonia"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S843"
+pgloadind   property added ot:studyYear "2002"
+pgloadind   property added ot:studyId "pg_338"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/3761715"
+pgloadind   property added ot:tag "ITS"
+pgloadind   property added ot:tag "LSU"
+pgloadind   property added ot:tag "MP"
+pgloadind   property added ot:focalClade "332572"
+pgloadind   property added ot:curatedType "MP, ITS + LSU (rooted)"
+pgloadind   property added ot:inGroupClade "node952533"
+pgloadind   property added ot:tag "MP"
+pgloadind   property added ot:tag "ITS"
+pgloadind   property added ot:tag "LSU"
+pgloadind   property added ot:tag "Choose me"
+pgloadind Processing tree @id "5528"
+pgloadind   tree info number nodes 43
+pgloadind   tree info number edges 42
+pgloadind   tree info ingroup "node952560"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 18
+pgloadind   property added ot:studyPublicationReference "Wang Z., Binder M., & Hibbett D. 2002. A new species of Cudonia based on mophological and molecular data. Mycologia, 94(4): 641-650."
+pgloadind   property added ot:focalCladeOTTTaxonName "Cudonia"
+pgloadind   property added ot:curatorName "Romina Gazis"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S843"
+pgloadind   property added ot:studyYear "2002"
+pgloadind   property added ot:studyId "pg_338"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.2307/3761715"
+pgloadind   property added ot:tag "ITS"
+pgloadind   property added ot:tag "LSU"
+pgloadind   property added ot:tag "MP"
+pgloadind   property added ot:focalClade "332572"
+pgloadind   property added ot:curatedType "MP, LSU (rooted)"
+pgloadind   property added ot:inGroupClade "node952560"
+loading a specific tree: 5527
+skipping tree: 5528
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "5527"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Spathularia flavida" nexsonid "node952537"
+pgloadind       duplicate OTT ID 332571
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Spathularia flavida" nexsonid "node952539"
+pgloadind       duplicate OTT ID 332571
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Spathularia flavida" nexsonid "node952540"
+pgloadind       duplicate OTT ID 332571
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Vibrissea lutea" nexsonid "node952545"
+pgloadind       duplicate OTT ID 3714955
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Vibrissea lutea" nexsonid "node952546"
+pgloadind       duplicate OTT ID 3714955
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Cudonia sichuanensis" nexsonid "node952549"
+pgloadind       duplicate OTT ID 859709
+pgloadind     pruning dups and overlapping name "Spathularia flavida" nexsonid "node952540"
+pgloadind     pruning dups and overlapping name "Cudonia sichuanensis" nexsonid "node952549"
+pgloadind     pruning dups and overlapping name "Vibrissea lutea" nexsonid "node952546"
+pgloadind     pruning dups and overlapping name "Vibrissea lutea" nexsonid "node952545"
+pgloadind     pruning dups and overlapping name "Spathularia flavida" nexsonid "node952539"
+pgloadind     pruning dups and overlapping name "Spathularia flavida" nexsonid "node952537"
+pgloadind   postpruning newick tree "((Cudonia_sichuanensis,Vibrissea_lutea),Spathularia_flavida)"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 859709 taxonomy "Cudonia sichuanensis->Cudonia->Cudoniaceae->Rhytismatales->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node952548"
+pgloadind     taxon mapping OTT ID 3714955 taxonomy "Vibrissea lutea->Vibrissea->Vibrisseaceae->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node952543"
+pgloadind     taxon mapping OTT ID 332571 taxonomy "Spathularia flavida->Spathularia->Cudoniaceae->Rhytismatales->Leotiomycetidae->Leotiomycetes->Sordariomyceta->Leotiomyceta->Pezizomycotina->saccharomyceta->Ascomycota->Dikarya->Fungi->Nucletmycea->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node952536"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "5527"
+pgloadind   Adding tree to graph tree id "5527"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Cudonia sichuanensis was remapped to 'Cudonia' (id=473694)
+	Spathularia flavida was remapped to 'Spathularia' (id=473642)
+	Vibrissea lutea was remapped to 'Vibrisseaceae' (id=463758)
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Wang Z., Binder M., & Hibbett D. 2002. A new species of Cudonia based on mophological and molecular data. Mycologia, 94(4): 641-650.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Cudonia
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2002
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node952533
+Dealing with metadata property: ot:tag
+Adding property 'ot:tag': Choose me
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.2307/3761715
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Romina Gazis
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 332572
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MP, ITS + LSU (rooted)
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_338
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S843
+adding relationships to licas for children
+Committing nodes: 5
+20:22:58.085 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

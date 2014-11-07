@@ -1,0 +1,126 @@
+12:55:38.460 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 18
+pgloadind Processing tree @id "3187"
+pgloadind   tree info number nodes 13
+pgloadind   tree info number edges 12
+pgloadind   tree info ingroup "node644413"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 6
+pgloadind   property added ot:studyPublicationReference "Friar E., Prince L., Roalson E., Mcglaughlin M., Cruse-sanders J., Porter J., & Degroot S. 2006. Ecological speciation in the East Maui-endemic Dubautia (Asteraceae) species. Evolution, 60(9), 1777-1792."
+pgloadind   property added ot:candidateTreeForSynthesis "tree3188"
+pgloadind   property added ot:focalCladeOTTTaxonName "Asteraceae"
+pgloadind   property added ot:curatorName "Jiabin Deng"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1597"
+pgloadind   property added ot:studyYear "2006"
+pgloadind   property added ot:studyId "pg_1581"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1111/j.0014-3820.2006.tb00522.x"
+pgloadind   property added ot:focalClade "46248"
+pgloadind   property added ot:curatedType "Fig. 6B"
+pgloadind   property added ot:inGroupClade "node644413"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode ""
+pgloadind Processing tree @id "3188"
+pgloadind   tree info number nodes 17
+pgloadind   tree info number edges 16
+pgloadind   tree info ingroup "node644424"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 9
+pgloadind   property added ot:studyPublicationReference "Friar E., Prince L., Roalson E., Mcglaughlin M., Cruse-sanders J., Porter J., & Degroot S. 2006. Ecological speciation in the East Maui-endemic Dubautia (Asteraceae) species. Evolution, 60(9), 1777-1792."
+pgloadind   property added ot:candidateTreeForSynthesis "tree3188"
+pgloadind   property added ot:focalCladeOTTTaxonName "Asteraceae"
+pgloadind   property added ot:curatorName "Jiabin Deng"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S1597"
+pgloadind   property added ot:studyYear "2006"
+pgloadind   property added ot:studyId "pg_1581"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1111/j.0014-3820.2006.tb00522.x"
+pgloadind   property added ot:focalClade "46248"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Fig. 6A"
+pgloadind   property added ot:inGroupClade "node644424"
+pgloadind   property added ot:specifiedRoot "node644422"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode ""
+loading a specific tree: 3188
+skipping tree: 3187
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "3188"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Dubautia sp. HNPV03Du" nexsonid "node644432"
+pgloadind       duplicate OTT ID 474338
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Dubautia platyphylla" nexsonid "node644434"
+pgloadind       duplicate OTT ID 933302
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Dubautia reticulata" nexsonid "node644435"
+pgloadind       duplicate OTT ID 134871
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Dubautia sp. HNPV03Du" nexsonid "node644437"
+pgloadind       duplicate OTT ID 474338
+pgloadind     pruning dups and overlapping name "Dubautia sp. HNPV03Du" nexsonid "node644432"
+pgloadind     pruning dups and overlapping name "Dubautia reticulata" nexsonid "node644435"
+pgloadind     pruning dups and overlapping name "Dubautia platyphylla" nexsonid "node644434"
+pgloadind     pruning dups and overlapping name "Dubautia sp. HNPV03Du" nexsonid "node644437"
+pgloadind   postpruning newick tree "(Dubautia_laxa_subsp_hirsuta,(((Dubautia_reticulata,Dubautia_sp_HNPV03Du),Dubautia_platyphylla),Dubautia_waianapanapaensis))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 357685 taxonomy "Dubautia laxa subsp. hirsuta->Dubautia laxa->Dubautia->Madiinae->Madieae->Heliantheae alliance->Asteroideae->Asteraceae->Asterales->campanulids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node644425"
+pgloadind     taxon mapping OTT ID 134871 taxonomy "Dubautia reticulata->Dubautia->Madiinae->Madieae->Heliantheae alliance->Asteroideae->Asteraceae->Asterales->campanulids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node644430"
+pgloadind     taxon mapping OTT ID 474338 taxonomy "Dubautia sp. HNPV03Du->Dubautia->Madiinae->Madieae->Heliantheae alliance->Asteroideae->Asteraceae->Asterales->campanulids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node644431"
+pgloadind     taxon mapping OTT ID 933302 taxonomy "Dubautia platyphylla->Dubautia->Madiinae->Madieae->Heliantheae alliance->Asteroideae->Asteraceae->Asterales->campanulids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node644433"
+pgloadind     taxon mapping OTT ID 761900 taxonomy "Dubautia waianapanapaensis->Dubautia->Madiinae->Madieae->Heliantheae alliance->Asteroideae->Asteraceae->Asterales->campanulids->asterids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node644438"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "3188"
+pgloadind   Adding tree to graph tree id "3188"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Dubautia laxa subsp. hirsuta was remapped to 'Dubautia laxa' (id=3340068)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Friar E., Prince L., Roalson E., Mcglaughlin M., Cruse-sanders J., Porter J., & Degroot S. 2006. Ecological speciation in the East Maui-endemic Dubautia (Asteraceae) species. Evolution, 60(9), 1777-1792.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Asteraceae
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree3188
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': 
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S1597
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_1581
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2006
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node644424
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Jiabin Deng
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1111/j.0014-3820.2006.tb00522.x
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node644422
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 46248
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Fig. 6A
+adding relationships to licas for children
+Committing nodes: 9
+12:56:30.243 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

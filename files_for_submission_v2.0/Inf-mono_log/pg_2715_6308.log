@@ -1,0 +1,247 @@
+21:57:19.578 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 53
+pgloadind Processing tree @id "6307"
+pgloadind   tree info number nodes 89
+pgloadind   tree info number edges 88
+pgloadind   tree info ingroup "node1096961"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 35
+pgloadind   property added ot:studyPublicationReference "Groussin M. 2011. Adaptation to Environmental Temperature is a Major Determinant of Molecular Evolutionary Rates in Archaea. Molecular Biology and Evolution, ."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6308"
+pgloadind   property added ot:focalCladeOTTTaxonName "Archaea"
+pgloadind   property added ot:curatorName "Dail Laughinghouse"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S11359"
+pgloadind   property added ot:studyYear "2011"
+pgloadind   property added ot:studyId "pg_2715"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1093/molbev/msr098"
+pgloadind   property added ot:focalClade "996421"
+pgloadind   property added ot:curatedType "PAUP 1"
+pgloadind   property added ot:inGroupClade "node1096961"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+pgloadind Processing tree @id "6308"
+pgloadind   tree info number nodes 89
+pgloadind   tree info number edges 88
+pgloadind   tree info ingroup "node1097050"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 35
+pgloadind   property added ot:studyPublicationReference "Groussin M. 2011. Adaptation to Environmental Temperature is a Major Determinant of Molecular Evolutionary Rates in Archaea. Molecular Biology and Evolution, ."
+pgloadind   property added ot:candidateTreeForSynthesis "tree6308"
+pgloadind   property added ot:focalCladeOTTTaxonName "Archaea"
+pgloadind   property added ot:curatorName "Dail Laughinghouse"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S11359"
+pgloadind   property added ot:studyYear "2011"
+pgloadind   property added ot:studyId "pg_2715"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1093/molbev/msr098"
+pgloadind   property added ot:focalClade "996421"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "PAUP 1"
+pgloadind   property added ot:inGroupClade "node1097050"
+pgloadind   property added ot:specifiedRoot "node1097030"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 6308
+skipping tree: 6307
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6308"
+pgloadind     OTT ID missing name "Uncultured marine crenarchaeote KM3-34-D9" nexsonid "node1097084"
+pgloadind     OTT ID missing name "Uncultured crenarchaeote 74A4" nexsonid "node1097088"
+pgloadind     pruning unmapped name "Uncultured crenarchaeote 74A4" nexsonid "node1097088"
+pgloadind     pruning unmapped name "Uncultured marine crenarchaeote KM3-34-D9" nexsonid "node1097084"
+pgloadind   postpruning newick tree "(((Archaeoglobus_fulgidus_DSM_4304,(Nanoarchaeum_equitans,(Methanopyrus_kandleri_AV19,(Thermococcus_kodakarensis_KOD1,Pyrococcus_abyssi_GE5)))),(Candidatus_Korarchaeum,((Thermofilum_pendens_Hrk_5,(Caldivirga_maquilingensis_IC-167,(Pyrobaculum_neutrophilum_V24Sta,Pyrobaculum_arsenaticum_DSM_13514))),((Metallosphaera_sedula_DSM_5348,Sulfolobus_acidocaldarius_DSM_639),(Ignicoccus_hospitalis_KIN4_I,(Aeropyrum_pernix_K1,(Desulfurococcus_kamchatkensis,Staphylothermus_marinus_F1))))))),(((Picrophilus_torridus_DSM_9790,Thermoplasma_volcanium_GSS1),(((Methanobrevibacter_smithii_ATCC_35061,Methanothermobacter_thermautotrophicus_str_Delta_H),(Methanocaldococcus_jannaschii_DSM_2661,(Methanococcus_maripaludis_S2,Methanococcus_voltae_A3))),((Halobacterium_salinarum_R1,(Halorubrum_lacusprofundi_ATCC_49239,Haloarcula_marismortui_ATCC_43049)),((Methanospirillum_hungatei_JF-1,Methanocorpusculum_labreanum_Z),(Methanosaeta_thermophila_PT,(Methanosarcina_barkeri_str_Fusaro,Methanococcoides_burtonii_DSM_6242)))))),(Cenarchaeum_symbiosum,Nitrosopumilus_maritimus_SCM1)))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 1068682 taxonomy "Archaeoglobus fulgidus DSM 4304->Archaeoglobus->Archaeoglobaceae->Archaeoglobales->Archaeoglobi->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097053"
+pgloadind     taxon mapping OTT ID 395935 taxonomy "Nanoarchaeum equitans->Nanoarchaeum->Nanoarchaeota->Archaea->cellular organisms->life" nexsonid "node1097055"
+pgloadind     taxon mapping OTT ID 530972 taxonomy "Methanopyrus kandleri AV19->Methanopyrus->Methanopyraceae->Methanopyrales->Methanopyri->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097057"
+pgloadind     taxon mapping OTT ID 157679 taxonomy "Thermococcus kodakarensis KOD1->Thermococcus kodakarensis->Thermococcus->Thermococcaceae->Thermococcales->Thermococci->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097059"
+pgloadind     taxon mapping OTT ID 1042844 taxonomy "Pyrococcus abyssi GE5->Pyrococcus abyssi->Pyrococcus->Thermococcaceae->Thermococcales->Thermococci->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097060"
+pgloadind     taxon mapping OTT ID 88562 taxonomy "Candidatus Korarchaeum->Korarchaeota->Archaea->cellular organisms->life" nexsonid "node1097062"
+pgloadind     taxon mapping OTT ID 1011417 taxonomy "Thermofilum pendens Hrk 5->Thermofilum->Thermofilaceae->Thermoproteales->Thermoprotei->Crenarchaeota->Archaea->cellular organisms->life" nexsonid "node1097065"
+pgloadind     taxon mapping OTT ID 176389 taxonomy "Caldivirga maquilingensis IC-167->Caldivirga->Thermoproteaceae->Thermoproteales->Thermoprotei->Crenarchaeota->Archaea->cellular organisms->life" nexsonid "node1097067"
+pgloadind     taxon mapping OTT ID 430176 taxonomy "Pyrobaculum neutrophilum V24Sta->Thermoproteus->Thermoproteaceae->Thermoproteales->Thermoprotei->Crenarchaeota->Archaea->cellular organisms->life" nexsonid "node1097069"
+pgloadind     taxon mapping OTT ID 979009 taxonomy "Pyrobaculum arsenaticum DSM 13514->Pyrobaculum->Thermoproteaceae->Thermoproteales->Thermoprotei->Crenarchaeota->Archaea->cellular organisms->life" nexsonid "node1097070"
+pgloadind     taxon mapping OTT ID 50715 taxonomy "Metallosphaera sedula DSM 5348->Metallosphaera sedula->Metallosphaera->Sulfolobaceae->Sulfolobales->Thermoprotei->Crenarchaeota->Archaea->cellular organisms->life" nexsonid "node1097073"
+pgloadind     taxon mapping OTT ID 958859 taxonomy "Sulfolobus acidocaldarius DSM 639->Sulfolobus->Sulfolobaceae->Sulfolobales->Thermoprotei->Crenarchaeota->Archaea->cellular organisms->life" nexsonid "node1097074"
+pgloadind     taxon mapping OTT ID 178943 taxonomy "Ignicoccus hospitalis KIN4/I->Ignicoccus hospitalis->Ignicoccus->Desulfurococcaceae->Desulfurococcales->Thermoprotei->Crenarchaeota->Archaea->cellular organisms->life" nexsonid "node1097076"
+pgloadind     taxon mapping OTT ID 327688 taxonomy "Aeropyrum pernix K1->Aeropyrum pernix->Aeropyrum->Desulfurococcaceae->Desulfurococcales->Thermoprotei->Crenarchaeota->Archaea->cellular organisms->life" nexsonid "node1097078"
+pgloadind     taxon mapping OTT ID 1034469 taxonomy "Desulfurococcus kamchatkensis->Desulfurococcus->Desulfurococcaceae->Desulfurococcales->Thermoprotei->Crenarchaeota->Archaea->cellular organisms->life" nexsonid "node1097080"
+pgloadind     taxon mapping OTT ID 400531 taxonomy "Staphylothermus marinus F1->Staphylothermus marinus->Staphylothermus->Desulfurococcaceae->Desulfurococcales->Thermoprotei->Crenarchaeota->Archaea->cellular organisms->life" nexsonid "node1097081"
+pgloadind     taxon mapping OTT ID 639748 taxonomy "Picrophilus torridus DSM 9790->Picrophilus torridus->Picrophilus->Picrophilaceae->Thermoplasmatales->Thermoplasmata->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097092"
+pgloadind     taxon mapping OTT ID 258360 taxonomy "Thermoplasma volcanium GSS1->Thermoplasma->Thermoplasmataceae->Thermoplasmatales->Thermoplasmata->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097093"
+pgloadind     taxon mapping OTT ID 585976 taxonomy "Methanobrevibacter smithii ATCC 35061->Methanobrevibacter smithii->Methanobrevibacter->Methanobacteriaceae->Methanobacteriales->Methanobacteria->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097097"
+pgloadind     taxon mapping OTT ID 901163 taxonomy "Methanothermobacter thermautotrophicus str. Delta H->Methanothermobacter thermautotrophicus->Methanothermobacter->Methanobacteriaceae->Methanobacteriales->Methanobacteria->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097098"
+pgloadind     taxon mapping OTT ID 103403 taxonomy "Methanocaldococcus jannaschii DSM 2661->Methanocaldococcus->Methanocaldococcaceae->Methanococcales->Methanococci->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097100"
+pgloadind     taxon mapping OTT ID 180467 taxonomy "Methanococcus maripaludis S2->Methanococcus maripaludis->Methanococcus->Methanococcaceae->Methanococcales->Methanococci->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097102"
+pgloadind     taxon mapping OTT ID 381805 taxonomy "Methanococcus voltae A3->Methanococcus voltae->Methanococcus->Methanococcaceae->Methanococcales->Methanococci->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097103"
+pgloadind     taxon mapping OTT ID 609756 taxonomy "Halobacterium salinarum R1->Halobacterium->Halobacteriaceae->Halobacteriales->Halobacteria->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097106"
+pgloadind     taxon mapping OTT ID 980056 taxonomy "Halorubrum lacusprofundi ATCC 49239->Halorubrum lacusprofundi->Halorubrum->Halobacteriaceae->Halobacteriales->Halobacteria->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097108"
+pgloadind     taxon mapping OTT ID 953185 taxonomy "Haloarcula marismortui ATCC 43049->Haloarcula->Halobacteriaceae->Halobacteriales->Halobacteria->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097109"
+pgloadind     taxon mapping OTT ID 721953 taxonomy "Methanospirillum hungatei JF-1->Methanospirillum->Methanospirillaceae->Methanomicrobiales->Methanomicrobia->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097112"
+pgloadind     taxon mapping OTT ID 661565 taxonomy "Methanocorpusculum labreanum Z->Methanocorpusculum->Methanocorpusculaceae->Methanomicrobiales->Methanomicrobia->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097113"
+pgloadind     taxon mapping OTT ID 833382 taxonomy "Methanosaeta thermophila PT->Methanosaeta thermophila->Methanosaeta->Methanosaetaceae->Methanosarcinales->Methanomicrobia->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097115"
+pgloadind     taxon mapping OTT ID 672383 taxonomy "Methanosarcina barkeri str. Fusaro->Methanosarcina->Methanosarcinaceae->Methanosarcinales->Methanomicrobia->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097117"
+pgloadind     taxon mapping OTT ID 512478 taxonomy "Methanococcoides burtonii DSM 6242->Methanococcoides->Methanosarcinaceae->Methanosarcinales->Methanomicrobia->Euryarchaeota->Archaea->cellular organisms->life" nexsonid "node1097118"
+pgloadind     taxon mapping OTT ID 363497 taxonomy "Cenarchaeum symbiosum->Cenarchaeum->Cenarchaeaceae->Cenarchaeales->Marine Group I->Thaumarchaeota->Archaea->cellular organisms->life" nexsonid "node1097086"
+pgloadind     taxon mapping OTT ID 922115 taxonomy "Nitrosopumilus maritimus SCM1->Nitrosopumilus maritimus->Candidatus Nitrosopumilus->Order Incertae Sedis->Marine Group I->Thaumarchaeota->Archaea->cellular organisms->life" nexsonid "node1097089"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6308"
+pgloadind   Adding tree to graph tree id "6308"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Candidatus Korarchaeum was remapped to 'Korarchaeota' (id=374766)
+	Cenarchaeum symbiosum was remapped to 'Cenarchaeales' (id=380872)
+	Methanococcus voltae A3 was remapped to 'Methanococcus voltae' (id=380440)
+	Methanosaeta thermophila PT was remapped to 'Methanosaetaceae' (id=379148)
+	Archaeoglobus fulgidus DSM 4304 was remapped to 'Archaeoglobi' (id=380602)
+	Nanoarchaeum equitans was remapped to 'Nanoarchaeota' (id=374750)
+	Caldivirga maquilingensis IC-167 was remapped to 'Caldivirga' (id=381314)
+	Pyrobaculum neutrophilum V24Sta was remapped to 'Thermoproteus' (id=381336)
+	Pyrococcus abyssi GE5 was remapped to 'Pyrococcus' (id=378519)
+	Metallosphaera sedula DSM 5348 was remapped to 'Metallosphaera' (id=381502)
+	Picrophilus torridus DSM 9790 was remapped to 'Picrophilaceae' (id=379636)
+	Haloarcula marismortui ATCC 43049 was remapped to 'Haloarcula' (id=375395)
+	Halobacterium salinarum R1 was remapped to 'Halobacterium' (id=377193)
+	Methanothermobacter thermautotrophicus str. Delta H was remapped to 'Methanothermobacter' (id=380215)
+	Aeropyrum pernix K1 was remapped to 'Aeropyrum' (id=381125)
+	Thermoplasma volcanium GSS1 was remapped to 'Thermoplasmataceae' (id=379737)
+	Methanocorpusculum labreanum Z was remapped to 'Methanocorpusculaceae' (id=379102)
+	Methanococcus maripaludis S2 was remapped to 'Methanococcus maripaludis' (id=380457)
+	Sulfolobus acidocaldarius DSM 639 was remapped to 'Sulfolobus' (id=381587)
+	Nitrosopumilus maritimus SCM1 was remapped to 'Order Incertae Sedis' (id=380957)
+	Ignicoccus hospitalis KIN4/I was remapped to 'Ignicoccus' (id=381200)
+	Thermococcus kodakarensis KOD1 was remapped to 'Thermococcus' (id=378095)
+	Desulfurococcus kamchatkensis was remapped to 'Desulfurococcus' (id=381233)
+	Staphylothermus marinus F1 was remapped to 'Staphylothermus' (id=381174)
+	Methanospirillum hungatei JF-1 was remapped to 'Methanospirillaceae' (id=379031)
+	Halorubrum lacusprofundi ATCC 49239 was remapped to 'Halorubrum' (id=376138)
+	Pyrobaculum arsenaticum DSM 13514 was remapped to 'Pyrobaculum' (id=381395)
+	Thermofilum pendens Hrk 5 was remapped to 'Thermofilaceae' (id=381437)
+	Methanosarcina barkeri str. Fusaro was remapped to 'Methanosarcina' (id=379411)
+	Methanopyrus kandleri AV19 was remapped to 'Methanopyri' (id=379607)
+	Methanobrevibacter smithii ATCC 35061 was remapped to 'Methanobrevibacter' (id=380021)
+	Methanococcoides burtonii DSM 6242 was remapped to 'Methanococcoides' (id=379298)
+	Methanocaldococcus jannaschii DSM 2661 was remapped to 'Methanocaldococcaceae' (id=380527)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Groussin M. 2011. Adaptation to Environmental Temperature is a Major Determinant of Molecular Evolutionary Rates in Archaea. Molecular Biology and Evolution, .
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Archaea
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree6308
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S11359
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2715
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2011
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1097050
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Dail Laughinghouse
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1093/molbev/msr098
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1097030
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 996421
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': PAUP 1
+adding relationships to licas for children
+Committing nodes: 65
+21:58:13.016 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+	adding Node[374788] Halobacteriales 366302 as compatible with Node[374865]
+		adding Relationship[8922826]
+		adding to root Relationship[8922827]
+	adding Node[374787] Halobacteria 921404 as compatible with Node[374865]
+		adding Relationship[8922828]
+		adding to root Relationship[8922829]
+	adding Node[378093] Thermococcales 517018 as compatible with Node[378094]
+		adding Relationship[8922830]
+		adding to root Relationship[8922831]
+	adding Node[378091] Thermococci 921413 as compatible with Node[378094]
+		adding Relationship[8922832]
+		adding to root Relationship[8922833]
+	adding Node[379618] Thermoplasmata 921398 as compatible with Node[379622]
+		adding Relationship[8922834]
+		adding to root Relationship[8922835]
+	adding Node[380005] Methanobacteriales 349564 as compatible with Node[380020]
+		adding Relationship[8922836]
+		adding to root Relationship[8922837]
+	adding Node[380003] Methanobacteria 820302 as compatible with Node[380020]
+		adding Relationship[8922838]
+		adding to root Relationship[8922839]
+	adding Node[380425] Methanococcaceae 565089 as compatible with Node[380426]
+		adding Relationship[8922840]
+		adding to root Relationship[8922841]
+	adding Node[380422] Methanococci 295896 as compatible with Node[380424]
+		adding Relationship[8922842]
+		adding to root Relationship[8922843]
+	adding Node[380689] Thaumarchaeota 102415 as compatible with Node[380828]
+		adding Relationship[8922844]
+		adding to root Relationship[8922845]
+	adding Node[381122] Desulfurococcales 857129 as compatible with Node[381124]
+		adding Relationship[8922846]
+		adding to root Relationship[8922847]
+	adding Node[381114] Crenarchaeota 114216 as compatible with Node[381119]
+		adding Relationship[8922848]
+		adding to root Relationship[8922849]
+	adding Node[381492] Sulfolobales 98100 as compatible with Node[381493]
+		adding Relationship[8922850]
+		adding to root Relationship[8922851]
+		adding Relationship[8922852] from Node[380005] to Node[380003]
+		adding Relationship[8922853] from Node[374788] to Node[374787]
+		adding Relationship[8922854] from Node[380425] to Node[380424]
+		adding Relationship[8922855] from Node[380424] to Node[3838863]
+		adding Relationship[8922856] from Node[380424] to Node[380422]
+		adding Relationship[8922857] from Node[378093] to Node[378091]
+		adding Relationship[8922858] from Node[3838867] to Node[3838868]

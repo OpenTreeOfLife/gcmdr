@@ -1,0 +1,235 @@
+11:58:25.649 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 130
+pgloadind Processing tree @id "6740"
+pgloadind   tree info number nodes 221
+pgloadind   tree info number edges 220
+pgloadind   tree info ingroup "node1171178"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 90
+pgloadind   property added ot:studyPublicationReference "Souza E.R., Lewis G.P., Forest F., Schnadelbach A.S., Van den berg C., & Queiroz L.P. 2013. Phylogeny of Calliandra (Leguminosae: Mimosoideae) based on nuclear and plastid molecular markers. TAXON, 62(6): 1201-1220."
+pgloadind   property added ot:focalCladeOTTTaxonName "Calliandra"
+pgloadind   property added ot:curatorName "bryan drew"
+pgloadind   property added ot:curatorName "Stephen Smith"
+pgloadind   property added ot:dataDeposit "http://purl.org/phylo/treebase/phylows/study/TB2:S14957"
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:studyYear "2013"
+pgloadind   property added ot:studyId "pg_2912"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.12705/626.2"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "809556"
+pgloadind   property added ot:unrootedTree "true"
+pgloadind   property added ot:curatedType "MajRule"
+pgloadind   property added ot:inGroupClade "node1171178"
+pgloadind   property added ot:specifiedRoot ""
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+pgloadind   property added ot:branchLengthMode "ot:substitutionCount"
+loading a specific tree: 6740
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "6740"
+pgloadind   all nodes have ottIds
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Calliandra" nexsonid "node1171193"
+pgloadind       duplicate OTT ID 809556
+pgloadind     OTT ID reused in tree
+pgloadind       duplicate name "Calliandra" nexsonid "node1171210"
+pgloadind       duplicate OTT ID 809556
+pgloadind     overlapping tips
+pgloadind       overlapping retained name "Calliandra asplenioides" nexsonid "node1171180"
+pgloadind       overlapping pruned name "Calliandra" nexsonid "node1171192"
+pgloadind     pruning dups and overlapping name "Calliandra" nexsonid "node1171210"
+pgloadind     pruning dups and overlapping name "Calliandra" nexsonid "node1171193"
+pgloadind     pruning dups and overlapping name "Calliandra" nexsonid "node1171192"
+pgloadind   postpruning newick tree "((Calliandra_asplenioides,Calliandra_bahiana,Calliandra_coccinea,Calliandra_crassipes,Calliandra_feioana,Calliandra_hygrophila,Calliandra_lanata,Calliandra_longipinna,Calliandra_luetzelburgii,Calliandra_mucugeana,Calliandra_renvoizeana,Calliandra_semisepulta,(Calliandra_debilis,Calliandra_viscidula),(Calliandra_erubescens,Calliandra_nebulosa),(Calliandra_fasciculata,Calliandra_iligna),(Calliandra_calycina,Calliandra_cumbucana,Calliandra_hirtiflora,Calliandra_lintea,Calliandra_paterna,Calliandra_sincorana)),(((Calliandra_haematomma,Calliandra_pedicellata),(Calliandra_physocalyx,(Calliandra_houstoniana,Calliandra_palmeri))),(((Calliandra_tsugoides,Calliandra_vaupesiana),(Calliandra_dolichopoda,(Calliandra_biflora,Calliandra_eriophylla),(Calliandra_californica,Calliandra_hirsuta))),(((Calliandra_chilensis,Calliandra_humilis),((Calliandra_aeschynomenoides,Calliandra_leptopoda),(Calliandra_depauperata,Calliandra_parviflora))),(((Calliandra_cruegeri,Calliandra_tergemina),((Calliandra_purdiei,Calliandra_taxifolia,Calliandra_tumbeziana),((Calliandra_glomerulata,Calliandra_pittieri),(Calliandra_riparia,(Calliandra_guildingii,Calliandra_haematocephala,(Calliandra_mollissima,(Calliandra_angustifolia,Calliandra_trinervia))),((Calliandra_surinamensis,Calliandra_virgata),(Calliandra_coriacea,Calliandra_purpurea,(Calliandra_belizensis,Calliandra_magdalenae))))))),((Calliandra_sessilis,Calliandra_spinosa),((((Calliandra_brenesii,Calliandra_rhodocephala),(Calliandra_hintonii,Calliandra_laevis)),(Calliandra_caeciliae,(Calliandra_tehuantepecensis,(Calliandra_molinae,(Calliandra_goldmanii,(Calliandra_laxa,Calliandra_rubescens)))))),(Calliandra_bella,Calliandra_pilgerana,(Calliandra_ulei,(Calliandra_dysantha,Calliandra_macrocalyx)),(Calliandra_blanchetii,Calliandra_brevipes,Calliandra_harrisii,Calliandra_longipes,Calliandra_parvifolia,Calliandra_silvicola,Calliandra_umbellifera,(Calliandra_brevicaulis,Calliandra_tweedii))))))))))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 3919553 taxonomy "Calliandra asplenioides->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171180"
+pgloadind     taxon mapping OTT ID 3919574 taxonomy "Calliandra bahiana->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171181"
+pgloadind     taxon mapping OTT ID 3919565 taxonomy "Calliandra coccinea->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171182"
+pgloadind     taxon mapping OTT ID 3919559 taxonomy "Calliandra crassipes->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171183"
+pgloadind     taxon mapping OTT ID 3919572 taxonomy "Calliandra feioana->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171184"
+pgloadind     taxon mapping OTT ID 3919524 taxonomy "Calliandra hygrophila->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171185"
+pgloadind     taxon mapping OTT ID 3919552 taxonomy "Calliandra lanata->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171186"
+pgloadind     taxon mapping OTT ID 3919513 taxonomy "Calliandra longipinna->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171187"
+pgloadind     taxon mapping OTT ID 3919515 taxonomy "Calliandra luetzelburgii->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171188"
+pgloadind     taxon mapping OTT ID 3919454 taxonomy "Calliandra mucugeana->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171189"
+pgloadind     taxon mapping OTT ID 3919489 taxonomy "Calliandra renvoizeana->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171190"
+pgloadind     taxon mapping OTT ID 3919478 taxonomy "Calliandra semisepulta->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171191"
+pgloadind     taxon mapping OTT ID 3919456 taxonomy "Calliandra debilis->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171195"
+pgloadind     taxon mapping OTT ID 3919490 taxonomy "Calliandra viscidula->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171196"
+pgloadind     taxon mapping OTT ID 3919558 taxonomy "Calliandra erubescens->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171198"
+pgloadind     taxon mapping OTT ID 3919545 taxonomy "Calliandra nebulosa->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171199"
+pgloadind     taxon mapping OTT ID 3919474 taxonomy "Calliandra fasciculata->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171201"
+pgloadind     taxon mapping OTT ID 3919481 taxonomy "Calliandra iligna->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171202"
+pgloadind     taxon mapping OTT ID 3919462 taxonomy "Calliandra calycina->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171204"
+pgloadind     taxon mapping OTT ID 3919467 taxonomy "Calliandra cumbucana->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171205"
+pgloadind     taxon mapping OTT ID 3919526 taxonomy "Calliandra hirtiflora->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171206"
+pgloadind     taxon mapping OTT ID 3919536 taxonomy "Calliandra lintea->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171207"
+pgloadind     taxon mapping OTT ID 3919571 taxonomy "Calliandra paterna->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171208"
+pgloadind     taxon mapping OTT ID 3919501 taxonomy "Calliandra sincorana->Calliandra sect. Monticola->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171209"
+pgloadind     taxon mapping OTT ID 3919560 taxonomy "Calliandra haematomma->Calliandra sect. Calliandra->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171214"
+pgloadind     taxon mapping OTT ID 3919484 taxonomy "Calliandra pedicellata->Calliandra sect. Calliandra->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171215"
+pgloadind     taxon mapping OTT ID 33832 taxonomy "Calliandra physocalyx->Calliandra sect. Calliandra->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171217"
+pgloadind     taxon mapping OTT ID 705630 taxonomy "Calliandra houstoniana->Calliandra sect. Calliandra->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171219"
+pgloadind     taxon mapping OTT ID 3919468 taxonomy "Calliandra palmeri->Calliandra sect. Calliandra->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171220"
+pgloadind     taxon mapping OTT ID 3919532 taxonomy "Calliandra tsugoides->Calliandra sect. Tsugoideae->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171224"
+pgloadind     taxon mapping OTT ID 3919527 taxonomy "Calliandra vaupesiana->Calliandra sect. Tsugoideae->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171225"
+pgloadind     taxon mapping OTT ID 5336469 taxonomy "Calliandra dolichopoda->Calliandra sect. Septentrionales->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171227"
+pgloadind     taxon mapping OTT ID 3919519 taxonomy "Calliandra biflora->Calliandra sect. Septentrionales->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171229"
+pgloadind     taxon mapping OTT ID 563657 taxonomy "Calliandra eriophylla->Calliandra sect. Septentrionales->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171230"
+pgloadind     taxon mapping OTT ID 394353 taxonomy "Calliandra californica->Calliandra sect. Septentrionales->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171232"
+pgloadind     taxon mapping OTT ID 653429 taxonomy "Calliandra hirsuta->Calliandra sect. Septentrionales->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171233"
+pgloadind     taxon mapping OTT ID 3919562 taxonomy "Calliandra chilensis->Calliandra sect. Microcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171237"
+pgloadind     taxon mapping OTT ID 3919554 taxonomy "Calliandra humilis->Calliandra sect. Microcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171238"
+pgloadind     taxon mapping OTT ID 3919509 taxonomy "Calliandra aeschynomenoides->Calliandra sect. Microcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171241"
+pgloadind     taxon mapping OTT ID 3919463 taxonomy "Calliandra leptopoda->Calliandra sect. Microcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171242"
+pgloadind     taxon mapping OTT ID 3919479 taxonomy "Calliandra depauperata->Calliandra sect. Microcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171244"
+pgloadind     taxon mapping OTT ID 3919492 taxonomy "Calliandra parviflora->Calliandra sect. Microcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171245"
+pgloadind     taxon mapping OTT ID 3919538 taxonomy "Calliandra cruegeri->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171249"
+pgloadind     taxon mapping OTT ID 309588 taxonomy "Calliandra tergemina->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171250"
+pgloadind     taxon mapping OTT ID 3919475 taxonomy "Calliandra purdiei->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171253"
+pgloadind     taxon mapping OTT ID 3919505 taxonomy "Calliandra taxifolia->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171254"
+pgloadind     taxon mapping OTT ID 3919539 taxonomy "Calliandra tumbeziana->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171255"
+pgloadind     taxon mapping OTT ID 3919557 taxonomy "Calliandra glomerulata->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171258"
+pgloadind     taxon mapping OTT ID 1092194 taxonomy "Calliandra pittieri->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171259"
+pgloadind     taxon mapping OTT ID 3919555 taxonomy "Calliandra riparia->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171261"
+pgloadind     taxon mapping OTT ID 3919514 taxonomy "Calliandra guildingii->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171263"
+pgloadind     taxon mapping OTT ID 883996 taxonomy "Calliandra haematocephala->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171264"
+pgloadind     taxon mapping OTT ID 3919525 taxonomy "Calliandra mollissima->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171266"
+pgloadind     taxon mapping OTT ID 3919579 taxonomy "Calliandra angustifolia->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171268"
+pgloadind     taxon mapping OTT ID 1057438 taxonomy "Calliandra trinervia->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171269"
+pgloadind     taxon mapping OTT ID 33836 taxonomy "Calliandra surinamensis->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171272"
+pgloadind     taxon mapping OTT ID 3919502 taxonomy "Calliandra virgata->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171273"
+pgloadind     taxon mapping OTT ID 3919503 taxonomy "Calliandra coriacea->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171275"
+pgloadind     taxon mapping OTT ID 3919569 taxonomy "Calliandra purpurea->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171276"
+pgloadind     taxon mapping OTT ID 3919504 taxonomy "Calliandra belizensis->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171278"
+pgloadind     taxon mapping OTT ID 3919561 taxonomy "Calliandra magdalenae->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171279"
+pgloadind     taxon mapping OTT ID 3919471 taxonomy "Calliandra sessilis->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171282"
+pgloadind     taxon mapping OTT ID 3919477 taxonomy "Calliandra spinosa->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171283"
+pgloadind     taxon mapping OTT ID 884111 taxonomy "Calliandra brenesii->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171288"
+pgloadind     taxon mapping OTT ID 905294 taxonomy "Calliandra rhodocephala->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171289"
+pgloadind     taxon mapping OTT ID 3919544 taxonomy "Calliandra hintonii->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171291"
+pgloadind     taxon mapping OTT ID 3919578 taxonomy "Calliandra laevis->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171292"
+pgloadind     taxon mapping OTT ID 3919466 taxonomy "Calliandra caeciliae->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171294"
+pgloadind     taxon mapping OTT ID 5336468 taxonomy "Calliandra tehuantepecensis->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171296"
+pgloadind     taxon mapping OTT ID 3919491 taxonomy "Calliandra molinae->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171298"
+pgloadind     taxon mapping OTT ID 3919551 taxonomy "Calliandra goldmanii->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171300"
+pgloadind     taxon mapping OTT ID 3919483 taxonomy "Calliandra laxa->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171302"
+pgloadind     taxon mapping OTT ID 884108 taxonomy "Calliandra rubescens->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171303"
+pgloadind     taxon mapping OTT ID 3919530 taxonomy "Calliandra bella->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171305"
+pgloadind     taxon mapping OTT ID 3919522 taxonomy "Calliandra pilgerana->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171306"
+pgloadind     taxon mapping OTT ID 3919461 taxonomy "Calliandra ulei->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171308"
+pgloadind     taxon mapping OTT ID 857001 taxonomy "Calliandra dysantha->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171310"
+pgloadind     taxon mapping OTT ID 3919580 taxonomy "Calliandra macrocalyx->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171311"
+pgloadind     taxon mapping OTT ID 3919486 taxonomy "Calliandra blanchetii->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171313"
+pgloadind     taxon mapping OTT ID 3919498 taxonomy "Calliandra brevipes->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171314"
+pgloadind     taxon mapping OTT ID 3919547 taxonomy "Calliandra harrisii->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171315"
+pgloadind     taxon mapping OTT ID 3919482 taxonomy "Calliandra longipes->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171316"
+pgloadind     taxon mapping OTT ID 3919469 taxonomy "Calliandra parvifolia->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171317"
+pgloadind     taxon mapping OTT ID 3919573 taxonomy "Calliandra silvicola->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171318"
+pgloadind     taxon mapping OTT ID 3919533 taxonomy "Calliandra umbellifera->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171319"
+pgloadind     taxon mapping OTT ID 3919576 taxonomy "Calliandra brevicaulis->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171321"
+pgloadind     taxon mapping OTT ID 3919495 taxonomy "Calliandra tweedii->Calliandra sect. Androcallis->Calliandra->Ingeae->Mimosoideae->Fabaceae->Fabales->fabids->rosids->Pentapetalae->Gunneridae->eudicotyledons->Mesangiospermae->Magnoliophyta->Spermatophyta->Euphyllophyta->Tracheophyta->Embryophyta->Streptophyta->Chloroplastida->Archaeplastida->Eukaryota->cellular organisms->life" nexsonid "node1171322"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "6740"
+pgloadind   Adding tree to graph tree id "6740"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Souza E.R., Lewis G.P., Forest F., Schnadelbach A.S., Van den berg C., & Queiroz L.P. 2013. Phylogeny of Calliandra (Leguminosae: Mimosoideae) based on nuclear and plastid molecular markers. TAXON, 62(6): 1201-1220.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Calliandra
+Dealing with metadata property: ot:branchLengthMode
+Adding property 'ot:branchLengthMode': ot:substitutionCount
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': http://purl.org/phylo/treebase/phylows/study/TB2:S14957
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': pg_2912
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 2013
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node1171178
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Stephen Smith
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.12705/626.2
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': 
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': true
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 809556
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': MajRule
+adding relationships to licas for children
+Committing nodes: 142
+11:59:17.219 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.

@@ -1,0 +1,276 @@
+19:50:29.006 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+pgloadind OTUs number 55
+pgloadind Processing tree @id "1"
+pgloadind   tree info number nodes 103
+pgloadind   tree info number edges 102
+pgloadind   tree info ingroup "node2"
+pgloadind   Setting ingroup root node.
+pgloadind   Ingested tree number of external nodes 53
+pgloadind   property added ot:studyPublicationReference "Blaxter, Mark L., Paul De Ley, James R. Garey, Leo X. Liu, Patsy Scheldeman, Andy Vierstraete, Jacques R. Vanfleteren, Laura Y. Mackey, Mark Dorris, Linda M. Frisse, J. T. Vida, W. Kelley Thomas. 1998. A molecular evolutionary framework for the phylum Nematoda. Nature 392 (6671): 71-75."
+pgloadind   property added ot:candidateTreeForSynthesis "tree1"
+pgloadind   property added ot:focalCladeOTTTaxonName "Nematoda"
+pgloadind   property added ot:studyPublication "http://dx.doi.org/10.1038/32160"
+pgloadind   property added ot:dataDeposit ""
+pgloadind   property added ot:notIntendedForSynthesis "false"
+pgloadind   property added ot:curatorName "Joseph W. Brown"
+pgloadind   property added ot:studyYear "1998"
+pgloadind   property added ot:studyId "ot_182"
+pgloadind   property added ot:comment ""
+pgloadind   property added ot:focalClade "395057"
+pgloadind   property added ot:unrootedTree "false"
+pgloadind   property added ot:curatedType "Maximum parsimony "
+pgloadind   property added ot:nearestTaxonMRCAOttId "395057"
+pgloadind   property added ot:inGroupClade "node2"
+pgloadind   property added ot:nearestTaxonMRCAName "Nematoda"
+pgloadind   property added ot:specifiedRoot "node1"
+pgloadind   property added ot:outGroupEdge ""
+pgloadind   property added ot:branchLengthTimeUnit ""
+pgloadind   property added ot:branchLengthDescription ""
+loading a specific tree: 1
+pgloadind fixing names in trees
+pgloadind   name fixing on tree tree id "1"
+pgloadind   all nodes have ottIds
+pgloadind   postpruning newick tree "((((((((((Ascaris_suum,Anisakis,Toxocara_canis),(Brugia_malayi,Dirofilaria_immitis),Philonema,Brumptaemilius_justini),Dentostomella),((((((Panagrellus_redivivus,Panagrolaimus),(Strongyloides_stercoralis,Strongyloides_ratti)),Steinernema_carpocapsae),Bursaphelenchus),(((Globodera_pallida,Meloidogyne_arenaria),Aphelenchus_avenae),(Zeldia_punctata,Acrobeles_complexus))),(((((((((Nippostrongylus_brasiliensis,Ostertagia_ostertagi),Haemonchus_contortus),Syngamus_trachea),Heterorhabditis_bacteriophora),(Pellioditis_typica,Dolichorhabditis),Rhabditella_axei),Rhabditis_blumi),((Caenorhabditis_briggsae,Caenorhabditis_elegans),Diploscapter)),((Pristionchus_lheritieri,Pristionchus_pacificus),Aduncospiculum_halicti)),Teratorhabditis_palmarum))),Teratocephalus_lirellus),(Plectus_aquatilis,Plectus_acuminatus)),(Diplolaimelloides_meyli,Bunonema)),Metachromadora),Praeacanthonchus),(((Paratrichodorus_pachydermus,Paratrichodorus_anemones),Trichodorus_primitivus),Prismatolaimus_intermedius),((Longidorus_elongatus,Xiphinema_rivesi),(Mermis_nigrescens,Mylonchulus_arenicolus)),((Trichinella_spiralis,Trichuris_muris),Adoncholaimus))"
+pgloadind   taxon mapping summary
+pgloadind     taxon mapping OTT ID 345758 taxonomy "Ascaris suum->Ascaris->Ascarididae->Ascaridoidea->Ascaridida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node64"
+pgloadind     taxon mapping OTT ID 870365 taxonomy "Anisakis->Anisakidae->Ascaridoidea->Ascaridida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node65"
+pgloadind     taxon mapping OTT ID 870349 taxonomy "Toxocara canis->Toxocara->Toxocaridae->Ascaridoidea->Ascaridida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node66"
+pgloadind     taxon mapping OTT ID 295367 taxonomy "Brugia malayi->Brugia->Onchocercidae->Filarioidea->Spirurida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node68"
+pgloadind     taxon mapping OTT ID 819804 taxonomy "Dirofilaria immitis->Dirofilaria->Onchocercidae->Filarioidea->Spirurida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node69"
+pgloadind     taxon mapping OTT ID 277603 taxonomy "Philonema->Philometridae->Dracunculoidea->Spirurida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node70"
+pgloadind     taxon mapping OTT ID 305826 taxonomy "Brumptaemilius justini->Brumptaemilius->Carnoyidae->Ransomnematoidea->Rhigonematida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node71"
+pgloadind     taxon mapping OTT ID 824124 taxonomy "Dentostomella->Heteroxynematidae->Oxyuroidea->Oxyurida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node72"
+pgloadind     taxon mapping OTT ID 395066 taxonomy "Panagrellus redivivus->Panagrellus->Panagrolaimidae->Panagrolaimoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node45"
+pgloadind     taxon mapping OTT ID 70804 taxonomy "Panagrolaimus->Panagrolaimidae->Panagrolaimoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node46"
+pgloadind     taxon mapping OTT ID 920941 taxonomy "Strongyloides stercoralis->Strongyloides->Strongyloididae->Panagrolaimoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node48"
+pgloadind     taxon mapping OTT ID 1040287 taxonomy "Strongyloides ratti->Strongyloides->Strongyloididae->Panagrolaimoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node49"
+pgloadind     taxon mapping OTT ID 1040298 taxonomy "Steinernema carpocapsae->Steinernema->Steinernematidae->Panagrolaimoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node50"
+pgloadind     taxon mapping OTT ID 1093859 taxonomy "Bursaphelenchus->Aphelenchoididae->Aphelenchoidea->Aphelenchina->Tylenchida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node51"
+pgloadind     taxon mapping OTT ID 780554 taxonomy "Globodera pallida->Globodera->Heteroderinae->Heteroderidae->Tylenchoidea->Tylenchina->Tylenchida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node55"
+pgloadind     taxon mapping OTT ID 1043272 taxonomy "Meloidogyne arenaria->Meloidogyne incognita group->Meloidogyne->Meloidogyninae->Meloidogynidae->Tylenchoidea->Tylenchina->Tylenchida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node56"
+pgloadind     taxon mapping OTT ID 966920 taxonomy "Aphelenchus avenae->Aphelenchus->Aphelenchidae->Aphelenchoidea->Aphelenchina->Tylenchida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node57"
+pgloadind     taxon mapping OTT ID 1054685 taxonomy "Zeldia punctata->Zeldia->Cephalobidae->Cephaloboidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node59"
+pgloadind     taxon mapping OTT ID 438682 taxonomy "Acrobeles complexus->Acrobeles->Cephalobidae->Cephaloboidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node60"
+pgloadind     taxon mapping OTT ID 369898 taxonomy "Nippostrongylus brasiliensis->Nippostrongylus->Nippostrongylinae->Heligmonellidae->Trichostrongyloidea->Strongylida->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node19"
+pgloadind     taxon mapping OTT ID 516799 taxonomy "Ostertagia ostertagi->Ostertagia->Trichostrongylinae->Trichostrongylidae->Trichostrongyloidea->Strongylida->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node20"
+pgloadind     taxon mapping OTT ID 819797 taxonomy "Haemonchus contortus->Haemonchus->Haemonchinae->Haemonchidae->Trichostrongyloidea->Strongylida->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node21"
+pgloadind     taxon mapping OTT ID 1017666 taxonomy "Syngamus trachea->Syngamus->Syngamidae->Strongyloidea->Strongylida->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node22"
+pgloadind     taxon mapping OTT ID 493867 taxonomy "Heterorhabditis bacteriophora->Heterorhabditis->Heterorhabditidae->Rhabditoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node23"
+pgloadind     taxon mapping OTT ID 1045709 taxonomy "Pellioditis typica->Pellioditis->Peloderinae->Rhabditidae->Rhabditoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node25"
+pgloadind     taxon mapping OTT ID 3588057 taxonomy "Dolichorhabditis->Rhabditidae->Rhabditoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node26"
+pgloadind     taxon mapping OTT ID 318128 taxonomy "Rhabditella axei->Rhabditella->Rhabditinae->Rhabditidae->Rhabditoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node27"
+pgloadind     taxon mapping OTT ID 563390 taxonomy "Rhabditis blumi->Rhabditis->Rhabditinae->Rhabditidae->Rhabditoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node28"
+pgloadind     taxon mapping OTT ID 395053 taxonomy "Caenorhabditis briggsae->Caenorhabditis->Peloderinae->Rhabditidae->Rhabditoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node31"
+pgloadind     taxon mapping OTT ID 395048 taxonomy "Caenorhabditis elegans->Caenorhabditis->Peloderinae->Rhabditidae->Rhabditoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node32"
+pgloadind     taxon mapping OTT ID 644231 taxonomy "Diploscapter->Diploscapteridae->Rhabditoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node33"
+pgloadind     taxon mapping OTT ID 349935 taxonomy "Pristionchus lheritieri->Pristionchus->Neodiplogasteridae->Diplogasterida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node36"
+pgloadind     taxon mapping OTT ID 197875 taxonomy "Pristionchus pacificus->Pristionchus->Neodiplogasteridae->Diplogasterida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node37"
+pgloadind     taxon mapping OTT ID 528661 taxonomy "Aduncospiculum halicti->Aduncospiculum->Diplogasteridae->Diplogasterida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node38"
+pgloadind     taxon mapping OTT ID 563389 taxonomy "Teratorhabditis palmarum->Teratorhabditis->Mesorhabditinae->Rhabditidae->Rhabditoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node39"
+pgloadind     taxon mapping OTT ID 1017663 taxonomy "Teratocephalus lirellus->Teratocephalus->Teratocephalinae->Teratocephalidae->Teratocephaloidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node73"
+pgloadind     taxon mapping OTT ID 966916 taxonomy "Plectus aquatilis->Plectus->Plectidae->Plectoidea->Araeolaimida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node75"
+pgloadind     taxon mapping OTT ID 222033 taxonomy "Plectus acuminatus->Plectus->Plectidae->Plectoidea->Araeolaimida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node76"
+pgloadind     taxon mapping OTT ID 305850 taxonomy "Diplolaimelloides meyli->Diplolaimelloides->Monhysteridae->Monhysterida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node78"
+pgloadind     taxon mapping OTT ID 864668 taxonomy "Bunonema->Bunonematidae->Bunonematoidea->Rhabditida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node79"
+pgloadind     taxon mapping OTT ID 299648 taxonomy "Metachromadora->Spiriniinae->Desmodoridae->Desmodorida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node80"
+pgloadind     taxon mapping OTT ID 491445 taxonomy "Praeacanthonchus->Cyatholaimidae->Chromadorida->Chromadorea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node81"
+pgloadind     taxon mapping OTT ID 1017661 taxonomy "Paratrichodorus pachydermus->Paratrichodorus->Trichodoridae->Trichodoroidea->Diphtherophorina->Triplonchida->Enoplia->Enoplea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node85"
+pgloadind     taxon mapping OTT ID 441137 taxonomy "Paratrichodorus anemones->Paratrichodorus->Trichodoridae->Trichodoroidea->Diphtherophorina->Triplonchida->Enoplia->Enoplea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node86"
+pgloadind     taxon mapping OTT ID 1017660 taxonomy "Trichodorus primitivus->Trichodorus->Trichodoridae->Trichodoroidea->Diphtherophorina->Triplonchida->Enoplia->Enoplea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node87"
+pgloadind     taxon mapping OTT ID 441122 taxonomy "Prismatolaimus intermedius->Prismatolaimus->Prismatolaimidae->Tobrilina->Triplonchida->Enoplia->Enoplea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node88"
+pgloadind     taxon mapping OTT ID 441130 taxonomy "Longidorus elongatus->Longidorus->Longidoridae->Longidoroidea->Dorylaimina->Dorylaimida->Dorylaimia->Enoplea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node91"
+pgloadind     taxon mapping OTT ID 966917 taxonomy "Xiphinema rivesi->Xiphinema->Longidoridae->Longidoroidea->Dorylaimina->Dorylaimida->Dorylaimia->Enoplea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node92"
+pgloadind     taxon mapping OTT ID 824126 taxonomy "Mermis nigrescens->Mermis->Mermithidae->Mermithoidea->Mermithida->Dorylaimia->Enoplea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node94"
+pgloadind     taxon mapping OTT ID 441136 taxonomy "Mylonchulus arenicolus->Mylonchulus->Mylonchulinae->Mylonchulidae->Mononchoidea->Mononchina->Mononchida->Dorylaimia->Enoplea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node95"
+pgloadind     taxon mapping OTT ID 567340 taxonomy "Trichinella spiralis->Trichinella->Trichinellidae->Trichocephalida->Dorylaimia->Enoplea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node98"
+pgloadind     taxon mapping OTT ID 349934 taxonomy "Trichuris muris->Trichuris->Trichuridae->Trichocephalida->Dorylaimia->Enoplea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node99"
+pgloadind     taxon mapping OTT ID 824127 taxonomy "Adoncholaimus->Enoplidae->Enoploidea->Enoplida->Enoplia->Enoplea->Nematoda->Ecdysozoa->Protostomia->Bilateria->Eumetazoa->Metazoa->Holozoa->Opisthokonta->Eukaryota->cellular organisms->life" nexsonid "node100"
+done fixing name
+pgloadind Finished with attempts to fix names
+pgloadind   Checking for uniqueness of OTT IDs tree id "1"
+pgloadind   Adding tree to graph tree id "1"
+all trees have all taxa: false
+	using bipartition technique
+attempting to remap tips to deepest exemplified taxa
+	Diplolaimelloides meyli was remapped to 'Monhysterida' (id=2577313)
+	Diploscapter was remapped to 'Diploscapteridae' (id=2600188)
+	Trichodorus primitivus was remapped to 'Trichodorus' (id=2569710)
+	Anisakis was remapped to 'Anisakidae' (id=2575518)
+	Meloidogyne arenaria was remapped to 'Meloidogynidae' (id=2593443)
+	Ascaris suum was remapped to 'Ascarididae' (id=2575081)
+	Bunonema was remapped to 'Bunonematoidea' (id=2601283)
+	Teratorhabditis palmarum was remapped to 'Mesorhabditinae' (id=2600481)
+	Longidorus elongatus was remapped to 'Longidorus' (id=2564541)
+	Zeldia punctata was remapped to 'Zeldia' (id=2606239)
+	Ostertagia ostertagi was remapped to 'Trichostrongylidae' (id=2603478)
+	Teratocephalus lirellus was remapped to 'Teratocephaloidea' (id=2600054)
+	Aduncospiculum halicti was remapped to 'Diplogasteridae' (id=2579984)
+	Praeacanthonchus was remapped to 'Chromadorida' (id=2598211)
+	Aphelenchus avenae was remapped to 'Aphelenchidae' (id=2589952)
+	Trichuris muris was remapped to 'Trichuridae' (id=2563203)
+	Brugia malayi was remapped to 'Brugia' (id=2585032)
+	Bursaphelenchus was remapped to 'Aphelenchoididae' (id=2590202)
+	Toxocara canis was remapped to 'Toxocaridae' (id=2574898)
+	Rhabditis blumi was remapped to 'Rhabditis' (id=2600800)
+	Heterorhabditis bacteriophora was remapped to 'Heterorhabditidae' (id=2600375)
+	Adoncholaimus was remapped to 'Enoplida' (id=2570577)
+	Globodera pallida was remapped to 'Heteroderidae' (id=2591768)
+	Dirofilaria immitis was remapped to 'Dirofilaria' (id=2584667)
+	Xiphinema rivesi was remapped to 'Xiphinema' (id=2564718)
+	Steinernema carpocapsae was remapped to 'Steinernematidae' (id=2605653)
+	Acrobeles complexus was remapped to 'Acrobeles' (id=2606152)
+	Metachromadora was remapped to 'Desmodorida' (id=2596419)
+	Trichinella spiralis was remapped to 'Trichinellidae' (id=2564135)
+	Philonema was remapped to 'Dracunculoidea' (id=2582926)
+	Haemonchus contortus was remapped to 'Haemonchidae' (id=2604473)
+	Prismatolaimus intermedius was remapped to 'Tobrilina' (id=2570102)
+	Syngamus trachea was remapped to 'Strongyloidea' (id=2601612)
+	Brumptaemilius justini was remapped to 'Rhigonematida' (id=2597950)
+	Mermis nigrescens was remapped to 'Mermithida' (id=2561851)
+	Pellioditis typica was remapped to 'Pellioditis' (id=2600578)
+	Nippostrongylus brasiliensis was remapped to 'Heligmonellidae' (id=2604084)
+	Dentostomella was remapped to 'Oxyurida' (id=2580691)
+	Mylonchulus arenicolus was remapped to 'Mononchida' (id=2562681)
+	Panagrellus redivivus was remapped to 'Panagrellus' (id=2605291)
+	Rhabditella axei was remapped to 'Rhabditella' (id=2601007)
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+adding relationships to licas for children
+this is the ROOT
+placing root in index
+Dealing with metadata property: ot:studyPublicationReference
+Adding property 'ot:studyPublicationReference': Blaxter, Mark L., Paul De Ley, James R. Garey, Leo X. Liu, Patsy Scheldeman, Andy Vierstraete, Jacques R. Vanfleteren, Laura Y. Mackey, Mark Dorris, Linda M. Frisse, J. T. Vida, W. Kelley Thomas. 1998. A molecular evolutionary framework for the phylum Nematoda. Nature 392 (6671): 71-75.
+Dealing with metadata property: ot:focalCladeOTTTaxonName
+Adding property 'ot:focalCladeOTTTaxonName': Nematoda
+Dealing with metadata property: ot:candidateTreeForSynthesis
+Adding property 'ot:candidateTreeForSynthesis': tree1
+Dealing with metadata property: ot:branchLengthDescription
+Adding property 'ot:branchLengthDescription': 
+Dealing with metadata property: ot:comment
+Adding property 'ot:comment': 
+Dealing with metadata property: ot:outGroupEdge
+Adding property 'ot:outGroupEdge': 
+Dealing with metadata property: ot:nearestTaxonMRCAName
+Adding property 'ot:nearestTaxonMRCAName': Nematoda
+Dealing with metadata property: ot:branchLengthTimeUnit
+Adding property 'ot:branchLengthTimeUnit': 
+Dealing with metadata property: ot:nearestTaxonMRCAOttId
+Adding property 'ot:nearestTaxonMRCAOttId': 395057
+Dealing with metadata property: ot:dataDeposit
+Adding property 'ot:dataDeposit': 
+Dealing with metadata property: ot:studyId
+Adding property 'ot:studyId': ot_182
+Dealing with metadata property: id
+Dealing with metadata property: ot:studyYear
+Adding property 'ot:studyYear': 1998
+Dealing with metadata property: ot:inGroupClade
+Adding property 'ot:inGroupClade': node2
+Dealing with metadata property: ot:studyPublication
+Adding property 'ot:studyPublication': http://dx.doi.org/10.1038/32160
+Dealing with metadata property: ot:curatorName
+Adding property 'ot:curatorName': Joseph W. Brown
+Dealing with metadata property: ot:specifiedRoot
+Adding property 'ot:specifiedRoot': node1
+Dealing with metadata property: ot:unrootedTree
+Adding property 'ot:unrootedTree': false
+Dealing with metadata property: ot:notIntendedForSynthesis
+Adding property 'ot:notIntendedForSynthesis': false
+Dealing with metadata property: ot:focalClade
+Adding property 'ot:focalClade': 395057
+Dealing with metadata property: ot:curatedType
+Adding property 'ot:curatedType': Maximum parsimony 
+adding relationships to licas for children
+Committing nodes: 99
+19:51:36.122 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+	adding Node[2569628] Trichodoroidea 154944 as compatible with Node[2569629]
+		adding Relationship[8922908]
+		adding to root Relationship[8922909]
+	adding Node[2569546] Diphtherophorina 154945 as compatible with Node[2569629]
+		adding Relationship[8922910]
+		adding to root Relationship[8922911]
+	adding Node[2580357] Neodiplogasteridae 197877 as compatible with Node[2580358]
+		adding Relationship[8922912]
+		adding to root Relationship[8922913]
+	adding Node[2588675] Plectidae 520552 as compatible with Node[2588730]
+		adding Relationship[8922914]
+		adding to root Relationship[8922915]
+	adding Node[2588674] Plectoidea 612217 as compatible with Node[2588730]
+		adding Relationship[8922916]
+		adding to root Relationship[8922917]
+	adding Node[2587656] Araeolaimida 353820 as compatible with Node[2588730]
+		adding Relationship[8922918]
+		adding to root Relationship[8922919]
+	adding Node[2605528] Strongyloididae 920946 as compatible with Node[2605529]
+		adding Relationship[8922920]
+		adding to root Relationship[8922921]
+	adding Node[2564462] Longidoroidea 377603 as compatible with Node[2564463]
+		adding Relationship[8922922]
+		adding to root Relationship[8922923]
+	adding Node[2564215] Dorylaimina 328705 as compatible with Node[2564463]
+		adding Relationship[8922924]
+		adding to root Relationship[8922925]
+	adding Node[2564214] Dorylaimida 165384 as compatible with Node[2564463]
+		adding Relationship[8922926]
+		adding to root Relationship[8922927]
+	adding Node[2574498] Ascaridida 920942 as compatible with Node[2574499]
+		adding Relationship[8922928]
+		adding to root Relationship[8922929]
+	adding Node[2584475] Filarioidea 245090 as compatible with Node[2584568]
+		adding Relationship[8922930]
+		adding to root Relationship[8922931]
+	adding Node[2590933] Tylenchina 485387 as compatible with Node[2590934]
+		adding Relationship[8922932]
+		adding to root Relationship[8922933]
+	adding Node[2606038] Cephaloboidea 864671 as compatible with Node[2606057]
+		adding Relationship[8922934]
+		adding to root Relationship[8922935]
+		adding Relationship[8922936] from Node[3838858] to Node[3838859]
+		adding Relationship[8922937] from Node[2564215] to Node[2564214]
+		adding Relationship[8922938] from Node[2569546] to Node[2569545]
+		adding Relationship[8922939] from Node[2564462] to Node[2564215]
+		adding Relationship[8922940] from Node[2580357] to Node[2579924]
+		adding Relationship[8922941] from Node[2588675] to Node[2588674]
+		adding Relationship[8922942] from Node[2588674] to Node[2587656]
+		adding Relationship[8922943] from Node[2569628] to Node[2569546]
