@@ -5,11 +5,12 @@ where we can get loaded names of the tips and internal nodes
 this will also extract the compatible information from the log file
 """
 import os
+import sys
 
 import tree_reader
 import node
 
-directory = "loadlog"
+directory = "files_for_submission_v2.0/Inf-mono_log"
 lend = ".log"
 tend = ".tre"
 
@@ -21,12 +22,16 @@ if __name__ == "__main__":
     outfile = open(outfilen,"w")
 
     for i in os.listdir(directory):
-        studies.append(i[0:len(i)-len(lend)])
+        if lend in i:
+            studies.append(i[0:len(i)-len(lend)])
     sl = set(studies)
     for i in sl:
+        print i
         try:
             fl = open(directory+"/"+i+tend,"r")
             ts = fl.readline()
+            if "WARN" in ts:
+                ts = fl.readline()
             fl.close()
             if len(ts) > 1:
                 #read the tree first
